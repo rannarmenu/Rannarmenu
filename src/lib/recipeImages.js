@@ -49,6 +49,52 @@ const ALIASES = {
 const stripHtml = value => String(value ?? '').replace(/<[^>]*>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/\s+/g, ' ').trim();
 const norm = value => String(value ?? '').normalize('NFKD').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const clean = value => String(value ?? '').trim();
+/**
+ * Alternate public URLs for a Commons photo when the saved thumbnail fails.
+ * Wikimedia is migrating thumbnails between hostnames; use the legacy upload
+ * hostname as a first retry, then Commons' redirect endpoint as a last resort.
+ * Only trusted HTTPS Wikimedia hosts are accepted.
+ */
+export function getPhotoFallbackUrls(imageUrl, sourceUrl) {
+  const original = clean(imageUrl);
+  const fallbacks = [];
+
+  try {
+    const image = new URL(original);
+    if (image.protocol === 'https:' && image.hostname.toLowerCase() === 'thumb.wikimedia.org') {
+      image.hostname = 'upload.wikimedia.org';
+      if (image.href !== original) fallbacks.push(image.href);
+    }
+  } catch {
+    // Invalid image URLs simply have no hostname fallback.
+  }
+
+  try {
+    const source = new URL(clean(sourceUrl));
+    if (source.protocol !== 'https:' || source.hostname.toLowerCase() !== 'commons.wikimedia.org') {
+      return [...new Set(fallbacks)];
+    }
+
+    const pathname = decodeURIComponent(source.pathname);
+    if (!pathname.startsWith('/wiki/')) return [...new Set(fallbacks)];
+    const pageTitle = pathname.slice('/wiki/'.length);
+    if (!/^File:/i.test(pageTitle)) return [...new Set(fallbacks)];
+
+    const filename = pageTitle.replace(/^File:/i, '').trim().replace(/ /g, '_');
+    if (!filename || filename.includes('..')) return [...new Set(fallbacks)];
+
+    // The canonical Commons redirect works even when an older thumbnail URL
+    // has gone stale or the CDN has changed the preferred URL.
+    const redirect = 'https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/'
+      + encodeURIComponent(filename) + '&width=1200';
+    if (redirect !== original) fallbacks.push(redirect);
+  } catch {
+    // Keep any safe hostname fallback already collected.
+  }
+
+  return [...new Set(fallbacks)].filter(url => url !== original);
+}
+
 const getMeta = (ext, key) => stripHtml(ext?.[key]?.value ?? '');
 
 function queriesFor(recipe) {
