@@ -22,8 +22,7 @@ function decodeXml(value = '') {
     .replace(/&#x([\da-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
 }
 function rawTag(xml, name) {
-  const escaped = name.replace(/[.*+?^$()|[\]\\]/g, '\\$&');
-  const match = xml.match(new RegExp('<' + escaped + '(?:\\s[^>]*)?>([\\s\\S]*?)<\\/' + escaped + '>', 'i'));
+  const match = xml.match(new RegExp('<' + name + '(?:\\s[^>]*)?>([\\s\\S]*?)<\\/' + name + '>', 'i'));
   return match ? decodeXml(match[1].trim()) : '';
 }
 function tag(xml, name) {
@@ -36,16 +35,18 @@ function cleanUrl(value, base) {
   } catch { return ''; }
 }
 function attribute(tagText, name) {
-  const escaped = name.replace(/[.*+?^$()|[\]\\]/g, '\\$&');
-  const match = tagText.match(new RegExp("(?:^|\\\\s)" + escaped + "\\\\s*=\\\\s*(?:\\"([^\\\"]*)\\"|'([^']*)')", 'i'));
-  return match ? decodeXml(match[1] ?? match[2]) : '';
+  const attrs = tagText.matchAll(/\b([a-zA-Z_:][\w:.-]*)\s*=\s*(?:"([^"]*)"|'([^']*)')/g);
+  for (const match of attrs) {
+    if (match[1].toLowerCase() === name.toLowerCase()) return decodeXml(match[2] ?? match[3] ?? '');
+  }
+  return '';
 }
 function extractRssImage(block, descriptionRaw) {
   const candidates = [];
-  for (const match of block.matchAll(/<(?:media:content|media:thumbnail|enclosure)\\b[^>]*>/gi)) {
+  for (const match of block.matchAll(/<(?:media:content|media:thumbnail|enclosure)\b[^>]*>/gi)) {
     candidates.push(attribute(match[0], 'url'), attribute(match[0], 'href'));
   }
-  for (const match of descriptionRaw.matchAll(/<(?:img|source)\\b[^>]*>/gi)) {
+  for (const match of descriptionRaw.matchAll(/<(?:img|source)\b[^>]*>/gi)) {
     candidates.push(attribute(match[0], 'src'), attribute(match[0], 'data-src'));
   }
   return candidates.map((value) => cleanUrl(value)).find(Boolean) || '';
@@ -59,22 +60,21 @@ function decodeHtml(value = '') {
     .replace(/&#x([\da-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
 }
 function parseMetaImage(html, pageUrl) {
-  for (const match of html.matchAll(/<meta\\b[^>]*>/gi)) {
+  for (const match of html.matchAll(/<meta\b[^>]*>/gi)) {
     const node = match[0];
     const key = (attribute(node, 'property') || attribute(node, 'name') || '').toLowerCase();
     if (!['og:image', 'og:image:secure_url', 'twitter:image', 'twitter:image:src'].includes(key)) continue;
-    const value = attribute(node, 'content');
-    const candidate = cleanUrl(decodeHtml(value), pageUrl);
+    const candidate = cleanUrl(decodeHtml(attribute(node, 'content')), pageUrl);
     if (candidate) return candidate;
   }
-  for (const match of html.matchAll(/<link\\b[^>]*>/gi)) {
+  for (const match of html.matchAll(/<link\b[^>]*>/gi)) {
     const node = match[0];
-    if (/\\bimage_src\\b/i.test(attribute(node, 'rel'))) {
+    if (/\bimage_src\b/i.test(attribute(node, 'rel'))) {
       const candidate = cleanUrl(decodeHtml(attribute(node, 'href')), pageUrl);
       if (candidate) return candidate;
     }
   }
-  const jsonImage = html.match(/["']image["']\\s*:\\s*["'](https?:[^"'\\s]+)["']/i);
+  const jsonImage = html.match(/["']image["']\s*:\s*["'](https?:[^"'\s]+)["']/i);
   return jsonImage ? cleanUrl(decodeHtml(jsonImage[1]), pageUrl) : '';
 }
 async function fetchArticleImage(articleUrl) {
@@ -114,8 +114,8 @@ async function fetchFeed(query, source) {
   });
   if (!response.ok) throw new Error(source + ': HTTP ' + response.status);
   const xml = await response.text();
-  if (!/<rss[\\s>]/i.test(xml)) throw new Error(source + ': invalid RSS response');
-  const items = [...xml.matchAll(/<item(?:\\s[^>]*)?>([\\s\\S]*?)<\\/item>/gi)].map((match) => {
+  if (!/<rss[\s>]/i.test(xml)) throw new Error(source + ': invalid RSS response');
+  const items = [...xml.matchAll(/<item(?:\s[^>]*)?>([\s\S]*?)<\/item>/gi)].map((match) => {
     const block = match[1];
     const rawTitle = tag(block, 'title');
     const separator = rawTitle.lastIndexOf(' - ');
@@ -124,7 +124,7 @@ async function fetchFeed(query, source) {
     const publisher = hasPublisher ? rawTitle.slice(separator + 3).trim() : source;
     const link = cleanUrl(tag(block, 'link'));
     const descriptionRaw = rawTag(block, 'description');
-    const description = descriptionRaw.replace(/<script\\b[^>]*>[\\s\\S]*?<\\/script>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/\\s+/g, ' ').trim();
+    const description = descriptionRaw.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
     return {
       id: link, title, link, source: source === 'Google News' ? (tag(block, 'source') || publisher) : source,
       publishedAt: tag(block, 'pubDate'),
@@ -149,8 +149,6 @@ const tasks = [
 ];
 await Promise.all(tasks);
 
-// Google News RSS often omits the story image. Resolve each result's publisher
-// page and read its Open Graph/Twitter image metadata, with bounded concurrency.
 const allItems = [...Object.values(result.sponsors), ...Object.values(result.categories)].flat();
 const rssImages = allItems.filter((item) => item.image).length;
 await mapLimit(allItems.filter((item) => !item.image), 8, async (item) => {
@@ -169,7 +167,7 @@ result.imageStats = {
   withoutImage: allItems.filter((item) => !item.image).length,
 };
 await mkdir('public/data', { recursive: true });
-await writeFile('public/data/news-feed.json', JSON.stringify(result, null, 2) + '\\n');
+await writeFile('public/data/news-feed.json', JSON.stringify(result, null, 2) + '\n');
 console.log('Saved ' + total + ' news items; images: ' + result.imageStats.withImage + '/' + total +
   ' (RSS: ' + result.imageStats.fromRss + ', article metadata: ' + result.imageStats.fromArticleMetadata +
   ', missing: ' + result.imageStats.withoutImage + '). Feed errors: ' + result.sourceErrors.length);
