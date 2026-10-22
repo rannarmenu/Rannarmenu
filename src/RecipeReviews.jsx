@@ -108,10 +108,14 @@ export default function RecipeReviews({ recipe, user = null }) {
     if (requestId !== requestVersion.current) return;
     setReviews(Array.isArray(reviewResponse.data) ? reviewResponse.data : []);
     setSummary(summaryResponse.data || null);
-    setAlreadyReviewed(Boolean(existingResponse.data) || Boolean(user?.id && safeGet('rannar-menu-reviewed:' + recipeId + ':' + user.id)));
+    setAlreadyReviewed(
+      Boolean(existingResponse.data) ||
+      Boolean(user?.id && safeGet('rannar-menu-reviewed:' + recipeId + ':' + user.id)) ||
+      Boolean(reviewerKey && safeGet('rannar-menu-reviewed:' + recipeId + ':' + reviewerKey))
+    );
     setLoadIssue(reviewResponse.error ? 'reviews' : summaryResponse.error ? 'summary' : (userIsVerified && existingResponse.error) ? 'reviews' : '');
     setLoading(false);
-  }, [recipeId, user?.id, userIsVerified]);
+  }, [recipeId, user?.id, userIsVerified, reviewerKey]);
 
   useEffect(() => {
     setReviewerKey(getReviewerKey());
@@ -145,13 +149,13 @@ export default function RecipeReviews({ recipe, user = null }) {
     { stars: 2, value: Number(summary?.two_star) || 0 },
     { stars: 1, value: Number(summary?.one_star) || 0 }
   ];
-  const canSubmit = Boolean(supabaseConfigured && supabase && recipeId && reviewerKey && userIsVerified && !alreadyReviewed && !submitting);
+  const canSubmit = Boolean(supabaseConfigured && supabase && recipeId && reviewerKey && !alreadyReviewed && !submitting);
 
   async function handleSubmit(event) {
     event.preventDefault();
     if (honeypot.trim()) return;
-    if (!supabaseConfigured || !supabase || !recipeId || !reviewerKey || !userIsVerified || !user?.id) {
-      setFeedback({ type: 'error', text: 'রিভিউ দিতে যাচাইকৃত অ্যাকাউন্টে লগইন করতে হবে।' });
+    if (!supabaseConfigured || !supabase || !recipeId || !reviewerKey) {
+      setFeedback({ type: 'error', text: 'রিভিউ সিস্টেমটি এখন প্রস্তুত নয়। কিছুক্ষণ পর আবার চেষ্টা করুন।' });
       return;
     }
     const cleanName = displayName.trim();
@@ -172,25 +176,28 @@ export default function RecipeReviews({ recipe, user = null }) {
     setSubmitting(true);
     setFeedback(null);
     try {
-      const { error } = await supabase.from('recipe_reviews').insert({
+      const reviewEntry = {
         recipe_id: recipeId,
-        user_id: user.id,
         reviewer_key: reviewerKey,
         display_name: cleanName,
         rating,
         comment: cleanComment
-      });
+      };
+      if (userIsVerified && user?.id) reviewEntry.user_id = user.id;
+
+      const { error } = await supabase.from('recipe_reviews').insert(reviewEntry);
       if (error) {
         if (error.code === '23505') {
           setAlreadyReviewed(true);
-          setFeedback({ type: 'error', text: 'এই অ্যাকাউন্ট থেকে এই রেসিপিতে আগে একটি রিভিউ দেওয়া হয়েছে।' });
+          setFeedback({ type: 'error', text: 'এই ব্রাউজার থেকে এই রেসিপিতে আগে একটি রিভিউ জমা হয়েছে।' });
         } else {
           setFeedback({ type: 'error', text: 'রিভিউ জমা দেওয়া যায়নি। কিছুক্ষণ পর আবার চেষ্টা করুন।' });
         }
         return;
       }
       safeSet(REVIEWER_NAME_STORE, cleanName);
-      safeSet('rannar-menu-reviewed:' + recipeId + ':' + user.id, '1');
+      safeSet('rannar-menu-reviewed:' + recipeId + ':' + reviewerKey, '1');
+      if (user?.id) safeSet('rannar-menu-reviewed:' + recipeId + ':' + user.id, '1');
       setAlreadyReviewed(true);
       setDisplayName(cleanName);
       setRating(0);
@@ -239,18 +246,13 @@ export default function RecipeReviews({ recipe, user = null }) {
         <div className="review-form-panel">
           <div className="review-form-title">
             <span className="review-form-icon"><UserRound size={18} /></span>
-            <div><h4>আপনার অভিজ্ঞতা শেয়ার করুন</h4><p>একটি রেটিং দিন, সঙ্গে ছোট্ট মন্তব্য লিখুন।</p></div>
+            <div><h4>আপনার অভিজ্ঞতা শেয়ার করুন</h4><p>অ্যাকাউন্ট ছাড়াই রেটিং দিন, সঙ্গে ছোট্ট মন্তব্য লিখুন।</p></div>
           </div>
 
           {!supabaseConfigured || !recipeId ? (
             <div className="review-notice" role="status">
               <AlertCircle size={17} />
               <span>{!supabaseConfigured ? 'লাইভ রিভিউ চালু করতে Supabase configuration প্রয়োজন।' : 'এই রেসিপির স্থায়ী database ID পাওয়া যায়নি, তাই এখানে রিভিউ জমা দেওয়া যাবে না।'}</span>
-            </div>
-          ) : (!userIsVerified || !user?.id) ? (
-            <div className="review-notice" role="status">
-              <ShieldCheck size={17} />
-              <span>রেসিপির রেটিং ও পাঠকের মন্তব্য সবাই দেখতে পারবেন। এই সংস্করণে নতুন রিভিউ জমা দেওয়ার সুবিধা বন্ধ রাখা হয়েছে।</span>
             </div>
           ) : alreadyReviewed ? (
             <div className="review-notice review-notice-success" role="status">
