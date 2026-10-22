@@ -270,11 +270,33 @@ if (!total) {
   console.error('No RSS items were fetched; refusing to overwrite the existing news snapshot.');
   process.exit(1);
 }
+const fallbackBySponsor = 'news-fallbacks/newsroom.svg';
+const fallbackByCategory = {
+  food: 'news-fallbacks/food.svg',
+  bangladesh: 'news-fallbacks/bangladesh.svg',
+  international: 'news-fallbacks/world.svg',
+};
+for (const items of Object.values(result.sponsors)) {
+  for (const item of items) {
+    item.imageFallback = fallbackBySponsor;
+    if (!item.image) item.image = fallbackBySponsor;
+  }
+}
+for (const [categoryId, items] of Object.entries(result.categories)) {
+  const fallback = fallbackByCategory[categoryId] || fallbackBySponsor;
+  for (const item of items) {
+    item.imageFallback = fallback;
+    if (!item.image) item.image = fallback;
+  }
+}
+const isFallbackImage = (item) => String(item?.image || '').startsWith('news-fallbacks/');
 result.imageStats = {
   total,
   fromRss: rssImages,
-  fromArticleMetadata: [...uniqueItems.values()].filter((item) => item.image).length,
-  reusedCached: allItems.filter((item) => previousByLink.has(item.link) && item.image).length,
+  fromArticleMetadata: allItems.filter((item) => item.image && !isFallbackImage(item)).length - rssImages,
+  reusedCached: allItems.filter((item) => previousByLink.has(item.link) && item.image && !isFallbackImage(item)).length,
+  actualPhotos: allItems.filter((item) => item.image && !isFallbackImage(item)).length,
+  fallbackIllustrations: allItems.filter(isFallbackImage).length,
   withImage: allItems.filter((item) => item.image).length,
   withoutImage: allItems.filter((item) => !item.image).length,
 };
