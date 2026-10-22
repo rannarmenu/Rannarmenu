@@ -91,6 +91,7 @@ export default function AppUpdateGate() {
           ডাউনলোড শেষ হলে ফাইলটি খুলে Android-এর <strong>Update / Install</strong> নির্দেশনা অনুসরণ করুন।
         </p>
         <p className="app-update-note">অ্যাপ আপডেট না করা পর্যন্ত এই স্ক্রিন থেকে রেসিপি ব্যবহার করা যাবে না। ইনস্টল করতে ফোনের অনুমতি চাইতে পারে।</p>
+        <p className="app-update-signing-note">এটি সরাসরি ডাউনলোডের টেস্ট APK। Android যদি পুরোনো অ্যাপের ওপর ইনস্টল নিতে না চায়, আগে পুরোনো অ্যাপ আনইনস্টল করতে হতে পারে। এতে অ্যাপের স্থানীয়ভাবে রাখা তথ্য মুছে যেতে পারে।</p>
 
         <button className="app-update-recheck" type="button" onClick={() => window.location.reload()}>
           <RefreshCw size={15} aria-hidden="true" />
