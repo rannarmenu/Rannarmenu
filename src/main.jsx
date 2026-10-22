@@ -4,6 +4,7 @@ import { Search, Heart, Clock3, ChefHat, ArrowUpRight, Menu, X, Leaf, Bookmark, 
 import './styles.css';
 import AdminApp from './admin.jsx';
 import { supabase, supabaseConfigured } from './lib/supabaseClient.js';
+import { buildRecipeSearchGroups, recipeMatchesSearch } from './lib/recipeSearch.js';
 
 const demos = [
  {id:'demo-biryani',slug:'ghoroya-chicken-biryani',title:'ঘরোয়া চিকেন বিরিয়ানি',category:'মাংস',time:55,level:'মাঝারি',tag:'সবার প্রিয়',image:null,desc:'সুগন্ধি চাল, মসলা আর নরম মুরগির মজাদার আয়োজন।',ingredients:['বাসমতি চাল ২ কাপ','মুরগি ৫০০ গ্রাম','পেঁয়াজ ২টি','টক দই ½ কাপ','বিরিয়ানি মসলা ২ টেবিল চামচ'],steps:['চাল ধুয়ে ২০ মিনিট ভিজিয়ে রাখুন।','মুরগি দই, মসলা ও পেঁয়াজ দিয়ে মাখিয়ে রান্না করুন।','আধা সেদ্ধ চাল ও মুরগি স্তরে স্তরে সাজিয়ে দমে রাখুন।']},
@@ -63,12 +64,39 @@ function App() {
  useEffect(()=>{
   if(!supabaseConfigured){setCatalogMode(false);return;}
   let alive=true;setCatalogBusy(true);setCatalogError('');
+  const term=query.trim();
+  const savedIds=saved.filter(id=>typeof id==='string'&&/^[0-9a-f-]{36}$/i.test(id));
+  if(showSaved&&!savedIds.length){
+   setCatalogMode(true);setCatalogRecipes([]);setCatalogTotal(0);setCatalogBusy(false);
+   return ()=>{alive=false;};
+  }
+  if(term){
+   const searchGroups=buildRecipeSearchGroups(term);
+   supabase.rpc('search_published_recipes_multilingual',{
+    p_search_groups:searchGroups,
+    p_category:category==='সব রেসিপি'?null:category,
+    p_saved_ids:showSaved?savedIds:null,
+    p_only_saved:showSaved,
+    p_limit:PAGE_SIZE,
+    p_offset:catalogPage*PAGE_SIZE
+   }).then(({data,error})=>{
+    if(!alive)return;
+    setCatalogBusy(false);
+    if(error){
+     setCatalogMode(true);setCatalogRecipes([]);setCatalogTotal(0);setCatalogError(error.message);
+     return;
+    }
+    setCatalogMode(true);
+    setCatalogRecipes((data||[]).map(item=>dbRecipeToCard(item.recipe)));
+    setCatalogTotal(Number(data?.[0]?.total_count)||0);
+   });
+   return ()=>{alive=false;};
+  }
   let req=supabase.from('recipes').select('*',{count:'exact'}).eq('is_published',true);
-  if(showSaved){const ids=saved.filter(id=>typeof id==='string'&&/^[0-9a-f-]{36}$/i.test(id));if(!ids.length){setCatalogMode(true);setCatalogRecipes([]);setCatalogTotal(0);setCatalogBusy(false);return ()=>{alive=false;};}req=req.in('id',ids);}
+  if(showSaved)req=req.in('id',savedIds);
   else if(category!=='সব রেসিপি')req=req.eq('category',category);
-  const term=query.trim();if(term&&!showSaved)req=req.textSearch('search_document',term,{type:'websearch',config:'simple'});
   req=req.order('published_at',{ascending:false,nullsFirst:false}).order('created_at',{ascending:false}).range(catalogPage*PAGE_SIZE,catalogPage*PAGE_SIZE+PAGE_SIZE-1);
-  req.then(({data,error,count})=>{if(!alive)return;setCatalogBusy(false);if(error){setCatalogError(error.message);setCatalogMode(false);return;}setCatalogMode(true);setCatalogRecipes((data||[]).map(dbRecipeToCard));setCatalogTotal(count||0);});
+  req.then(({data,error,count})=>{if(!alive)return;setCatalogBusy(false);if(error){setCatalogError(error.message);setCatalogMode(true);setCatalogRecipes([]);setCatalogTotal(0);return;}setCatalogMode(true);setCatalogRecipes((data||[]).map(dbRecipeToCard));setCatalogTotal(count||0);});
   return ()=>{alive=false;};
  },[query,category,catalogPage,showSaved,saved]);
  useEffect(()=>{
@@ -76,7 +104,7 @@ function App() {
   supabase.from('recipes').select('category').eq('is_published',true).then(({data})=>{if(data)setDbCategories([...new Set(data.map(x=>x.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'bn')));});
  },[]);
  const visibleCategories=useMemo(()=>['সব রেসিপি',...new Set([...categories.slice(1),...dbCategories])],[dbCategories]);
- const filtered=useMemo(()=>{const source=catalogMode?catalogRecipes:demos.filter(r=>(category==='সব রেসিপি'||r.category===category)&&((r.title+' '+r.category+' '+r.desc+' '+r.ingredients.join(' ')).toLowerCase().includes(query.toLowerCase())));return source.filter(r=>!showSaved||saved.includes(r.id));},[catalogMode,catalogRecipes,query,category,saved,showSaved]);
+ const filtered=useMemo(()=>{const source=catalogMode?catalogRecipes:demos.filter(r=>(category==='সব রেসিপি'||r.category===category)&&recipeMatchesSearch(r,query));return source.filter(r=>!showSaved||saved.includes(r.id));},[catalogMode,catalogRecipes,query,category,saved,showSaved]);
  const toggleSave=id=>setSaved(prev=>prev.includes(id)?prev.filter(x=>x!==id):[...prev,id]);
  const resetFilters=()=>{setQuery('');setCategory('সব রেসিপি');setCatalogPage(0);setShowSaved(false);setSelected(null);};
  return <><header className="header"><div className="nav wrap"><a className="brand" href="#home" onClick={()=>{setSelected(null);setShowSaved(false)}}><span className="brand-mark"><ChefHat size={24}/></span><span>Rannar<span className="brand-accent"> Menu</span><small>প্রতিদিনের রান্নার অনুপ্রেরণা</small></span></a><nav className={mobileMenu?'nav-links open':'nav-links'}><a href="#recipes" onClick={()=>setMobileMenu(false)}>রেসিপি</a><a href="#categories" onClick={()=>setMobileMenu(false)}>ক্যাটাগরি</a><a href="#about" onClick={()=>setMobileMenu(false)}>আমাদের কথা</a><a href={import.meta.env.BASE_URL + "admin"} onClick={()=>setMobileMenu(false)}>অ্যাডমিন</a><button className="saved-link" onClick={()=>{setShowSaved(!showSaved);setCatalogPage(0);setSelected(null);document.querySelector('#recipes')?.scrollIntoView({behavior:'smooth'});setMobileMenu(false)}}><Heart size={17} fill={showSaved?'currentColor':'none'}/> সংরক্ষিত ({saved.length})</button></nav><button className="mobile-toggle" aria-label="মেনু" onClick={()=>setMobileMenu(!mobileMenu)}>{mobileMenu?<X/>:<Menu/>}</button></div></header>
