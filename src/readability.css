@@ -1,0 +1,205 @@
+/* Rannar Menu — readable, responsive typography layer.
+   Loaded last so the same hierarchy applies across all pages and themes. */
+
+html { font-size: 16px; }
+body {
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  text-rendering: optimizeLegibility;
+}
+p, li { text-wrap: pretty; }
+strong, b { font-weight: 700; }
+:where(h1, h2, h3, h4) { text-wrap: balance; }
+
+.nav-links { font-size: 0.9375rem; font-weight: 500; }
+.saved-link { font-size: 0.9375rem; font-weight: 600; }
+.mobile-toggle { padding: 9px; }
+
+.hero h1 {
+  font-size: clamp(2.75rem, 4.6vw, 4rem);
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+.hero-copy > p {
+  max-width: 34rem;
+  font-size: 1.125rem;
+  line-height: 1.85;
+  color: #5f6d60;
+}
+.eyebrow, .section-kicker { font-size: 0.875rem; line-height: 1.55; font-weight: 700; }
+.primary-btn, .outline-btn { font-size: 0.9375rem; font-weight: 700; }
+.social-proof { font-size: 0.875rem; }
+.hero-stats strong { font-size: 1.25rem; font-weight: 700; }
+.hero-stats span { font-size: 0.8125rem; line-height: 1.55; }
+
+.category-inner h2 { font-size: clamp(1.65rem, 2.2vw, 2rem); line-height: 1.3; font-weight: 700; }
+.category-pill { font-size: 0.875rem; font-weight: 600; }
+.section-heading h2 { font-size: clamp(1.9rem, 2.8vw, 2.35rem); line-height: 1.25; font-weight: 700; letter-spacing: -0.025em; }
+.section-heading p { font-size: 1rem; line-height: 1.75; }
+.search-box input { font-size: 1rem; }
+
+.recipe-tag { font-size: 0.75rem; font-weight: 700; }
+.card-meta { font-size: 0.8125rem; line-height: 1.5; }
+.card-title { font-size: 1.3125rem; line-height: 1.45; font-weight: 700; }
+.card-body > p { min-height: 0; font-size: 0.9375rem; line-height: 1.8; color: #626e62; }
+.card-footer { font-size: 0.8125rem; line-height: 1.6; }
+.collection-note strong { font-size: 1rem; font-weight: 700; }
+.collection-note p { font-size: 0.9375rem; line-height: 1.8; }
+.catalog-pagination { font-size: 0.875rem; }
+
+.detail-grid h2 { font-size: clamp(1.9rem, 3vw, 2.25rem); line-height: 1.3; font-weight: 700; }
+.detail-grid p { font-size: 1.0625rem; line-height: 1.85; }
+.detail-meta { font-size: 0.9375rem; line-height: 1.6; }
+.panel h3 { font-size: 1.375rem; line-height: 1.35; font-weight: 700; }
+.panel li { font-size: 1rem; line-height: 1.8; }
+.recipe-source-note { font-size: 0.9375rem; line-height: 1.75; }
+
+.newsletter h2 { font-size: clamp(1.9rem, 2.8vw, 2.3rem); line-height: 1.3; font-weight: 700; }
+.newsletter p { font-size: 1rem; line-height: 1.8; }
+.footer .footer-copy { font-size: 0.875rem; line-height: 1.7; }
+.footer .footer-copyright { font-weight: 700; }
+.footer .footer-admin-link { font-size: 0.8125rem; }
+
+.about-page { font-size: 1rem; }
+.about-kicker { font-size: 0.75rem; font-weight: 800; letter-spacing: 0.09em; }
+.about-hub-heading h1, .about-detail-intro h1, .about-founder-story h1 {
+  font-size: clamp(2.1rem, 4.3vw, 3rem);
+  line-height: 1.22;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+.about-hub-heading p, .about-detail-intro > p {
+  font-size: 1.0625rem;
+  line-height: 1.85;
+}
+.about-option-row { min-height: 305px; }
+.about-option-copy { gap: 10px; }
+.about-option-row .about-option-copy strong {
+  font-size: clamp(1.25rem, 1.85vw, 1.5rem);
+  line-height: 1.4;
+  font-weight: 800;
+}
+.about-option-row .about-option-copy small { font-size: 0.9375rem; line-height: 1.75; }
+.about-option-number { font-size: 0.9375rem; }
+.about-hub-note p { font-size: 0.9375rem; line-height: 1.8; }
+.about-story-copy p, .about-founder-story > p:not(.about-founder-role) {
+  font-size: 1.0625rem;
+  line-height: 1.9;
+}
+.about-founder-role { font-size: 0.9375rem; line-height: 1.7; font-weight: 700; }
+.about-founder-lead { font-weight: 600; }
+.about-values-list strong { font-size: 1rem; font-weight: 800; }
+.about-values-list small { font-size: 0.875rem; line-height: 1.75; }
+.about-text-link { font-size: 0.875rem; }
+.about-back-link { font-size: 0.875rem; }
+.about-sponsor-item { min-height: 265px; }
+.about-sponsor-name { font-size: 1rem; line-height: 1.5; font-weight: 800; }
+.about-sponsor-description { font-size: 0.875rem; line-height: 1.75; }
+.about-sponsor-visit { font-size: 0.8125rem; line-height: 1.6; font-weight: 800; }
+.about-sylae-copy h2 { font-size: 1.5rem; line-height: 1.35; font-weight: 800; }
+.about-sylae-copy p { font-size: 0.9375rem; line-height: 1.85; }
+.about-sylae-copy a, .about-founder-credits a { font-size: 0.875rem; }
+
+.featured-banner-section .featured-overlay h2 { font-weight: 800; line-height: 1.3; }
+.featured-banner-section .featured-overlay p { font-size: 1rem; line-height: 1.7; }
+.featured-banner-section .featured-cta { font-size: 0.8125rem; font-weight: 700; }
+.featured-banner-section .featured-count { font-size: 0.75rem; }
+.featured-banner-section .featured-count strong { font-size: 0.875rem; }
+.bottom-nav-label { font-size: 0.75rem; font-weight: 600; line-height: 1.35; }
+
+.admin-heading h1 { font-size: clamp(2rem, 3vw, 2.4rem); font-weight: 800; line-height: 1.25; }
+.admin-heading p { font-size: 0.9375rem; line-height: 1.75; }
+.admin-panel-head h2 { font-size: 1.375rem; font-weight: 800; }
+.admin-panel-head p { font-size: 0.8125rem; line-height: 1.65; }
+.admin-table { font-size: 0.875rem; }
+.admin-table th { font-size: 0.75rem; }
+.admin-table td small { font-size: 0.75rem; line-height: 1.55; }
+.recipe-form label, .admin-login label { font-size: 0.875rem; line-height: 1.5; }
+.recipe-form input, .recipe-form textarea, .recipe-form select, .admin-login input { font-size: 1rem; }
+.mira-bubble { font-size: 1rem; line-height: 1.78; }
+
+html[data-theme="dark"] .hero-copy > p,
+html[data-theme="dark"] .card-body > p { color: #c1c9c1; }
+html[data-theme="dark"] .about-hub-heading p,
+html[data-theme="dark"] .about-detail-intro > p,
+html[data-theme="dark"] .about-story-copy p,
+html[data-theme="dark"] .about-founder-story > p:not(.about-founder-role) { color: #c0c9bf; }
+html[data-theme="dark"] .about-founder-lead { color: #e1e8df; }
+html[data-theme="dark"] .about-sponsor-description,
+html[data-theme="dark"] .about-sylae-copy p { color: #bdc7bb; }
+
+@media (max-width: 950px) {
+  .hero h1 { font-size: clamp(2.5rem, 6vw, 3.5rem); }
+}
+@media (max-width: 700px) {
+  body { font-size: 1rem; }
+  .nav-links { font-size: 1rem; }
+  .saved-link { font-size: 0.9375rem; }
+  .hero h1 { font-size: clamp(2.3rem, 9.8vw, 2.7rem); line-height: 1.23; letter-spacing: -0.025em; }
+  .hero-copy > p { font-size: 1rem; line-height: 1.8; }
+  .eyebrow, .section-kicker { font-size: 0.8125rem; }
+  .primary-btn, .outline-btn { font-size: 0.9375rem; }
+  .hero-stats strong { font-size: 1.0625rem; }
+  .hero-stats span { font-size: 0.75rem; }
+  .category-inner h2 { font-size: 1.625rem; }
+  .category-pill { font-size: 0.875rem; padding: 9px 11px; }
+  .section-heading h2 { font-size: clamp(1.75rem, 7.8vw, 2rem); }
+  .section-heading p { font-size: 0.9375rem; }
+  .recipe-grid { row-gap: 18px; }
+  .recipe-tag { font-size: 0.6875rem; }
+  .card-meta { font-size: 0.75rem; }
+  .card-title { font-size: 1.0625rem; line-height: 1.45; }
+  .card-body > p { font-size: 0.875rem; line-height: 1.75; }
+  .card-footer { font-size: 0.75rem; }
+  .collection-note strong { font-size: 1rem; }
+  .collection-note p { font-size: 0.875rem; }
+  .detail-grid h2 { font-size: 1.85rem; }
+  .detail-grid p { font-size: 1rem; }
+  .detail-meta { font-size: 0.875rem; }
+  .panel h3 { font-size: 1.25rem; }
+  .panel li { font-size: 0.9375rem; }
+  .newsletter h2 { font-size: 1.8rem; }
+  .newsletter p { font-size: 0.9375rem; }
+  .footer .footer-copy { font-size: 0.8125rem; }
+  .footer .footer-admin-link { font-size: 0.75rem; }
+  .about-page { padding-top: 24px; }
+  .about-hub-heading h1, .about-detail-intro h1, .about-founder-story h1 { font-size: clamp(2rem, 9vw, 2.5rem); }
+  .about-hub-heading p, .about-detail-intro > p { font-size: 1rem; line-height: 1.8; }
+  .about-option-row { min-height: 138px; }
+  .about-option-row .about-option-copy strong { font-size: 1.125rem; line-height: 1.4; }
+  .about-option-row .about-option-copy small { font-size: 0.875rem; line-height: 1.65; }
+  .about-story-copy p, .about-founder-story > p:not(.about-founder-role) { font-size: 1rem; line-height: 1.8; }
+  .about-values-list { grid-template-columns: 1fr; gap: 16px; }
+  .about-values-list strong { font-size: 1rem; }
+  .about-values-list small { font-size: 0.875rem; }
+  .about-sponsor-grid { gap: 12px; }
+  .about-sponsor-item { min-height: 250px; }
+  .about-sponsor-name { font-size: 0.9375rem; }
+  .about-sponsor-description { font-size: 0.8125rem; line-height: 1.65; }
+  .about-sponsor-visit { font-size: 0.75rem; }
+  .about-sylae-copy h2 { font-size: 1.35rem; }
+  .about-sylae-copy p { font-size: 0.875rem; }
+  .featured-banner-section .featured-overlay h2 { font-size: 1.2rem; }
+  .featured-banner-section .featured-overlay p { font-size: 0.875rem; }
+  .featured-banner-section .featured-cta { font-size: 0.6875rem; }
+  .bottom-nav-label { font-size: 0.6875rem; }
+  .admin-heading h1 { font-size: 1.9rem; }
+  .admin-heading p { font-size: 0.875rem; }
+  .admin-table { font-size: 0.8125rem; }
+  .recipe-form label, .admin-login label { font-size: 0.8125rem; }
+  .mira-bubble { font-size: 0.9375rem; line-height: 1.72; }
+}
+@media (max-width: 390px) {
+  .hero h1 { font-size: 2.25rem; }
+  .hero-stats span { font-size: 0.71875rem; }
+  .card-title { font-size: 1rem; }
+  .about-option-row .about-option-copy strong { font-size: 1rem; }
+  .about-option-row .about-option-copy small { font-size: 0.8125rem; }
+  .about-sponsor-name { font-size: 0.875rem; }
+  .about-sponsor-description { font-size: 0.75rem; }
+  .about-sponsor-visit { font-size: 0.6875rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .about-option-row, .about-option-arrow, .recipe-card, .recipe-card img { transition: none !important; }
+}
