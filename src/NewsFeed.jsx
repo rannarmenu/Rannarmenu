@@ -125,6 +125,7 @@ function normalizeNewsItem(item, fallbackSource) {
     summary: description.length > 190 ? description.slice(0, 187) + '…' : description,
     image,
     imageFallback,
+    imageIsFallback: String(item?.image || '').startsWith('news-fallbacks/'),
   };
 }
 
@@ -408,7 +409,7 @@ function NewsItems({ items, Icon, compact = false }) {
     <div className={compact ? 'news-items news-items-compact' : 'news-items'}>
       {items.map((item) => (
         <article className="news-item" key={item.id}>
-          <a className="news-item-media" href={item.articleUrl || item.link} target="_blank" rel="noopener noreferrer" aria-label={item.title + ' পড়ুন'}>
+          <a className={item.imageIsFallback ? "news-item-media has-image-illustration" : "news-item-media"} href={item.articleUrl || item.link} target="_blank" rel="noopener noreferrer" aria-label={item.title + ' পড়ুন'}>
             {item.image ? (
               <img
                 src={item.image}
@@ -419,6 +420,7 @@ function NewsItems({ items, Icon, compact = false }) {
                   const imageElement = event.currentTarget;
                   if (item.imageFallback && imageElement.dataset.fallbackApplied !== 'true') {
                     imageElement.dataset.fallbackApplied = 'true';
+                    imageElement.closest('.news-item-media')?.classList.add('has-image-illustration');
                     imageElement.src = item.imageFallback;
                   } else {
                     imageElement.hidden = true;
@@ -427,6 +429,7 @@ function NewsItems({ items, Icon, compact = false }) {
               />
             ) : null}
             <span className="news-item-media-fallback" aria-hidden="true"><Icon size={compact ? 25 : 29} strokeWidth={1.6} /></span>
+            <span className="news-item-image-note" aria-hidden="true">প্রতীকী ছবি</span>
           </a>
           <div className="news-item-content">
             <div className="news-item-meta">
