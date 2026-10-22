@@ -663,3 +663,8 @@ html[data-theme="dark"] .brand-logo-dark { display: block; }
 @media (max-width: 700px) {
   .brand-logo { width: min(200px, 53vw); max-height: 51px; }
 }
+
+.footer-brand .brand-logo { width: 205px; max-height: 52px; }
+@media (max-width: 700px) {
+  .footer-brand .brand-logo { width: min(190px, 55vw); max-height: 48px; }
+}
