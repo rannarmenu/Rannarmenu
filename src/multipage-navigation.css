@@ -59,7 +59,7 @@
     bottom: calc(8px + env(safe-area-inset-bottom, 0px));
     z-index: 70;
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     align-items: stretch;
     gap: 3px;
     padding: 7px 6px;
@@ -201,7 +201,7 @@
 /* Five equally accessible mobile destinations, including About and Profile. */
 @media (max-width: 700px) {
   .bottom-navigation {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1px;
     padding-inline: 4px;
   }
