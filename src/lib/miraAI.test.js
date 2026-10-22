@@ -21,6 +21,7 @@ test('caps history and message size before sending to the server', () => {
   const result = buildMiraConversation(history,'current'.repeat(300));
   assert.equal(result.length,12);
   assert.ok(result.every(message=>message.content.length<=1400));
+  assert.ok(result.reduce((sum,message)=>sum+message.content.length,0)<=8000);
   assert.equal(result.at(-1).role,'user');
 });
 
