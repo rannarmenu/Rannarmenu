@@ -25,7 +25,7 @@ const ALIAS_GROUPS = [
   ['beef','বিফ','গরু','গরুর','গরুর মাংস','গো-মাংস','goru','gorur','gorur mangsho','गोमांस','گائے کا گوشت','لحم بقري','boeuf','bœuf','carne de res','ternera','牛肉'],
   ['mutton','lamb','goat','খাসি','খাসির','খাসির মাংস','ছাগল','ছাগলের','khasi','khashir','羊肉','बकरे का मांस','مٹن','لحم الضأن','cordero','agneau'],
   ['meat','মাংস','মাংসের','gosht','গোশত','گوشت','carne','viande','肉','मांस'],
-  ['fish','মাছ','মাছের','মাছে','maach','machh','mach','machher','machli','machhli','मछली','سمك','ماهی','peixe','poisson','pescado','鱼','魚','さかな'],
+  ['fish','মাছ','মাছের','মাছে','maach','machh','mach','machher','macher','machli','machhli','ilish','hilsa','hilsha','ইলিশ','ইলিশের','rui','rohu','রুই','katla','কাতলা','मछली','سمك','ماهی','peixe','poisson','pescado','鱼','魚','さかな'],
   ['shrimp','prawn','চিংড়ি','চিংড়ি','চিংড়ির','chingri','ঝিনুক','झींगा','جھینگا','جمبري','میگو','crevette','gamba','camarão','虾','エビ'],
   ['egg','eggs','ডিম','ডিমের','dim','dimer','anda','انڈا','अंडा','अंडे','بيض','بيضة','oeuf','œuf','huevo','ovo','卵','蛋'],
   ['dal','daal','dhal','lentil','lentils','ডাল','মসুর','মুসুর','মসুর ডাল','মুগ ডাল','masoor','masur','moong','दाल','मसूर','عدس','دال','lentille','lenteja','豆类'],
