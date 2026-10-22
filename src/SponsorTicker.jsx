@@ -54,19 +54,19 @@ const SPONSORS = [
   },
 ];
 
-function SponsorGroup({ duplicate = false }) {
+function SponsorGroup({ duplicate = false, onSelectSponsor, selectedSponsor }) {
   return (
     <div className="sponsor-ticker-group" aria-hidden={duplicate ? 'true' : undefined}>
       {SPONSORS.map((sponsor) => (
-        <a
+        <button
           key={sponsor.name}
+          type="button"
           className="sponsor-ticker-item"
-          href={sponsor.href}
-          target="_blank"
-          rel="noopener noreferrer"
-          title={sponsor.name}
-          aria-label={sponsor.name + ' ওয়েবসাইট খুলুন'}
-          tabIndex={duplicate ? -1 : undefined}
+          onClick={() => { if (!duplicate) onSelectSponsor?.(sponsor); }}
+          title={sponsor.name + ' এর খবর দেখুন'}
+          aria-label={sponsor.name + ' এর খবর দেখুন'}
+          aria-pressed={duplicate ? undefined : selectedSponsor?.name === sponsor.name}
+          tabIndex={duplicate ? -1 : 0}
         >
           <span className={'sponsor-ticker-logo ' + sponsor.className}>
             {sponsor.wordmark ? (
@@ -90,13 +90,13 @@ function SponsorGroup({ duplicate = false }) {
             )}
             {!sponsor.wordmark && <span className="sponsor-ticker-fallback" hidden>{sponsor.label}</span>}
           </span>
-        </a>
+        </button>
       ))}
     </div>
   );
 }
 
-export default function SponsorTicker() {
+export default function SponsorTicker({ onSelectSponsor, selectedSponsor = null }) {
   return (
     <section className="sponsor-ticker-section" aria-labelledby="sponsor-ticker-heading">
       <div className="sponsor-ticker-heading">
@@ -108,12 +108,12 @@ export default function SponsorTicker() {
       </div>
       <div className="sponsor-ticker-viewport" aria-label="চলমান স্পনসর লোগো">
         <div className="sponsor-ticker-track">
-          <SponsorGroup />
-          <SponsorGroup duplicate />
+          <SponsorGroup onSelectSponsor={onSelectSponsor} selectedSponsor={selectedSponsor} />
+          <SponsorGroup duplicate onSelectSponsor={onSelectSponsor} selectedSponsor={selectedSponsor} />
         </div>
       </div>
       <div className="sponsor-ticker-footer">
-        <span>আমাদের স্পনসর ও পার্টনারদের ওয়েবসাইট দেখতে লোগোতে চাপ দিন</span>
+        <span>যে স্পনসরের খবর দেখতে চান, চলমান লোগোতে চাপ দিন</span>
         <ArrowUpRight size={14} aria-hidden="true" />
       </div>
     </section>
