@@ -1,5 +1,5 @@
-/* Shared theme settings menu */
-.theme-menu-wrap {
+/* Single-click light/dark toggle — no dropdown or extra theme choices. */
+.theme-toggle-wrap {
   position: relative;
   display: inline-flex;
   flex: 0 0 auto;
@@ -15,9 +15,10 @@
   display: flex;
   align-items: center;
 }
-.theme-menu-trigger {
+.theme-toggle-button {
   display: grid;
   place-items: center;
+  flex: 0 0 42px;
   width: 42px;
   height: 42px;
   padding: 0;
@@ -25,112 +26,34 @@
   border-radius: 11px;
   background: transparent;
   color: var(--dark, #233629);
-  transition: background-color .18s ease, border-color .18s ease, color .18s ease;
+  transition: background-color .18s ease, border-color .18s ease, color .18s ease, transform .18s ease;
 }
-.theme-menu-trigger:hover,
-.theme-menu-trigger[aria-expanded="true"] {
+.theme-toggle-button:hover {
   border-color: #dfe5da;
   background: #eef2e9;
+  transform: translateY(-1px);
 }
-.theme-menu-trigger:focus-visible,
-.theme-menu-option:focus-visible {
+.theme-toggle-button:active { transform: scale(.94); }
+.theme-toggle-button:focus-visible {
   outline: 3px solid #8bb795;
   outline-offset: 3px;
-}
-.theme-menu-panel {
-  position: absolute;
-  top: calc(100% + 9px);
-  right: 0;
-  z-index: 1000;
-  width: min(310px, calc(100vw - 28px));
-  padding: 12px;
-  overflow: visible;
-  border: 1px solid #e2e7dd;
-  border-radius: 17px;
-  background: #fffefa;
-  color: #26362a;
-  box-shadow: 0 18px 52px rgba(20, 34, 23, .18), 0 3px 12px rgba(20, 34, 23, .07);
-  animation: themeMenuIn .16s ease both;
-}
-.theme-menu-heading {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  padding: 5px 7px 11px;
-  border-bottom: 1px solid #edf0e9;
-}
-.theme-menu-heading strong { font-size: 14px; font-weight: 700; }
-.theme-menu-heading small,
-.theme-menu-option-copy small {
-  color: #788276;
-  font-size: 11px;
-  line-height: 1.5;
-}
-.theme-menu-options { display: grid; gap: 4px; padding-top: 8px; }
-.theme-menu-option {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-  min-width: 0;
-  padding: 9px;
-  border: 1px solid transparent;
-  border-radius: 11px;
-  background: transparent;
-  color: inherit;
-  text-align: left;
-  transition: background-color .16s ease, border-color .16s ease;
-}
-.theme-menu-option:hover { background: #f5f7f1; }
-.theme-menu-option.is-selected {
-  border-color: #cbdccb;
-  background: #edf4ea;
-}
-.theme-menu-option-icon {
-  display: grid;
-  place-items: center;
-  flex: 0 0 36px;
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
-  background: #e7eee2;
-  color: #315c43;
-}
-.theme-menu-option-copy {
-  display: flex;
-  flex: 1;
-  min-width: 0;
-  flex-direction: column;
-  gap: 2px;
-}
-.theme-menu-option-copy strong { font-size: 12px; font-weight: 600; }
-.theme-menu-check { flex: 0 0 auto; color: #315c43; opacity: 0; }
-.theme-menu-option.is-selected .theme-menu-check { opacity: 1; }
-.theme-menu-footer {
-  margin: 9px 6px 1px;
-  padding-top: 9px;
-  border-top: 1px solid #edf0e9;
-  color: #7c8578;
-  font-size: 10px;
-  line-height: 1.6;
-}
-@keyframes themeMenuIn {
-  from { opacity: 0; transform: translateY(-4px) scale(.985); }
-  to { opacity: 1; transform: translateY(0) scale(1); }
 }
 @media (max-width: 700px) {
   .admin-theme-corner { top: 9px; right: 12px; }
   .nav { gap: 12px; }
-  .theme-menu-trigger { width: 36px; height: 36px; border-radius: 9px; }
-  .theme-menu-panel { top: calc(100% + 8px); }
-  .theme-menu-heading { padding-inline: 5px; }
+  .theme-toggle-button {
+    flex-basis: 36px;
+    width: 36px;
+    height: 36px;
+    border-radius: 9px;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
-  .theme-menu-panel { animation: none; }
-  .theme-menu-trigger, .theme-menu-option { transition: none; }
+  .theme-toggle-button { transition: none; }
 }
 
 /* Deep, readable dark palette. Food photography is deliberately never filtered. */
+
 html[data-theme="dark"] {
   color-scheme: dark;
   --green: #83b58e;
@@ -446,30 +369,6 @@ html[data-theme="dark"] .recipe-form select:focus {
   border-color: #85b98e;
   box-shadow: 0 0 0 3px rgba(131,181,142,.15);
 }
-html[data-theme="dark"] .theme-menu-trigger { color: #e5eee2; }
-html[data-theme="dark"] .theme-menu-trigger:hover,
-html[data-theme="dark"] .theme-menu-trigger[aria-expanded="true"] {
-  border-color: #3d4d3f;
-  background: #253126;
-}
-html[data-theme="dark"] .theme-menu-panel {
-  border-color: #39483b;
-  background: #19221a;
-  color: #e8efe6;
-  box-shadow: 0 20px 58px rgba(0,0,0,.55), 0 3px 12px rgba(0,0,0,.25);
-}
-html[data-theme="dark"] .theme-menu-heading { border-color: #303b31; }
-html[data-theme="dark"] .theme-menu-heading small,
-html[data-theme="dark"] .theme-menu-option-copy small,
-html[data-theme="dark"] .theme-menu-footer { color: #a5b1a4; }
-html[data-theme="dark"] .theme-menu-option:hover { background: #222e24; }
-html[data-theme="dark"] .theme-menu-option.is-selected {
-  border-color: #44694a;
-  background: #263a2a;
-}
-html[data-theme="dark"] .theme-menu-option-icon { background: #2b3b2c; color: #a8d5ad; }
-html[data-theme="dark"] .theme-menu-check { color: #a8d5ad; }
-html[data-theme="dark"] .theme-menu-footer { border-color: #303b31; }
 html[data-theme="dark"] .admin-theme-corner { color: #e8efe6; }
 @media (prefers-reduced-motion: reduce) {
   html, html:focus-within { scroll-behavior: auto; }
@@ -743,28 +642,6 @@ html[data-theme="dark"] .recipe-form select:focus {
   border-color: #7c9782;
   box-shadow: 0 0 0 3px rgba(155,191,162,.13);
 }
-html[data-theme="dark"] .theme-menu-trigger { color: #e5e7ea; }
-html[data-theme="dark"] .theme-menu-trigger:hover,
-html[data-theme="dark"] .theme-menu-trigger[aria-expanded="true"] {
-  border-color: #3a3e45;
-  background: #202329;
-}
-html[data-theme="dark"] .theme-menu-panel {
-  border-color: #383c43;
-  background: #17191e;
-  color: #eef0f2;
-  box-shadow: 0 20px 58px rgba(0,0,0,.65), 0 3px 12px rgba(0,0,0,.35);
-}
-html[data-theme="dark"] .theme-menu-heading,
-html[data-theme="dark"] .theme-menu-footer { border-color: #30343b; }
-html[data-theme="dark"] .theme-menu-heading small,
-html[data-theme="dark"] .theme-menu-option-copy small,
-html[data-theme="dark"] .theme-menu-footer { color: #b0b4bb; }
-html[data-theme="dark"] .theme-menu-option { color: #e0e3e6; }
-html[data-theme="dark"] .theme-menu-option:hover { background: #22252b; }
-html[data-theme="dark"] .theme-menu-option.is-selected { border-color: #414950; background: #242a26; }
-html[data-theme="dark"] .theme-menu-option-icon { background: #292d32; color: #ccd5ce; }
-html[data-theme="dark"] .theme-menu-check { color: #cbd7cc; }
 html[data-theme="dark"] .admin-theme-corner { color: #e8e9eb; }
 
 /* The recipe list should not hide its title underneath the sticky header. */
@@ -772,3 +649,6 @@ html[data-theme="dark"] .admin-theme-corner { color: #e8e9eb; }
 @media (max-width: 700px) {
   #recipes { scroll-margin-top: 86px; }
 }
+
+html[data-theme="dark"] .theme-toggle-button { color: #f0f1f2; }
+html[data-theme="dark"] .theme-toggle-button:hover { border-color: #3a3e45; background: #202329; }
