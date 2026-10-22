@@ -12,7 +12,7 @@ import {
   X
 } from 'lucide-react';
 import { supabase, supabaseConfigured } from './lib/supabaseClient.js';
-import { clampMiraAnchor, getMiraWidgetOrigin } from './lib/miraPosition.js';
+import { clampMiraAnchor, getMiraPanelPlacement, getMiraWidgetOrigin } from './lib/miraPosition.js';
 import {
   buildRecipeSearchGroups,
   normalizeSearchText,
@@ -409,18 +409,25 @@ export default function MiraChat({ onOpenRecipe }) {
 
   const handleLauncherPointerDown = event => {
     if (event.pointerType === 'mouse' && event.button !== 0) return;
-    const rect = event.currentTarget.getBoundingClientRect();
+    const button = event.currentTarget;
+    const rect = button.getBoundingClientRect();
+    const root = button.closest('.mira-widget');
+    const rootRect = root?.getBoundingClientRect() || rect;
     dragRef.current = {
       pointerId: event.pointerId,
       startX: event.clientX,
       startY: event.clientY,
       startLeft: rect.left,
       startTop: rect.top,
+      startRootLeft: rootRect.left,
+      startRootTop: rootRect.top,
+      startRootWidth: rootRect.width,
+      root,
       lastPosition: { left: rect.left, top: rect.top },
       moved: false
     };
     suppressClickRef.current = false;
-    try { event.currentTarget.setPointerCapture(event.pointerId); } catch { /* Pointer capture is not supported in every browser. */ }
+    try { button.setPointerCapture(event.pointerId); } catch { /* Pointer capture is not supported in every browser. */ }
   };
 
   const handleLauncherPointerMove = event => {
@@ -429,9 +436,22 @@ export default function MiraChat({ onOpenRecipe }) {
     const dx = event.clientX - drag.startX;
     const dy = event.clientY - drag.startY;
     if (!drag.moved && Math.hypot(dx, dy) < 7) return;
-    drag.moved = true;
-    suppressClickRef.current = true;
-    setIsDragging(true);
+    if (!drag.moved) {
+      drag.moved = true;
+      suppressClickRef.current = true;
+      setIsDragging(true);
+      if (drag.root) {
+        drag.root.style.position = 'fixed';
+        drag.root.style.right = 'auto';
+        drag.root.style.bottom = 'auto';
+        drag.root.style.left = drag.startRootLeft + 'px';
+        drag.root.style.top = drag.startRootTop + 'px';
+        if (drag.startRootWidth > 0) {
+          drag.root.style.width = drag.startRootWidth + 'px';
+          drag.root.style.maxWidth = drag.startRootWidth + 'px';
+        }
+      }
+    }
     const rect = event.currentTarget.getBoundingClientRect();
     const size = { width: rect.width || 56, height: rect.height || 56 };
     const next = clampMiraAnchor(
@@ -440,7 +460,11 @@ export default function MiraChat({ onOpenRecipe }) {
       size
     );
     drag.lastPosition = next;
-    setFloatingPosition(next);
+    // Direct DOM positioning avoids a React re-render on every pointer event.
+    if (drag.root) {
+      drag.root.style.left = (drag.startRootLeft + next.left - drag.startLeft) + 'px';
+      drag.root.style.top = (drag.startRootTop + next.top - drag.startTop) + 'px';
+    }
   };
 
   const finishLauncherDrag = event => {
@@ -484,6 +508,20 @@ export default function MiraChat({ onOpenRecipe }) {
   const widgetStyle = widgetOrigin && floatingPosition
     ? { left: widgetOrigin.left + 'px', top: floatingPosition.top + 'px', right: 'auto', bottom: 'auto', width: widgetWidth + 'px', maxWidth: widgetWidth + 'px' }
     : undefined;
+  const currentLauncherRect = typeof document !== 'undefined'
+    ? document.getElementById('mira-launcher-button')?.getBoundingClientRect()
+    : null;
+  const panelAnchor = floatingPosition
+    ? { ...floatingPosition, width: launcherSize, height: launcherSize }
+    : { left: currentLauncherRect?.left ?? Math.max(0, viewportWidth - launcherSize - 12), top: currentLauncherRect?.top ?? Math.max(0, viewportHeight - launcherSize - 12), width: currentLauncherRect?.width ?? launcherSize, height: currentLauncherRect?.height ?? launcherSize };
+  const panelWidth = Math.min(370, Math.max(0, viewportWidth - 24));
+  const panelHeight = Math.min(viewportWidth <= 700 ? 560 : 590, Math.max(0, viewportHeight - 24));
+  const panelPlacement = isOpen
+    ? getMiraPanelPlacement(panelAnchor, { width: viewportWidth, height: viewportHeight }, { width: panelWidth, height: panelHeight }, 12)
+    : null;
+  const chatPanelStyle = panelPlacement
+    ? { position: 'fixed', left: panelPlacement.left + 'px', top: panelPlacement.top + 'px', right: 'auto', bottom: 'auto', width: panelPlacement.width + 'px', height: panelPlacement.height + 'px', maxWidth: 'calc(100vw - 24px)', maxHeight: 'calc(100dvh - 24px)' }
+    : undefined;
 
   const handleSubmit = event => {
     event.preventDefault();
@@ -494,7 +532,7 @@ export default function MiraChat({ onOpenRecipe }) {
     className={'mira-widget mira-widget-' + mood + (floatingPosition ? (placementLeft ? ' mira-position-left' : ' mira-position-right') + (placementTop ? ' mira-position-top' : ' mira-position-bottom') : '') + (isDragging ? ' mira-widget-dragging' : '')}
     style={widgetStyle}
   >
-    {isOpen && <section className="mira-panel" role="dialog" aria-label="Mira recipe helper" aria-modal="false">
+    {isOpen && <section className="mira-panel" style={chatPanelStyle} role="dialog" aria-label="Mira recipe helper" aria-modal="false">
       <header className="mira-header">
         <MiraMascot small/>
         <div className="mira-header-copy">
