@@ -1,6 +1,11 @@
 name: Refresh cached news feeds
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/refresh-news-feed.mjs'
+      - '.github/workflows/refresh-news.yml'
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
