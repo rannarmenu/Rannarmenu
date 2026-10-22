@@ -17,17 +17,16 @@ import { supabase, supabaseConfigured } from './lib/supabaseClient.js';
 import { clampMiraAnchor, getMiraPanelPlacement, getMiraWidgetOrigin } from './lib/miraPosition.js';
 import {
   buildRecipeSearchGroups,
-  normalizeSearchText,
-  translateChatText
+  normalizeSearchText
 } from './lib/recipeSearch.js';
+import { toBangla } from './lib/banglishTransliteration.js';
 import {
   classifyMiraIntent,
   cleanBanglishRecipeQuery,
   detectBanglish,
-  getCookingTroubleshootingReply,
   getRecipeSelectionIndex
 } from './lib/miraLanguage.js';
-import { buildMiraConversation, getMiraAIErrorMessage, getMiraFallbackRoute, normalizeMiraAIResult } from './lib/miraAI.js';
+import { getMiraFallbackReply, getMiraKnowledgeReply, getMiraLocalRecipeGuide } from './lib/miraBrain.js';
 
 const CHAT_NOISE = new Set([
   'i','me','my','we','you','your','the','a','an','and','or','to','for','of','with','please','pls',
@@ -122,7 +121,7 @@ const MIRA_COPY = {
   help: 'এই যে, একদম সহজ! 💚 হোমপেজের লম্বা সার্চ বারে খাবারের নাম বা উপকরণ লেখো। রেসিপির কার্ডে চাপ দিলে উপকরণ, সময় আর ধাপে ধাপে রান্নার পদ্ধতি খুলবে। হার্ট ♡ চাপলে পছন্দের রেসিপি সেভ থাকবে। আর তুমি চাইলে আমাকেও খাবারের নাম বলতে পারো—আমি খুঁজে দেব!',
   askName: 'অবশ্যই! 😸 কোন রেসিপিটা চাই? খাবারের নামটা লিখে দাও—আমি মিলিয়ে পেলে সরাসরি খুলে দেব।',
   notFound: 'আহা, এই নামে প্রকাশিত রেসিপি খুঁজে পেলাম না। 🥹 নামটা আরেকভাবে লিখবে, বা বাংলা/English বানানে চেষ্টা করো? যে রেসিপিগুলো আছে, শুধু সেগুলোই দেখাই—ভুল রেসিপি বানিয়ে বলি না!',
-  fallback: 'উফ, এই প্রশ্নটার পূর্ণ উত্তর দিতে আমার AI brain এখনো পুরোপুরি সংযুক্ত হয়নি 😿 তবে রেসিপি খোঁজা, রান্নার ধাপ, উপকরণ বদলানো আর ওয়েবসাইটের সমস্যা বুঝিয়ে দিতে আমি আছি। AI setup সম্পূর্ণ হলে আরও অনেক ধরনের প্রশ্ন বুঝে বিস্তারিত উত্তর দিতে পারব। 🌼',
+  fallback: 'আমি Mira*—Rannar Menu-র নিজস্ব রান্নাঘর-সহকারী। 🌼 রেসিপি খোঁজা, রান্নার সমস্যা, মাপ ও রান্নার সময় নিয়ে সাহায্য করি। প্রশ্নটা একটু নির্দিষ্ট করে বলো—আমি ধাপে ধাপে সাহায্য করব।',
   open: title => 'ইয়ে! পেয়ে গেছি—**' + title + '** 🍲 তোমার জন্য রেসিপিটা খুলে দিচ্ছি। একটু দেখে নিও, শেফ সাহেবা/সাহেব!',
   suggestions: 'কয়েকটা মিল পাওয়া রেসিপি পেলাম! যেটা চাও, সেটার নামেই টোকা দাও। 🐾'
 };
@@ -164,7 +163,6 @@ export default function MiraChat({ onOpenRecipe }) {
   const inputRef = useRef(null);
   const busyRef = useRef(false);
   const lastSentAt = useRef(0);
-  const greetingLocalized = useRef(false);
   const dragRef = useRef(null);
   const suppressClickRef = useRef(false);
   const lastActivityRef = useRef(Date.now());
@@ -301,22 +299,6 @@ export default function MiraChat({ onOpenRecipe }) {
     messageListRef.current?.scrollTo({ top: messageListRef.current.scrollHeight, behavior: 'smooth' });
   }, [isOpen, messages, busy]);
 
-  useEffect(() => {
-    if (!isOpen || greetingLocalized.current) return;
-    greetingLocalized.current = true;
-    const browserLanguage = typeof navigator !== 'undefined'
-      ? String(navigator.language || 'bn').toLowerCase().split('-')[0]
-      : 'bn';
-    if (!browserLanguage || browserLanguage === 'bn') return;
-    let active = true;
-    translateChatText(MIRA_COPY.welcome, { source: 'bn', target: browserLanguage }).then(result => {
-      if (!active || !result.text) return;
-      setMessages(previous => previous.map(message =>
-        message.id === 'mira-welcome' ? { ...message, text: result.text } : message
-      ));
-    }).catch(() => {});
-    return () => { active = false; };
-  }, [isOpen]);
 
   const addAssistantMessage = (text, recipes = []) => {
     setMood(/পেলাম না|গোলমাল|দুঃখিত|সমস্যা|আবার চেষ্টা/u.test(text) ? 'sad' : 'happy');
@@ -324,16 +306,6 @@ export default function MiraChat({ onOpenRecipe }) {
       ...previous,
       { id: 'mira-' + Date.now() + '-' + Math.random().toString(36).slice(2, 7), role: 'assistant', text, recipes }
     ].slice(-22));
-  };
-
-  const localizeReply = async (text, language) => {
-    if (!language || language === 'bn') return text;
-    try {
-      const translated = await translateChatText(text, { source: 'bn', target: language });
-      return translated.text || text;
-    } catch {
-      return text;
-    }
   };
 
   const searchRecipes = async (query) => {
@@ -357,37 +329,6 @@ export default function MiraChat({ onOpenRecipe }) {
     };
   };
 
-  const requestMiraAI = async (rawText, previousMessages) => {
-    if (!supabaseConfigured || !supabase) return { result: null, errorCode: 'AI_NOT_CONFIGURED' };
-    const messagesForAI = buildMiraConversation(previousMessages, rawText);
-    if (!messagesForAI.length) return { result: null, errorCode: 'AI_INVALID_REQUEST' };
-    try {
-      const { data, error: invokeError } = await supabase.functions.invoke('mira-chat', {
-        body: {
-          messages: messagesForAI,
-          locale: typeof navigator !== 'undefined' ? navigator.language : 'bn',
-          page: typeof window !== 'undefined' ? window.location.pathname : '/'
-        }
-      });
-      if (invokeError) {
-        let errorCode = 'AI_CONNECTION';
-        try {
-          const response = invokeError.context;
-          if (response && typeof response.clone === 'function') {
-            const body = await response.clone().json();
-            if (typeof body?.code === 'string') errorCode = body.code;
-          }
-        } catch { /* Function/network errors may not include readable JSON. */ }
-        return { result: null, errorCode };
-      }
-      if (data?.ok !== true) return { result: null, errorCode: typeof data?.code === 'string' ? data.code : 'AI_UNAVAILABLE' };
-      const result = normalizeMiraAIResult(data);
-      return result ? { result, errorCode: null } : { result: null, errorCode: 'AI_INVALID_RESPONSE' };
-    } catch {
-      return { result: null, errorCode: 'AI_CONNECTION' };
-    }
-  };
-
   const runAssistant = async (rawText, previousMessages = messages) => {
     const previousOptions = [...previousMessages].reverse().find(message =>
       message.role === 'assistant' && Array.isArray(message.recipes) && message.recipes.length > 0
@@ -404,150 +345,78 @@ export default function MiraChat({ onOpenRecipe }) {
       }
     }
 
-    // Ask the server-side language model first. It gets recent conversation
-    // context and returns a validated action; only the client can open real recipes.
-    const aiResponse = await requestMiraAI(rawText, previousMessages);
-    const aiResult = aiResponse.result;
-
-    // Do not let local greeting/cooking shortcuts mask a failed general-purpose
-    // AI request. In particular, billing errors must stay visible for every intent.
-    if (!aiResult && aiResponse.errorCode) {
-      const errorLocale = isBengali(rawText)
-        ? 'bn'
-        : detectBanglish(rawText)
-          ? 'banglish'
-          : (typeof navigator !== 'undefined' && String(navigator.language || '').startsWith('bn') ? 'bn' : 'en');
-      addAssistantMessage(getMiraAIErrorMessage(aiResponse.errorCode, errorLocale));
-      return;
-    }
-
-    let aiSearchQuery = '';
-    if (aiResult) {
-      if (aiResult.action !== 'recipe_search') {
-        addAssistantMessage(aiResult.reply);
-        return;
-      }
-
-      aiSearchQuery = aiResult.search_query;
-      const aiSearch = await searchRecipes(aiSearchQuery);
-      if (aiSearch.error) {
-        addAssistantMessage(aiResult.reply || 'এই মুহূর্তে রেসিপির খাতা খুলতে পারছি না। একটু পরে আবার চেষ্টা করো। 🌼');
-        return;
-      }
-      if (aiSearch.recipes.length) {
-        const scored = aiSearch.recipes
-          .map(recipe => ({ recipe, score: titleMatchCount(recipe, aiSearch.groups) }))
-          .sort((a, b) => b.score - a.score);
-        const best = scored[0];
-        const queryNorm = normalizeSearchText(aiSearchQuery);
-        const titleNorm = normalizeSearchText(best?.recipe?.title || '');
-        const phraseInTitle = queryNorm.length > 2 && titleNorm.includes(queryNorm);
-        const exactEnough = best && (
-          phraseInTitle ||
-          (aiSearch.groups.length >= 2 && best.score >= aiSearch.groups.length) ||
-          (aiSearch.recipes.length === 1 && aiSearch.groups.length <= 2)
-        );
-        if (exactEnough) {
-          setMood('happy');
-          onOpenRecipe?.(best.recipe);
-          setIsFullscreen(false);
-          setIsOpen(false);
-          return;
-        }
-        addAssistantMessage(aiResult.reply || MIRA_COPY.suggestions, scored.slice(0, 5).map(item => item.recipe));
-        return;
-      }
-      // A translated/normalized database query found nothing. Continue through
-      // the established multilingual search fallback before saying no results.
-    }
-
-    let translatedToBengali = { text: '', sourceLanguage: 'und' };
-    try {
-      translatedToBengali = await translateChatText(rawText, { target: 'bn' });
-    } catch {
-      // Direct multilingual keyword search below is still available if translation is offline.
-    }
-    const language = detectLanguageFallback(rawText, translatedToBengali.sourceLanguage);
-    const bengaliText = translatedToBengali.text || rawText;
-    const understoodText = normalizeSearchText(rawText + ' ' + bengaliText);
-    const intent = classifyMiraIntent(rawText + ' ' + bengaliText);
-
-    const smallTalk = getSmallTalkReply(understoodText);
-    if (smallTalk || ['greeting','thanks','identity','capabilities'].includes(intent)) {
-      addAssistantMessage(await localizeReply(
-        smallTalk || (intent === 'greeting'
-          ? 'হেইই! 🌸 Mira* হাজির! কী সাহায্য লাগবে বলো?'
+    // Mira's own local-first brain: conversation, cooking guidance and
+    // troubleshooting are handled in this app without a generative AI API.
+    const intent = classifyMiraIntent(rawText);
+    const smallTalk = getSmallTalkReply(normalizeSearchText(rawText));
+    if (smallTalk || ['greeting', 'thanks', 'identity', 'capabilities'].includes(intent)) {
+      const knownReply = smallTalk || (
+        intent === 'greeting'
+          ? 'হেই! 🌸 Mira* হাজির—কী সাহায্য লাগবে বলো?'
           : intent === 'thanks'
-            ? 'আহা, এ আর এমন কী! 💗 দরকার হলে আবার ডাক দিও!'
+            ? 'আহা, এ আর এমন কী! 💚 রান্নায় দরকার হলে আবার ডাক দিও।'
             : intent === 'identity'
-              ? 'আমি Mira*—Rannar Menu-র ছোট্ট রান্নাঘর-সহকারী! 🐱'
-              : 'রেসিপি খুঁজে দিই, রান্নার ধাপ বুঝিয়ে দিই, আর ওয়েবসাইট ব্যবহার করতে সাহায্য করি! ✨'),
-        language
-      ));
+              ? 'আমি Mira*—Rannar Menu-র নিজস্ব রান্নাঘর-সহকারী। 🐱 রেসিপি খুঁজি, রান্নার সমস্যা বুঝি, আর প্রয়োজনীয় ধাপ সাজিয়ে দিই।'
+              : 'আমি রেসিপি ক্যাটালগে খুঁজতে, রান্নার সমস্যা সমাধান করতে, মাপ ও সময় বুঝিয়ে দিতে, আর ওয়েবসাইট ব্যবহারে সাহায্য করতে পারি। ✨'
+      );
+      addAssistantMessage(knownReply);
       return;
     }
 
-    if (isWebsiteHelp(understoodText)) {
-      addAssistantMessage(await localizeReply(MIRA_COPY.help, language));
+    if (intent === 'website_help' || isWebsiteHelp(rawText)) {
+      addAssistantMessage(MIRA_COPY.help);
       return;
     }
 
-    if (intent === 'cooking_problem') {
-      addAssistantMessage(await localizeReply(getCookingTroubleshootingReply(understoodText), language));
+    const knowledgeReply = getMiraKnowledgeReply(rawText);
+    if (knowledgeReply) {
+      addAssistantMessage(knowledgeReply);
       return;
     }
 
-    const fallbackRoute = getMiraFallbackRoute({
-      intent,
-      aiErrorCode: aiResponse.errorCode,
-      hasAIRecipeQuery: Boolean(aiSearchQuery)
-    });
-    const rawLooksLikeRecipe = fallbackRoute === 'recipe_lookup';
-    const cleanedOriginal = cleanRecipeQuery(rawText);
-    const cleanedBengali = cleanRecipeQuery(bengaliText);
-
-    // General questions must never become catalogue searches just because the
-    // query cleaner can extract a few words from ordinary prose.
-    if (fallbackRoute === 'ai_error') {
-      const locale = isBengali(rawText) ? 'bn' : detectBanglish(rawText) ? 'banglish' : (typeof navigator !== 'undefined' && String(navigator.language || '').startsWith('bn') ? 'bn' : 'en');
-      addAssistantMessage(getMiraAIErrorMessage(aiResponse.errorCode, locale));
-      return;
-    }
-    if (fallbackRoute === 'general_reply') {
-      addAssistantMessage(await localizeReply(MIRA_COPY.fallback, language));
-      return;
-    }
-    if (fallbackRoute === 'ask_name') {
-      addAssistantMessage(await localizeReply(MIRA_COPY.askName, language));
+    if (intent === 'generic_recipe_request') {
+      addAssistantMessage(MIRA_COPY.askName);
       return;
     }
 
-    if (!supabaseConfigured) {
-      const text = await localizeReply('দুঃখিত, এই মুহূর্তে রেসিপির ডেটাবেসের সঙ্গে যোগাযোগ হচ্ছে না। একটু পরে আবার চেষ্টা করো।', language);
-      addAssistantMessage(text);
+    if (intent !== 'recipe_search') {
+      addAssistantMessage(getMiraFallbackReply(rawText));
       return;
     }
 
-    if (!cleanedOriginal && !cleanedBengali && rawLooksLikeRecipe) {
-      addAssistantMessage(await localizeReply(MIRA_COPY.askName, language));
-      return;
+    // Search the real published recipe catalogue first. Try native Banglish
+    // and a local phonetic Bengali transliteration; no AI/translation service
+    // is required to understand a normal recipe request.
+    const originalQuery = cleanRecipeQuery(rawText) || rawText;
+    const queryCandidates = [originalQuery];
+    if (detectBanglish(rawText)) {
+      const transliterated = cleanRecipeQuery(toBangla(rawText));
+      if (transliterated && !queryCandidates.includes(transliterated)) queryCandidates.push(transliterated);
     }
 
-    let found = await searchRecipes(cleanedOriginal || rawText);
-    if (!found.recipes.length && cleanedBengali && cleanedBengali !== cleanedOriginal) {
-      found = await searchRecipes(cleanedBengali);
-    }
-
-    if (!found.recipes.length) {
-      const translatedEnglish = await translateChatText(rawText, { target: 'en' });
-      const englishQuery = cleanRecipeQuery(translatedEnglish.text || '');
-      if (englishQuery && englishQuery !== cleanedOriginal && englishQuery !== cleanedBengali) {
-        found = await searchRecipes(englishQuery);
+    if (!supabaseConfigured || !supabase) {
+      const localGuide = getMiraLocalRecipeGuide(rawText);
+      if (localGuide) {
+        addAssistantMessage('রেসিপি ক্যাটালগে এখন সংযোগ নেই, তবে পরিচিত রান্নার জন্য আমার স্থানীয় গাইডটি দেখো। 🍲\n\n' + localGuide);
+      } else {
+        addAssistantMessage('রেসিপি ক্যাটালগে এখন সংযোগ করা যাচ্ছে না। ইন্টারনেট বা ডেটাবেস ঠিক হলে আবার খুঁজে দেব।');
       }
+      return;
+    }
+
+    let found = { recipes: [], groups: [], total: 0, error: null };
+    for (const query of queryCandidates) {
+      found = await searchRecipes(query);
+      if (found.error || found.recipes.length) break;
     }
 
     if (found.error) {
-      addAssistantMessage(await localizeReply('রেসিপির খাতা খুলতে গিয়ে একটু গোলমাল হয়েছে। একটু পরে আবার চেষ্টা করো? 🌼', language));
+      const localGuide = getMiraLocalRecipeGuide(rawText);
+      if (localGuide) {
+        addAssistantMessage('ক্যাটালগে সংযোগ করতে পারছি না, তবে পরিচিত রান্নার একটি স্থানীয় গাইড দিতে পারি। 🍲\n\n' + localGuide);
+      } else {
+        addAssistantMessage('রেসিপির খাতা খুলতে গিয়ে সমস্যা হয়েছে। ইন্টারনেট ঠিক আছে কি না দেখে আবার চেষ্টা করো। 🌼');
+      }
       return;
     }
 
@@ -556,7 +425,7 @@ export default function MiraChat({ onOpenRecipe }) {
         .map(recipe => ({ recipe, score: titleMatchCount(recipe, found.groups) }))
         .sort((a, b) => b.score - a.score);
       const best = scored[0];
-      const cleanedPhrase = normalizeSearchText(cleanedOriginal || cleanedBengali || rawText);
+      const cleanedPhrase = normalizeSearchText(originalQuery);
       const bestTitle = normalizeSearchText(best?.recipe?.title || '');
       const phraseInTitle = cleanedPhrase.length > 2 && bestTitle.includes(cleanedPhrase);
       const exactEnough = best && (
@@ -565,24 +434,23 @@ export default function MiraChat({ onOpenRecipe }) {
         (found.recipes.length === 1 && found.groups.length <= 2)
       );
       if (exactEnough) {
+        setMood('happy');
         onOpenRecipe?.(best.recipe);
         setIsFullscreen(false);
         setIsOpen(false);
         return;
       }
-      addAssistantMessage(await localizeReply(MIRA_COPY.suggestions, language), scored.slice(0, 5).map(item => item.recipe));
+      addAssistantMessage(MIRA_COPY.suggestions, scored.slice(0, 5).map(item => item.recipe));
       return;
     }
 
-    // If the server-side model failed, a catalogue miss is not proof that
-    // the user's message was misunderstood or that the dish doesn't exist.
-    if (aiResponse.errorCode) {
-      const locale = isBengali(rawText) ? 'bn' : detectBanglish(rawText) ? 'banglish' : (typeof navigator !== 'undefined' && String(navigator.language || '').startsWith('bn') ? 'bn' : 'en');
-      addAssistantMessage(getMiraAIErrorMessage(aiResponse.errorCode, locale));
+    const localGuide = getMiraLocalRecipeGuide(rawText);
+    if (localGuide) {
+      addAssistantMessage('এই নামে প্রকাশিত রেসিপি ক্যাটালগে পেলাম না, তবে ঘরোয়া একটি সহজ পদ্ধতি দিতে পারি। নিজের স্বাদ ও উপকরণ অনুযায়ী পরিমাণ সামঞ্জস্য করে নিও। 🍲\n\n' + localGuide);
       return;
     }
 
-    addAssistantMessage(await localizeReply(MIRA_COPY.notFound, language));
+    addAssistantMessage(MIRA_COPY.notFound);
   };
 
   const sendText = async (rawText) => {
