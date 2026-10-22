@@ -1551,3 +1551,102 @@
   .featured-banner-section .featured-image,
   .featured-banner-section .featured-progress > span { animation: none; }
 }
+
+
+/* Drag-and-drop Mira: dock the little head anywhere without blocking the page. */
+.mira-widget {
+  width: min(370px, calc(100vw - 28px));
+  max-width: calc(100vw - 28px);
+  align-items: flex-end;
+  will-change: auto;
+}
+.mira-widget.mira-position-left { align-items: flex-start; }
+.mira-widget.mira-position-right { align-items: flex-end; }
+.mira-widget.mira-widget-dragging {
+  transition: none !important;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.mira-launcher {
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  cursor: grab;
+}
+.mira-launcher:active { cursor: grabbing; }
+.mira-launcher-dragging,
+.mira-widget-dragging .mira-launcher {
+  cursor: grabbing;
+  transition: none !important;
+}
+.mira-launcher-dragging .mira-mascot,
+.mira-widget-dragging .mira-mascot {
+  animation: none !important;
+  transform: scale(.96);
+  filter: saturate(1.15);
+  box-shadow: 0 8px 22px #315c4330, inset 0 -3px 0 #edc0d0;
+}
+.mira-widget-dragging .mira-panel,
+.mira-widget-dragging .mira-intro-bubble {
+  pointer-events: none;
+}
+.mira-position-left .mira-intro-bubble {
+  right: auto;
+  left: 0;
+  transform-origin: left bottom;
+  border-radius: 16px 16px 16px 5px;
+}
+.mira-position-right .mira-intro-bubble {
+  right: 0;
+  left: auto;
+  transform-origin: right bottom;
+}
+.mira-position-top .mira-intro-bubble {
+  top: 66px;
+  bottom: auto;
+  transform-origin: left top;
+}
+.mira-position-top.mira-position-right .mira-intro-bubble {
+  transform-origin: right top;
+  border-radius: 16px 16px 5px 16px;
+}
+.mira-position-left .mira-panel {
+  right: auto;
+  left: 0;
+}
+.mira-position-right .mira-panel {
+  right: 0;
+  left: auto;
+}
+.mira-position-top .mira-panel {
+  top: 66px;
+  bottom: auto;
+}
+.mira-position-bottom .mira-panel {
+  top: auto;
+  bottom: 66px;
+}
+.mira-launcher:focus-visible {
+  outline: 3px solid #d69bb2;
+  outline-offset: 5px;
+}
+@media(max-width:700px) {
+  .mira-widget {
+    width: calc(100vw - 22px);
+    max-width: calc(100vw - 22px);
+  }
+  .mira-position-top .mira-panel { top: 61px; }
+  .mira-position-bottom .mira-panel { bottom: 61px; }
+  .mira-position-top .mira-intro-bubble { top: 61px; }
+}
+@media(max-width:360px) {
+  .mira-widget {
+    width: calc(100vw - 16px);
+    max-width: calc(100vw - 16px);
+  }
+}
+@media(prefers-reduced-motion:reduce) {
+  .mira-launcher-dragging .mira-mascot,
+  .mira-widget-dragging .mira-mascot { transition: none; }
+}
