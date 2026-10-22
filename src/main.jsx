@@ -25,7 +25,8 @@ const categories = ['সব রেসিপি','মাছ','মাংস','ড�
 const PAGE_SIZE = 24;
 const ROUTABLE_PAGES = ['home', 'recipes', 'categories', 'saved', 'about'];
 function routeFromHash(hash = window.location.hash) {
- const path = String(hash || '').replace(/^#\\/?/, '');
+ const raw=String(hash||'');
+ const path=raw.startsWith('#/')?raw.slice(2):raw.startsWith('#')?raw.slice(1):raw;
  const parts = path.split('/').filter(Boolean).map(part => {
   try { return decodeURIComponent(part); } catch { return part; }
  });
@@ -145,7 +146,8 @@ function App() {
   setShowSaved(route.page==='saved');
   if(route.page!=='recipe')setSelected(null);
   if(route.page==='saved'||route.page==='home'||route.page==='recipes')setCatalogPage(0);
-  if(route.page==='home'||route.page==='recipes'){setCategory('সব রেসিপি');setQuery('');}
+  if(route.page==='home'){setCategory('সব রেসিপি');setQuery('');}
+  if(route.page==='recipes')setCategory('সব রেসিপি');
   if(route.page==='categories')setQuery('');
   window.scrollTo({top:0,behavior:'smooth'});
  },[route.page]);
@@ -266,7 +268,7 @@ function App() {
  },[]);
  const visibleCategories=useMemo(()=>['সব রেসিপি',...new Set([...categories.slice(1),...dbCategories])],[dbCategories]);
  const filtered=useMemo(()=>{const source=catalogMode?catalogRecipes:demos.filter(r=>(category==='সব রেসিপি'||r.category===category)&&recipeMatchesSearch(r,query));return source.filter(r=>!showSaved||saved.includes(r.id));},[catalogMode,catalogRecipes,query,category,saved,showSaved]);
- const navigateTo=(page,recipe=null)=>{
+ const navigateTo=(page,recipe=null,options={})=>{
   const safePage=page==='recipe'?'recipe':ROUTABLE_PAGES.includes(page)?page:'home';
   const hashPath=safePage==='recipe'?'/recipe/'+encodeURIComponent(String(recipe?.slug||recipe?.id||'')):'/'+safePage;
   setRoute(routeFromHash('#'+hashPath));
@@ -274,7 +276,7 @@ function App() {
   setMobileMenu(false);
   setShowSaved(safePage==='saved');
   if(safePage==='recipe')setSelected(recipe||null);else setSelected(null);
-  if(['home','recipes','saved','categories'].includes(safePage)){setCategory('সব রেসিপি');setQuery('');setCatalogPage(0);}
+  if(['home','recipes','saved','categories'].includes(safePage)){setCategory('সব রেসিপি');if(!options.keepQuery)setQuery('');setCatalogPage(0);}
   window.scrollTo({top:0,behavior:'smooth'});
  };
  const toggleSave=id=>setSaved(prev=>prev.includes(id)?prev.filter(x=>x!==id):[...prev,id]);
@@ -283,7 +285,7 @@ function App() {
  const openRecipe=recipe=>navigateTo('recipe',recipe);
  const openFeaturedRecipe=recipe=>{openRecipe(recipe);setCategory('সব রেসিপি');setQuery('');setCatalogPage(0);};
  return <><header className="header"><div className="nav wrap"><a className="brand" href="#/home" onClick={e=>{e.preventDefault();navigateTo('home')}}><span className="brand-mark"><img src={import.meta.env.BASE_URL + "rannar-menu-logo.svg"} alt="" width="45" height="45" /></span><span>Rannar<span className="brand-accent"> Menu</span><small>প্রতিদিনের রান্নার অনুপ্রেরণা</small></span></a><nav className={mobileMenu?'nav-links open':'nav-links'}><a className={route.page==='recipes'||route.page==='recipe'?'nav-active':undefined} aria-current={route.page==='recipes'||route.page==='recipe'?'page':undefined} href="#/recipes" onClick={e=>{e.preventDefault();navigateTo('recipes')}}>রেসিপি</a><a className={route.page==='categories'?'nav-active':undefined} aria-current={route.page==='categories'?'page':undefined} href="#/categories" onClick={e=>{e.preventDefault();navigateTo('categories')}}>ক্যাটাগরি</a><a className={route.page==='about'?'nav-active':undefined} aria-current={route.page==='about'?'page':undefined} href="#/about" onClick={e=>{e.preventDefault();navigateTo('about')}}>আমাদের কথা</a><a href={import.meta.env.BASE_URL + "admin"} onClick={()=>setMobileMenu(false)}>অ্যাডমিন</a><button className="saved-link" aria-current={route.page==='saved'?'page':undefined} onClick={()=>navigateTo(route.page==='saved'?'recipes':'saved')}><Heart size={17} fill={route.page==='saved'?'currentColor':'none'}/> সংরক্ষিত ({saved.length})</button></nav><ThemeToggle/><button className="mobile-toggle" aria-label="মেনু" aria-expanded={mobileMenu} onClick={()=>setMobileMenu(!mobileMenu)}>{mobileMenu?<X/>:<Menu/>}</button></div></header>
- <main id="home">{route.page==='home'&&<section className="hero wrap"><div className="hero-copy"><div className="eyebrow"><Sparkles size={15}/> রান্না হোক আরও আনন্দের</div><h1>প্রতিদিনের রান্নায়<br/><em>নতুন স্বাদের</em> গল্প।</h1><p>চেনা উপকরণ, সহজ রেসিপি আর ঘরোয়া স্বাদে আপনার প্রতিদিনের খাবার হোক একটু বেশি বিশেষ।</p><div className="hero-actions"><form className="hero-search" role="search" onSubmit={e=>{e.preventDefault();setCategory('সব রেসিপি');setCatalogPage(0);setShowSaved(false);setSelected(null);navigateTo('recipes');}}><Search size={21} aria-hidden="true"/><input type="search" value={query} onChange={e=>{setQuery(e.target.value);setCatalogPage(0)}} placeholder="যেকোনো ভাষায় খাবারের নাম খুঁজুন..." aria-label="রেসিপি বা উপকরণ খুঁজুন"/><button type="submit" aria-label="খুঁজুন"><Search size={19}/></button></form><span className="social-proof"><span className="proof-icon"><Utensils size={16}/></span> ঘরের রান্না, মনের মতো</span></div><div className="hero-stats"><div><strong>সহজ</strong><span>ধাপে ধাপে নির্দেশনা</span></div><div><strong>ঘরোয়া</strong><span>পরিচিত উপকরণ</span></div><div><strong>সুস্বাদু</strong><span>প্রতিদিন নতুন আইডিয়া</span></div></div></div></section>}
+ <main id="home">{route.page==='home'&&<section className="hero wrap"><div className="hero-copy"><div className="eyebrow"><Sparkles size={15}/> রান্না হোক আরও আনন্দের</div><h1>প্রতিদিনের রান্নায়<br/><em>নতুন স্বাদের</em> গল্প।</h1><p>চেনা উপকরণ, সহজ রেসিপি আর ঘরোয়া স্বাদে আপনার প্রতিদিনের খাবার হোক একটু বেশি বিশেষ।</p><div className="hero-actions"><form className="hero-search" role="search" onSubmit={e=>{e.preventDefault();setCategory('সব রেসিপি');setCatalogPage(0);setShowSaved(false);setSelected(null);navigateTo('recipes',null,{keepQuery:true});}}><Search size={21} aria-hidden="true"/><input type="search" value={query} onChange={e=>{setQuery(e.target.value);setCatalogPage(0)}} placeholder="যেকোনো ভাষায় খাবারের নাম খুঁজুন..." aria-label="রেসিপি বা উপকরণ খুঁজুন"/><button type="submit" aria-label="খুঁজুন"><Search size={19}/></button></form><span className="social-proof"><span className="proof-icon"><Utensils size={16}/></span> ঘরের রান্না, মনের মতো</span></div><div className="hero-stats"><div><strong>সহজ</strong><span>ধাপে ধাপে নির্দেশনা</span></div><div><strong>ঘরোয়া</strong><span>পরিচিত উপকরণ</span></div><div><strong>সুস্বাদু</strong><span>প্রতিদিন নতুন আইডিয়া</span></div></div></div></section>}
  {route.page==='home'&&<section className="featured-banner-section" aria-label="Trending Recipes"><FeaturedRecipeCarousel recipes={featuredRecipes} activeIndex={featuredIndex} onSelect={openFeaturedRecipe} onPrevious={()=>stepFeatured(-1)} onNext={()=>stepFeatured(1)} onSelectIndex={setFeaturedIndex} paused={featuredPaused} onTogglePause={()=>setFeaturedPaused(value=>!value)} loading={featuredLoading} error={featuredError}/></section>}
  {(route.page==='home'||route.page==='categories')&&<section className="category-strip" id="categories"><div className="wrap category-inner"><div><span className="section-kicker">আপনার পছন্দের স্বাদ</span><h2>কী রান্না হবে আজ?</h2></div><div className="category-pills">{visibleCategories.map((c,i)=><button key={c} className={category===c?'category-pill active':'category-pill'} onClick={()=>{setCategory(c);setCatalogPage(0);setShowSaved(false);setSelected(null)}}>{i===0?<Utensils size={16}/>:i===1?<span>🐟</span>:i===2?<span>🍗</span>:i===3?<span>🥚</span>:<Leaf size={16}/>} {c}</button>)}</div></div></section>}
  {['home','recipes','categories','saved','recipe'].includes(route.page)&&<section className="recipes-section wrap" id="recipes">{!selected&&<div className="section-heading"><div><span className="section-kicker">রান্নাঘরের সংগ্রহ</span><h2>{showSaved?'আপনার সংরক্ষিত রেসিপি':route.page==='categories'?'ক্যাটাগরি অনুযায়ী রেসিপি':route.page==='recipes'?'সব রেসিপি':'স্বাদের সেরা আয়োজন'}</h2><p>{showSaved?'পরে রান্না করার জন্য পছন্দের রেসিপিগুলো এখানে পাবেন।':route.page==='categories'?'পছন্দের খাবারের বিভাগ বেছে নিয়ে সেই রেসিপিগুলো দেখুন।':route.page==='recipes'?'সহজ থেকে বিশেষ আয়োজন—সব প্রকাশিত রেসিপি এক জায়গায়।':'সহজ থেকে বিশেষ আয়োজন—আপনার পরের রান্নার আইডিয়া এখানেই।'}</p></div></div>}
