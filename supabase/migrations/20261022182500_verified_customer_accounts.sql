@@ -35,7 +35,11 @@ create table if not exists public.customer_profiles (
 );
 alter table public.customer_profiles enable row level security;
 revoke all on public.customer_profiles from public, anon, authenticated;
-grant select, update on public.customer_profiles to authenticated;
+grant select, insert, update on public.customer_profiles to authenticated;
+drop policy if exists "Customers create their own verified profile" on public.customer_profiles;
+create policy "Customers create their own verified profile"
+on public.customer_profiles for insert to authenticated
+with check (user_id = (select auth.uid()) and public.is_verified_customer());
 drop policy if exists "Customers read their own verified profile" on public.customer_profiles;
 create policy "Customers read their own verified profile"
 on public.customer_profiles for select to authenticated
