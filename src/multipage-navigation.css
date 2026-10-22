@@ -1,0 +1,176 @@
+/* Responsive multi-page navigation for Rannar Menu */
+.bottom-navigation {
+  display: none;
+}
+
+.nav-links a.nav-active {
+  color: var(--green);
+  font-weight: 700;
+  position: relative;
+}
+.nav-links a.nav-active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -9px;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--green);
+}
+.bottom-nav-item:focus-visible {
+  outline: 3px solid #8bb795;
+  outline-offset: 2px;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding-bottom: calc(104px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .header {
+    height: 70px;
+  }
+  .nav {
+    gap: 10px;
+  }
+  .brand {
+    gap: 8px;
+    font-size: 20px;
+  }
+  .brand small {
+    font-size: 9px;
+    letter-spacing: 0;
+  }
+  .brand-mark {
+    width: 39px;
+    height: 39px;
+    border-radius: 10px;
+  }
+  .nav-links,
+  .mobile-toggle {
+    display: none !important;
+  }
+
+  .bottom-navigation {
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    bottom: calc(8px + env(safe-area-inset-bottom, 0px));
+    z-index: 70;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 3px;
+    padding: 7px 6px;
+    border: 1px solid #e1e7dd;
+    border-radius: 19px;
+    background: rgba(255, 253, 248, .97);
+    box-shadow: 0 8px 30px rgba(32, 52, 37, .16);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+  }
+  .bottom-nav-item {
+    position: relative;
+    display: flex;
+    min-width: 0;
+    min-height: 54px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 6px 2px;
+    border: 0;
+    border-radius: 13px;
+    background: transparent;
+    color: #737c70;
+    cursor: pointer;
+    font: inherit;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color .18s ease, color .18s ease;
+  }
+  .bottom-nav-item.is-active {
+    background: #e7efe4;
+    color: #244d32;
+  }
+  .bottom-nav-icon {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 26px;
+    height: 24px;
+  }
+  .bottom-nav-label {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    color: inherit;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.25;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .bottom-nav-count {
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    display: grid;
+    min-width: 15px;
+    height: 15px;
+    place-items: center;
+    padding: 0 3px;
+    border: 1.5px solid #fffdf8;
+    border-radius: 999px;
+    background: #b64e46;
+    color: white;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  html[data-theme="dark"] .bottom-navigation {
+    border-color: #344338;
+    background: rgba(21, 29, 22, .97);
+    box-shadow: 0 10px 32px rgba(0, 0, 0, .42);
+  }
+  html[data-theme="dark"] .bottom-nav-item {
+    color: #b6c2b5;
+  }
+  html[data-theme="dark"] .bottom-nav-item.is-active {
+    background: #294531;
+    color: #eff7ed;
+  }
+  html[data-theme="dark"] .bottom-nav-count {
+    border-color: #151d16;
+  }
+}
+
+@media (max-width: 390px) {
+  .bottom-navigation {
+    left: 7px;
+    right: 7px;
+    padding: 6px 4px;
+    gap: 1px;
+  }
+  .bottom-nav-item {
+    min-height: 51px;
+  }
+  .bottom-nav-label {
+    font-size: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bottom-nav-item {
+    transition: none;
+  }
+}
+
+/* Keep Mira's floating helper above the mobile tab bar instead of covering it. */
+@media (max-width: 700px) {
+  .mira-widget {
+    right: 12px;
+    bottom: calc(82px + env(safe-area-inset-bottom, 0px)) !important;
+  }
+}
