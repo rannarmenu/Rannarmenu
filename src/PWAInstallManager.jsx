@@ -9,10 +9,29 @@ export default function PWAInstallManager() {
   const baseUrl = import.meta.env.BASE_URL || '/';
 
   useEffect(() => {
-    // Keep offline/PWA support, but never show an app-install/download prompt.
+    // Install the new local-Mira service worker and refresh any tab it takes control of.
+    // The versioned URL prompts installed PWAs to fetch this service worker immediately.
+    const serviceWorkerVersion = 'local-mira-20261022';
+    const serviceWorkerUrl = `${baseUrl}sw.js?v=${serviceWorkerVersion}`;
+    const handleControllerChange = () => {
+      const controller = navigator.serviceWorker.controller;
+      if (!controller || !controller.scriptURL.includes(`v=${serviceWorkerVersion}`)) return;
+      try {
+        const reloadKey = `rannar-menu-sw-reloaded-${serviceWorkerVersion}`;
+        if (window.sessionStorage.getItem(reloadKey) === '1') return;
+        window.sessionStorage.setItem(reloadKey, '1');
+      } catch {
+        // If storage is blocked, the service worker update still works without auto-refresh.
+        return;
+      }
+      window.location.reload();
+    };
+
     if ('serviceWorker' in navigator && window.isSecureContext) {
+      navigator.serviceWorker.addEventListener('controllerchange', handleControllerChange);
       navigator.serviceWorker
-        .register(`${baseUrl}sw.js`, { scope: baseUrl })
+        .register(serviceWorkerUrl, { scope: baseUrl })
+        .then(registration => registration.update())
         .catch(() => {
           // The website remains usable if service-worker registration is unavailable.
         });
@@ -32,6 +51,9 @@ export default function PWAInstallManager() {
     return () => {
       window.clearTimeout(hideTimer);
       window.removeEventListener('beforeinstallprompt', suppressInstallPrompt);
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.removeEventListener('controllerchange', handleControllerChange);
+      }
     };
   }, [baseUrl]);
 
