@@ -239,6 +239,38 @@ export default function MiraChat({ onOpenRecipe }) {
     return () => { window.clearTimeout(showTimer); window.clearTimeout(hideTimer); };
   }, []);
 
+  // Mira can offer a quiet, dismissible tip while idle, but never opens the chat by herself.
+  useEffect(() => {
+    const prompts = [
+      { heading: 'একটু সাহায্য লাগবে? 💚', hint: 'রান্না, লেখা বা যেকোনো প্রশ্ন করো', mood: 'wave' },
+      { heading: 'Psst… Mira ekhane! ✨', hint: 'Banglish-eo kotha bolte paro', mood: 'wink' },
+      { heading: 'আজ কী বানাবে? 🍲', hint: 'উপকরণ বললেই আইডিয়া দেব', mood: 'happy' }
+    ];
+    const markActivity = () => { lastActivityRef.current = Date.now(); };
+    ['pointerdown', 'touchstart', 'keydown', 'scroll'].forEach(eventName => {
+      window.addEventListener(eventName, markActivity, { passive: true });
+    });
+    let hideTimer;
+    const nudgeTimer = window.setInterval(() => {
+      if (proactiveCountRef.current >= 3 || isOpen || document.visibilityState === 'hidden') return;
+      if (Date.now() - lastActivityRef.current < 55_000) return;
+      const prompt = prompts[proactiveCountRef.current % prompts.length];
+      proactiveCountRef.current += 1;
+      setIntroContent({ heading: prompt.heading, hint: prompt.hint });
+      setMood(prompt.mood);
+      setShowIntro(true);
+      window.clearTimeout(hideTimer);
+      hideTimer = window.setTimeout(() => setShowIntro(false), 4800);
+    }, 52_000);
+    return () => {
+      window.clearInterval(nudgeTimer);
+      window.clearTimeout(hideTimer);
+      ['pointerdown', 'touchstart', 'keydown', 'scroll'].forEach(eventName => {
+        window.removeEventListener(eventName, markActivity);
+      });
+    };
+  }, [isOpen]);
+
   useEffect(() => {
     if (busy) { setMood('thinking'); return; }
     if (isOpen) { setMood('happy'); return; }
