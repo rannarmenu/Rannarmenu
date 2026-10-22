@@ -92,7 +92,7 @@
 .about-mission-strip strong { font-size: 14px; }
 .about-mission-strip p { margin: 4px 0 0; color: #6c786b; font-size: 12px; line-height: 1.8; }
 .about-media-section { padding-top: 8px; }
-.about-media-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; }
+.about-media-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
 .about-media-card { display: flex; flex-direction: column; min-width: 0; overflow: hidden; border: 1px solid #e3e8df; border-radius: 15px; background: #fffefa; }
 .about-media-logo { height: 132px; display: flex; align-items: center; justify-content: center; padding: 17px; border-bottom: 1px solid #edf0e9; background: #fff; }
 .about-media-logo img { display: block; max-width: 100%; width: auto; height: auto; max-height: 96px; object-fit: contain; }
