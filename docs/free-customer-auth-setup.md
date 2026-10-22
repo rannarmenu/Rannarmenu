@@ -29,22 +29,43 @@ Keep the client secret private. Enter it only in the Google and Supabase dashboa
 
 ## 3. Set up email verification with free SMTP
 
-Supabase's built-in mailer is for testing only: it sends only to pre-authorized team addresses and is limited to about 2 emails/hour. Public customer signups need an external SMTP provider.
+Supabase's built-in mailer is for testing only: it sends only to pre-authorized team addresses and is limited to about 2 emails/hour. Public customer signups need a custom SMTP provider.
 
-Recommended first option: **Brevo SMTP**. Check its current free-plan limits and eligibility before relying on it:
+### Option A — use an existing Gmail account for early testing (no custom domain)
+
+This can be a no-extra-cost temporary route for a small test, but it is not my recommendation for a high-volume production service. Google may throttle or reject automated messages, and a personal Gmail sender looks less professional.
+
+1. Use a dedicated Gmail account for Rannar Menu rather than your personal primary account, if possible.
+2. Turn on 2-Step Verification for that Google account.
+3. Create an **App Password** in Google Account security settings. This option appears only for eligible accounts with 2-Step Verification enabled. Never use your normal Google password.
+4. In Supabase open **Authentication → Emails → SMTP Settings**, enable custom SMTP, and enter:
+   - Host: `smtp.gmail.com`
+   - Port: `587` (TLS/STARTTLS)
+   - Username: the full Gmail address
+   - Password: the Gmail App Password
+   - Sender email: the same Gmail address
+   - Sender name: `Rannar Menu`
+5. Save and test signup verification and password reset. Do not assume it is production-ready until delivery is tested.
+
+Google documents Gmail SMTP on `smtp.gmail.com` with port 587 or 465 and an app password for accounts with 2-Step Verification. Sending limits and abuse filters still apply: [Google's SMTP instructions](https://knowledge.workspace.google.com/admin/gmail/send-email-from-a-printer-scanner-or-app).
+
+### Option B — Brevo for a more production-oriented sender
+
+Brevo's free plan currently lists 300 emails/day, but transactional SMTP setup requires a domain you own/control and authenticate. Since this project currently only has a GitHub Pages URL, **do not attempt Brevo sender authentication using the GitHub Pages hostname or a Gmail address**. If you later own a domain, you can use Brevo:
 1. Create a Brevo account at [Brevo](https://www.brevo.com/).
-2. Add a sender and follow Brevo's verification instructions. For reliable delivery, authenticate a domain you control by publishing the SPF/DKIM DNS records Brevo supplies. The GitHub Pages subdomain itself is not a domain you control for DNS verification; if you do not own a domain, ask Brevo which sender-verification options are available for your account before proceeding.
-3. In Brevo, open **Settings → SMTP & API → SMTP**, and create/copy an **SMTP key** (not an API key).
-4. In Supabase open **Authentication → Emails → SMTP Settings**, enable custom SMTP and enter:
+2. Add your owned domain and follow Brevo's DNS authentication steps for the domain.
+3. Open **Settings → SMTP & API → SMTP** and create/copy an SMTP key.
+4. In Supabase **Authentication → Emails → SMTP Settings**, enable custom SMTP and enter:
    - Host: `smtp-relay.brevo.com`
    - Port: `587`
-   - Username: your Brevo login email
-   - Password: the Brevo SMTP key
-   - Sender email: the verified sender shown in Brevo
+   - Username: the SMTP login displayed in Brevo
+   - Password: the Brevo SMTP key (not an API key)
+   - Sender email: your authenticated sender
    - Sender name: `Rannar Menu`
-5. Save. Keep email confirmations enabled. Trigger a signup with an email you can access, open the verification link, and confirm that full recipe details become available only after verification.
+5. Save, then test signup verification and password reset.
 
-Do not send SMTP credentials to ChatGPT or store them in GitHub. Enter them only in Supabase's dashboard. If Brevo requires a domain you do not own, pause here rather than using a fake sender; you can use a domain you own or another SMTP provider that permits your sender setup.
+Keep SMTP credentials private. Enter them only in Supabase's dashboard. Do not send secrets to ChatGPT or store them in GitHub. Keep email confirmations enabled.
+
 
 ## 4. Phone OTP (optional; not guaranteed free)
 
