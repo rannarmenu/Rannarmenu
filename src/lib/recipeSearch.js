@@ -1,3 +1,5 @@
+import { toBangla } from './banglishTransliteration.js';
+
 /**
  * Multilingual recipe-search helpers.
  * Exact text remains searchable in any script stored in recipe content.
@@ -19,12 +21,13 @@ export function normalizeSearchText(value) {
 
 const ALIAS_GROUPS = [
   ['biryani','biriyani','biriani','বিরিয়ানি','বিরিয়ানি','বিরানী','बिरयानी','بریانی','بریاني','برياني'],
+  ['kacchi','kachchi','kachi','kachhi','কাচ্চি','কাচি','कच्ची','کچی'],
   ['pulao','polao','pilaf','pilau','পোলাও','পুলাও','पुलाव','پلاو','پلو','plov','抓饭'],
   ['rice','চাল','চাউল','ভাত','bhaat','bhat','chaal','chawal','chaawal','arroz','riz','رز','أرز','چاول','चावल','米饭','ご飯'],
   ['chicken','চিকেন','মুরগি','মুরগির','মুরগী','মুরগীর','মোরগ','murgi','murghi','murgh','murga','murgir','मुर्गी','मुर्गा','चिकन','مرغ','مرغی','دجاج','pollo','poulet','frango','鸡肉','雞肉','鶏肉'],
   ['beef','বিফ','গরু','গরুর','গরুর মাংস','গো-মাংস','goru','gorur','gorur mangsho','गोमांस','گائے کا گوشت','لحم بقري','boeuf','bœuf','carne de res','ternera','牛肉'],
   ['mutton','lamb','goat','খাসি','খাসির','খাসির মাংস','ছাগল','ছাগলের','khasi','khashir','羊肉','बकरे का मांस','مٹن','لحم الضأن','cordero','agneau'],
-  ['meat','মাংস','মাংসের','gosht','গোশত','گوشت','carne','viande','肉','मांस'],
+  ['meat','মাংস','মাংসের','gosht','গোশত','گوشت','mangsho','mangshô','mangso','maangsho','maangso','mangsher','carne','viande','肉','मांस'],
   ['fish','মাছ','মাছের','মাছে','maach','machh','mach','machher','macher','machli','machhli','ilish','hilsa','hilsha','ইলিশ','ইলিশের','rui','rohu','রুই','katla','কাতলা','मछली','سمك','ماهی','peixe','poisson','pescado','鱼','魚','さかな'],
   ['shrimp','prawn','চিংড়ি','চিংড়ি','চিংড়ির','chingri','ঝিনুক','झींगा','جھینگا','جمبري','میگو','crevette','gamba','camarão','虾','エビ'],
   ['egg','eggs','ডিম','ডিমের','dim','dimer','anda','انڈا','अंडा','अंडे','بيض','بيضة','oeuf','œuf','huevo','ovo','卵','蛋'],
@@ -81,13 +84,50 @@ const STOP_WORDS = new Set([
   '菜谱','食谱','做法','料理','レシピ'
 ].map(normalizeSearchText));
 
+function withinOneEdit(a, b) {
+  if (a === b) return true;
+  if (Math.abs(a.length - b.length) > 1 || Math.min(a.length, b.length) < 4) return false;
+  let i = 0;
+  let j = 0;
+  let edits = 0;
+  while (i < a.length && j < b.length) {
+    if (a[i] === b[j]) {
+      i++;
+      j++;
+      continue;
+    }
+    edits++;
+    if (edits > 1) return false;
+    if (a.length > b.length) i++;
+    else if (b.length > a.length) j++;
+    else { i++; j++; }
+  }
+  if (i < a.length || j < b.length) edits++;
+  return edits <= 1;
+}
+
+function fuzzyAliasVariants(token) {
+  if (token.length < 4) return [];
+  const found = [];
+  for (const [candidate, variants] of ALIAS_LOOKUP) {
+    if (candidate === token || Math.abs(candidate.length - token.length) > 1) continue;
+    if (withinOneEdit(token, candidate)) found.push(...variants);
+    if (found.length >= 72) break;
+  }
+  return found;
+}
+
 export function buildRecipeSearchGroups(query) {
-  const tokens = normalizeSearchText(query).split(' ').filter(Boolean);
+  const normalized = normalizeSearchText(query);
+  const tokens = normalized.split(' ').filter(Boolean);
   const meaningful = tokens.filter(token => !STOP_WORDS.has(token));
   const selected = (meaningful.length ? meaningful : tokens).slice(0, 8);
   return selected.map(token => {
-    const aliases = ALIAS_LOOKUP.get(token) || [token];
-    return [...new Set([token, ...aliases].map(normalizeSearchText).filter(Boolean))].slice(0, 36);
+    const transliterated = /[a-z]/i.test(token) ? normalizeSearchText(toBangla(token)) : '';
+    const forms = [...new Set([token, transliterated].filter(Boolean))];
+    const aliases = forms.flatMap(form => ALIAS_LOOKUP.get(form) || []);
+    const fuzzy = fuzzyAliasVariants(token);
+    return [...new Set([...forms, ...aliases, ...fuzzy].map(normalizeSearchText).filter(Boolean))].slice(0, 36);
   });
 }
 
