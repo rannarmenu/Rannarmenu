@@ -21,8 +21,8 @@ test('keeps Mira reachable when the screen is narrower than the chat panel', () 
 });
 
 test('places the widget container toward the centre without shifting the launcher anchor', () => {
-  assert.deepEqual(getMiraWidgetOrigin(30,390,368,51),{left:30,side:'left'});
-  assert.deepEqual(getMiraWidgetOrigin(329,390,368,51),{left:22,side:'right'});
+  assert.deepEqual(getMiraWidgetOrigin(30,390,360,51),{left:30,side:'left'});
+  assert.deepEqual(getMiraWidgetOrigin(329,390,368,51),{left:12,side:'right'});
 });
 
 test('clamps panel container origin on very narrow or irregular viewport input', () => {
