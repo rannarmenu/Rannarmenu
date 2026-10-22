@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, ChefHat, Heart, Lightbulb, ShieldCheck, Sparkles, Target, Users } from 'lucide-react';
+import { ArrowDownToLine, ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, ChefHat, Heart, Lightbulb, ShieldCheck, Smartphone, Sparkles, Target, Users } from 'lucide-react';
 import './about-page.css';
 
 const mediaSponsors = [
@@ -39,6 +39,13 @@ function AboutHome({ onNavigate }) {
         <ArrowRight className="about-option-arrow" size={20} aria-hidden="true" />
       </button>)}
     </nav>
+    <a className="about-option-row about-app-download" href="https://github.com/rannarmenu/Rannarmenu/releases/download/android-latest/Rannar-Menu.apk" download>
+      <span className="about-option-number">04</span>
+      <span className="about-option-icon"><Smartphone size={21} strokeWidth={1.7} aria-hidden="true" /></span>
+      <span className="about-option-copy"><strong>Android অ্যাপ ডাউনলোড</strong><small>Rannar Menu APK ডাউনলোড করে ফোনে ইনস্টল করুন · Android</small></span>
+      <ArrowDownToLine className="about-option-arrow" size={20} aria-hidden="true" />
+    </a>
+    <p className="about-app-download-note">শুধু Android ফোনের জন্য। ডাউনলোডের পর ইনস্টল করতে Android-এর অনুমতি চাইতে পারে। iPhone-এ APK ইনস্টল করা যায় না।</p>
     <div className="about-hub-note"><ChefHat size={18} aria-hidden="true" /><p>বাংলা ভাষায় রান্নার তথ্যকে আরও সহজে খুঁজে পাওয়া, বুঝতে পারা এবং দৈনন্দিন জীবনে কাজে লাগানোর অভিজ্ঞতা তৈরি করাই Rannar Menu-র লক্ষ্য।</p></div>
   </section>;
 }
