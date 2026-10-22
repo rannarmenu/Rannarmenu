@@ -4,7 +4,7 @@ import './about-page.css';
 
 const mediaSponsors = [
   { name:'Somoy TV', bangla:'সময় টিভি', description:'সংবাদ ও চলমান ঘটনাপ্রবাহ', site:'https://www.somoynews.tv/', logo:'https://thefe-bd.sgp1.cdn.digitaloceanspaces.com/posts/53385/somoy.jpg' },
-  { name:'NTV', bangla:'এনটিভি', description:'সংবাদ, অনুষ্ঠান ও বিনোদন', site:'https://www.ntvbd.com/', logo:'https://cdn.jvectors.com/upload/photos/2024/03/PPOeXLNVad5v2ZG6avan_05_df80842812ab480999f0b657f73bc5d1_jvectors.webp?updated=1743062758' },
+  { name:'ATN News', bangla:'এটিএন নিউজ', description:'বাংলাদেশের ২৪ ঘণ্টার সংবাদ', site:'https://www.atnnewstv.com/', logo:'https://upload.wikimedia.org/wikipedia/commons/4/4b/ATN_News_logo.svg' },
   { name:'Boishakhi TV', bangla:'বৈশাখী টিভি', description:'বাংলা সংবাদ ও টেলিভিশন অনুষ্ঠান', site:'https://boishakhi.tv/', logo:'https://upload.wikimedia.org/wikipedia/commons/f/f2/Boishakhi_Tv_Logo.png' },
   { name:'Jamuna TV', bangla:'যমুনা টিভি', description:'জাতীয় ও আন্তর্জাতিক সংবাদ', site:'https://jamuna.tv/', logo:'https://commons.wikimedia.org/wiki/Special:FilePath/Jamuna_TV_logo.svg' },
   { name:'Maasranga TV', bangla:'মাছরাঙা টিভি', description:'সংবাদ, খেলাধুলা ও বিনোদন', site:'https://maasranga.tv/', logo:'https://beyondtechbd.com/wp-content/uploads/2023/04/16.maasranga.png' },
