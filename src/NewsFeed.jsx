@@ -90,6 +90,16 @@ function safeHttpUrl(value) {
   }
 }
 
+function resolveNewsImage(value) {
+  const remote = safeHttpUrl(value);
+  if (remote) return remote;
+  const path = String(value || '').replace(/^\\.\\//, '');
+  if (/^news-fallbacks\\/(?:newsroom|food|bangladesh|world)\\.svg$/i.test(path)) {
+    return import.meta.env.BASE_URL + path;
+  }
+  return '';
+}
+
 function normalizeNewsItem(item, fallbackSource) {
   const rawTitle = plainText(item?.title);
   if (!rawTitle) return null;
@@ -101,7 +111,8 @@ function normalizeNewsItem(item, fallbackSource) {
   const inferredSource = hasPublisherSuffix ? rawTitle.slice(separator + 3).trim() : '';
   const description = plainText(item?.description || item?.contentSnippet || '');
   const imageFromDescription = String(item?.description || '').match(/<img[^>]+src=["']([^"']+)["']/i);
-  const image = safeHttpUrl(item?.image || item?.thumbnail || item?.enclosure?.link || imageFromDescription?.[1] || '');
+  const image = resolveNewsImage(item?.image || item?.thumbnail || item?.enclosure?.link || imageFromDescription?.[1] || '');
+  const imageFallback = resolveNewsImage(item?.imageFallback || 'news-fallbacks/newsroom.svg');
   const link = safeHttpUrl(item?.link || item?.guid || '');
   if (!link) return null;
 
@@ -114,6 +125,7 @@ function normalizeNewsItem(item, fallbackSource) {
     publishedAt: item?.pubDate || item?.published || '',
     summary: description.length > 190 ? description.slice(0, 187) + '…' : description,
     image,
+    imageFallback,
   };
 }
 
@@ -399,7 +411,21 @@ function NewsItems({ items, Icon, compact = false }) {
         <article className="news-item" key={item.id}>
           <a className="news-item-media" href={item.articleUrl || item.link} target="_blank" rel="noopener noreferrer" aria-label={item.title + ' পড়ুন'}>
             {item.image ? (
-              <img src={item.image} alt="" loading="lazy" decoding="async" onError={(event) => { event.currentTarget.hidden = true; }} />
+              <img
+                src={item.image}
+                alt=""
+                loading="lazy"
+                decoding="async"
+                onError={(event) => {
+                  const imageElement = event.currentTarget;
+                  if (item.imageFallback && imageElement.dataset.fallbackApplied !== 'true') {
+                    imageElement.dataset.fallbackApplied = 'true';
+                    imageElement.src = item.imageFallback;
+                  } else {
+                    imageElement.hidden = true;
+                  }
+                }}
+              />
             ) : null}
             <span className="news-item-media-fallback" aria-hidden="true"><Icon size={compact ? 25 : 29} strokeWidth={1.6} /></span>
           </a>
