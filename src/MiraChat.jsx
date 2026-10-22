@@ -3,7 +3,9 @@ import {
   ArrowUpRight,
   ChefHat,
   Heart,
+  Maximize2,
   MessageCircle,
+  Minimize2,
   Minus,
   Search,
   Send,
@@ -25,7 +27,7 @@ import {
   getCookingTroubleshootingReply,
   getRecipeSelectionIndex
 } from './lib/miraLanguage.js';
-import { buildMiraConversation, normalizeMiraAIResult } from './lib/miraAI.js';
+import { buildMiraConversation, getMiraAIErrorMessage, normalizeMiraAIResult } from './lib/miraAI.js';
 
 const CHAT_NOISE = new Set([
   'i','me','my','we','you','your','the','a','an','and','or','to','for','of','with','please','pls',
@@ -142,6 +144,12 @@ function MiraMascot({ small = false, mood = 'idle' }) {
 
 export default function MiraChat({ onOpenRecipe }) {
   const [isOpen, setIsOpen] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const [isComposerFocused, setIsComposerFocused] = useState(false);
+  const [viewportMetrics, setViewportMetrics] = useState(() => typeof window === 'undefined'
+    ? { width: 1024, height: 768, offsetTop: 0 }
+    : { width: window.visualViewport?.width || window.innerWidth, height: window.visualViewport?.height || window.innerHeight, offsetTop: window.visualViewport?.offsetTop || 0 });
+  const [introContent, setIntroContent] = useState({ heading: 'Hi, I’m Mira*', hint: 'Need a little recipe help?' });
   const [draft, setDraft] = useState('');
   const [messages, setMessages] = useState(() => [
     { id: 'mira-welcome', role: 'assistant', text: MIRA_COPY.welcome }
@@ -159,6 +167,9 @@ export default function MiraChat({ onOpenRecipe }) {
   const greetingLocalized = useRef(false);
   const dragRef = useRef(null);
   const suppressClickRef = useRef(false);
+  const lastActivityRef = useRef(Date.now());
+  const proactiveCountRef = useRef(0);
+  const baselineViewportHeightRef = useRef(typeof window === 'undefined' ? 768 : window.innerHeight);
 
   useEffect(() => {
     const readSavedPosition = () => {
@@ -187,6 +198,34 @@ export default function MiraChat({ onOpenRecipe }) {
   }, []);
 
   useEffect(() => {
+    const updateViewport = () => {
+      const visual = window.visualViewport;
+      const next = {
+        width: Math.round(visual?.width || window.innerWidth),
+        height: Math.round(visual?.height || window.innerHeight),
+        offsetTop: Math.round(visual?.offsetTop || 0)
+      };
+      setViewportMetrics(previous => previous.width === next.width && previous.height === next.height && previous.offsetTop === next.offsetTop ? previous : next);
+      // Refresh the baseline after a real orientation/layout change, not every keyboard resize.
+      if (Math.abs(window.innerWidth - (visual?.width || window.innerWidth)) < 24 && Math.abs(window.innerWidth - viewportMetrics.width) > 100) {
+        baselineViewportHeightRef.current = window.innerHeight;
+      }
+    };
+    const visual = window.visualViewport;
+    window.addEventListener('resize', updateViewport);
+    window.addEventListener('orientationchange', updateViewport);
+    visual?.addEventListener('resize', updateViewport);
+    visual?.addEventListener('scroll', updateViewport);
+    updateViewport();
+    return () => {
+      window.removeEventListener('resize', updateViewport);
+      window.removeEventListener('orientationchange', updateViewport);
+      visual?.removeEventListener('resize', updateViewport);
+      visual?.removeEventListener('scroll', updateViewport);
+    };
+  }, [viewportMetrics.width]);
+
+  useEffect(() => {
     let showTimer;
     let hideTimer;
     try {
@@ -203,15 +242,31 @@ export default function MiraChat({ onOpenRecipe }) {
   useEffect(() => {
     if (busy) { setMood('thinking'); return; }
     if (isOpen) { setMood('happy'); return; }
-    if (!['happy', 'sad', 'surprised'].includes(mood)) return;
-    const timer = window.setTimeout(() => setMood('idle'), 3000);
+    if (!['happy', 'sad', 'surprised', 'wink', 'kiss', 'wave'].includes(mood)) return;
+    const timer = window.setTimeout(() => setMood('idle'), 2800);
     return () => window.clearTimeout(timer);
   }, [isOpen, busy, mood]);
 
   useEffect(() => {
+    if (isOpen || busy) return;
+    const moods = ['idle', 'wink', 'kiss', 'wave', 'happy', 'surprised'];
+    let timer;
+    const scheduleExpression = () => {
+      timer = window.setTimeout(() => {
+        if (!document.hidden && !busyRef.current) {
+          const next = moods[Math.floor(Math.random() * moods.length)];
+          setMood(next);
+        }
+        scheduleExpression();
+      }, 8500 + Math.floor(Math.random() * 7000));
+    };
+    scheduleExpression();
+    return () => window.clearTimeout(timer);
+  }, [isOpen, busy]);
+
+  useEffect(() => {
     if (!isOpen) return;
     messageListRef.current?.scrollTo({ top: messageListRef.current.scrollHeight, behavior: 'smooth' });
-    inputRef.current?.focus({ preventScroll: true });
   }, [isOpen, messages, busy]);
 
   useEffect(() => {
@@ -271,9 +326,9 @@ export default function MiraChat({ onOpenRecipe }) {
   };
 
   const requestMiraAI = async (rawText, previousMessages) => {
-    if (!supabaseConfigured || !supabase) return null;
+    if (!supabaseConfigured || !supabase) return { result: null, errorCode: 'AI_NOT_CONFIGURED' };
     const messagesForAI = buildMiraConversation(previousMessages, rawText);
-    if (!messagesForAI.length) return null;
+    if (!messagesForAI.length) return { result: null, errorCode: 'AI_INVALID_REQUEST' };
     try {
       const { data, error: invokeError } = await supabase.functions.invoke('mira-chat', {
         body: {
@@ -282,11 +337,22 @@ export default function MiraChat({ onOpenRecipe }) {
           page: typeof window !== 'undefined' ? window.location.pathname : '/'
         }
       });
-      if (invokeError) return null;
-      return normalizeMiraAIResult(data);
+      if (invokeError) {
+        let errorCode = 'AI_CONNECTION';
+        try {
+          const response = invokeError.context;
+          if (response && typeof response.clone === 'function') {
+            const body = await response.clone().json();
+            if (typeof body?.code === 'string') errorCode = body.code;
+          }
+        } catch { /* Function/network errors may not include readable JSON. */ }
+        return { result: null, errorCode };
+      }
+      if (data?.ok !== true) return { result: null, errorCode: typeof data?.code === 'string' ? data.code : 'AI_UNAVAILABLE' };
+      const result = normalizeMiraAIResult(data);
+      return result ? { result, errorCode: null } : { result: null, errorCode: 'AI_INVALID_RESPONSE' };
     } catch {
-      // AI provider may not be configured; the existing local assistant remains available.
-      return null;
+      return { result: null, errorCode: 'AI_CONNECTION' };
     }
   };
 
@@ -307,7 +373,8 @@ export default function MiraChat({ onOpenRecipe }) {
 
     // Ask the server-side language model first. It gets recent conversation
     // context and returns a validated action; only the client can open real recipes.
-    const aiResult = await requestMiraAI(rawText, previousMessages);
+    const aiResponse = await requestMiraAI(rawText, previousMessages);
+    const aiResult = aiResponse.result;
     let aiSearchQuery = '';
     if (aiResult) {
       if (aiResult.action !== 'recipe_search') {
@@ -443,6 +510,11 @@ export default function MiraChat({ onOpenRecipe }) {
       return;
     }
 
+    if (aiResponse.errorCode) {
+      const locale = isBengali(rawText) ? 'bn' : detectBanglish(rawText) ? 'banglish' : (typeof navigator !== 'undefined' && String(navigator.language || '').startsWith('bn') ? 'bn' : 'en');
+      addAssistantMessage(getMiraAIErrorMessage(aiResponse.errorCode, locale));
+      return;
+    }
     addAssistantMessage(await localizeReply(MIRA_COPY.fallback, language));
   };
 
@@ -549,11 +621,16 @@ export default function MiraChat({ onOpenRecipe }) {
       return;
     }
     setShowIntro(false);
-    setIsOpen(value => !value);
+    setIsOpen(value => {
+      if (!value) setIsFullscreen(false);
+      return !value;
+    });
   };
 
-  const viewportWidth = typeof window !== 'undefined' ? window.innerWidth : 1024;
-  const viewportHeight = typeof window !== 'undefined' ? window.innerHeight : 768;
+  const viewportWidth = Math.max(1, viewportMetrics.width || (typeof window !== 'undefined' ? window.innerWidth : 1024));
+  const viewportHeight = Math.max(1, viewportMetrics.height || (typeof window !== 'undefined' ? window.innerHeight : 768));
+  const viewportOffsetTop = Math.max(0, viewportMetrics.offsetTop || 0);
+  const keyboardOpen = Boolean(isOpen && isComposerFocused && typeof window !== 'undefined' && viewportHeight < baselineViewportHeightRef.current - 100);
   const baseWidgetWidth = Math.min(370, Math.max(0, viewportWidth - (viewportWidth <= 700 ? 22 : 28)));
   const launcherSize = viewportWidth <= 360 ? 47 : viewportWidth <= 700 ? 51 : 56;
   const placementLeft = floatingPosition ? floatingPosition.left < viewportWidth / 2 : false;
@@ -578,13 +655,16 @@ export default function MiraChat({ onOpenRecipe }) {
     ? { ...floatingPosition, width: launcherSize, height: launcherSize }
     : { left: currentLauncherRect?.left ?? Math.max(0, viewportWidth - launcherSize - 12), top: currentLauncherRect?.top ?? Math.max(0, viewportHeight - launcherSize - 12), width: currentLauncherRect?.width ?? launcherSize, height: currentLauncherRect?.height ?? launcherSize };
   const panelWidth = Math.min(370, Math.max(0, viewportWidth - 24));
-  const panelHeight = Math.min(viewportWidth <= 700 ? 560 : 590, Math.max(0, viewportHeight - 24));
-  const panelPlacement = isOpen
+  const panelHeight = Math.min(viewportWidth <= 700 ? 430 : 520, Math.max(220, viewportHeight - 72));
+  const panelPlacement = isOpen && !isFullscreen && !keyboardOpen
     ? getMiraPanelPlacement(panelAnchor, { width: viewportWidth, height: viewportHeight }, { width: panelWidth, height: panelHeight }, 12)
     : null;
-  const chatPanelStyle = panelPlacement
-    ? { position: 'fixed', left: panelPlacement.left + 'px', top: panelPlacement.top + 'px', right: 'auto', bottom: 'auto', width: panelPlacement.width + 'px', height: panelPlacement.height + 'px', maxWidth: 'calc(100vw - 24px)', maxHeight: 'calc(100dvh - 24px)' }
-    : undefined;
+  const usesExpandedViewport = isFullscreen || keyboardOpen;
+  const chatPanelStyle = usesExpandedViewport
+    ? { position: 'fixed', left: '8px', top: (viewportOffsetTop + 8) + 'px', right: 'auto', bottom: 'auto', width: Math.max(0, viewportWidth - 16) + 'px', height: Math.max(180, viewportHeight - 16) + 'px', maxWidth: Math.max(0, viewportWidth - 16) + 'px', maxHeight: Math.max(180, viewportHeight - 16) + 'px' }
+    : panelPlacement
+      ? { position: 'fixed', left: panelPlacement.left + 'px', top: panelPlacement.top + 'px', right: 'auto', bottom: 'auto', width: panelPlacement.width + 'px', height: panelPlacement.height + 'px', maxWidth: 'calc(100vw - 24px)', maxHeight: 'calc(100dvh - 24px)' }
+      : undefined;
 
   const handleSubmit = event => {
     event.preventDefault();
@@ -592,18 +672,19 @@ export default function MiraChat({ onOpenRecipe }) {
   };
 
   return <div
-    className={'mira-widget mira-widget-' + mood + (floatingPosition ? (placementLeft ? ' mira-position-left' : ' mira-position-right') + (placementTop ? ' mira-position-top' : ' mira-position-bottom') : '') + (isDragging ? ' mira-widget-dragging' : '')}
+    className={'mira-widget mira-widget-' + mood + (floatingPosition ? (placementLeft ? ' mira-position-left' : ' mira-position-right') + (placementTop ? ' mira-position-top' : ' mira-position-bottom') : '') + (isDragging ? ' mira-widget-dragging' : '') + (isFullscreen ? ' mira-widget-fullscreen' : '')}
     style={widgetStyle}
   >
-    {isOpen && <section className="mira-panel" style={chatPanelStyle} role="dialog" aria-label="Mira recipe helper" aria-modal="false">
+    {isOpen && <section className={'mira-panel' + (isFullscreen ? ' mira-panel-fullscreen' : '') + (keyboardOpen ? ' mira-panel-keyboard-open' : '')} style={chatPanelStyle} role="dialog" aria-label="Mira recipe helper" aria-modal={isFullscreen}>
       <header className="mira-header">
         <MiraMascot small/>
         <div className="mira-header-copy">
           <strong>Mira<span>*</span></strong>
           <small><span className="mira-online-dot"/> রান্নাঘরে হাজির · সাহায্য করতে প্রস্তুত</small>
         </div>
-        <button type="button" className="mira-window-btn" onClick={() => setIsOpen(false)} aria-label="Mira ছোট করো"><Minus size={19}/></button>
-        <button type="button" className="mira-window-btn" onClick={() => setIsOpen(false)} aria-label="Mira বন্ধ করো"><X size={19}/></button>
+        <button type="button" className="mira-window-btn mira-expand-btn" onClick={() => setIsFullscreen(value => !value)} aria-label={isFullscreen ? 'সাধারণ আকারে ফেরাও' : 'পুরো স্ক্রিনে খোলো'} title={isFullscreen ? 'সাধারণ আকারে ফেরাও' : 'পুরো স্ক্রিনে খোলো'}>{isFullscreen ? <Minimize2 size={17}/> : <Maximize2 size={17}/>}</button>
+        <button type="button" className="mira-window-btn" onClick={() => { if (isFullscreen) setIsFullscreen(false); else setIsOpen(false); }} aria-label={isFullscreen ? 'ছোট চ্যাটে ফেরাও' : 'Mira ছোট করো'} title={isFullscreen ? 'ছোট চ্যাটে ফেরাও' : 'Mira ছোট করো'}><Minus size={19}/></button>
+        <button type="button" className="mira-window-btn mira-close-btn" onClick={() => { setIsFullscreen(false); setIsOpen(false); }} aria-label="Mira বন্ধ করো" title="বন্ধ করো"><X size={19}/></button>
       </header>
       <div className="mira-chat-context"><Sparkles size={13}/> মিষ্টি কথা, কাজে পাকা। বেশি বিরক্ত করে না! 😼</div>
       <div className="mira-messages" ref={messageListRef} aria-live="polite" aria-relevant="additions text">
@@ -611,7 +692,7 @@ export default function MiraChat({ onOpenRecipe }) {
           {message.role === 'assistant' && <MiraMascot small/>}
           <div className="mira-message-content">
             <div className="mira-bubble">{message.text.split('**').map((part, index) => index % 2 ? <strong key={index}>{part}</strong> : <React.Fragment key={index}>{part}</React.Fragment>)}</div>
-            {message.recipes?.length > 0 && <div className="mira-recipe-options">{message.recipes.map(recipe => <button key={recipe.id || recipe.slug || recipe.title} type="button" className="mira-recipe-option" onClick={() => { onOpenRecipe?.(recipe); setIsOpen(false); }}>
+            {message.recipes?.length > 0 && <div className="mira-recipe-options">{message.recipes.map(recipe => <button key={recipe.id || recipe.slug || recipe.title} type="button" className="mira-recipe-option" onClick={() => { onOpenRecipe?.(recipe); setIsFullscreen(false); setIsOpen(false); }}>
               <span className="mira-option-icon"><Utensils size={16}/></span>
               <span><strong>{recipe.title}</strong><small>{recipe.category || 'রেসিপি'} · {recipe.time || 0} মিনিট</small></span>
               <ArrowUpRight size={16}/>
@@ -628,14 +709,14 @@ export default function MiraChat({ onOpenRecipe }) {
       <form className="mira-composer" onSubmit={handleSubmit}>
         <label className="mira-input-wrap">
           <span className="mira-input-sr">Mira-কে বার্তা লিখুন</span>
-          <input ref={inputRef} value={draft} onChange={event => setDraft(event.target.value)} placeholder="যেকোনো ভাষায় লিখে দাও…" maxLength={300} autoComplete="off" aria-label="Mira-কে বার্তা লিখুন" disabled={busy}/>
+          <input ref={inputRef} value={draft} onChange={event => setDraft(event.target.value)} onFocus={() => setIsComposerFocused(true)} onBlur={() => setIsComposerFocused(false)} placeholder="যেকোনো ভাষায় লিখে দাও…" maxLength={300} autoComplete="off" aria-label="Mira-কে বার্তা লিখুন" disabled={busy}/>
         </label>
         <button className="mira-send-btn" type="submit" aria-label="বার্তা পাঠান" disabled={busy || !draft.trim()}><Send size={17}/></button>
       </form>
       <p className="mira-privacy-note">AI/অনুবাদ পরিষেবায় বার্তা প্রক্রিয়াকৃত হতে পারে। পাসওয়ার্ড বা ব্যক্তিগত তথ্য লিখো না।</p>
     </section>}
     <div className={'mira-intro-bubble ' + (showIntro && !isOpen ? 'mira-intro-visible' : '')} aria-hidden={!showIntro || isOpen}>
-      <span className="mira-intro-copy"><strong>Hi, I’m Mira* <span>✦</span></strong><small>Need a little recipe help?</small></span>
+      <span className="mira-intro-copy" role="button" tabIndex={0} onClick={() => { setShowIntro(false); setIsOpen(true); }} onKeyDown={event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); setShowIntro(false); setIsOpen(true); } }}><strong>{introContent.heading} <span>✦</span></strong><small>{introContent.hint}</small></span>
       <button type="button" className="mira-intro-close" onClick={() => setShowIntro(false)} aria-label="Greeting বন্ধ করো"><X size={12}/></button>
     </div>
     <button
