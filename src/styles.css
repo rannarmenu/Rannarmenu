@@ -1085,25 +1085,27 @@
 
 
 
-/* Compact category band — desktop canvas 1920 × 180 px; no full-screen takeover. */
+/* Vertical category directory — full-width rows, sized for touch and accessible scrolling. */
 .category-strip {
   width: 100%;
-  height: 180px;
-  min-height: 180px;
-  max-height: 180px;
-  overflow: hidden;
-  background: linear-gradient(110deg, #f4f4ed 0%, #f8f8f3 60%, #f0f2e9 100%);
+  height: auto;
+  min-height: 0;
+  max-height: none;
+  overflow: visible;
+  background: linear-gradient(145deg, #f4f4ed 0%, #fbfaf6 58%, #f0f2e9 100%);
+  border-block: 1px solid #e4e6db;
 }
 .category-inner.wrap {
-  width: min(1920px, calc(100% - 64px));
-  max-width: 1920px;
-  height: 100%;
+  width: min(860px, calc(100% - 64px));
+  max-width: 860px;
+  height: auto;
   margin-inline: auto;
-  display: grid;
-  grid-template-columns: minmax(220px, 285px) minmax(0, 1fr);
-  align-items: center;
-  gap: 28px;
-  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 22px;
+  padding: 34px 0 42px;
 }
 .category-inner > div:first-child {
   display: flex;
@@ -1111,122 +1113,132 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 2px;
+  gap: 3px;
 }
 .category-inner .section-kicker {
   font-size: 12px;
   line-height: 1.45;
+  letter-spacing: .025em;
 }
 .category-inner h2 {
-  margin: 2px 0 0;
-  font-size: clamp(23px, 1.7vw, 30px);
-  line-height: 1.2;
+  margin: 3px 0 0;
+  font-size: clamp(25px, 3vw, 32px);
+  line-height: 1.3;
   letter-spacing: -.45px;
-  white-space: nowrap;
+  white-space: normal;
 }
 .category-pills {
   display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: stretch;
   justify-content: flex-start;
-  gap: 10px;
+  gap: 9px;
   width: 100%;
   min-width: 0;
-  padding: 5px 2px 9px;
-  overflow-x: auto;
-  overflow-y: hidden;
-  overscroll-behavior-x: contain;
-  scrollbar-width: thin;
-  scrollbar-color: #c5d0c0 transparent;
-  scroll-snap-type: x proximity;
-  -webkit-overflow-scrolling: touch;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
 }
 .category-pill {
+  display: flex;
   flex: 0 0 auto;
-  justify-content: center;
-  gap: 8px;
-  min-width: max-content;
-  min-height: 48px;
-  padding: 9px 14px;
-  border-radius: 10px;
-  font-size: 13px;
-  line-height: 1.25;
-  white-space: nowrap;
-  scroll-snap-align: start;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 13px;
+  width: 100%;
+  min-width: 0;
+  min-height: 60px;
+  padding: 14px 18px;
+  border: 1px solid #e0e3d8;
+  border-radius: 12px;
+  background: #fbfaf6;
+  color: #465649;
+  box-shadow: 0 2px 8px rgba(35, 54, 41, .035);
+  font-size: 15px;
+  line-height: 1.4;
+  text-align: left;
+  white-space: normal;
+  transition: background-color .18s ease, border-color .18s ease, color .18s ease, transform .18s ease, box-shadow .18s ease;
 }
-.category-pill > svg,
-.category-pill > span {
-  flex: 0 0 27px;
-  width: 27px;
-  height: 27px;
-  font-size: 16px;
+.category-pill > svg:first-child,
+.category-pill > span:first-child {
+  flex: 0 0 32px;
+  width: 32px;
+  height: 32px;
+  font-size: 17px;
 }
-.category-pills::-webkit-scrollbar { height: 5px; }
-.category-pills::-webkit-scrollbar-track { background: transparent; }
-.category-pills::-webkit-scrollbar-thumb { background: #c5d0c0; border-radius: 20px; }
-.category-pill:focus-visible { outline-offset: 2px; }
-
-@media(max-width:1100px) {
-  .category-inner.wrap {
-    width: calc(100% - 40px);
-    grid-template-columns: minmax(195px, 235px) minmax(0, 1fr);
-    gap: 18px;
-  }
-  .category-pill { padding-inline: 11px; }
+.category-pill > .category-pill-arrow {
+  flex: 0 0 19px;
+  width: 19px;
+  height: 19px;
+  margin-left: auto;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #72836f;
+  transition: transform .18s ease, color .18s ease;
+}
+.category-pill:hover {
+  border-color: #b9c9b8;
+  background: #fff;
+  color: var(--green);
+  transform: translateY(-1px);
+  box-shadow: 0 7px 18px rgba(38, 61, 41, .07);
+}
+.category-pill:hover > .category-pill-arrow {
+  color: var(--green);
+  transform: translateX(3px);
+}
+.category-pill.active {
+  border-color: var(--green);
+  background: var(--green);
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(49, 92, 67, .14);
+}
+.category-pill.active > svg:first-child,
+.category-pill.active > span:first-child {
+  background: #ffffff20;
+  color: #fff;
+}
+.category-pill.active > .category-pill-arrow {
+  background: transparent;
+  color: #fff;
+}
+.category-pill:focus-visible {
+  outline: 3px solid #9bb59b;
+  outline-offset: 3px;
 }
 @media(max-width:700px) {
-  .category-strip {
-    height: 180px;
-    min-height: 180px;
-    max-height: 180px;
-  }
   .category-inner.wrap {
     width: calc(100% - 34px);
-    grid-template-columns: minmax(0, 1fr);
-    grid-template-rows: auto minmax(0, 1fr);
-    align-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 13px 0 10px;
+    gap: 17px;
+    padding: 26px 0 32px;
   }
-  .category-inner > div:first-child {
-    gap: 1px;
-  }
-  .category-inner .section-kicker {
-    font-size: 11px;
+  .category-inner > div:first-child { gap: 2px; }
+  .category-inner .section-kicker { font-size: 11px; }
+  .category-inner h2 {
+    font-size: clamp(23px, 6vw, 27px);
     line-height: 1.3;
   }
-  .category-inner h2 {
-    font-size: clamp(21px, 5.6vw, 25px);
-    line-height: 1.25;
-    margin-top: 2px;
-  }
-  .category-pills {
-    align-self: stretch;
-    gap: 8px;
-    padding: 3px 1px 7px;
-    margin: 0;
-  }
+  .category-pills { gap: 8px; }
   .category-pill {
-    min-height: 45px;
-    padding: 7px 11px;
-    border-radius: 9px;
-    gap: 7px;
-    font-size: 12px;
+    min-height: 57px;
+    padding: 12px 14px;
+    border-radius: 11px;
+    gap: 11px;
+    font-size: 14px;
   }
-  .category-pill > svg,
-  .category-pill > span {
-    flex-basis: 25px;
-    width: 25px;
-    height: 25px;
-    font-size: 15px;
+  .category-pill > svg:first-child,
+  .category-pill > span:first-child {
+    flex-basis: 30px;
+    width: 30px;
+    height: 30px;
   }
 }
 @media(max-width:360px) {
-  .category-inner.wrap { width: calc(100% - 26px); gap: 8px; }
-  .category-pill { min-height: 43px; padding-inline: 9px; }
+  .category-inner.wrap { width: calc(100% - 26px); }
+  .category-pill { padding-inline: 11px; gap: 9px; }
 }
-
 
 /* Full-width 1920 × 180 trending recipe strip */
 .hero {
