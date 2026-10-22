@@ -366,3 +366,7 @@ html[data-theme="dark"] .pwa-install-footer { background: #202b22; color: #a5b1a
   .pwa-install-close,
   .pwa-install-cta { transition: none; }
 }
+
+
+/* Keep the install prompt compact, top-aligned, and scrollable on small screens. */
+.pwa-install-dialog { pointer-events: auto; max-height: calc(100dvh - 24px); overflow-y: auto; width: min(100%, 410px); }
