@@ -404,6 +404,19 @@ function useNewsFeed(query, refreshKey = 0) {
         setError(result.items.length ? '' : 'এই ক্যাটাগরিতে এখন কোনো খবর পাওয়া যায়নি।');
       } catch (caught) {
         if (!active || caught?.name === 'AbortError') return;
+        try {
+          const snapshot = await readStaticNews();
+          const category = NEWS_CATEGORIES.find((entry) => entry.query === query);
+          const fallback = staticFeedResult(category ? snapshot.categories?.[category.id] : []);
+          if (fallback) {
+            setItems(fallback.items);
+            hasItems = true;
+            setUpdatedAt(Date.parse(snapshot.generatedAt || '') || Date.now());
+            setFromCache(true);
+            setError('');
+            return;
+          }
+        } catch { /* Show the live-feed error when no generated snapshot exists. */ }
         setError(caught?.message || 'সংবাদ লোড করা যায়নি।');
         if (!hasItems) setItems([]);
       } finally {
