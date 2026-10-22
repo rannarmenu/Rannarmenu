@@ -14,7 +14,7 @@ const SPONSORS = [
     name: 'NTV',
     label: 'NTV',
     href: 'https://www.ntvbd.com/',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/e/ef/NTV_%28Bangladesh%29_logo.svg',
+    logo: `${import.meta.env.BASE_URL}ntv-bangladesh-logo.svg`,
     className: 'sponsor-logo-ntv',
   },
   {
