@@ -1,0 +1,11 @@
+/* Admin-specific polish; layout primitives also live in src/styles.css. */
+.admin-shell :focus-visible{outline:3px solid #91b691;outline-offset:2px}
+.admin-login input{min-height:42px}
+.file-drop input{max-width:100%;margin-top:4px}
+.admin-table tbody tr:hover{background:#fbfcf9}
+.admin-table td{overflow-wrap:anywhere}
+.import-report details{margin-top:10px}
+.import-report summary{cursor:pointer;color:#315c43;font-weight:600}
+.admin-gate pre{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;line-height:1.7}
+.admin-panel-head .admin-secondary{flex-shrink:0}
+.form-actions .admin-primary{min-width:140px}
