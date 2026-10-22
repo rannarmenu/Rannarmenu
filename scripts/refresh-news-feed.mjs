@@ -77,79 +77,95 @@ function parseMetaImage(html, pageUrl) {
   const jsonImage = html.match(/["']image["']\s*:\s*["'](https?:[^"'\s]+)["']/i);
   return jsonImage ? cleanUrl(decodeHtml(jsonImage[1]), pageUrl) : '';
 }
-function hostMatches(host, expectedHost) {
-  const hostName = String(host || '').toLowerCase().replace(/^www\./, '');
-  const expected = String(expectedHost || '').toLowerCase().replace(/^www\./, '');
-  return Boolean(expected && (hostName === expected || hostName.endsWith('.' + expected)));
+const NEWS_USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36';
+function newsHeaders(extra = {}) {
+  return {
+    'User-Agent': NEWS_USER_AGENT,
+    'Accept-Language': 'en-US,en;q=0.9,bn;q=0.8',
+    Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    ...extra,
+  };
 }
-function findPublisherArticleLink(html, pageUrl, publisherUrl) {
-  let expectedHost = '';
-  try { expectedHost = new URL(publisherUrl).hostname; } catch { /* infer from page links */ }
-  const matches = [];
-  for (const match of html.matchAll(/<a\b[^>]*>/gi)) {
-    const href = cleanUrl(decodeHtml(attribute(match[0], 'href')), pageUrl);
-    if (!href) continue;
-    let parsed;
-    try { parsed = new URL(href); } catch { continue; }
-    const host = parsed.hostname.toLowerCase();
-    if (/\b(google|gstatic|googleapis|youtube|facebook|instagram|twitter|x)\./i.test(host)) continue;
-    if (parsed.pathname === '/' || /\.(css|js|png|jpe?g|gif|svg|webp|ico|pdf)$/i.test(parsed.pathname)) continue;
-    const preferred = hostMatches(host, expectedHost) ? 1 : 0;
-    matches.push({ href, preferred, pathLength: parsed.pathname.length });
+async function resolveGoogleNewsArticleUrl(articleUrl) {
+  const url = cleanUrl(articleUrl);
+  if (!url) return '';
+  if (!url.includes('news.google.com/')) return url;
+  const id = url.match(/\/(?:rss\/)?articles\/([^/?]+)/i)?.[1];
+  if (!id) return '';
+  const pageUrls = [
+    'https://news.google.com/articles/' + id + '?hl=en-US&gl=US&ceid=US:en',
+    'https://news.google.com/rss/articles/' + id + '?hl=en-US&gl=US&ceid=US:en',
+  ];
+  for (const pageUrl of pageUrls) {
+    try {
+      const response = await fetch(pageUrl, {
+        redirect: 'follow',
+        headers: newsHeaders({
+          Cookie: 'CONSENT=PENDING+987',
+          'Sec-Fetch-Dest': 'document',
+          'Sec-Fetch-Mode': 'navigate',
+          'Sec-Fetch-Site': 'none',
+          'Upgrade-Insecure-Requests': '1',
+        }),
+        signal: AbortSignal.timeout(9000),
+      });
+      if (!response.ok) continue;
+      const html = await response.text();
+      const signature = html.match(/data-n-a-sg=["']([^"']+)["']/i)?.[1];
+      const timestamp = html.match(/data-n-a-ts=["'](\d+)["']/i)?.[1];
+      if (!signature || !timestamp) continue;
+      const innerPayload = JSON.stringify([
+        'garturlreq',
+        [['X', 'X', ['X', 'X'], null, null, 1, 1, 'US:en', null, 1, null, null, null, null, null, 0, 1],
+          'X', 'X', 1, [1, 1, 1], 1, 1, null, 0, 0, null, 0],
+        id, Number(timestamp), signature,
+      ]);
+      const outerPayload = JSON.stringify([[['Fbv4je', innerPayload]]]);
+      const rpcResponse = await fetch('https://news.google.com/_/DotsSplashUi/data/batchexecute?rpcids=Fbv4je', {
+        method: 'POST',
+        headers: newsHeaders({
+          'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+          Origin: 'https://news.google.com',
+          Referer: 'https://news.google.com/',
+          'X-Same-Domain': '1',
+          Cookie: 'CONSENT=PENDING+987',
+        }),
+        body: 'f.req=' + encodeURIComponent(outerPayload),
+        signal: AbortSignal.timeout(9000),
+      });
+      if (!rpcResponse.ok) continue;
+      const rpcText = await rpcResponse.text();
+      const separator = rpcText.indexOf('\n\n');
+      if (separator < 0) continue;
+      let frames;
+      try { frames = JSON.parse(rpcText.slice(separator + 2)); } catch { continue; }
+      const frame = frames.find((entry) => Array.isArray(entry) && entry[0] === 'wrb.fr' && entry[1] === 'Fbv4je');
+      if (!frame?.[2]) continue;
+      let resolved;
+      try { resolved = JSON.parse(frame[2])?.[1]; } catch { continue; }
+      const realUrl = cleanUrl(resolved);
+      if (realUrl && !realUrl.includes('news.google.com/')) return realUrl;
+    } catch {
+      // Try the alternate Google News path for a signature.
+    }
   }
-  matches.sort((a, b) => b.preferred - a.preferred || b.pathLength - a.pathLength);
-  return matches[0]?.href || '';
+  return '';
 }
-async function fetchArticlePage(url) {
-  const response = await fetch(url, {
-    redirect: 'follow',
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (compatible; RannarMenuNewsBot/1.0; +https://rannarmenu.github.io/Rannarmenu/)',
-      Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    },
-    signal: AbortSignal.timeout(9000),
-  });
-  if (!response.ok || !response.headers.get('content-type')?.toLowerCase().includes('text/html')) return null;
-  const html = (await response.text()).slice(0, 1_500_000);
-  let hostname = '';
-  try { hostname = new URL(response.url || url).hostname.toLowerCase(); } catch { /* retain empty hostname */ }
-  return { html, url: response.url || url, hostname };
-}
-async function fetchArticleImage(articleUrl, publisherUrl = '') {
+async function fetchArticleImage(articleUrl) {
   const url = cleanUrl(articleUrl);
   if (!url) return '';
   try {
-    let page = await fetchArticlePage(url);
-    if (!page) return '';
-    if (url.includes('CBMiVEFVX3lxTE03cURZ')) {
-      console.log('IMAGE_DEBUG ' + JSON.stringify({
-        requestedUrl: url,
-        finalUrl: page.url,
-        finalHost: page.hostname,
-        publisherUrl,
-        htmlStart: page.html.slice(0, 1800),
-        articleCandidate: findPublisherArticleLink(page.html, page.url, publisherUrl),
-        hasSomoyDomain: page.html.includes('somoynews'),
-        externalHrefs: [...page.html.matchAll(/href=["']([^"']+)["']/gi)].map(m => m[1]).filter(h => h.startsWith('http') && !h.includes('google.com')).slice(0, 30),
-        mentionsTitle: page.html.includes('ভোট দেয়ার নিয়ম'),
-        scriptEnd: page.html.slice(-1500),
-      }));
-    }
-    if (page.hostname === 'news.google.com' || page.hostname.endsWith('.news.google.com')) {
-      const article = findPublisherArticleLink(page.html, page.url, publisherUrl);
-      if (!article) return '';
-      page = await fetchArticlePage(article);
-      if (!page) return '';
-    }
-    if (page.hostname === 'news.google.com' || page.hostname.endsWith('.news.google.com')) return '';
-    const image = parseMetaImage(page.html, page.url);
-    if (!image) return '';
-    let imageHost = '';
-    try { imageHost = new URL(image).hostname.toLowerCase(); } catch { return ''; }
-    if (imageHost === 'news.google.com') return '';
-    return image;
+    const response = await fetch(url, {
+      redirect: 'follow',
+      headers: newsHeaders({ Referer: new URL(url).origin + '/' }),
+      signal: AbortSignal.timeout(9000),
+    });
+    if (!response.ok || !response.headers.get('content-type')?.toLowerCase().includes('text/html')) return '';
+    const html = (await response.text()).slice(0, 1_500_000);
+    const finalUrl = response.url || url;
+    if (finalUrl.includes('news.google.com/')) return '';
+    return parseMetaImage(html, finalUrl);
   } catch {
-    // Some publishers block automated metadata reads. Keep processing other news.
     return '';
   }
 }
