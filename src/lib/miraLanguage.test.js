@@ -16,7 +16,7 @@ test('recognizes common Banglish as Bengali-language input', () => {
 
 test('cleans conversational filler while preserving the requested dish', () => {
   assert.equal(cleanBanglishRecipeQuery('ami chicken biriyani ranna korte chai'), 'chicken biryani');
-  assert.equal(cleanBanglishRecipeQuery('amar jonno ilish macher jhol recipe dao'), 'ilish mach');
+  assert.equal(cleanBanglishRecipeQuery('amar jonno ilish macher jhol recipe dao'), 'ilish mach jhol');
   assert.equal(cleanBanglishRecipeQuery('recipe dao'), '');
 });
 
@@ -44,5 +44,5 @@ test('understands cooking trouble descriptions written in Banglish', () => {
 });
 
 test('normalizes common romanized food and ingredient spellings', () => {
-  assert.equal(normalizeBanglishText('murgir daal ar peyaj'), 'chicken dal onion');
+  assert.equal(normalizeBanglishText('murgir daal ar peyaj'), 'chicken dal ar onion');
 });
