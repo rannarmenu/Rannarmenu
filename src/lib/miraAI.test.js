@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildMiraConversation, getMiraAIErrorMessage, normalizeMiraAIResult } from './miraAI.js';
+import { buildMiraConversation, getMiraAIErrorMessage, getMiraFallbackRoute, normalizeMiraAIResult } from './miraAI.js';
 
 test('builds a short context window and adds the current user message once', () => {
   const history = [
@@ -68,4 +68,17 @@ test('returns a safe generic message for unknown server errors', () => {
     getMiraAIErrorMessage('UNEXPECTED_SECRET_OR_PROVIDER_ERROR', 'en'),
     getMiraAIErrorMessage('AI_UNAVAILABLE', 'en')
   );
+});
+
+
+test('routes general questions to a clear AI error instead of recipe-not-found', () => {
+  assert.equal(getMiraFallbackRoute({intent:'general',aiErrorCode:'AI_BILLING_REQUIRED'}),'ai_error');
+  assert.equal(getMiraFallbackRoute({intent:'general',aiErrorCode:'AI_CONNECTION'}),'ai_error');
+  assert.equal(getMiraFallbackRoute({intent:'general'}),'general_reply');
+});
+
+test('keeps actual recipe requests on the catalogue fallback and vague requests in clarification', () => {
+  assert.equal(getMiraFallbackRoute({intent:'recipe_search',aiErrorCode:'AI_BILLING_REQUIRED'}),'recipe_lookup');
+  assert.equal(getMiraFallbackRoute({intent:'generic_recipe_request',aiErrorCode:'AI_BILLING_REQUIRED'}),'ask_name');
+  assert.equal(getMiraFallbackRoute({intent:'general',hasAIRecipeQuery:true}),'recipe_lookup');
 });
