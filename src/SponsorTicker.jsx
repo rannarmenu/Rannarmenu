@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { ArrowUpRight, Pause, Play } from 'lucide-react';
+import React from 'react';
+import { ArrowUpRight } from 'lucide-react';
 import './sponsor-ticker.css';
 
 const SPONSORS = [
@@ -97,8 +97,6 @@ function SponsorGroup({ duplicate = false }) {
 }
 
 export default function SponsorTicker() {
-  const [paused, setPaused] = useState(false);
-
   return (
     <section className="sponsor-ticker-section" aria-labelledby="sponsor-ticker-heading">
       <div className="sponsor-ticker-heading">
@@ -106,19 +104,9 @@ export default function SponsorTicker() {
           <span className="sponsor-ticker-kicker">OUR SPONSORS &amp; PARTNERS</span>
           <h2 id="sponsor-ticker-heading">আমাদের পাশে যারা</h2>
         </div>
-        <button
-          type="button"
-          className="sponsor-ticker-control"
-          onClick={() => setPaused((current) => !current)}
-          aria-pressed={paused}
-          aria-label={paused ? 'লোগোর চলাচল চালু করুন' : 'লোগোর চলাচল থামান'}
-          title={paused ? 'চালু করুন' : 'থামান'}
-        >
-          {paused ? <Play size={15} aria-hidden="true" /> : <Pause size={15} aria-hidden="true" />}
-          <span>{paused ? 'চালু করুন' : 'থামান'}</span>
-        </button>
+
       </div>
-      <div className={'sponsor-ticker-viewport' + (paused ? ' is-paused' : '')}>
+      <div className="sponsor-ticker-viewport" aria-label="চলমান স্পনসর লোগো">
         <div className="sponsor-ticker-track">
           <SponsorGroup />
           <SponsorGroup duplicate />
