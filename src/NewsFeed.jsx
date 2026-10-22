@@ -41,6 +41,24 @@ function staticFeedResult(items, generatedAt) {
   return normalized.length ? { items: normalized.slice(0, 10), updatedAt, fromCache: true, staticFallback: true } : null;
 }
 
+function staticAllCategoriesResult(snapshot) {
+  const unique = new Map();
+  Object.values(snapshot?.categories || {}).forEach((entries) => {
+    (Array.isArray(entries) ? entries : []).forEach((entry) => {
+      const item = normalizeNewsItem(entry, entry?.source || 'সংবাদমাধ্যম');
+      if (item && !unique.has(item.link)) unique.set(item.link, item);
+    });
+  });
+  const dateValue = (item) => {
+    const timestamp = Date.parse(item.publishedAt || '');
+    return Number.isFinite(timestamp) ? timestamp : 0;
+  };
+  const items = [...unique.values()].sort((a, b) => dateValue(b) - dateValue(a)).slice(0, 24);
+  const parsedTimestamp = Date.parse(snapshot?.generatedAt || '');
+  const updatedAt = Number.isFinite(parsedTimestamp) ? parsedTimestamp : Date.now();
+  return items.length ? { items, updatedAt, fromCache: true, staticFallback: true } : null;
+}
+
 const NEWS_CATEGORIES = [
   {
     id: 'food',
@@ -159,7 +177,9 @@ async function loadFeed(query, signal, force = false) {
     : sponsor
       ? snapshot.sponsors?.[sponsor.id]
       : null;
-  const normalized = staticFeedResult(snapshotItems, snapshot.generatedAt);
+  const normalized = query === 'all'
+    ? staticAllCategoriesResult(snapshot)
+    : staticFeedResult(snapshotItems, snapshot.generatedAt);
   if (!normalized) {
     throw new Error('Google News থেকে এই বিভাগে আপাতত খবর পাওয়া যায়নি। পরবর্তী আপডেটের জন্য অপেক্ষা করুন।');
   }
@@ -370,7 +390,9 @@ function useNewsFeed(query, refreshKey = 0) {
         try {
           const snapshot = await readStaticNews();
           const category = NEWS_CATEGORIES.find((entry) => entry.query === query);
-          const fallback = staticFeedResult(category ? snapshot.categories?.[category.id] : []);
+          const fallback = query === 'all'
+            ? staticAllCategoriesResult(snapshot)
+            : staticFeedResult(category ? snapshot.categories?.[category.id] : []);
           if (fallback) {
             setItems(fallback.items);
             hasItems = true;
@@ -466,24 +488,11 @@ function FeedStatus({ loading, error, updatedAt, fromCache, onRefresh }) {
   );
 }
 
-export default function NewsFeed({ selectedSponsor = null, onSelectSponsor }) {
-  const [activeCategory, setActiveCategory] = useState('food');
+export default function NewsFeed() {
   const [sponsorRefreshKey, setSponsorRefreshKey] = useState(0);
   const [categoryRefreshKey, setCategoryRefreshKey] = useState(0);
-  const active = NEWS_CATEGORIES.find((category) => category.id === activeCategory) || NEWS_CATEGORIES[0];
-  const sponsorFeed = useSponsorNewsFeed(selectedSponsor, sponsorRefreshKey);
-  const categoryFeed = useNewsFeed(active.query, categoryRefreshKey);
-  const ActiveIcon = active.Icon;
-
-  useEffect(() => {
-    if (selectedSponsor) {
-      window.requestAnimationFrame(() => {
-        document.getElementById('sponsor-news')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
-    }
-  }, [selectedSponsor?.id, selectedSponsor?.name]);
-
-  const showAllSponsorNews = () => onSelectSponsor?.(null);
+  const sponsorFeed = useSponsorNewsFeed(null, sponsorRefreshKey);
+  const categoryFeed = useNewsFeed('all', categoryRefreshKey);
 
   return (
     <div className="homepage-news-wrap">
@@ -503,44 +512,6 @@ export default function NewsFeed({ selectedSponsor = null, onSelectSponsor }) {
             </a>
           )}
         </div>
-
-        <div className="sponsor-feed-source-list" role="group" aria-label="স্পনসরের সংবাদ বেছে নিন">
-          <button
-            className={sponsorFeed.selectedSource ? 'sponsor-feed-source-button' : 'sponsor-feed-source-button active'}
-            type="button"
-            onClick={showAllSponsorNews}
-            aria-pressed={!sponsorFeed.selectedSource}
-          >
-            <Newspaper size={13} aria-hidden="true" /> সব স্পনসরের খবর
-          </button>
-          {AUTO_NEWS_SPONSORS.map((source) => {
-            const selected = sponsorFeed.selectedSource?.id === source.id;
-            return (
-              <button
-                key={source.id}
-                className={selected ? 'sponsor-feed-source-button active' : 'sponsor-feed-source-button'}
-                type="button"
-                onClick={() => onSelectSponsor?.(selected ? null : source)}
-                aria-pressed={selected}
-              >
-                {source.newsLabel || source.label}
-              </button>
-            );
-          })}
-        </div>
-
-        {sponsorFeed.selectedSource && selectedSponsor && (
-          <div className="selected-sponsor-banner">
-            <span className={'selected-sponsor-logo ' + (sponsorFeed.selectedSource.className || '')}>
-              {sponsorFeed.selectedSource.wordmark ? <strong>SYLAÉ</strong> : sponsorFeed.selectedSource.label}
-            </span>
-            <div className="selected-sponsor-copy">
-              <strong>{sponsorFeed.selectedSource.name}</strong>
-              <span>এই মিডিয়া স্পনসরের নিউজ-ইনডেক্স থেকে পাওয়া শিরোনাম</span>
-            </div>
-            <span className="selected-sponsor-check"><BadgeCheck size={16} /> নির্বাচিত</span>
-          </div>
-        )}
 
         <FeedStatus
           loading={sponsorFeed.loading}
@@ -589,33 +560,21 @@ export default function NewsFeed({ selectedSponsor = null, onSelectSponsor }) {
           <div className="homepage-news-heading-copy">
             <span className="homepage-news-kicker"><Newspaper size={13} /> LATEST HEADLINES</span>
             <h2 id="latest-news-heading"><Newspaper size={23} aria-hidden="true" /> সর্বশেষ সংবাদ</h2>
-            <p>খাবার, বাংলাদেশ এবং আন্তর্জাতিক খবর—একটার পর একটা। নতুন খবর পেলে ফিড স্বয়ংক্রিয়ভাবে আপডেট হবে।</p>
+            <p>খাবার, বাংলাদেশ ও আন্তর্জাতিক—সব বিভাগের সর্বশেষ খবর এক জায়গায়, YouTube-এর মতো বড় ছবির কার্ডে।</p>
           </div>
           <span className="news-auto-label"><span /> অটো আপডেট</span>
         </div>
 
-        <div className="news-category-tabs" role="tablist" aria-label="সংবাদের বিভাগ">
-          {NEWS_CATEGORIES.map((category) => {
-            const Icon = category.Icon;
-            const selected = activeCategory === category.id;
-            return (
-              <button key={category.id} id={'news-tab-' + category.id} type="button" role="tab" aria-selected={selected} aria-controls="latest-news-list" className={selected ? 'news-category-tab active' : 'news-category-tab'} onClick={() => setActiveCategory(category.id)}>
-                <Icon size={15} aria-hidden="true" />{category.label}
-              </button>
-            );
-          })}
-        </div>
-
-        <div className="latest-news-content" id="latest-news-list" role="tabpanel" aria-labelledby={'news-tab-' + active.id}>
+        <div className="latest-news-content" id="latest-news-list" aria-label="সর্বশেষ সব বিভাগের সংবাদ">
           <FeedStatus loading={categoryFeed.loading} error={categoryFeed.items.length ? '' : categoryFeed.error} updatedAt={categoryFeed.updatedAt} fromCache={categoryFeed.fromCache} onRefresh={() => setCategoryRefreshKey((value) => value + 1)} />
           {categoryFeed.loading && !categoryFeed.items.length ? (
-            <div className="news-empty-state"><LoaderCircle className="news-spin" size={24} /><strong>{active.label} খোঁজা হচ্ছে…</strong><span>সর্বশেষ খবর সংগ্রহ করা হচ্ছে।</span></div>
+            <div className="news-empty-state"><LoaderCircle className="news-spin" size={24} /><strong>সর্বশেষ সংবাদ খোঁজা হচ্ছে…</strong><span>সর্বশেষ খবর সংগ্রহ করা হচ্ছে।</span></div>
           ) : categoryFeed.items.length ? (
-            <NewsItems items={categoryFeed.items} Icon={ActiveIcon} compact={false} />
+            <NewsItems items={categoryFeed.items} Icon={Newspaper} compact={false} />
           ) : (
             <div className="news-empty-state">
-              <ActiveIcon size={27} />
-              <strong>খবর লোড করা যায়নি</strong>
+              <Newspaper size={27} />
+              <strong>সর্বশেষ সংবাদ লোড করা যায়নি</strong>
               <span>{categoryFeed.error || 'সংযোগ ঠিক থাকলে কিছুক্ষণ পর আবার চেষ্টা করুন।'}</span>
               <button className="news-retry-button" type="button" onClick={() => setCategoryRefreshKey((value) => value + 1)}>আবার চেষ্টা করুন <RefreshCw size={14} /></button>
             </div>
