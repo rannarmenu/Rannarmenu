@@ -133,7 +133,7 @@ function normalizeNewsItem(item, fallbackSource) {
   const hasPublisherSuffix = separator > 18 && separator < rawTitle.length - 4;
   const title = hasPublisherSuffix ? rawTitle.slice(0, separator).trim() : rawTitle;
   const inferredSource = hasPublisherSuffix ? rawTitle.slice(separator + 3).trim() : '';
-  const description = plainText(item?.description || item?.contentSnippet || '');
+  const description = plainText(item?.summary || item?.description || item?.contentSnippet || '');
   const imageFromDescription = String(item?.description || '').match(/<img[^>]+src=["']([^"']+)["']/i);
   const image = resolveNewsImage(item?.image || item?.thumbnail || item?.enclosure?.link || imageFromDescription?.[1] || '');
   const imageFallback = resolveNewsImage(item?.imageFallback || 'news-fallbacks/newsroom.svg');
@@ -146,7 +146,7 @@ function normalizeNewsItem(item, fallbackSource) {
     link,
     articleUrl: safeHttpUrl(item?.articleUrl || link),
     source: plainText(item?.author || inferredSource || fallbackSource || 'সংবাদমাধ্যম'),
-    publishedAt: item?.pubDate || item?.published || '',
+    publishedAt: item?.pubDate || item?.published || item?.publishedAt || '',
     summary: description.length > 190 ? description.slice(0, 187) + '…' : description,
     image,
     imageFallback,
