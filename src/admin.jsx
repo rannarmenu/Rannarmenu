@@ -5,7 +5,7 @@ import {normalizeRecipeRecord,parseRecipeFile} from './lib/recipeImport.js';
 import './admin.css';
 const empty={title:'',category:'মাংস',summary:'',ingredients:'',instructions:'',prep_minutes:10,cook_minutes:25,servings:2,difficulty:'easy',image_url:'',tags:'',source_name:'',source_url:'',source_license:'',source_attribution:'',is_published:false};
 const list=v=>Array.isArray(v)?v.map(x=>typeof x==='string'?x:x?.name||x?.text||'').filter(Boolean):String(v||'').split(/\r?\n/).map(x=>x.trim()).filter(Boolean);
-const slug=v=>String(v||'').normalize('NFKC').toLocaleLowerCase().trim().replace(/[^\p{L}\p{N}]+/gu,'-').replace(/^-+|-+$/g,'').slice(0,200);
+const slug=v=>String(v||'').normalize('NFKC').toLocaleLowerCase().trim().replace(/[^\p{L}\p{M}\p{N}]+/gu,'-').replace(/^-+|-+$/g,'').slice(0,200);
 const formFrom=r=>({...empty,...r,ingredients:list(r.ingredients).join('\n'),instructions:list(r.instructions).join('\n'),tags:Array.isArray(r.tags)?r.tags.join(', '):'',is_published:!!r.is_published});
 const record=(f,uid)=>({slug:slug(f.slug||f.title),title:f.title.trim(),category:f.category.trim()||'অন্যান্য',summary:f.summary.trim(),ingredients:list(f.ingredients),instructions:list(f.instructions),prep_minutes:Number(f.prep_minutes)||0,cook_minutes:Number(f.cook_minutes)||0,servings:Number(f.servings)||2,difficulty:f.difficulty,image_url:f.image_url.trim()||null,tags:String(f.tags||'').split(',').map(x=>x.trim()).filter(Boolean),source_name:f.source_name.trim()||null,source_url:f.source_url.trim()||null,source_license:f.source_license.trim()||null,source_attribution:f.source_attribution.trim()||null,is_published:!!f.is_published,published_at:f.is_published?(f.published_at||new Date().toISOString()):null,updated_by:uid});
 function AdminApp(){
