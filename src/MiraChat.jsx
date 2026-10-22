@@ -27,7 +27,7 @@ import {
   getRecipeSelectionIndex
 } from './lib/miraLanguage.js';
 import { getMiraFallbackReply, getMiraKnowledgeReply, getMiraLocalRecipeGuide } from './lib/miraBrain.js';
-import { buildMiraConversation, getMiraAIErrorMessage, normalizeMiraAIResult } from './lib/miraGemini.js';
+// Mira's replies are generated locally; no AI-provider SDK or API is used.
 
 function cleanRecipeQuery(value) {
   return cleanBanglishRecipeQuery(value);
@@ -301,49 +301,6 @@ export default function MiraChat({ onOpenRecipe }) {
     };
   };
 
-  const requestMiraAI = async (rawText, previousMessages) => {
-    if (!supabaseConfigured || !supabase) {
-      return { result: null, errorCode: 'AI_NOT_CONFIGURED' };
-    }
-    const conversation = buildMiraConversation(previousMessages, rawText);
-    if (!conversation.length) return { result: null, errorCode: 'AI_INVALID_REQUEST' };
-
-    try {
-      const { data, error: invokeError } = await supabase.functions.invoke('mira-chat', {
-        body: {
-          messages: conversation,
-          locale: typeof navigator !== 'undefined' ? navigator.language : 'bn',
-          page: typeof window !== 'undefined' ? window.location.pathname : '/'
-        }
-      });
-      if (invokeError) {
-        let errorCode = 'AI_CONNECTION';
-        try {
-          const response = invokeError.context;
-          if (response && typeof response.clone === 'function') {
-            const body = await response.clone().json();
-            if (typeof body?.code === 'string') errorCode = body.code;
-          } else if (typeof response?.code === 'string') {
-            errorCode = response.code;
-          }
-        } catch { /* Network/function errors may not include a JSON body. */ }
-        return { result: null, errorCode };
-      }
-      if (data?.ok !== true) {
-        return {
-          result: null,
-          errorCode: typeof data?.code === 'string' ? data.code : 'AI_UNAVAILABLE'
-        };
-      }
-      const result = normalizeMiraAIResult(data);
-      return result
-        ? { result, errorCode: null }
-        : { result: null, errorCode: 'AI_INVALID_RESPONSE' };
-    } catch {
-      return { result: null, errorCode: 'AI_CONNECTION' };
-    }
-  };
-
   const runAssistant = async (rawText, previousMessages = messages) => {
     const previousOptions = [...previousMessages].reverse().find(message =>
       message.role === 'assistant' && Array.isArray(message.recipes) && message.recipes.length > 0
@@ -360,85 +317,14 @@ export default function MiraChat({ onOpenRecipe }) {
       }
     }
 
-    const aiResponse = await requestMiraAI(rawText, previousMessages);
-    const aiResult = aiResponse.result;
-    if (aiResult) {
-      if (aiResult.action !== 'recipe_search') {
-        addAssistantMessage(aiResult.reply);
-        return;
-      }
-
-      // Gemini may identify intent and propose the query, but only the real
-      // published database can supply a recipe card or trigger a recipe open.
-      const originalQuery = cleanRecipeQuery(aiResult.search_query) || aiResult.search_query;
-      const queryCandidates = [originalQuery];
-      if (detectBanglish(aiResult.search_query)) {
-        const transliterated = cleanRecipeQuery(toBangla(aiResult.search_query));
-        if (transliterated && !queryCandidates.includes(transliterated)) queryCandidates.push(transliterated);
-      }
-
-      let found = { recipes: [], groups: [], total: 0, error: null };
-      if (supabaseConfigured && supabase) {
-        for (const query of queryCandidates) {
-          found = await searchRecipes(query);
-          if (found.error || found.recipes.length) break;
-        }
-      } else {
-        found.error = true;
-      }
-
-      if (found.error) {
-        const localGuide = getMiraLocalRecipeGuide(aiResult.search_query) || getMiraLocalRecipeGuide(rawText);
-        if (localGuide) {
-          addAssistantMessage('ক্যাটালগে এই মুহূর্তে সংযোগ করা যাচ্ছে না, তবে পরিচিত রান্নার স্থানীয় গাইডটি দেখো। 🍲\\n\\n' + localGuide);
-        } else {
-          addAssistantMessage('রেসিপির ক্যাটালগে সংযোগ করা যাচ্ছে না। ইন্টারনেট বা ডেটাবেস ঠিক হলে আবার চেষ্টা করো। 🌼');
-        }
-        return;
-      }
-
-      if (found.recipes.length) {
-        const scored = found.recipes
-          .map(recipe => ({ recipe, score: titleMatchCount(recipe, found.groups) }))
-          .sort((a, b) => b.score - a.score);
-        const best = scored[0];
-        const cleanedPhrase = normalizeSearchText(originalQuery);
-        const bestTitle = normalizeSearchText(best?.recipe?.title || '');
-        const phraseInTitle = cleanedPhrase.length > 2 && bestTitle.includes(cleanedPhrase);
-        const exactEnough = best && (
-          phraseInTitle ||
-          (found.groups.length >= 2 && best.score >= found.groups.length) ||
-          (found.recipes.length === 1 && found.groups.length <= 2)
-        );
-        if (exactEnough) {
-          setMood('happy');
-          onOpenRecipe?.(best.recipe);
-          setIsFullscreen(false);
-          setIsOpen(false);
-          return;
-        }
-        addAssistantMessage(aiResult.reply || MIRA_COPY.suggestions, scored.slice(0, 5).map(item => item.recipe));
-        return;
-      }
-
-      const localGuide = getMiraLocalRecipeGuide(aiResult.search_query) || getMiraLocalRecipeGuide(rawText);
-      if (localGuide) {
-        addAssistantMessage('এই নামে প্রকাশিত রেসিপি ক্যাটালগে পেলাম না, তবে ঘরোয়া একটি স্থানীয় গাইড দিতে পারি। 🍲\\n\\n' + localGuide);
-      } else {
-        addAssistantMessage(MIRA_COPY.notFound);
-      }
-      return;
-    }
-
-    // Gemini may be temporarily unavailable. Do not stop helping: use the
-    // local cooking rules and catalogue, but disclose that this is a fallback.
+    // Local-only mode: no model endpoint or API key is contacted.
     const intent = classifyMiraIntent(rawText);
     const language = /[\\u0980-\\u09FF]/u.test(rawText)
       ? 'bn'
       : detectBanglish(rawText)
         ? 'banglish'
         : (typeof navigator !== 'undefined' && String(navigator.language || '').startsWith('bn') ? 'bn' : 'en');
-    const fallbackNote = '\\n\\nℹ️ ' + getMiraAIErrorMessage(aiResponse.errorCode || 'AI_UNAVAILABLE', language);
+    const fallbackNote = '';
     const withFallbackNote = reply => reply + fallbackNote;
 
     const smallTalk = getSmallTalkReply(normalizeSearchText(rawText));
