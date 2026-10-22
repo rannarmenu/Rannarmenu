@@ -8,7 +8,11 @@ A responsive Bengali recipe catalogue built with React, Vite, Supabase Auth/Post
 - Server-side pagination (24 recipes per page).
 - Recipe details, ingredients and ordered cooking steps. Dish-matched photos are shown only when their source, creator and reuse license are recorded; otherwise the site displays a photo-unavailable placeholder.
 - Supabase-backed published recipes.
-- Admin sign-in with Supabase Auth; public sign-up is not provided.
+- Customer sign-up/sign-in with email verification, Google OAuth entry point, phone SMS OTP entry point, password reset, and persistent profile records.
+- Recipe ingredients and cooking instructions are protected by database policies and require a verified account; public catalogue/search only returns preview-safe recipe fields.
+- Customer profile supports name and private profile photo; saved recipes sync to the signed-in account.
+- Public review submission is restricted to verified accounts, with one review per account per recipe.
+- Admin sign-up remains closed; content management is restricted to explicitly allow-listed owner/admin/editor accounts.
 - Role-scoped recipe management: owners/admins can delete and bulk import; editors can create and edit recipes.
 - Browser CSV/JSON import, validation, duplicate-slug handling, 100-row batches and import history.
 - Database migrations with Row Level Security (RLS), least-privilege grants and explicit admin allow-list.
@@ -30,11 +34,13 @@ Only the publishable key belongs in browser variables. **Never** put `SUPABASE_S
 
 The migration files in `supabase/migrations/` mirror the migrations applied to the connected Supabase project. They create:
 
-- `public.recipes`: recipe content, ingredients, steps, recipe-source attribution, and photo source/credit/license metadata.
+- `public.recipes`: recipe content, ingredients, steps and source/photo attribution. Anonymous access is restricted to column-level preview fields.
+- `public.recipe_previews`: public allow-list for recipe catalogue/search results.
+- `public.customer_profiles` and `public.user_saved_recipes`: owner-scoped customer information and saved-recipe IDs.
 - `public.admin_users`: trusted accounts permitted to manage content.
 - `public.recipe_import_batches`: import audit and error reports.
 
-RLS allows public visitors to read published recipes. Trusted owners/admins/editors may create or edit recipes; only owners/admins may delete recipes or run bulk imports. Access requires a signed-in account explicitly listed in `public.admin_users`. The app deliberately has no self-service admin signup/role escalation.
+Anonymous visitors can read only safe preview fields. Verified customers can read published recipe details. Trusted owners/admins/editors may manage recipe content; only owners/admins may delete recipes or run bulk imports. Admin access requires an account explicitly listed in `public.admin_users`; public customers cannot self-assign admin privileges.
 
 ### Provision the first admin
 
@@ -90,11 +96,13 @@ Connect `rannarmenu/Rannarmenu` and configure these environment variables for Pr
 
 ## Current limitations
 
+- Google login requires a Google OAuth client ID/secret in Supabase Auth; phone OTP requires an SMS provider and rate-limit/CAPTCHA configuration. The UI shows explicit provider errors until these external credentials are configured.
+- Check the Supabase Auth Site URL and Redirect URL allow-list for the deployed GitHub Pages URL, and keep Email Confirmations enabled. Supabase Security Advisor currently flags leaked-password protection as disabled.
 - A read-only audit of the live database on **22 October 2026** found 63 recipes in total, all 63 currently published. All 63 rows had `image_search_status = 'matched'` and complete image URL, source page, creator/credit, and license metadata. This verifies stored attribution fields, not a manual visual review of every image. The target of 10,000 recipes is **not yet met**.
 - Reaching 10,000 requires authorized sources and editorial review. The importer blocks repeated normalized titles/slugs; distinct cooking styles should have clearly distinct descriptive titles. It is a pipeline, not a recipe source.
 - Recipe photos are searched against Wikimedia Commons when an admin saves or imports recipes. The dashboard backfills records marked `pending`; entries marked `not_found` are not retried on every dashboard load. Only photos with a source URL, creator/credit, and reusable license are shown; otherwise the interface uses a placeholder rather than substituting a different dish.
 - Browser import accepts up to 10,000 records per file and 25 MB. The importer searches up to the first 100 missing photos in a batch immediately and leaves additional records pending for dashboard backfill.
-- Favorites remain in this browser and are not synced to accounts.
+- Customer saved recipes are stored by account. Guest-only selections, before sign-in, remain in that browser.
 - GitHub Actions runs `npm test` and `npm run build`. A dedicated automated cross-browser/end-to-end visual test suite is not configured yet.
 
 
