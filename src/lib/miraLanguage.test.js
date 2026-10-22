@@ -40,7 +40,7 @@ test('understands cooking trouble descriptions written in Banglish', () => {
   assert.equal(classifyMiraIntent('amar biriyani jhorjhore hocche na, ki korbo'), 'cooking_problem');
   assert.match(getCookingTroubleshootingReply('biryani jhorjhore hocche na'), /চাল ঝরঝরে/u);
   assert.match(getCookingTroubleshootingReply('jhol patla hoye geche'), /ঝোল পাতলা/u);
-  assert.match(getCookingTroubleshootingReply('lobon beshi hoye geche'), /লবণ বেশি/u);
+  assert.match(getCookingTroubleshootingReply('lobon beshi hoye geche'), /নুন-লবণ একটু বেশি/u);
 });
 
 test('normalizes common romanized food and ingredient spellings', () => {
