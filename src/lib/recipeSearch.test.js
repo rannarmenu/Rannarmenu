@@ -5,7 +5,8 @@ import {
   normalizeSearchText,
   parseGoogleTranslationResponse,
   recipeMatchesSearch,
-  translateSearchQuery
+  translateSearchQuery,
+  translateChatText
 } from './recipeSearch.js';
 
 const biryaniRecipe = {
@@ -82,4 +83,43 @@ test('translation errors fail gracefully without breaking the search helper', as
     fetchImpl: async () => { throw new Error('network unavailable'); }
   });
   assert.deepEqual(translations, []);
+});
+
+
+test('chat translation detects the source language and returns translated text', async () => {
+  const fakeFetch = async url => {
+    const parsed = new URL(url);
+    assert.equal(parsed.searchParams.get('sl'), 'auto');
+    assert.equal(parsed.searchParams.get('tl'), 'bn');
+    return {
+      ok: true,
+      json: async () => [[['আমি মুরগির রেসিপি চাই', 'Quiero una receta de pollo']], null, 'es']
+    };
+  };
+  const result = await translateChatText('Quiero una receta de pollo', {target:'bn',fetchImpl:fakeFetch});
+  assert.equal(result.text, 'আমি মুরগির রেসিপি চাই');
+  assert.equal(result.sourceLanguage, 'es');
+});
+
+test('chat reply localization translates Bengali replies to the detected user language', async () => {
+  const fakeFetch = async url => {
+    const parsed = new URL(url);
+    assert.equal(parsed.searchParams.get('sl'), 'bn');
+    assert.equal(parsed.searchParams.get('tl'), 'es');
+    return {
+      ok: true,
+      json: async () => [[['¿Qué receta quieres?', 'কোন রেসিপি চাই?']], null, 'bn']
+    };
+  };
+  const result = await translateChatText('কোন রেসিপি চাই?', {source:'bn',target:'es',fetchImpl:fakeFetch});
+  assert.equal(result.text, '¿Qué receta quieres?');
+  assert.equal(result.sourceLanguage, 'bn');
+});
+
+test('chat translation returns a safe empty result on service failure', async () => {
+  const result = await translateChatText('unknown language message', {
+    target:'bn',
+    fetchImpl: async () => { throw new Error('service unavailable'); }
+  });
+  assert.deepEqual(result, {text:'',sourceLanguage:'und'});
 });
