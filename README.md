@@ -96,3 +96,8 @@ Connect `rannarmenu/Rannarmenu` and configure these environment variables for Pr
 - Browser import accepts up to 10,000 records per file and 25 MB. The importer searches up to the first 100 missing photos in a batch immediately and leaves additional records pending for dashboard backfill.
 - Favorites remain in this browser and are not synced to accounts.
 - GitHub Actions runs `npm test` and `npm run build`. A dedicated automated cross-browser/end-to-end visual test suite is not configured yet.
+
+
+## Android app (APK)
+
+An Android WebView app project is maintained in [`android-app/`](./android-app/). GitHub Actions builds a test APK when Android project files change. Open **Actions → Build Rannar Menu Android APK**, then download the `Rannar-Menu-Android-APK` artifact from a successful run. This debug APK is for direct testing, not a Play Store release.
