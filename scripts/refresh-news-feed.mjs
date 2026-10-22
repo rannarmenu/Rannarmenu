@@ -234,7 +234,12 @@ try {
     if (item.image) imageFrequency.set(item.image, (imageFrequency.get(item.image) || 0) + 1);
   }
   for (const item of previousItems) {
-    if (item.link && item.image && (imageFrequency.get(item.image) || 0) <= 3) previousByLink.set(item.link, item);
+    const fallbackImage = String(item.image || '').startsWith('news-fallbacks/');
+    const attemptedAt = Date.parse(item.imageAttemptedAt || '');
+    const recentFallback = fallbackImage && Number.isFinite(attemptedAt) && Date.now() - attemptedAt < 24 * 60 * 60 * 1000;
+    if (item.link && item.image && ((!fallbackImage && (imageFrequency.get(item.image) || 0) <= 3) || recentFallback)) {
+      previousByLink.set(item.link, item);
+    }
   }
 } catch { /* First run or no prior snapshot. */ }
 
@@ -246,6 +251,7 @@ for (const item of allItems) {
     if (previous?.image) {
       item.image = previous.image;
       item.articleUrl = previous.articleUrl || item.articleUrl || '';
+      item.imageAttemptedAt = previous.imageAttemptedAt || '';
     }
   }
   if (!item.image && !uniqueItems.has(item.link)) uniqueItems.set(item.link, item);
@@ -263,12 +269,17 @@ for (const item of allItems) {
   if (enriched) {
     if (!item.image) item.image = enriched.image || '';
     if (!item.articleUrl) item.articleUrl = enriched.articleUrl || '';
+    if (!item.imageAttemptedAt) item.imageAttemptedAt = enriched.imageAttemptedAt || '';
   }
 }
 const total = allItems.length;
 if (!total) {
   console.error('No RSS items were fetched; refusing to overwrite the existing news snapshot.');
   process.exit(1);
+}
+const attemptedAt = new Date().toISOString();
+for (const item of uniqueItems.values()) {
+  if (!item.image) item.imageAttemptedAt = attemptedAt;
 }
 const fallbackBySponsor = 'news-fallbacks/newsroom.svg';
 const fallbackByCategory = {
