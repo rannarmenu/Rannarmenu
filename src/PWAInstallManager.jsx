@@ -18,12 +18,21 @@ export default function PWAInstallManager() {
         });
     }
 
+    // Prevent the browser from showing its own install/download prompt.
+    const suppressInstallPrompt = (event) => event.preventDefault();
+    window.addEventListener('beforeinstallprompt', suppressInstallPrompt);
+
     const pathSegments = window.location.pathname.split('/').filter(Boolean);
-    if (pathSegments[pathSegments.length - 1] === 'admin') return undefined;
+    if (pathSegments[pathSegments.length - 1] === 'admin') {
+      return () => window.removeEventListener('beforeinstallprompt', suppressInstallPrompt);
+    }
 
     setIsVisible(true);
     const hideTimer = window.setTimeout(() => setIsVisible(false), TOAST_DURATION_MS);
-    return () => window.clearTimeout(hideTimer);
+    return () => {
+      window.clearTimeout(hideTimer);
+      window.removeEventListener('beforeinstallprompt', suppressInstallPrompt);
+    };
   }, [baseUrl]);
 
   if (!isVisible) return null;
