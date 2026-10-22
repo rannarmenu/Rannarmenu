@@ -218,6 +218,14 @@ Deno.serve(async (req: Request) => {
   const origin = req.headers.get("origin");
   const originIsAllowed = Boolean(origin && allowedOrigins().has(origin));
 
+  // Read-only, non-secret diagnostic endpoint. It reports configuration
+  // presence only; it never reveals the provider key or sends billable prompts.
+  if (req.method === "GET") {
+    const configured = Boolean(Deno.env.get("GEMINI_API_KEY") || Deno.env.get("GOOGLE_API_KEY"));
+    const model = (Deno.env.get("GEMINI_MODEL") || "gemini-3.8-flash").trim().slice(0, 80);
+    return jsonResponse({ ok: true, provider: "gemini", configured, model }, 200, origin, originIsAllowed);
+  }
+
   if (req.method === "OPTIONS") {
     if (!originIsAllowed) return jsonResponse({ ok: false, code: "ORIGIN_NOT_ALLOWED" }, 403, origin);
     return jsonResponse({ ok: true }, 200, origin, true);
