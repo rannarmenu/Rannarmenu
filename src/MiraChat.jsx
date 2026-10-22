@@ -90,6 +90,23 @@ function isRecipeRequest(question) {
   return /(recipe|recipes|cook|cooking|make me|give me|find me|food|dish|রেসিপি|রান্না|রাঁধ|খাবার|পদ|তরকারি|विधि|रेसिपी|खाना|वصفة|وصفات|cocinar|receta|recettes?|kochen|rezept|レシピ|料理|菜谱|食谱|做法)/u.test(value);
 }
 
+function getSmallTalkReply(question) {
+  const value = normalizeSearchText(question);
+  if (/^(hi|hello|hey|hiya|hola|bonjour|salut|hallo|hii|হাই|হ্যালো|নমস্কার|আসসালামু আলাইকুম|السلام عليكم|你好|こんにちは|नमस्ते|ہیلو|مرحبا)$/u.test(value)) {
+    return 'হেইই! 🌸 Mira* হাজির! রেসিপি খুঁজতে এসেছ, না শুধু আমার গাল টিপে যেতে? 😼';
+  }
+  if (/(thank you|thanks|thx|ধন্যবাদ|অনেক ধন্যবাদ|شكرا|شكرًا|gracias|merci|danke|ありがとう|谢谢|धन्यवाद)/u.test(value)) {
+    return 'আহা, এ আর এমন কী! 💗 রান্নাটা যেন মজার হয়—আমি আছি, দরকার হলে আবার ডাক দিও!';
+  }
+  if (/(who are you|what is your name|your name|তুমি কে|তোমার নাম|তোমার নাম কী|আপনি কে|কে তুমি|من أنت|ما اسمك|quien eres|cómo te llamas|qui es tu|wer bist du|あなたは誰|你是谁|तुम कौन हो)/u.test(value)) {
+    return 'আমি Mira*—Rannar Menu-র ছোট্ট রান্নাঘর-সহকারী! 🐱 রেসিপি খুঁজে দিই, ধাপ বুঝিয়ে দিই, আর সাইটে পথ হারালে তোমাকে পথ দেখাই।';
+  }
+  if (/(what can you do|how can you help|তুমি কী করতে পার|কী সাহায্য করতে পার|তুমি কী কী|what do you do|كيف تساعدني|que puedes hacer|que pouvez vous faire|何ができる|你能做什么)/u.test(value)) {
+    return 'তিনটে কাজে আমি বেশ পাকা! ✨ খাবারের নাম দিয়ে রেসিপি খুঁজি, রেসিপির উপকরণ/ধাপ দেখিয়ে দিই, আর Rannar Menu ব্যবহার করতে সাহায্য করি। কোন খাবারটা?';
+  }
+  return '';
+}
+
 const MIRA_COPY = {
   welcome: 'হেই! আমি Mira* 🌼 নামটা মিষ্টি, বুদ্ধিটাও কম না! রেসিপির নাম বলো—মিল পেলে খুলে দেব। ওয়েবসাইট বুঝতে সমস্যা হলেও ডাক দিও।',
   help: 'এই যে, একদম সহজ! 💚 হোমপেজের লম্বা সার্চ বারে খাবারের নাম বা উপকরণ লেখো। রেসিপির কার্ডে চাপ দিলে উপকরণ, সময় আর ধাপে ধাপে রান্নার পদ্ধতি খুলবে। হার্ট ♡ চাপলে পছন্দের রেসিপি সেভ থাকবে। আর তুমি চাইলে আমাকেও খাবারের নাম বলতে পারো—আমি খুঁজে দেব!',
@@ -201,14 +218,20 @@ export default function MiraChat({ onOpenRecipe }) {
     const bengaliText = translatedToBengali.text || rawText;
     const understoodText = normalizeSearchText(rawText + ' ' + bengaliText);
 
-    if (!supabaseConfigured) {
-      const text = await localizeReply('দুঃখিত, এই মুহূর্তে রেসিপির ডেটাবেসের সঙ্গে যোগাযোগ হচ্ছে না। একটু পরে আবার চেষ্টা করো।', language);
-      addAssistantMessage(text);
+    const smallTalk = getSmallTalkReply(understoodText);
+    if (smallTalk) {
+      addAssistantMessage(await localizeReply(smallTalk, language));
       return;
     }
 
     if (isWebsiteHelp(understoodText)) {
       addAssistantMessage(await localizeReply(MIRA_COPY.help, language));
+      return;
+    }
+
+    if (!supabaseConfigured) {
+      const text = await localizeReply('দুঃখিত, এই মুহূর্তে রেসিপির ডেটাবেসের সঙ্গে যোগাযোগ হচ্ছে না। একটু পরে আবার চেষ্টা করো।', language);
+      addAssistantMessage(text);
       return;
     }
 
