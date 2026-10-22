@@ -13,7 +13,7 @@ const valid = {
 };
 
 test('slugify creates a stable unicode-safe slug', () => {
-  assert.equal(slugify('  সবজি   খিচুড়ি! '), 'সবজি-খিচুড়ি');
+  assert.equal(slugify('  সবজি   খিচুড়ি! '), 'সবজি-খিচুড়ি');
 });
 
 test('recipe normalizer parses separated ingredients and steps', () => {
