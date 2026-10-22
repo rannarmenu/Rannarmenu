@@ -53,7 +53,11 @@ export function getMiraPanelPlacement(anchor, viewport, panel, gap = 12) {
   const above = topAnchor - height - gap;
   const fitsBelow = below + height <= vh - gap;
   const fitsAbove = above >= gap;
-  const placeBelow = fitsBelow || !fitsAbove;
+  const availableBelow = Math.max(0, vh - below - gap);
+  const availableAbove = Math.max(0, topAnchor - gap * 2);
+  // If neither side fits the full chat, choose the side with more room and
+  // clamp its position; never blindly pin a tall chat to the bottom edge.
+  const placeBelow = fitsBelow || (!fitsAbove && availableBelow >= availableAbove);
   const desiredTop = placeBelow ? below : above;
   const top = Math.min(Math.max(gap, desiredTop), Math.max(gap, vh - height - gap));
 
