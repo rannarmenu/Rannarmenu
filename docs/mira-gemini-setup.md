@@ -24,7 +24,7 @@ The Edge Function defaults to `gemini-3.8-flash`, a current stable model chosen 
 - System instructions for Bangla, Banglish, English, colloquial phrasing, typo tolerance, short follow-ups, general help, cooking troubleshooting, and real catalogue recipe lookup.
 - Constrained JSON output with a validated action schema. Only the website code can search and open actual published recipes.
 - Explicit provider error handling for missing configuration, rejected keys, quota/rate limits, unavailable models, invalid responses and connection failures.
-- Local rule-based answers and catalogue search remain a fallback when Gemini is unavailable, and the UI discloses the fallback.
+- If the primary Gemini model returns a provider-reported temporary `503 UNAVAILABLE`, the server retries once using stable `gemini-3.6-flash`. It does not retry invalid-key or quota failures; the client falls back to local cooking rules and catalogue search if Gemini still fails. The UI discloses the fallback.
 - Request size limits, origin allow-list, publishable-key validation, short timeout, and rate limiting. Logs contain safe error categories rather than API keys or user conversation text.
 
 ## Deploy and verify

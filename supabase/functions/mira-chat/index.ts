@@ -290,34 +290,68 @@ Deno.serve(async (req: Request) => {
       role: message.role === "assistant" ? "model" : "user",
       parts: [{ text: message.content }],
     }));
-    const providerResponse = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
-      method: "POST",
-      signal: controller.signal,
-      headers: {
-        "x-goog-api-key": apiKey,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        systemInstruction: { parts: [{ text: INSTRUCTIONS }] },
-        contents,
-        generationConfig: {
-          temperature: 0.65,
-          topP: 0.9,
-          maxOutputTokens: MAX_OUTPUT_TOKENS,
-          responseMimeType: "application/json",
-          responseJsonSchema,
-        },
-      }),
-    });
 
-    const providerPayload = await providerResponse.json().catch(() => ({})) as Record<string, unknown>;
+    // Use the configured/primary model first. If Google explicitly reports a
+    // temporary UNAVAILABLE/503 response, retry once with the previous stable
+    // Flash model; never retry bad keys, quota errors, invalid requests or 4xx.
+    const candidateModels = [...new Set([model, "gemini-3.6-flash"])];
+    let providerResponse: Response | null = null;
+    let providerPayload: Record<string, unknown> = {};
+    let modelUsed = model;
+
+    for (let index = 0; index < candidateModels.length; index += 1) {
+      const candidateModel = candidateModels[index];
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${candidateModel}:generateContent`, {
+        method: "POST",
+        signal: controller.signal,
+        headers: {
+          "x-goog-api-key": apiKey,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          systemInstruction: { parts: [{ text: INSTRUCTIONS }] },
+          contents,
+          generationConfig: {
+            temperature: 0.65,
+            topP: 0.9,
+            maxOutputTokens: MAX_OUTPUT_TOKENS,
+            responseMimeType: "application/json",
+            responseJsonSchema,
+          },
+        }),
+      });
+
+      providerResponse = response;
+      providerPayload = await response.json().catch(() => ({})) as Record<string, unknown>;
+      modelUsed = candidateModel;
+      if (response.ok) break;
+
+      const details = providerErrorDetails(providerPayload);
+      const transientUnavailable = response.status === 503 ||
+        details.providerStatus === "UNAVAILABLE" ||
+        /service unavailable|model overloaded|temporarily unavailable/.test(providerErrorCode(providerPayload));
+      if (transientUnavailable && index < candidateModels.length - 1) {
+        console.warn("mira_gemini_model_fallback", JSON.stringify({
+          primaryModel: candidateModel,
+          fallbackModel: candidateModels[index + 1],
+          reason: "provider_unavailable",
+        }));
+        continue;
+      }
+      break;
+    }
+
+    if (!providerResponse) {
+      return jsonResponse({ ok: false, configured: true, code: "AI_PROVIDER_ERROR" }, 502, origin, true);
+    }
+
     if (!providerResponse.ok) {
       const failure = mapProviderFailure(providerResponse.status, providerErrorCode(providerPayload));
-      // Never log API keys, raw provider messages, or any of the conversation content.
+      // Never log API keys, raw provider messages, or any conversation text.
       console.warn("mira_gemini_provider_error", JSON.stringify({
         status: providerResponse.status,
         code: failure.code,
-        model,
+        model: modelUsed,
         ...providerErrorDetails(providerPayload),
       }));
       return jsonResponse({
@@ -338,7 +372,7 @@ Deno.serve(async (req: Request) => {
     const reply = normalizeModelReply(decoded);
     if (!reply) return jsonResponse({ ok: false, code: "AI_INVALID_RESPONSE" }, 502, origin, true);
 
-    return jsonResponse({ ok: true, configured: true, model, ...reply }, 200, origin, true);
+    return jsonResponse({ ok: true, configured: true, model: modelUsed, ...reply }, 200, origin, true);
   } catch (error) {
     const code = error instanceof DOMException && error.name === "AbortError" ? "AI_TIMEOUT" : "AI_CONNECTION";
     return jsonResponse({ ok: false, configured: true, code }, 502, origin, true);
