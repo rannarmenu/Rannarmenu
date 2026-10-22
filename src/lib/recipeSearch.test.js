@@ -3,7 +3,9 @@ import assert from 'node:assert/strict';
 import {
   buildRecipeSearchGroups,
   normalizeSearchText,
-  recipeMatchesSearch
+  parseGoogleTranslationResponse,
+  recipeMatchesSearch,
+  translateSearchQuery
 } from './recipeSearch.js';
 
 const biryaniRecipe = {
@@ -50,4 +52,34 @@ test('requires every meaningful query term to avoid overly broad matching', () =
 test('ignores common filler words but preserves a query made only of filler words', () => {
   assert.equal(buildRecipeSearchGroups('best chicken recipe').length, 1);
   assert.equal(buildRecipeSearchGroups('recipe').length, 1);
+});
+
+test('parses segmented translation responses safely', () => {
+  assert.equal(
+    parseGoogleTranslationResponse([[['curry', '咖喱'], [' rice ', '米饭']], null, 'zh-CN']),
+    'curry rice'
+  );
+  assert.equal(parseGoogleTranslationResponse({translatedText:'not the expected provider shape'}), '');
+});
+
+test('translates an unfamiliar-language search to Bengali and English', async () => {
+  const fakeFetch = async url => {
+    const parsed = new URL(url);
+    const target = parsed.searchParams.get('tl');
+    assert.equal(parsed.searchParams.get('sl'), 'auto');
+    return {
+      ok: true,
+      json: async () => [[ [target === 'bn' ? 'মুরগি' : 'chicken', 'pollo'] ], null, 'es']
+    };
+  };
+  const translations = await translateSearchQuery('dragonfruit-unlisted-test', {fetchImpl: fakeFetch});
+  assert.ok(translations.includes('মুরগি'));
+  assert.ok(translations.includes('chicken'));
+});
+
+test('translation errors fail gracefully without breaking the search helper', async () => {
+  const translations = await translateSearchQuery('unknown-food-network-test', {
+    fetchImpl: async () => { throw new Error('network unavailable'); }
+  });
+  assert.deepEqual(translations, []);
 });
