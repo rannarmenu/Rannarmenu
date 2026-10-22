@@ -85,15 +85,10 @@ export default function RecipeReviews({ recipe, user = null }) {
       setSummary(null);
       return;
     }
-    if (!userIsVerified) {
-      setLoading(false);
-      setLoadIssue('auth');
-      setReviews([]);
-      setSummary(null);
-      return;
-    }
-
     setLoading(true);
+    const existingReviewQuery = userIsVerified && user?.id
+      ? supabase.from('recipe_reviews').select('id').eq('recipe_id', recipeId).eq('user_id', user.id).maybeSingle()
+      : Promise.resolve({ data: null, error: null });
     const [reviewResponse, summaryResponse, existingResponse] = await Promise.all([
       supabase
         .from('recipe_reviews')
@@ -107,19 +102,14 @@ export default function RecipeReviews({ recipe, user = null }) {
         .select('review_count, average_rating, one_star, two_star, three_star, four_star, five_star')
         .eq('recipe_id', recipeId)
         .maybeSingle(),
-      supabase
-        .from('recipe_reviews')
-        .select('id')
-        .eq('recipe_id', recipeId)
-        .eq('user_id', user.id)
-        .maybeSingle()
+      existingReviewQuery
     ]);
 
     if (requestId !== requestVersion.current) return;
     setReviews(Array.isArray(reviewResponse.data) ? reviewResponse.data : []);
     setSummary(summaryResponse.data || null);
-    setAlreadyReviewed(Boolean(existingResponse.data) || Boolean(safeGet('rannar-menu-reviewed:' + recipeId + ':' + user.id)));
-    setLoadIssue(reviewResponse.error ? 'reviews' : summaryResponse.error ? 'summary' : existingResponse.error ? 'reviews' : '');
+    setAlreadyReviewed(Boolean(existingResponse.data) || Boolean(user?.id && safeGet('rannar-menu-reviewed:' + recipeId + ':' + user.id)));
+    setLoadIssue(reviewResponse.error ? 'reviews' : summaryResponse.error ? 'summary' : (userIsVerified && existingResponse.error) ? 'reviews' : '');
     setLoading(false);
   }, [recipeId, user?.id, userIsVerified]);
 
@@ -257,6 +247,11 @@ export default function RecipeReviews({ recipe, user = null }) {
               <AlertCircle size={17} />
               <span>{!supabaseConfigured ? 'লাইভ রিভিউ চালু করতে Supabase configuration প্রয়োজন।' : 'এই রেসিপির স্থায়ী database ID পাওয়া যায়নি, তাই এখানে রিভিউ জমা দেওয়া যাবে না।'}</span>
             </div>
+          ) : (!userIsVerified || !user?.id) ? (
+            <div className="review-notice" role="status">
+              <ShieldCheck size={17} />
+              <span>রেসিপির রেটিং ও পাঠকের মন্তব্য সবাই দেখতে পারবেন। এই সংস্করণে নতুন রিভিউ জমা দেওয়ার সুবিধা বন্ধ রাখা হয়েছে।</span>
+            </div>
           ) : alreadyReviewed ? (
             <div className="review-notice review-notice-success" role="status">
               <CheckCircle2 size={17} />
@@ -346,7 +341,7 @@ export default function RecipeReviews({ recipe, user = null }) {
       {loadIssue && (
         <div className="review-load-warning" role="status">
           <AlertCircle size={16} />
-          <span>{loadIssue === 'config' ? 'লাইভ রিভিউ ডেটাবেস সংযুক্ত নয়; কোনো কাল্পনিক রেটিং দেখানো হচ্ছে না.' : loadIssue === 'auth' ? 'রিভিউ পড়তে বা দিতে যাচাইকৃত অ্যাকাউন্ট প্রয়োজন.' : loadIssue === 'recipe' ? 'এই preview recipe-এর জন্য live review যুক্ত করা যাচ্ছে না.' : 'রিভিউ ডেটাবেস থেকে তথ্য পুরোপুরি লোড হয়নি। সংযোগ ও database permissions যাচাই করুন.'}</span>
+          <span>{loadIssue === 'config' ? 'লাইভ রিভিউ ডেটাবেস সংযুক্ত নয়; কোনো কাল্পনিক রেটিং দেখানো হচ্ছে না.' : loadIssue === 'recipe' ? 'এই preview recipe-এর জন্য live review যুক্ত করা যাচ্ছে না.' : 'রিভিউ ডেটাবেস থেকে তথ্য পুরোপুরি লোড হয়নি। সংযোগ ও database permissions যাচাই করুন.'}</span>
           <button type="button" onClick={loadReviews}>আবার চেষ্টা করুন</button>
         </div>
       )}
