@@ -7,6 +7,28 @@ const RSS_JSON_ENDPOINT = 'https://api.rss2json.com/v1/api.json';
 const REFRESH_INTERVAL = 15 * 60 * 1000;
 const CACHE_TTL = 12 * 60 * 1000;
 const memoryCache = new Map();
+let staticNewsPromise = null;
+
+async function readStaticNews() {
+  if (!staticNewsPromise) {
+    staticNewsPromise = fetch(import.meta.env.BASE_URL + 'data/news-feed.json', {
+      headers: { Accept: 'application/json' },
+      cache: 'no-store',
+    }).then(async (response) => {
+      if (!response.ok) throw new Error('Static news cache unavailable');
+      return response.json();
+    }).catch((error) => {
+      staticNewsPromise = null;
+      throw error;
+    });
+  }
+  return staticNewsPromise;
+}
+
+function staticFeedResult(items) {
+  const normalized = (Array.isArray(items) ? items : []).map((item) => normalizeNewsItem(item, item.source || 'সংবাদমাধ্যম')).filter(Boolean);
+  return normalized.length ? { items: normalized.slice(0, 10), updatedAt: Date.now(), fromCache: true, staticFallback: true } : null;
+}
 
 const NEWS_CATEGORIES = [
   {
@@ -165,7 +187,15 @@ async function loadFeed(query, signal, force = false) {
       items = parseGoogleNewsXml(xml, 'Google News');
     } catch (error) {
       if (signal.aborted) throw error;
-      throw new Error('নিউজ সার্ভিসে সংযোগ করা যাচ্ছে না। RSS-to-JSON ও বিকল্প RSS সার্ভিস—দুটিই ব্যর্থ হয়েছে। ইন্টারনেট/সার্ভিস ঠিক থাকলে রিফ্রেশ করুন।');
+      // GitHub Actions refreshes a same-origin static snapshot, avoiding browser CORS failures.
+      try {
+        const snapshot = await readStaticNews();
+        const category = NEWS_CATEGORIES.find((entry) => entry.query === query);
+        const snapshotItems = category ? snapshot.categories?.[category.id] : null;
+        const fallback = staticFeedResult(snapshotItems);
+        if (fallback) return fallback;
+      } catch { /* Keep the original feed error when no snapshot is available. */ }
+      throw new Error('নিউজ সার্ভিসে সংযোগ করা যাচ্ছে না এবং সংরক্ষিত নিউজ ক্যাশও পাওয়া যায়নি। কিছুক্ষণ পর আবার চেষ্টা করুন।');
     }
   }
 
@@ -192,6 +222,12 @@ async function loadSponsorNews(signal, force = false, selectedSponsor = null) {
       const result = await loadFeed(source.newsQuery, signal, force);
       return { source, result, error: null };
     } catch (error) {
+      if (signal.aborted) return { source, result: null, error };
+      try {
+        const snapshot = await readStaticNews();
+        const fallback = staticFeedResult(snapshot.sponsors?.[source.id]);
+        if (fallback) return { source, result: fallback, error: null };
+      } catch { /* Report the live-feed error if the static snapshot is unavailable. */ }
       return { source, result: null, error };
     }
   }));
