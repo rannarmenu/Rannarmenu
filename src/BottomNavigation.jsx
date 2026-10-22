@@ -1,11 +1,12 @@
 import React from 'react';
-import { Home, BookOpen, LayoutGrid, Heart } from 'lucide-react';
+import { Home, BookOpen, LayoutGrid, Heart, Info } from 'lucide-react';
 
 const ITEMS = [
   { page: 'home', label: 'হোম', Icon: Home },
   { page: 'recipes', label: 'রেসিপি', Icon: BookOpen },
   { page: 'categories', label: 'ক্যাটাগরি', Icon: LayoutGrid },
   { page: 'saved', label: 'সেভ করা', Icon: Heart },
+  { page: 'about', label: 'আমাদের কথা', Icon: Info },
 ];
 
 export default function BottomNavigation({ activePage = 'home', onNavigate, savedCount = 0 }) {
