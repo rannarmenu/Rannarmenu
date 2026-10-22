@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Search, Heart, Clock3, ChefHat, ArrowUpRight, Menu, X, Leaf, Bookmark, Sparkles, Utensils, ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 import './styles.css';
@@ -50,28 +50,46 @@ function handleDishImageError(event) {
 function FeaturedRecipeCarousel({ recipes, activeIndex, onSelect, onPrevious, onNext, onSelectIndex, paused, onTogglePause, loading, error }) {
  const recipe=recipes[activeIndex]||recipes[0]||null;
  const verifiedPhoto=Boolean(recipe?.image&&isDishSpecificPhotoTitle(recipe));
- return <div className="hero-visual" role="region" aria-roledescription="carousel" aria-label="সাম্প্রতিক রেসিপি স্লাইডার">
+ const touchStartX=useRef(null);
+ const handleTouchStart=event=>{touchStartX.current=event.touches?.[0]?.clientX??null;};
+ const handleTouchEnd=event=>{
+  const startX=touchStartX.current;
+  const endX=event.changedTouches?.[0]?.clientX;
+  touchStartX.current=null;
+  if(typeof startX!=='number'||typeof endX!=='number')return;
+  const delta=endX-startX;
+  if(delta>48)onPrevious();
+  else if(delta< -48)onNext();
+ };
+ const handleKeyDown=event=>{
+  if(event.key==='ArrowLeft'){event.preventDefault();onPrevious();}
+  else if(event.key==='ArrowRight'){event.preventDefault();onNext();}
+ };
+ const counter=String(Math.min(activeIndex+1,Math.max(recipes.length,1))).padStart(2,'0');
+ const total=String(recipes.length).padStart(2,'0');
+ return <div className="hero-visual" role="region" aria-roledescription="carousel" aria-label="ট্রেন্ডিং ও সদ্য প্রকাশিত রেসিপি" tabIndex={0} onKeyDown={handleKeyDown} onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
   {recipe?<div className="featured-slide" key={recipe.id||recipe.slug||recipe.title}>
-   {verifiedPhoto?<><img className="featured-image" src={recipe.image} alt={recipe.title} loading={activeIndex===0?'eager':'lazy'} onError={handleDishImageError}/><div className="featured-image-placeholder image-error-placeholder" role="img" aria-label={recipe.title+"-এর ছবিটি লোড হয়নি"}><ChefHat size={42}/><span>ছবিটি লোড হয়নি</span></div></>:<div className="featured-image-placeholder" role="img" aria-label={recipe.title+"-এর নির্ভরযোগ্য ছবি যাচাই করা হচ্ছে"}><ChefHat size={52} strokeWidth={1.2}/><span className="featured-placeholder-title">{recipe.title}</span><small>এই রেসিপির সঠিক ছবি যাচাই করা হচ্ছে</small></div>}
+   {verifiedPhoto?<><img className="featured-image" src={recipe.image} alt={recipe.title} loading={activeIndex===0?'eager':'lazy'} onError={handleDishImageError}/><div className="featured-image-placeholder image-error-placeholder" role="img" aria-label={recipe.title+"-এর ছবিটি লোড হয়নি"}><ChefHat size={42}/><span>ছবিটি লোড হয়নি</span></div></>:<div className="featured-image-placeholder" role="img" aria-label={recipe.title+"-এর নির্ভরযোগ্য ছবি যাচাই করা হচ্ছে"}><span className="featured-placeholder-orbit orbit-one"/><span className="featured-placeholder-orbit orbit-two"/><span className="featured-placeholder-mark"><ChefHat size={46} strokeWidth={1.15}/></span><span className="featured-placeholder-title">{recipe.title}</span><small>এই রেসিপির সঠিক ছবি যাচাই করা হচ্ছে</small></div>}
    <div className="featured-overlay">
-    <span className="featured-recipe-label">{recipe.category||'ঘরোয়া রান্না'}</span>
+    <div className="featured-eyebrow"><span className="featured-live-dot"/>{recipe.category||'ঘরোয়া রান্না'} <span className="featured-eyebrow-divider"/> <span>নতুন রেসিপি</span></div>
     <h2>{recipe.title}</h2>
     <p>{recipe.desc||'পরিচিত উপকরণে ধাপে ধাপে শিখুন এই ঘরোয়া রেসিপি।'}</p>
     <div className="featured-meta"><span><Clock3 size={15}/>{recipe.time>0?recipe.time+' মিনিট':'সহজ ধাপ'}</span><span><ChefHat size={15}/>{recipe.level||'ঘরোয়া স্বাদ'}</span></div>
-    <button type="button" className="featured-cta" onClick={()=>onSelect(verifiedPhoto?recipe:{...recipe,image:null})}>রেসিপিটি দেখুন <ArrowUpRight size={16}/></button>
+    <button type="button" className="featured-cta" onClick={()=>onSelect(verifiedPhoto?recipe:{...recipe,image:null})}>রেসিপি দেখুন <ArrowUpRight size={16}/></button>
     {verifiedPhoto&&recipe.image_credit&&recipe.image_source_url&&recipe.image_license&&<div className="featured-credit">ছবি: <a href={recipe.image_source_url} target="_blank" rel="noopener noreferrer">{recipe.image_credit}</a><span>·</span><a href={imageLicenseHref(recipe.image_license)} target="_blank" rel="noopener noreferrer">{recipe.image_license}</a></div>}
    </div>
   </div>:<div className="featured-empty">
-   <span className="featured-empty-eyebrow"><Sparkles size={14}/> TRENDING RECIPES</span>
-   <div className="featured-empty-icon"><ChefHat size={48} strokeWidth={1.2}/></div>
-   <h2>{loading?'সাম্প্রতিক রেসিপি আসছে…':error?'রেসিপি লোড করা যায়নি':'এখনো কোনো প্রকাশিত রেসিপি নেই'}</h2>
-   <p>{loading?'সর্বশেষ প্রকাশিত রেসিপি আনা হচ্ছে।':error?'অনুগ্রহ করে কিছুক্ষণ পরে আবার চেষ্টা করুন।':'নতুন রেসিপি প্রকাশ হলে এখানে স্বয়ংক্রিয়ভাবে দেখা যাবে।'}</p>
+   <span className="featured-empty-eyebrow"><Sparkles size={14}/> FROM OUR KITCHEN</span>
+   <div className="featured-empty-icon"><ChefHat size={43} strokeWidth={1.15}/></div>
+   <h2>{loading?'নতুন রেসিপি আসছে…':error?'রেসিপি লোড করা যায়নি':'নতুন স্বাদের অপেক্ষায়'}</h2>
+   <p>{loading?'সদ্য প্রকাশিত রেসিপি নিয়ে আসছি।':error?'সংযোগে সমস্যা হয়েছে। কিছুক্ষণ পর আবার চেষ্টা করুন।':'নতুন রেসিপি প্রকাশ হলেই এখানে দেখা যাবে।'}</p>
   </div>}
   <div className="featured-topbar">
-   <span className="featured-trending"><Sparkles size={13}/> TRENDING RECIPES</span>
-   <div className="featured-top-actions"><span className="featured-count">{recipe?String(activeIndex+1).padStart(2,'0')+' / '+String(recipes.length).padStart(2,'0'):'— / —'}</span>{recipes.length>1&&<button type="button" className="featured-pause" onClick={onTogglePause} aria-label={paused?'স্বয়ংক্রিয় স্লাইড চালু করুন':'স্বয়ংক্রিয় স্লাইড থামান'} title={paused?'চালু করুন':'স্লাইড থামান'}>{paused?<Play size={15}/>:<Pause size={15}/>}</button>}</div>
+   <div className="featured-brand-lockup"><span className="featured-brand-icon"><ChefHat size={17}/></span><span className="featured-brand-copy"><strong>TRENDING RECIPES</strong><small>সদ্য প্রকাশিত রান্নার গল্প</small></span></div>
+   <div className="featured-top-actions">{recipe&&<span className="featured-count"><strong>{counter}</strong><i>/</i>{total}</span>}{recipes.length>1&&<button type="button" className="featured-pause" onClick={onTogglePause} aria-label={paused?'স্বয়ংক্রিয় স্লাইড চালু করুন':'স্বয়ংক্রিয় স্লাইড থামান'} title={paused?'চালু করুন':'স্লাইড থামান'}>{paused?<Play size={14}/>:<Pause size={14}/>}</button>}</div>
   </div>
   {recipes.length>1&&<div className="featured-controls"><button type="button" className="featured-arrow" onClick={onPrevious} aria-label="আগের রেসিপি"><ChevronLeft size={19}/></button><div className="featured-dots" role="group" aria-label="রেসিপি স্লাইড নির্বাচন">{recipes.map((item,index)=><button key={item.id||item.slug||item.title} type="button" className={index===activeIndex?'featured-dot active':'featured-dot'} onClick={()=>onSelectIndex(index)} aria-label={'স্লাইড '+(index+1)+': '+item.title} aria-current={index===activeIndex?'true':undefined}/>)}</div><button type="button" className="featured-arrow" onClick={onNext} aria-label="পরের রেসিপি"><ChevronRight size={19}/></button></div>}
+  {recipes.length>1&&<div className="featured-progress" aria-hidden="true"><span key={activeIndex} className={paused?'is-paused':''}/></div>}
  </div>;
 }
 function App() {
