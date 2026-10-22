@@ -298,6 +298,7 @@ Deno.serve(async (req: Request) => {
     let providerResponse: Response | null = null;
     let providerPayload: Record<string, unknown> = {};
     let modelUsed = model;
+    let fallbackRetryUsed = false;
 
     for (let index = 0; index < candidateModels.length; index += 1) {
       const candidateModel = candidateModels[index];
@@ -330,12 +331,23 @@ Deno.serve(async (req: Request) => {
       const transientUnavailable = response.status === 503 ||
         details.providerStatus === "UNAVAILABLE" ||
         /service unavailable|model overloaded|temporarily unavailable/.test(providerErrorCode(providerPayload));
+
+      // If even the fallback Flash model briefly returns 503, retry it once
+      // after a short pause. Do not loop on quota errors or invalid requests.
+      if (transientUnavailable && candidateModel === "gemini-3.6-flash" && !fallbackRetryUsed) {
+        fallbackRetryUsed = true;
+        candidateModels.push(candidateModel);
+      }
       if (transientUnavailable && index < candidateModels.length - 1) {
+        const nextModel = candidateModels[index + 1];
         console.warn("mira_gemini_model_fallback", JSON.stringify({
-          primaryModel: candidateModel,
-          fallbackModel: candidateModels[index + 1],
-          reason: "provider_unavailable",
+          primaryModel: model,
+          fallbackModel: nextModel,
+          reason: fallbackRetryUsed && nextModel === candidateModel
+            ? "provider_unavailable_retry"
+            : "provider_unavailable",
         }));
+        await new Promise((resolve) => setTimeout(resolve, 250));
         continue;
       }
       break;
