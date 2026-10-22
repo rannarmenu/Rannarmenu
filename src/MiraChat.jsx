@@ -28,31 +28,8 @@ import {
 } from './lib/miraLanguage.js';
 import { getMiraFallbackReply, getMiraKnowledgeReply, getMiraLocalRecipeGuide } from './lib/miraBrain.js';
 
-const CHAT_NOISE = new Set([
-  'i','me','my','we','you','your','the','a','an','and','or','to','for','of','with','please','pls',
-  'can','could','would','will','give','find','show','open','want','need','like','make','cook','cooking',
-  'recipe','recipes','food','dish','some','one','this','that','how','what','is','are','do','does','it',
-  'আমি','আমাকে','আমার','একটা','একটি','একটু','দাও','দেন','দিয়ে','দিয়ে','চাই','হবে','করো','করুন',
-  'দেখাও','খুলে','খুঁজে','প্লিজ','রেসিপি','রান্না','রাঁধতে','বানাও','তৈরি','কী','কি','কোন','কোনো',
-  'मुझे','मेरी','एक','और','का','की','के','को','से','में','है','क्या','बनाओ','रेसिपी','खाना',
-  'quiero','receta','recetas','por','favor','una','un','el','la','los','las','de','del','para',
-  'je','veux','une','un','recette','recettes','de','des','du','le','la','les','suis','comment',
-  'ich','möchte','ein','eine','rezept','rezepte','kochen','bitte','was','wie',
-  'اريد','أريد','وصفة','وصفات','من','فضلك','كيف','اعطني','اعطيني',
-  'レシピ','料理','ください','菜谱','食谱','做法','请','给我'
-].map(normalizeSearchText));
-
 function cleanRecipeQuery(value) {
   return cleanBanglishRecipeQuery(value);
-}
-
-function isBengali(value) {
-  return /[\u0980-\u09FF]/u.test(String(value ?? ''));
-}
-
-function detectLanguageFallback(original, translatedLanguage) {
-  if (isBengali(original) || detectBanglish(original)) return 'bn';
-  return translatedLanguage && translatedLanguage !== 'und' ? translatedLanguage : 'en';
 }
 
 function toRecipeCard(row) {
@@ -91,11 +68,6 @@ function isWebsiteHelp(question) {
   return classifyMiraIntent(question) === 'website_help';
 }
 
-function isRecipeRequest(question) {
-  const intent = classifyMiraIntent(question);
-  return intent === 'recipe_search' || intent === 'generic_recipe_request';
-}
-
 function getSmallTalkReply(question) {
   const value = normalizeSearchText(question);
   if (/(kemon acho|kemon aso|kmn acho|kmn aso|valo acho|bhalo acho|ki khobor|ki obostha)/u.test(value)) {
@@ -122,7 +94,6 @@ const MIRA_COPY = {
   askName: 'অবশ্যই! 😸 কোন রেসিপিটা চাই? খাবারের নামটা লিখে দাও—আমি মিলিয়ে পেলে সরাসরি খুলে দেব।',
   notFound: 'আহা, এই নামে প্রকাশিত রেসিপি খুঁজে পেলাম না। 🥹 নামটা আরেকভাবে লিখবে, বা বাংলা/English বানানে চেষ্টা করো? যে রেসিপিগুলো আছে, শুধু সেগুলোই দেখাই—ভুল রেসিপি বানিয়ে বলি না!',
   fallback: 'আমি Mira*—Rannar Menu-র নিজস্ব রান্নাঘর-সহকারী। 🌼 রেসিপি খোঁজা, রান্নার সমস্যা, মাপ ও রান্নার সময় নিয়ে সাহায্য করি। প্রশ্নটা একটু নির্দিষ্ট করে বলো—আমি ধাপে ধাপে সাহায্য করব।',
-  open: title => 'ইয়ে! পেয়ে গেছি—**' + title + '** 🍲 তোমার জন্য রেসিপিটা খুলে দিচ্ছি। একটু দেখে নিও, শেফ সাহেবা/সাহেব!',
   suggestions: 'কয়েকটা মিল পাওয়া রেসিপি পেলাম! যেটা চাও, সেটার নামেই টোকা দাও। 🐾'
 };
 
