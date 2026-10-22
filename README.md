@@ -80,6 +80,6 @@ Connect `rannarmenu/Rannarmenu` and configure these environment variables for Pr
 
 - The live database currently contains 63 published recipes, including 57 added after the original six starter recipes; every published recipe currently has 6–7 cooking steps. The target of 10,000 recipes is **not yet met**.
 - Reaching 10,000 requires authorized sources and editorial review. The importer blocks repeated normalized titles/slugs; distinct cooking styles should have clearly distinct descriptive titles. It is a pipeline, not a recipe source.
-- Starter image URLs require rights/availability review before commercial production.
+- 23 recipes currently use dish-matched Commons photos with visible creator credit, source page and reuse license; remaining recipes show a placeholder until a matching, reusable photo is verified.
 - Favorites remain in this browser, not synced to accounts.
 - Build/browser acceptance tests need to pass in an environment with npm registry access.
