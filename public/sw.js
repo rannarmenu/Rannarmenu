@@ -1,5 +1,5 @@
 /* Rannar Menu service worker: cache only the same-origin application shell and assets. */
-const CACHE_VERSION = 'rannar-menu-pwa-v1';
+const CACHE_VERSION = 'rannar-menu-pwa-v2-local-mira';
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const ASSET_CACHE = `${CACHE_VERSION}-assets`;
 const APP_BASE = self.registration.scope;
