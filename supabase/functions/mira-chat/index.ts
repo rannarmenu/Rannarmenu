@@ -230,6 +230,9 @@ function mapProviderFailure(status: number, safeCode: string): { code: string; s
     return { code: "AI_BILLING_REQUIRED", status: 429 };
   }
   if (status === 429) return { code: "AI_RATE_LIMITED", status: 429 };
+  if (status === 503 || /service unavailable|temporarily unavailable|model overloaded|unavailable/.test(safeCode)) {
+    return { code: "AI_UNAVAILABLE", status: 503 };
+  }
   if (status === 404 || /model not found|not supported for generatecontent|permission denied/.test(safeCode)) {
     return { code: "AI_MODEL_UNAVAILABLE", status: 503 };
   }
@@ -298,7 +301,8 @@ Deno.serve(async (req: Request) => {
     let providerResponse: Response | null = null;
     let providerPayload: Record<string, unknown> = {};
     let modelUsed = model;
-    let fallbackRetryUsed = false;
+    let fallbackRetriesUsed = 0;
+    const MAX_FALLBACK_RETRIES = 2;
 
     for (let index = 0; index < candidateModels.length; index += 1) {
       const candidateModel = candidateModels[index];
@@ -332,22 +336,24 @@ Deno.serve(async (req: Request) => {
         details.providerStatus === "UNAVAILABLE" ||
         /service unavailable|model overloaded|temporarily unavailable/.test(providerErrorCode(providerPayload));
 
-      // If even the fallback Flash model briefly returns 503, retry it once
-      // after a short pause. Do not loop on quota errors or invalid requests.
-      if (transientUnavailable && candidateModel === "gemini-3.6-flash" && !fallbackRetryUsed) {
-        fallbackRetryUsed = true;
+      // Retry the stable fallback at most twice for genuine transient 503s.
+      // Never retry invalid keys, quota errors, or malformed requests.
+      if (transientUnavailable && candidateModel === "gemini-3.6-flash" && fallbackRetriesUsed < MAX_FALLBACK_RETRIES) {
+        fallbackRetriesUsed += 1;
         candidateModels.push(candidateModel);
       }
       if (transientUnavailable && index < candidateModels.length - 1) {
         const nextModel = candidateModels[index + 1];
+        const retryingSameModel = nextModel === candidateModel;
+        const retryDelayMs = retryingSameModel ? 500 * fallbackRetriesUsed : 250;
         console.warn("mira_gemini_model_fallback", JSON.stringify({
           primaryModel: model,
           fallbackModel: nextModel,
-          reason: fallbackRetryUsed && nextModel === candidateModel
-            ? "provider_unavailable_retry"
+          reason: retryingSameModel
+            ? "provider_unavailable_retry_" + fallbackRetriesUsed
             : "provider_unavailable",
         }));
-        await new Promise((resolve) => setTimeout(resolve, 250));
+        await new Promise((resolve) => setTimeout(resolve, retryDelayMs));
         continue;
       }
       break;
