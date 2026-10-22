@@ -1,87 +1,56 @@
-name: Mira Gemini smoke test
+name: Mira local-only smoke test
 
 on:
   push:
     branches: [main]
     paths:
       - '.github/workflows/mira-gemini-smoke.yml'
+      - 'src/MiraChat.jsx'
+      - 'src/lib/miraBrain.js'
+      - 'src/lib/miraLanguage.js'
+      - 'src/lib/recipeSearch.js'
       - 'supabase/functions/mira-chat/**'
+      - 'package.json'
+      - 'package-lock.json'
   workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  gemini-smoke:
-    name: Verify deployed Gemini inference
+  local-only-smoke:
+    name: Verify Mira without a model API
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 8
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Send one minimal test prompt to Mira
+          cache: npm
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Run unit tests
+        run: npm test
+
+      - name: Build website
+        run: npm run build
+
+      - name: Assert no model provider calls are wired into Mira
         shell: bash
         run: |
           set -euo pipefail
-          SUPABASE_URL='https://fiwqeivmieckzqglfrar.supabase.co'
-          PUBLISHABLE_KEY="$(sed -n "s/.*VITE_SUPABASE_PUBLISHABLE_KEY: '\([^']*\)'.*/\1/p" .github/workflows/pages.yml | head -n 1)"
-          if [[ -z "$PUBLISHABLE_KEY" ]]; then
-            echo 'Could not find the public Supabase publishable key in the Pages build workflow.'
+          if grep -nE "functions\\.invoke\\(['\"]mira-chat|generativelanguage\\.googleapis\\.com|api\\.openai\\.com" src/MiraChat.jsx src/lib/miraBrain.js; then
+            echo 'Unexpected AI-provider endpoint found in the Mira browser brain.'
             exit 1
           fi
-          probe() {
-            local name="$1"
-            local expected_action="$2"
-            local payload="$3"
-            local status
-            status="$(curl --silent --show-error --max-time 40 \
-              --output /tmp/mira-gemini-response.json \
-              --write-out '%{http_code}' \
-              --request POST "$SUPABASE_URL/functions/v1/mira-chat" \
-              --header 'Origin: https://rannarmenu.github.io' \
-              --header "apikey: $PUBLISHABLE_KEY" \
-              --header "Authorization: Bearer $PUBLISHABLE_KEY" \
-              --header 'Content-Type: application/json' \
-              --data "$payload")"
-            node --input-type=module - "$status" /tmp/mira-gemini-response.json "$name" "$expected_action" <<'NODE'
-          import fs from 'node:fs';
-          const status = Number(process.argv[2]);
-          const testName = process.argv[4];
-          const expectedAction = process.argv[5];
-          let payload;
-          try {
-            payload = JSON.parse(fs.readFileSync(process.argv[3], 'utf8'));
-          } catch {
-            console.error(JSON.stringify({ test: testName, httpStatus: status, error: 'Response was not valid JSON' }));
-            process.exit(1);
-          }
-          const action = typeof payload?.action === 'string' ? payload.action : null;
-          const summary = {
-            test: testName,
-            httpStatus: status,
-            configured: payload?.configured === true,
-            model: typeof payload?.model === 'string' ? payload.model : null,
-            action,
-            responseReceived: typeof payload?.reply === 'string' && payload.reply.trim().length > 0,
-            searchQueryPresent: typeof payload?.search_query === 'string' && payload.search_query.trim().length > 0,
-            errorCode: typeof payload?.code === 'string' ? payload.code : null,
-          };
-          console.log(JSON.stringify(summary, null, 2));
-          const validAction = expectedAction === 'any' || action === expectedAction;
-          const validSearch = action !== 'recipe_search' || summary.searchQueryPresent;
-          if (status !== 200 || payload?.ok !== true || !summary.responseReceived || !action || !validAction || !validSearch) {
-            process.exit(1);
-          }
-          NODE
-          }
-
-          probe "Bengali identity" "chat" '{"messages":[{"role":"user","content":"Reply briefly in Bengali and introduce yourself as Mira."}]}'
-          probe "cooking troubleshooting" "cooking_help" '{"messages":[{"role":"user","content":"My curry jhol is too watery. Tell me practical steps to fix it."}]}'
-          probe "real recipe catalogue intent" "recipe_search" '{"messages":[{"role":"user","content":"Find an already published chicken biryani recipe in the Rannar Menu website catalogue."}]}'
-          probe "general translation" "chat" '{"messages":[{"role":"user","content":"Translate the sentence I will arrive tomorrow into Bengali."}]}'
-          probe "contextual follow-up" "any" '{"messages":[{"role":"user","content":"I need a beginner chicken curry recipe for two people."},{"role":"assistant","content":"Use about 300 g chicken and onions for a simple curry."},{"role":"user","content":"Can you make that simpler and explain the next steps?"}]}'
-
+          if grep -nE "generativelanguage\\.googleapis\\.com|api\\.openai\\.com|GEMINI_API_KEY" supabase/functions/mira-chat/index.ts; then
+            echo 'Unexpected provider API dependency found in the deployed endpoint source.'
+            exit 1
+          fi
+          echo 'Mira browser brain and endpoint contain no model-provider API calls.'
