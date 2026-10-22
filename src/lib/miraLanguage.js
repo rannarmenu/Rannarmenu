@@ -106,3 +106,32 @@ export function getCookingTroubleshootingReply(value) {
   }
   return 'চলো, সমস্যা ঠিক করি! 🌼 কী হয়েছে একটু বলো—যেমন “jhol patla”, “lobon beshi”, “chicken kacha”, বা “biryani lepe geche”। কোন রান্না করছ আর কী সমস্যা হচ্ছে জানালে ধাপে ধাপে উপায় বলব।';
 }
+
+
+/** Resolve short follow-up choices against a currently displayed recipe list. */
+export function getRecipeSelectionIndex(value, count) {
+  const size = Number(count);
+  if (!Number.isInteger(size) || size < 1) return null;
+  const text = normalizeBanglishText(value)
+    .replace(/[০-৯]/g, digit => String('০১২৩৪৫৬৭৮৯'.indexOf(digit)))
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (!text) return null;
+
+  const selectors = [
+    { index: 0, pattern: /(^|\s)(first|first one|1st|number one|no 1|prothom|prothom ta|প্রথম|প্রথমটা|১ নম্বর|নম্বর ১)(\s|$)/u },
+    { index: 1, pattern: /(^|\s)(second|second one|2nd|number two|no 2|ditiyo|ditio|ditiyo ta|দ্বিতীয়|দ্বিতীয়|দ্বিতীয়টা|দ্বিতীয় টি|২ নম্বর|নম্বর ২)(\s|$)/u },
+    { index: 2, pattern: /(^|\s)(third|third one|3rd|number three|no 3|tritiyo|tritiyo ta|তৃতীয়|তৃতীয়|তৃতীয়টা|৩ নম্বর|নম্বর ৩)(\s|$)/u },
+    { index: size - 1, pattern: /(^|\s)(last one|last|shesh ta|sheshta|শেষটা|শেষেরটা)(\s|$)/u }
+  ];
+  for (const item of selectors) {
+    if (item.index >= 0 && item.index < size && item.pattern.test(text)) return item.index;
+  }
+
+  const number = text.match(/(?:^|\s)(?:number|no|number ta|option)?\s*([1-9])(?:st|nd|rd|th|\s*number|\s*ta|\s*no)?(?:\s|$)/u);
+  if (number) {
+    const index = Number(number[1]) - 1;
+    return index >= 0 && index < size ? index : null;
+  }
+  return null;
+}
