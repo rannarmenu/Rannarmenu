@@ -1,4 +1,5 @@
 import test from 'node:test';
+import { toBangla } from './banglishTransliteration.js';
 import assert from 'node:assert/strict';
 import {
   buildRecipeSearchGroups,
@@ -122,4 +123,42 @@ test('chat translation returns a safe empty result on service failure', async ()
     fetchImpl: async () => { throw new Error('service unavailable'); }
   });
   assert.deepEqual(result, {text:'',sourceLanguage:'und'});
+});
+
+
+test('normalizes punctuation and inconsistent search spacing', () => {
+  assert.equal(normalizeSearchText('Ilish.Mach   '), 'ilish mach');
+});
+
+test('transliterates common Banglish dish words locally', () => {
+  assert.equal(toBangla('ilish'), 'ইলিশ');
+  assert.equal(toBangla('kacchi'), 'কাচ্চি');
+});
+
+test('search groups include Bengali matches for Banglish terms', () => {
+  const groups = buildRecipeSearchGroups('ilish mach');
+  assert.ok(groups[0].includes('ইলিশ'));
+  assert.ok(groups[1].includes('মাছ'));
+});
+
+test('tolerates a common one-character spelling mistake', () => {
+  const groups = buildRecipeSearchGroups('chiken');
+  assert.ok(groups[0].includes('chicken'));
+  assert.ok(groups[0].includes('মুরগি'));
+});
+
+test('matches Banglish searches against Bengali recipe titles and ingredients', () => {
+  const fishRecipe = {
+    title: 'ইলিশ মাছের ঝোল',
+    category: 'মাছ',
+    ingredients: ['ইলিশ মাছ', 'সরিষার তেল'],
+    steps: ['মসলা দিয়ে রান্না করুন']
+  };
+  assert.equal(recipeMatchesSearch(fishRecipe, 'ilish mach'), true);
+});
+
+test('preserves multi-word intent for kacchi biryani', () => {
+  assert.equal(recipeMatchesSearch(biryaniRecipe, 'kacchi biryani'), false);
+  const kacchiRecipe = { title: 'কাচ্চি বিরিয়ানি', category: 'মাংস', ingredients: ['চাল', 'মাংস'] };
+  assert.equal(recipeMatchesSearch(kacchiRecipe, 'kacchi biryani'), true);
 });
