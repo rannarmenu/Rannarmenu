@@ -29,3 +29,13 @@
   text-decoration: none;
 }
 .recipe-source-note a:hover { text-decoration: underline; }
+
+
+/* Food-photo accuracy: never substitute another dish's photo. */
+.image-placeholder { width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:18px;background:linear-gradient(140deg,#f5f1e6,#e8eee4);color:#667a65;text-align:center; }
+.image-placeholder small {font-size:12px;line-height:1.5}
+.detail-image-placeholder {width:100%;height:330px;border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:24px;background:linear-gradient(140deg,#f5f1e6,#e8eee4);color:#667a65;text-align:center}
+.card-image-credit {padding:5px 14px 0;color:#7d8478;font-size:10px;line-height:1.45}
+.card-image-credit a,.image-credit a {color:var(--green);text-decoration:underline;text-underline-offset:2px}
+.image-credit {display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-top:9px;color:#70796e;font-size:12px}
+@media(max-width:700px){.detail-image-placeholder{height:250px}}
