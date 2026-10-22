@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="635" height="160" viewBox="0 0 635 160" role="img" aria-labelledby="title desc">
+<title id="title">Rannar Menu</title>
+<desc id="desc">Rannar Menu cooking and recipe website logo.</desc>
+<style>.mark-bg{fill:#245F43}.mark-outline{fill:none;stroke:#DDBB5B;stroke-width:2.5;opacity:1}.primary{fill:#FFF4DC}.secondary{fill:#F1C765}.tagline{fill:#D8E7DA}.hat,.bowl{fill:#FFF4DC}.gold{fill:#E6B844}.leaf{fill:#93BA70}.detail{fill:none;stroke:#153D2E}</style>
+<g id="symbol" transform="translate(12 5) scale(.68)">
+<rect class="mark-bg" x="0" y="0" width="220" height="220" rx="46"/>
+<rect class="mark-outline" x="3.5" y="3.5" width="213" height="213" rx="43"/>
+<g stroke-linecap="round" stroke-linejoin="round">
+<path d="M87 69 C72 53 97 43 88 27" fill="none" stroke="#D9A32A" stroke-width="7"/>
+<path d="M112 67 C99 52 123 41 114 24" fill="none" stroke="#D9A32A" stroke-width="7"/>
+<path d="M137 69 C124 53 148 43 139 29" fill="none" stroke="#D9A32A" stroke-width="7"/>
+<path class="hat" d="M61 110 C47 107 39 96 42 83 C45 69 58 61 73 66 C77 48 94 40 108 47 C122 35 142 42 147 61 C163 58 178 70 178 84 C178 98 167 108 153 110 L153 120 L61 120 Z"/>
+<path d="M60 113 Q108 121 154 113" fill="none" stroke="#D9A32A" stroke-width="3.2"/>
+<path d="M151 145 L184 111" fill="none" stroke="#FFF4DC" stroke-width="8"/>
+<ellipse cx="188" cy="106" rx="7.5" ry="10.5" transform="rotate(42 188 106)" fill="#FFF4DC"/>
+<path class="gold" d="M51 140 Q108 120 168 140 Q160 150 108 152 Q59 151 51 140 Z"/>
+<path class="bowl" d="M59 148 L69 177 Q108 199 147 177 L158 148 Q108 163 59 148 Z"/>
+<path class="detail" d="M71 177 Q108 190 145 177" stroke-width="4.5"/>
+<path class="leaf" d="M108 177 C91 158 76 158 72 161 C77 178 93 185 108 177 Z"/>
+<path class="leaf" d="M108 177 C123 157 140 157 146 160 C140 179 124 185 108 177 Z"/>
+<path class="detail" d="M108 177 L108 186" stroke-width="3"/>
+<path d="M57 192 Q108 216 160 192" fill="none" stroke="#D9A32A" stroke-width="6"/>
+</g></g>
+<g id="wordmark">
+<text x="188" y="70" font-family="Inter, Arial, sans-serif" font-size="70" font-weight="750" letter-spacing="-2.8" class="primary"><tspan>Rannar </tspan><tspan class="secondary">Menu</tspan></text>
+<path d="M190 108 H211" stroke="#D9A32A" stroke-width="3.2" stroke-linecap="round"/>
+<text x="220" y="118" font-family="Noto Sans Bengali, Vrinda, Arial, sans-serif" font-size="25" font-weight="500" class="tagline">রান্না হোক আরও সহজ</text>
+<path d="M505 108 H526" stroke="#D9A32A" stroke-width="3.2" stroke-linecap="round"/>
+</g></svg>
