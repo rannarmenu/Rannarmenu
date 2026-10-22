@@ -89,7 +89,7 @@ function FeaturedRecipeCarousel({ recipes, activeIndex, onSelect, onPrevious, on
    <div className="featured-top-actions">{recipe&&<span className="featured-count"><strong>{counter}</strong><i>/</i>{total}</span>}{recipes.length>1&&<button type="button" className="featured-pause" onClick={onTogglePause} aria-label={paused?'স্বয়ংক্রিয় স্লাইড চালু করুন':'স্বয়ংক্রিয় স্লাইড থামান'} title={paused?'চালু করুন':'স্লাইড থামান'}>{paused?<Play size={14}/>:<Pause size={14}/>}</button>}</div>
   </div>
   {recipes.length>1&&<div className="featured-controls"><button type="button" className="featured-arrow" onClick={onPrevious} aria-label="আগের রেসিপি"><ChevronLeft size={19}/></button><div className="featured-dots" role="group" aria-label="রেসিপি স্লাইড নির্বাচন">{recipes.map((item,index)=><button key={item.id||item.slug||item.title} type="button" className={index===activeIndex?'featured-dot active':'featured-dot'} onClick={()=>onSelectIndex(index)} aria-label={'স্লাইড '+(index+1)+': '+item.title} aria-current={index===activeIndex?'true':undefined}/>)}</div><button type="button" className="featured-arrow" onClick={onNext} aria-label="পরের রেসিপি"><ChevronRight size={19}/></button></div>}
-  {recipes.length>1&&<div className="featured-progress" aria-hidden="true"><span key={activeIndex} className={paused?'is-paused':''}/></div>}
+  {recipes.length>1&&<div className="featured-progress" aria-hidden="true"><span key={activeIndex+'-'+(paused?'paused':'playing')} className={paused?'is-paused':''}/></div>}
  </div>;
 }
 function App() {
