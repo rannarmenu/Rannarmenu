@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildMiraConversation, normalizeMiraAIResult } from './miraAI.js';
+import { buildMiraConversation, getMiraAIErrorMessage, normalizeMiraAIResult } from './miraAI.js';
 
 test('builds a short context window and adds the current user message once', () => {
   const history = [
@@ -52,4 +52,20 @@ test('trims long model output before rendering in the chat panel', () => {
     ok:true,action:'chat',reply:'x'.repeat(7000),search_query:''
   });
   assert.equal(result.reply.length,5000);
+});
+
+
+test('explains OpenAI usage, key and model failures instead of silently falling back', () => {
+  const billing = getMiraAIErrorMessage('AI_BILLING_REQUIRED', 'en');
+  assert.match(billing, /credits or a usage limit/i);
+  assert.match(getMiraAIErrorMessage('AI_INVALID_API_KEY', 'bn'), /OPENAI_API_KEY/);
+  assert.match(getMiraAIErrorMessage('AI_MODEL_UNAVAILABLE', 'banglish'), /OPENAI_MODEL/);
+  assert.match(getMiraAIErrorMessage('AI_RATE_LIMITED', 'banglish'), /rate limit/i);
+});
+
+test('returns a safe generic message for unknown server errors', () => {
+  assert.equal(
+    getMiraAIErrorMessage('UNEXPECTED_SECRET_OR_PROVIDER_ERROR', 'en'),
+    getMiraAIErrorMessage('AI_UNAVAILABLE', 'en')
+  );
 });
