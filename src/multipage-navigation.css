@@ -201,7 +201,7 @@
 /* Five equally accessible mobile destinations, including About. */
 @media (max-width: 700px) {
   .bottom-navigation {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1px;
     padding-inline: 4px;
   }
@@ -216,5 +216,5 @@
   }
 }
 @media (max-width: 390px) {
-  .bottom-nav-label { font-size: 9px; }
+  .bottom-nav-label { font-size: 10px; }
 }
