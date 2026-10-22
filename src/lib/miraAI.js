@@ -122,3 +122,14 @@ export function getMiraAIErrorMessage(code, locale = 'bn') {
   const language = locale === 'banglish' ? 'banglish' : locale === 'en' ? 'en' : 'bn';
   return entry[language];
 }
+
+/**
+ * Choose the safe local fallback when the generative model cannot answer.
+ * General chat must never be converted into a recipe catalogue miss.
+ */
+export function getMiraFallbackRoute({ intent, aiErrorCode = null, hasAIRecipeQuery = false } = {}) {
+  if (hasAIRecipeQuery || intent === 'recipe_search') return 'recipe_lookup';
+  if (intent === 'generic_recipe_request') return 'ask_name';
+  if (aiErrorCode) return 'ai_error';
+  return 'general_reply';
+}
