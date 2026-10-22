@@ -154,6 +154,10 @@ html[data-theme="dark"] .newsletter {
   border-color: #303b31;
 }
 html[data-theme="dark"] .header { box-shadow: 0 5px 24px rgba(0,0,0,.14); }
+html[data-theme="dark"] .brand-mark {
+  background: #315c43;
+  color: #fff;
+}
 html[data-theme="dark"] .brand,
 html[data-theme="dark"] .nav-links,
 html[data-theme="dark"] .saved-link,
