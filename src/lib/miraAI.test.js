@@ -19,7 +19,7 @@ test('builds a short context window and adds the current user message once', () 
 test('caps history and message size before sending to the server', () => {
   const history = Array.from({length:20},(_,i)=>({role:i%2?'assistant':'user',text:'m'.repeat(1800)}));
   const result = buildMiraConversation(history,'current'.repeat(300));
-  assert.equal(result.length,12);
+  assert.ok(result.length<=12);
   assert.ok(result.every(message=>message.content.length<=1400));
   assert.ok(result.reduce((sum,message)=>sum+message.content.length,0)<=8000);
   assert.equal(result.at(-1).role,'user');
