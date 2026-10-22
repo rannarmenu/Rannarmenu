@@ -135,7 +135,7 @@ function App() {
   if(featuredPaused||featuredRecipes.length<2)return;
   const timer=window.setInterval(()=>setFeaturedIndex(index=>(index+1)%featuredRecipes.length),5000);
   return ()=>window.clearInterval(timer);
- },[featuredRecipes.length,featuredPaused]);
+ },[featuredIndex,featuredRecipes.length,featuredPaused]);
  useEffect(()=>{if(featuredIndex>=featuredRecipes.length)setFeaturedIndex(0);},[featuredIndex,featuredRecipes.length]);
 
  useEffect(()=>{
