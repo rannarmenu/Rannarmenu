@@ -1,0 +1,35 @@
+{
+  "id": "./",
+  "name": "Rannar Menu — প্রতিদিনের রান্নার অনুপ্রেরণা",
+  "short_name": "Rannar Menu",
+  "description": "বাংলা, English ও Banglish-এ রেসিপি খুঁজুন এবং আপনার পছন্দের রান্না সংরক্ষণ করুন।",
+  "lang": "bn-BD",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "background_color": "#f8f7f2",
+  "theme_color": "#28543f",
+  "orientation": "portrait-primary",
+  "categories": [
+    "food",
+    "lifestyle"
+  ],
+  "icons": [
+    {
+      "src": "./pwa-icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./pwa-icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
