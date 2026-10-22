@@ -35,7 +35,7 @@ self.addEventListener('activate', (event) => {
       .then(async () => {
         if (CACHE_VERSION !== 'rannar-menu-pwa-v2-local-mira') return;
         const openClients = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
-        await Promise.all(openClients
+        openClients
           .filter((client) => {
             try {
               const url = new URL(client.url);
@@ -44,7 +44,8 @@ self.addEventListener('activate', (event) => {
               return false;
             }
           })
-          .map((client) => client.navigate(client.url).catch(() => null)));
+          // Start the navigation but do not await it inside activate; that avoids blocking activation.
+          .forEach((client) => { client.navigate(client.url).catch(() => null); });
       })
   );
 });
