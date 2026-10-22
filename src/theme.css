@@ -668,3 +668,90 @@ html[data-theme="dark"] .brand-logo-dark { display: block; }
 @media (max-width: 700px) {
   .footer-brand .brand-logo { width: min(190px, 55vw); max-height: 48px; }
 }
+
+
+/* Clean, quiet footer: one clear brand lockup and one compact copyright line. */
+.footer .footer-inner {
+  min-height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding-block: 14px;
+}
+.footer .footer-brand {
+  flex: 0 0 auto;
+  min-width: 0;
+}
+.footer .footer-brand .brand-logo {
+  width: 184px;
+  max-height: 46px;
+}
+.footer .footer-copy {
+  display: flex;
+  flex: 0 1 auto;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  min-width: 0;
+  gap: 7px;
+  color: var(--muted, #7d8478);
+  font-size: 12px;
+  line-height: 1.7;
+  text-align: right;
+}
+.footer .footer-copyright {
+  color: var(--dark, #233629);
+  font-weight: 600;
+}
+.footer .footer-copy-separator {
+  color: #b8aa88;
+}
+.footer .footer-tagline {
+  color: var(--muted, #7d8478);
+}
+@media (max-width: 700px) {
+  .footer .footer-inner {
+    min-height: 0;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding-block: 18px 12px;
+    text-align: center;
+  }
+  .footer .footer-brand .brand-logo {
+    width: min(180px, 54vw);
+    max-height: 45px;
+  }
+  .footer .footer-copy {
+    flex: 0 1 auto;
+    justify-content: center;
+    gap: 5px;
+    font-size: 11px;
+    text-align: center;
+  }
+  .footer .footer-admin-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 28px;
+    padding: 4px 8px;
+    border: 0;
+    border-radius: 6px;
+    background: transparent;
+    color: var(--muted, #7d8478);
+    font-size: 11px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 3px;
+  }
+  .footer .footer-admin-link:hover {
+    color: var(--green, #315c43);
+    text-decoration-color: currentColor;
+    background: transparent;
+  }
+}
+html[data-theme="dark"] .footer .footer-copy-separator {
+  color: #867a59;
+}
