@@ -19,7 +19,7 @@ const heroImage='https://images.unsplash.com/photo-1596797038530-2c107229654b?au
 function dbRecipeToCard(row) {
  const ingredients = Array.isArray(row.ingredients) ? row.ingredients.map(x => typeof x === 'string' ? x : x?.name || x?.text || '').filter(Boolean) : [];
  const steps = Array.isArray(row.instructions) ? row.instructions.map(x => typeof x === 'string' ? x : x?.text || x?.step || '').filter(Boolean) : [];
- return {...row,time:(Number(row.prep_minutes)||0)+(Number(row.cook_minutes)||0),level:row.difficulty==='hard'?'কঠিন':row.difficulty==='medium'?'মাঝারি':'সহজ',tag:Array.isArray(row.tags)&&row.tags[0]?row.tags[0]:row.category,image:row.image_url||null,desc:row.summary||'',ingredients,steps};
+ return {...row,time:(Number(row.prep_minutes)||0)+(Number(row.cook_minutes)||0),level:row.difficulty==='hard'?'কঠিন':row.difficulty==='medium'?'মাঝারি':'সহজ',tag:Array.isArray(row.tags)&&row.tags[0]?row.tags[0]:row.category,image:row.image_url&&row.image_source_url&&row.image_credit&&row.image_license?row.image_url:null,desc:row.summary||'',ingredients,steps};
 }
 const imageLicenseLinks = {
  'CC BY-SA 4.0':'https://creativecommons.org/licenses/by-sa/4.0/',
