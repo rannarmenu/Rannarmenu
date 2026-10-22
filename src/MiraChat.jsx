@@ -244,8 +244,12 @@ export default function MiraChat({ onOpenRecipe }) {
         .map(recipe => ({ recipe, score: titleMatchCount(recipe, found.groups) }))
         .sort((a, b) => b.score - a.score);
       const best = scored[0];
+      const cleanedPhrase = normalizeSearchText(cleanedOriginal || cleanedBengali || rawText);
+      const bestTitle = normalizeSearchText(best?.recipe?.title || '');
+      const phraseInTitle = cleanedPhrase.length > 2 && bestTitle.includes(cleanedPhrase);
       const exactEnough = best && (
-        best.score >= found.groups.length ||
+        phraseInTitle ||
+        (found.groups.length >= 2 && best.score >= found.groups.length) ||
         (found.recipes.length === 1 && found.groups.length <= 2)
       );
       if (exactEnough) {
