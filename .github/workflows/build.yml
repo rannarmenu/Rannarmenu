@@ -58,6 +58,22 @@ jobs:
           }
           const thumbnails = payload.items.filter((item) => typeof item.image === 'string' && item.image.startsWith('https://')).length;
           console.log('Live news API OK: ' + payload.items.length + ' headlines; ' + thumbnails + ' already include secure thumbnails.');
+
+          const firstArticle = payload.items.find((item) => typeof item.link === 'string' && item.link.startsWith('https://news.google.com/'));
+          if (firstArticle) {
+            const imageUrl = base + '/functions/v1/news-image?url=' + encodeURIComponent(firstArticle.link);
+            const imageResponse = await fetch(imageUrl, {
+              headers,
+              signal: AbortSignal.timeout(12000),
+            });
+            const imagePayload = await imageResponse.json();
+            if (!imageResponse.ok || typeof imagePayload.articleUrl !== 'string') {
+              throw new Error('News image resolver returned unexpected HTTP ' + imageResponse.status);
+            }
+            console.log('News image resolver OK: article URL resolved=' + !imagePayload.articleUrl.startsWith('https://news.google.com/') + '; thumbnail=' + (imagePayload.image ? 'found' : 'not found for this publisher'));
+          } else {
+            console.warn('No Google News article URL available to test thumbnail resolution.');
+          }
           NODE
       - name: Build production bundle
         run: npm run build
