@@ -284,19 +284,45 @@ export default function MiraChat({ onOpenRecipe }) {
     const cleaned = cleanRecipeQuery(query);
     const groups = buildRecipeSearchGroups(cleaned);
     if (!groups.length) return { recipes: [], groups, total: 0, error: null };
-    const { data, error: searchError } = await supabase.rpc('search_published_recipes_multilingual', {
+
+    const args = {
       p_search_groups: groups,
       p_category: null,
       p_saved_ids: null,
       p_only_saved: false,
       p_limit: 8,
       p_offset: 0
-    });
+    };
+
+    // Anonymous users may only search the public preview RPC. Verified signed-in
+    // customers can use the richer ingredient/step search, with public search as fallback.
+    let result;
+    let hasSession = false;
+    try {
+      const { data: authData } = await supabase.auth.getSession();
+      hasSession = Boolean(authData?.session?.user);
+    } catch {
+      // A missing or stale session must not prevent public recipe search.
+    }
+
+    if (hasSession) {
+      result = await supabase.rpc('search_verified_recipe_previews_multilingual', args);
+      if (result.error || !(result.data || []).length) {
+        const publicResult = await supabase.rpc('search_recipe_previews_multilingual', args);
+        if (!publicResult.error) result = publicResult;
+        else if (result.error) result = publicResult;
+      }
+    } else {
+      result = await supabase.rpc('search_recipe_previews_multilingual', args);
+    }
+
+    const data = result?.data || [];
+    const searchError = result?.error;
     if (searchError) return { recipes: [], groups, total: 0, error: searchError };
     return {
-      recipes: (data || []).map(item => toRecipeCard(item.recipe)),
+      recipes: data.map(item => toRecipeCard(item.recipe)),
       groups,
-      total: Number(data?.[0]?.total_count) || 0,
+      total: Number(data[0]?.total_count) || 0,
       error: null
     };
   };
@@ -432,7 +458,10 @@ export default function MiraChat({ onOpenRecipe }) {
     try {
       await runAssistant(text, messages);
     } catch {
-      addAssistantMessage('উফ! Mira-র গোঁফে একটু জট লেগেছে 😿 আবার চেষ্টা করো, প্লিজ।');
+      const localGuide = getMiraLocalRecipeGuide(text);
+      addAssistantMessage(localGuide
+        ? 'রেসিপি ক্যাটালগে সাময়িক সমস্যা হচ্ছে, তাই পরিচিত একটি স্থানীয় গাইড দিচ্ছি। 🍲\n\n' + localGuide
+        : 'এই প্রশ্নটি সামলাতে গিয়ে সমস্যা হয়েছে। 😿 খাবারের নামটি বাংলায় বা Banglish-এ একটু ছোট করে লিখে আবার চেষ্টা করো।');
     } finally {
       busyRef.current = false;
       setBusy(false);
