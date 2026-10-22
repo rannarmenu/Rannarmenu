@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse"><stop stop-color="#f8f0dc"/><stop offset="1" stop-color="#dce8d4"/></linearGradient><linearGradient id="bowl" x1="350" y1="250" x2="750" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#fffdf5"/><stop offset="1" stop-color="#d4dfc9"/></linearGradient></defs>
+<rect width="1200" height="675" rx="34" fill="url(#bg)"/><circle cx="1005" cy="90" r="175" fill="#fff" fill-opacity=".35"/><circle cx="160" cy="610" r="210" fill="#d29d4a" fill-opacity=".12"/>
+<ellipse cx="575" cy="485" rx="274" ry="69" fill="#315c43" fill-opacity=".13"/><ellipse cx="575" cy="437" rx="246" ry="125" fill="#315c43"/><ellipse cx="575" cy="420" rx="224" ry="106" fill="url(#bowl)"/><ellipse cx="575" cy="413" rx="191" ry="79" fill="#f2e3b8"/>
+<path d="M410 422C440 368 492 355 535 392C570 349 643 362 666 407C710 408 740 439 716 458C690 478 633 469 608 452C560 475 486 465 458 449C430 450 405 444 410 422Z" fill="#dba64c"/>
+<ellipse cx="470" cy="403" rx="33" ry="21" transform="rotate(-24 470 403)" fill="#f6cc76"/><ellipse cx="620" cy="401" rx="37" ry="24" transform="rotate(20 620 401)" fill="#f6cc76"/>
+<path d="M507 390C485 367 498 339 523 344C544 348 551 377 535 394C525 406 516 403 507 390Z" fill="#6e9b5b"/><path d="M567 418C552 388 567 364 589 372C612 380 609 409 589 426C580 432 572 429 567 418Z" fill="#4e7c4b"/><path d="M657 431C635 410 644 382 668 388C690 393 696 420 676 437C667 444 663 439 657 431Z" fill="#6e9b5b"/>
+<circle cx="535" cy="430" r="17" fill="#c95e47"/><circle cx="594" cy="388" r="13" fill="#c95e47"/><circle cx="645" cy="415" r="16" fill="#c95e47"/><circle cx="471" cy="430" r="11" fill="#c95e47"/>
+<path d="M340 235C385 194 436 188 466 213" stroke="#315c43" stroke-width="15" stroke-linecap="round"/><path d="M351 268C397 235 431 233 451 249" stroke="#6e9b5b" stroke-width="10" stroke-linecap="round"/>
+<path d="M806 245C827 211 870 199 901 220C934 242 936 278 907 298C876 319 825 295 806 245Z" fill="#4e7c4b"/><path d="M855 220C856 244 869 268 897 285" stroke="#bcd0a8" stroke-width="7" stroke-linecap="round"/><path d="M780 332C809 297 834 290 864 304" stroke="#d29d4a" stroke-width="12" stroke-linecap="round"/>
+<path d="M935 475L1018 540" stroke="#315c43" stroke-width="17" stroke-linecap="round"/><circle cx="963" cy="478" r="41" stroke="#fffdf5" stroke-width="12"/><circle cx="963" cy="478" r="24" fill="#d29d4a"/>
+</svg>
