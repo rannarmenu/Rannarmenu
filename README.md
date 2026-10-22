@@ -80,6 +80,7 @@ Connect `rannarmenu/Rannarmenu` and configure these environment variables for Pr
 
 - The live database currently contains 63 recipes: 57 published and 6 held as drafts for editorial/image-rights review. The 57 published recipes have 6–7 cooking steps each. The target of 10,000 recipes is **not yet met**.
 - Reaching 10,000 requires authorized sources and editorial review. The importer blocks repeated normalized titles/slugs; distinct cooking styles should have clearly distinct descriptive titles. It is a pipeline, not a recipe source.
-- 23 recipes currently use dish-matched Commons photos with visible creator credit, source page and reuse license; remaining recipes show a placeholder until a matching, reusable photo is verified.
+- Recipe photos are searched automatically against Wikimedia Commons when an admin saves a recipe; the admin dashboard also backfills existing recipes marked `pending`. A photo is attached only when the image metadata supports a dish match and a reusable license plus creator/credit are available. Unverified matches remain placeholders rather than showing a different dish.
+- 23 recipes currently have complete photo source, creator/credit, and license metadata; the other recipes are queued for automatic matching. Large imports search the first 100 missing photos immediately and leave the rest pending for background backfill.
 - Favorites remain in this browser, not synced to accounts.
 - Build/browser acceptance tests need to pass in an environment with npm registry access.
