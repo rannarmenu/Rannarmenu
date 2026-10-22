@@ -273,3 +273,44 @@ drop policy if exists "Customers delete own profile avatars" on storage.objects;
 create policy "Customers delete own profile avatars"
 on storage.objects for delete to authenticated
 using (bucket_id = 'customer-avatars' and (storage.foldername(name))[1] = (select auth.uid()::text) and public.is_verified_customer());
+
+
+-- Reviews must be tied to a verified account, not an easily replaced browser key.
+alter table public.recipe_reviews
+  add column if not exists user_id uuid references auth.users(id) on delete cascade;
+create unique index if not exists recipe_reviews_one_per_verified_user
+  on public.recipe_reviews(recipe_id, user_id)
+  where user_id is not null;
+drop policy if exists "Anyone can read visible reviews for published recipes" on public.recipe_reviews;
+drop policy if exists "Visitors can post reviews for published recipes" on public.recipe_reviews;
+drop policy if exists "Verified customers read visible reviews" on public.recipe_reviews;
+create policy "Verified customers read visible reviews"
+on public.recipe_reviews for select to authenticated
+using (
+  is_visible = true
+  and public.is_verified_customer()
+  and exists (
+    select 1 from public.recipes r
+    where r.id = recipe_reviews.recipe_id and r.is_published = true
+  )
+);
+drop policy if exists "Verified customers can post one review per recipe" on public.recipe_reviews;
+create policy "Verified customers can post one review per recipe"
+on public.recipe_reviews for insert to authenticated
+with check (
+  user_id = (select auth.uid())
+  and public.is_verified_customer()
+  and is_visible = true
+  and char_length(btrim(display_name)) between 2 and 50
+  and char_length(btrim(comment)) between 5 and 1200
+  and exists (
+    select 1 from public.recipes r
+    where r.id = recipe_reviews.recipe_id and r.is_published = true
+  )
+);
+revoke all on public.recipe_reviews from public, anon, authenticated;
+grant select on public.recipe_reviews to authenticated;
+grant insert (recipe_id, user_id, reviewer_key, display_name, rating, comment)
+  on public.recipe_reviews to authenticated;
+revoke all on public.recipe_review_summaries from public, anon, authenticated;
+grant select on public.recipe_review_summaries to authenticated;
