@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.0.0",
-  "latestVersionCode": 1,
-  "minimumVersionCode": 1,
+  "latestVersion": "1.1.0",
+  "latestVersionCode": 2,
+  "minimumVersionCode": 2,
   "apkUrl": "https://github.com/rannarmenu/Rannarmenu/releases/download/android-latest/Rannar-Menu.apk",
-  "forceUpdate": false,
+  "forceUpdate": true,
   "message": "Rannar Menu ব্যবহার চালিয়ে যেতে নতুন সংস্করণ ইনস্টল করুন।"
 }
