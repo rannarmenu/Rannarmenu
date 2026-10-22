@@ -88,9 +88,9 @@ Connect `rannarmenu/Rannarmenu` and configure these environment variables for Pr
 
 `vercel.json` provides the `/admin` SPA route. A production build must pass before treating the site as ready.
 
-## Mira local cooking assistant
+## Mira Gemini assistant
 
-Mira uses an in-app, rule-based cooking brain for Bengali/Banglish intent detection, common cooking troubleshooting, practical measurements and reviewed starter recipe guides. It no longer depends on the ChatGPT/OpenAI API or an OpenAI API key. It searches the real published Supabase recipe catalogue when users ask to find a site recipe. Because it is a specialized local rule engine rather than a foundation language model, answers outside its curated knowledge may be limited. See [Mira local brain setup](./docs/mira-ai-setup.md).
+Mira uses Gemini through a server-side Supabase Edge Function, with multi-turn conversation context, Bangla/Banglish understanding, general assistance, cooking troubleshooting, and validated actions for real recipe catalogue lookups. The Gemini API key stays in Supabase Edge Function Secrets and is not shipped to visitors. A tested local rule-based cooking brain and catalogue search remain as fallbacks when Gemini is unavailable. See [Mira Gemini setup](./docs/mira-gemini-setup.md) for secret names, model configuration, limits and verification steps.
 
 ## Current limitations
 
