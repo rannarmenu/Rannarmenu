@@ -98,7 +98,7 @@ function getSmallTalkReply(question) {
   if (/(kemon acho|kemon aso|kmn acho|kmn aso|valo acho|bhalo acho|ki khobor|ki obostha)/u.test(value)) {
     return 'আমি বেশ আছি! 🌸 আমার অ্যান্টেনা ঠিকঠাক, মুডও ফুরফুরে। তোমার কী খবর? আজ কী রান্নার প্ল্যান? 😸';
   }
-  if (/(^|\\s)(hi|hello|hey|hiya|hola|bonjour|salut|hallo|hii|হাই|হ্যালো|নমস্কার|আসসালামু আলাইকুম|السلام عليكم|你好|こんにちは|नमस्ते|ہیلو|مرحبا)(\\s|$)/u.test(value) && value.split(' ').length <= 5) {
+  if (/(^|\s)(hi|hello|hey|hiya|hola|bonjour|salut|hallo|hii|হাই|হ্যালো|নমস্কার|আসসালামু আলাইকুম|السلام عليكم|你好|こんにちは|नमस्ते|ہیلو|مرحبا)(\s|$)/u.test(value) && value.split(' ').length <= 5) {
     return 'হেইই! 🌸 Mira* হাজির! রেসিপি খুঁজতে এসেছ, না শুধু আমার গাল টিপে যেতে? 😼';
   }
   if (/(thank you|thanks|thx|ধন্যবাদ|অনেক ধন্যবাদ|شكرا|شكرًا|gracias|merci|danke|ありがとう|谢谢|धन्यवाद)/u.test(value)) {
