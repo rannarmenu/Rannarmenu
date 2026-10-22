@@ -21,8 +21,7 @@ export default function PWAInstallManager() {
         if (window.sessionStorage.getItem(reloadKey) === '1') return;
         window.sessionStorage.setItem(reloadKey, '1');
       } catch {
-        // If storage is blocked, the service worker update still works without auto-refresh.
-        return;
+        // Storage is optional; the controller change itself only fires when a worker takes control.
       }
       window.location.reload();
     };
@@ -43,7 +42,12 @@ export default function PWAInstallManager() {
 
     const pathSegments = window.location.pathname.split('/').filter(Boolean);
     if (pathSegments[pathSegments.length - 1] === 'admin') {
-      return () => window.removeEventListener('beforeinstallprompt', suppressInstallPrompt);
+      return () => {
+        window.removeEventListener('beforeinstallprompt', suppressInstallPrompt);
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.removeEventListener('controllerchange', handleControllerChange);
+        }
+      };
     }
 
     setIsVisible(true);
