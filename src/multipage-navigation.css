@@ -175,82 +175,28 @@
   }
 }
 
-/* Restore the original mobile menu so secondary header actions remain reachable. */
-@media (max-width: 700px) {
-  .header {
-    position: sticky;
-    top: 0;
-    z-index: 80;
-  }
-  .nav {
-    position: relative;
-  }
-  .nav-links,
-  .nav-links.open {
-    display: none !important;
-  }
-  .mobile-toggle {
-    display: inline-flex !important;
-    flex: 0 0 40px;
-    width: 40px;
-    height: 40px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid var(--line, #e3e7df);
-    border-radius: 12px;
-    background: var(--surface, #fffdf8);
-    color: var(--text, #253a2a);
-    cursor: pointer;
-  }
-  .nav-links.open {
-    position: absolute;
-    top: calc(100% + 8px);
-    left: 0;
-    right: 0;
-    display: flex !important;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 4px;
-    padding: 10px;
-    border: 1px solid var(--line, #e3e7df);
-    border-radius: 16px;
-    background: var(--surface, #fffdf8);
-    box-shadow: 0 14px 34px rgba(30, 45, 32, .18);
-  }
-  .nav-links.open a,
-  .nav-links.open .saved-link {
-    display: flex;
-    align-items: center;
-    min-height: 42px;
-    padding: 10px 12px;
-    border-radius: 10px;
-    color: var(--text, #253a2a);
-    text-decoration: none;
-    text-align: left;
-  }
-  .nav-links.open a:hover,
-  .nav-links.open .saved-link:hover {
-    background: var(--surface-soft, #edf2e9);
-  }
-  html[data-theme="dark"] .mobile-toggle {
-    border-color: #344338;
-    background: #151d16;
-    color: #edf4e9;
-  }
-  html[data-theme="dark"] .nav-links.open {
-    border-color: #344338;
-    background: #151d16;
-  }
-  html[data-theme="dark"] .nav-links.open a,
-  html[data-theme="dark"] .nav-links.open .saved-link {
-    color: #edf4e9;
-  }
-  html[data-theme="dark"] .nav-links.open a:hover,
-  html[data-theme="dark"] .nav-links.open .saved-link:hover {
-    background: #29382b;
-  }
+/* The top overflow/menu icon is intentionally absent; preserve Admin access below the page. */
+.footer-admin-link {
+  display: none;
 }
 
+@media (max-width: 700px) {
+  .footer-admin-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 32px;
+    padding: 7px 10px;
+    border: 1px solid var(--line, #e3e7df);
+    border-radius: 8px;
+    color: var(--text, #253a2a);
+    font-size: 11px;
+    font-weight: 600;
+  }
+  html[data-theme="dark"] .footer-admin-link {
+    border-color: #344338;
+    color: #edf4e9;
+  }
+}
 
 /* Five equally accessible mobile destinations, including About. */
 @media (max-width: 700px) {
