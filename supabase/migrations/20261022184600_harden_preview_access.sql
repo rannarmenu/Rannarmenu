@@ -51,6 +51,7 @@ drop policy if exists "Public can read published recipe previews" on public.reci
 create policy "Public can read published recipe previews"
 on public.recipes for select to anon
 using (is_published = true);
+revoke select on public.recipes from anon;
 grant select (
   id, slug, title, summary, category, cuisine,
   prep_minutes, cook_minutes, servings, difficulty,
@@ -58,7 +59,6 @@ grant select (
   source_attribution, created_at, published_at,
   image_source_url, image_credit, image_license, is_published
 ) on public.recipes to anon;
-revoke select on public.recipes from anon;
 
 -- Public multilingual search only indexes fields intentionally visible in a preview.
 create or replace function public.search_recipe_previews_multilingual(
