@@ -101,8 +101,9 @@ export async function findRecipePhoto(recipe, { signal, timeoutMs = 9000 } = {})
         origin: '*'
       }).toString();
       const response = await fetch(url.toString(), { signal: controller.signal, headers: { Accept: 'application/json' } });
-      if (!response.ok) continue;
+      if (!response.ok) throw new Error('Wikimedia Commons returned ' + response.status);
       const data = await response.json();
+      if (data?.error) throw new Error(data.error.info || 'Wikimedia Commons search failed');
       const pages = Object.values(data?.query?.pages || {});
       for (const page of pages) {
         const title = norm(page.title);
