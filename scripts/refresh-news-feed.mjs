@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const sponsors = [
   { id: 'somoy', label: 'সময় টিভি', query: 'site:somoynews.tv' },
@@ -225,10 +225,46 @@ const tasks = [
 await Promise.all(tasks);
 
 const allItems = [...Object.values(result.sponsors), ...Object.values(result.categories)].flat();
+let previousByLink = new Map();
+try {
+  const previous = JSON.parse(await readFile('public/data/news-feed.json', 'utf8'));
+  const previousItems = [...Object.values(previous.sponsors || {}), ...Object.values(previous.categories || {})].flat();
+  const imageFrequency = new Map();
+  for (const item of previousItems) {
+    if (item.image) imageFrequency.set(item.image, (imageFrequency.get(item.image) || 0) + 1);
+  }
+  for (const item of previousItems) {
+    if (item.link && item.image && (imageFrequency.get(item.image) || 0) <= 3) previousByLink.set(item.link, item);
+  }
+} catch { /* First run or no prior snapshot. */ }
+
 const rssImages = allItems.filter((item) => item.image).length;
-await mapLimit(allItems.filter((item) => !item.image), 8, async (item) => {
-  item.image = await fetchArticleImage(item.link, item.publisherUrl);
+const uniqueItems = new Map();
+for (const item of allItems) {
+  if (!item.image) {
+    const previous = previousByLink.get(item.link);
+    if (previous?.image) {
+      item.image = previous.image;
+      item.articleUrl = previous.articleUrl || item.articleUrl || '';
+    }
+  }
+  if (!item.image && !uniqueItems.has(item.link)) uniqueItems.set(item.link, item);
+}
+await mapLimit([...uniqueItems.values()], 3, async (item) => {
+  const articleUrl = item.articleUrl || await resolveGoogleNewsArticleUrl(item.link);
+  if (articleUrl) {
+    item.articleUrl = articleUrl;
+    item.image = await fetchArticleImage(articleUrl);
+  }
 });
+const enrichedByLink = new Map([...uniqueItems.entries()]);
+for (const item of allItems) {
+  const enriched = enrichedByLink.get(item.link);
+  if (enriched) {
+    if (!item.image) item.image = enriched.image || '';
+    if (!item.articleUrl) item.articleUrl = enriched.articleUrl || '';
+  }
+}
 const total = allItems.length;
 if (!total) {
   console.error('No RSS items were fetched; refusing to overwrite the existing news snapshot.');
@@ -237,7 +273,8 @@ if (!total) {
 result.imageStats = {
   total,
   fromRss: rssImages,
-  fromArticleMetadata: allItems.filter((item) => item.image).length - rssImages,
+  fromArticleMetadata: [...uniqueItems.values()].filter((item) => item.image).length,
+  reusedCached: allItems.filter((item) => previousByLink.has(item.link) && item.image).length,
   withImage: allItems.filter((item) => item.image).length,
   withoutImage: allItems.filter((item) => !item.image).length,
 };
