@@ -1660,3 +1660,62 @@
 .mira-position-left .mira-panel { left: 0; right: auto; }
 .mira-position-right .mira-panel { right: 0; left: auto; }
 .mira-intro-bubble { max-width: min(252px, 100%); }
+
+
+/* Mira AI chat polish: long multilingual answers, mobile keyboard, and safe-area comfort. */
+.mira-panel,
+.mira-panel * { box-sizing: border-box; }
+.mira-panel {
+  display: flex;
+  isolation: isolate;
+  overflow: hidden;
+  overscroll-behavior: contain;
+  -webkit-font-smoothing: antialiased;
+}
+.mira-header { min-height: 66px; }
+.mira-header-copy { overflow-wrap: anywhere; }
+.mira-messages {
+  scrollbar-width: thin;
+  scrollbar-color: #d7c7cd transparent;
+  overflow-anchor: auto;
+}
+.mira-messages::-webkit-scrollbar { width: 5px; }
+.mira-messages::-webkit-scrollbar-track { background: transparent; }
+.mira-messages::-webkit-scrollbar-thumb { background: #d7c7cd; border-radius: 20px; }
+.mira-bubble {
+  text-wrap: pretty;
+  line-height: 1.78;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.mira-bubble strong { font-weight: 700; }
+.mira-composer {
+  flex-shrink: 0;
+  padding-bottom: max(10px, env(safe-area-inset-bottom));
+}
+.mira-composer input {
+  appearance: none;
+  -webkit-appearance: none;
+  min-width: 0;
+}
+.mira-privacy-note { padding-inline: 13px; }
+@media(max-width:700px) {
+  .mira-panel {
+    border-radius: 19px;
+    max-height: calc(100vh - 24px);
+    max-height: calc(100dvh - 24px);
+  }
+  .mira-header { min-height: 61px; }
+  .mira-messages { padding: 12px 10px; gap: 12px; }
+  .mira-bubble { line-height: 1.72; }
+  .mira-composer { gap: 6px; padding: 9px 10px max(9px, env(safe-area-inset-bottom)); }
+  .mira-input-wrap input { height: 42px; font-size: 16px; }
+  .mira-send-btn { flex-basis: 42px; width: 42px; height: 42px; }
+  .mira-privacy-note { padding: 0 12px max(8px, env(safe-area-inset-bottom)); font-size: 9px; }
+}
+@media(max-height:600px) {
+  .mira-panel { height: calc(100dvh - 18px) !important; max-height: calc(100dvh - 18px) !important; }
+  .mira-chat-context { padding-block: 5px; }
+  .mira-header { padding-block: 8px; }
+  .mira-privacy-note { padding-bottom: 6px; }
+}
