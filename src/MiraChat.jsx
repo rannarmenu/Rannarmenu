@@ -21,7 +21,8 @@ import {
   classifyMiraIntent,
   cleanBanglishRecipeQuery,
   detectBanglish,
-  getCookingTroubleshootingReply
+  getCookingTroubleshootingReply,
+  getRecipeSelectionIndex
 } from './lib/miraLanguage.js';
 
 const CHAT_NOISE = new Set([
@@ -234,7 +235,21 @@ export default function MiraChat({ onOpenRecipe }) {
     };
   };
 
-  const runAssistant = async (rawText) => {
+  const runAssistant = async (rawText, previousMessages = messages) => {
+    const previousOptions = [...previousMessages].reverse().find(message =>
+      message.role === 'assistant' && Array.isArray(message.recipes) && message.recipes.length > 0
+    );
+    if (previousOptions) {
+      const choice = getRecipeSelectionIndex(rawText, previousOptions.recipes.length);
+      if (choice !== null) {
+        const selectedRecipe = previousOptions.recipes[choice];
+        setMood('happy');
+        onOpenRecipe?.(selectedRecipe);
+        setIsOpen(false);
+        return;
+      }
+    }
+
     let translatedToBengali = { text: '', sourceLanguage: 'und' };
     try {
       translatedToBengali = await translateChatText(rawText, { target: 'bn' });
@@ -349,7 +364,7 @@ export default function MiraChat({ onOpenRecipe }) {
       { id: 'visitor-' + now, role: 'user', text }
     ].slice(-22));
     try {
-      await runAssistant(text);
+      await runAssistant(text, messages);
     } catch {
       addAssistantMessage('উফ! Mira-র গোঁফে একটু জট লেগেছে 😿 আবার চেষ্টা করো, প্লিজ।');
     } finally {
