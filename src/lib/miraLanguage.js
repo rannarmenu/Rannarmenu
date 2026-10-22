@@ -35,7 +35,7 @@ const THANKS = /(thank you|thanks|thx|tysm|dhonnobad|onek dhonnobad|thanks bro|�
 const WEBSITE_WORDS = /(website|web site|webpage|site|sait|search|search bar|save|saved|bookmark|menu|button|open hocche na|kaj korche na|kaj kortese na|kaj kortese na|pacchi na|pachchi na|dekhte pacchi na|khujte pacchi na|kothay pabo|kivabe use|kibhabe use|kivabe chalabo|kibhabe chalabo|website e|site e|ওয়েবসাইট|ওয়েবসাইট|সাইট|সার্চ|সংরক্ষণ|সেভ|মেনু|বাটন|খুলছে না|কাজ করছে না|কাজ করছে না|পাচ্ছি না|কোথায় পাব|কোথায় পাব|ব্যবহার কর)/u;
 const HELP_VERBS = /(help|problem|issue|error|not working|doesn't work|doesnt work|can't|cannot|kaj hocche na|kaj kortese na|kaj korche na|open hocche na|pacchi na|pachchi na|kivabe|kibhabe|kothay|kothai|keno|ki kore|ki korbo|bujhi na|bujhtesi na|bujhte parchi na|bujhlam na|bujhai|bujhiye|how do i|how to|where do i|how can i|সাহায্য|সমস্যা|কাজ করছে না|কিভাবে|কীভাবে|কোথায়|কোথায়|কেন|কি করব|কী করব|বুঝি না|বুঝতে পারছি না|বুঝিয়ে|কীভাবে করব)/u;
 const RECIPE_TERMS = /(recipe|recipes|ranna|rannar|rante|rannna|banate|banabo|banao|khaite|khabo|khete chai|khabar|food|dish|meal|cook|cooking|biryani|biriyani|biriani|polao|pulao|khichuri|khichdi|ilish|hilsa|rui|rohu|katla|mach|macher|machher|dim|dimer|egg|chicken|murgi|murgir|beef|gorur|mutton|khasi|dal|daal|aloo|alu|bhorta|bhaji|pitha|mishti|doi|fuchka|chotpoti|kabab|kebab|রেসিপি|রান্না|রাঁধ|খাবার|খেতে|তরকারি|বিরিয়ানি|বিরিয়ানি|পোলাও|খিচুড়ি|খিচুড়ি|ইলিশ|রুই|কাতলা|মাছ|মাছের|ডিম|মুরগি|মুরগির|গরুর|খাসি|ডাল|আলু|ভর্তা|ভাজি|পিঠা|মিষ্টি|দই|ফুচকা|চটপটি|কাবাব|विधि|रेसिपी|खाना|وصفة|وصفات|cocinar|receta|recettes?|kochen|rezept|レシピ|料理|菜谱|食谱|做法)/u;
-const COOKING_PROBLEM = /(problem|issue|fix|solution|help|kivabe thik|ki korbo|hocche na|hoy na|kacha ache|murgi kacha|chicken kacha|kacha chicken|bhalo hocche na|bhalo hoy na|thik hocche na|pure geche|puriye geche|jole geche|jole jacche|lobon beshi|nun beshi|jhal beshi|morich beshi|jhol patla|jhol ghono|kacha thake|siddo hoy na|shukna hoye|naram hoy na|hard hoye|overcook|undercook|burnt|burned|too salty|too spicy|too watery|too dry|not cooked|recipe ta fail|ranna ta fail|সমস্যা|ঠিক হচ্ছে না|পুড়ে গেছে|পুড়ে গেছে|লবণ বেশি|ঝাল বেশি|ঝোল পাতলা|কাঁচা থাকে|সেদ্ধ হয় না|সেদ্ধ হয় না|শুকনা হয়ে|সমাধান|কী করব)/u;
+const COOKING_PROBLEM = /(problem|issue|fix|solution|help|kivabe thik|ki korbo|hocche na|hoy na|hoy nai|valo hoy nai|valo hocche na|kacha ache|murgi kacha|chicken kacha|kacha chicken|bhalo hocche na|bhalo hoy na|thik hocche na|pure geche|puriye geche|jole geche|jole jacche|lobon beshi|nun beshi|jhal beshi|morich beshi|jhol patla|jhol ghono|kacha thake|siddo hoy na|shukna hoye|naram hoy na|hard hoye|overcook|undercook|burnt|burned|too salty|too spicy|too watery|too dry|not cooked|recipe ta fail|ranna ta fail|সমস্যা|ঠিক হচ্ছে না|পুড়ে গেছে|পুড়ে গেছে|লবণ বেশি|ঝাল বেশি|ঝোল পাতলা|কাঁচা থাকে|সেদ্ধ হয় না|সেদ্ধ হয় না|শুকনা হয়ে|সমাধান|কী করব)/u;
 
 const normalize = value => normalizeSearchText(value)
   .replace(/\b(ki|khi|kee)\b/g, 'ki')
@@ -71,7 +71,7 @@ export function detectBanglish(value) {
 export function classifyMiraIntent(value) {
   const text = normalizeBanglishText(value);
   if (!text) return 'empty';
-  if (GREETINGS.test(text) && text.split(' ').length <= 8) return 'greeting';
+  if ((GREETINGS.test(text) || /(kemon acho|kemon aso|kmn acho|kmn aso|valo acho|bhalo acho|ki khobor|ki obostha|ki koro mira|tumi ki koro|ki korcho|ki korteso|kemne acho|kemne aso)/u.test(text)) && text.split(' ').length <= 10) return 'greeting';
   if (THANKS.test(text)) return 'thanks';
   if (/(who are you|what is your name|your name|tumi ke|tomar nam|tomar naam|apni ke|ke tumi|তুমি কে|তোমার নাম|আপনি কে)/u.test(text)) return 'identity';
   if (/(what can you do|how can you help|tumi ki korte paro|ki ki paro|ki help korte paro|তুমি কী করতে পার|কী সাহায্য করতে পার)/u.test(text)) return 'capabilities';
@@ -86,6 +86,12 @@ export function classifyMiraIntent(value) {
 
 export function getCookingTroubleshootingReply(value) {
   const text = normalizeBanglishText(value);
+  if (/(how long|koto khon|kotokkhon|koto somoy|কতক্ষণ|কত সময়|কত সময়)/u.test(text) && /(chicken|murgi|মুরগি|মুরগির)/u.test(text)) {
+    return 'মুরগির টুকরোর আকার আর রান্নার ধরন অনুযায়ী সময় বদলায়। 🍗 ঝোলের মুরগি সাধারণত মাঝারি আঁচে প্রায় ২০–৩০ মিনিট লাগতে পারে, তবে ভেতর পর্যন্ত পুরো সেদ্ধ হওয়া জরুরি। সবচেয়ে নিরাপদ হলো মোটা অংশে ভেতরের তাপমাত্রা ৭৪°C (১৬৫°F) হওয়া নিশ্চিত করা। হাড়সহ বড় টুকরোয় আরও সময় লাগতে পারে।';
+  }
+  if (/(substitute|alternative|replace|badle ki|ki diye|nei|পাই না|নেই|বদলে কী|কী দিয়ে)/u.test(text) && /(ingredient|upokoron|masala|মসলা|উপকরণ|দই|doi|cream|ক্রিম)/u.test(text)) {
+    return 'উপকরণ না থাকলে আগে কোন উপকরণটা নেই আর কী রান্না করছ সেটা বলো। 🌼 সব উপকরণ একে অন্যের বদলি হয় না—নাম জানালে স্বাদ ও texture যতটা সম্ভব ঠিক রেখে নিরাপদ বিকল্প সাজেস্ট করব।';
+  }
   if (/(lobon beshi|nun beshi|too salty|excess salt|লবণ বেশি|নুন বেশি)/u.test(text)) {
     return 'আহা, নুন-লবণ একটু বেশি হয়ে গেছে? 🥄 তরকারি হলে অল্প গরম পানি বা লবণহীন ঝোল যোগ করো; ডাল হলে আরও সেদ্ধ ডাল/পানি মেশাও। ঝোল পাতলা হয়ে গেলে ঢাকনা খুলে কিছুক্ষণ ফুটিয়ে নাও। একবারে অনেক পানি দিও না—অল্প অল্প করে স্বাদ দেখে ঠিক করো।';
   }
