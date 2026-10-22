@@ -14,22 +14,97 @@ const categories = [
 ];
 
 function decodeXml(value = '') {
-  return value
+  return String(value)
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
     .replace(/&amp;/g, '&').replace(/&quot;/g, '"')
     .replace(/&#39;|&apos;/g, "'").replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>').replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
     .replace(/&#x([\da-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
 }
-function tag(xml, name) {
-  const match = xml.match(new RegExp('<' + name + '(?:\\s[^>]*)?>([\\s\\S]*?)<\\/' + name + '>', 'i'));
-  return match ? decodeXml(match[1].replace(/<[^>]+>/g, ' ').trim()).replace(/\s+/g, ' ') : '';
+function rawTag(xml, name) {
+  const escaped = name.replace(/[.*+?^$()|[\]\\]/g, '\\$&');
+  const match = xml.match(new RegExp('<' + escaped + '(?:\\s[^>]*)?>([\\s\\S]*?)<\\/' + escaped + '>', 'i'));
+  return match ? decodeXml(match[1].trim()) : '';
 }
-function cleanUrl(value) {
+function tag(xml, name) {
+  return rawTag(xml, name).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+}
+function cleanUrl(value, base) {
   try {
-    const url = new URL(value);
+    const url = base ? new URL(value, base) : new URL(value);
     return ['http:', 'https:'].includes(url.protocol) ? url.href : '';
   } catch { return ''; }
+}
+function attribute(tagText, name) {
+  const escaped = name.replace(/[.*+?^$()|[\]\\]/g, '\\$&');
+  const match = tagText.match(new RegExp('(?:^|\\s)' + escaped + '\\s*=\\s*["\\']([^"\\']+)["\\']', 'i'));
+  return match ? decodeXml(match[1]) : '';
+}
+function extractRssImage(block, descriptionRaw) {
+  const candidates = [];
+  for (const match of block.matchAll(/<(?:media:content|media:thumbnail|enclosure)\\b[^>]*>/gi)) {
+    candidates.push(attribute(match[0], 'url'), attribute(match[0], 'href'));
+  }
+  for (const match of descriptionRaw.matchAll(/<(?:img|source)\\b[^>]*>/gi)) {
+    candidates.push(attribute(match[0], 'src'), attribute(match[0], 'data-src'));
+  }
+  return candidates.map((value) => cleanUrl(value)).find(Boolean) || '';
+}
+function decodeHtml(value = '') {
+  return String(value)
+    .replace(/&amp;/gi, '&').replace(/&quot;/gi, '"')
+    .replace(/&#39;|&apos;/gi, "'").replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>').replace(/&nbsp;/gi, ' ')
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([\da-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
+}
+function parseMetaImage(html, pageUrl) {
+  for (const match of html.matchAll(/<meta\\b[^>]*>/gi)) {
+    const node = match[0];
+    const key = (attribute(node, 'property') || attribute(node, 'name') || '').toLowerCase();
+    if (!['og:image', 'og:image:secure_url', 'twitter:image', 'twitter:image:src'].includes(key)) continue;
+    const value = attribute(node, 'content');
+    const candidate = cleanUrl(decodeHtml(value), pageUrl);
+    if (candidate) return candidate;
+  }
+  for (const match of html.matchAll(/<link\\b[^>]*>/gi)) {
+    const node = match[0];
+    if (/\\bimage_src\\b/i.test(attribute(node, 'rel'))) {
+      const candidate = cleanUrl(decodeHtml(attribute(node, 'href')), pageUrl);
+      if (candidate) return candidate;
+    }
+  }
+  const jsonImage = html.match(/["']image["']\\s*:\\s*["'](https?:[^"'\\s]+)["']/i);
+  return jsonImage ? cleanUrl(decodeHtml(jsonImage[1]), pageUrl) : '';
+}
+async function fetchArticleImage(articleUrl) {
+  const url = cleanUrl(articleUrl);
+  if (!url) return '';
+  try {
+    const response = await fetch(url, {
+      redirect: 'follow',
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; RannarMenuNewsBot/1.0; +https://rannarmenu.github.io/Rannarmenu/)',
+        Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      },
+      signal: AbortSignal.timeout(9000),
+    });
+    if (!response.ok || !response.headers.get('content-type')?.toLowerCase().includes('text/html')) return '';
+    const html = (await response.text()).slice(0, 1_500_000);
+    return parseMetaImage(html, response.url || url);
+  } catch {
+    // Some publishers block automated metadata reads. Keep processing other news.
+    return '';
+  }
+}
+async function mapLimit(items, concurrency, callback) {
+  let cursor = 0;
+  await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, async () => {
+    while (cursor < items.length) {
+      const index = cursor++;
+      try { await callback(items[index], index); } catch { /* One article must not block the feed. */ }
+    }
+  }));
 }
 async function fetchFeed(query, source) {
   const url = 'https://news.google.com/rss/search?q=' + encodeURIComponent(query) + '&hl=bn&gl=BD&ceid=BD:bn';
@@ -39,8 +114,8 @@ async function fetchFeed(query, source) {
   });
   if (!response.ok) throw new Error(source + ': HTTP ' + response.status);
   const xml = await response.text();
-  if (!/<rss[\s>]/i.test(xml)) throw new Error(source + ': invalid RSS response');
-  const items = [...xml.matchAll(/<item(?:\s[^>]*)?>([\s\S]*?)<\/item>/gi)].map((match) => {
+  if (!/<rss[\\s>]/i.test(xml)) throw new Error(source + ': invalid RSS response');
+  const items = [...xml.matchAll(/<item(?:\\s[^>]*)?>([\\s\\S]*?)<\\/item>/gi)].map((match) => {
     const block = match[1];
     const rawTitle = tag(block, 'title');
     const separator = rawTitle.lastIndexOf(' - ');
@@ -48,21 +123,20 @@ async function fetchFeed(query, source) {
     const title = hasPublisher ? rawTitle.slice(0, separator).trim() : rawTitle;
     const publisher = hasPublisher ? rawTitle.slice(separator + 3).trim() : source;
     const link = cleanUrl(tag(block, 'link'));
-    const descriptionRaw = tag(block, 'description');
-    const description = descriptionRaw.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-    const imageMatch = descriptionRaw.match(/<img[^>]+src=["']([^"']+)["']/i);
+    const descriptionRaw = rawTag(block, 'description');
+    const description = descriptionRaw.replace(/<script\\b[^>]*>[\\s\\S]*?<\\/script>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/\\s+/g, ' ').trim();
     return {
-      id: link, title, link, source: source === 'Google News' ? publisher : source,
+      id: link, title, link, source: source === 'Google News' ? (tag(block, 'source') || publisher) : source,
       publishedAt: tag(block, 'pubDate'),
       summary: description.length > 190 ? description.slice(0, 187) + '…' : description,
-      image: cleanUrl(imageMatch?.[1] || ''),
+      image: extractRssImage(block, descriptionRaw),
     };
   }).filter((item) => item.title && item.link);
   const seen = new Set();
   return items.filter((item) => !seen.has(item.link) && seen.add(item.link)).slice(0, 10);
 }
 
-const result = { schemaVersion: 1, generatedAt: new Date().toISOString(), sponsors: {}, categories: {}, sourceErrors: [] };
+const result = { schemaVersion: 2, generatedAt: new Date().toISOString(), sponsors: {}, categories: {}, sourceErrors: [], imageStats: {} };
 const tasks = [
   ...sponsors.map(async (source) => {
     try { result.sponsors[source.id] = await fetchFeed(source.query, source.label); }
@@ -74,11 +148,28 @@ const tasks = [
   }),
 ];
 await Promise.all(tasks);
-const total = [...Object.values(result.sponsors), ...Object.values(result.categories)].reduce((sum, items) => sum + items.length, 0);
+
+// Google News RSS often omits the story image. Resolve each result's publisher
+// page and read its Open Graph/Twitter image metadata, with bounded concurrency.
+const allItems = [...Object.values(result.sponsors), ...Object.values(result.categories)].flat();
+const rssImages = allItems.filter((item) => item.image).length;
+await mapLimit(allItems.filter((item) => !item.image), 8, async (item) => {
+  item.image = await fetchArticleImage(item.link);
+});
+const total = allItems.length;
 if (!total) {
   console.error('No RSS items were fetched; refusing to overwrite the existing news snapshot.');
   process.exit(1);
 }
+result.imageStats = {
+  total,
+  fromRss: rssImages,
+  fromArticleMetadata: allItems.filter((item) => item.image).length - rssImages,
+  withImage: allItems.filter((item) => item.image).length,
+  withoutImage: allItems.filter((item) => !item.image).length,
+};
 await mkdir('public/data', { recursive: true });
-await writeFile('public/data/news-feed.json', JSON.stringify(result, null, 2) + '\n');
-console.log('Saved ' + total + ' news items. Feed errors: ' + result.sourceErrors.length);
+await writeFile('public/data/news-feed.json', JSON.stringify(result, null, 2) + '\\n');
+console.log('Saved ' + total + ' news items; images: ' + result.imageStats.withImage + '/' + total +
+  ' (RSS: ' + result.imageStats.fromRss + ', article metadata: ' + result.imageStats.fromArticleMetadata +
+  ', missing: ' + result.imageStats.withoutImage + '). Feed errors: ' + result.sourceErrors.length);
