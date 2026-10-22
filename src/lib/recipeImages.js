@@ -85,14 +85,14 @@ export function isDishSpecificPhotoTitle(recipe) {
 
   sourceTitle = sourceTitle
     .replace(/^File:/i, '')
-    .replace(/\\.[a-z0-9]{2,6}$/i, '')
+    .replace(/\.[a-z0-9]{2,6}$/i, '')
     .replace(/[_-]+/g, ' ');
   const searchable = norm(sourceTitle);
   if (!searchable) return false;
 
   // A vegetarian slide must not show a source filename that identifies meat,
   // fish, eggs or seafood, even if it also mentions vegetables or rice.
-  if (recipe?.category === 'নিরামিষ' && /\\b(chicken|mutton|beef|meat|fish|egg|prawn|shrimp|lamb|pork)\\b/i.test(searchable)) {
+  if (recipe?.category === 'নিরামিষ' && /\b(chicken|mutton|beef|meat|fish|egg|prawn|shrimp|lamb|pork)\b/i.test(searchable)) {
     return false;
   }
 
