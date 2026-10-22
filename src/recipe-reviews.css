@@ -547,3 +547,238 @@ html[data-theme="dark"] .recipe-detail .panel {
   background: transparent;
   box-shadow: none;
 }
+
+
+/* Final mobile layout correction: stack review summary and form instead of
+   allowing the desktop two-column layout to squeeze both into narrow columns. */
+@media (max-width: 700px) {
+  .reviews-section {
+    width: 100%;
+    min-width: 0;
+    margin-top: 38px;
+    padding-top: 25px;
+  }
+
+  .reviews-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 21px;
+  }
+
+  .reviews-heading > div:first-child {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .reviews-heading h3 {
+    font-size: clamp(22px, 6vw, 28px);
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+  }
+
+  .reviews-heading > div:first-child > p:last-child {
+    max-width: 100%;
+    font-size: 13px;
+    line-height: 1.85;
+  }
+
+  .reviews-total {
+    align-self: flex-start;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .reviews-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: stretch;
+    gap: 26px;
+    width: 100%;
+  }
+
+  .reviews-summary,
+  .review-form-panel {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .reviews-summary {
+    padding: 0 0 24px;
+    border-bottom: 1px solid #e7ebe3;
+  }
+
+  .reviews-score {
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 13px;
+    margin-bottom: 20px;
+  }
+
+  .reviews-score > strong {
+    font-size: 48px;
+  }
+
+  .rating-distribution {
+    width: 100%;
+    max-width: 100%;
+    gap: 11px;
+  }
+
+  .rating-bar-row {
+    grid-template-columns: 30px minmax(0, 1fr) 27px;
+    gap: 9px;
+  }
+
+  .rating-bar-track {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .review-form-panel {
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  .review-form-title {
+    align-items: flex-start;
+    gap: 11px;
+    margin-bottom: 18px;
+  }
+
+  .review-form-title > div {
+    min-width: 0;
+  }
+
+  .review-form-title h4 {
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  .review-form-title p {
+    font-size: 12px;
+    line-height: 1.75;
+  }
+
+  .review-form {
+    width: 100%;
+    min-width: 0;
+    gap: 16px;
+  }
+
+  .review-rating-field,
+  .review-star-picker,
+  .review-field {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .review-star-picker {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .review-star-picker button {
+    width: 38px;
+    height: 38px;
+    flex: 0 0 38px;
+  }
+
+  .review-star-picker > span {
+    flex-basis: 100%;
+    margin: 3px 0 0;
+    line-height: 1.7;
+  }
+
+  .review-field input,
+  .review-field textarea {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+  .review-submit {
+    min-height: 48px;
+    white-space: normal;
+    line-height: 1.6;
+  }
+
+  .reviews-list-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    margin-top: 27px;
+  }
+
+  .reviews-list-header > div {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .review-sort {
+    align-self: flex-end;
+  }
+
+  .reader-review {
+    min-width: 0;
+    gap: 11px;
+  }
+
+  .reader-review-body {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .reader-review-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .reader-review-top > div {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .reader-review-body > p {
+    font-size: 13px;
+    line-height: 1.9;
+    overflow-wrap: anywhere;
+  }
+
+  .review-load-warning {
+    flex-wrap: wrap;
+  }
+
+  .review-load-warning button {
+    margin-left: 0;
+  }
+
+  html[data-theme="dark"] .reviews-summary {
+    border-bottom-color: #30343b;
+  }
+
+  html[data-theme="dark"] .review-form-panel {
+    border: 0;
+    background: transparent;
+  }
+}
+
+@media (max-width: 380px) {
+  .reviews-section { margin-top: 32px; }
+  .reviews-score > strong { font-size: 43px; }
+  .review-star-picker button { width: 36px; height: 36px; flex-basis: 36px; }
+  .reviews-heading h3 { font-size: 23px; }
+}
