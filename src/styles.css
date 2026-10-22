@@ -1650,3 +1650,13 @@
   .mira-launcher-dragging .mira-mascot,
   .mira-widget-dragging .mira-mascot { transition: none; }
 }
+
+
+/* The chat dock follows Mira and stays within the free screen area. */
+.mira-panel {
+  width: min(370px, 100%);
+  max-width: 100%;
+}
+.mira-position-left .mira-panel { left: 0; right: auto; }
+.mira-position-right .mira-panel { right: 0; left: auto; }
+.mira-intro-bubble { max-width: min(252px, 100%); }
