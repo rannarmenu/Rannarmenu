@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#f8f7f2" />
+    <script>
+      try {
+        const preference = localStorage.getItem('rannar-menu-theme') || 'system';
+        const dark = preference === 'dark' || (preference === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+        document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
+      } catch {
+        document.documentElement.dataset.theme = 'light';
+      }
+    </script>
     <meta name="description" content="Rannar Menu — সহজ রেসিপি, ঘরোয়া স্বাদ আর প্রতিদিনের রান্নার অনুপ্রেরণা।" />
     <meta name="robots" content="index,follow" />
     <link rel="icon" type="image/svg+xml" href="%BASE_URL%rannar-menu-logo.svg" />
