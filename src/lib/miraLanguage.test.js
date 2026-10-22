@@ -30,6 +30,11 @@ test('asks for a dish name when the user only asks for a recipe', () => {
   assert.equal(classifyMiraIntent('amar jonno kichu ranna bolo'), 'generic_recipe_request');
 });
 
+test('treats vague preferences as missing recipe names instead of failed searches', () => {
+  assert.equal(classifyMiraIntent('ami ekta easy recipe chai'), 'generic_recipe_request');
+  assert.equal(cleanBanglishRecipeQuery('ami ekta easy recipe chai'), '');
+});
+
 test('recognizes Banglish website help', () => {
   assert.equal(classifyMiraIntent('website e save korbo kivabe'), 'website_help');
   assert.equal(classifyMiraIntent('amar website e search kaj kortese na'), 'website_help');
@@ -41,6 +46,9 @@ test('understands cooking trouble descriptions written in Banglish', () => {
   assert.match(getCookingTroubleshootingReply('biryani jhorjhore hocche na'), /চাল ঝরঝরে/u);
   assert.match(getCookingTroubleshootingReply('jhol patla hoye geche'), /ঝোল পাতলা/u);
   assert.match(getCookingTroubleshootingReply('lobon beshi hoye geche'), /নুন-লবণ একটু বেশি/u);
+  assert.match(getCookingTroubleshootingReply('murgi kacha'), /ভিতরে কাঁচা/u);
+  assert.equal(classifyMiraIntent('murgi kacha'), 'cooking_problem');
+  assert.equal(classifyMiraIntent('biryani jhorjhore hocche na'), 'cooking_problem');
 });
 
 test('normalizes common romanized food and ingredient spellings', () => {
