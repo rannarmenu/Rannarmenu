@@ -7,7 +7,7 @@ import './admin.css';
 const empty={title:'',category:'মাংস',summary:'',ingredients:'',instructions:'',prep_minutes:10,cook_minutes:25,servings:2,difficulty:'easy',image_url:'',image_source_url:'',image_credit:'',image_license:'',image_search_status:'pending',image_search_attempted_at:null,tags:'',source_name:'',source_url:'',source_license:'',source_attribution:'',is_published:false};
 const list=v=>Array.isArray(v)?v.map(x=>typeof x==='string'?x:x?.name||x?.text||'').filter(Boolean):String(v||'').split(/\r?\n/).map(x=>x.trim()).filter(Boolean);
 const slug=v=>String(v||'').normalize('NFKC').toLocaleLowerCase().trim().replace(/[^\p{L}\p{M}\p{N}]+/gu,'-').replace(/^-+|-+$/g,'').slice(0,200);
-const formFrom=r=>({...empty,...r,ingredients:list(r.ingredients).join('\n'),instructions:list(r.instructions).join('\n'),tags:Array.isArray(r.tags)?r.tags.join(', '):'',is_published:!!r.is_published});
+const formFrom=r=>({...empty,...r,_original_title:r.title,ingredients:list(r.ingredients).join('\n'),instructions:list(r.instructions).join('\n'),tags:Array.isArray(r.tags)?r.tags.join(', '):'',is_published:!!r.is_published});
 const record=(f,uid)=>({slug:slug(f.slug||f.title),title:String(f.title||'').trim(),category:String(f.category||'').trim()||'অন্যান্য',summary:String(f.summary||'').trim(),ingredients:list(f.ingredients),instructions:list(f.instructions),prep_minutes:Number(f.prep_minutes)||0,cook_minutes:Number(f.cook_minutes)||0,servings:Number(f.servings)||2,difficulty:f.difficulty,image_url:String(f.image_url||'').trim()||null,image_source_url:String(f.image_source_url||'').trim()||null,image_credit:String(f.image_credit||'').trim()||null,image_license:String(f.image_license||'').trim()||null,image_search_status:f.image_search_status||'pending',image_search_attempted_at:f.image_search_attempted_at||null,tags:String(f.tags||'').split(',').map(x=>x.trim()).filter(Boolean),source_name:String(f.source_name||'').trim()||null,source_url:String(f.source_url||'').trim()||null,source_license:String(f.source_license||'').trim()||null,source_attribution:String(f.source_attribution||'').trim()||null,is_published:!!f.is_published,published_at:f.is_published?(f.published_at||new Date().toISOString()):null,updated_by:uid});
 let photoBackfillRunning=false;
 async function mapWithLimit(items,limit,worker){const out=new Array(items.length);let next=0;await Promise.all(Array.from({length:Math.min(limit,items.length)},async()=>{while(true){const i=next++;if(i>=items.length)return;out[i]=await worker(items[i],i)}}));return out}
@@ -31,7 +31,9 @@ function AdminApp(){
   U(true);
   try {
     let data=record(form,session.user.id);
-    if(!hasCompleteRecipePhoto(data))data=await attachRecipePhoto(data);
+    const titleChanged=active!=='new'&&String(form._original_title||'').trim()!==data.title;
+    if(titleChanged){data.image_url=null;data.image_source_url=null;data.image_credit=null;data.image_license=null;data.image_search_status='pending';data.image_search_attempted_at=null;}
+    if(titleChanged||!hasCompleteRecipePhoto(data))data=await attachRecipePhoto(data);
     const existingIndex=await loadExistingRecipeIndex(supabase);
     const existingSlug=existingIndex.titles.get(recipeTitleKey(data.title));
     if(existingSlug&&existingSlug!==data.slug){U(false);Err('এই নাম বা একই অর্থের কাছাকাছি শিরোনামের রেসিপি আগে থেকেই আছে। আলাদা রান্নার ধরন হলে শিরোনামে সেই ধরনটি স্পষ্ট করুন।');return}
