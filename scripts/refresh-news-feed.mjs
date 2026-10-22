@@ -22,7 +22,7 @@ function decodeXml(value = '') {
     .replace(/&#x([\da-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
 }
 function tag(xml, name) {
-  const match = xml.match(new RegExp('<' + name + '(?:\s[^>]*)?>([\s\S]*?)<\/' + name + '>', 'i'));
+  const match = xml.match(new RegExp('<' + name + '(?:\\s[^>]*)?>([\\s\\S]*?)<\\/' + name + '>', 'i'));
   return match ? decodeXml(match[1].replace(/<[^>]+>/g, ' ').trim()).replace(/\s+/g, ' ') : '';
 }
 function cleanUrl(value) {
