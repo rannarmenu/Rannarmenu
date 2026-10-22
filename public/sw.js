@@ -73,7 +73,8 @@ self.addEventListener('fetch', (event) => {
         }
         return response;
       } catch {
-        return caches.match(OFFLINE_URL);
+        // Do not return an HTML page as a script, stylesheet, or image response.
+        return new Response('', { status: 503, statusText: 'Offline' });
       }
     })());
   }
