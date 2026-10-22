@@ -36,6 +36,14 @@ const mediaBrands = [
     source: 'https://commons.wikimedia.org/wiki/File:Jamuna_TV_logo.svg',
   },
   {
+    name: 'Channel 24',
+    bangla: 'চ্যানেল ২৪',
+    role: 'বাংলাদেশ ও বিশ্বের সংবাদ ও চলতি ঘটনা',
+    site: 'https://www.channel24bd.tv/',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Channel24logo.svg/1280px-Channel24logo.svg.png',
+    source: 'https://commons.wikimedia.org/wiki/File:Channel24logo.svg',
+  },
+  {
     name: 'Maasranga Television',
     bangla: 'মাছরাঙা টেলিভিশন',
     role: 'সংবাদ, খেলাধুলা ও বিনোদন',
@@ -51,6 +59,11 @@ const siteFeatures = [
   { Icon: Bookmark, title: 'নিজের রান্নার খাতা', text: 'পছন্দের রেসিপি সংরক্ষণ করে পরে দ্রুত আবার দেখে নিতে পারবেন।' },
   { Icon: ShieldCheck, title: 'বিশ্বাসযোগ্য উপস্থাপনা', text: 'রেসিপির তথ্য, উপকরণ ও ছবির মিলকে গুরুত্ব দিয়ে পরিষ্কারভাবে কনটেন্ট সাজানোর লক্ষ্য।' },
 ];
+
+function jumpToSection(event, id) {
+  event.preventDefault();
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
 
 function SectionHeading({ eyebrow, title, text }) {
   return (
@@ -71,8 +84,8 @@ export default function AboutPage() {
           <h1 id="about-title">রান্নার আনন্দ,<br /><em>সবার জন্য।</em></h1>
           <p>Rannar Menu হলো ঘরোয়া রান্নার অনুপ্রেরণা খুঁজে নেওয়ার একটি বাংলা রেসিপি প্ল্যাটফর্ম। পরিচিত উপকরণ, সহজ নির্দেশনা আর নিজের পছন্দের রেসিপি গুছিয়ে রাখার সুবিধা—সবকিছু সহজভাবে উপস্থাপন করাই আমাদের লক্ষ্য।</p>
           <div className="about-hero-actions">
-            <a className="about-primary-link" href="#about-site">ওয়েবসাইট সম্পর্কে <ArrowUpRight size={16} /></a>
-            <a className="about-secondary-link" href="#about-founder">প্রতিষ্ঠাতার পরিচিতি</a>
+            <a className="about-primary-link" href="#about-site" onClick={(event) => jumpToSection(event, "about-site")}>ওয়েবসাইট সম্পর্কে <ArrowUpRight size={16} /></a>
+            <a className="about-secondary-link" href="#about-founder" onClick={(event) => jumpToSection(event, "about-founder")}>প্রতিষ্ঠাতার পরিচিতি</a>
           </div>
         </div>
         <div className="about-hero-art" aria-label="Rannar Menu-এর রান্নার অনুপ্রেরণা">
@@ -84,9 +97,9 @@ export default function AboutPage() {
       </section>
 
       <nav className="about-local-nav" aria-label="আমাদের কথা পেজের বিভাগ">
-        <a href="#about-site"><Globe2 size={16} /> ওয়েবসাইট সম্পর্কে</a>
-        <a href="#about-media"><Users size={16} /> সংবাদমাধ্যম</a>
-        <a href="#about-founder"><ChefHat size={16} /> চেয়ারম্যান ও প্রতিষ্ঠাতা</a>
+        <a href="#about-site" onClick={(event) => jumpToSection(event, "about-site")}><Globe2 size={16} /> ওয়েবসাইট সম্পর্কে</a>
+        <a href="#about-media" onClick={(event) => jumpToSection(event, "about-media")}><Users size={16} /> সংবাদমাধ্যম</a>
+        <a href="#about-founder" onClick={(event) => jumpToSection(event, "about-founder")}><ChefHat size={16} /> চেয়ারম্যান ও প্রতিষ্ঠাতা</a>
       </nav>
 
       <section className="about-content-section" id="about-site">
