@@ -27,7 +27,7 @@ import {
   getCookingTroubleshootingReply,
   getRecipeSelectionIndex
 } from './lib/miraLanguage.js';
-import { buildMiraConversation, getMiraAIErrorMessage, normalizeMiraAIResult } from './lib/miraAI.js';
+import { buildMiraConversation, getMiraAIErrorMessage, getMiraFallbackRoute, normalizeMiraAIResult } from './lib/miraAI.js';
 
 const CHAT_NOISE = new Set([
   'i','me','my','we','you','your','the','a','an','and','or','to','for','of','with','please','pls',
@@ -484,20 +484,28 @@ export default function MiraChat({ onOpenRecipe }) {
       return;
     }
 
-    const rawLooksLikeRecipe = isRecipeRequest(understoodText);
+    const fallbackRoute = getMiraFallbackRoute({
+      intent,
+      aiErrorCode: aiResponse.errorCode,
+      hasAIRecipeQuery: Boolean(aiSearchQuery)
+    });
+    const rawLooksLikeRecipe = fallbackRoute === 'recipe_lookup';
     const cleanedOriginal = cleanRecipeQuery(rawText);
     const cleanedBengali = cleanRecipeQuery(bengaliText);
 
-    // Never turn an ordinary question into a recipe-title search just because
-    // the fallback cleaner returns some words. If the AI request failed, explain
-    // that failure; if it didn't fail, use the general fallback, not 'recipe not found'.
-    if (!rawLooksLikeRecipe) {
-      if (aiResponse.errorCode) {
-        const locale = isBengali(rawText) ? 'bn' : detectBanglish(rawText) ? 'banglish' : (typeof navigator !== 'undefined' && String(navigator.language || '').startsWith('bn') ? 'bn' : 'en');
-        addAssistantMessage(getMiraAIErrorMessage(aiResponse.errorCode, locale));
-      } else {
-        addAssistantMessage(await localizeReply(MIRA_COPY.fallback, language));
-      }
+    // General questions must never become catalogue searches just because the
+    // query cleaner can extract a few words from ordinary prose.
+    if (fallbackRoute === 'ai_error') {
+      const locale = isBengali(rawText) ? 'bn' : detectBanglish(rawText) ? 'banglish' : (typeof navigator !== 'undefined' && String(navigator.language || '').startsWith('bn') ? 'bn' : 'en');
+      addAssistantMessage(getMiraAIErrorMessage(aiResponse.errorCode, locale));
+      return;
+    }
+    if (fallbackRoute === 'general_reply') {
+      addAssistantMessage(await localizeReply(MIRA_COPY.fallback, language));
+      return;
+    }
+    if (fallbackRoute === 'ask_name') {
+      addAssistantMessage(await localizeReply(MIRA_COPY.askName, language));
       return;
     }
 
