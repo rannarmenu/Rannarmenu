@@ -81,6 +81,7 @@ function titleMatchCount(recipe, groups) {
 
 function isWebsiteHelp(question) {
   const value = normalizeSearchText(question);
+  if (/^(help|help me|please help|help please|সাহায্য|একটু সাহায্য)$/u.test(value)) return true;
   return /(website|web site|webpage|site use|use this site|use website|search bar|where can i|how can i|how do i use|help me use|ওয়েবসাইট|ওয়েবসাইট|এই সাইট|সার্চ বার|খুঁজে পাব|কোথায় খুঁজ|কোথায় খুঁজ|ব্যবহার কর|কিভাবে ব্যবহার|কীভাবে ব্যবহার|কোথায় পাব|কোথায় পাব|রেসিপি সেভ|সংরক্ষণ কর)/u.test(value);
 }
 
@@ -126,12 +127,30 @@ export default function MiraChat({ onOpenRecipe }) {
   const inputRef = useRef(null);
   const busyRef = useRef(false);
   const lastSentAt = useRef(0);
+  const greetingLocalized = useRef(false);
 
   useEffect(() => {
     if (!isOpen) return;
     messageListRef.current?.scrollTo({ top: messageListRef.current.scrollHeight, behavior: 'smooth' });
     inputRef.current?.focus({ preventScroll: true });
   }, [isOpen, messages, busy]);
+
+  useEffect(() => {
+    if (!isOpen || greetingLocalized.current) return;
+    greetingLocalized.current = true;
+    const browserLanguage = typeof navigator !== 'undefined'
+      ? String(navigator.language || 'bn').toLowerCase().split('-')[0]
+      : 'bn';
+    if (!browserLanguage || browserLanguage === 'bn') return;
+    let active = true;
+    translateChatText(MIRA_COPY.welcome, { source: 'bn', target: browserLanguage }).then(result => {
+      if (!active || !result.text) return;
+      setMessages(previous => previous.map(message =>
+        message.id === 'mira-welcome' ? { ...message, text: result.text } : message
+      ));
+    }).catch(() => {});
+    return () => { active = false; };
+  }, [isOpen]);
 
   const addAssistantMessage = (text, recipes = []) => {
     setMessages(previous => [
