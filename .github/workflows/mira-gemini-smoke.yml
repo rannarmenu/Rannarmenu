@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/mira-gemini-smoke.yml'
+      - 'supabase/functions/mira-chat/**'
   workflow_dispatch:
 
 permissions:
