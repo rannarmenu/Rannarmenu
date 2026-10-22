@@ -63,8 +63,8 @@ as $function$
         where pg_catalog.btrim(candidate_term.term) <> ''
           and (
             pg_catalog.strpos(
-              extensions.unaccent(pg_catalog.lower(c.searchable_text)),
-              extensions.unaccent(pg_catalog.lower(candidate_term.term))
+              extensions.unaccent(pg_catalog.lower(normalize(c.searchable_text, NFKC))),
+              extensions.unaccent(pg_catalog.lower(normalize(candidate_term.term, NFKC)))
             ) > 0
             or c.search_document @@ pg_catalog.websearch_to_tsquery('simple', candidate_term.term)
           )
