@@ -18,7 +18,7 @@ const rates = new Map<string, { count: number; resetAt: number }>();
 type ChatMessage = { role: "user" | "assistant"; content: string };
 type MiraAction = "chat" | "recipe_search" | "ask_clarification" | "website_help" | "cooking_help";
 
-const responseSchema = {
+const responseJsonSchema = {
   type: "object",
   properties: {
     action: {
@@ -29,6 +29,7 @@ const responseSchema = {
     search_query: { type: "string" },
   },
   required: ["action", "reply", "search_query"],
+  additionalProperties: false,
   propertyOrdering: ["action", "reply", "search_query"],
 };
 
@@ -200,6 +201,27 @@ function providerErrorCode(payload: unknown): string {
   return [item.status, item.message, item.code].filter((v) => typeof v === "string").join(" ").slice(0, 600).toLowerCase();
 }
 
+function providerErrorDetails(payload: unknown): { providerStatus: string; providerCode: string; errorCategory: string } {
+  if (!payload || typeof payload !== "object") {
+    return { providerStatus: "unknown", providerCode: "unknown", errorCategory: "unknown" };
+  }
+  const error = (payload as Record<string, unknown>).error;
+  if (!error || typeof error !== "object") {
+    return { providerStatus: "unknown", providerCode: "unknown", errorCategory: "unknown" };
+  }
+  const item = error as Record<string, unknown>;
+  const status = typeof item.status === "string" ? item.status.slice(0, 80) : "unknown";
+  const code = typeof item.code === "number" || typeof item.code === "string" ? String(item.code).slice(0, 40) : "unknown";
+  const message = typeof item.message === "string" ? item.message.toLowerCase().slice(0, 500) : "";
+  let category = "other";
+  if (/api key|invalid key|unauthenticated|api_key_invalid/.test(message)) category = "invalid_key";
+  else if (/quota|billing|resource_exhausted|rate limit/.test(message)) category = "quota_or_rate_limit";
+  else if (/permission|not authorized|restricted|api has not been used/.test(message)) category = "permission";
+  else if (/schema|invalid argument|invalid json|unknown name|cannot find field/.test(message)) category = "request_schema";
+  else if (/model not found|not supported for generatecontent/.test(message)) category = "model";
+  return { providerStatus: status, providerCode: code, errorCategory: category };
+}
+
 function mapProviderFailure(status: number, safeCode: string): { code: string; status: number } {
   if (status === 401 || /api key not valid|invalid api key|api_key_invalid|unauthenticated/.test(safeCode)) {
     return { code: "AI_INVALID_API_KEY", status: 503 };
@@ -283,7 +305,7 @@ Deno.serve(async (req: Request) => {
           topP: 0.9,
           maxOutputTokens: MAX_OUTPUT_TOKENS,
           responseMimeType: "application/json",
-          responseSchema,
+          responseJsonSchema,
         },
       }),
     });
@@ -296,6 +318,7 @@ Deno.serve(async (req: Request) => {
         status: providerResponse.status,
         code: failure.code,
         model,
+        ...providerErrorDetails(providerPayload),
       }));
       return jsonResponse({
         ok: false,
