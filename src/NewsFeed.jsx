@@ -418,12 +418,15 @@ function NewsItems({ items, Icon, compact = false }) {
                 decoding="async"
                 onError={(event) => {
                   const imageElement = event.currentTarget;
-                  if (item.imageFallback && imageElement.dataset.fallbackApplied !== 'true') {
+                  const fallbackUrl = item.imageFallback || '';
+                  const currentUrl = imageElement.getAttribute('src') || '';
+                  if (fallbackUrl && fallbackUrl !== currentUrl && imageElement.dataset.fallbackApplied !== 'true') {
                     imageElement.dataset.fallbackApplied = 'true';
                     imageElement.closest('.news-item-media')?.classList.add('has-image-illustration');
-                    imageElement.src = item.imageFallback;
+                    imageElement.src = fallbackUrl;
                   } else {
                     imageElement.hidden = true;
+                    imageElement.closest('.news-item-media')?.classList.add('has-image-illustration');
                   }
                 }}
               />
