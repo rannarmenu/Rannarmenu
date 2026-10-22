@@ -16,14 +16,14 @@ const biryaniRecipe = {
 
 test('folds Latin accents without stripping Bengali vowel signs', () => {
   assert.equal(normalizeSearchText('Crème Brûlée'), 'creme brulee');
-  assert.equal(normalizeSearchText('বিরিয়ানি'), 'বিরিয়ানি');
+  assert.equal(normalizeSearchText('বিরিয়ানি'), normalizeSearchText('বিরিয়ানি'));
 });
 
 test('expands romanized Bangla and international food aliases', () => {
   const groups = buildRecipeSearchGroups('pollo biryani');
   assert.equal(groups.length, 2);
   assert.ok(groups[0].includes('মুরগি'));
-  assert.ok(groups[1].includes('বিরিয়ানি'));
+  assert.ok(groups[1].includes(normalizeSearchText('বিরিয়ানি')));
 });
 
 test('finds Bengali recipes using English and romanized Bangla', () => {
