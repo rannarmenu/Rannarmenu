@@ -346,7 +346,7 @@ function App() {
    });
    const performSearch=async()=>{
     try{
-     const primary=await supabase.rpc('search_recipe_previews_multilingual',searchArgs(buildRecipeSearchGroups(term)));
+     const primary=await supabase.rpc(isVerifiedCustomer?'search_verified_recipe_previews_multilingual':'search_recipe_previews_multilingual',searchArgs(buildRecipeSearchGroups(term)));
      if(!alive)return;
      if(primary.error){
       setCatalogBusy(false);setCatalogMode(true);setCatalogRecipes([]);setCatalogTotal(0);setCatalogError(primary.error.message);
@@ -362,7 +362,7 @@ function App() {
        if(!alive||translationController.signal.aborted)return;
        const groups=buildRecipeSearchGroups(translatedQuery);
        if(!groups.length)continue;
-       const alternative=await supabase.rpc('search_recipe_previews_multilingual',searchArgs(groups));
+       const alternative=await supabase.rpc(isVerifiedCustomer?'search_verified_recipe_previews_multilingual':'search_recipe_previews_multilingual',searchArgs(groups));
        if(alternative.error)continue;
        const count=Number(alternative.data?.[0]?.total_count)||0;
        if(count>0){resultRows=alternative.data||[];resultCount=count;break;}
