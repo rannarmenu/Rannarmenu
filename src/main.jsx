@@ -25,6 +25,11 @@ const demos = [
  {id:'demo-chicken',slug:'chicken-kosha',title:'চিকেন কষা',category:'মাংস',time:50,level:'মাঝারি',tag:'ঝালপ্রেমীদের জন্য',image:null,desc:'ঘন মসলার গ্রেভিতে রান্না করা জমজমাট মুরগির পদ।',ingredients:['মুরগি ৫০০ গ্রাম','পেঁয়াজ ৩টি','টক দই ¼ কাপ','আদা-রসুন বাটা','গরম মসলা'],steps:['মুরগি দই ও মসলা দিয়ে মেরিনেট করুন।','পেঁয়াজ বাদামি করে ভেজে মুরগি দিন।','কম আঁচে তেল ছাড়ানো পর্যন্ত কষিয়ে নিন।']}
 ];
 const categories = ['সব রেসিপি','মাছ','মাংস','ডিম','নিরামিষ'];
+const homeSearchExamples = [
+ {label:'ইলিশ মাছ',query:'ilish mach'},
+ {label:'কাচ্চি বিরিয়ানি',query:'kacchi biryani'},
+ {label:'মুরগির ঝোল',query:'chicken curry'}
+];
 const PAGE_SIZE = 24;
 const ROUTABLE_PAGES = ['home', 'recipes', 'categories', 'saved', 'about'];
 function routeFromHash(hash = window.location.hash) {
@@ -200,6 +205,7 @@ function App() {
 
  useEffect(()=>{
   if(!supabaseConfigured){setCatalogMode(false);return;}
+  if(!['recipes','saved'].includes(route.page)){setCatalogBusy(false);setCatalogMode(false);return;}
   let alive=true;
   let timerId;
   const translationController=new AbortController();
@@ -263,7 +269,7 @@ function App() {
   req=req.order('published_at',{ascending:false,nullsFirst:false}).order('created_at',{ascending:false}).range(catalogPage*PAGE_SIZE,catalogPage*PAGE_SIZE+PAGE_SIZE-1);
   req.then(({data,error,count})=>{if(!alive)return;setCatalogBusy(false);if(error){setCatalogError(error.message);setCatalogMode(true);setCatalogRecipes([]);setCatalogTotal(0);return;}setCatalogMode(true);setCatalogRecipes((data||[]).map(dbRecipeToCard));setCatalogTotal(count||0);});
   return ()=>{alive=false;};
- },[query,category,catalogPage,showSaved,saved]);
+ },[query,category,catalogPage,showSaved,saved,route.page]);
  useEffect(()=>{
   if(!supabaseConfigured)return;
   supabase.from('recipes').select('category').eq('is_published',true).then(({data})=>{if(data)setDbCategories([...new Set(data.map(x=>x.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'bn')));});
@@ -281,13 +287,17 @@ function App() {
   if(['home','recipes','saved','categories'].includes(safePage)){setCategory(options.category||'সব রেসিপি');if(!options.keepQuery)setQuery('');setCatalogPage(0);}
   window.scrollTo({top:0,behavior:'smooth'});
  };
+ const applySearchExample=term=>{
+  setQuery(term);setCategory('সব রেসিপি');setCatalogPage(0);setShowSaved(false);setSelected(null);
+  navigateTo('recipes',null,{keepQuery:true});
+ };
  const toggleSave=id=>setSaved(prev=>prev.includes(id)?prev.filter(x=>x!==id):[...prev,id]);
  const resetFilters=()=>{setQuery('');setCategory('সব রেসিপি');setCatalogPage(0);setShowSaved(false);setSelected(null);navigateTo('recipes');};
  const stepFeatured=direction=>setFeaturedIndex(index=>featuredRecipes.length?(index+direction+featuredRecipes.length)%featuredRecipes.length:0);
  const openRecipe=recipe=>navigateTo('recipe',recipe);
  const openFeaturedRecipe=recipe=>{openRecipe(recipe);setCategory('সব রেসিপি');setQuery('');setCatalogPage(0);};
  return <><header className="header"><div className="nav wrap"><a className="brand" href="#/home" aria-label="Rannar Menu — রান্না হোক আরও সহজ" onClick={e=>{e.preventDefault();navigateTo('home')}}><img className="brand-logo brand-logo-light" src={import.meta.env.BASE_URL + "rannar-menu-logo-light.svg"} alt="" width="635" height="160" fetchPriority="high" /><img className="brand-logo brand-logo-dark" src={import.meta.env.BASE_URL + "rannar-menu-logo-dark.svg"} alt="" width="635" height="160" aria-hidden="true" /></a><nav className="nav-links"><a className={route.page==='recipes'||route.page==='recipe'?'nav-active':undefined} aria-current={route.page==='recipes'||route.page==='recipe'?'page':undefined} href="#/recipes" onClick={e=>{e.preventDefault();navigateTo('recipes')}}>রেসিপি</a><a className={route.page==='categories'?'nav-active':undefined} aria-current={route.page==='categories'?'page':undefined} href="#/categories" onClick={e=>{e.preventDefault();navigateTo('categories')}}>ক্যাটাগরি</a><a href={import.meta.env.BASE_URL + "admin"}>অ্যাডমিন</a><button className="saved-link" aria-current={route.page==='saved'?'page':undefined} onClick={()=>navigateTo(route.page==='saved'?'recipes':'saved')}><Heart size={17} fill={route.page==='saved'?'currentColor':'none'}/> সংরক্ষিত ({saved.length})</button></nav><ThemeToggle/></div></header>
- <main id="home">{route.page==='home'&&<section className="hero wrap"><div className="hero-copy"><div className="eyebrow"><Sparkles size={15}/> রান্না হোক আরও আনন্দের</div><h1>প্রতিদিনের রান্নায়<br/><em>নতুন স্বাদের</em> গল্প।</h1><p>চেনা উপকরণ, সহজ রেসিপি আর ঘরোয়া স্বাদে আপনার প্রতিদিনের খাবার হোক একটু বেশি বিশেষ।</p><div className="hero-actions"><form className="hero-search" role="search" onSubmit={e=>{e.preventDefault();setCategory('সব রেসিপি');setCatalogPage(0);setShowSaved(false);setSelected(null);navigateTo('recipes',null,{keepQuery:true});}}><Search size={21} aria-hidden="true"/><input type="search" value={query} onChange={e=>{setQuery(e.target.value);setCatalogPage(0)}} placeholder="যেকোনো ভাষায় খাবারের নাম খুঁজুন..." aria-label="রেসিপি বা উপকরণ খুঁজুন"/><button type="submit" aria-label="খুঁজুন"><Search size={19}/></button></form><span className="social-proof"><span className="proof-icon"><Utensils size={16}/></span> ঘরের রান্না, মনের মতো</span></div><div className="hero-stats"><div><strong>সহজ</strong><span>ধাপে ধাপে নির্দেশনা</span></div><div><strong>ঘরোয়া</strong><span>পরিচিত উপকরণ</span></div><div><strong>সুস্বাদু</strong><span>প্রতিদিন নতুন আইডিয়া</span></div></div></div></section>}
+ <main id="home">{route.page==='home'&&<section className="hero wrap"><div className="hero-copy"><div className="eyebrow"><Sparkles size={15}/> রান্না হোক আরও আনন্দের</div><h1>প্রতিদিনের রান্নায়<br/><em>নতুন স্বাদের</em> গল্প।</h1><p>চেনা উপকরণ, সহজ রেসিপি আর ঘরোয়া স্বাদে আপনার প্রতিদিনের খাবার হোক একটু বেশি বিশেষ।</p><div className="hero-actions"><form className="hero-search" role="search" onSubmit={e=>{e.preventDefault();setCategory('সব রেসিপি');setCatalogPage(0);setShowSaved(false);setSelected(null);navigateTo('recipes',null,{keepQuery:true});}}><Search size={21} aria-hidden="true"/><input type="search" value={query} onChange={e=>{setQuery(e.target.value);setCatalogPage(0)}} placeholder="যেমন: kacchi biryani, ilish mach, মুরগির ঝোল..." aria-label="বাংলা, English বা Banglish-এ রেসিপি ও উপকরণ খুঁজুন"/><button type="submit" aria-label="খুঁজুন"><Search size={19}/></button></form><div className="hero-search-support"><span className="hero-search-support-label"><Search size={13} aria-hidden="true"/> বাংলা, English ও Banglish—সবভাবেই খুঁজুন</span><div className="hero-search-examples" aria-label="সার্চের উদাহরণ">{homeSearchExamples.map(example=><button key={example.query} type="button" onClick={()=>applySearchExample(example.query)}>{example.label}</button>)}</div></div></div><div className="hero-stats"><div><strong>সহজ</strong><span>ধাপে ধাপে নির্দেশনা</span></div><div><strong>ঘরোয়া</strong><span>পরিচিত উপকরণ</span></div><div><strong>সুস্বাদু</strong><span>প্রতিদিন নতুন আইডিয়া</span></div></div></div></section>}
  {route.page==='home'&&<section className="featured-banner-section" aria-label="Trending Recipes"><FeaturedRecipeCarousel recipes={featuredRecipes} activeIndex={featuredIndex} onSelect={openFeaturedRecipe} onPrevious={()=>stepFeatured(-1)} onNext={()=>stepFeatured(1)} onSelectIndex={setFeaturedIndex} paused={featuredPaused} onTogglePause={()=>setFeaturedPaused(value=>!value)} loading={featuredLoading} error={featuredError}/></section>}
  {route.page==='home'&&<SponsorTicker/>}
  {route.page==='categories'&&<section className="category-strip" id="categories"><div className="wrap category-inner"><div><span className="section-kicker">আপনার পছন্দের স্বাদ</span><h2>কী রান্না হবে আজ?</h2></div><div className="category-pills" aria-label="রেসিপির ক্যাটাগরি">{visibleCategories.map((c,i)=><button key={c} type="button" aria-pressed={category===c} className={category===c?'category-pill active':'category-pill'} onClick={()=>navigateTo('recipes',null,{category:c})}>{i===0?<Utensils size={16}/>:i===1?<span>🐟</span>:i===2?<span>🍗</span>:i===3?<span>🥚</span>:<Leaf size={16}/>} {c}<ChevronRight className="category-pill-arrow" size={18} aria-hidden="true"/></button>)}</div></div></section>}

@@ -766,3 +766,13 @@ html[data-theme="dark"] .category-pill.active > .category-pill-arrow {
 html[data-theme="dark"] .category-pill:hover > .category-pill-arrow {
   color: #eff6ed;
 }
+
+
+/* Banglish search helper and suggestion chips follow the explicit dark theme. */
+html[data-theme="dark"] .hero-search-support-label { color: #b6bdba; }
+html[data-theme="dark"] .hero-search-examples button {
+  border-color: #373d42; background: #1b2024; color: #c5cec8;
+}
+html[data-theme="dark"] .hero-search-examples button:hover {
+  border-color: #657d69; background: #242d27; color: #e2eee3;
+}
