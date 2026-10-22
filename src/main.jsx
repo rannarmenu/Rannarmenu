@@ -14,6 +14,7 @@ import RecipeReviews from './RecipeReviews.jsx';
 import { supabase, supabaseConfigured } from './lib/supabaseClient.js';
 import { buildRecipeSearchGroups, recipeMatchesSearch } from './lib/recipeSearch.js';
 import { getPhotoFallbackUrls, isDishSpecificPhotoTitle } from './lib/recipeImages.js';
+import './readability.css';
 
 const demos = [
  {id:'demo-biryani',slug:'ghoroya-chicken-biryani',title:'ঘরোয়া চিকেন বিরিয়ানি',category:'মাংস',time:55,level:'মাঝারি',tag:'সবার প্রিয়',image:null,desc:'সুগন্ধি চাল, মসলা আর নরম মুরগির মজাদার আয়োজন।',ingredients:['বাসমতি চাল ২ কাপ','মুরগি ৫০০ গ্রাম','পেঁয়াজ ২টি','টক দই ½ কাপ','বিরিয়ানি মসলা ২ টেবিল চামচ'],steps:['চাল ধুয়ে ২০ মিনিট ভিজিয়ে রাখুন।','মুরগি দই, মসলা ও পেঁয়াজ দিয়ে মাখিয়ে রান্না করুন।','আধা সেদ্ধ চাল ও মুরগি স্তরে স্তরে সাজিয়ে দমে রাখুন।']},
