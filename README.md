@@ -78,9 +78,9 @@ Connect `rannarmenu/Rannarmenu` and configure these environment variables for Pr
 
 ## Current limitations
 
-- The live database currently contains 63 recipes: 57 published and 6 held as drafts for editorial/image-rights review. The 57 published recipes have 6–7 cooking steps each. The target of 10,000 recipes is **not yet met**.
+- A read-only audit of the live database on **22 October 2026** found 63 recipes in total, all 63 currently published. All 63 rows had `image_search_status = 'matched'` and complete image URL, source page, creator/credit, and license metadata. This verifies stored attribution fields, not a manual visual review of every image. The target of 10,000 recipes is **not yet met**.
 - Reaching 10,000 requires authorized sources and editorial review. The importer blocks repeated normalized titles/slugs; distinct cooking styles should have clearly distinct descriptive titles. It is a pipeline, not a recipe source.
-- Recipe photos are searched automatically against Wikimedia Commons when an admin saves a recipe; the admin dashboard also backfills existing recipes marked `pending`. A photo is attached only when the image metadata supports a dish match and a reusable license plus creator/credit are available. Unverified matches remain placeholders rather than showing a different dish.
-- 23 recipes currently have complete photo source, creator/credit, and license metadata; the other recipes are queued for automatic matching. Large imports search the first 100 missing photos immediately and leave the rest pending for background backfill.
-- Favorites remain in this browser, not synced to accounts.
-- Build/browser acceptance tests need to pass in an environment with npm registry access.
+- Recipe photos are searched against Wikimedia Commons when an admin saves or imports recipes. The dashboard backfills records marked `pending`; entries marked `not_found` are not retried on every dashboard load. Only photos with a source URL, creator/credit, and reusable license are shown; otherwise the interface uses a placeholder rather than substituting a different dish.
+- Browser import accepts up to 10,000 records per file and 25 MB. The importer searches up to the first 100 missing photos in a batch immediately and leaves additional records pending for dashboard backfill.
+- Favorites remain in this browser and are not synced to accounts.
+- GitHub Actions runs `npm test` and `npm run build`. A dedicated automated cross-browser/end-to-end visual test suite is not configured yet.
