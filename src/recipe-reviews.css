@@ -530,3 +530,20 @@ html[data-theme="dark"] .reader-review-body > p { color: #bbc0c7; }
   html[data-theme="dark"] .review-form-panel { border-top-color: #30343b; }
   .reviews-score > strong { font-size: 44px; }
 }
+
+
+/* Keep detail surfaces open in dark mode too; do not reintroduce green cards. */
+html[data-theme="dark"] .recipe-detail {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+html[data-theme="dark"] .recipe-detail .panel {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
