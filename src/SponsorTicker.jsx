@@ -69,7 +69,7 @@ function SponsorGroup({ duplicate = false, onSelectSponsor, selectedSponsor }) {
           key={sponsor.name}
           type="button"
           className="sponsor-ticker-item"
-          onClick={() => { if (!duplicate) onSelectSponsor?.(sponsor); }}
+          onClick={() => onSelectSponsor?.(sponsor)}
           title={sponsor.name + ' এর খবর দেখুন'}
           aria-label={sponsor.name + ' এর খবর দেখুন'}
           aria-pressed={duplicate ? undefined : selectedSponsor?.name === sponsor.name}
