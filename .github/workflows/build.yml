@@ -24,5 +24,40 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Test recipe import validation
         run: npm test
+      - name: Smoke-test live Supabase news endpoint
+        env:
+          SUPABASE_URL: https://fiwqeivmieckzqglfrar.supabase.co
+          SUPABASE_PUBLISHABLE_KEY: sb_publishable_WGA-bPS2B7hxXHBEVk0r0A_mQkJFhAx
+        run: |
+          node --input-type=module <<'NODE'
+          const base = process.env.SUPABASE_URL;
+          const key = process.env.SUPABASE_PUBLISHABLE_KEY;
+          const headers = { apikey: key, Accept: 'application/json' };
+          const invalid = await fetch(base + '/functions/v1/news-feed?feed=__smoke_invalid__', {
+            headers,
+            signal: AbortSignal.timeout(10000),
+          });
+          if (invalid.status !== 400) {
+            throw new Error('News endpoint validation/auth check returned unexpected HTTP ' + invalid.status);
+          }
+
+          const response = await fetch(base + '/functions/v1/news-feed?feed=all', {
+            headers,
+            signal: AbortSignal.timeout(20000),
+          });
+          const payload = await response.json();
+          if (response.status === 502) {
+            console.warn('News endpoint is reachable, but the RSS provider currently has no usable results:', (payload.sourceErrors || []).join('; '));
+            process.exit(0);
+          }
+          if (!response.ok || !Array.isArray(payload.items)) {
+            throw new Error('Unexpected live news API response: HTTP ' + response.status);
+          }
+          if (payload.items.length === 0) {
+            throw new Error('News API returned HTTP 200 with an empty headline list');
+          }
+          const thumbnails = payload.items.filter((item) => typeof item.image === 'string' && item.image.startsWith('https://')).length;
+          console.log('Live news API OK: ' + payload.items.length + ' headlines; ' + thumbnails + ' already include secure thumbnails.');
+          NODE
       - name: Build production bundle
         run: npm run build
