@@ -3,8 +3,15 @@ import { ArrowUpRight, BadgeCheck, Clock3, Globe2, LoaderCircle, Newspaper, Refr
 import './news-feed.css';
 import { AUTO_NEWS_SPONSORS } from './lib/sponsorPartners.js';
 
-const REFRESH_INTERVAL = 15 * 60 * 1000;
-const CACHE_TTL = 12 * 60 * 1000;
+const REFRESH_INTERVAL = 3 * 60 * 1000;
+const CACHE_TTL = 2 * 60 * 1000;
+const LIVE_NEWS_API_AVAILABLE = import.meta.env.BASE_URL === '/';
+const MAX_CACHED_NEWS_AGE_MS = 30 * 24 * 60 * 60 * 1000;
+
+function isFreshNewsItem(item) {
+  const timestamp = Date.parse(item?.publishedAt || '');
+  return !Number.isFinite(timestamp) || (timestamp <= Date.now() + 24 * 60 * 60 * 1000 && Date.now() - timestamp <= MAX_CACHED_NEWS_AGE_MS);
+}
 const memoryCache = new Map();
 let staticNewsPromise = null;
 let staticNewsFetchedAt = 0;
@@ -35,7 +42,7 @@ async function readStaticNews(force = false) {
 }
 
 function staticFeedResult(items, generatedAt) {
-  const normalized = (Array.isArray(items) ? items : []).map((item) => normalizeNewsItem(item, item.source || 'সংবাদমাধ্যম')).filter(Boolean);
+  const normalized = (Array.isArray(items) ? items : []).map((item) => normalizeNewsItem(item, item.source || 'সংবাদমাধ্যম')).filter(Boolean).filter(isFreshNewsItem);
   const parsedTimestamp = Date.parse(generatedAt || '');
   const updatedAt = Number.isFinite(parsedTimestamp) ? parsedTimestamp : Date.now();
   return normalized.length ? { items: normalized.slice(0, 10), updatedAt, fromCache: true, staticFallback: true } : null;
@@ -46,7 +53,7 @@ function staticAllCategoriesResult(snapshot) {
   Object.values(snapshot?.categories || {}).forEach((entries) => {
     (Array.isArray(entries) ? entries : []).forEach((entry) => {
       const item = normalizeNewsItem(entry, entry?.source || 'সংবাদমাধ্যম');
-      if (item && !unique.has(item.link)) unique.set(item.link, item);
+      if (item && isFreshNewsItem(item) && !unique.has(item.link)) unique.set(item.link, item);
     });
   });
   const dateValue = (item) => {
@@ -147,6 +154,41 @@ function normalizeNewsItem(item, fallbackSource) {
   };
 }
 
+function getLiveFeedKey(query) {
+  if (query === 'all') return 'all';
+  const category = NEWS_CATEGORIES.find((entry) => entry.query === query);
+  if (category) return category.id;
+  const sponsor = AUTO_NEWS_SPONSORS.find((entry) => entry.newsQuery === query);
+  return sponsor?.id || '';
+}
+
+async function loadLiveFeed(query, signal) {
+  if (!LIVE_NEWS_API_AVAILABLE) return null;
+  const feed = getLiveFeedKey(query);
+  if (!feed) return null;
+
+  const response = await fetch('/api/news?feed=' + encodeURIComponent(feed), {
+    headers: { Accept: 'application/json' },
+    signal,
+  });
+  if (!response.ok) return null;
+
+  const contentType = response.headers.get('content-type') || '';
+  if (!contentType.toLowerCase().includes('application/json')) return null;
+  const payload = await response.json();
+  const items = (Array.isArray(payload.items) ? payload.items : [])
+    .map((item) => normalizeNewsItem(item, item.source || 'সংবাদমাধ্যম'))
+    .filter(Boolean)
+    .filter(isFreshNewsItem);
+  if (!items.length) return null;
+
+  return {
+    items,
+    updatedAt: Date.parse(payload.generatedAt || '') || Date.now(),
+    fromCache: false,
+  };
+}
+
 async function loadFeed(query, signal, force = false) {
   if (signal?.aborted) {
     const abortError = new Error('News request was cancelled.');
@@ -160,14 +202,29 @@ async function loadFeed(query, signal, force = false) {
     return { items: cached.items, updatedAt: cached.cachedAt, fromCache: true };
   }
 
-  // Google News RSS is fetched by the scheduled GitHub Actions job and served
-  // from our own static JSON file. The browser no longer depends on adapters
-  // or public CORS proxy services.
+  // Prefer Vercel's same-origin RSS endpoint for live headlines. GitHub Pages
+  // and temporary API outages fall back to the scheduled JSON snapshot below.
+  try {
+    const liveResult = await loadLiveFeed(query, signal);
+    if (signal?.aborted) {
+      const abortError = new Error('News request was cancelled.');
+      abortError.name = 'AbortError';
+      throw abortError;
+    }
+    if (liveResult?.items?.length) {
+      memoryCache.set(cacheKey, { items: liveResult.items, cachedAt: Date.now() });
+      return liveResult;
+    }
+  } catch (error) {
+    if (signal?.aborted || error?.name === 'AbortError') throw error;
+    // Continue with the static snapshot when the live endpoint cannot be reached.
+  }
+
   let snapshot;
   try {
     snapshot = await readStaticNews(force);
   } catch {
-    throw new Error('Google News-এর সংরক্ষিত খবর এখন পাওয়া যাচ্ছে না। কিছুক্ষণ পর আবার চেষ্টা করুন।');
+    throw new Error('সরাসরি নিউজ ফিড ও সংরক্ষিত খবর—দুটিই এখন পাওয়া যাচ্ছে না। কিছুক্ষণ পর আবার চেষ্টা করুন।');
   }
 
   const category = NEWS_CATEGORIES.find((entry) => entry.query === query);
@@ -181,10 +238,10 @@ async function loadFeed(query, signal, force = false) {
     ? staticAllCategoriesResult(snapshot)
     : staticFeedResult(snapshotItems, snapshot.generatedAt);
   if (!normalized) {
-    throw new Error('Google News থেকে এই বিভাগে আপাতত খবর পাওয়া যায়নি। পরবর্তী আপডেটের জন্য অপেক্ষা করুন।');
+    throw new Error('এই বিভাগে সাম্প্রতিক খবর পাওয়া যায়নি। লাইভ ফিড বা ক্যাশ পরে আবার চেষ্টা করুন।');
   }
 
-  memoryCache.set(cacheKey, { items: normalized.items, cachedAt: normalized.updatedAt });
+  memoryCache.set(cacheKey, { items: normalized.items, cachedAt: Date.now() });
   return normalized;
 }
 
@@ -424,50 +481,121 @@ function useNewsFeed(query, refreshKey = 0) {
   return { items, loading, error, updatedAt, fromCache };
 }
 
-function NewsItems({ items, Icon, compact = false }) {
-  if (!items.length) return null;
+function NewsItemCard({ item, Icon, compact = false }) {
+  const mediaRef = useRef(null);
+  const resolutionAttempted = useRef(false);
+  const [imageUrl, setImageUrl] = useState(() => item.imageIsFallback ? '' : item.image || '');
+  const [imageResolving, setImageResolving] = useState(false);
+  const [articleUrl, setArticleUrl] = useState(item.articleUrl || item.link);
+
+  useEffect(() => {
+    setImageUrl(item.imageIsFallback ? '' : item.image || '');
+    setArticleUrl(item.articleUrl || item.link);
+    setImageResolving(false);
+    resolutionAttempted.current = false;
+  }, [item.id, item.image, item.imageIsFallback, item.articleUrl, item.link]);
+
+  useEffect(() => {
+    if (imageUrl || resolutionAttempted.current || !item.link) return;
+    if (!LIVE_NEWS_API_AVAILABLE) {
+      resolutionAttempted.current = true;
+      return;
+    }
+
+    const target = mediaRef.current;
+    if (!target) return;
+    let active = true;
+    const controller = new AbortController();
+    let observer;
+
+    const resolveArticleImage = async () => {
+      if (resolutionAttempted.current) return;
+      resolutionAttempted.current = true;
+      setImageResolving(true);
+      try {
+        const response = await fetch('/api/news-image?url=' + encodeURIComponent(item.link), {
+          headers: { Accept: 'application/json' },
+          signal: controller.signal,
+        });
+        if (!response.ok || !(response.headers.get('content-type') || '').toLowerCase().includes('application/json')) return;
+        const payload = await response.json();
+        if (!active) return;
+        if (payload.image && safeHttpUrl(payload.image)) setImageUrl(payload.image);
+        if (payload.articleUrl && safeHttpUrl(payload.articleUrl)) setArticleUrl(payload.articleUrl);
+      } catch {
+        // Keep the editorial placeholder if a publisher blocks thumbnail retrieval.
+      } finally {
+        if (active) setImageResolving(false);
+      }
+    };
+
+    if ('IntersectionObserver' in window) {
+      observer = new IntersectionObserver((entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          observer.disconnect();
+          void resolveArticleImage();
+        }
+      }, { rootMargin: '350px 0px' });
+      observer.observe(target);
+    } else {
+      void resolveArticleImage();
+    }
+
+    return () => {
+      active = false;
+      controller.abort();
+      observer?.disconnect();
+    };
+  }, [item.id, item.link, imageUrl]);
+
+  const staticPlaceholder = LIVE_NEWS_API_AVAILABLE ? '' : item.imageFallback || '';
+  const displayedImage = imageUrl || staticPlaceholder;
+  const isIllustration = !imageUrl || item.imageIsFallback;
 
   return (
+    <article className="news-item" key={item.id}>
+      <a
+        ref={mediaRef}
+        className={isIllustration ? 'news-item-media has-image-illustration' : 'news-item-media'}
+        href={articleUrl || item.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={item.title + ' পড়ুন'}
+      >
+        {displayedImage ? (
+          <img
+            src={displayedImage}
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onError={(event) => {
+              event.currentTarget.hidden = true;
+              if (imageUrl) setImageUrl('');
+            }}
+          />
+        ) : null}
+        <span className="news-item-media-fallback" aria-hidden="true"><Icon size={compact ? 25 : 29} strokeWidth={1.6} /></span>
+        <span className="news-item-image-note" aria-hidden="true">{imageResolving ? 'ছবি খোঁজা হচ্ছে…' : 'প্রতীকী ছবি'}</span>
+      </a>
+      <div className="news-item-content">
+        <div className="news-item-meta">
+          <span className={item.sponsorLabel ? 'news-item-source news-item-sponsor-source' : 'news-item-source'}>{item.sponsorLabel || item.source}</span>
+          <span aria-hidden="true">·</span>
+          <time dateTime={item.publishedAt || undefined}><Clock3 size={12} aria-hidden="true" />{formatNewsTime(item.publishedAt)}</time>
+        </div>
+        <h3><a href={articleUrl || item.link} target="_blank" rel="noopener noreferrer">{item.title}</a></h3>
+        {!compact && item.summary && <p>{item.summary}</p>}
+        <a className="news-item-read" href={articleUrl || item.link} target="_blank" rel="noopener noreferrer">খবর পড়ুন <ArrowUpRight size={14} aria-hidden="true" /></a>
+      </div>
+    </article>
+  );
+}
+
+function NewsItems({ items, Icon, compact = false }) {
+  if (!items.length) return null;
+  return (
     <div className={compact ? 'news-items news-items-compact' : 'news-items'}>
-      {items.map((item) => (
-        <article className="news-item" key={item.id}>
-          <a className={item.imageIsFallback ? "news-item-media has-image-illustration" : "news-item-media"} href={item.articleUrl || item.link} target="_blank" rel="noopener noreferrer" aria-label={item.title + ' পড়ুন'}>
-            {item.image ? (
-              <img
-                src={item.image}
-                alt=""
-                loading="lazy"
-                decoding="async"
-                onError={(event) => {
-                  const imageElement = event.currentTarget;
-                  const fallbackUrl = item.imageFallback || '';
-                  const currentUrl = imageElement.getAttribute('src') || '';
-                  if (fallbackUrl && fallbackUrl !== currentUrl && imageElement.dataset.fallbackApplied !== 'true') {
-                    imageElement.dataset.fallbackApplied = 'true';
-                    imageElement.closest('.news-item-media')?.classList.add('has-image-illustration');
-                    imageElement.src = fallbackUrl;
-                  } else {
-                    imageElement.hidden = true;
-                    imageElement.closest('.news-item-media')?.classList.add('has-image-illustration');
-                  }
-                }}
-              />
-            ) : null}
-            <span className="news-item-media-fallback" aria-hidden="true"><Icon size={compact ? 25 : 29} strokeWidth={1.6} /></span>
-            <span className="news-item-image-note" aria-hidden="true">প্রতীকী ছবি</span>
-          </a>
-          <div className="news-item-content">
-            <div className="news-item-meta">
-              <span className={item.sponsorLabel ? "news-item-source news-item-sponsor-source" : "news-item-source"}>{item.sponsorLabel || item.source}</span>
-              <span aria-hidden="true">·</span>
-              <time dateTime={item.publishedAt || undefined}><Clock3 size={12} aria-hidden="true" />{formatNewsTime(item.publishedAt)}</time>
-            </div>
-            <h3><a href={item.articleUrl || item.link} target="_blank" rel="noopener noreferrer">{item.title}</a></h3>
-            {!compact && item.summary && <p>{item.summary}</p>}
-            <a className="news-item-read" href={item.articleUrl || item.link} target="_blank" rel="noopener noreferrer">খবর পড়ুন <ArrowUpRight size={14} aria-hidden="true" /></a>
-          </div>
-        </article>
-      ))}
+      {items.map((item) => <NewsItemCard key={item.id} item={item} Icon={Icon} compact={compact} />)}
     </div>
   );
 }
