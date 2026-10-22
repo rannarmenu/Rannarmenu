@@ -175,7 +175,7 @@ function App() {
   setRecipeLoadError(false);
   const loadRecipeDetails=async()=>{
    try{
-    const {data,error}=await supabase.from('recipes').select('*').eq('is_published',true).eq('slug',route.slug).maybeSingle();
+    const {data,error}=await supabase.from('recipes').select('id,slug,title,summary,category,cuisine,ingredients,instructions,prep_minutes,cook_minutes,servings,difficulty,image_url,tags,source_name,source_url,source_license,source_attribution,created_at,published_at,image_source_url,image_credit,image_license,is_published').eq('is_published',true).eq('slug',route.slug).maybeSingle();
     if(!alive)return;
     if(error||!data){setSelected(null);setRecipeLoadError(true);return;}
     setSelected(dbRecipeToCard(data));
