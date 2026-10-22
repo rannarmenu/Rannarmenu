@@ -110,7 +110,7 @@ function validClientKey(req: Request): boolean {
   if (!known.size) return false;
   const apiKey = req.headers.get("apikey") || "";
   const bearer = (req.headers.get("authorization") || "").replace(/^Bearer\s+/i, "");
-  return (apiKey && known.has(apiKey)) || (bearer && known.has(bearer));
+  return Boolean((apiKey && known.has(apiKey)) || (bearer && known.has(bearer)));
 }
 
 function consumeRateLimit(req: Request): boolean {
