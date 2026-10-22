@@ -69,8 +69,12 @@ export function normalizeRecipeRecord(row) {
   const difficultyRaw=String(first(row,['difficulty','level','কঠিনতা'])||'easy').trim().toLowerCase();
   const difficulty=/^(medium|moderate|মাঝারি)$/.test(difficultyRaw)?'medium':/^(hard|difficult|কঠিন)$/.test(difficultyRaw)?'hard':'easy';
   const image=String(first(row,['image_url','image','photo_url','ছবি'])||'').trim();
+  const imageSourceUrl=String(first(row,['image_source_url','photo_source_url','image_source'])||'').trim();
+  const imageCredit=String(first(row,['image_credit','photo_credit','photographer','image_author'])||'').trim();
+  const imageLicense=String(first(row,['image_license','photo_license'])||'').trim();
   const sourceUrl=String(first(row,['source_url','source','url','উৎস'])||'').trim();
   if(image&&!/^https:\/\//i.test(image))return {error:'image_url অবশ্যই https:// দিয়ে শুরু হতে হবে।'};
+  if(imageSourceUrl&&!/^https:\/\//i.test(imageSourceUrl))return {error:'image_source_url অবশ্যই https:// দিয়ে শুরু হতে হবে।'};
   if(sourceUrl&&!/^https:\/\//i.test(sourceUrl))return {error:'source_url অবশ্যই https:// দিয়ে শুরু হতে হবে।'};
   const titleSlug=slugify(first(row,['slug','permalink'])||title);
   const slug=(titleSlug||'recipe-'+title.length).slice(0,220);
@@ -83,7 +87,7 @@ export function normalizeRecipeRecord(row) {
     ingredients,instructions,prep_minutes:minutes(first(row,['prep_minutes','prep_time','prep','প্রস্তুতি_মিনিট'])),
     cook_minutes:minutes(first(row,['cook_minutes','cook_time','cooking_time','রান্নার_মিনিট'])),
     servings:Number.isInteger(servingsN)&&servingsN>=1&&servingsN<=100?servingsN:2,difficulty,
-    image_url:image||null,tags,source_name:String(first(row,['source_name','publisher','প্রকাশক'])||'').trim()||null,
+    image_url:image||null,image_source_url:imageSourceUrl||null,image_credit:imageCredit||null,image_license:imageLicense||null,tags,source_name:String(first(row,['source_name','publisher','প্রকাশক'])||'').trim()||null,
     source_url:sourceUrl||null,source_license:String(first(row,['source_license','license','licence','লাইসেন্স'])||'').trim()||null,
     source_attribution:String(first(row,['source_attribution','attribution','credit','কৃতিত্ব'])||'').trim()||null
   }};
