@@ -208,3 +208,86 @@ html[data-theme="dark"] .sponsor-ticker-fallback { color: #315c43; }
   .sponsor-ticker-group[aria-hidden="true"] { display: none; }
   .sponsor-ticker-group:first-child { padding-inline: 22px; }
 }
+
+
+/* Home sponsor strip: make partner logos readable at a glance. */
+.sponsor-ticker-section {
+  padding-block: 22px 14px;
+}
+.sponsor-ticker-heading {
+  margin-bottom: 15px;
+}
+.sponsor-ticker-kicker {
+  font-size: 10px;
+}
+.sponsor-ticker-heading h2 {
+  font-size: 20px;
+}
+.sponsor-ticker-group {
+  gap: clamp(30px, 4.4vw, 62px);
+  padding-block: 10px;
+}
+.sponsor-ticker-item {
+  min-width: 154px;
+  min-height: 92px;
+}
+.sponsor-ticker-logo {
+  width: 158px;
+  height: 78px;
+  padding: 10px 12px;
+  border-radius: 12px;
+}
+.sponsor-ticker-logo img {
+  max-width: 100%;
+  max-height: 59px;
+}
+.sponsor-logo-boishakhi img,
+.sponsor-logo-channel24 img {
+  max-width: 112px;
+  max-height: 59px;
+}
+.sponsor-logo-jamuna img {
+  max-width: 142px;
+  max-height: 46px;
+}
+.sponsor-logo-somoy img,
+.sponsor-logo-ntv img,
+.sponsor-logo-maasranga img {
+  max-width: 142px;
+  max-height: 59px;
+}
+.sponsor-ticker-wordmark strong { font-size: 24px; }
+.sponsor-ticker-wordmark small { font-size: 8px; }
+.sponsor-ticker-footer {
+  margin-top: 8px;
+  font-size: 11px;
+}
+@media (max-width: 700px) {
+  .sponsor-ticker-section { padding: 18px 0 11px; }
+  .sponsor-ticker-heading { margin-bottom: 10px; }
+  .sponsor-ticker-heading h2 { font-size: 17px; }
+  .sponsor-ticker-kicker { font-size: 9px; }
+  .sponsor-ticker-group { gap: 22px; padding: 8px 17px; }
+  .sponsor-ticker-item { min-width: 126px; min-height: 76px; }
+  .sponsor-ticker-logo {
+    width: 130px;
+    height: 66px;
+    padding: 8px 10px;
+    border-radius: 10px;
+  }
+  .sponsor-ticker-logo img { max-height: 51px; }
+  .sponsor-logo-boishakhi img,
+  .sponsor-logo-channel24 img { max-width: 96px; max-height: 51px; }
+  .sponsor-logo-jamuna img { max-width: 116px; max-height: 39px; }
+  .sponsor-logo-somoy img,
+  .sponsor-logo-ntv img,
+  .sponsor-logo-maasranga img { max-width: 114px; max-height: 51px; }
+  .sponsor-ticker-wordmark strong { font-size: 20px; }
+  .sponsor-ticker-wordmark small { font-size: 7px; }
+  .sponsor-ticker-footer { font-size: 10px; }
+}
+@media (max-width: 360px) {
+  .sponsor-ticker-group { gap: 17px; }
+  .sponsor-ticker-item { min-width: 116px; }
+  .sponsor-ticker-logo { width: 120px; }
+}
