@@ -1,19 +1,21 @@
 import React from 'react';
-import { Home, BookOpen, Heart, Info } from 'lucide-react';
+import { Home, BookOpen, Heart, Info, UserRound } from 'lucide-react';
 
 const ITEMS = [
   { page: 'home', label: 'হোম', Icon: Home },
   { page: 'recipes', label: 'রেসিপি', Icon: BookOpen },
   { page: 'saved', label: 'সেভ করা', Icon: Heart },
   { page: 'about', label: 'আমাদের কথা', Icon: Info },
+  { page: 'profile', label: 'প্রোফাইল', Icon: UserRound },
 ];
 
-export default function BottomNavigation({ activePage = 'home', onNavigate, savedCount = 0 }) {
+export default function BottomNavigation({ activePage = 'home', onNavigate, savedCount = 0, accountLabel = 'প্রোফাইল' }) {
   const current = activePage === 'recipe' ? 'recipes' : activePage;
 
   return (
     <nav className="bottom-navigation" aria-label="প্রধান নেভিগেশন">
-      {ITEMS.map(({ page, label, Icon }) => {
+      {ITEMS.map(({ page, label: baseLabel, Icon }) => {
+        const label = page === 'profile' ? accountLabel : baseLabel;
         const active = current === page;
         return (
           <button
