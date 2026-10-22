@@ -71,7 +71,7 @@ jobs:
           });
 
           if (JSON.stringify(normalize(current)) === JSON.stringify(normalize(previous))) {
-            await writeFile(path, JSON.stringify(previous, null, 2) + '\\n');
+            await writeFile(path, JSON.stringify(previous, null, 2) + '\n');
             console.log('News and images unchanged; keeping the existing snapshot timestamp.');
           } else {
             console.log('News or image content changed; publishing the refreshed snapshot.');
