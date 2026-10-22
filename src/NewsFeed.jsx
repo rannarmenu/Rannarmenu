@@ -502,8 +502,7 @@ export default function NewsFeed() {
             <span className="homepage-news-kicker"><BadgeCheck size={13} /> PARTNER UPDATES</span>
             <h2 id="sponsor-news-heading"><Newspaper size={23} aria-hidden="true" /> স্পনসরদের সর্বশেষ খবর <span className="news-auto-badge">AUTO UPDATE</span></h2>
             <p>
-              সময় টিভি, NTV, News24 / Channel 24, Jamuna TV ও Maasranga TV-এর সংবাদ একসঙ্গে স্বয়ংক্রিয়ভাবে এখানে আসবে।
-              লোগো বা নিচের উৎসে চাপ দিলে নির্দিষ্ট চ্যানেলের খবর দেখা যাবে।
+              সময় টিভি, NTV, News24 / Channel 24, Jamuna TV ও Maasranga TV-এর সর্বশেষ শিরোনাম একসঙ্গে স্বয়ংক্রিয়ভাবে এখানে আসবে।
             </p>
           </div>
           {sponsorFeed.selectedSource && (
