@@ -16,14 +16,26 @@ export function buildMiraConversation(history, currentText) {
       typeof message.text === 'string' &&
       message.text.trim()
     )
-    .slice(-10)
+    .slice(-11)
     .map(message => ({
       role: message.role,
       content: message.text.trim().slice(0, 1400)
     }));
   const current = String(currentText ?? '').trim().slice(0, 1400);
   if (current) safe.push({ role: 'user', content: current });
-  return safe.slice(-12);
+
+  // Stay within the Edge Function's total context budget and retain the latest turn.
+  const bounded = [];
+  let total = 0;
+  for (const message of [...safe].reverse()) {
+    const remaining = 8000 - total;
+    if (remaining <= 0) break;
+    const content = message.content.slice(-Math.min(1400, remaining));
+    if (!content) continue;
+    bounded.unshift({ role: message.role, content });
+    total += content.length;
+  }
+  return bounded.slice(-12);
 }
 
 /** Validate an untrusted edge-function result before using it to trigger site actions. */
