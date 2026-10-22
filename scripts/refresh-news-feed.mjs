@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, writeFile } from 'node:fs/promises';
 
 const sponsors = [
   { id: 'somoy', label: 'সময় টিভি', query: 'site:somoynews.tv' },
@@ -22,12 +22,8 @@ function decodeXml(value = '') {
     .replace(/&#x([\da-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
 }
 function tag(xml, name) {
-  const match = xml.match(new RegExp('<' + name + '(?:\\s[^>]*)?>([\\s\\S]*?)<\\/' + name + '>', 'i'));
-  return match ? decodeXml(match[1].replace(/<[^>]+>/g, ' ').trim()).replace(/\\s+/g, ' ') : '';
-}
-function attribute(xml, name) {
-  const match = xml.match(new RegExp('\\b' + name + '=["\\']([^"\\']+)["\\']', 'i'));
-  return match ? decodeXml(match[1]) : '';
+  const match = xml.match(new RegExp('<' + name + '(?:\s[^>]*)?>([\s\S]*?)<\/' + name + '>', 'i'));
+  return match ? decodeXml(match[1].replace(/<[^>]+>/g, ' ').trim()).replace(/\s+/g, ' ') : '';
 }
 function cleanUrl(value) {
   try {
@@ -37,18 +33,21 @@ function cleanUrl(value) {
 }
 async function fetchFeed(query, source) {
   const url = 'https://news.google.com/rss/search?q=' + encodeURIComponent(query) + '&hl=bn&gl=BD&ceid=BD:bn';
-  const response = await fetch(url, { headers: { 'User-Agent': 'RannarMenu-NewsFeed/1.0', Accept: 'application/rss+xml, application/xml, text/xml' }, signal: AbortSignal.timeout(15000) });
+  const response = await fetch(url, {
+    headers: { 'User-Agent': 'RannarMenu-NewsFeed/1.0', Accept: 'application/rss+xml, application/xml, text/xml' },
+    signal: AbortSignal.timeout(15000),
+  });
   if (!response.ok) throw new Error(source + ': HTTP ' + response.status);
   const xml = await response.text();
-  if (!/<rss[\\s>]/i.test(xml)) throw new Error(source + ': invalid RSS response');
-  const items = [...xml.matchAll(/<item(?:\\s[^>]*)?>([\\s\\S]*?)<\\/item>/gi)].map((match) => {
+  if (!/<rss[\s>]/i.test(xml)) throw new Error(source + ': invalid RSS response');
+  const items = [...xml.matchAll(/<item(?:\s[^>]*)?>([\s\S]*?)<\/item>/gi)].map((match) => {
     const block = match[1];
     const rawTitle = tag(block, 'title');
     const separator = rawTitle.lastIndexOf(' - ');
     const title = separator > 18 ? rawTitle.slice(0, separator).trim() : rawTitle;
     const link = cleanUrl(tag(block, 'link'));
     const descriptionRaw = tag(block, 'description');
-    const description = descriptionRaw.replace(/<script\\b[^>]*>[\\s\\S]*?<\\/script>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/\\s+/g, ' ').trim();
+    const description = descriptionRaw.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
     const imageMatch = descriptionRaw.match(/<img[^>]+src=["']([^"']+)["']/i);
     return {
       id: link, title, link, source,
@@ -79,5 +78,5 @@ if (!total) {
   process.exit(1);
 }
 await mkdir('public/data', { recursive: true });
-await writeFile('public/data/news-feed.json', JSON.stringify(result, null, 2) + '\\n');
+await writeFile('public/data/news-feed.json', JSON.stringify(result, null, 2) + '\n');
 console.log('Saved ' + total + ' news items. Feed errors: ' + result.sourceErrors.length);
