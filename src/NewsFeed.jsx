@@ -101,7 +101,7 @@ function normalizeNewsItem(item, fallbackSource) {
   const inferredSource = hasPublisherSuffix ? rawTitle.slice(separator + 3).trim() : '';
   const description = plainText(item?.description || item?.contentSnippet || '');
   const imageFromDescription = String(item?.description || '').match(/<img[^>]+src=["']([^"']+)["']/i);
-  const image = safeHttpUrl(item?.thumbnail || item?.enclosure?.link || imageFromDescription?.[1] || '');
+  const image = safeHttpUrl(item?.image || item?.thumbnail || item?.enclosure?.link || imageFromDescription?.[1] || '');
   const link = safeHttpUrl(item?.link || item?.guid || '');
   if (!link) return null;
 
@@ -398,7 +398,7 @@ function NewsItems({ items, Icon, compact = false }) {
         <article className="news-item" key={item.id}>
           <a className="news-item-media" href={item.link} target="_blank" rel="noopener noreferrer" aria-label={item.title + ' পড়ুন'}>
             {item.image ? (
-              <img src={item.image} alt="" loading="lazy" referrerPolicy="no-referrer" onError={(event) => { event.currentTarget.hidden = true; }} />
+              <img src={item.image} alt="" loading="lazy" decoding="async" onError={(event) => { event.currentTarget.hidden = true; }} />
             ) : null}
             <span className="news-item-media-fallback" aria-hidden="true"><Icon size={compact ? 25 : 29} strokeWidth={1.6} /></span>
           </a>
