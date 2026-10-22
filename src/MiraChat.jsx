@@ -17,6 +17,12 @@ import {
   normalizeSearchText,
   translateChatText
 } from './lib/recipeSearch.js';
+import {
+  classifyMiraIntent,
+  cleanBanglishRecipeQuery,
+  detectBanglish,
+  getCookingTroubleshootingReply
+} from './lib/miraLanguage.js';
 
 const CHAT_NOISE = new Set([
   'i','me','my','we','you','your','the','a','an','and','or','to','for','of','with','please','pls',
@@ -33,9 +39,7 @@ const CHAT_NOISE = new Set([
 ].map(normalizeSearchText));
 
 function cleanRecipeQuery(value) {
-  const parts = normalizeSearchText(value).split(' ').filter(Boolean);
-  const cleaned = parts.filter(word => !CHAT_NOISE.has(word));
-  return cleaned.length ? cleaned.join(' ') : '';
+  return cleanBanglishRecipeQuery(value);
 }
 
 function isBengali(value) {
@@ -43,7 +47,7 @@ function isBengali(value) {
 }
 
 function detectLanguageFallback(original, translatedLanguage) {
-  if (isBengali(original)) return 'bn';
+  if (isBengali(original) || detectBanglish(original)) return 'bn';
   return translatedLanguage && translatedLanguage !== 'und' ? translatedLanguage : 'en';
 }
 
@@ -80,14 +84,12 @@ function titleMatchCount(recipe, groups) {
 }
 
 function isWebsiteHelp(question) {
-  const value = normalizeSearchText(question);
-  if (/(^|\\s)(help|help me|please help|help please|সাহায্য|একটু সাহায্য)(\\s|$)/u.test(value)) return true;
-  return /(website|web site|webpage|site use|use this site|use website|search bar|where can i|how can i|how do i use|help me use|ওয়েবসাইট|ওয়েবসাইট|এই সাইট|সার্চ বার|খুঁজে পাব|কোথায় খুঁজ|কোথায় খুঁজ|ব্যবহার কর|কিভাবে ব্যবহার|কীভাবে ব্যবহার|কোথায় পাব|কোথায় পাব|রেসিপি সেভ|সংরক্ষণ কর)/u.test(value);
+  return classifyMiraIntent(question) === 'website_help';
 }
 
 function isRecipeRequest(question) {
-  const value = normalizeSearchText(question);
-  return /(recipe|recipes|cook|cooking|make me|give me|find me|food|dish|রেসিপি|রান্না|রাঁধ|খাবার|পদ|তরকারি|विधि|रेसिपी|खाना|वصفة|وصفات|cocinar|receta|recettes?|kochen|rezept|レシピ|料理|菜谱|食谱|做法)/u.test(value);
+  const intent = classifyMiraIntent(question);
+  return intent === 'recipe_search' || intent === 'generic_recipe_request';
 }
 
 function getSmallTalkReply(question) {
@@ -242,15 +244,30 @@ export default function MiraChat({ onOpenRecipe }) {
     const language = detectLanguageFallback(rawText, translatedToBengali.sourceLanguage);
     const bengaliText = translatedToBengali.text || rawText;
     const understoodText = normalizeSearchText(rawText + ' ' + bengaliText);
+    const intent = classifyMiraIntent(rawText + ' ' + bengaliText);
 
     const smallTalk = getSmallTalkReply(understoodText);
-    if (smallTalk) {
-      addAssistantMessage(await localizeReply(smallTalk, language));
+    if (smallTalk || ['greeting','thanks','identity','capabilities'].includes(intent)) {
+      addAssistantMessage(await localizeReply(
+        smallTalk || (intent === 'greeting'
+          ? 'হেইই! 🌸 Mira* হাজির! কী সাহায্য লাগবে বলো?'
+          : intent === 'thanks'
+            ? 'আহা, এ আর এমন কী! 💗 দরকার হলে আবার ডাক দিও!'
+            : intent === 'identity'
+              ? 'আমি Mira*—Rannar Menu-র ছোট্ট রান্নাঘর-সহকারী! 🐱'
+              : 'রেসিপি খুঁজে দিই, রান্নার সমস্যা সমাধানে পরামর্শ দিই, আর ওয়েবসাইট ব্যবহার বুঝিয়ে দিই! ✨'),
+        language
+      ));
       return;
     }
 
     if (isWebsiteHelp(understoodText)) {
       addAssistantMessage(await localizeReply(MIRA_COPY.help, language));
+      return;
+    }
+
+    if (intent === 'cooking_problem') {
+      addAssistantMessage(await localizeReply(getCookingTroubleshootingReply(understoodText), language));
       return;
     }
 
