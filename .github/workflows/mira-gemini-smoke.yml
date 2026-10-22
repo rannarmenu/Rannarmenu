@@ -33,37 +33,55 @@ jobs:
             echo 'Could not find the public Supabase publishable key in the Pages build workflow.'
             exit 1
           fi
-          payload='{"messages":[{"role":"user","content":"Reply briefly in Bengali and introduce yourself as Mira."}]}'
-          status="$(curl --silent --show-error --max-time 40 \
-            --output /tmp/mira-gemini-response.json \
-            --write-out '%{http_code}' \
-            --request POST "$SUPABASE_URL/functions/v1/mira-chat" \
-            --header 'Origin: https://rannarmenu.github.io' \
-            --header "apikey: $PUBLISHABLE_KEY" \
-            --header "Authorization: Bearer $PUBLISHABLE_KEY" \
-            --header 'Content-Type: application/json' \
-            --data "$payload")"
-          node --input-type=module - "$status" /tmp/mira-gemini-response.json <<'NODE'
+          probe() {
+            local name="$1"
+            local expected_action="$2"
+            local payload="$3"
+            local status
+            status="$(curl --silent --show-error --max-time 40 \
+              --output /tmp/mira-gemini-response.json \
+              --write-out '%{http_code}' \
+              --request POST "$SUPABASE_URL/functions/v1/mira-chat" \
+              --header 'Origin: https://rannarmenu.github.io' \
+              --header "apikey: $PUBLISHABLE_KEY" \
+              --header "Authorization: Bearer $PUBLISHABLE_KEY" \
+              --header 'Content-Type: application/json' \
+              --data "$payload")"
+            node --input-type=module - "$status" /tmp/mira-gemini-response.json "$name" "$expected_action" <<'NODE'
           import fs from 'node:fs';
           const status = Number(process.argv[2]);
+          const testName = process.argv[4];
+          const expectedAction = process.argv[5];
           let payload;
           try {
             payload = JSON.parse(fs.readFileSync(process.argv[3], 'utf8'));
           } catch {
-            console.error(JSON.stringify({ httpStatus: status, error: 'Response was not valid JSON' }));
+            console.error(JSON.stringify({ test: testName, httpStatus: status, error: 'Response was not valid JSON' }));
             process.exit(1);
           }
+          const action = typeof payload?.action === 'string' ? payload.action : null;
           const summary = {
+            test: testName,
             httpStatus: status,
-            provider: 'gemini',
             configured: payload?.configured === true,
             model: typeof payload?.model === 'string' ? payload.model : null,
-            action: typeof payload?.action === 'string' ? payload.action : null,
+            action,
             responseReceived: typeof payload?.reply === 'string' && payload.reply.trim().length > 0,
+            searchQueryPresent: typeof payload?.search_query === 'string' && payload.search_query.trim().length > 0,
             errorCode: typeof payload?.code === 'string' ? payload.code : null,
           };
           console.log(JSON.stringify(summary, null, 2));
-          if (status !== 200 || payload?.ok !== true || !summary.responseReceived || !summary.action) {
+          const validAction = expectedAction === 'any' || action === expectedAction;
+          const validSearch = action !== 'recipe_search' || summary.searchQueryPresent;
+          if (status !== 200 || payload?.ok !== true || !summary.responseReceived || !action || !validAction || !validSearch) {
             process.exit(1);
           }
           NODE
+          }
+
+          probe "Bengali identity" "chat" '{"messages":[{"role":"user","content":"Reply briefly in Bengali and introduce yourself as Mira."}]}'
+          probe "cooking troubleshooting" "cooking_help" '{"messages":[{"role":"user","content":"My curry jhol is too watery. Tell me practical steps to fix it."}]}'
+          probe "real recipe catalogue intent" "recipe_search" '{"messages":[{"role":"user","content":"Find an already published chicken biryani recipe in the Rannar Menu website catalogue."}]}'
+          probe "general translation" "chat" '{"messages":[{"role":"user","content":"Translate the sentence I will arrive tomorrow into Bengali."}]}'
+          probe "contextual follow-up" "any" '{"messages":[{"role":"user","content":"I need a beginner chicken curry recipe for two people."},{"role":"assistant","content":"Use about 300 g chicken and onions for a simple curry."},{"role":"user","content":"Can you make that simpler and explain the next steps?"}]}'
+
