@@ -1731,3 +1731,95 @@
   .mira-header { padding-block: 8px; }
   .mira-privacy-note { padding-bottom: 6px; }
 }
+
+
+/* Mira v3: compact-by-default chat, keyboard-safe viewport and expressive mascot. */
+.mira-widget-fullscreen { z-index: 1000; }
+.mira-widget-fullscreen .mira-launcher { visibility: hidden; pointer-events: none; }
+.mira-panel-fullscreen {
+  z-index: 1001;
+  border-radius: 20px;
+  box-shadow: 0 18px 60px #1f342d3b;
+}
+.mira-panel-keyboard-open {
+  z-index: 1002;
+  border-radius: 15px;
+  transition: none;
+}
+.mira-window-btn {
+  flex: 0 0 31px;
+  min-width: 31px;
+  min-height: 31px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.mira-expand-btn { background: #fff7f8; color: #315c43; }
+.mira-expand-btn:hover { background: #fcebf0; }
+.mira-intro-copy {
+  align-items: flex-start;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.mira-intro-copy:focus-visible {
+  outline: 2px solid #d69bb2;
+  outline-offset: 3px;
+  border-radius: 5px;
+}
+.mira-mascot.mira-mood-wink { animation: miraHappyBounce .48s ease-in-out 1; }
+.mira-mood-wink .mira-eye-right { animation: none; transform: scaleY(.12); }
+.mira-mood-wink .mira-mouth { width: 9px; height: 6px; top: 19px; border-radius: 50%; }
+.mira-mascot-small.mira-mood-wink .mira-mouth { top: 13px; }
+.mira-mascot.mira-mood-kiss { animation: miraHappyBounce .58s ease-in-out 1; }
+.mira-mood-kiss .mira-eye-left { animation: none; transform: scaleY(.12); }
+.mira-mood-kiss .mira-mouth {
+  width: 7px;
+  height: 5px;
+  left: calc(50% - 3px);
+  top: 20px;
+  border: 1.5px solid #96566b;
+  border-radius: 50%;
+  background: #f3a3bd;
+}
+.mira-mascot-small.mira-mood-kiss .mira-mouth { top: 13px; }
+.mira-mood-kiss .mira-mascot-sparkle { font-size: 0; }
+.mira-mood-kiss .mira-mascot-sparkle::after {
+  content: '♥';
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  color: #e66d96;
+  font-size: 16px;
+  line-height: 1;
+}
+.mira-mascot.mira-mood-wave { animation: miraHappyBounce .68s ease-in-out 1; }
+.mira-mood-wave .mira-antenna-right { animation: miraAntennaWave .48s ease-in-out 3; }
+@keyframes miraAntennaWave {
+  0%,100% { transform: rotate(16deg); }
+  50% { transform: rotate(42deg) translateY(-2px); }
+}
+@media(max-width:700px) {
+  .mira-panel { border-radius: 18px; }
+  .mira-panel-fullscreen { border-radius: 17px; }
+  .mira-panel-keyboard-open .mira-header { padding: 7px 8px; min-height: 52px; }
+  .mira-panel-keyboard-open .mira-chat-context { padding-block: 4px; }
+  .mira-panel-keyboard-open .mira-messages { padding-block: 8px; gap: 8px; }
+  .mira-panel-keyboard-open .mira-composer { padding: 7px 8px 8px; }
+  .mira-panel-keyboard-open .mira-privacy-note { padding-bottom: 4px; }
+  .mira-header-copy small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+}
+@media(max-width:340px) {
+  .mira-header { gap: 6px; padding-inline: 8px; }
+  .mira-header-copy strong { font-size: 16px; }
+  .mira-window-btn { flex-basis: 28px; min-width: 28px; width: 28px; height: 28px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .mira-mascot.mira-mood-wink,
+  .mira-mascot.mira-mood-kiss,
+  .mira-mascot.mira-mood-wave,
+  .mira-mood-wave .mira-antenna-right { animation: none !important; }
+}
