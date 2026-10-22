@@ -1,65 +1,7 @@
 import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import './sponsor-ticker.css';
-
-const SPONSORS = [
-  {
-    name: 'Somoy TV',
-    label: 'সময় টিভি',
-    href: 'https://www.somoynews.tv/',
-    newsQuery: 'site:somoynews.tv',
-    logo: 'https://thefe-bd.sgp1.cdn.digitaloceanspaces.com/posts/53385/somoy.jpg',
-    className: 'sponsor-logo-somoy',
-  },
-  {
-    name: 'NTV',
-    label: 'NTV',
-    href: 'https://www.ntvbd.com/',
-    newsQuery: 'site:ntvbd.com',
-    logo: `${import.meta.env.BASE_URL}ntv-bangladesh-logo.svg`,
-    className: 'sponsor-logo-ntv',
-  },
-  {
-    name: 'Boishakhi TV',
-    label: 'বৈশাখী টিভি',
-    href: 'https://boishakhi.tv/',
-    newsQuery: 'site:boishakhi.tv',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/f/f2/Boishakhi_Tv_Logo.png',
-    className: 'sponsor-logo-boishakhi',
-  },
-  {
-    name: 'Jamuna TV',
-    label: 'যমুনা টিভি',
-    href: 'https://jamuna.tv/',
-    newsQuery: 'site:jamuna.tv',
-    logo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jamuna_TV_logo.svg',
-    className: 'sponsor-logo-jamuna',
-  },
-  {
-    name: 'Maasranga TV',
-    label: 'মাছরাঙা টিভি',
-    href: 'https://maasranga.tv/',
-    newsQuery: 'site:maasranga.tv',
-    logo: 'https://beyondtechbd.com/wp-content/uploads/2023/04/16.maasranga.png',
-    className: 'sponsor-logo-maasranga',
-  },
-  {
-    name: 'Channel 24',
-    label: 'চ্যানেল ২৪',
-    href: 'https://www.channel24bd.tv/',
-    newsQuery: 'site:channel24bd.tv',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Channel24logo.svg/1280px-Channel24logo.svg.png',
-    className: 'sponsor-logo-channel24',
-  },
-  {
-    name: 'SYLAÉ Group Ltd',
-    label: 'SYLAÉ',
-    href: 'https://sylaebd.shop/',
-    newsQuery: 'site:sylaebd.shop',
-    wordmark: true,
-    className: 'sponsor-logo-sylae',
-  },
-];
+import { SPONSORS } from './lib/sponsorPartners.js';
 
 function SponsorGroup({ duplicate = false, onSelectSponsor, selectedSponsor }) {
   return (
