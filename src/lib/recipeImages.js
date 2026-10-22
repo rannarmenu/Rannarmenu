@@ -3,6 +3,7 @@ const STOP = new Set(['a','an','and','the','with','of','in','style','bengali','b
 
 const ALIASES = {
   'আলু ভর্তা': [{q:'aloo bhorta',must:['aloo','bhorta']},{q:'aloo bharta',must:['aloo','bharta']},{q:'potato bhorta',must:['potato','bhorta']}],
+  'বাংলা আলুর চপ': [{q:'Bengali aloor chop',must:['aloor','chop']}],
   'কড়াইশুঁটির কচুরি': [{q:'matar kachori',must:['matar','kachori']},{q:'green peas kachori',must:['peas','kachori']}],
   'কাঁচা আমের ডাল': [{q:'green mango dal',must:['mango','dal']},{q:'raw mango lentil curry',must:['mango','lentil']}],
   'কাতলা মাছের কালিয়া': [{q:'catla fish kalia',must:['catla','kalia']},{q:'bengali catla fish curry',must:['catla','fish']}],
@@ -10,6 +11,7 @@ const ALIASES = {
   'ঘরোয়া চিকেন বিরিয়ানি': [{q:'chicken biryani',must:['chicken','biryani']}],
   'চট্টগ্রামের বিফ কালা ভুনা': [{q:'beef kala bhuna',must:['beef','kala','bhuna']},{q:'kala bhuna',must:['kala','bhuna']}],
   'চিকেন কষা': [{q:'chicken kosha',must:['chicken','kosha']},{q:'kosha murgir mangsho',must:['kosha','murgi']}],
+  'বাংলা স্টাইলে মাছের ঝোল': [{q:'Rohu fish curry',must:['rohu','fish','curry']},{q:'Bengali fish curry',must:['fish','curry']}],
   'চিংড়ি ভর্তা': [{q:'chingri bhorta',must:['chingri','bhorta']},{q:'shrimp bhorta',must:['shrimp','bhorta']},{q:'prawn bhorta',must:['prawn','bhorta']},{q:'Bengali shrimp mash bhorta',must:['shrimp','bhorta']}],
   'চিতই পিঠা': [{q:'chitoi pitha',must:['chitoi','pitha']},{q:'chitai pitha',must:['chitai','pitha']}],
   'ঝটপট ডিমের কারি': [{q:'Bengali egg curry',must:['egg','curry']}],
@@ -59,6 +61,55 @@ function queriesFor(recipe) {
   // For new English/transliterated names, require every distinctive title token in the image metadata.
   // For Bengali titles, try the exact title but do not attach an unrelated image if it cannot be verified.
   return [{ q: title, must: /[A-Za-z]/.test(title) ? tokens.slice(0, 5) : [normalized] }];
+}
+
+/**
+ * Conservative homepage-photo check. Photo metadata can establish reuse rights
+ * without proving the depicted dish matches the recipe. For the carousel, only
+ * render a photo when its Wikimedia source filename contains the recipe's
+ * required identifying terms. If it cannot be verified, use the dish-labelled
+ * placeholder rather than risk showing the wrong food.
+ */
+export function isDishSpecificPhotoTitle(recipe) {
+  const title = clean(recipe?.title);
+  const sourceUrl = clean(recipe?.image_source_url);
+  if (!title || !sourceUrl || !hasCompleteRecipePhoto(recipe)) return false;
+
+  let sourceTitle = '';
+  try {
+    const pathname = decodeURIComponent(new URL(sourceUrl).pathname);
+    sourceTitle = pathname.split('/').filter(Boolean).pop() || '';
+  } catch {
+    return false;
+  }
+
+  sourceTitle = sourceTitle
+    .replace(/^File:/i, '')
+    .replace(/\\.[a-z0-9]{2,6}$/i, '')
+    .replace(/[_-]+/g, ' ');
+  const searchable = norm(sourceTitle);
+  if (!searchable) return false;
+
+  // A vegetarian slide must not show a source filename that identifies meat,
+  // fish, eggs or seafood, even if it also mentions vegetables or rice.
+  if (recipe?.category === 'নিরামিষ' && /\\b(chicken|mutton|beef|meat|fish|egg|prawn|shrimp|lamb|pork)\\b/i.test(searchable)) {
+    return false;
+  }
+
+  const aliases = ALIASES[title];
+  if (aliases?.length) {
+    return aliases.some(({ must }) => Array.isArray(must) && must.length > 0
+      && must.every(term => searchable.includes(norm(term))));
+  }
+
+  // English/transliterated recipe names can be checked token by token.
+  // Unknown Bengali titles are intentionally conservative until an explicit
+  // photo-search alias is added.
+  if (/[A-Za-z]/.test(title)) {
+    const tokens = norm(title).split(' ').filter(token => token.length > 2 && !STOP.has(token));
+    return tokens.length > 0 && tokens.every(token => searchable.includes(token));
+  }
+  return searchable.includes(norm(title));
 }
 
 function licenseAllowed(label) {
