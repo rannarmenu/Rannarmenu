@@ -39,3 +39,11 @@
 .card-image-credit a,.image-credit a {color:var(--green);text-decoration:underline;text-underline-offset:2px}
 .image-credit {display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-top:9px;color:#70796e;font-size:12px}
 @media(max-width:700px){.detail-image-placeholder{height:250px}}
+
+.image-error-placeholder { position:absolute; inset:0; display:none; }
+.detail-image-shell { position:relative; min-width:0; width:100%; }
+.detail-image-shell>img { display:block; width:100%; height:330px; object-fit:cover; border-radius:10px; }
+.detail-image-shell>.detail-image-placeholder { height:330px; }
+@media(max-width:700px) {
+  .detail-image-shell>img,.detail-image-shell>.detail-image-placeholder { height:250px; }
+}
