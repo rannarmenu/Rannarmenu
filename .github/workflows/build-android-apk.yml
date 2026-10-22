@@ -2,13 +2,18 @@ name: Build Rannar Menu Android APK
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'android-app/**'
+      - '.github/workflows/build-android-apk.yml'
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   build-apk:
-    name: Build debug APK
+    name: Build and publish Android APK
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -16,6 +21,8 @@ jobs:
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Set up Java
         uses: actions/setup-java@v4
@@ -46,10 +53,54 @@ jobs:
           tag_name: android-latest
           name: Rannar Menu Android APK
           body: |
-            Installable Android WebView build for Rannar Menu.
+            Rannar Menu Android app release.
 
-            This is a debug-signed APK for testing and direct installation, not a Play Store release. Android may ask you to allow installation from your browser or file manager.
+            This APK is debug-signed for direct testing, not a Google Play production release. Android may ask to allow installation from your browser or file manager.
           target_commitish: main
           files: android-app/app/build/outputs/apk/debug/Rannar-Menu.apk
           overwrite_files: true
           make_latest: false
+
+      - name: Update the required app version on the website
+        working-directory: .
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import re
+          from pathlib import Path
+
+          gradle = Path("android-app/app/build.gradle").read_text(encoding="utf-8")
+          code_match = re.search(r"versionCode\s+(\d+)", gradle)
+          name_match = re.search(r"versionName\s+['\"]([^'\"]+)['\"]", gradle)
+          if not code_match or not name_match:
+              raise SystemExit("Could not read versionCode/versionName from app/build.gradle")
+
+          version_code = int(code_match.group(1))
+          version_name = name_match.group(1)
+          path = Path("public/app-update.json")
+          info = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+          info.update({
+              "latestVersion": version_name,
+              "latestVersionCode": version_code,
+              "minimumVersionCode": version_code,
+              "apkUrl": "https://github.com/rannarmenu/Rannarmenu/releases/download/android-latest/Rannar-Menu.apk",
+              "forceUpdate": True,
+              "message": "Rannar Menu ব্যবহার চালিয়ে যেতে নতুন সংস্করণ ইনস্টল করুন।"
+          })
+          path.write_text(json.dumps(info, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+          print(f"Website will require Rannar Menu {version_name} (versionCode {version_code}).")
+          PY
+
+      - name: Commit app version metadata
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update minimum Android app version"
+          file_pattern: public/app-update.json
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+
+      - name: Redeploy website with the new version gate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-updated-website.yml --repo "$GITHUB_REPOSITORY" --ref main
