@@ -196,3 +196,63 @@ export async function translateSearchQuery(query, options = {}) {
     .filter(value => value && normalizeSearchText(value) !== normalizeSearchText(original))
   )];
 }
+
+
+const chatTranslationCache = new Map();
+
+/**
+ * Translate one short chat message without a browser-visible secret.
+ * Public translation availability and supported target languages are external dependencies.
+ */
+export async function translateChatText(text, options = {}) {
+  const source = String(options.source ?? 'auto');
+  const target = String(options.target ?? 'bn').toLowerCase().split('-')[0];
+  const original = String(text ?? '').trim().slice(0, 500);
+  const normalized = normalizeSearchText(original);
+  if (!original || !target) return { text: '', sourceLanguage: 'und' };
+  if (source !== 'auto' && source.toLowerCase().split('-')[0] === target) {
+    return { text: original, sourceLanguage: source };
+  }
+
+  const cacheKey = source + ':' + target + ':' + normalized;
+  if (chatTranslationCache.has(cacheKey)) return chatTranslationCache.get(cacheKey);
+
+  const fetchImpl = options.fetchImpl ?? globalThis.fetch;
+  if (typeof fetchImpl !== 'function') return { text: '', sourceLanguage: 'und' };
+
+  const url = new URL('https://translate.googleapis.com/translate_a/single');
+  url.searchParams.set('client', 'gtx');
+  url.searchParams.set('sl', source);
+  url.searchParams.set('tl', target);
+  url.searchParams.set('dt', 't');
+  url.searchParams.set('q', original);
+
+  const controller = new AbortController();
+  const relayAbort = () => controller.abort();
+  if (options.signal?.aborted) controller.abort();
+  else options.signal?.addEventListener('abort', relayAbort, { once: true });
+  const timeoutId = setTimeout(() => controller.abort(), 4500);
+
+  try {
+    const response = await fetchImpl(url.toString(), {
+      method: 'GET',
+      signal: controller.signal,
+      credentials: 'omit',
+      headers: { Accept: 'application/json' }
+    });
+    if (!response?.ok) return { text: '', sourceLanguage: 'und' };
+    const payload = await response.json();
+    const translated = parseGoogleTranslationResponse(payload);
+    const detected = source === 'auto'
+      ? String(payload?.[2] || payload?.[8]?.[0]?.[0] || 'und').toLowerCase().split('-')[0]
+      : source.toLowerCase().split('-')[0];
+    const result = { text: translated, sourceLanguage: detected };
+    if (translated && chatTranslationCache.size < 100) chatTranslationCache.set(cacheKey, result);
+    return result;
+  } catch {
+    return { text: '', sourceLanguage: 'und' };
+  } finally {
+    clearTimeout(timeoutId);
+    options.signal?.removeEventListener('abort', relayAbort);
+  }
+}
