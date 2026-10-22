@@ -14,7 +14,7 @@ const SPONSORS = [
     name: 'NTV',
     label: 'NTV',
     href: 'https://www.ntvbd.com/',
-    logo: 'https://cdn.jvectors.com/upload/photos/2024/03/PPOeXLNVad5v2ZG6avan_05_df80842812ab480999f0b657f73bc5d1_jvectors.webp?updated=1743062758',
+    logo: 'https://commons.wikimedia.org/wiki/Special:FilePath/NTV_(Bangladesh)_logo.svg',
     className: 'sponsor-logo-ntv',
   },
   {
