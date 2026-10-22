@@ -198,23 +198,68 @@
   }
 }
 
-/* Five equally accessible mobile destinations, including About and Profile. */
+/* Four balanced mobile destinations; no leftover Profile column. */
 @media (max-width: 700px) {
   .bottom-navigation {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1px;
-    padding-inline: 4px;
+    gap: 4px;
+    padding-inline: 6px;
   }
   .bottom-nav-item {
-    padding-inline: 1px;
+    padding-inline: 2px;
+    min-height: 56px;
   }
   .bottom-nav-label {
-    font-size: 10px;
+    font-size: 11px;
     white-space: normal;
     text-align: center;
-    line-height: 1.15;
+    line-height: 1.2;
   }
 }
 @media (max-width: 390px) {
+  .bottom-navigation { gap: 2px; padding-inline: 4px; }
+  .bottom-nav-item { min-height: 53px; }
   .bottom-nav-label { font-size: 10px; }
+}
+
+/* Align the header links as one deliberate group on wider screens. */
+@media (min-width: 701px) {
+  .nav-links {
+    flex: 1 1 auto;
+    min-width: 0;
+    justify-content: center;
+    gap: clamp(14px, 1.7vw, 24px);
+  }
+  .nav-links > a {
+    white-space: nowrap;
+    padding-block: 7px;
+    font-weight: 500;
+  }
+  .nav-links a.nav-active::after { bottom: 0; }
+  .saved-link {
+    min-height: 40px;
+    padding: 9px 13px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: background-color .18s ease, border-color .18s ease, color .18s ease;
+  }
+  .saved-link:hover,
+  .saved-link[aria-current="page"] {
+    border-color: #cbd9c8;
+    background: #edf3e9;
+    color: #244d32;
+  }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  .nav { gap: 12px; }
+  .brand-logo { width: min(170px, 24vw); }
+  .nav-links { gap: 12px; font-size: 12px; }
+  .saved-link { padding-inline: 9px; font-size: 12px; }
+  .theme-toggle-button {
+    flex-basis: 36px;
+    width: 36px;
+    height: 36px;
+  }
 }
