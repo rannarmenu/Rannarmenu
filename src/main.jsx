@@ -189,6 +189,41 @@ function App() {
  },[]);
  useEffect(()=>{
   if(!authReady)return;
+  const url=new URL(window.location.href);
+  let googleAttempt=false;
+  try{googleAttempt=window.localStorage.getItem('rannar-menu-google-auth-pending')==='1'}catch{}
+  const oauthError=url.searchParams.get('error_description')||url.searchParams.get('error');
+  const authCode=url.searchParams.get('code');
+  if(!googleAttempt&&!oauthError&&!authCode)return;
+  const cleanCallbackUrl=()=>{
+   ['code','state','error','error_description','error_code','error_uri'].forEach(key=>url.searchParams.delete(key));
+   url.hash='/profile';
+   window.history.replaceState(window.history.state,'',url.pathname+(url.search||'')+url.hash);
+   setRoute(routeFromHash('#/profile'));
+  };
+  if(oauthError&&googleAttempt){
+   try{window.localStorage.removeItem('rannar-menu-google-auth-pending')}catch{}
+   const detail=String(oauthError).toLowerCase();
+   setProfileNotice(detail.includes('provider is not enabled')
+    ?'গুরুত্বপূর্ণ নোটিশ: Google দিয়ে লগইন এখনো সক্রিয় নয়। Supabase → Authentication → Sign In / Providers → Google চালু করে Google Client ID ও Client Secret সংরক্ষণ করতে হবে। আপাতত ইমেইল দিয়ে অ্যাকাউন্ট খুলুন।'
+    :'Google দিয়ে লগইন সম্পন্ন হয়নি। একই ব্রাউজারে আবার চেষ্টা করুন; সমস্যা থাকলে Supabase-এর Google OAuth credentials ও Redirect URLs যাচাই করতে হবে।');
+   cleanCallbackUrl();
+   return;
+  }
+  if(googleAttempt&&isVerifiedCustomer){
+   try{window.localStorage.removeItem('rannar-menu-google-auth-pending')}catch{}
+   setProfileNotice('Google দিয়ে সাইন-ইন সফল হয়েছে। আপনার অ্যাকাউন্ট প্রস্তুত।');
+   cleanCallbackUrl();
+   return;
+  }
+  if(googleAttempt&&authCode&&!user){
+   try{window.localStorage.removeItem('rannar-menu-google-auth-pending')}catch{}
+   setProfileNotice('গুরুত্বপূর্ণ নোটিশ: Google থেকে authorization code এসেছে, কিন্তু session তৈরি হয়নি। একই ব্রাউজারে আবার চেষ্টা করুন; OAuth callback ও PKCE configuration যাচাই করা প্রয়োজন।');
+   cleanCallbackUrl();
+  }
+ },[authReady,isVerifiedCustomer,user?.id]);
+ useEffect(()=>{
+  if(!authReady)return;
   if(!user||!isVerifiedCustomer||!supabase){
    setCustomerProfile(null);
    if(!user){
