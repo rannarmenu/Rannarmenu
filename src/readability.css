@@ -203,3 +203,24 @@ html[data-theme="dark"] .about-sylae-copy p { color: #bdc7bb; }
 @media (prefers-reduced-motion: reduce) {
   .about-option-row, .about-option-arrow, .recipe-card, .recipe-card img { transition: none !important; }
 }
+
+
+/* Explicit emphasis for already-marked important copy and facts. */
+p strong, li strong, .mira-bubble strong {
+  color: #2f6745;
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: rgba(190, 160, 83, .62);
+  text-decoration-thickness: .08em;
+  text-underline-offset: .16em;
+}
+.hero h1 em, .featured-overlay h2, .section-heading h2,
+.category-inner h2, .detail-grid h2, .newsletter h2 {
+  font-weight: 800;
+}
+html[data-theme="dark"] p strong,
+html[data-theme="dark"] li strong,
+html[data-theme="dark"] .mira-bubble strong {
+  color: #b7dfb9;
+  text-decoration-color: rgba(214, 188, 120, .72);
+}
