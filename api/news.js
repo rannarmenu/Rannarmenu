@@ -89,7 +89,7 @@ function extractFeedImage(block, descriptionRaw, baseUrl) {
   }
   for (const value of candidates) {
     const url = safeHttpUrl(value, baseUrl);
-    if (url && !/(?:logo|favicon|avatar|profile|placeholder|default-cover|site-icon)/i.test(new URL(url).pathname)) {
+    if (url && url.startsWith('https://') && !/(?:logo|favicon|avatar|profile|placeholder|default-cover|site-icon)/i.test(new URL(url).pathname)) {
       return url;
     }
   }
