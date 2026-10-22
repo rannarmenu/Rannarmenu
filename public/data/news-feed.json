@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-22T15:58:31.773Z",
+  "generatedAt": "2026-10-22T16:06:55.838Z",
   "sponsors": {
     "somoy": [
       {
@@ -320,19 +320,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT0g0VVdlMWM3UUo0cDZEaV9qM0RVOGRtaWs4X3dQeDB4S0E4QVFLWU9LYjFDZWRldzNEa202VTZqd1hWczFkT2RySnhfVmlFTkRMN2xid0pJbzQyanVpbnhiUUtwZGtRLWdpZlQxQVc5eHd6ZFYtV0lGeTF4YjJXVTd5ZjBwLVh2ZjBSYXZUdnFvVUZiZ3RB?oc=5",
-        "title": "মধ্যরাতের খবর : ২২ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT0g0VVdlMWM3UUo0cDZEaV9qM0RVOGRtaWs4X3dQeDB4S0E4QVFLWU9LYjFDZWRldzNEa202VTZqd1hWczFkT2RySnhfVmlFTkRMN2xid0pJbzQyanVpbnhiUUtwZGtRLWdpZlQxQVc5eHd6ZFYtV0lGeTF4YjJXVTd5ZjBwLVh2ZjBSYXZUdnFvVUZiZ3RB?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 21 Oct 2026 21:34:07 GMT",
-        "summary": "মধ্যরাতের খবর : ২২ অক্টোবর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/moddhoraater-khobor/moddho-rater-khobor-22-october-2026",
-        "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV2xHbDhMTjNvM2ZLZmk3bGlhTEJ1MDE3VmhhQkl6NUxjVFR0QUNkOUpkUlEybk54S1RtSTlCSXZCalBXTUFTLS11RnBsZGFkaUdTWldFWjJpUVMzaktQcmptVm9HUmNqNGl3NnQzYTBvTkplWFBhXzRlMEhDWW1PamlRWmZLbWtjMXh3?oc=5",
         "title": "সকালের খবর : ২২ অক্টোবর ২০২৬",
         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV2xHbDhMTjNvM2ZLZmk3bGlhTEJ1MDE3VmhhQkl6NUxjVFR0QUNkOUpkUlEybk54S1RtSTlCSXZCalBXTUFTLS11RnBsZGFkaUdTWldFWjJpUVMzaktQcmptVm9HUmNqNGl3NnQzYTBvTkplWFBhXzRlMEhDWW1PamlRWmZLbWtjMXh3?oc=5",
@@ -396,137 +383,18 @@
         "articleUrl": "https://www.ntvbd.com/video/drama/chawa-pawa/chawa-pawa-ep-33",
         "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
-      }
-    ],
-    "channel24": [
+      },
       {
-        "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE0wWEM3a1U1eDNPel9HS3pfMnROMDRaSWtNTnczNEJnZUotVVppSm9ub1BLTS1OejJPNXA0aFVXMHc?oc=5",
-        "title": "Channel 24 | News Video, Latest Bangla News & Live TV",
-        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE0wWEM3a1U1eDNPel9HS3pfMnROMDRaSWtNTnczNEJnZUotVVppSm9ub1BLTS1OejJPNXA0aFVXMHc?oc=5",
-        "source": "News24 / Channel 24",
+        "id": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYkd2d05MUWhxbFRCTUdOMy04VnpOUDNQWGlscVJIeVlQTTRkR2R0d2RkOGhaREg1VXQwXzZpMjMtbXlYVWUwQlFxcnhGeEpoZFhtOG1xX3V1SXMwMUlzSG5lQUk1ZDBRbXVSZnpLVmZ3ZXd0U1lWNFVIeUl6bUdDNw?oc=5",
+        "title": "এনটিভি'র নিমন্ত্রণে : পর্ব ৩৯১",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYkd2d05MUWhxbFRCTUdOMy04VnpOUDNQWGlscVJIeVlQTTRkR2R0d2RkOGhaREg1VXQwXzZpMjMtbXlYVWUwQlFxcnhGeEpoZFhtOG1xX3V1SXMwMUlzSG5lQUk1ZDBRbXVSZnpLVmZ3ZXd0U1lWNFVIeUl6bUdDNw?oc=5",
+        "source": "NTV",
         "publisherUrl": "",
-        "publishedAt": "Wed, 29 Aug 2018 09:33:29 GMT",
-        "summary": "Channel 24 | News Video, Latest Bangla News & Live TV &nbsp;&nbsp; Channel 24",
+        "publishedAt": "Thu, 22 Oct 2026 05:28:16 GMT",
+        "summary": "এনটিভি'র নিমন্ত্রণে : পর্ব ৩৯১ &nbsp;&nbsp; Ntvbd",
         "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "",
-        "imageAttemptedAt": "2026-10-22T15:58:34.662Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMioARBVV95cUxPNFo5a1piVlhTWHRnRXgtcHpNSENuVnpuSFZMOTFuZ2c5WEhzbzdmaFJ3V3pKZV9kWDl3OGJqTml3bnJxWnpXN0NkVlNaQ1hnZk92aWRxT1R0bUZSb3lDWUpOQnNYV3NuLWc4QTFFVDJsUHU1NVNvRmN5S3VZck8tRXZSZWtSejBIeW5mT1Z0TzhVaTc3R3lJM1NaOXJiUHliMDVlZWRzQmJjMENDVzN3THN4R3VpcE42YzBxYmNPSFJqV3dpc1pfYnU4eFl3SzF4YmlScU5RMkFnVllmak9NR3ZRUGZHUmVxUk9VMkNjRHlUY2NqeUFRd1BHeW1HN1BpR0RGN3R2MFNnQW0zWDBrT3RiMi1kUFc2QWdHNUhTMFFJQ0owaWNMRFVuT2xta0tfMFo5bmpzUTE0cExYZEZkYzRKM3hnM2lLUEdNMWh3aFltbVF1TnZBbHZHX2JWNkJhaWZFY2daWllBT0hzNWZ1UmthLVBJUXpjUnJaTU9uZG45QVFKQlg4eXJzNHR6Z1pvd0NsQUJ0eURLUGVyenR5d2lwajBnRTZHZVp0RXE2dzI4eVpESlJwX1RUcjlBTHRWOExMcFA2dDY4ZWw3MUt2Nm1JbXkyWWYyMHo4WmNUNndhUnhhWmF1S0oxaHlSOEtHQUQwMTZvT1BMSktyR19kakNNUmpOaXp0MjVIMFhObnZCcmFJd3FVTDRTSTdPUmpH?oc=5",
-        "title": "অতিরিক্ত ডিআইজির বাড়িতে ডিবির অভিযান, আটক ৮৪",
-        "link": "https://news.google.com/rss/articles/CBMioARBVV95cUxPNFo5a1piVlhTWHRnRXgtcHpNSENuVnpuSFZMOTFuZ2c5WEhzbzdmaFJ3V3pKZV9kWDl3OGJqTml3bnJxWnpXN0NkVlNaQ1hnZk92aWRxT1R0bUZSb3lDWUpOQnNYV3NuLWc4QTFFVDJsUHU1NVNvRmN5S3VZck8tRXZSZWtSejBIeW5mT1Z0TzhVaTc3R3lJM1NaOXJiUHliMDVlZWRzQmJjMENDVzN3THN4R3VpcE42YzBxYmNPSFJqV3dpc1pfYnU4eFl3SzF4YmlScU5RMkFnVllmak9NR3ZRUGZHUmVxUk9VMkNjRHlUY2NqeUFRd1BHeW1HN1BpR0RGN3R2MFNnQW0zWDBrT3RiMi1kUFc2QWdHNUhTMFFJQ0owaWNMRFVuT2xta0tfMFo5bmpzUTE0cExYZEZkYzRKM3hnM2lLUEdNMWh3aFltbVF1TnZBbHZHX2JWNkJhaWZFY2daWllBT0hzNWZ1UmthLVBJUXpjUnJaTU9uZG45QVFKQlg4eXJzNHR6Z1pvd0NsQUJ0eURLUGVyenR5d2lwajBnRTZHZVp0RXE2dzI4eVpESlJwX1RUcjlBTHRWOExMcFA2dDY4ZWw3MUt2Nm1JbXkyWWYyMHo4WmNUNndhUnhhWmF1S0oxaHlSOEtHQUQwMTZvT1BMSktyR19kakNNUmpOaXp0MjVIMFhObnZCcmFJd3FVTDRTSTdPUmpH?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 20 Oct 2026 10:51:00 GMT",
-        "summary": "অতিরিক্ত ডিআইজির বাড়িতে ডিবির অভিযান, আটক ৮৪ &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/arrest-1792493504.jpg",
-        "articleUrl": "https://www.channel24bd.tv/crime/article/354078/%E0%A6%85%E0%A6%A4%E0%A6%BF%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%A1%E0%A6%BF%E0%A6%86%E0%A6%87%E0%A6%9C%E0%A6%BF%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%A1%E0%A6%BF%E0%A6%AC%E0%A6%BF%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%86%E0%A6%9F%E0%A6%95-%E0%A7%AB%E0%A7%AC",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi_ANBVV95cUxPR2tYOWkzaXBZaGZ2dUl2My1DSnFOS29TLXpaY05VQ01KLVRGbHVjbEdLczlRWWNwMUJ3QVdWTnRpYU10dWM1emVrQ0V5U3h2NjQ0Qk1uVEVRWlN2NkJQYWlMVkg3MDRZS1ZRUFJkU085Um1sZFh4a0pYTFFPZ2dZTkx2WUJ2aHFtSTdnMkNha1dPTEZOZGNITEZBMEdiMzlKRUtxbjhNZ2xvOElKeGtjeGZrU3BudEtKV3VURWZXZDVzNXhjd3FYbmYyeG9DbEFtVzd1eDdJT0pfd1o2SzdTOTRGaFJObFViOG9ieDBxUGFRNmR2R3RXb0xFYkFlMzQySkphYlRHQThVT0gwU1E5T3d2QmZEeEtxcjdNc3llNVdZcXkxb294RFJSTGF5Y3pMNzV3VGF5M00waUYxcDFsU21WaXkwZWRwWmk0MW5uOGNobEsxRmlOQ20zUXVQZ0tsb3p2U2lEb2dPbUFiS1l4VHhHcU1LQloxX2F5WmtOdXA0SU5MZlBZczBBR2ZEV3FCd0MwZTN4aW1pX0lheEpvOW5sRjMxeHpQSkpURWtNc2VBV0s1ZVBxWDdZdlgyaXdWRTNWb1lKTUVtdURSdktLeEdyd2ZqckluU29mM0Q4RFhzckhQT1VrQktMY0lWaEtibFg2VlUtSFRETU9q?oc=5",
-        "title": "ফের চালু হচ্ছে ডিভি লটারি, ১ নভেম্বর থেকে আবেদন শুরু",
-        "link": "https://news.google.com/rss/articles/CBMi_ANBVV95cUxPR2tYOWkzaXBZaGZ2dUl2My1DSnFOS29TLXpaY05VQ01KLVRGbHVjbEdLczlRWWNwMUJ3QVdWTnRpYU10dWM1emVrQ0V5U3h2NjQ0Qk1uVEVRWlN2NkJQYWlMVkg3MDRZS1ZRUFJkU085Um1sZFh4a0pYTFFPZ2dZTkx2WUJ2aHFtSTdnMkNha1dPTEZOZGNITEZBMEdiMzlKRUtxbjhNZ2xvOElKeGtjeGZrU3BudEtKV3VURWZXZDVzNXhjd3FYbmYyeG9DbEFtVzd1eDdJT0pfd1o2SzdTOTRGaFJObFViOG9ieDBxUGFRNmR2R3RXb0xFYkFlMzQySkphYlRHQThVT0gwU1E5T3d2QmZEeEtxcjdNc3llNVdZcXkxb294RFJSTGF5Y3pMNzV3VGF5M00waUYxcDFsU21WaXkwZWRwWmk0MW5uOGNobEsxRmlOQ20zUXVQZ0tsb3p2U2lEb2dPbUFiS1l4VHhHcU1LQloxX2F5WmtOdXA0SU5MZlBZczBBR2ZEV3FCd0MwZTN4aW1pX0lheEpvOW5sRjMxeHpQSkpURWtNc2VBV0s1ZVBxWDdZdlgyaXdWRTNWb1lKTUVtdURSdktLeEdyd2ZqckluU29mM0Q4RFhzckhQT1VrQktMY0lWaEtibFg2VlUtSFRETU9q?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 21 Oct 2026 09:26:00 GMT",
-        "summary": "ফের চালু হচ্ছে ডিভি লটারি, ১ নভেম্বর থেকে আবেদন শুরু &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/dv-lottery-1792574814.jpg",
-        "articleUrl": "https://www.channel24bd.tv/international/article/354209/%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A7%81-%E0%A6%B9%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%A1%E0%A6%BF%E0%A6%AD%E0%A6%BF-%E0%A6%B2%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A6%95%E0%A6%AC%E0%A7%87-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi6ANBVV95cUxPVXNka0ZlX1JKOXRiNU9vSDlCRU5mdlpCY1I1a3NqMXNRTDR5MG9SUUpOQWdjeGFINXlkWkV3dHBXalhjNVFJdmVpZjNjcUhUcUxvWVVUdDRUYXJ6dXlIRGNZNWppbUhqbV9RRl9Mc3N4azRUVm9IbGYyc3JoV0UtZy1OV1VwN0w0YjlPQzFONmJDRkFWVzNrZklMU1RERlNnR1hTV3A1UUFEb2dJOUxCRWtNWGNONm9wR2ExV0tpQ0Qzaks2ZmxQeHlqZE5LU3RPaVZoc0pVeDhnNDV6eVFVZWh1VGJUTzhDbmxLN3ZmUXYtVl9Sb2xhSDYzR0drZ3lNZHdMbThnT1M0Wnp4a2lpUURuNGxob2p4eXJWckYzdHhuUFJ1RzBnbnc4eFlNWk5Scks4U1ZVQTAxWmFBczZjZllKeVdVZjdDNk5uemk3R1VweFFlalpvVmk4b2YxWERyNmpfWWtzS25sa2llTFdTM2xESmprVUNBbUt5TjQ0SmRCYUdPODJvWlh6RDNPb0ZQLWZfWWhpQjlLZTZXa3dkNTdMM2c4ODUyTWtnNDhRMXlEekE5NnFtMmZFWDZfZTg0NWlBVEZNa2daa0RUaTlOTllYbm5rY3JBeHVGa0NxdFlyWS1kODRHVw?oc=5",
-        "title": "আজ থেকে ঢাকা-দাম্মাম ফ্লাইট চলাচল শুরু",
-        "link": "https://news.google.com/rss/articles/CBMi6ANBVV95cUxPVXNka0ZlX1JKOXRiNU9vSDlCRU5mdlpCY1I1a3NqMXNRTDR5MG9SUUpOQWdjeGFINXlkWkV3dHBXalhjNVFJdmVpZjNjcUhUcUxvWVVUdDRUYXJ6dXlIRGNZNWppbUhqbV9RRl9Mc3N4azRUVm9IbGYyc3JoV0UtZy1OV1VwN0w0YjlPQzFONmJDRkFWVzNrZklMU1RERlNnR1hTV3A1UUFEb2dJOUxCRWtNWGNONm9wR2ExV0tpQ0Qzaks2ZmxQeHlqZE5LU3RPaVZoc0pVeDhnNDV6eVFVZWh1VGJUTzhDbmxLN3ZmUXYtVl9Sb2xhSDYzR0drZ3lNZHdMbThnT1M0Wnp4a2lpUURuNGxob2p4eXJWckYzdHhuUFJ1RzBnbnc4eFlNWk5Scks4U1ZVQTAxWmFBczZjZllKeVdVZjdDNk5uemk3R1VweFFlalpvVmk4b2YxWERyNmpfWWtzS25sa2llTFdTM2xESmprVUNBbUt5TjQ0SmRCYUdPODJvWlh6RDNPb0ZQLWZfWWhpQjlLZTZXa3dkNTdMM2c4ODUyTWtnNDhRMXlEekE5NnFtMmZFWDZfZTg0NWlBVEZNa2daa0RUaTlOTllYbm5rY3JBeHVGa0NxdFlyWS1kODRHVw?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 22 Oct 2026 02:15:00 GMT",
-        "summary": "আজ থেকে ঢাকা-দাম্মাম ফ্লাইট চলাচল শুরু &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/untitled-1888-1792635357.jpg",
-        "articleUrl": "https://www.channel24bd.tv/national/article/354318/%E0%A6%86%E0%A6%9C-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%A6%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%AE-%E0%A6%AB%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%B2-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi6ARBVV95cUxOWHlqanJ5VVYxOXo5RllpaEdYcWhFVEFBdnBWTXFiZDZMc3VUbHA0anlKXzBsZWRFV1IzR0ZtVUF0VWE1WXdQXzdJT3ozZ2lFU01EV0xEVHhyRjdFclUwM0tqMHRVQWsta0xDWVdvTHY2eE5IaC1HSWpJN0E3cUlxY2RoeGJBU1RJUWhyMEZaSkhnM21DREdhRlBKZWlRNVFGNUZROHVNcFYtSGJiMkNhanJWT2VDMWVFbjdMeU01aWRveDZxdmNvOExEUVRoOEI4SWNCd0pqaTJvWktjY2taSE1GZkZJSmp5ZGw0QlRWTVVrTzJjOGttbXp0NFctQU5sbU5yWWRIRWg1d3RuYVFwUUswX1JXdUxRSk5VR19wc0VPSmpZMUoxOXBweDdlMmVHUGN6OHRCa2d4TmxETkhWWXhvaHF5ZE1PQ1duVV8tdVA1Uk5EZUM0Z2MtN1M3XzRiai1GSVdzcjZfT2k1S0w3amFaLXRESXc1aXpfSUVzLWlEX3lWbnFQOVJGUmVSa281Y293VS1qOFlsUU9sSDRBSlBhR0tNam5lMU92djl6cEhDSTdKX1lxSnNpUFJQSHRqMndaVm9sVzdvTjZ1eFROY0VhSGozdXpmYnNLeDVxWElMUWtOdlpYdWZpelY1dVBITTU1TEpEYTVpSHg5U2JoSmtjM3BackZ6YjVvSE5ZMERaWlVXWldzcDdVNGNwZlZRUEtfX2hmVUNhMUwtM3l6RE1JWEMxMTVsX005eWgzRVlTdjZBay1QNHA5ckNsSmJqblo2ZktnMmdCRTRqMXQyVlhxVmlrZFYx?oc=5",
-        "title": "সৌদির দাম্মামে কিং ফাহাদ বিমানবন্দরে ভয়াবহ হামলা, হতাহত ৯",
-        "link": "https://news.google.com/rss/articles/CBMi6ARBVV95cUxOWHlqanJ5VVYxOXo5RllpaEdYcWhFVEFBdnBWTXFiZDZMc3VUbHA0anlKXzBsZWRFV1IzR0ZtVUF0VWE1WXdQXzdJT3ozZ2lFU01EV0xEVHhyRjdFclUwM0tqMHRVQWsta0xDWVdvTHY2eE5IaC1HSWpJN0E3cUlxY2RoeGJBU1RJUWhyMEZaSkhnM21DREdhRlBKZWlRNVFGNUZROHVNcFYtSGJiMkNhanJWT2VDMWVFbjdMeU01aWRveDZxdmNvOExEUVRoOEI4SWNCd0pqaTJvWktjY2taSE1GZkZJSmp5ZGw0QlRWTVVrTzJjOGttbXp0NFctQU5sbU5yWWRIRWg1d3RuYVFwUUswX1JXdUxRSk5VR19wc0VPSmpZMUoxOXBweDdlMmVHUGN6OHRCa2d4TmxETkhWWXhvaHF5ZE1PQ1duVV8tdVA1Uk5EZUM0Z2MtN1M3XzRiai1GSVdzcjZfT2k1S0w3amFaLXRESXc1aXpfSUVzLWlEX3lWbnFQOVJGUmVSa281Y293VS1qOFlsUU9sSDRBSlBhR0tNam5lMU92djl6cEhDSTdKX1lxSnNpUFJQSHRqMndaVm9sVzdvTjZ1eFROY0VhSGozdXpmYnNLeDVxWElMUWtOdlpYdWZpelY1dVBITTU1TEpEYTVpSHg5U2JoSmtjM3BackZ6YjVvSE5ZMERaWlVXWldzcDdVNGNwZlZRUEtfX2hmVUNhMUwtM3l6RE1JWEMxMTVsX005eWgzRVlTdjZBay1QNHA5ckNsSmJqblo2ZktnMmdCRTRqMXQyVlhxVmlrZFYx?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 22 Oct 2026 01:47:00 GMT",
-        "summary": "সৌদির দাম্মামে কিং ফাহাদ বিমানবন্দরে ভয়াবহ হামলা, হতাহত ৯ &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/untitled-1-1792634073.jpg",
-        "articleUrl": "https://www.channel24bd.tv/international/article/354314/%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A7%87-%E0%A6%95%E0%A6%BF%E0%A6%82-%E0%A6%AB%E0%A6%BE%E0%A6%B9%E0%A6%A6-%E0%A6%AC%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%B9%E0%A6%A4%E0%A6%BE%E0%A6%B9%E0%A6%A4-%E0%A7%AF",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4yRklIUkpPRlB2azBmUG01Z1VjdHdaSWxTcU1NLWJwdHEycHM2T0xqeHhfc1MwdUVUYmxOWDZqNV9TTVJ5MWJJ?oc=5",
-        "title": "ত্রয়োদশ জাতীয় সংসদ নির্বাচন ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4yRklIUkpPRlB2azBmUG01Z1VjdHdaSWxTcU1NLWJwdHEycHM2T0xqeHhfc1MwdUVUYmxOWDZqNV9TTVJ5MWJJ?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 25 Dec 2023 08:56:27 GMT",
-        "summary": "ত্রয়োদশ জাতীয় সংসদ নির্বাচন ২০২৬ &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "",
-        "imageAttemptedAt": "2026-10-22T15:58:34.662Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxOTUFPYTRFT1dmUW1GS2J3dGg0WWFSRTV5WmdRdTRXYzExeUlyN1dhcXp2cnBlOHZrYlM3LXlYd0Y4U0ZYT1hlVHROX3BjQmo5c2xFNF9oaER3S3NLZTJpQnFVclcyUTVFall2YmU4R0N0NG9aSnhkMGxtZENvQjNyaWw1dUFPZlRmWGo2Y0N6ZEpsRkpVSmdFRnpJTVFnR041eGJxeEhPQ3lsNHUzVkFnaUpWM3paWnpwU0RteFNjMk9jdDNBQ3d5VUJxdlhkcm5lNmF6OXczeHhrRG93ak9BdXZON295eUx5ZUU4WFJ2dVhld1FKUHpCd25tVWFBb1pOamJBbThoTmN4WVRGYWZ6X2JCS0FDY1UwekJWaUNpQ1NDYjFSS0xUemduS0FWOUN0a1RPdDR6YU82aUt4VjVVUHliSTFTSHZHMnZlQ2NzOWZlZFZsMEtGN2kxU3NRczdXMXRBbU1oSlpfTkdoQXVPN0pUOU0tb2RXd2lqYWR5ZDNvNUZOOEQ4Q1dqVDFwaUVXQ3g3NWVSRkRkeW95Q1VFc1BOQm40MDlENS1GSWhlOHU3U1ViMjhCRXVQQzZMc29kNTBkcWdiQllWdnVOdVBweUNOcjJOVWQ0WktyNw?oc=5",
-        "title": "চট্টগ্রাম-ঢাকা লেনে ট্রেন চলাচল বন্ধ",
-        "link": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxOTUFPYTRFT1dmUW1GS2J3dGg0WWFSRTV5WmdRdTRXYzExeUlyN1dhcXp2cnBlOHZrYlM3LXlYd0Y4U0ZYT1hlVHROX3BjQmo5c2xFNF9oaER3S3NLZTJpQnFVclcyUTVFall2YmU4R0N0NG9aSnhkMGxtZENvQjNyaWw1dUFPZlRmWGo2Y0N6ZEpsRkpVSmdFRnpJTVFnR041eGJxeEhPQ3lsNHUzVkFnaUpWM3paWnpwU0RteFNjMk9jdDNBQ3d5VUJxdlhkcm5lNmF6OXczeHhrRG93ak9BdXZON295eUx5ZUU4WFJ2dVhld1FKUHpCd25tVWFBb1pOamJBbThoTmN4WVRGYWZ6X2JCS0FDY1UwekJWaUNpQ1NDYjFSS0xUemduS0FWOUN0a1RPdDR6YU82aUt4VjVVUHliSTFTSHZHMnZlQ2NzOWZlZFZsMEtGN2kxU3NRczdXMXRBbU1oSlpfTkdoQXVPN0pUOU0tb2RXd2lqYWR5ZDNvNUZOOEQ4Q1dqVDFwaUVXQ3g3NWVSRkRkeW95Q1VFc1BOQm40MDlENS1GSWhlOHU3U1ViMjhCRXVQQzZMc29kNTBkcWdiQllWdnVOdVBweUNOcjJOVWQ0WktyNw?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 21 Oct 2026 07:36:00 GMT",
-        "summary": "চট্টগ্রাম-ঢাকা লেনে ট্রেন চলাচল বন্ধ &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/laksame-krnfulee-ekspreser-injinsh-3-bgi-lainczut-1792568206.jpg",
-        "articleUrl": "https://www.channel24bd.tv/countries/article/354200/%E0%A6%9A%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%B2%E0%A7%87%E0%A6%A8%E0%A7%87-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A8-%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%B2-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMisAhBVV95cUxNT05ScFJVS0FHakp6ZE50M3pVZzV1azV1ejFlQUROUDVrUDdiSUQ2T0kweXVwM0ZmWFFuWWhaNlByZTBJaGJrSW9Uc0JGVHRBMTNrOVRMWmVPRGF4dmlfb184clNKdUFZQS1Qdk5rMUdSNlJ3R2Q4ek5nb2RBWUZtMXNpWXVXTkJqVXN4VlJSamFMUjB2THVfS0dTMHlkTVIyMTVteXUyaGd5VDVnNEM0eGZwaU52ZXczTjRudWRGQktQYTdqcVd4Rlp3Vk1tRGgxek0xSGxpOFN0c29JSjBMUkoxWjhrOEFWbVZiSEVNN2JXSzlNODhnTVUyS0ZSVzJMSEp2M3JKd21kb0Z6b1k4NWk1R3htWEJfTnFQVTNCNERBTUdDNzNSaEplV0pISjU0ZW80bWpZRVN4NGxzVHFoblBEbWI1U3VRbHVyb25SWktTNWFpS1Z1LWc3MEZSMk5ZcGk1R0lKcjhiQjR2ZlFUTEFEaWl5eFJFeTFRd2RZc1FTekJ0TUcwWkpJNUdmRWpnNUtoTnNmaU5zbGNwS1NpTEl6R2hSVUY2VTk3V0ZZNU9xQ0R5ekpwR3hObGF6b2xYTjN5SDZHTFVuVktJcFZZR0kwM3czNUNvZXZhbjUxalZwSV82YjljbUZPN0pXUm5pTkZSZm9OUXpzc3o3d204VE9BajZPVkEtUXBUc3Nkam9HZ28zdjE5Qk9OWnJ6ZGw5V2tta3ppSWl0dVphQm5DNTlhci11ZDZ3TlBmU2ZyVm9OX25CV1U3eHFOU1FEOFN0NXJxQ1kxd1lNWVFRUGJBbzR4S0NDZU5FaTV6WVp5N3RheGdnSmVRNUZFczA1ODdaTTZZTU92YjRmZkZxamVHQ2NPVExfTWpYV0xKal9ydFV2UjdMd2x1ZGpyYTZ4RzhjZHM5QzFqeXRjMU1fMThkRGtVZDVQdEpVbEdETnJ5UDFCQmhWU1pncFFnOXE3Rnd6a09GMnVPRmxucmlsZXhDZy01REZZSnAxY2JZXzlrMldmbFdybDJKZzVkbHY2R1Q2Z1JDdTRvUTVNQ1pyeTlpUmtyWmQ0OHNvNDMwSmpyZ05keGpvbXBLaFkyelloM29LazhjeHJ2WkQyTmVaYVVxNWFqaXEwMXlxV2gtTHVWbkhlR0pFOFZMemJzWFB1dzI4NXRvVzNjQTAwUUp2cVNXNUJ2NXkyZnJ2MGJCcnQ5dEE3Ui1LaUJXaEZNdGQyU0FHejRPTm9aSG16clNsR2NfMFl5Z19WYVAtdGFhOGNhNnFoZ1VkRzBJWVgteTNxUk0tTTNZdGJqT2M4VFllUUEzZlNnRXBBNHFjRUVhbkxLbmxjR3diVGROSzZRUlZCNW5HWjFyTGhGSnlhdzBIaDNhMTVOa24xVC02UVJac3V6MUI1YWJmZVZwRWtLdzZKcm9s?oc=5",
-        "title": "প্রধানমন্ত্রীর সঙ্গে হাত মেলানোর পর প্রটোকল ভঙ্গ, রাজশাহী বিভাগীয় কমিশনারকে স্ট্যান্ড রিলিজ",
-        "link": "https://news.google.com/rss/articles/CBMisAhBVV95cUxNT05ScFJVS0FHakp6ZE50M3pVZzV1azV1ejFlQUROUDVrUDdiSUQ2T0kweXVwM0ZmWFFuWWhaNlByZTBJaGJrSW9Uc0JGVHRBMTNrOVRMWmVPRGF4dmlfb184clNKdUFZQS1Qdk5rMUdSNlJ3R2Q4ek5nb2RBWUZtMXNpWXVXTkJqVXN4VlJSamFMUjB2THVfS0dTMHlkTVIyMTVteXUyaGd5VDVnNEM0eGZwaU52ZXczTjRudWRGQktQYTdqcVd4Rlp3Vk1tRGgxek0xSGxpOFN0c29JSjBMUkoxWjhrOEFWbVZiSEVNN2JXSzlNODhnTVUyS0ZSVzJMSEp2M3JKd21kb0Z6b1k4NWk1R3htWEJfTnFQVTNCNERBTUdDNzNSaEplV0pISjU0ZW80bWpZRVN4NGxzVHFoblBEbWI1U3VRbHVyb25SWktTNWFpS1Z1LWc3MEZSMk5ZcGk1R0lKcjhiQjR2ZlFUTEFEaWl5eFJFeTFRd2RZc1FTekJ0TUcwWkpJNUdmRWpnNUtoTnNmaU5zbGNwS1NpTEl6R2hSVUY2VTk3V0ZZNU9xQ0R5ekpwR3hObGF6b2xYTjN5SDZHTFVuVktJcFZZR0kwM3czNUNvZXZhbjUxalZwSV82YjljbUZPN0pXUm5pTkZSZm9OUXpzc3o3d204VE9BajZPVkEtUXBUc3Nkam9HZ28zdjE5Qk9OWnJ6ZGw5V2tta3ppSWl0dVphQm5DNTlhci11ZDZ3TlBmU2ZyVm9OX25CV1U3eHFOU1FEOFN0NXJxQ1kxd1lNWVFRUGJBbzR4S0NDZU5FaTV6WVp5N3RheGdnSmVRNUZFczA1ODdaTTZZTU92YjRmZkZxamVHQ2NPVExfTWpYV0xKal9ydFV2UjdMd2x1ZGpyYTZ4RzhjZHM5QzFqeXRjMU1fMThkRGtVZDVQdEpVbEdETnJ5UDFCQmhWU1pncFFnOXE3Rnd6a09GMnVPRmxucmlsZXhDZy01REZZSnAxY2JZXzlrMldmbFdybDJKZzVkbHY2R1Q2Z1JDdTRvUTVNQ1pyeTlpUmtyWmQ0OHNvNDMwSmpyZ05keGpvbXBLaFkyelloM29LazhjeHJ2WkQyTmVaYVVxNWFqaXEwMXlxV2gtTHVWbkhlR0pFOFZMemJzWFB1dzI4NXRvVzNjQTAwUUp2cVNXNUJ2NXkyZnJ2MGJCcnQ5dEE3Ui1LaUJXaEZNdGQyU0FHejRPTm9aSG16clNsR2NfMFl5Z19WYVAtdGFhOGNhNnFoZ1VkRzBJWVgteTNxUk0tTTNZdGJqT2M4VFllUUEzZlNnRXBBNHFjRUVhbkxLbmxjR3diVGROSzZRUlZCNW5HWjFyTGhGSnlhdzBIaDNhMTVOa24xVC02UVJac3V6MUI1YWJmZVZwRWtLdzZKcm9s?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 21 Oct 2026 05:05:00 GMT",
-        "summary": "প্রধানমন্ত্রীর সঙ্গে হাত মেলানোর পর প্রটোকল ভঙ্গ, রাজশাহী বিভাগীয় কমিশনারকে স্ট্যান্ড রিলিজ &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/prdhanmntreer-sngoe-hat-melanor-pr-prtokl-vngo-1792559673.jpg",
-        "articleUrl": "https://www.channel24bd.tv/countries/article/354181/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%A4-%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A6%A8%E0%A7%8B%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%9F%E0%A7%8B%E0%A6%95%E0%A6%B2-%E0%A6%AD%E0%A6%99%E0%A7%8D%E0%A6%97-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%80-%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%B6%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%95%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1-%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%9C",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
-        "title": "News Video, Latest Bangla News & Live TV",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 01 Jul 2019 07:04:28 GMT",
-        "summary": "News Video, Latest Bangla News & Live TV &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.channel24bd.tv/live",
-        "imageAttemptedAt": "2026-10-22T15:58:34.662Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5MU5ROXhDWkdfbk04T2Y2MmJRNWdocFQxVEhGOWxTazQzeGxLUFFNZGI0X3lZNXBJREZncThFQ01ZNXpnVnhMVTljNEFTQQ?oc=5",
-        "title": "News Video, Latest Bangla News & Contact Us",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5MU5ROXhDWkdfbk04T2Y2MmJRNWdocFQxVEhGOWxTazQzeGxLUFFNZGI0X3lZNXBJREZncThFQ01ZNXpnVnhMVTljNEFTQQ?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 27 Jul 2026 12:34:54 GMT",
-        "summary": "News Video, Latest Bangla News & Contact Us &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.channel24bd.tv/contact-us",
-        "imageAttemptedAt": "2026-10-22T15:58:34.662Z",
+        "articleUrl": "https://www.ntvbd.com/video/discussion/ntv-nimontron/ntvr-nimontrone-ep-391",
+        "imageAttemptedAt": "2026-10-22T16:06:57.977Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -661,21 +529,153 @@
         "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
+    ],
+    "channel24": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE0wWEM3a1U1eDNPel9HS3pfMnROMDRaSWtNTnczNEJnZUotVVppSm9ub1BLTS1OejJPNXA0aFVXMHc?oc=5",
+        "title": "Channel 24 | News Video, Latest Bangla News & Live TV",
+        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE0wWEM3a1U1eDNPel9HS3pfMnROMDRaSWtNTnczNEJnZUotVVppSm9ub1BLTS1OejJPNXA0aFVXMHc?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 29 Aug 2018 09:33:29 GMT",
+        "summary": "Channel 24 | News Video, Latest Bangla News & Live TV &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "",
+        "imageAttemptedAt": "2026-10-22T15:58:34.662Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMioARBVV95cUxPNFo5a1piVlhTWHRnRXgtcHpNSENuVnpuSFZMOTFuZ2c5WEhzbzdmaFJ3V3pKZV9kWDl3OGJqTml3bnJxWnpXN0NkVlNaQ1hnZk92aWRxT1R0bUZSb3lDWUpOQnNYV3NuLWc4QTFFVDJsUHU1NVNvRmN5S3VZck8tRXZSZWtSejBIeW5mT1Z0TzhVaTc3R3lJM1NaOXJiUHliMDVlZWRzQmJjMENDVzN3THN4R3VpcE42YzBxYmNPSFJqV3dpc1pfYnU4eFl3SzF4YmlScU5RMkFnVllmak9NR3ZRUGZHUmVxUk9VMkNjRHlUY2NqeUFRd1BHeW1HN1BpR0RGN3R2MFNnQW0zWDBrT3RiMi1kUFc2QWdHNUhTMFFJQ0owaWNMRFVuT2xta0tfMFo5bmpzUTE0cExYZEZkYzRKM3hnM2lLUEdNMWh3aFltbVF1TnZBbHZHX2JWNkJhaWZFY2daWllBT0hzNWZ1UmthLVBJUXpjUnJaTU9uZG45QVFKQlg4eXJzNHR6Z1pvd0NsQUJ0eURLUGVyenR5d2lwajBnRTZHZVp0RXE2dzI4eVpESlJwX1RUcjlBTHRWOExMcFA2dDY4ZWw3MUt2Nm1JbXkyWWYyMHo4WmNUNndhUnhhWmF1S0oxaHlSOEtHQUQwMTZvT1BMSktyR19kakNNUmpOaXp0MjVIMFhObnZCcmFJd3FVTDRTSTdPUmpH?oc=5",
+        "title": "অতিরিক্ত ডিআইজির বাড়িতে ডিবির অভিযান, আটক ৮৪",
+        "link": "https://news.google.com/rss/articles/CBMioARBVV95cUxPNFo5a1piVlhTWHRnRXgtcHpNSENuVnpuSFZMOTFuZ2c5WEhzbzdmaFJ3V3pKZV9kWDl3OGJqTml3bnJxWnpXN0NkVlNaQ1hnZk92aWRxT1R0bUZSb3lDWUpOQnNYV3NuLWc4QTFFVDJsUHU1NVNvRmN5S3VZck8tRXZSZWtSejBIeW5mT1Z0TzhVaTc3R3lJM1NaOXJiUHliMDVlZWRzQmJjMENDVzN3THN4R3VpcE42YzBxYmNPSFJqV3dpc1pfYnU4eFl3SzF4YmlScU5RMkFnVllmak9NR3ZRUGZHUmVxUk9VMkNjRHlUY2NqeUFRd1BHeW1HN1BpR0RGN3R2MFNnQW0zWDBrT3RiMi1kUFc2QWdHNUhTMFFJQ0owaWNMRFVuT2xta0tfMFo5bmpzUTE0cExYZEZkYzRKM3hnM2lLUEdNMWh3aFltbVF1TnZBbHZHX2JWNkJhaWZFY2daWllBT0hzNWZ1UmthLVBJUXpjUnJaTU9uZG45QVFKQlg4eXJzNHR6Z1pvd0NsQUJ0eURLUGVyenR5d2lwajBnRTZHZVp0RXE2dzI4eVpESlJwX1RUcjlBTHRWOExMcFA2dDY4ZWw3MUt2Nm1JbXkyWWYyMHo4WmNUNndhUnhhWmF1S0oxaHlSOEtHQUQwMTZvT1BMSktyR19kakNNUmpOaXp0MjVIMFhObnZCcmFJd3FVTDRTSTdPUmpH?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 20 Oct 2026 10:51:00 GMT",
+        "summary": "অতিরিক্ত ডিআইজির বাড়িতে ডিবির অভিযান, আটক ৮৪ &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/arrest-1792493504.jpg",
+        "articleUrl": "https://www.channel24bd.tv/crime/article/354078/%E0%A6%85%E0%A6%A4%E0%A6%BF%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%A1%E0%A6%BF%E0%A6%86%E0%A6%87%E0%A6%9C%E0%A6%BF%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%A1%E0%A6%BF%E0%A6%AC%E0%A6%BF%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%86%E0%A6%9F%E0%A6%95-%E0%A7%AB%E0%A7%AC",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi_ANBVV95cUxPR2tYOWkzaXBZaGZ2dUl2My1DSnFOS29TLXpaY05VQ01KLVRGbHVjbEdLczlRWWNwMUJ3QVdWTnRpYU10dWM1emVrQ0V5U3h2NjQ0Qk1uVEVRWlN2NkJQYWlMVkg3MDRZS1ZRUFJkU085Um1sZFh4a0pYTFFPZ2dZTkx2WUJ2aHFtSTdnMkNha1dPTEZOZGNITEZBMEdiMzlKRUtxbjhNZ2xvOElKeGtjeGZrU3BudEtKV3VURWZXZDVzNXhjd3FYbmYyeG9DbEFtVzd1eDdJT0pfd1o2SzdTOTRGaFJObFViOG9ieDBxUGFRNmR2R3RXb0xFYkFlMzQySkphYlRHQThVT0gwU1E5T3d2QmZEeEtxcjdNc3llNVdZcXkxb294RFJSTGF5Y3pMNzV3VGF5M00waUYxcDFsU21WaXkwZWRwWmk0MW5uOGNobEsxRmlOQ20zUXVQZ0tsb3p2U2lEb2dPbUFiS1l4VHhHcU1LQloxX2F5WmtOdXA0SU5MZlBZczBBR2ZEV3FCd0MwZTN4aW1pX0lheEpvOW5sRjMxeHpQSkpURWtNc2VBV0s1ZVBxWDdZdlgyaXdWRTNWb1lKTUVtdURSdktLeEdyd2ZqckluU29mM0Q4RFhzckhQT1VrQktMY0lWaEtibFg2VlUtSFRETU9q?oc=5",
+        "title": "ফের চালু হচ্ছে ডিভি লটারি, ১ নভেম্বর থেকে আবেদন শুরু",
+        "link": "https://news.google.com/rss/articles/CBMi_ANBVV95cUxPR2tYOWkzaXBZaGZ2dUl2My1DSnFOS29TLXpaY05VQ01KLVRGbHVjbEdLczlRWWNwMUJ3QVdWTnRpYU10dWM1emVrQ0V5U3h2NjQ0Qk1uVEVRWlN2NkJQYWlMVkg3MDRZS1ZRUFJkU085Um1sZFh4a0pYTFFPZ2dZTkx2WUJ2aHFtSTdnMkNha1dPTEZOZGNITEZBMEdiMzlKRUtxbjhNZ2xvOElKeGtjeGZrU3BudEtKV3VURWZXZDVzNXhjd3FYbmYyeG9DbEFtVzd1eDdJT0pfd1o2SzdTOTRGaFJObFViOG9ieDBxUGFRNmR2R3RXb0xFYkFlMzQySkphYlRHQThVT0gwU1E5T3d2QmZEeEtxcjdNc3llNVdZcXkxb294RFJSTGF5Y3pMNzV3VGF5M00waUYxcDFsU21WaXkwZWRwWmk0MW5uOGNobEsxRmlOQ20zUXVQZ0tsb3p2U2lEb2dPbUFiS1l4VHhHcU1LQloxX2F5WmtOdXA0SU5MZlBZczBBR2ZEV3FCd0MwZTN4aW1pX0lheEpvOW5sRjMxeHpQSkpURWtNc2VBV0s1ZVBxWDdZdlgyaXdWRTNWb1lKTUVtdURSdktLeEdyd2ZqckluU29mM0Q4RFhzckhQT1VrQktMY0lWaEtibFg2VlUtSFRETU9q?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 21 Oct 2026 09:26:00 GMT",
+        "summary": "ফের চালু হচ্ছে ডিভি লটারি, ১ নভেম্বর থেকে আবেদন শুরু &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/dv-lottery-1792574814.jpg",
+        "articleUrl": "https://www.channel24bd.tv/international/article/354209/%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A7%81-%E0%A6%B9%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%A1%E0%A6%BF%E0%A6%AD%E0%A6%BF-%E0%A6%B2%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A6%95%E0%A6%AC%E0%A7%87-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi6ANBVV95cUxPVXNka0ZlX1JKOXRiNU9vSDlCRU5mdlpCY1I1a3NqMXNRTDR5MG9SUUpOQWdjeGFINXlkWkV3dHBXalhjNVFJdmVpZjNjcUhUcUxvWVVUdDRUYXJ6dXlIRGNZNWppbUhqbV9RRl9Mc3N4azRUVm9IbGYyc3JoV0UtZy1OV1VwN0w0YjlPQzFONmJDRkFWVzNrZklMU1RERlNnR1hTV3A1UUFEb2dJOUxCRWtNWGNONm9wR2ExV0tpQ0Qzaks2ZmxQeHlqZE5LU3RPaVZoc0pVeDhnNDV6eVFVZWh1VGJUTzhDbmxLN3ZmUXYtVl9Sb2xhSDYzR0drZ3lNZHdMbThnT1M0Wnp4a2lpUURuNGxob2p4eXJWckYzdHhuUFJ1RzBnbnc4eFlNWk5Scks4U1ZVQTAxWmFBczZjZllKeVdVZjdDNk5uemk3R1VweFFlalpvVmk4b2YxWERyNmpfWWtzS25sa2llTFdTM2xESmprVUNBbUt5TjQ0SmRCYUdPODJvWlh6RDNPb0ZQLWZfWWhpQjlLZTZXa3dkNTdMM2c4ODUyTWtnNDhRMXlEekE5NnFtMmZFWDZfZTg0NWlBVEZNa2daa0RUaTlOTllYbm5rY3JBeHVGa0NxdFlyWS1kODRHVw?oc=5",
+        "title": "আজ থেকে ঢাকা-দাম্মাম ফ্লাইট চলাচল শুরু",
+        "link": "https://news.google.com/rss/articles/CBMi6ANBVV95cUxPVXNka0ZlX1JKOXRiNU9vSDlCRU5mdlpCY1I1a3NqMXNRTDR5MG9SUUpOQWdjeGFINXlkWkV3dHBXalhjNVFJdmVpZjNjcUhUcUxvWVVUdDRUYXJ6dXlIRGNZNWppbUhqbV9RRl9Mc3N4azRUVm9IbGYyc3JoV0UtZy1OV1VwN0w0YjlPQzFONmJDRkFWVzNrZklMU1RERlNnR1hTV3A1UUFEb2dJOUxCRWtNWGNONm9wR2ExV0tpQ0Qzaks2ZmxQeHlqZE5LU3RPaVZoc0pVeDhnNDV6eVFVZWh1VGJUTzhDbmxLN3ZmUXYtVl9Sb2xhSDYzR0drZ3lNZHdMbThnT1M0Wnp4a2lpUURuNGxob2p4eXJWckYzdHhuUFJ1RzBnbnc4eFlNWk5Scks4U1ZVQTAxWmFBczZjZllKeVdVZjdDNk5uemk3R1VweFFlalpvVmk4b2YxWERyNmpfWWtzS25sa2llTFdTM2xESmprVUNBbUt5TjQ0SmRCYUdPODJvWlh6RDNPb0ZQLWZfWWhpQjlLZTZXa3dkNTdMM2c4ODUyTWtnNDhRMXlEekE5NnFtMmZFWDZfZTg0NWlBVEZNa2daa0RUaTlOTllYbm5rY3JBeHVGa0NxdFlyWS1kODRHVw?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 22 Oct 2026 02:15:00 GMT",
+        "summary": "আজ থেকে ঢাকা-দাম্মাম ফ্লাইট চলাচল শুরু &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/untitled-1888-1792635357.jpg",
+        "articleUrl": "https://www.channel24bd.tv/national/article/354318/%E0%A6%86%E0%A6%9C-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%A6%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%AE-%E0%A6%AB%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%B2-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi6ARBVV95cUxOWHlqanJ5VVYxOXo5RllpaEdYcWhFVEFBdnBWTXFiZDZMc3VUbHA0anlKXzBsZWRFV1IzR0ZtVUF0VWE1WXdQXzdJT3ozZ2lFU01EV0xEVHhyRjdFclUwM0tqMHRVQWsta0xDWVdvTHY2eE5IaC1HSWpJN0E3cUlxY2RoeGJBU1RJUWhyMEZaSkhnM21DREdhRlBKZWlRNVFGNUZROHVNcFYtSGJiMkNhanJWT2VDMWVFbjdMeU01aWRveDZxdmNvOExEUVRoOEI4SWNCd0pqaTJvWktjY2taSE1GZkZJSmp5ZGw0QlRWTVVrTzJjOGttbXp0NFctQU5sbU5yWWRIRWg1d3RuYVFwUUswX1JXdUxRSk5VR19wc0VPSmpZMUoxOXBweDdlMmVHUGN6OHRCa2d4TmxETkhWWXhvaHF5ZE1PQ1duVV8tdVA1Uk5EZUM0Z2MtN1M3XzRiai1GSVdzcjZfT2k1S0w3amFaLXRESXc1aXpfSUVzLWlEX3lWbnFQOVJGUmVSa281Y293VS1qOFlsUU9sSDRBSlBhR0tNam5lMU92djl6cEhDSTdKX1lxSnNpUFJQSHRqMndaVm9sVzdvTjZ1eFROY0VhSGozdXpmYnNLeDVxWElMUWtOdlpYdWZpelY1dVBITTU1TEpEYTVpSHg5U2JoSmtjM3BackZ6YjVvSE5ZMERaWlVXWldzcDdVNGNwZlZRUEtfX2hmVUNhMUwtM3l6RE1JWEMxMTVsX005eWgzRVlTdjZBay1QNHA5ckNsSmJqblo2ZktnMmdCRTRqMXQyVlhxVmlrZFYx?oc=5",
+        "title": "সৌদির দাম্মামে কিং ফাহাদ বিমানবন্দরে ভয়াবহ হামলা, হতাহত ৯",
+        "link": "https://news.google.com/rss/articles/CBMi6ARBVV95cUxOWHlqanJ5VVYxOXo5RllpaEdYcWhFVEFBdnBWTXFiZDZMc3VUbHA0anlKXzBsZWRFV1IzR0ZtVUF0VWE1WXdQXzdJT3ozZ2lFU01EV0xEVHhyRjdFclUwM0tqMHRVQWsta0xDWVdvTHY2eE5IaC1HSWpJN0E3cUlxY2RoeGJBU1RJUWhyMEZaSkhnM21DREdhRlBKZWlRNVFGNUZROHVNcFYtSGJiMkNhanJWT2VDMWVFbjdMeU01aWRveDZxdmNvOExEUVRoOEI4SWNCd0pqaTJvWktjY2taSE1GZkZJSmp5ZGw0QlRWTVVrTzJjOGttbXp0NFctQU5sbU5yWWRIRWg1d3RuYVFwUUswX1JXdUxRSk5VR19wc0VPSmpZMUoxOXBweDdlMmVHUGN6OHRCa2d4TmxETkhWWXhvaHF5ZE1PQ1duVV8tdVA1Uk5EZUM0Z2MtN1M3XzRiai1GSVdzcjZfT2k1S0w3amFaLXRESXc1aXpfSUVzLWlEX3lWbnFQOVJGUmVSa281Y293VS1qOFlsUU9sSDRBSlBhR0tNam5lMU92djl6cEhDSTdKX1lxSnNpUFJQSHRqMndaVm9sVzdvTjZ1eFROY0VhSGozdXpmYnNLeDVxWElMUWtOdlpYdWZpelY1dVBITTU1TEpEYTVpSHg5U2JoSmtjM3BackZ6YjVvSE5ZMERaWlVXWldzcDdVNGNwZlZRUEtfX2hmVUNhMUwtM3l6RE1JWEMxMTVsX005eWgzRVlTdjZBay1QNHA5ckNsSmJqblo2ZktnMmdCRTRqMXQyVlhxVmlrZFYx?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 22 Oct 2026 01:47:00 GMT",
+        "summary": "সৌদির দাম্মামে কিং ফাহাদ বিমানবন্দরে ভয়াবহ হামলা, হতাহত ৯ &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/untitled-1-1792634073.jpg",
+        "articleUrl": "https://www.channel24bd.tv/international/article/354314/%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A7%87-%E0%A6%95%E0%A6%BF%E0%A6%82-%E0%A6%AB%E0%A6%BE%E0%A6%B9%E0%A6%A6-%E0%A6%AC%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%B9%E0%A6%A4%E0%A6%BE%E0%A6%B9%E0%A6%A4-%E0%A7%AF",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4yRklIUkpPRlB2azBmUG01Z1VjdHdaSWxTcU1NLWJwdHEycHM2T0xqeHhfc1MwdUVUYmxOWDZqNV9TTVJ5MWJJ?oc=5",
+        "title": "ত্রয়োদশ জাতীয় সংসদ নির্বাচন ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4yRklIUkpPRlB2azBmUG01Z1VjdHdaSWxTcU1NLWJwdHEycHM2T0xqeHhfc1MwdUVUYmxOWDZqNV9TTVJ5MWJJ?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 25 Dec 2023 08:56:27 GMT",
+        "summary": "ত্রয়োদশ জাতীয় সংসদ নির্বাচন ২০২৬ &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "",
+        "imageAttemptedAt": "2026-10-22T15:58:34.662Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxOTUFPYTRFT1dmUW1GS2J3dGg0WWFSRTV5WmdRdTRXYzExeUlyN1dhcXp2cnBlOHZrYlM3LXlYd0Y4U0ZYT1hlVHROX3BjQmo5c2xFNF9oaER3S3NLZTJpQnFVclcyUTVFall2YmU4R0N0NG9aSnhkMGxtZENvQjNyaWw1dUFPZlRmWGo2Y0N6ZEpsRkpVSmdFRnpJTVFnR041eGJxeEhPQ3lsNHUzVkFnaUpWM3paWnpwU0RteFNjMk9jdDNBQ3d5VUJxdlhkcm5lNmF6OXczeHhrRG93ak9BdXZON295eUx5ZUU4WFJ2dVhld1FKUHpCd25tVWFBb1pOamJBbThoTmN4WVRGYWZ6X2JCS0FDY1UwekJWaUNpQ1NDYjFSS0xUemduS0FWOUN0a1RPdDR6YU82aUt4VjVVUHliSTFTSHZHMnZlQ2NzOWZlZFZsMEtGN2kxU3NRczdXMXRBbU1oSlpfTkdoQXVPN0pUOU0tb2RXd2lqYWR5ZDNvNUZOOEQ4Q1dqVDFwaUVXQ3g3NWVSRkRkeW95Q1VFc1BOQm40MDlENS1GSWhlOHU3U1ViMjhCRXVQQzZMc29kNTBkcWdiQllWdnVOdVBweUNOcjJOVWQ0WktyNw?oc=5",
+        "title": "চট্টগ্রাম-ঢাকা লেনে ট্রেন চলাচল বন্ধ",
+        "link": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxOTUFPYTRFT1dmUW1GS2J3dGg0WWFSRTV5WmdRdTRXYzExeUlyN1dhcXp2cnBlOHZrYlM3LXlYd0Y4U0ZYT1hlVHROX3BjQmo5c2xFNF9oaER3S3NLZTJpQnFVclcyUTVFall2YmU4R0N0NG9aSnhkMGxtZENvQjNyaWw1dUFPZlRmWGo2Y0N6ZEpsRkpVSmdFRnpJTVFnR041eGJxeEhPQ3lsNHUzVkFnaUpWM3paWnpwU0RteFNjMk9jdDNBQ3d5VUJxdlhkcm5lNmF6OXczeHhrRG93ak9BdXZON295eUx5ZUU4WFJ2dVhld1FKUHpCd25tVWFBb1pOamJBbThoTmN4WVRGYWZ6X2JCS0FDY1UwekJWaUNpQ1NDYjFSS0xUemduS0FWOUN0a1RPdDR6YU82aUt4VjVVUHliSTFTSHZHMnZlQ2NzOWZlZFZsMEtGN2kxU3NRczdXMXRBbU1oSlpfTkdoQXVPN0pUOU0tb2RXd2lqYWR5ZDNvNUZOOEQ4Q1dqVDFwaUVXQ3g3NWVSRkRkeW95Q1VFc1BOQm40MDlENS1GSWhlOHU3U1ViMjhCRXVQQzZMc29kNTBkcWdiQllWdnVOdVBweUNOcjJOVWQ0WktyNw?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 21 Oct 2026 07:36:00 GMT",
+        "summary": "চট্টগ্রাম-ঢাকা লেনে ট্রেন চলাচল বন্ধ &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/laksame-krnfulee-ekspreser-injinsh-3-bgi-lainczut-1792568206.jpg",
+        "articleUrl": "https://www.channel24bd.tv/countries/article/354200/%E0%A6%9A%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%B2%E0%A7%87%E0%A6%A8%E0%A7%87-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A8-%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%B2-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMisAhBVV95cUxNT05ScFJVS0FHakp6ZE50M3pVZzV1azV1ejFlQUROUDVrUDdiSUQ2T0kweXVwM0ZmWFFuWWhaNlByZTBJaGJrSW9Uc0JGVHRBMTNrOVRMWmVPRGF4dmlfb184clNKdUFZQS1Qdk5rMUdSNlJ3R2Q4ek5nb2RBWUZtMXNpWXVXTkJqVXN4VlJSamFMUjB2THVfS0dTMHlkTVIyMTVteXUyaGd5VDVnNEM0eGZwaU52ZXczTjRudWRGQktQYTdqcVd4Rlp3Vk1tRGgxek0xSGxpOFN0c29JSjBMUkoxWjhrOEFWbVZiSEVNN2JXSzlNODhnTVUyS0ZSVzJMSEp2M3JKd21kb0Z6b1k4NWk1R3htWEJfTnFQVTNCNERBTUdDNzNSaEplV0pISjU0ZW80bWpZRVN4NGxzVHFoblBEbWI1U3VRbHVyb25SWktTNWFpS1Z1LWc3MEZSMk5ZcGk1R0lKcjhiQjR2ZlFUTEFEaWl5eFJFeTFRd2RZc1FTekJ0TUcwWkpJNUdmRWpnNUtoTnNmaU5zbGNwS1NpTEl6R2hSVUY2VTk3V0ZZNU9xQ0R5ekpwR3hObGF6b2xYTjN5SDZHTFVuVktJcFZZR0kwM3czNUNvZXZhbjUxalZwSV82YjljbUZPN0pXUm5pTkZSZm9OUXpzc3o3d204VE9BajZPVkEtUXBUc3Nkam9HZ28zdjE5Qk9OWnJ6ZGw5V2tta3ppSWl0dVphQm5DNTlhci11ZDZ3TlBmU2ZyVm9OX25CV1U3eHFOU1FEOFN0NXJxQ1kxd1lNWVFRUGJBbzR4S0NDZU5FaTV6WVp5N3RheGdnSmVRNUZFczA1ODdaTTZZTU92YjRmZkZxamVHQ2NPVExfTWpYV0xKal9ydFV2UjdMd2x1ZGpyYTZ4RzhjZHM5QzFqeXRjMU1fMThkRGtVZDVQdEpVbEdETnJ5UDFCQmhWU1pncFFnOXE3Rnd6a09GMnVPRmxucmlsZXhDZy01REZZSnAxY2JZXzlrMldmbFdybDJKZzVkbHY2R1Q2Z1JDdTRvUTVNQ1pyeTlpUmtyWmQ0OHNvNDMwSmpyZ05keGpvbXBLaFkyelloM29LazhjeHJ2WkQyTmVaYVVxNWFqaXEwMXlxV2gtTHVWbkhlR0pFOFZMemJzWFB1dzI4NXRvVzNjQTAwUUp2cVNXNUJ2NXkyZnJ2MGJCcnQ5dEE3Ui1LaUJXaEZNdGQyU0FHejRPTm9aSG16clNsR2NfMFl5Z19WYVAtdGFhOGNhNnFoZ1VkRzBJWVgteTNxUk0tTTNZdGJqT2M4VFllUUEzZlNnRXBBNHFjRUVhbkxLbmxjR3diVGROSzZRUlZCNW5HWjFyTGhGSnlhdzBIaDNhMTVOa24xVC02UVJac3V6MUI1YWJmZVZwRWtLdzZKcm9s?oc=5",
+        "title": "প্রধানমন্ত্রীর সঙ্গে হাত মেলানোর পর প্রটোকল ভঙ্গ, রাজশাহী বিভাগীয় কমিশনারকে স্ট্যান্ড রিলিজ",
+        "link": "https://news.google.com/rss/articles/CBMisAhBVV95cUxNT05ScFJVS0FHakp6ZE50M3pVZzV1azV1ejFlQUROUDVrUDdiSUQ2T0kweXVwM0ZmWFFuWWhaNlByZTBJaGJrSW9Uc0JGVHRBMTNrOVRMWmVPRGF4dmlfb184clNKdUFZQS1Qdk5rMUdSNlJ3R2Q4ek5nb2RBWUZtMXNpWXVXTkJqVXN4VlJSamFMUjB2THVfS0dTMHlkTVIyMTVteXUyaGd5VDVnNEM0eGZwaU52ZXczTjRudWRGQktQYTdqcVd4Rlp3Vk1tRGgxek0xSGxpOFN0c29JSjBMUkoxWjhrOEFWbVZiSEVNN2JXSzlNODhnTVUyS0ZSVzJMSEp2M3JKd21kb0Z6b1k4NWk1R3htWEJfTnFQVTNCNERBTUdDNzNSaEplV0pISjU0ZW80bWpZRVN4NGxzVHFoblBEbWI1U3VRbHVyb25SWktTNWFpS1Z1LWc3MEZSMk5ZcGk1R0lKcjhiQjR2ZlFUTEFEaWl5eFJFeTFRd2RZc1FTekJ0TUcwWkpJNUdmRWpnNUtoTnNmaU5zbGNwS1NpTEl6R2hSVUY2VTk3V0ZZNU9xQ0R5ekpwR3hObGF6b2xYTjN5SDZHTFVuVktJcFZZR0kwM3czNUNvZXZhbjUxalZwSV82YjljbUZPN0pXUm5pTkZSZm9OUXpzc3o3d204VE9BajZPVkEtUXBUc3Nkam9HZ28zdjE5Qk9OWnJ6ZGw5V2tta3ppSWl0dVphQm5DNTlhci11ZDZ3TlBmU2ZyVm9OX25CV1U3eHFOU1FEOFN0NXJxQ1kxd1lNWVFRUGJBbzR4S0NDZU5FaTV6WVp5N3RheGdnSmVRNUZFczA1ODdaTTZZTU92YjRmZkZxamVHQ2NPVExfTWpYV0xKal9ydFV2UjdMd2x1ZGpyYTZ4RzhjZHM5QzFqeXRjMU1fMThkRGtVZDVQdEpVbEdETnJ5UDFCQmhWU1pncFFnOXE3Rnd6a09GMnVPRmxucmlsZXhDZy01REZZSnAxY2JZXzlrMldmbFdybDJKZzVkbHY2R1Q2Z1JDdTRvUTVNQ1pyeTlpUmtyWmQ0OHNvNDMwSmpyZ05keGpvbXBLaFkyelloM29LazhjeHJ2WkQyTmVaYVVxNWFqaXEwMXlxV2gtTHVWbkhlR0pFOFZMemJzWFB1dzI4NXRvVzNjQTAwUUp2cVNXNUJ2NXkyZnJ2MGJCcnQ5dEE3Ui1LaUJXaEZNdGQyU0FHejRPTm9aSG16clNsR2NfMFl5Z19WYVAtdGFhOGNhNnFoZ1VkRzBJWVgteTNxUk0tTTNZdGJqT2M4VFllUUEzZlNnRXBBNHFjRUVhbkxLbmxjR3diVGROSzZRUlZCNW5HWjFyTGhGSnlhdzBIaDNhMTVOa24xVC02UVJac3V6MUI1YWJmZVZwRWtLdzZKcm9s?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 21 Oct 2026 05:05:00 GMT",
+        "summary": "প্রধানমন্ত্রীর সঙ্গে হাত মেলানোর পর প্রটোকল ভঙ্গ, রাজশাহী বিভাগীয় কমিশনারকে স্ট্যান্ড রিলিজ &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/prdhanmntreer-sngoe-hat-melanor-pr-prtokl-vngo-1792559673.jpg",
+        "articleUrl": "https://www.channel24bd.tv/countries/article/354181/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%A4-%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A6%A8%E0%A7%8B%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%9F%E0%A7%8B%E0%A6%95%E0%A6%B2-%E0%A6%AD%E0%A6%99%E0%A7%8D%E0%A6%97-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%80-%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%B6%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%95%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1-%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%9C",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaWR6bVlmRUczZFFjM3prTU9vNExuVFlTeUJfMXl4WGpVNlNMclZva0F6NFViUWpqcWxVYXp0UGNyVUxYUU5pOGZfSHM2UldiTkZIQkQ4eXRnalNUZnNmcW5Kd3B0UmlrWHpyMzVqUUg5NVd4RXlwdlVldktmbnI0UFkyMVdvNjhUMEl2WlBiUXc3QW9vQlE?oc=5",
+        "title": "CamScanner 08-14-2026 09.59",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaWR6bVlmRUczZFFjM3prTU9vNExuVFlTeUJfMXl4WGpVNlNMclZva0F6NFViUWpqcWxVYXp0UGNyVUxYUU5pOGZfSHM2UldiTkZIQkQ4eXRnalNUZnNmcW5Kd3B0UmlrWHpyMzVqUUg5NVd4RXlwdlVldktmbnI0UFkyMVdvNjhUMEl2WlBiUXc3QW9vQlE?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 14 Aug 2026 09:47:02 GMT",
+        "summary": "CamScanner 08-14-2026 09.59 &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://backoffice.channel24bd.tv/media/common/singleFile/police-comissionar-1786688201.pdf",
+        "imageAttemptedAt": "2026-10-22T16:06:57.977Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
+        "title": "News Video, Latest Bangla News & Live TV",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 01 Jul 2019 07:04:28 GMT",
+        "summary": "News Video, Latest Bangla News & Live TV &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/live",
+        "imageAttemptedAt": "2026-10-22T15:58:34.662Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      }
     ]
   },
   "categories": {
     "international": [
       {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BY18tNFlsWjJTQ1NTdFg5OWl0VjBISnVQTEdrVGpDZ2hWRUdodzNuLWpfbll1aVJFVEdIMkJlelluU0V3SmxKV3pEa1p3UUdVVnBGSENkbHpfZHlGaVA4eFlGcw?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BY18tNFlsWjJTQ1NTdFg5OWl0VjBISnVQTEdrVGpDZ2hWRUdodzNuLWpfbll1aVJFVEdIMkJlelluU0V3SmxKV3pEa1p3UUdVVnBGSENkbHpfZHlGaVA4eFlGcw?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SQ1U3NmFxMVFEdUVkbk1iSjJjdGZ5UTlsbWJCUXRJOC1oWnkydXlkT09hbkpZQUhpS2xYRjJmNE5tazF2Tl9JRFktc3ozRjBacFd4dW1vQjVfY2daN0IxSDhDOA?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২২ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SQ1U3NmFxMVFEdUVkbk1iSjJjdGZ5UTlsbWJCUXRJOC1oWnkydXlkT09hbkpZQUhpS2xYRjJmNE5tazF2Tl9JRFktc3ozRjBacFd4dW1vQjVfY2daN0IxSDhDOA?oc=5",
         "source": "Jagonews24",
         "publisherUrl": "",
-        "publishedAt": "Tue, 20 Oct 2026 15:54:21 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "publishedAt": "Thu, 22 Oct 2026 15:57:56 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২২ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
         "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1170369",
-        "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
+        "articleUrl": "https://www.jagonews24.com/international/news/1171027",
+        "imageAttemptedAt": "2026-10-22T16:06:57.977Z",
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
@@ -692,6 +692,19 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BY18tNFlsWjJTQ1NTdFg5OWl0VjBISnVQTEdrVGpDZ2hWRUdodzNuLWpfbll1aVJFVEdIMkJlelluU0V3SmxKV3pEa1p3UUdVVnBGSENkbHpfZHlGaVA4eFlGcw?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BY18tNFlsWjJTQ1NTdFg5OWl0VjBISnVQTEdrVGpDZ2hWRUdodzNuLWpfbll1aVJFVEdIMkJlelluU0V3SmxKV3pEa1p3UUdVVnBGSENkbHpfZHlGaVA4eFlGcw?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 20 Oct 2026 15:54:21 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1170369",
+        "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3bWZHT2lmTWJxMHF5UHIzZEZxZ04wWXZwODJUcGF2SU9sX1Z1b0ZIOXdHbUtJNTN3V0lhNGozVTRmRUtWZXFXdDdXN3FMV1pOajhKamZCZmtVd1NDbG5UVUE5aw?oc=5",
         "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৮ অক্টোবর ২০২৬",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3bWZHT2lmTWJxMHF5UHIzZEZxZ04wWXZwODJUcGF2SU9sX1Z1b0ZIOXdHbUtJNTN3V0lhNGozVTRmRUtWZXFXdDdXN3FMV1pOajhKamZCZmtVd1NDbG5UVUE5aw?oc=5",
@@ -702,19 +715,6 @@
         "image": "news-fallbacks/world.svg",
         "articleUrl": "https://www.jagonews24.com/international/news/1169670",
         "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9jMXh6N3R5YktpdDdPWXdzdjV4b2Z6QlJkdktib21BVFpXOW1BV3lia1lmQ0t5VzhZMWVyMU1QdXlVZw?oc=5",
-        "title": "LIVE: আজকের টপ আন্তর্জাতিক সংবাদ | BBC World News Bangla | 20 June 2026 | বিশ্বজুড়ে এখন যা ঘটছে",
-        "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9jMXh6N3R5YktpdDdPWXdzdjV4b2Z6QlJkdktib21BVFpXOW1BV3lia1lmQ0t5VzhZMWVyMU1QdXlVZw?oc=5",
-        "source": "YouTube",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 20 Jun 2026 07:00:00 GMT",
-        "summary": "LIVE: আজকের টপ আন্তর্জাতিক সংবাদ | BBC World News Bangla | 20 June 2026 | বিশ্বজুড়ে এখন যা ঘটছে &nbsp;&nbsp; YouTube",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://youtu.be/M6R9I006Ot0",
-        "imageAttemptedAt": "2026-10-22T15:58:34.662Z",
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
@@ -1066,7 +1066,7 @@
     "total": 80,
     "fromRss": 0,
     "fromArticleMetadata": 20,
-    "reusedCached": 17,
+    "reusedCached": 20,
     "actualPhotos": 20,
     "fallbackIllustrations": 60,
     "withImage": 80,
