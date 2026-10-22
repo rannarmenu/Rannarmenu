@@ -29,17 +29,48 @@ jobs:
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      - name: Build installable APK
-        run: gradle --no-daemon assembleDebug
+      - name: Build APK with stable signing when configured
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION_CODE="$(awk '/versionCode[[:space:]]+[0-9]+/ { print $2; exit }' app/build.gradle)"
+          if [[ -z "$VERSION_CODE" ]]; then
+            echo "::error::Could not read versionCode from app/build.gradle"
+            exit 1
+          fi
+          mkdir -p build/public
 
-      - name: Prepare public download file
-        run: cp app/build/outputs/apk/debug/app-debug.apk app/build/outputs/apk/debug/Rannar-Menu.apk
+          if [[ -n "$ANDROID_KEYSTORE_BASE64" ]]; then
+            if [[ -z "$ANDROID_KEYSTORE_PASSWORD" || -z "$ANDROID_KEY_ALIAS" || -z "$ANDROID_KEY_PASSWORD" ]]; then
+              echo "::error::All four Android signing secrets must be set together."
+              exit 1
+            fi
+            printf '%s' "$ANDROID_KEYSTORE_BASE64" | base64 --decode > app/release-signing-key.jks
+            export ANDROID_KEYSTORE_PATH="$PWD/app/release-signing-key.jks"
+            gradle --no-daemon assembleRelease
+            cp app/build/outputs/apk/release/app-release.apk build/public/Rannar-Menu.apk
+            rm -f app/release-signing-key.jks
+            echo "Built APK with the persistent release signing key."
+          else
+            if [[ "$VERSION_CODE" -ge 3 ]]; then
+              echo "::error::A persistent signing key is required from versionCode 3 onward. Configure ANDROID_KEYSTORE_BASE64, ANDROID_KEYSTORE_PASSWORD, ANDROID_KEY_ALIAS and ANDROID_KEY_PASSWORD in repository Actions secrets before publishing another version."
+              exit 1
+            fi
+            gradle --no-daemon assembleDebug
+            cp app/build/outputs/apk/debug/app-debug.apk build/public/Rannar-Menu.apk
+            echo "::warning::This bootstrap APK is debug-signed. Configure a persistent signing key before future releases."
+          fi
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: Rannar-Menu-Android-APK
-          path: android-app/app/build/outputs/apk/debug/Rannar-Menu.apk
+          path: android-app/build/public/Rannar-Menu.apk
           if-no-files-found: error
           retention-days: 30
 
@@ -51,9 +82,9 @@ jobs:
           body: |
             Rannar Menu Android app release.
 
-            This APK is debug-signed for direct testing, not a Google Play production release. Android may ask to allow installation from your browser or file manager.
+            A persistent Android signing key is used when repository signing secrets are configured. The initial bootstrap APK is debug-signed and is not a Google Play production release. Android may ask to allow installation from your browser or file manager.
           target_commitish: main
-          files: android-app/app/build/outputs/apk/debug/Rannar-Menu.apk
+          files: android-app/build/public/Rannar-Menu.apk
           overwrite_files: true
           make_latest: false
 
