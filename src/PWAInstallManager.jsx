@@ -18,8 +18,8 @@ export default function PWAInstallManager() {
         });
     }
 
-    const currentPath = window.location.pathname.replace(/\\/+$/, '');
-    if (currentPath.endsWith('/admin')) return undefined;
+    const pathSegments = window.location.pathname.split('/').filter(Boolean);
+    if (pathSegments[pathSegments.length - 1] === 'admin') return undefined;
 
     setIsVisible(true);
     const hideTimer = window.setTimeout(() => setIsVisible(false), TOAST_DURATION_MS);
