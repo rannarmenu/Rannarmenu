@@ -117,10 +117,10 @@ const MIRA_COPY = {
   suggestions: 'কয়েকটা মিল পাওয়া রেসিপি পেলাম! যেটা চাও, সেটার নামেই টোকা দাও। 🐾'
 };
 
-function MiraMascot({ small = false }) {
-  return <span className={small ? 'mira-mascot mira-mascot-small' : 'mira-mascot'} aria-hidden="true">
-    <span className="mira-ear mira-ear-left"/>
-    <span className="mira-ear mira-ear-right"/>
+function MiraMascot({ small = false, mood = 'idle' }) {
+  return <span className={'mira-mascot mira-mood-' + mood + (small ? ' mira-mascot-small' : '')} aria-hidden="true">
+    <span className="mira-antenna mira-antenna-left"/>
+    <span className="mira-antenna mira-antenna-right"/>
     <span className="mira-face">
       <span className="mira-eye mira-eye-left"/>
       <span className="mira-eye mira-eye-right"/>
@@ -140,11 +140,35 @@ export default function MiraChat({ onOpenRecipe }) {
   ]);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
+  const [showIntro, setShowIntro] = useState(false);
+  const [mood, setMood] = useState('idle');
   const messageListRef = useRef(null);
   const inputRef = useRef(null);
   const busyRef = useRef(false);
   const lastSentAt = useRef(0);
   const greetingLocalized = useRef(false);
+
+  useEffect(() => {
+    let showTimer;
+    let hideTimer;
+    try {
+      if (window.sessionStorage.getItem('rannar-mira-intro-seen') === '1') return;
+      window.sessionStorage.setItem('rannar-mira-intro-seen', '1');
+    } catch { /* Greeting is optional when browser storage is unavailable. */ }
+    showTimer = window.setTimeout(() => {
+      setShowIntro(true);
+      hideTimer = window.setTimeout(() => setShowIntro(false), 4200);
+    }, 1100);
+    return () => { window.clearTimeout(showTimer); window.clearTimeout(hideTimer); };
+  }, []);
+
+  useEffect(() => {
+    if (busy) { setMood('thinking'); return; }
+    if (isOpen) { setMood('happy'); return; }
+    if (!['happy', 'sad', 'surprised'].includes(mood)) return;
+    const timer = window.setTimeout(() => setMood('idle'), 3000);
+    return () => window.clearTimeout(timer);
+  }, [isOpen, busy, mood]);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -170,6 +194,7 @@ export default function MiraChat({ onOpenRecipe }) {
   }, [isOpen]);
 
   const addAssistantMessage = (text, recipes = []) => {
+    setMood(/পেলাম না|গোলমাল|দুঃখিত|সমস্যা|আবার চেষ্টা/u.test(text) ? 'sad' : 'happy');
     setMessages(previous => [
       ...previous,
       { id: 'mira-' + Date.now() + '-' + Math.random().toString(36).slice(2, 7), role: 'assistant', text, recipes }
@@ -321,7 +346,7 @@ export default function MiraChat({ onOpenRecipe }) {
     void sendText(draft);
   };
 
-  return <div className="mira-widget">
+  return <div className={'mira-widget mira-widget-' + mood}>
     {isOpen && <section className="mira-panel" role="dialog" aria-label="Mira recipe helper" aria-modal="false">
       <header className="mira-header">
         <MiraMascot small/>
@@ -361,10 +386,13 @@ export default function MiraChat({ onOpenRecipe }) {
       </form>
       <p className="mira-privacy-note">প্রয়োজনে Google Translate ব্যবহার হয়; ব্যক্তিগত তথ্য লিখো না।</p>
     </section>}
-    <button type="button" className={'mira-launcher ' + (isOpen ? 'mira-launcher-open' : '')} onClick={() => setIsOpen(value => !value)} aria-label={isOpen ? 'Mira বন্ধ করো' : 'Mira-র সঙ্গে কথা বলো'} aria-expanded={isOpen}>
-      {isOpen ? <X size={23}/> : <MiraMascot/>}
-      <span className="mira-launcher-copy"><strong>Mira<span>*</span></strong><small>{isOpen ? 'আচ্ছা, চুপ করছি 🤫' : 'কী লাগবে, বলো তো?'}</small></span>
-      {!isOpen && <span className="mira-launcher-sparkle"><Heart size={12} fill="currentColor"/></span>}
+    <div className={'mira-intro-bubble ' + (showIntro && !isOpen ? 'mira-intro-visible' : '')} aria-hidden={!showIntro || isOpen}>
+      <span className="mira-intro-copy"><strong>Hi, I’m Mira* <span>✦</span></strong><small>Need a little recipe help?</small></span>
+      <button type="button" className="mira-intro-close" onClick={() => setShowIntro(false)} aria-label="Greeting বন্ধ করো"><X size={12}/></button>
+    </div>
+    <button type="button" className={'mira-launcher ' + (isOpen ? 'mira-launcher-open' : '')} onClick={() => { setShowIntro(false); setIsOpen(value => !value); }} aria-label={isOpen ? 'Mira বন্ধ করো' : 'Mira-র সঙ্গে কথা বলো'} aria-expanded={isOpen}>
+      <MiraMascot mood={mood}/>
+      <span className="mira-launcher-sr">{isOpen ? 'Mira chat বন্ধ করো' : 'Mira-র সঙ্গে কথা বলো'}</span>
     </button>
   </div>;
 }
