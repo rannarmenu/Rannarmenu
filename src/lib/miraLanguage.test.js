@@ -5,6 +5,7 @@ import {
   cleanBanglishRecipeQuery,
   detectBanglish,
   getCookingTroubleshootingReply,
+  getRecipeSelectionIndex,
   normalizeBanglishText
 } from './miraLanguage.js';
 
@@ -53,4 +54,14 @@ test('understands cooking trouble descriptions written in Banglish', () => {
 
 test('normalizes common romanized food and ingredient spellings', () => {
   assert.equal(normalizeBanglishText('murgir daal ar peyaj'), 'chicken dal ar onion');
+});
+
+
+test('uses conversation context to select a recipe by number or ordinal in Banglish', () => {
+  assert.equal(getRecipeSelectionIndex('2 number ta dao', 4), 1);
+  assert.equal(getRecipeSelectionIndex('second one', 3), 1);
+  assert.equal(getRecipeSelectionIndex('prothom ta', 3), 0);
+  assert.equal(getRecipeSelectionIndex('শেষটা', 3), 2);
+  assert.equal(getRecipeSelectionIndex('3', 2), null);
+  assert.equal(getRecipeSelectionIndex('second one', 1), null);
 });
