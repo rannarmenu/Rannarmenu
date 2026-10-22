@@ -51,7 +51,7 @@ function RatingStars({ value = 0, size = 17 }) {
   );
 }
 
-export default function RecipeReviews({ recipe }) {
+export default function RecipeReviews({ recipe, user = null }) {
   const recipeId = typeof recipe?.id === 'string' && UUID_PATTERN.test(recipe.id) ? recipe.id : '';
   const [reviews, setReviews] = useState([]);
   const [summary, setSummary] = useState(null);
@@ -62,6 +62,7 @@ export default function RecipeReviews({ recipe }) {
   const [honeypot, setHoneypot] = useState('');
   const [sortOrder, setSortOrder] = useState('newest');
   const [loading, setLoading] = useState(true);
+  const userIsVerified = Boolean(user && (user.email_confirmed_at || user.phone_confirmed_at));
   const [submitting, setSubmitting] = useState(false);
   const [alreadyReviewed, setAlreadyReviewed] = useState(false);
   const [feedback, setFeedback] = useState(null);
@@ -84,9 +85,16 @@ export default function RecipeReviews({ recipe }) {
       setSummary(null);
       return;
     }
+    if (!userIsVerified) {
+      setLoading(false);
+      setLoadIssue('auth');
+      setReviews([]);
+      setSummary(null);
+      return;
+    }
 
     setLoading(true);
-    const [reviewResponse, summaryResponse] = await Promise.all([
+    const [reviewResponse, summaryResponse, existingResponse] = await Promise.all([
       supabase
         .from('recipe_reviews')
         .select('id, display_name, rating, comment, created_at')
@@ -98,15 +106,22 @@ export default function RecipeReviews({ recipe }) {
         .from('recipe_review_summaries')
         .select('review_count, average_rating, one_star, two_star, three_star, four_star, five_star')
         .eq('recipe_id', recipeId)
+        .maybeSingle(),
+      supabase
+        .from('recipe_reviews')
+        .select('id')
+        .eq('recipe_id', recipeId)
+        .eq('user_id', user.id)
         .maybeSingle()
     ]);
 
     if (requestId !== requestVersion.current) return;
     setReviews(Array.isArray(reviewResponse.data) ? reviewResponse.data : []);
     setSummary(summaryResponse.data || null);
-    setLoadIssue(reviewResponse.error ? 'reviews' : summaryResponse.error ? 'summary' : '');
+    setAlreadyReviewed(Boolean(existingResponse.data) || Boolean(safeGet('rannar-menu-reviewed:' + recipeId + ':' + user.id)));
+    setLoadIssue(reviewResponse.error ? 'reviews' : summaryResponse.error ? 'summary' : existingResponse.error ? 'reviews' : '');
     setLoading(false);
-  }, [recipeId]);
+  }, [recipeId, user?.id, userIsVerified]);
 
   useEffect(() => {
     setReviewerKey(getReviewerKey());
@@ -115,11 +130,9 @@ export default function RecipeReviews({ recipe }) {
     setHoneypot('');
     setFeedback(null);
     setAlreadyReviewed(false);
-    const browserKey = getReviewerKey();
-    if (recipeId) setAlreadyReviewed(Boolean(safeGet('rannar-menu-reviewed:' + recipeId + ':' + browserKey)));
     loadReviews();
     return () => { requestVersion.current += 1; };
-  }, [recipeId, loadReviews]);
+  }, [recipeId, loadReviews, user?.id]);
 
   const sortedReviews = useMemo(() => {
     const result = [...reviews];
@@ -142,13 +155,13 @@ export default function RecipeReviews({ recipe }) {
     { stars: 2, value: Number(summary?.two_star) || 0 },
     { stars: 1, value: Number(summary?.one_star) || 0 }
   ];
-  const canSubmit = Boolean(supabaseConfigured && supabase && recipeId && reviewerKey && !alreadyReviewed && !submitting);
+  const canSubmit = Boolean(supabaseConfigured && supabase && recipeId && reviewerKey && userIsVerified && !alreadyReviewed && !submitting);
 
   async function handleSubmit(event) {
     event.preventDefault();
     if (honeypot.trim()) return;
-    if (!supabaseConfigured || !supabase || !recipeId || !reviewerKey) {
-      setFeedback({ type: 'error', text: 'রিভিউ সিস্টেমে সংযোগ পাওয়া যাচ্ছে না। পরে আবার চেষ্টা করুন।' });
+    if (!supabaseConfigured || !supabase || !recipeId || !reviewerKey || !userIsVerified || !user?.id) {
+      setFeedback({ type: 'error', text: 'রিভিউ দিতে যাচাইকৃত অ্যাকাউন্টে লগইন করতে হবে।' });
       return;
     }
     const cleanName = displayName.trim();
@@ -171,6 +184,7 @@ export default function RecipeReviews({ recipe }) {
     try {
       const { error } = await supabase.from('recipe_reviews').insert({
         recipe_id: recipeId,
+        user_id: user.id,
         reviewer_key: reviewerKey,
         display_name: cleanName,
         rating,
@@ -179,14 +193,14 @@ export default function RecipeReviews({ recipe }) {
       if (error) {
         if (error.code === '23505') {
           setAlreadyReviewed(true);
-          setFeedback({ type: 'error', text: 'এই ব্রাউজার থেকে এই রেসিপিতে আগে একটি রিভিউ দেওয়া হয়েছে।' });
+          setFeedback({ type: 'error', text: 'এই অ্যাকাউন্ট থেকে এই রেসিপিতে আগে একটি রিভিউ দেওয়া হয়েছে।' });
         } else {
           setFeedback({ type: 'error', text: 'রিভিউ জমা দেওয়া যায়নি। কিছুক্ষণ পর আবার চেষ্টা করুন।' });
         }
         return;
       }
       safeSet(REVIEWER_NAME_STORE, cleanName);
-      safeSet('rannar-menu-reviewed:' + recipeId + ':' + reviewerKey, '1');
+      safeSet('rannar-menu-reviewed:' + recipeId + ':' + user.id, '1');
       setAlreadyReviewed(true);
       setDisplayName(cleanName);
       setRating(0);
@@ -332,7 +346,7 @@ export default function RecipeReviews({ recipe }) {
       {loadIssue && (
         <div className="review-load-warning" role="status">
           <AlertCircle size={16} />
-          <span>{loadIssue === 'config' ? 'লাইভ রিভিউ ডেটাবেস সংযুক্ত নয়; কোনো কাল্পনিক রেটিং দেখানো হচ্ছে না.' : loadIssue === 'recipe' ? 'এই preview recipe-এর জন্য live review যুক্ত করা যাচ্ছে না.' : 'রিভিউ ডেটাবেস থেকে তথ্য পুরোপুরি লোড হয়নি। সংযোগ ও database permissions যাচাই করুন.'}</span>
+          <span>{loadIssue === 'config' ? 'লাইভ রিভিউ ডেটাবেস সংযুক্ত নয়; কোনো কাল্পনিক রেটিং দেখানো হচ্ছে না.' : loadIssue === 'auth' ? 'রিভিউ পড়তে বা দিতে যাচাইকৃত অ্যাকাউন্ট প্রয়োজন.' : loadIssue === 'recipe' ? 'এই preview recipe-এর জন্য live review যুক্ত করা যাচ্ছে না.' : 'রিভিউ ডেটাবেস থেকে তথ্য পুরোপুরি লোড হয়নি। সংযোগ ও database permissions যাচাই করুন.'}</span>
           <button type="button" onClick={loadReviews}>আবার চেষ্টা করুন</button>
         </div>
       )}
