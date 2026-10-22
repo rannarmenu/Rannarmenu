@@ -15,6 +15,11 @@ test('recognizes common Banglish as Bengali-language input', () => {
   assert.equal(detectBanglish('hello there'), false);
 });
 
+test('understands casual Banglish greetings and small-talk intent', () => {
+  assert.equal(classifyMiraIntent('Mira tumi kemon aso'), 'greeting');
+  assert.equal(classifyMiraIntent('ki khobor Mira'), 'greeting');
+});
+
 test('cleans conversational filler while preserving the requested dish', () => {
   assert.equal(cleanBanglishRecipeQuery('ami chicken biriyani ranna korte chai'), 'chicken biryani');
   assert.equal(cleanBanglishRecipeQuery('amar jonno ilish macher jhol recipe dao'), 'ilish mach jhol');
@@ -50,6 +55,9 @@ test('understands cooking trouble descriptions written in Banglish', () => {
   assert.match(getCookingTroubleshootingReply('murgi kacha'), /ভিতরে কাঁচা/u);
   assert.equal(classifyMiraIntent('murgi kacha'), 'cooking_problem');
   assert.equal(classifyMiraIntent('biryani jhorjhore hocche na'), 'cooking_problem');
+  assert.equal(classifyMiraIntent('murgi koto khon ranna korte hobe'), 'cooking_problem');
+  assert.match(getCookingTroubleshootingReply('murgi koto khon ranna korte hobe'), /৭৪°C/u);
+  assert.equal(classifyMiraIntent('doi nei, ki diye replace korbo'), 'cooking_problem');
 });
 
 test('normalizes common romanized food and ingredient spellings', () => {
