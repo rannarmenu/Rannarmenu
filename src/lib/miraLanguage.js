@@ -75,7 +75,7 @@ export function classifyMiraIntent(value) {
   if (THANKS.test(text)) return 'thanks';
   if (/(who are you|what is your name|your name|tumi ke|tomar nam|tomar naam|apni ke|ke tumi|তুমি কে|তোমার নাম|আপনি কে)/u.test(text)) return 'identity';
   if (/(what can you do|how can you help|tumi ki korte paro|ki ki paro|ki help korte paro|তুমি কী করতে পার|কী সাহায্য করতে পার)/u.test(text)) return 'capabilities';
-  if (/(^|\\s)(help|help me|ektu help|ektu help koro|ektu sahajjo|sahajjo koro|bujhi na|bujhte parchi na|bujhtesi na|confused|i am confused|i'm confused|সাহায্য|একটু সাহায্য|বুঝি না|বুঝতে পারছি না)(\\s|$)/u.test(text)) return 'website_help';
+  if (/(^|\\s)(help|help me|ektu help|ektu help koro|ektu sahajjo|sahajjo koro|bujhi na|bujhtesi na|bujhte parchi na|bujhte partesi na|bujhte partesina|confused|i am confused|i'm confused|সাহায্য|একটু সাহায্য|বুঝি না|বুঝতেছি না|বুঝতে পারছি না)(\\s|$)/u.test(text)) return 'website_help';
   if (WEBSITE_WORDS.test(text) && (HELP_VERBS.test(text) || /(search bar|save recipe|saved recipe|website e|site e|search korte|kothay pabo|kivabe|kibhabe|কোথায় পাব|কোথায় পাব)/u.test(text))) return 'website_help';
   if (COOKING_PROBLEM.test(text)) return 'cooking_problem';
   const looksLikeRequest = /(recipe|recipes|ranna|rannar|rante|ranna korte|ranna korbo|banate chai|ki banabo|ki ranna|ki khabo|recipe dao|recipe den|recipe chai|khujhe dao|khuje dao|find me|give me|show me|make me|cook me|খুঁজে দাও|রেসিপি দাও|রেসিপি চাই|কী রান্না|কি রান্না|কি বানাব|কী বানাব|কী খাব|কি খাব|খাবার দাও|রান্না করতে চাই|রান্না করব|রান্না কীভাবে)/u.test(text);
