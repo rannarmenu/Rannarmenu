@@ -1,33 +1,85 @@
 # Rannar Menu
 
-A responsive Bengali recipe website starter built with React, Vite, and Lucide icons.
+A responsive Bengali recipe catalogue built with React, Vite, Supabase Auth/Postgres, and an administrator workspace.
 
-## Current features
-- Responsive homepage and recipe cards
-- Bengali recipe search across titles, categories, descriptions, and ingredients
-- Category filtering
-- Recipe detail view with ingredients and steps
-- Save/unsave recipes in in-memory UI state
-- Mobile navigation
-- Basic SEO metadata
+## Features
+
+- Bengali recipe catalogue with category filters and full-text search.
+- Server-side pagination (24 recipes per page).
+- Recipe details, ingredients and ordered cooking steps.
+- Supabase-backed published recipes.
+- Admin sign-in with Supabase Auth; public sign-up is not provided.
+- Admin-only recipe create, edit, delete, draft/publish workflow and source attribution fields.
+- Browser CSV/JSON import, validation, duplicate-slug handling, 100-row batches and import history.
+- Database migrations with Row Level Security (RLS), least-privilege grants and explicit admin allow-list.
 
 ## Run locally
-Requires Node.js 20+.
+
+Requires Node.js 20.19+.
 
 ```bash
 npm install
+cp .env.example .env
+# Set VITE_SUPABASE_URL and VITE_SUPABASE_PUBLISHABLE_KEY
 npm run dev
 ```
 
-## Important current limitations
-- Recipes are starter sample content in `src/main.jsx`; this is not yet a connected database.
-- Saved recipes currently reset when the page reloads.
-- Recipe images are remote Unsplash URLs and need licensing/availability review before production.
-- Admin authentication, database persistence, recipe import pipeline, automated tests, and deployment are not implemented yet.
-- The 10,000-recipe goal requires an audited, licensed data source and import validation; no 10,000-item claim is made by this starter.
+Only the publishable key belongs in browser variables. **Never** put `SUPABASE_SECRET_KEY`, `service_role`, passwords, or other secrets in `VITE_*` variables or GitHub.
 
-## Planned production architecture
-- Frontend: React / Vite or Next.js
-- Database/auth: Supabase PostgreSQL + Auth (admin-only write access)
-- Importer: validated CSV/JSON/API pipeline with deduplication, provenance, retries, and import reports
-- Hosting: Vercel or another suitable host
+## Database setup
+
+The migration files in `supabase/migrations/` mirror the migrations applied to the connected Supabase project. They create:
+
+- `public.recipes`: recipe content, ingredients, steps and source/license metadata.
+- `public.admin_users`: trusted accounts permitted to manage content.
+- `public.recipe_import_batches`: import audit and error reports.
+
+RLS allows public visitors to read published recipes. Inserts, updates, deletes, and import history operations require a signed-in account explicitly listed in `public.admin_users`. The app deliberately has no self-service admin signup/role escalation.
+
+### Provision the first admin
+
+1. In Supabase Dashboard → Authentication → Users, create the trusted user.
+2. Copy its UUID and run this in SQL Editor:
+
+```sql
+insert into public.admin_users (user_id, role)
+values ('YOUR-AUTH-USER-UUID', 'owner')
+on conflict (user_id) do nothing;
+```
+
+Then visit `/admin` and sign in. Never give admin access to an untrusted account.
+
+## CSV / JSON import
+
+Use `data/recipe-import-template.csv`, `data/recipe-import-template.json`, or download `/recipe-import-template.csv` from the site. The required fields are `title`, `ingredients`, and `instructions`. Lists can be JSON arrays, newline-separated text, semicolon-separated text, or (for steps) pipe-separated text.
+
+Add `source_url`, `source_license`, and `source_attribution` when importing content from other sources. Start with drafts and review rights, accuracy, dietary claims, and image rights before publishing.
+
+The browser importer accepts up to 10,000 records per file and 25 MB. The trusted local CLI accepts CSV/JSON up to 50 MB and 10,000 records per run:
+
+```bash
+# Add to a local ignored .env file, never commit:
+SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
+SUPABASE_SECRET_KEY=sb_secret_... # server-only
+npm run import:recipes -- data/recipes.csv --source "My licensed collection"
+# After review only, optionally add --publish or --update-existing
+```
+
+The CLI secret can bypass RLS, so run it only on a trusted machine. It is not needed for the browser importer.
+
+## Deploy to Vercel
+
+Connect `rannarmenu/Rannarmenu` and configure these environment variables for Production, Preview and Development:
+
+- `VITE_SUPABASE_URL`
+- `VITE_SUPABASE_PUBLISHABLE_KEY`
+
+`vercel.json` provides the `/admin` SPA route. A production build must pass before treating the site as ready.
+
+## Current limitations
+
+- Six starter/sample recipes are in the database; the target of 10,000 recipes is **not yet met**.
+- Reaching 10,000 requires an authorized, licensed data source/API and editorial checks. The importer is a pipeline, not a recipe source.
+- Starter image URLs require rights/availability review before commercial production.
+- Favorites remain in this browser, not synced to accounts.
+- Build/browser acceptance tests need to pass in an environment with npm registry access.
