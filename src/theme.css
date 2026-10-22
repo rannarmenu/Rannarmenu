@@ -776,3 +776,16 @@ html[data-theme="dark"] .hero-search-examples button {
 html[data-theme="dark"] .hero-search-examples button:hover {
   border-color: #657d69; background: #242d27; color: #e2eee3;
 }
+
+
+/* Swipeable recipe category chips in explicit dark mode. */
+html[data-theme="dark"] .recipe-category-browser { border-bottom-color: #30363c; }
+html[data-theme="dark"] .recipe-category-browser-head strong { color: #edf0ec; }
+html[data-theme="dark"] .category-scroll-hint { color: #aab3ac; }
+html[data-theme="dark"] .recipe-category-browser .category-pill { border-color: #374039; background: #1b211d; color: #d9e1d9; box-shadow: 0 2px 7px rgba(0,0,0,.12); }
+html[data-theme="dark"] .recipe-category-browser .category-pill > svg,
+html[data-theme="dark"] .recipe-category-browser .category-pill > span { color: #b5c9b7; }
+html[data-theme="dark"] .recipe-category-browser .category-pill:hover { border-color: #657d69; background: #252e27; color: #f0f6ef; }
+html[data-theme="dark"] .recipe-category-browser .category-pill.active { border-color: #88a88d; background: #315c43; color: #fff; }
+html[data-theme="dark"] .recipe-category-browser .category-pill.active > svg,
+html[data-theme="dark"] .recipe-category-browser .category-pill.active > span { color: #fff; }
