@@ -272,12 +272,15 @@ export default function AccountPage({
     setBusy(true);
     setFeedback(null);
     try {
+      // Keep a same-browser marker so the callback can show a useful success/error notice.
+      try { window.localStorage.setItem('rannar-menu-google-auth-pending', '1'); } catch {}
       const { error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
         options: { redirectTo: authReturnUrl(), queryParams: { access_type: 'offline', prompt: 'select_account' } }
       });
       if (error) throw error;
     } catch (error) {
+      try { window.localStorage.removeItem('rannar-menu-google-auth-pending'); } catch {}
       setFeedback({ type: 'error', text: error?.message || 'Google sign-in চালু করা যায়নি। Supabase ও Google OAuth credentials পরীক্ষা করুন।' });
       setBusy(false);
     }
