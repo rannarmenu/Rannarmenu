@@ -89,3 +89,15 @@
   .app-update-icon { margin-top: 15px; }
   .app-update-message { margin-bottom: 13px; }
 }
+
+.app-update-signing-note {
+  margin: 10px 0 0;
+  padding: 10px 12px;
+  border: 1px solid #eadfc8;
+  border-radius: 11px;
+  background: #fbf4e6;
+  color: #715d3e;
+  font-size: 11px;
+  line-height: 1.7;
+  text-align: left;
+}
