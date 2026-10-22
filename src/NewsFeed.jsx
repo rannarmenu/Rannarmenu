@@ -109,6 +109,7 @@ function normalizeNewsItem(item, fallbackSource) {
     id: link,
     title,
     link,
+    articleUrl: safeHttpUrl(item?.articleUrl || link),
     source: plainText(item?.author || inferredSource || fallbackSource || 'সংবাদমাধ্যম'),
     publishedAt: item?.pubDate || item?.published || '',
     summary: description.length > 190 ? description.slice(0, 187) + '…' : description,
@@ -396,7 +397,7 @@ function NewsItems({ items, Icon, compact = false }) {
     <div className={compact ? 'news-items news-items-compact' : 'news-items'}>
       {items.map((item) => (
         <article className="news-item" key={item.id}>
-          <a className="news-item-media" href={item.link} target="_blank" rel="noopener noreferrer" aria-label={item.title + ' পড়ুন'}>
+          <a className="news-item-media" href={item.articleUrl || item.link} target="_blank" rel="noopener noreferrer" aria-label={item.title + ' পড়ুন'}>
             {item.image ? (
               <img src={item.image} alt="" loading="lazy" decoding="async" onError={(event) => { event.currentTarget.hidden = true; }} />
             ) : null}
@@ -408,9 +409,9 @@ function NewsItems({ items, Icon, compact = false }) {
               <span aria-hidden="true">·</span>
               <time dateTime={item.publishedAt || undefined}><Clock3 size={12} aria-hidden="true" />{formatNewsTime(item.publishedAt)}</time>
             </div>
-            <h3><a href={item.link} target="_blank" rel="noopener noreferrer">{item.title}</a></h3>
+            <h3><a href={item.articleUrl || item.link} target="_blank" rel="noopener noreferrer">{item.title}</a></h3>
             {!compact && item.summary && <p>{item.summary}</p>}
-            <a className="news-item-read" href={item.link} target="_blank" rel="noopener noreferrer">খবর পড়ুন <ArrowUpRight size={14} aria-hidden="true" /></a>
+            <a className="news-item-read" href={item.articleUrl || item.link} target="_blank" rel="noopener noreferrer">খবর পড়ুন <ArrowUpRight size={14} aria-hidden="true" /></a>
           </div>
         </article>
       ))}
