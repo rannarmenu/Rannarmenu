@@ -114,3 +114,85 @@ export function recipeMatchesSearch(recipe, queryOrGroups) {
     return needle && haystack.includes(needle);
   }));
 }
+
+
+const translationCache = new Map();
+const TRANSLATION_TARGETS = ['bn', 'en'];
+const MAX_TRANSLATION_CACHE = 120;
+
+/** Parse the sentence segments returned by Google's public translation endpoint. */
+export function parseGoogleTranslationResponse(payload) {
+  if (!Array.isArray(payload) || !Array.isArray(payload[0])) return '';
+  return payload[0]
+    .map(segment => Array.isArray(segment) && typeof segment[0] === 'string' ? segment[0] : '')
+    .join('')
+    .trim();
+}
+
+async function translateSingleSearchQuery(query, target, { signal, fetchImpl }) {
+  const cacheKey = target + ':' + normalizeSearchText(query);
+  if (translationCache.has(cacheKey)) return translationCache.get(cacheKey);
+
+  const url = new URL('https://translate.googleapis.com/translate_a/single');
+  url.searchParams.set('client', 'gtx');
+  url.searchParams.set('sl', 'auto');
+  url.searchParams.set('tl', target);
+  url.searchParams.set('dt', 't');
+  url.searchParams.set('q', query.slice(0, 300));
+
+  const controller = new AbortController();
+  const relayAbort = () => controller.abort();
+  if (signal?.aborted) controller.abort();
+  else signal?.addEventListener('abort', relayAbort, { once: true });
+  const timeoutId = setTimeout(() => controller.abort(), 4500);
+
+  try {
+    const response = await fetchImpl(url.toString(), {
+      method: 'GET',
+      signal: controller.signal,
+      credentials: 'omit',
+      headers: { Accept: 'application/json' }
+    });
+    if (!response?.ok) return '';
+    const payload = await response.json();
+    const translated = parseGoogleTranslationResponse(payload);
+    if (!translated) return '';
+
+    // Keep cache small: translation is a fallback, never the primary search path.
+    if (translationCache.size >= MAX_TRANSLATION_CACHE) {
+      translationCache.delete(translationCache.keys().next().value);
+    }
+    translationCache.set(cacheKey, translated);
+    return translated;
+  } catch {
+    // A failed, blocked, or rate-limited translator must not break normal search.
+    return '';
+  } finally {
+    clearTimeout(timeoutId);
+    signal?.removeEventListener('abort', relayAbort);
+  }
+}
+
+/**
+ * Translate an otherwise unmatched query to Bengali and English.
+ * Search only invokes this after the native/alias search returns no results.
+ */
+export async function translateSearchQuery(query, options = {}) {
+  const original = String(query ?? '').trim();
+  if (!original || Array.from(original).length < 2) return [];
+  const fetchImpl = options.fetchImpl ?? globalThis.fetch;
+  if (typeof fetchImpl !== 'function') return [];
+
+  const translations = await Promise.all(
+    TRANSLATION_TARGETS.map(target =>
+      translateSingleSearchQuery(original, target, {
+        signal: options.signal,
+        fetchImpl
+      })
+    )
+  );
+  return [...new Set(translations
+    .map(value => String(value ?? '').trim())
+    .filter(value => value && normalizeSearchText(value) !== normalizeSearchText(original))
+  )];
+}
