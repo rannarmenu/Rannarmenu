@@ -20,6 +20,12 @@ test('understands casual Banglish greetings and small-talk intent', () => {
   assert.equal(classifyMiraIntent('ki khobor Mira'), 'greeting');
 });
 
+test('routes short help and Roman Bangla thank-you messages correctly', () => {
+  assert.equal(classifyMiraIntent('Mira ektu help koro'), 'website_help');
+  assert.equal(classifyMiraIntent('ami bujhtesi na'), 'website_help');
+  assert.equal(classifyMiraIntent('onek dhonnobad'), 'thanks');
+});
+
 test('cleans conversational filler while preserving the requested dish', () => {
   assert.equal(cleanBanglishRecipeQuery('ami chicken biriyani ranna korte chai'), 'chicken biryani');
   assert.equal(cleanBanglishRecipeQuery('amar jonno ilish macher jhol recipe dao'), 'ilish mach jhol');
