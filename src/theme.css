@@ -755,3 +755,14 @@ html[data-theme="dark"] .brand-logo-dark { display: block; }
 html[data-theme="dark"] .footer .footer-copy-separator {
   color: #867a59;
 }
+
+/* Category-list chevrons stay unboxed in dark mode; only the leading food icon gets a tile. */
+html[data-theme="dark"] .category-pill > .category-pill-arrow,
+html[data-theme="dark"] .category-pill.active > .category-pill-arrow {
+  background: transparent;
+  border-radius: 0;
+  color: #c2d0c1;
+}
+html[data-theme="dark"] .category-pill:hover > .category-pill-arrow {
+  color: #eff6ed;
+}
