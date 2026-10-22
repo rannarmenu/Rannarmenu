@@ -83,6 +83,50 @@ function normalizeNewsItem(item, fallbackSource) {
   };
 }
 
+function parseGoogleNewsXml(xmlText, fallbackSource) {
+  const documentNode = new DOMParser().parseFromString(xmlText, 'application/xml');
+  if (documentNode.querySelector('parsererror')) {
+    throw new Error('সংবাদ-ফিডের XML পড়া যায়নি।');
+  }
+  const items = Array.from(documentNode.querySelectorAll('item')).map((node) => {
+    const getText = (name) => node.querySelector(name)?.textContent?.trim() || '';
+    const enclosure = node.querySelector('enclosure');
+    const raw = {
+      title: getText('title'),
+      link: getText('link'),
+      pubDate: getText('pubDate'),
+      description: getText('description'),
+      author: getText('source') || fallbackSource,
+      enclosure: enclosure ? { link: enclosure.getAttribute('url') || '' } : undefined,
+    };
+    return normalizeNewsItem(raw, fallbackSource);
+  }).filter(Boolean);
+  return items;
+}
+
+async function fetchRssThroughProxy(rssUrl, signal) {
+  const proxyUrls = [
+    'https://api.allorigins.win/raw?url=' + encodeURIComponent(rssUrl),
+    'https://corsproxy.io/?url=' + encodeURIComponent(rssUrl),
+  ];
+  let lastError = null;
+  for (const proxyUrl of proxyUrls) {
+    try {
+      const response = await fetch(proxyUrl, { signal, headers: { Accept: 'application/rss+xml, application/xml, text/xml, */*' } });
+      if (!response.ok) throw new Error('RSS proxy HTTP ' + response.status);
+      const xml = await response.text();
+      if (!xml.includes('<rss') && !xml.includes('<feed') && !xml.includes('<item')) {
+        throw new Error('RSS proxy returned non-feed content');
+      }
+      return xml;
+    } catch (error) {
+      if (signal.aborted) throw error;
+      lastError = error;
+    }
+  }
+  throw lastError || new Error('RSS feed could not be reached.');
+}
+
 async function loadFeed(query, signal, force = false) {
   const rssUrl = googleNewsRss(query);
   const cacheKey = rssUrl;
@@ -91,28 +135,43 @@ async function loadFeed(query, signal, force = false) {
     return { items: cached.items, updatedAt: cached.cachedAt, fromCache: true };
   }
 
-  const url = RSS_JSON_ENDPOINT + '?rss_url=' + encodeURIComponent(rssUrl);
-  const response = await fetch(url, { signal, headers: { Accept: 'application/json' } });
-  if (!response.ok) throw new Error('নিউজ সার্ভিস থেকে উত্তর পাওয়া যায়নি (HTTP ' + response.status + ')');
+  let items = [];
+  let providerError = null;
 
-  const payload = await response.json();
-  if (payload?.status !== 'ok') {
-    throw new Error(plainText(payload?.message) || 'এই মুহূর্তে খবর আনা যাচ্ছে না।');
+  // Try the JSON adapter first, then fall back to raw RSS proxies. The fallback
+  // avoids making the entire feed depend on the RSS-to-JSON service.
+  try {
+    const url = RSS_JSON_ENDPOINT + '?rss_url=' + encodeURIComponent(rssUrl);
+    const response = await fetch(url, { signal, headers: { Accept: 'application/json' } });
+    if (!response.ok) throw new Error('RSS-to-JSON HTTP ' + response.status);
+    const payload = await response.json();
+    if (payload?.status !== 'ok') throw new Error(plainText(payload?.message) || 'RSS-to-JSON service failed.');
+    const seen = new Set();
+    for (const raw of Array.isArray(payload.items) ? payload.items : []) {
+      const item = normalizeNewsItem(raw, payload.feed?.title);
+      if (!item || seen.has(item.link)) continue;
+      seen.add(item.link);
+      items.push(item);
+      if (items.length >= 10) break;
+    }
+  } catch (error) {
+    if (signal.aborted) throw error;
+    providerError = error;
   }
 
-  const items = [];
-  const seen = new Set();
-  for (const raw of Array.isArray(payload.items) ? payload.items : []) {
-    const item = normalizeNewsItem(raw, payload.feed?.title);
-    if (!item || seen.has(item.link)) continue;
-    seen.add(item.link);
-    items.push(item);
-    if (items.length >= 10) break;
+  if (!items.length) {
+    try {
+      const xml = await fetchRssThroughProxy(rssUrl, signal);
+      items = parseGoogleNewsXml(xml, 'Google News');
+    } catch (error) {
+      if (signal.aborted) throw error;
+      throw new Error('নিউজ সার্ভিসে সংযোগ করা যাচ্ছে না। RSS-to-JSON ও বিকল্প RSS সার্ভিস—দুটিই ব্যর্থ হয়েছে। ইন্টারনেট/সার্ভিস ঠিক থাকলে রিফ্রেশ করুন।');
+    }
   }
 
-  const result = { items, cachedAt: Date.now() };
+  const result = { items: items.slice(0, 10), cachedAt: Date.now() };
   memoryCache.set(cacheKey, result);
-  return { items, updatedAt: result.cachedAt, fromCache: false };
+  return { items: result.items, updatedAt: result.cachedAt, fromCache: false };
 }
 
 
