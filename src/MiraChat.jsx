@@ -95,6 +95,9 @@ function isRecipeRequest(question) {
 
 function getSmallTalkReply(question) {
   const value = normalizeSearchText(question);
+  if (/(kemon acho|kemon aso|kmn acho|kmn aso|valo acho|bhalo acho|ki khobor|ki obostha)/u.test(value)) {
+    return 'আমি বেশ আছি! 🌸 আমার অ্যান্টেনা ঠিকঠাক, মুডও ফুরফুরে। তোমার কী খবর? আজ কী রান্নার প্ল্যান? 😸';
+  }
   if (/(^|\\s)(hi|hello|hey|hiya|hola|bonjour|salut|hallo|hii|হাই|হ্যালো|নমস্কার|আসসালামু আলাইকুম|السلام عليكم|你好|こんにちは|नमस्ते|ہیلو|مرحبا)(\\s|$)/u.test(value) && value.split(' ').length <= 5) {
     return 'হেইই! 🌸 Mira* হাজির! রেসিপি খুঁজতে এসেছ, না শুধু আমার গাল টিপে যেতে? 😼';
   }
