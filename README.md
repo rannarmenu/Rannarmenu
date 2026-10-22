@@ -9,7 +9,7 @@ A responsive Bengali recipe catalogue built with React, Vite, Supabase Auth/Post
 - Recipe details, ingredients and ordered cooking steps. Dish-matched photos are shown only when their source, creator and reuse license are recorded; otherwise the site displays a photo-unavailable placeholder.
 - Supabase-backed published recipes.
 - Admin sign-in with Supabase Auth; public sign-up is not provided.
-- Admin-only recipe create, edit, delete, draft/publish workflow and source attribution fields.
+- Role-scoped recipe management: owners/admins can delete and bulk import; editors can create and edit recipes.
 - Browser CSV/JSON import, validation, duplicate-slug handling, 100-row batches and import history.
 - Database migrations with Row Level Security (RLS), least-privilege grants and explicit admin allow-list.
 
@@ -30,11 +30,11 @@ Only the publishable key belongs in browser variables. **Never** put `SUPABASE_S
 
 The migration files in `supabase/migrations/` mirror the migrations applied to the connected Supabase project. They create:
 
-- `public.recipes`: recipe content, ingredients, steps and source/license metadata.
+- `public.recipes`: recipe content, ingredients, steps, recipe-source attribution, and photo source/credit/license metadata.
 - `public.admin_users`: trusted accounts permitted to manage content.
 - `public.recipe_import_batches`: import audit and error reports.
 
-RLS allows public visitors to read published recipes. Inserts, updates, deletes, and import history operations require a signed-in account explicitly listed in `public.admin_users`. The app deliberately has no self-service admin signup/role escalation.
+RLS allows public visitors to read published recipes. Trusted owners/admins/editors may create or edit recipes; only owners/admins may delete recipes or run bulk imports. Access requires a signed-in account explicitly listed in `public.admin_users`. The app deliberately has no self-service admin signup/role escalation.
 
 ### Provision the first admin
 
@@ -78,7 +78,7 @@ Connect `rannarmenu/Rannarmenu` and configure these environment variables for Pr
 
 ## Current limitations
 
-- The live database currently contains 63 published recipes, including 57 added after the original six starter recipes; every published recipe currently has 6–7 cooking steps. The target of 10,000 recipes is **not yet met**.
+- The live database currently contains 63 recipes: 57 published and 6 held as drafts for editorial/image-rights review. The 57 published recipes have 6–7 cooking steps each. The target of 10,000 recipes is **not yet met**.
 - Reaching 10,000 requires authorized sources and editorial review. The importer blocks repeated normalized titles/slugs; distinct cooking styles should have clearly distinct descriptive titles. It is a pipeline, not a recipe source.
 - 23 recipes currently use dish-matched Commons photos with visible creator credit, source page and reuse license; remaining recipes show a placeholder until a matching, reusable photo is verified.
 - Favorites remain in this browser, not synced to accounts.
