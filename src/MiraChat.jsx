@@ -25,6 +25,7 @@ import {
   getCookingTroubleshootingReply,
   getRecipeSelectionIndex
 } from './lib/miraLanguage.js';
+import { buildMiraConversation, normalizeMiraAIResult } from './lib/miraAI.js';
 
 const CHAT_NOISE = new Set([
   'i','me','my','we','you','your','the','a','an','and','or','to','for','of','with','please','pls',
@@ -269,6 +270,26 @@ export default function MiraChat({ onOpenRecipe }) {
     };
   };
 
+  const requestMiraAI = async (rawText, previousMessages) => {
+    if (!supabaseConfigured || !supabase) return null;
+    const messagesForAI = buildMiraConversation(previousMessages, rawText);
+    if (!messagesForAI.length) return null;
+    try {
+      const { data, error: invokeError } = await supabase.functions.invoke('mira-chat', {
+        body: {
+          messages: messagesForAI,
+          locale: typeof navigator !== 'undefined' ? navigator.language : 'bn',
+          page: typeof window !== 'undefined' ? window.location.pathname : '/'
+        }
+      });
+      if (invokeError) return null;
+      return normalizeMiraAIResult(data);
+    } catch {
+      // AI provider may not be configured; the existing local assistant remains available.
+      return null;
+    }
+  };
+
   const runAssistant = async (rawText, previousMessages = messages) => {
     const previousOptions = [...previousMessages].reverse().find(message =>
       message.role === 'assistant' && Array.isArray(message.recipes) && message.recipes.length > 0
@@ -282,6 +303,48 @@ export default function MiraChat({ onOpenRecipe }) {
         setIsOpen(false);
         return;
       }
+    }
+
+    // Ask the server-side language model first. It gets recent conversation
+    // context and returns a validated action; only the client can open real recipes.
+    const aiResult = await requestMiraAI(rawText, previousMessages);
+    let aiSearchQuery = '';
+    if (aiResult) {
+      if (aiResult.action !== 'recipe_search') {
+        addAssistantMessage(aiResult.reply);
+        return;
+      }
+
+      aiSearchQuery = aiResult.search_query;
+      const aiSearch = await searchRecipes(aiSearchQuery);
+      if (aiSearch.error) {
+        addAssistantMessage(aiResult.reply || 'এই মুহূর্তে রেসিপির খাতা খুলতে পারছি না। একটু পরে আবার চেষ্টা করো। 🌼');
+        return;
+      }
+      if (aiSearch.recipes.length) {
+        const scored = aiSearch.recipes
+          .map(recipe => ({ recipe, score: titleMatchCount(recipe, aiSearch.groups) }))
+          .sort((a, b) => b.score - a.score);
+        const best = scored[0];
+        const queryNorm = normalizeSearchText(aiSearchQuery);
+        const titleNorm = normalizeSearchText(best?.recipe?.title || '');
+        const phraseInTitle = queryNorm.length > 2 && titleNorm.includes(queryNorm);
+        const exactEnough = best && (
+          phraseInTitle ||
+          (aiSearch.groups.length >= 2 && best.score >= aiSearch.groups.length) ||
+          (aiSearch.recipes.length === 1 && aiSearch.groups.length <= 2)
+        );
+        if (exactEnough) {
+          setMood('happy');
+          onOpenRecipe?.(best.recipe);
+          setIsOpen(false);
+          return;
+        }
+        addAssistantMessage(aiResult.reply || MIRA_COPY.suggestions, scored.slice(0, 5).map(item => item.recipe));
+        return;
+      }
+      // A translated/normalized database query found nothing. Continue through
+      // the established multilingual search fallback before saying no results.
     }
 
     let translatedToBengali = { text: '', sourceLanguage: 'und' };
