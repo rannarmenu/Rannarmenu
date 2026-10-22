@@ -166,3 +166,11 @@
     transition: none;
   }
 }
+
+/* Keep Mira's floating helper above the mobile tab bar instead of covering it. */
+@media (max-width: 700px) {
+  .mira-widget {
+    right: 12px;
+    bottom: calc(82px + env(safe-area-inset-bottom, 0px)) !important;
+  }
+}
