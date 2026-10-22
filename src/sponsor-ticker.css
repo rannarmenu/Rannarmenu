@@ -375,9 +375,7 @@ html[data-theme="dark"] .sponsor-ticker-fallback { color: #315c43; }
   border-color: #8fac88;
   box-shadow: 0 0 0 3px rgba(96, 133, 90, .14), 0 5px 14px rgba(38, 57, 44, .08);
 }
-.sponsor-ticker-group[aria-hidden="true"] .sponsor-ticker-item {
-  pointer-events: none;
-}
+/* Duplicate ticker items remain clickable so every visible logo can select its feed. */
 html[data-theme="dark"] .sponsor-ticker-item[aria-pressed="true"] .sponsor-ticker-logo {
   border-color: #a7c3a1;
   box-shadow: 0 0 0 3px rgba(167, 195, 161, .18);
