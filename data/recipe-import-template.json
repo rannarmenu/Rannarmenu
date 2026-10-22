@@ -1,0 +1,33 @@
+{
+  "recipes": [
+    {
+      "title": "সবজি খিচুড়ি",
+      "slug": "vegetable-khichuri",
+      "summary": "চাল, ডাল ও সবজি দিয়ে ঘরোয়া খিচুড়ি।",
+      "category": "নিরামিষ",
+      "cuisine": "বাংলাদেশি",
+      "ingredients": [
+        "চাল ১ কাপ",
+        "মুগ ডাল ১/২ কাপ",
+        "গাজর ১টি"
+      ],
+      "instructions": [
+        "ডাল ও চাল ধুয়ে নিন।",
+        "সবজি ও মসলা দিয়ে নরম হওয়া পর্যন্ত রান্না করুন।"
+      ],
+      "prep_minutes": 10,
+      "cook_minutes": 30,
+      "servings": 3,
+      "difficulty": "easy",
+      "image_url": "",
+      "tags": [
+        "ঘরোয়া",
+        "নিরামিষ"
+      ],
+      "source_name": "নিজস্ব কনটেন্ট",
+      "source_url": "",
+      "source_license": "নিজস্ব কনটেন্ট",
+      "source_attribution": ""
+    }
+  ]
+}
