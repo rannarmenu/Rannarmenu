@@ -31,6 +31,21 @@ self.addEventListener('activate', (event) => {
           .map((key) => caches.delete(key))
       ))
       .then(() => self.clients.claim())
+      // This one-time migration forces any already-open app tabs onto the new local-Mira bundle.
+      .then(async () => {
+        if (CACHE_VERSION !== 'rannar-menu-pwa-v2-local-mira') return;
+        const openClients = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+        await Promise.all(openClients
+          .filter((client) => {
+            try {
+              const url = new URL(client.url);
+              return url.origin === APP_BASE_URL.origin && url.pathname.startsWith(APP_BASE_URL.pathname);
+            } catch {
+              return false;
+            }
+          })
+          .map((client) => client.navigate(client.url).catch(() => null)));
+      })
   );
 });
 
