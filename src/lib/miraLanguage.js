@@ -5,7 +5,7 @@ const FILLER_WORDS = new Set([
   'i','me','my','mine','we','us','our','you','your','yours','the','a','an','and','or','to','for','of','with',
   'please','pls','plz','can','could','would','will','give','find','show','open','want','need','like','make',
   'cook','cooking','recipe','recipes','food','dish','some','one','this','that','how','what','is','are','do','does',
-  'help','me','it','in','on','at','from','about','tell','say','suggest','recommend','please','any','good','best','easy','simple','quick','healthy','tasty','delicious','cheap','budget','new','some',
+  'help','me','it','in','on','at','from','about','tell','say','suggest','recommend','please','any','good','best','easy','simple','quick','healthy','tasty','delicious','cheap','budget','new','some','love','loves','enjoy','enjoyed','really','just','mira','got','have','has','had',
   // Romanized Bangla / Banglish
   'ami','amra','amar','amake','amader','apni','apnar','tumi','tomar','tomake','tomader','se','ora','oder',
   'ei','oi','eta','seta','etar','otar','ekhane','okhane','e','te','ta','tar','er','r','ar','theke','jonno',
@@ -21,7 +21,7 @@ const FILLER_WORDS = new Set([
   'দাও','দেন','দেখাও','বলো','বলুন','খুলে','খুঁজে','খুঁজতে','করে','করো','করুন','করতে','করবো','করবেন','হচ্ছে',
   'হবে','আছে','নেই','না','চাই','লাগবে','দরকার','রান্না','রান্নার','বানাতে','বানাবো','তৈরি','খাবো','খেতে','খাবার',
   'কিছু','কোন','কোনো','কি','কী','কিভাবে','কীভাবে','কোথায়','কোথায়','কখন','কেন','জন্য','থেকে','আর','এটা','ওটা',
-  'এই','ওই','এখানে','ওখানে','ভালো','সেরা','একজন','প্লিজ','সাহায্য','আমায়','আমায়',
+  'এই','ওই','এখানে','ওখানে','ভালো','সেরা','একজন','প্লিজ','সাহায্য','আমায়','আমায়','মিরা',
   // Hindi
   'मुझे','मेरी','मेरा','एक','और','का','की','के','को','से','में','है','क्या','कैसे','बताओ','दो','बनाओ','रेसिपी','खाना',
   // Spanish/French/German/Arabic/Chinese/Japanese common fillers
@@ -81,6 +81,9 @@ export function classifyMiraIntent(value) {
   const looksLikeRequest = /(recipe|recipes|ranna|rannar|rante|ranna korte|ranna korbo|banate chai|ki banabo|ki ranna|ki khabo|recipe dao|recipe den|recipe chai|khujhe dao|khuje dao|find me|give me|show me|make me|cook me|খুঁজে দাও|রেসিপি দাও|রেসিপি চাই|কী রান্না|কি রান্না|কি বানাব|কী বানাব|কী খাব|কি খাব|খাবার দাও|রান্না করতে চাই|রান্না করব|রান্না কীভাবে)/u.test(text);
   if (looksLikeRequest && (!RECIPE_TERMS.test(text) || !cleanBanglishRecipeQuery(text))) return 'generic_recipe_request';
   if (looksLikeRequest || (RECIPE_TERMS.test(text) && /(ami|amar|amake|chai|lagbe|dorkar|dao|den|korte|korbo|recipe|ranna|খুঁজে|চাই|দাও|দেন|করতে|করব)/u.test(text))) return 'recipe_search';
+  // People often type only the food name (e.g. “chicken biryani”) instead of an explicit command.
+  // Treat a recognized food term with a meaningful cleaned query as an implicit recipe search.
+  if (RECIPE_TERMS.test(text) && cleanBanglishRecipeQuery(text)) return 'recipe_search';
   if (HELP_VERBS.test(text) && /(ranna|recipe|food|khabar|kivabe|kibhabe|biryani|biriyani|murgi|mach|dim|how|what|how to|কীভাবে|কেন|কী করব)/u.test(text)) return 'cooking_problem';
   return 'general';
 }
