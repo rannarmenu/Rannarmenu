@@ -5,7 +5,29 @@ import { AUTO_NEWS_SPONSORS } from './lib/sponsorPartners.js';
 
 const REFRESH_INTERVAL = 3 * 60 * 1000;
 const CACHE_TTL = 2 * 60 * 1000;
-const LIVE_NEWS_API_AVAILABLE = import.meta.env.BASE_URL === '/';
+const VERCEL_NEWS_API_AVAILABLE = import.meta.env.BASE_URL === '/';
+const SUPABASE_NEWS_BASE_URL = String(import.meta.env.VITE_SUPABASE_URL || '').replace(/\/+$/, '');
+const SUPABASE_NEWS_PUBLISHABLE_KEY = String(import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY || '');
+const SUPABASE_NEWS_API_AVAILABLE = Boolean(SUPABASE_NEWS_BASE_URL && SUPABASE_NEWS_PUBLISHABLE_KEY);
+const LIVE_NEWS_API_AVAILABLE = VERCEL_NEWS_API_AVAILABLE || SUPABASE_NEWS_API_AVAILABLE;
+
+function getNewsEndpoint(type, query) {
+  if (SUPABASE_NEWS_API_AVAILABLE) {
+    const name = type === 'image' ? 'news-image' : 'news-feed';
+    return SUPABASE_NEWS_BASE_URL + '/functions/v1/' + name + '?' + query;
+  }
+  if (VERCEL_NEWS_API_AVAILABLE) {
+    const name = type === 'image' ? '/api/news-image' : '/api/news';
+    return name + '?' + query;
+  }
+  return '';
+}
+
+function newsApiHeaders() {
+  const headers = { Accept: 'application/json' };
+  if (SUPABASE_NEWS_API_AVAILABLE) headers.apikey = SUPABASE_NEWS_PUBLISHABLE_KEY;
+  return headers;
+}
 const MAX_CACHED_NEWS_AGE_MS = 30 * 24 * 60 * 60 * 1000;
 
 function isFreshNewsItem(item) {
@@ -167,8 +189,10 @@ async function loadLiveFeed(query, signal) {
   const feed = getLiveFeedKey(query);
   if (!feed) return null;
 
-  const response = await fetch('/api/news?feed=' + encodeURIComponent(feed), {
-    headers: { Accept: 'application/json' },
+  const endpoint = getNewsEndpoint('feed', 'feed=' + encodeURIComponent(feed));
+  if (!endpoint) return null;
+  const response = await fetch(endpoint, {
+    headers: newsApiHeaders(),
     signal,
   });
   if (!response.ok) return null;
@@ -513,8 +537,10 @@ function NewsItemCard({ item, Icon, compact = false }) {
       resolutionAttempted.current = true;
       setImageResolving(true);
       try {
-        const response = await fetch('/api/news-image?url=' + encodeURIComponent(item.link), {
-          headers: { Accept: 'application/json' },
+        const endpoint = getNewsEndpoint('image', 'url=' + encodeURIComponent(item.link));
+        if (!endpoint) return;
+        const response = await fetch(endpoint, {
+          headers: newsApiHeaders(),
           signal: controller.signal,
         });
         if (!response.ok || !(response.headers.get('content-type') || '').toLowerCase().includes('application/json')) return;
