@@ -34,6 +34,13 @@ function cleanUrl(value, base) {
     return ['http:', 'https:'].includes(url.protocol) ? url.href : '';
   } catch { return ''; }
 }
+function looksLikeArticlePhoto(value) {
+  const url = cleanUrl(value);
+  if (!url) return false;
+  let path = '';
+  try { path = new URL(url).pathname.toLowerCase(); } catch { return false; }
+  return !['logo', 'favicon', 'placeholder', 'avatar', 'profile', 'brand', 'default-cover', 'site-icon'].some((token) => path.includes(token));
+}
 function attribute(tagText, name) {
   const attrs = tagText.matchAll(/\b([a-zA-Z_:][\w:.-]*)\s*=\s*(?:"([^"]*)"|'([^']*)')/g);
   for (const match of attrs) {
@@ -49,7 +56,11 @@ function extractRssImage(block, descriptionRaw) {
   for (const match of descriptionRaw.matchAll(/<(?:img|source)\b[^>]*>/gi)) {
     candidates.push(attribute(match[0], 'src'), attribute(match[0], 'data-src'));
   }
-  return candidates.map((value) => cleanUrl(value)).find(Boolean) || '';
+  for (const value of candidates) {
+    const url = cleanUrl(value);
+    if (looksLikeArticlePhoto(url)) return url;
+  }
+  return '';
 }
 function decodeHtml(value = '') {
   return String(value)
@@ -144,7 +155,12 @@ async function resolveGoogleNewsArticleUrl(articleUrl) {
       let resolved;
       try { resolved = JSON.parse(frame[2])?.[1]; } catch { continue; }
       const realUrl = cleanUrl(resolved);
-      if (realUrl && !realUrl.includes('news.google.com/')) return realUrl;
+      if (realUrl && !realUrl.includes('news.google.com/')) {
+        try {
+          const parsed = new URL(realUrl);
+          if (parsed.pathname !== '/' || parsed.search) return realUrl;
+        } catch { /* invalid article URL */ }
+      }
     } catch {
       // Try the alternate Google News path for a signature.
     }
@@ -164,7 +180,8 @@ async function fetchArticleImage(articleUrl) {
     const html = (await response.text()).slice(0, 1_500_000);
     const finalUrl = response.url || url;
     if (finalUrl.includes('news.google.com/')) return '';
-    return parseMetaImage(html, finalUrl);
+    const image = parseMetaImage(html, finalUrl);
+    return looksLikeArticlePhoto(image) ? image : '';
   } catch {
     return '';
   }
@@ -237,12 +254,16 @@ try {
     const fallbackImage = String(item.image || '').startsWith('news-fallbacks/');
     const attemptedAt = Date.parse(item.imageAttemptedAt || '');
     const recentFallback = fallbackImage && Number.isFinite(attemptedAt) && Date.now() - attemptedAt < 24 * 60 * 60 * 1000;
-    if (item.link && item.image && ((!fallbackImage && (imageFrequency.get(item.image) || 0) <= 3) || recentFallback)) {
+    const photoImage = !fallbackImage && looksLikeArticlePhoto(item.image);
+    if (item.link && item.image && ((photoImage && (imageFrequency.get(item.image) || 0) <= 3) || recentFallback)) {
       previousByLink.set(item.link, item);
     }
   }
 } catch { /* First run or no prior snapshot. */ }
 
+for (const item of allItems) {
+  if (item.image && !looksLikeArticlePhoto(item.image)) item.image = '';
+}
 const rssImages = allItems.filter((item) => item.image).length;
 const uniqueItems = new Map();
 for (const item of allItems) {
