@@ -65,9 +65,9 @@ const AI_ERROR_MESSAGES = {
     en: "Mira's AI connection is not configured yet. Check that OPENAI_API_KEY is saved in Supabase Edge Function Secrets."
   },
   AI_BILLING_REQUIRED: {
-    bn: 'Mira-র AI সার্ভার চালু, কিন্তু OpenAI API-তে ক্রেডিট বা usage limit-এর সমস্যা দেখা যাচ্ছে। OpenAI API Billing ও Usage Limit পরীক্ষা করো; শুধু আবার চেষ্টা করলে এই সমস্যা ঠিক নাও হতে পারে।',
-    banglish: 'Mira-r AI server cholche, kintu OpenAI API credit ba usage limit-er somossa hocche. OpenAI API Billing ar Usage Limit check koro; shudhu abar try korle eta thik nao hote pare.',
-    en: "Mira's AI server is running, but OpenAI API credits or a usage limit appear to be blocking responses. Check API billing and usage limits; retrying alone may not fix it."
+    bn: 'Mira-র AI সার্ভার ঠিকভাবে পৌঁছাচ্ছে, কিন্তু OpenAI API-র credit balance শেষ বা usage/spend limit-এ বাধা আছে। https://platform.openai.com/settings/organization/billing/overview খুলে API credit যোগ করো বা billing limit দেখো। ChatGPT subscription আর API billing আলাদা; শুধু আবার চেষ্টা করলে ঠিক হবে না।',
+    banglish: 'Mira-r AI server cholche, kintu OpenAI API credit balance shesh ba usage/spend limit-e badha ache. https://platform.openai.com/settings/organization/billing/overview e giye API credit add koro ba billing limit check koro. ChatGPT subscription ar API billing alada; shudhu retry korle thik hobe na.',
+    en: "Mira can reach the AI service, but the OpenAI API credit balance is exhausted or a usage/spend limit is blocking requests. Open https://platform.openai.com/settings/organization/billing/overview to add API credits or review billing limits. ChatGPT subscriptions and API billing are separate; retrying alone will not fix it."
   },
   AI_RATE_LIMITED: {
     bn: 'OpenAI API-র সাময়িক rate limit-এ Mira আটকে গেছে। একটু বিরতি দিয়ে আবার চেষ্টা করো; বারবার দ্রুত message পাঠিও না।',
