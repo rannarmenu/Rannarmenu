@@ -1,0 +1,68 @@
+name: Mira Gemini smoke test
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/mira-gemini-smoke.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  gemini-smoke:
+    name: Verify deployed Gemini inference
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Send one minimal test prompt to Mira
+        shell: bash
+        run: |
+          set -euo pipefail
+          SUPABASE_URL='https://fiwqeivmieckzqglfrar.supabase.co'
+          PUBLISHABLE_KEY="$(sed -n "s/.*VITE_SUPABASE_PUBLISHABLE_KEY: '\([^']*\)'.*/\1/p" .github/workflows/pages.yml | head -n 1)"
+          if [[ -z "$PUBLISHABLE_KEY" ]]; then
+            echo 'Could not find the public Supabase publishable key in the Pages build workflow.'
+            exit 1
+          fi
+          payload='{"messages":[{"role":"user","content":"Reply briefly in Bengali and introduce yourself as Mira."}]}'
+          status="$(curl --silent --show-error --max-time 40 \
+            --output /tmp/mira-gemini-response.json \
+            --write-out '%{http_code}' \
+            --request POST "$SUPABASE_URL/functions/v1/mira-chat" \
+            --header 'Origin: https://rannarmenu.github.io' \
+            --header "apikey: $PUBLISHABLE_KEY" \
+            --header "Authorization: Bearer $PUBLISHABLE_KEY" \
+            --header 'Content-Type: application/json' \
+            --data "$payload")"
+          node --input-type=module - "$status" /tmp/mira-gemini-response.json <<'NODE'
+          import fs from 'node:fs';
+          const status = Number(process.argv[2]);
+          let payload;
+          try {
+            payload = JSON.parse(fs.readFileSync(process.argv[3], 'utf8'));
+          } catch {
+            console.error(JSON.stringify({ httpStatus: status, error: 'Response was not valid JSON' }));
+            process.exit(1);
+          }
+          const summary = {
+            httpStatus: status,
+            provider: 'gemini',
+            configured: payload?.configured === true,
+            model: typeof payload?.model === 'string' ? payload.model : null,
+            action: typeof payload?.action === 'string' ? payload.action : null,
+            responseReceived: typeof payload?.reply === 'string' && payload.reply.trim().length > 0,
+            errorCode: typeof payload?.code === 'string' ? payload.code : null,
+          };
+          console.log(JSON.stringify(summary, null, 2));
+          if (status !== 200 || payload?.ok !== true || !summary.responseReceived || !summary.action) {
+            process.exit(1);
+          }
+          NODE
