@@ -93,13 +93,12 @@ function safeHttpUrl(value) {
 function resolveNewsImage(value) {
   const remote = safeHttpUrl(value);
   if (remote) return remote;
-  const path = String(value || '').replace(/^\\.\\//, '');
-  if (/^news-fallbacks\\/(?:newsroom|food|bangladesh|world)\\.svg$/i.test(path)) {
+  const path = String(value || '');
+  if (['news-fallbacks/newsroom.svg', 'news-fallbacks/food.svg', 'news-fallbacks/bangladesh.svg', 'news-fallbacks/world.svg'].includes(path)) {
     return import.meta.env.BASE_URL + path;
   }
   return '';
 }
-
 function normalizeNewsItem(item, fallbackSource) {
   const rawTitle = plainText(item?.title);
   if (!rawTitle) return null;
