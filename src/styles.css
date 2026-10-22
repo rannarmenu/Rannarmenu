@@ -1823,3 +1823,33 @@
   .mira-mascot.mira-mood-wave,
   .mira-mood-wave .mira-antenna-right { animation: none !important; }
 }
+
+
+/* Home search: language-aware guidance and example queries, deliberately lightweight. */
+.hero-search-support {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 8px;
+  width: min(520px, 100%); margin-top: 1px;
+}
+.hero-search-support-label {
+  display: inline-flex; align-items: center; gap: 6px; color: #798173;
+  font-size: 11px; line-height: 1.5;
+}
+.hero-search-support-label svg { color: var(--green); flex: 0 0 auto; }
+.hero-search-examples { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; }
+.hero-search-examples button {
+  min-height: 29px; padding: 5px 10px; border: 1px solid #e2e6dc;
+  border-radius: 7px; background: #f7f8f3; color: #536353;
+  font-size: 11px; line-height: 1.25;
+  transition: color .16s ease, background-color .16s ease, border-color .16s ease, transform .16s ease;
+}
+.hero-search-examples button:hover {
+  border-color: #b9cbb8; background: #edf2e9; color: var(--green); transform: translateY(-1px);
+}
+.hero-search-examples button:focus-visible { outline: 3px solid #9ab69a; outline-offset: 2px; }
+@media (max-width: 700px) {
+  .hero-search-support { gap: 7px; }
+  .hero-search-support-label { font-size: 10px; }
+  .hero-search-examples { gap: 6px; }
+  .hero-search-examples button { min-height: 28px; padding: 5px 9px; font-size: 10px; }
+}
+@media (prefers-reduced-motion: reduce) { .hero-search-examples button { transition: none; } }
