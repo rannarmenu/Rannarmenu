@@ -3,31 +3,42 @@ import { ArrowUpRight, BadgeCheck, Clock3, Globe2, LoaderCircle, Newspaper, Refr
 import './news-feed.css';
 import { AUTO_NEWS_SPONSORS } from './lib/sponsorPartners.js';
 
-const RSS_JSON_ENDPOINT = 'https://api.rss2json.com/v1/api.json';
 const REFRESH_INTERVAL = 15 * 60 * 1000;
 const CACHE_TTL = 12 * 60 * 1000;
 const memoryCache = new Map();
 let staticNewsPromise = null;
+let staticNewsFetchedAt = 0;
+let staticNewsLoading = false;
 
-async function readStaticNews() {
-  if (!staticNewsPromise) {
-    staticNewsPromise = fetch(import.meta.env.BASE_URL + 'data/news-feed.json', {
+async function readStaticNews(force = false) {
+  const snapshotIsStale = Date.now() - staticNewsFetchedAt >= CACHE_TTL;
+  if ((!staticNewsPromise || (force && snapshotIsStale)) && !staticNewsLoading) {
+    staticNewsLoading = true;
+    const version = Math.floor(Date.now() / CACHE_TTL);
+    staticNewsPromise = fetch(import.meta.env.BASE_URL + 'data/news-feed.json?v=' + version, {
       headers: { Accept: 'application/json' },
       cache: 'no-store',
     }).then(async (response) => {
-      if (!response.ok) throw new Error('Static news cache unavailable');
-      return response.json();
+      if (!response.ok) throw new Error('Google News snapshot unavailable');
+      const data = await response.json();
+      staticNewsFetchedAt = Date.now();
+      return data;
     }).catch((error) => {
       staticNewsPromise = null;
       throw error;
+    }).finally(() => {
+      staticNewsLoading = false;
     });
   }
+  if (!staticNewsPromise) throw new Error('Google News snapshot unavailable');
   return staticNewsPromise;
 }
 
-function staticFeedResult(items) {
+function staticFeedResult(items, generatedAt) {
   const normalized = (Array.isArray(items) ? items : []).map((item) => normalizeNewsItem(item, item.source || 'সংবাদমাধ্যম')).filter(Boolean);
-  return normalized.length ? { items: normalized.slice(0, 10), updatedAt: Date.now(), fromCache: true, staticFallback: true } : null;
+  const parsedTimestamp = Date.parse(generatedAt || '');
+  const updatedAt = Number.isFinite(parsedTimestamp) ? parsedTimestamp : Date.now();
+  return normalized.length ? { items: normalized.slice(0, 10), updatedAt, fromCache: true, staticFallback: true } : null;
 }
 
 const NEWS_CATEGORIES = [
@@ -105,105 +116,44 @@ function normalizeNewsItem(item, fallbackSource) {
   };
 }
 
-function parseGoogleNewsXml(xmlText, fallbackSource) {
-  const documentNode = new DOMParser().parseFromString(xmlText, 'application/xml');
-  if (documentNode.querySelector('parsererror')) {
-    throw new Error('সংবাদ-ফিডের XML পড়া যায়নি।');
-  }
-  const items = Array.from(documentNode.querySelectorAll('item')).map((node) => {
-    const getText = (name) => node.querySelector(name)?.textContent?.trim() || '';
-    const enclosure = node.querySelector('enclosure');
-    const raw = {
-      title: getText('title'),
-      link: getText('link'),
-      pubDate: getText('pubDate'),
-      description: getText('description'),
-      author: getText('source') || fallbackSource,
-      enclosure: enclosure ? { link: enclosure.getAttribute('url') || '' } : undefined,
-    };
-    return normalizeNewsItem(raw, fallbackSource);
-  }).filter(Boolean);
-  return items;
-}
-
-async function fetchRssThroughProxy(rssUrl, signal) {
-  const proxyUrls = [
-    'https://api.allorigins.win/raw?url=' + encodeURIComponent(rssUrl),
-    'https://corsproxy.io/?url=' + encodeURIComponent(rssUrl),
-  ];
-  let lastError = null;
-  for (const proxyUrl of proxyUrls) {
-    try {
-      const response = await fetch(proxyUrl, { signal, headers: { Accept: 'application/rss+xml, application/xml, text/xml, */*' } });
-      if (!response.ok) throw new Error('RSS proxy HTTP ' + response.status);
-      const xml = await response.text();
-      if (!xml.includes('<rss') && !xml.includes('<feed') && !xml.includes('<item')) {
-        throw new Error('RSS proxy returned non-feed content');
-      }
-      return xml;
-    } catch (error) {
-      if (signal.aborted) throw error;
-      lastError = error;
-    }
-  }
-  throw lastError || new Error('RSS feed could not be reached.');
-}
-
 async function loadFeed(query, signal, force = false) {
-  const rssUrl = googleNewsRss(query);
-  const cacheKey = rssUrl;
+  if (signal?.aborted) {
+    const abortError = new Error('News request was cancelled.');
+    abortError.name = 'AbortError';
+    throw abortError;
+  }
+
+  const cacheKey = query;
   const cached = memoryCache.get(cacheKey);
   if (!force && cached && Date.now() - cached.cachedAt < CACHE_TTL) {
     return { items: cached.items, updatedAt: cached.cachedAt, fromCache: true };
   }
 
-  let items = [];
-  let providerError = null;
-
-  // Try the JSON adapter first, then fall back to raw RSS proxies. The fallback
-  // avoids making the entire feed depend on the RSS-to-JSON service.
+  // Google News RSS is fetched by the scheduled GitHub Actions job and served
+  // from our own static JSON file. The browser no longer depends on adapters
+  // or public CORS proxy services.
+  let snapshot;
   try {
-    const url = RSS_JSON_ENDPOINT + '?rss_url=' + encodeURIComponent(rssUrl);
-    const response = await fetch(url, { signal, headers: { Accept: 'application/json' } });
-    if (!response.ok) throw new Error('RSS-to-JSON HTTP ' + response.status);
-    const payload = await response.json();
-    if (payload?.status !== 'ok') throw new Error(plainText(payload?.message) || 'RSS-to-JSON service failed.');
-    const seen = new Set();
-    for (const raw of Array.isArray(payload.items) ? payload.items : []) {
-      const item = normalizeNewsItem(raw, payload.feed?.title);
-      if (!item || seen.has(item.link)) continue;
-      seen.add(item.link);
-      items.push(item);
-      if (items.length >= 10) break;
-    }
-  } catch (error) {
-    if (signal.aborted) throw error;
-    providerError = error;
+    snapshot = await readStaticNews(force);
+  } catch {
+    throw new Error('Google News-এর সংরক্ষিত খবর এখন পাওয়া যাচ্ছে না। কিছুক্ষণ পর আবার চেষ্টা করুন।');
   }
 
-  if (!items.length) {
-    try {
-      const xml = await fetchRssThroughProxy(rssUrl, signal);
-      items = parseGoogleNewsXml(xml, 'Google News');
-    } catch (error) {
-      if (signal.aborted) throw error;
-      // GitHub Actions refreshes a same-origin static snapshot, avoiding browser CORS failures.
-      try {
-        const snapshot = await readStaticNews();
-        const category = NEWS_CATEGORIES.find((entry) => entry.query === query);
-        const snapshotItems = category ? snapshot.categories?.[category.id] : null;
-        const fallback = staticFeedResult(snapshotItems);
-        if (fallback) return fallback;
-      } catch { /* Keep the original feed error when no snapshot is available. */ }
-      throw new Error('নিউজ সার্ভিসে সংযোগ করা যাচ্ছে না এবং সংরক্ষিত নিউজ ক্যাশও পাওয়া যায়নি। কিছুক্ষণ পর আবার চেষ্টা করুন।');
-    }
+  const category = NEWS_CATEGORIES.find((entry) => entry.query === query);
+  const sponsor = AUTO_NEWS_SPONSORS.find((entry) => entry.newsQuery === query);
+  const snapshotItems = category
+    ? snapshot.categories?.[category.id]
+    : sponsor
+      ? snapshot.sponsors?.[sponsor.id]
+      : null;
+  const normalized = staticFeedResult(snapshotItems, snapshot.generatedAt);
+  if (!normalized) {
+    throw new Error('Google News থেকে এই বিভাগে আপাতত খবর পাওয়া যায়নি। পরবর্তী আপডেটের জন্য অপেক্ষা করুন।');
   }
 
-  const result = { items: items.slice(0, 10), cachedAt: Date.now() };
-  memoryCache.set(cacheKey, result);
-  return { items: result.items, updatedAt: result.cachedAt, fromCache: false };
+  memoryCache.set(cacheKey, { items: normalized.items, cachedAt: normalized.updatedAt });
+  return normalized;
 }
-
 
 function getSelectedAutoNewsSponsor(selectedSponsor) {
   if (!selectedSponsor) return null;
