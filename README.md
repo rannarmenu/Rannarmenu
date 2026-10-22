@@ -67,6 +67,18 @@ npm run import:recipes -- data/recipes.csv --source "My licensed collection"
 
 The CLI secret can bypass RLS, so run it only on a trusted machine. It is not needed for the browser importer.
 
+## Installable web app (PWA)
+
+The site includes a Progressive Web App setup:
+
+- `public/manifest.webmanifest` supplies the app name, launch URL, standalone display and current Rannar Menu SVG brand icon.
+- `public/sw.js` caches the same-origin app shell and static assets for repeat visits and an offline fallback. Live Supabase recipe data and remote photos still require an internet connection.
+- The app-install popup appears 10 seconds after a public page is opened. It is visible for up to 10 seconds, can be closed with ×, and a manual dismissal snoozes the popup for 7 days.
+- Browsers that expose `beforeinstallprompt` can open their native installation confirmation from the popup. On iOS Safari and other browsers without that event, the popup shows the browser's manual “Add to Home Screen” / “Install app” steps.
+- Service-worker registration is scoped to Vite's `BASE_URL`, so root deployments and the configured GitHub Pages subpath can both work.
+
+Installation behavior depends on the browser, HTTPS hosting, manifest handling and its PWA support. Verify the production URL on Android Chrome and iOS Safari after deployment.
+
 ## Deploy to Vercel
 
 Connect `rannarmenu/Rannarmenu` and configure these environment variables for Production, Preview and Development:
