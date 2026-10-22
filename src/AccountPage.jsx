@@ -48,13 +48,17 @@ export default function AccountPage({
   authReady = false,
   notice = '',
   onProfileUpdated = () => {},
-  onSignOut = () => {}
+  onSignOut = () => {},
+  recoveryMode = false,
+  onPasswordResetComplete = () => {}
 }) {
   const [mode, setMode] = useState('login');
   const [method, setMethod] = useState('email');
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [newPassword, setNewPassword] = useState('');
+  const [confirmNewPassword, setConfirmNewPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [phoneNumber, setPhoneNumber] = useState('');
   const [otp, setOtp] = useState('');
@@ -149,6 +153,36 @@ export default function AccountPage({
     }
   }
 
+  async function completePasswordReset(event) {
+    event.preventDefault();
+    if (!supabase) {
+      setFeedback({ type: 'error', text: 'অ্যাকাউন্ট সার্ভার সংযুক্ত নেই।' });
+      return;
+    }
+    if (newPassword.length < 10) {
+      setFeedback({ type: 'error', text: 'নতুন পাসওয়ার্ড কমপক্ষে ১০ অক্ষরের হতে হবে।' });
+      return;
+    }
+    if (newPassword !== confirmNewPassword) {
+      setFeedback({ type: 'error', text: 'দুটি পাসওয়ার্ড মেলেনি। আবার যাচাই করুন।' });
+      return;
+    }
+    setBusy(true);
+    setFeedback(null);
+    try {
+      const { error } = await supabase.auth.updateUser({ password: newPassword });
+      if (error) throw error;
+      setNewPassword('');
+      setConfirmNewPassword('');
+      setFeedback({ type: 'success', text: 'পাসওয়ার্ড পরিবর্তন হয়েছে। এখন আপনার অ্যাকাউন্ট নিরাপদে ব্যবহার করতে পারবেন।' });
+      onPasswordResetComplete();
+    } catch (error) {
+      setFeedback({ type: 'error', text: error?.message || 'পাসওয়ার্ড পরিবর্তন করা যায়নি। নতুন reset link নিয়ে আবার চেষ্টা করুন।' });
+    } finally {
+      setBusy(false);
+    }
+  }
+
   async function resetPassword() {
     if (!supabase || !email.trim()) {
       setFeedback({ type: 'error', text: 'পাসওয়ার্ড রিসেট লিংক পেতে আগে আপনার ইমেইল লিখুন।' });
@@ -189,7 +223,7 @@ export default function AccountPage({
         phone: normalized,
         options: {
           channel: 'sms',
-          shouldCreateUser: true,
+          shouldCreateUser: mode === 'signup',
           data: mode === 'signup' ? { full_name: fullName.trim() } : undefined
         }
       });
@@ -341,6 +375,20 @@ export default function AccountPage({
 
   if (!authReady) {
     return <section className="account-page-wrap wrap"><div className="account-loading"><LoaderCircle className="account-spin" size={25}/><span>অ্যাকাউন্টের নিরাপদ সংযোগ যাচাই হচ্ছে…</span></div></section>;
+  }
+
+  if (recoveryMode) {
+    return (
+      <section className="account-page-wrap wrap">
+        <div className="account-page-heading"><span className="account-eyebrow"><KeyRound size={15}/> নিরাপদ পাসওয়ার্ড পরিবর্তন</span><h1>নতুন পাসওয়ার্ড সেট করুন</h1><p>ইমেইলে পাওয়া password-reset link দিয়ে এই পেজে এসেছেন। একটি নতুন, শক্তিশালী পাসওয়ার্ড বেছে নিন।</p></div>
+        <form className="account-auth-card account-verification-card account-auth-form" onSubmit={completePasswordReset}>
+          <label className="account-field"><span>নতুন পাসওয়ার্ড</span><input type="password" value={newPassword} onChange={event=>setNewPassword(event.target.value)} autoComplete="new-password" minLength={10} maxLength={128} placeholder="কমপক্ষে ১০ অক্ষর" required/></label>
+          <label className="account-field"><span>নতুন পাসওয়ার্ড আবার লিখুন</span><input type="password" value={confirmNewPassword} onChange={event=>setConfirmNewPassword(event.target.value)} autoComplete="new-password" minLength={10} maxLength={128} placeholder="একই পাসওয়ার্ড আবার লিখুন" required/></label>
+          {feedback && <div className={'account-feedback ' + feedback.type} role="status"><ShieldCheck size={17}/><span>{feedback.text}</span></div>}
+          <button type="submit" className="account-primary-button account-full-button" disabled={busy || newPassword.length < 10 || newPassword !== confirmNewPassword}>{busy ? <LoaderCircle className="account-spin" size={17}/> : <CheckCircle2 size={17}/>} {busy ? 'পাসওয়ার্ড পরিবর্তন হচ্ছে…' : 'নতুন পাসওয়ার্ড সংরক্ষণ করুন'}</button>
+        </form>
+      </section>
+    );
   }
 
   if (user && isVerified) {
