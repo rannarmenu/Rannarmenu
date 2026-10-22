@@ -9,6 +9,8 @@ const SHELL_URLS = [
   APP_BASE,
   new URL('manifest.webmanifest', APP_BASE).href,
   new URL('rannar-menu-logo.svg', APP_BASE).href,
+  new URL('pwa-icon-192.svg', APP_BASE).href,
+  new URL('pwa-icon-512.svg', APP_BASE).href,
   OFFLINE_URL
 ];
 
