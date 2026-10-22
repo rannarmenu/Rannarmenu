@@ -312,3 +312,51 @@ html[data-theme="dark"] .sponsor-ticker-fallback { color: #315c43; }
   .sponsor-ticker-item { min-width: 136px; }
   .sponsor-ticker-logo { width: 136px; }
 }
+
+
+/* Homepage sponsor ticker — larger marks with comfortable spacing and slower motion. */
+.sponsor-ticker-track { animation-duration: 58s; }
+.sponsor-ticker-group { gap: clamp(34px, 4.2vw, 66px); }
+.sponsor-ticker-item { min-width: 224px; min-height: 132px; }
+.sponsor-ticker-logo {
+  width: 216px;
+  height: 112px;
+  padding: 10px;
+  border-radius: 14px;
+}
+.sponsor-ticker-logo img { max-height: 92px; }
+.sponsor-logo-boishakhi img,
+.sponsor-logo-channel24 img { max-width: 158px; max-height: 90px; }
+.sponsor-logo-jamuna img { max-width: 184px; max-height: 70px; }
+.sponsor-logo-somoy img,
+.sponsor-logo-ntv img,
+.sponsor-logo-maasranga img { max-width: 190px; max-height: 92px; }
+.sponsor-logo-ntv img { width: 190px; height: auto; }
+.sponsor-ticker-fallback { font-size: 15px; }
+@media (max-width: 700px) {
+  .sponsor-ticker-track { animation-duration: 44s; }
+  .sponsor-ticker-group { gap: 24px; padding: 10px 17px; }
+  .sponsor-ticker-item { min-width: 174px; min-height: 100px; }
+  .sponsor-ticker-logo {
+    width: 166px;
+    height: 88px;
+    padding: 8px;
+    border-radius: 11px;
+  }
+  .sponsor-ticker-logo img { max-height: 72px; }
+  .sponsor-logo-boishakhi img,
+  .sponsor-logo-channel24 img { max-width: 126px; max-height: 70px; }
+  .sponsor-logo-jamuna img { max-width: 144px; max-height: 56px; }
+  .sponsor-logo-somoy img,
+  .sponsor-logo-ntv img,
+  .sponsor-logo-maasranga img { max-width: 146px; max-height: 72px; }
+  .sponsor-logo-ntv img { width: 146px; }
+  .sponsor-ticker-wordmark strong { font-size: 23px; }
+  .sponsor-ticker-wordmark small { font-size: 8px; }
+  .sponsor-ticker-footer { font-size: 10px; }
+}
+@media (max-width: 360px) {
+  .sponsor-ticker-item { min-width: 162px; }
+  .sponsor-ticker-logo { width: 154px; }
+  .sponsor-logo-ntv img { width: 138px; }
+}
