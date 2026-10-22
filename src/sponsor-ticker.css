@@ -1,32 +1,31 @@
-/* A refined, seamless right-to-left sponsor ticker for the home page. */
+/* Premium seamless sponsor ticker: continuous motion without a stop control. */
 .sponsor-ticker-section {
-  --ticker-ink: #2b3c2f;
-  --ticker-muted: #7a8578;
-  --ticker-line: #e5e9df;
+  --ticker-ink: #26392c;
+  --ticker-muted: #7b867a;
+  --ticker-rule: #e5e9df;
   width: 100%;
-  margin: 25px auto 36px;
-  padding: 18px 0 13px;
+  margin: 26px auto 34px;
+  padding: 18px 0 11px;
   overflow: hidden;
-  border-top: 1px solid var(--ticker-line);
-  border-bottom: 1px solid var(--ticker-line);
-  background: linear-gradient(180deg, rgba(242, 244, 236, .72), rgba(251, 250, 246, .55));
+  border-block: 1px solid var(--ticker-rule);
+  background: linear-gradient(180deg, rgba(245, 246, 239, .72), rgba(251, 250, 246, .35));
 }
 .sponsor-ticker-heading {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   gap: 18px;
   width: min(1160px, calc(100% - 48px));
-  margin: 0 auto 13px;
+  margin: 0 auto 11px;
 }
 .sponsor-ticker-heading > div { min-width: 0; }
 .sponsor-ticker-kicker {
   display: block;
   margin-bottom: 3px;
-  color: #7b8d78;
+  color: #778d76;
   font-size: 9px;
   font-weight: 700;
-  letter-spacing: 1.25px;
+  letter-spacing: 1.2px;
   line-height: 1.5;
 }
 .sponsor-ticker-heading h2 {
@@ -34,59 +33,37 @@
   color: var(--ticker-ink);
   font-size: 17px;
   font-weight: 600;
-  letter-spacing: -.15px;
-  line-height: 1.5;
+  letter-spacing: -.2px;
+  line-height: 1.45;
 }
-.sponsor-ticker-control {
-  display: inline-flex;
+.sponsor-ticker-heading::after {
+  content: "PARTNERS";
   flex: 0 0 auto;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  min-height: 31px;
-  padding: 6px 10px;
-  border: 1px solid var(--ticker-line);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, .68);
-  color: #657365;
-  font: inherit;
-  font-size: 10px;
-  cursor: pointer;
-  transition: background-color .18s ease, border-color .18s ease, color .18s ease;
-}
-.sponsor-ticker-control:hover {
-  border-color: #bdcdb8;
-  background: #fffefa;
-  color: #315c43;
-}
-.sponsor-ticker-control:focus-visible {
-  outline: 3px solid #8bb795;
-  outline-offset: 3px;
+  margin-bottom: 3px;
+  color: #96a092;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
 }
 .sponsor-ticker-viewport {
   width: 100%;
   overflow: hidden;
-  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 5.5%, #000 94.5%, transparent 100%);
-  mask-image: linear-gradient(to right, transparent 0, #000 5.5%, #000 94.5%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 4.5%, #000 95.5%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0, #000 4.5%, #000 95.5%, transparent 100%);
 }
 .sponsor-ticker-track {
   display: flex;
   width: max-content;
   align-items: center;
-  animation: sponsor-ticker-drift 43s linear infinite;
+  animation: sponsor-ticker-drift 42s linear infinite;
   will-change: transform;
-}
-.sponsor-ticker-viewport.is-paused .sponsor-ticker-track,
-.sponsor-ticker-viewport:hover .sponsor-ticker-track,
-.sponsor-ticker-viewport:focus-within .sponsor-ticker-track {
-  animation-play-state: paused;
 }
 .sponsor-ticker-group {
   display: flex;
   flex: 0 0 auto;
   align-items: center;
-  gap: clamp(27px, 4.2vw, 58px);
-  padding: 7px clamp(22px, 3.5vw, 46px);
+  gap: clamp(26px, 4vw, 56px);
+  padding: 7px clamp(22px, 3.2vw, 42px);
 }
 .sponsor-ticker-item {
   display: inline-flex;
@@ -100,9 +77,7 @@
   border-radius: 10px;
   outline-offset: 4px;
 }
-.sponsor-ticker-item:focus-visible {
-  outline: 2px solid #8bb795;
-}
+.sponsor-ticker-item:focus-visible { outline: 2px solid #8bb795; }
 .sponsor-ticker-logo {
   display: flex;
   align-items: center;
@@ -111,12 +86,15 @@
   height: 52px;
   padding: 7px 10px;
   overflow: hidden;
-  border-radius: 9px;
-  background: rgba(255, 255, 255, .86);
-  transition: opacity .18s ease, transform .18s ease;
+  border: 1px solid rgba(225, 231, 221, .8);
+  border-radius: 10px;
+  background: rgba(255, 255, 252, .94);
+  box-shadow: 0 3px 11px rgba(38, 57, 44, .035);
+  transition: border-color .18s ease, box-shadow .18s ease;
 }
 .sponsor-ticker-item:hover .sponsor-ticker-logo {
-  transform: translateY(-2px);
+  border-color: #cad8c5;
+  box-shadow: 0 5px 14px rgba(38, 57, 44, .08);
 }
 .sponsor-ticker-logo img {
   display: block;
@@ -127,21 +105,9 @@
   object-fit: contain;
   user-select: none;
 }
-.sponsor-logo-boishakhi img,
-.sponsor-logo-channel24 img {
-  max-width: 76px;
-  max-height: 41px;
-}
-.sponsor-logo-jamuna img {
-  max-width: 108px;
-  max-height: 29px;
-}
-.sponsor-logo-somoy img,
-.sponsor-logo-ntv img,
-.sponsor-logo-maasranga img {
-  max-width: 105px;
-  max-height: 39px;
-}
+.sponsor-logo-boishakhi img, .sponsor-logo-channel24 img { max-width: 76px; max-height: 41px; }
+.sponsor-logo-jamuna img { max-width: 108px; max-height: 29px; }
+.sponsor-logo-somoy img, .sponsor-logo-ntv img, .sponsor-logo-maasranga img { max-width: 105px; max-height: 39px; }
 .sponsor-ticker-wordmark {
   display: flex;
   flex-direction: column;
@@ -175,50 +141,42 @@
   align-items: center;
   justify-content: center;
   gap: 5px;
-  margin: 7px auto 0;
+  margin: 5px auto 0;
   padding: 0 14px;
   color: var(--ticker-muted);
-  font-size: 10px;
+  font-size: 9px;
   line-height: 1.6;
   text-align: center;
 }
 .sponsor-ticker-footer svg { flex: 0 0 auto; }
-
 @keyframes sponsor-ticker-drift {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
 }
-
 html[data-theme="dark"] .sponsor-ticker-section {
   --ticker-ink: #e8efe6;
   --ticker-muted: #a5b1a4;
-  --ticker-line: #303b31;
-  background: linear-gradient(180deg, rgba(24, 34, 25, .85), rgba(17, 23, 18, .35));
+  --ticker-rule: #303b31;
+  background: linear-gradient(180deg, rgba(24, 34, 25, .72), rgba(17, 23, 18, .24));
 }
 html[data-theme="dark"] .sponsor-ticker-heading h2 { color: #e8efe6; }
 html[data-theme="dark"] .sponsor-ticker-kicker { color: #9caf99; }
-html[data-theme="dark"] .sponsor-ticker-control {
-  border-color: #3b493c;
-  background: #18231a;
-  color: #bfccbc;
-}
-html[data-theme="dark"] .sponsor-ticker-control:hover {
-  border-color: #668b69;
-  background: #202d22;
-  color: #e8efe6;
-}
+html[data-theme="dark"] .sponsor-ticker-heading::after { color: #6d7d6b; }
 html[data-theme="dark"] .sponsor-ticker-logo {
-  background: rgba(255, 255, 255, .94);
+  border-color: #e2e7dd;
+  background: rgba(255, 255, 252, .97);
+  box-shadow: none;
 }
+html[data-theme="dark"] .sponsor-ticker-item:hover .sponsor-ticker-logo { border-color: #a7c3a1; }
 html[data-theme="dark"] .sponsor-ticker-fallback { color: #315c43; }
-
 @media (max-width: 700px) {
-  .sponsor-ticker-section { margin: 18px auto 28px; padding: 16px 0 12px; }
-  .sponsor-ticker-heading { width: calc(100% - 34px); margin-bottom: 10px; gap: 10px; }
+  .sponsor-ticker-section { margin: 18px auto 27px; padding: 15px 0 9px; }
+  .sponsor-ticker-heading { width: calc(100% - 34px); margin-bottom: 8px; gap: 10px; }
   .sponsor-ticker-heading h2 { font-size: 15px; }
-  .sponsor-ticker-kicker { font-size: 8px; letter-spacing: .9px; }
-  .sponsor-ticker-control { min-height: 29px; padding: 5px 8px; gap: 5px; font-size: 9px; }
-  .sponsor-ticker-group { gap: 20px; padding: 5px 18px; }
+  .sponsor-ticker-kicker { font-size: 8px; letter-spacing: .85px; }
+  .sponsor-ticker-heading::after { font-size: 8px; letter-spacing: 1px; }
+  .sponsor-ticker-track { animation-duration: 30s; }
+  .sponsor-ticker-group { gap: 19px; padding: 5px 16px; }
   .sponsor-ticker-item { min-width: 94px; min-height: 53px; }
   .sponsor-ticker-logo { width: 100px; height: 46px; padding: 6px 8px; border-radius: 8px; }
   .sponsor-ticker-logo img { max-height: 34px; }
@@ -227,7 +185,13 @@ html[data-theme="dark"] .sponsor-ticker-fallback { color: #315c43; }
   .sponsor-logo-somoy img, .sponsor-logo-ntv img, .sponsor-logo-maasranga img { max-width: 90px; max-height: 34px; }
   .sponsor-ticker-wordmark strong { font-size: 16px; }
   .sponsor-ticker-wordmark small { font-size: 6px; letter-spacing: 1.8px; }
-  .sponsor-ticker-footer { margin-top: 6px; font-size: 9px; }
+  .sponsor-ticker-footer { margin-top: 4px; font-size: 9px; }
+}
+@media (max-width: 360px) {
+  .sponsor-ticker-heading::after { display: none; }
+  .sponsor-ticker-group { gap: 15px; }
+  .sponsor-ticker-item { min-width: 88px; }
+  .sponsor-ticker-logo { width: 94px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .sponsor-ticker-track {
@@ -243,5 +207,4 @@ html[data-theme="dark"] .sponsor-ticker-fallback { color: #315c43; }
   }
   .sponsor-ticker-group[aria-hidden="true"] { display: none; }
   .sponsor-ticker-group:first-child { padding-inline: 22px; }
-  .sponsor-ticker-item:hover .sponsor-ticker-logo { transform: none; }
 }
