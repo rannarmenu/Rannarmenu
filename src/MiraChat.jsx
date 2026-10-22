@@ -408,6 +408,19 @@ export default function MiraChat({ onOpenRecipe }) {
     // context and returns a validated action; only the client can open real recipes.
     const aiResponse = await requestMiraAI(rawText, previousMessages);
     const aiResult = aiResponse.result;
+
+    // Do not let local greeting/cooking shortcuts mask a failed general-purpose
+    // AI request. In particular, billing errors must stay visible for every intent.
+    if (!aiResult && aiResponse.errorCode) {
+      const errorLocale = isBengali(rawText)
+        ? 'bn'
+        : detectBanglish(rawText)
+          ? 'banglish'
+          : (typeof navigator !== 'undefined' && String(navigator.language || '').startsWith('bn') ? 'bn' : 'en');
+      addAssistantMessage(getMiraAIErrorMessage(aiResponse.errorCode, errorLocale));
+      return;
+    }
+
     let aiSearchQuery = '';
     if (aiResult) {
       if (aiResult.action !== 'recipe_search') {
