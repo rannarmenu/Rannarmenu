@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ArrowUpRight, BadgeCheck, Clock3, Globe2, LoaderCircle, Newspaper, RefreshCw, Utensils, Building2, MapPin } from 'lucide-react';
+import { ArrowUpRight, BadgeCheck, Clock3, Globe2, LoaderCircle, Newspaper, RefreshCw, Utensils, MapPin } from 'lucide-react';
 import './news-feed.css';
 import { AUTO_NEWS_SPONSORS } from './lib/sponsorPartners.js';
 
@@ -171,7 +171,7 @@ async function loadSponsorNews(signal, force = false, selectedSponsor = null) {
   items.sort((a, b) => dateValue(b) - dateValue(a));
 
   const timestamps = successful.map((entry) => entry.result.updatedAt || 0);
-  const updatedAt = Math.max(Date.now(), ...timestamps);
+  const updatedAt = Math.max(...timestamps) || Date.now();
   return {
     items: items.slice(0, selectedSource ? 10 : 15),
     updatedAt,
