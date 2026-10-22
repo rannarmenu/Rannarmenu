@@ -6,7 +6,7 @@ A responsive Bengali recipe catalogue built with React, Vite, Supabase Auth/Post
 
 - Bengali recipe catalogue with category filters and full-text search.
 - Server-side pagination (24 recipes per page).
-- Recipe details, ingredients and ordered cooking steps.
+- Recipe details, ingredients and ordered cooking steps. Dish-matched photos are shown only when their source, creator and reuse license are recorded; otherwise the site displays a photo-unavailable placeholder.
 - Supabase-backed published recipes.
 - Admin sign-in with Supabase Auth; public sign-up is not provided.
 - Admin-only recipe create, edit, delete, draft/publish workflow and source attribution fields.
