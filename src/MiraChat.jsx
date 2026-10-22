@@ -398,6 +398,7 @@ export default function MiraChat({ onOpenRecipe }) {
         const selectedRecipe = previousOptions.recipes[choice];
         setMood('happy');
         onOpenRecipe?.(selectedRecipe);
+        setIsFullscreen(false);
         setIsOpen(false);
         return;
       }
@@ -436,6 +437,7 @@ export default function MiraChat({ onOpenRecipe }) {
         if (exactEnough) {
           setMood('happy');
           onOpenRecipe?.(best.recipe);
+          setIsFullscreen(false);
           setIsOpen(false);
           return;
         }
@@ -530,6 +532,7 @@ export default function MiraChat({ onOpenRecipe }) {
       );
       if (exactEnough) {
         onOpenRecipe?.(best.recipe);
+        setIsFullscreen(false);
         setIsOpen(false);
         return;
       }
@@ -653,10 +656,8 @@ export default function MiraChat({ onOpenRecipe }) {
       return;
     }
     setShowIntro(false);
-    setIsOpen(value => {
-      if (!value) setIsFullscreen(false);
-      return !value;
-    });
+    if (!isOpen) setIsFullscreen(false);
+    setIsOpen(value => !value);
   };
 
   const viewportWidth = Math.max(1, viewportMetrics.width || (typeof window !== 'undefined' ? window.innerWidth : 1024));
