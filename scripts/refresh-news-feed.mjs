@@ -129,6 +129,10 @@ async function fetchArticleImage(articleUrl, publisherUrl = '') {
         publisherUrl,
         htmlStart: page.html.slice(0, 1800),
         articleCandidate: findPublisherArticleLink(page.html, page.url, publisherUrl),
+        hasSomoyDomain: page.html.includes('somoynews'),
+        externalHrefs: [...page.html.matchAll(/href=["']([^"']+)["']/gi)].map(m => m[1]).filter(h => h.startsWith('http') && !h.includes('google.com')).slice(0, 30),
+        mentionsTitle: page.html.includes('ভোট দেয়ার নিয়ম'),
+        scriptEnd: page.html.slice(-1500),
       }));
     }
     if (page.hostname === 'news.google.com' || page.hostname.endsWith('.news.google.com')) {
