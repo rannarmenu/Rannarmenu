@@ -274,12 +274,22 @@ Deno.serve(async (req: Request) => {
         : {};
       const providerCode = typeof providerError.code === "string" ? providerError.code : "";
       const providerType = typeof providerError.type === "string" ? providerError.type : "";
+      // Log only a safe provider status/code pair so production quota failures can
+      // be diagnosed without logging API keys, prompts, or user conversation text.
+      console.warn("mira_ai_provider_error", JSON.stringify({
+        status: providerResponse.status,
+        code: providerCode || "unknown",
+        type: providerType || "unknown",
+        model,
+      }));
       const billingCodes = new Set([
         "insufficient_quota",
         "credit_balance_exhausted",
         "organization_usage_limit_exceeded",
         "organization_spend_limit_exceeded",
         "project_spend_limit_exceeded",
+        "billing_hard_limit_reached",
+        "usage_limit_exceeded",
       ]);
       let code = "AI_PROVIDER_ERROR";
       let message = "Mira could not complete that answer right now.";
