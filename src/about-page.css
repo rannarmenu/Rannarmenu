@@ -302,3 +302,107 @@ html[data-theme="dark"] .about-option-row:hover .about-option-arrow {
   .about-option-row, .about-option-arrow { transition: none; }
   .about-option-row:hover { transform: none; }
 }
+
+
+/* Larger sponsor cards and logo stage — let every channel mark read clearly. */
+.about-sponsor-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  align-items: stretch;
+}
+.about-sponsor-item {
+  min-height: 250px;
+  border-radius: 14px;
+}
+.about-sponsor-logo {
+  height: 142px;
+  flex: 0 0 142px;
+  padding: 14px;
+}
+.about-sponsor-logo img {
+  display: block;
+  max-width: 100%;
+  max-height: 114px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}
+.about-sponsor-logo-fallback {
+  font-size: 19px;
+  line-height: 1.5;
+  padding: 8px;
+}
+.about-sponsor-name {
+  margin: 14px 15px 5px;
+  font-size: 15px;
+}
+.about-sponsor-description {
+  margin-inline: 15px;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.about-sponsor-visit {
+  margin-inline: 15px;
+  margin-bottom: 14px;
+  padding-top: 13px;
+  font-size: 11px;
+}
+html[data-theme="dark"] .about-sponsor-logo {
+  background: #fff;
+  border-bottom-color: #344338;
+}
+html[data-theme="dark"] .about-sponsor-logo img {
+  filter: none;
+}
+@media (max-width: 820px) {
+  .about-sponsor-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 13px;
+  }
+  .about-sponsor-logo {
+    height: 132px;
+    flex-basis: 132px;
+    padding: 12px;
+  }
+  .about-sponsor-logo img {
+    max-height: 108px;
+  }
+}
+@media (max-width: 580px) {
+  .about-sponsor-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .about-sponsor-item {
+    min-height: 235px;
+    border-radius: 12px;
+  }
+  .about-sponsor-logo {
+    height: 125px;
+    flex-basis: 125px;
+    padding: 10px;
+  }
+  .about-sponsor-logo img {
+    max-width: 100%;
+    max-height: 103px;
+  }
+  .about-sponsor-logo-fallback {
+    font-size: 15px;
+  }
+  .about-sponsor-name {
+    margin: 11px 10px 4px;
+    font-size: 13px;
+  }
+  .about-sponsor-description {
+    margin-inline: 10px;
+    font-size: 10px;
+  }
+  .about-sponsor-visit {
+    margin-inline: 10px;
+    margin-bottom: 11px;
+    gap: 4px;
+    padding-top: 10px;
+    font-size: 10px;
+  }
+}
