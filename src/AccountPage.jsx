@@ -7,10 +7,9 @@ import { supabase, supabaseConfigured } from './lib/supabaseClient.js';
 import './account.css';
 
 function authReturnUrl() {
-  const url = new URL(window.location.href);
-  url.hash = '';
-  url.searchParams.set('account', '1');
-  return url.toString();
+  // Return to the exact GitHub Pages base path configured in Supabase's redirect allow-list.
+  // Avoid adding query/hash state that can cause an otherwise valid callback URL to be rejected.
+  return new URL(import.meta.env.BASE_URL || '/', window.location.origin).toString();
 }
 
 function normalizeBangladeshPhone(value) {
@@ -110,7 +109,7 @@ export default function AccountPage({
         }
         setFeedback({
           type: 'success',
-          text: 'রেজিস্ট্রেশনের অনুরোধ গ্রহণ করা হয়েছে। আপনার ইমেইলে পাঠানো verification link খুলে অ্যাকাউন্ট নিশ্চিত করুন; নিশ্চিত না হওয়া পর্যন্ত রেসিপির উপকরণ ও রান্নার ধাপ খোলা যাবে না।'
+          text: 'রেজিস্ট্রেশনের অনুরোধ গ্রহণ করা হয়েছে। Inbox, Spam ও Promotions পরীক্ষা করুন। ইমেইল না পেলে নিচের “যাচাইকরণ ইমেইল আবার পাঠান” বোতামটি ব্যবহার করুন। যাচাই সম্পূর্ণ না হওয়া পর্যন্ত রেসিপির পূর্ণ বিবরণ দেখা যাবে না।'
         });
         setPassword('');
       } else {
@@ -462,6 +461,7 @@ export default function AccountPage({
               <label className="account-field"><span>ইমেইল ঠিকানা</span><input type="email" value={email} onChange={event=>setEmail(event.target.value)} autoComplete="email" inputMode="email" maxLength={254} placeholder="name@example.com" required/></label>
               <label className="account-field"><span>পাসওয়ার্ড</span><div className="account-password-field"><input type={showPassword ? 'text' : 'password'} value={password} onChange={event=>setPassword(event.target.value)} autoComplete={mode === 'signup' ? 'new-password' : 'current-password'} minLength={mode === 'signup' ? 10 : 1} maxLength={128} placeholder={mode === 'signup' ? 'কমপক্ষে ১০ অক্ষর' : 'আপনার পাসওয়ার্ড'} required/><button type="button" onClick={()=>setShowPassword(value=>!value)} aria-label={showPassword ? 'পাসওয়ার্ড লুকান' : 'পাসওয়ার্ড দেখুন'}>{showPassword ? <EyeOff size={17}/> : <Eye size={17}/>}</button></div></label>
               {feedback && <div className={'account-feedback ' + feedback.type} role="status"><ShieldCheck size={17}/><span>{feedback.text}</span><button type="button" onClick={()=>setFeedback(null)} aria-label="বার্তা বন্ধ করুন"><X size={15}/></button></div>}
+              {mode === 'signup' && feedback?.type === 'success' && <button type="button" className="account-text-button" onClick={resendVerification} disabled={busy}><Mail size={16}/> যাচাইকরণ ইমেইল আবার পাঠান</button>}
               <button type="submit" className="account-primary-button account-full-button" disabled={busy}>{busy ? <LoaderCircle className="account-spin" size={18}/> : <ArrowRight size={17}/>} {busy ? 'অপেক্ষা করুন…' : mode === 'signup' ? 'যাচাইকরণ ইমেইল পাঠান' : 'নিরাপদে লগইন করুন'}</button>
               {mode === 'login' && <div className="account-auth-links"><button type="button" onClick={resetPassword} disabled={busy}>পাসওয়ার্ড ভুলে গেছেন?</button><button type="button" onClick={resendVerification} disabled={busy}>ইমেইল যাচাই হয়নি?</button></div>}
             </form>
