@@ -467,15 +467,22 @@ export default function MiraChat({ onOpenRecipe }) {
 
   const viewportWidth = typeof window !== 'undefined' ? window.innerWidth : 1024;
   const viewportHeight = typeof window !== 'undefined' ? window.innerHeight : 768;
-  const widgetWidth = Math.min(370, Math.max(0, viewportWidth - (viewportWidth <= 700 ? 22 : 28)));
+  const baseWidgetWidth = Math.min(370, Math.max(0, viewportWidth - (viewportWidth <= 700 ? 22 : 28)));
   const launcherSize = viewportWidth <= 360 ? 47 : viewportWidth <= 700 ? 51 : 56;
   const placementLeft = floatingPosition ? floatingPosition.left < viewportWidth / 2 : false;
   const placementTop = floatingPosition ? floatingPosition.top < viewportHeight / 2 : false;
+  // Keep the launcher exactly under the finger; shrink the chat dock to the free space on that side.
+  const availableWidth = floatingPosition
+    ? (placementLeft ? viewportWidth - floatingPosition.left : floatingPosition.left + launcherSize)
+    : baseWidgetWidth;
+  const widgetWidth = floatingPosition
+    ? Math.min(baseWidgetWidth, Math.max(launcherSize, availableWidth))
+    : baseWidgetWidth;
   const widgetOrigin = floatingPosition
     ? getMiraWidgetOrigin(floatingPosition.left, viewportWidth, widgetWidth, launcherSize)
     : null;
   const widgetStyle = widgetOrigin && floatingPosition
-    ? { left: widgetOrigin.left + 'px', top: floatingPosition.top + 'px', right: 'auto', bottom: 'auto' }
+    ? { left: widgetOrigin.left + 'px', top: floatingPosition.top + 'px', right: 'auto', bottom: 'auto', width: widgetWidth + 'px', maxWidth: widgetWidth + 'px' }
     : undefined;
 
   const handleSubmit = event => {
