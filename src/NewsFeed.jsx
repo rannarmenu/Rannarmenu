@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ArrowUpRight, BadgeCheck, Clock3, Globe2, LoaderCircle, Newspaper, RefreshCw, Utensils, Building2, MapPin } from 'lucide-react';
 import './news-feed.css';
+import { AUTO_NEWS_SPONSORS } from './lib/sponsorPartners.js';
 
 const RSS_JSON_ENDPOINT = 'https://api.rss2json.com/v1/api.json';
 const REFRESH_INTERVAL = 15 * 60 * 1000;
@@ -114,6 +115,138 @@ async function loadFeed(query, signal, force = false) {
   return { items, updatedAt: result.cachedAt, fromCache: false };
 }
 
+
+function getSelectedAutoNewsSponsor(selectedSponsor) {
+  if (!selectedSponsor) return null;
+  return AUTO_NEWS_SPONSORS.find((source) =>
+    source.id === selectedSponsor.id ||
+    source.newsQuery === selectedSponsor.newsQuery ||
+    source.href === selectedSponsor.href
+  ) || null;
+}
+
+async function loadSponsorNews(signal, force = false, selectedSponsor = null) {
+  const selectedSource = getSelectedAutoNewsSponsor(selectedSponsor);
+  const sources = selectedSource ? [selectedSource] : AUTO_NEWS_SPONSORS;
+  const settled = await Promise.all(sources.map(async (source) => {
+    try {
+      const result = await loadFeed(source.newsQuery, signal, force);
+      return { source, result, error: null };
+    } catch (error) {
+      return { source, result: null, error };
+    }
+  }));
+
+  if (signal.aborted) {
+    const abortError = new Error('News request was cancelled.');
+    abortError.name = 'AbortError';
+    throw abortError;
+  }
+
+  const successful = settled.filter((entry) => entry.result);
+  const failedSources = settled.filter((entry) => entry.error).map((entry) => entry.source);
+  if (!successful.length) {
+    throw new Error('স্পনসরদের নিউজ-ফিড এখন পাওয়া যাচ্ছে না। কিছুক্ষণ পর আবার চেষ্টা করুন।');
+  }
+
+  const maximumPerSource = selectedSource ? 10 : 3;
+  const seen = new Set();
+  const items = successful.flatMap(({ source, result }) =>
+    result.items.slice(0, maximumPerSource).map((item) => ({
+      ...item,
+      sponsorId: source.id,
+      sponsorLabel: source.newsLabel || source.label || source.name,
+      source: source.newsLabel || source.label || source.name,
+    }))
+  ).filter((item) => {
+    if (!item.link || seen.has(item.link)) return false;
+    seen.add(item.link);
+    return true;
+  });
+
+  const dateValue = (item) => {
+    const timestamp = Date.parse(item.publishedAt || '');
+    return Number.isFinite(timestamp) ? timestamp : 0;
+  };
+  items.sort((a, b) => dateValue(b) - dateValue(a));
+
+  const timestamps = successful.map((entry) => entry.result.updatedAt || 0);
+  const updatedAt = Math.max(Date.now(), ...timestamps);
+  return {
+    items: items.slice(0, selectedSource ? 10 : 15),
+    updatedAt,
+    fromCache: successful.every((entry) => Boolean(entry.result.fromCache)),
+    failedSources,
+    selectedSource,
+    loadedSourceCount: successful.length,
+    totalSourceCount: sources.length,
+  };
+}
+
+function useSponsorNewsFeed(selectedSponsor, refreshKey = 0) {
+  const selectedSource = getSelectedAutoNewsSponsor(selectedSponsor);
+  const [items, setItems] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState('');
+  const [updatedAt, setUpdatedAt] = useState(0);
+  const [fromCache, setFromCache] = useState(false);
+  const [failedSources, setFailedSources] = useState([]);
+
+  useEffect(() => {
+    let active = true;
+    let hasItems = false;
+    const controller = new AbortController();
+
+    setItems([]);
+    setLoading(true);
+    setError('');
+    setUpdatedAt(0);
+    setFromCache(false);
+    setFailedSources([]);
+
+    const refresh = async (force = false) => {
+      if (!active) return;
+      if (!hasItems || force) setLoading(true);
+
+      try {
+        const result = await loadSponsorNews(controller.signal, force, selectedSource);
+        if (!active) return;
+        setItems(result.items);
+        hasItems = result.items.length > 0;
+        setUpdatedAt(result.updatedAt || Date.now());
+        setFromCache(Boolean(result.fromCache));
+        setFailedSources(result.failedSources);
+        if (!result.items.length) {
+          setError(result.failedSources.length
+            ? 'কিছু স্পনসর উৎস থেকে খবর আনা যায়নি।'
+            : 'এই মুহূর্তে নির্বাচিত সংবাদ-উৎসে নতুন খবর পাওয়া যায়নি।');
+        } else {
+          setError('');
+        }
+      } catch (caught) {
+        if (!active || caught?.name === 'AbortError') return;
+        setError(caught?.message || 'স্পনসরদের খবর লোড করা যায়নি।');
+        if (!hasItems) setItems([]);
+      } finally {
+        if (active) setLoading(false);
+      }
+    };
+
+    void refresh(false);
+    const interval = window.setInterval(() => {
+      void refresh(true);
+    }, REFRESH_INTERVAL);
+
+    return () => {
+      active = false;
+      controller.abort();
+      window.clearInterval(interval);
+    };
+  }, [selectedSource?.id, refreshKey]);
+
+  return { items, loading, error, updatedAt, fromCache, failedSources, selectedSource };
+}
+
 function formatNewsTime(value) {
   if (!value) return 'সময় উল্লেখ নেই';
   const parsed = new Date(value);
@@ -213,7 +346,7 @@ function NewsItems({ items, Icon, compact = false }) {
           </a>
           <div className="news-item-content">
             <div className="news-item-meta">
-              <span className="news-item-source">{item.source}</span>
+              <span className={item.sponsorLabel ? "news-item-source news-item-sponsor-source" : "news-item-source"}>{item.sponsorLabel || item.source}</span>
               <span aria-hidden="true">·</span>
               <time dateTime={item.publishedAt || undefined}><Clock3 size={12} aria-hidden="true" />{formatNewsTime(item.publishedAt)}</time>
             </div>
@@ -243,14 +376,13 @@ function FeedStatus({ loading, error, updatedAt, fromCache, onRefresh }) {
   );
 }
 
-export default function NewsFeed({ selectedSponsor = null }) {
+export default function NewsFeed({ selectedSponsor = null, onSelectSponsor }) {
   const [activeCategory, setActiveCategory] = useState('food');
   const [sponsorRefreshKey, setSponsorRefreshKey] = useState(0);
   const [categoryRefreshKey, setCategoryRefreshKey] = useState(0);
   const active = NEWS_CATEGORIES.find((category) => category.id === activeCategory) || NEWS_CATEGORIES[0];
-  const sponsorFeed = useNewsFeed(selectedSponsor?.newsQuery || '', sponsorRefreshKey);
+  const sponsorFeed = useSponsorNewsFeed(selectedSponsor, sponsorRefreshKey);
   const categoryFeed = useNewsFeed(active.query, categoryRefreshKey);
-  const SponsorIcon = selectedSponsor?.wordmark ? Building2 : Newspaper;
   const ActiveIcon = active.Icon;
 
   useEffect(() => {
@@ -259,7 +391,9 @@ export default function NewsFeed({ selectedSponsor = null }) {
         document.getElementById('sponsor-news')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
     }
-  }, [selectedSponsor?.name]);
+  }, [selectedSponsor?.id, selectedSponsor?.name]);
+
+  const showAllSponsorNews = () => onSelectSponsor?.(null);
 
   return (
     <div className="homepage-news-wrap">
@@ -267,50 +401,97 @@ export default function NewsFeed({ selectedSponsor = null }) {
         <div className="homepage-news-heading">
           <div className="homepage-news-heading-copy">
             <span className="homepage-news-kicker"><BadgeCheck size={13} /> PARTNER UPDATES</span>
-            <h2 id="sponsor-news-heading"><Newspaper size={23} aria-hidden="true" /> স্পনসরদের খবর <span className="news-auto-badge">AUTO UPDATE</span></h2>
-            <p>চলমান লোগোতে চাপ দিলে নির্বাচিত স্পনসর বা পার্টনারের প্রকাশিত খবর এখানে দেখাবে।</p>
+            <h2 id="sponsor-news-heading"><Newspaper size={23} aria-hidden="true" /> স্পনসরদের সর্বশেষ খবর <span className="news-auto-badge">AUTO UPDATE</span></h2>
+            <p>
+              সময় টিভি, NTV, News24 / Channel 24, Jamuna TV ও Maasranga TV-এর সংবাদ একসঙ্গে স্বয়ংক্রিয়ভাবে এখানে আসবে।
+              লোগো বা নিচের উৎসে চাপ দিলে নির্দিষ্ট চ্যানেলের খবর দেখা যাবে।
+            </p>
           </div>
-          {selectedSponsor && (
-            <a className="news-source-site-link" href={selectedSponsor.href} target="_blank" rel="noopener noreferrer">
+          {sponsorFeed.selectedSource && (
+            <a className="news-source-site-link" href={sponsorFeed.selectedSource.href} target="_blank" rel="noopener noreferrer">
               অফিসিয়াল সাইট <ArrowUpRight size={14} aria-hidden="true" />
             </a>
           )}
         </div>
 
-        {selectedSponsor ? (
-          <>
-            <div className="selected-sponsor-banner">
-              <span className={'selected-sponsor-logo ' + selectedSponsor.className}>
-                {selectedSponsor.wordmark ? <strong>SYLAÉ</strong> : selectedSponsor.label}
-              </span>
-              <div className="selected-sponsor-copy">
-                <strong>{selectedSponsor.name}</strong>
-                <span>এই উৎসের নিউজ-ইনডেক্সে পাওয়া প্রকাশনা</span>
-              </div>
-              <span className="selected-sponsor-check"><BadgeCheck size={16} /> নির্বাচিত</span>
-            </div>
-            <FeedStatus loading={sponsorFeed.loading} error={sponsorFeed.items.length ? '' : sponsorFeed.error} updatedAt={sponsorFeed.updatedAt} fromCache={sponsorFeed.fromCache} onRefresh={() => setSponsorRefreshKey((value) => value + 1)} />
-            {sponsorFeed.loading && !sponsorFeed.items.length ? (
-              <div className="news-empty-state"><LoaderCircle className="news-spin" size={24} /><strong>খবর খোঁজা হচ্ছে…</strong><span>যাচাইযোগ্য শিরোনাম পাওয়া গেলে এখানে দেখাবে।</span></div>
-            ) : sponsorFeed.items.length ? (
-              <NewsItems items={sponsorFeed.items.slice(0, 5)} Icon={SponsorIcon} />
-            ) : (
-              <div className="news-empty-state">
-                <SponsorIcon size={27} />
-                <strong>{sponsorFeed.error ? 'এই মুহূর্তে খবর আনা যাচ্ছে না' : 'এখন কোনো প্রকাশনা পাওয়া যায়নি'}</strong>
-                <span>এটি স্পনসরটির কোনো সংবাদ নেই—এমন নিশ্চয়তা নয়। নিউজ ইনডেক্সে ফল না পেলে অফিসিয়াল সাইটে দেখুন।</span>
-                <a href={selectedSponsor.href} target="_blank" rel="noopener noreferrer">অফিসিয়াল সাইট খুলুন <ArrowUpRight size={14} /></a>
-              </div>
-            )}
-          </>
-        ) : (
-          <button className="sponsor-news-prompt" type="button" onClick={() => document.querySelector('.sponsor-ticker-section')?.scrollIntoView({ behavior: 'smooth', block: 'center' })}>
-            <span className="sponsor-news-prompt-icon"><Newspaper size={22} /></span>
-            <span><strong>কোন স্পনসরের খবর দেখবেন?</strong><small>উপরের চলমান লোগোর যেকোনোটিতে চাপ দিন। স্পনসর স্লাইডার চলতে থাকবে।</small></span>
-            <ArrowUpRight size={18} />
+        <div className="sponsor-feed-source-list" role="group" aria-label="স্পনসরের সংবাদ বেছে নিন">
+          <button
+            className={sponsorFeed.selectedSource ? 'sponsor-feed-source-button' : 'sponsor-feed-source-button active'}
+            type="button"
+            onClick={showAllSponsorNews}
+            aria-pressed={!sponsorFeed.selectedSource}
+          >
+            <Newspaper size={13} aria-hidden="true" /> সব স্পনসরের খবর
           </button>
+          {AUTO_NEWS_SPONSORS.map((source) => {
+            const selected = sponsorFeed.selectedSource?.id === source.id;
+            return (
+              <button
+                key={source.id}
+                className={selected ? 'sponsor-feed-source-button active' : 'sponsor-feed-source-button'}
+                type="button"
+                onClick={() => onSelectSponsor?.(selected ? null : source)}
+                aria-pressed={selected}
+              >
+                {source.newsLabel || source.label}
+              </button>
+            );
+          })}
+        </div>
+
+        {sponsorFeed.selectedSource && selectedSponsor && (
+          <div className="selected-sponsor-banner">
+            <span className={'selected-sponsor-logo ' + (sponsorFeed.selectedSource.className || '')}>
+              {sponsorFeed.selectedSource.wordmark ? <strong>SYLAÉ</strong> : sponsorFeed.selectedSource.label}
+            </span>
+            <div className="selected-sponsor-copy">
+              <strong>{sponsorFeed.selectedSource.name}</strong>
+              <span>এই মিডিয়া স্পনসরের নিউজ-ইনডেক্স থেকে পাওয়া শিরোনাম</span>
+            </div>
+            <span className="selected-sponsor-check"><BadgeCheck size={16} /> নির্বাচিত</span>
+          </div>
         )}
-        <p className="news-attribution-note">খবরের শিরোনাম ও লিংক Google News-এর সার্চ ফিড থেকে আসে; মূল প্রকাশকের পাতায় সম্পূর্ণ খবর পড়ুন।</p>
+
+        <FeedStatus
+          loading={sponsorFeed.loading}
+          error={sponsorFeed.items.length ? '' : sponsorFeed.error}
+          updatedAt={sponsorFeed.updatedAt}
+          fromCache={sponsorFeed.fromCache}
+          onRefresh={() => setSponsorRefreshKey((value) => value + 1)}
+        />
+
+        {sponsorFeed.failedSources.length > 0 && sponsorFeed.items.length > 0 && (
+          <p className="news-source-warning" role="status">
+            {sponsorFeed.failedSources.map((source) => source.newsLabel || source.label).join(', ')}-এর ফিড এখন পাওয়া যায়নি; অন্য উৎসের খবর দেখানো হচ্ছে।
+          </p>
+        )}
+
+        {sponsorFeed.loading && !sponsorFeed.items.length ? (
+          <div className="news-empty-state">
+            <LoaderCircle className="news-spin" size={24} />
+            <strong>স্পনসরদের খবর আনা হচ্ছে…</strong>
+            <span>পাঁচটি সংবাদমাধ্যমের সাম্প্রতিক শিরোনাম সংগ্রহ করা হচ্ছে।</span>
+          </div>
+        ) : sponsorFeed.items.length ? (
+          <NewsItems items={sponsorFeed.items} Icon={Newspaper} compact={false} />
+        ) : (
+          <div className="news-empty-state">
+            <Newspaper size={27} />
+            <strong>{sponsorFeed.error ? 'এই মুহূর্তে খবর আনা যাচ্ছে না' : 'এখন নতুন খবর পাওয়া যায়নি'}</strong>
+            <span>
+              সংবাদ-সূচকে খবর না পাওয়া মানেই ওই চ্যানেলে নতুন খবর নেই—এমন নয়। আবার চেষ্টা করুন অথবা উৎসের অফিসিয়াল সাইট খুলুন।
+            </span>
+            {sponsorFeed.selectedSource ? (
+              <a href={sponsorFeed.selectedSource.href} target="_blank" rel="noopener noreferrer">অফিসিয়াল সাইট খুলুন <ArrowUpRight size={14} /></a>
+            ) : (
+              <button className="news-retry-button" type="button" onClick={() => setSponsorRefreshKey((value) => value + 1)}>আবার চেষ্টা করুন <RefreshCw size={14} /></button>
+            )}
+          </div>
+        )}
+
+        <p className="news-attribution-note">
+          শিরোনাম, সময় ও লিংক Google News-এর RSS সার্চ ফিড থেকে আনা হয়। প্রতিটি শিরোনামে চাপ দিলে মূল প্রকাশনার পাতায় যাবেন; ফিড নির্ভর করে সংশ্লিষ্ট সংবাদ ওয়েবসাইটের ইনডেক্স ও বাইরের RSS সার্ভিসের ওপর।
+        </p>
       </section>
 
       <section className="homepage-news-panel latest-news-panel" id="latest-news" aria-labelledby="latest-news-heading">
