@@ -1,5 +1,5 @@
 const COMMONS_API = 'https://commons.wikimedia.org/w/api.php';
-const STOP = new Set(['a','an','and','the','with','of','in','style','bengali','bangladeshi','bangladesh','indian','recipe','food','dish','curry','traditional','homemade','easy','quick','fresh','fried','roasted','steamed','baked','made','from']);
+const STOP = new Set(['a','an','and','the','with','of','in','style','bengali','bangladeshi','bangladesh','indian','recipe','food','dish','traditional','homemade','easy','quick','fresh','made','from']);
 
 const ALIASES = {
   'আলু ভর্তা': [{q:'aloo bhorta',must:['aloo','bhorta']},{q:'aloo bharta',must:['aloo','bharta']},{q:'potato bhorta',must:['potato','bhorta']}],
