@@ -8,7 +8,7 @@ on:
       - '.github/workflows/build-android-apk.yml'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build-apk:
@@ -33,10 +33,27 @@ jobs:
       - name: Build installable APK
         run: gradle --no-daemon assembleDebug
 
+      - name: Prepare public download file
+        run: cp app/build/outputs/apk/debug/app-debug.apk app/build/outputs/apk/debug/Rannar-Menu.apk
+
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: Rannar-Menu-Android-APK
-          path: android-app/app/build/outputs/apk/debug/app-debug.apk
+          path: android-app/app/build/outputs/apk/debug/Rannar-Menu.apk
           if-no-files-found: error
           retention-days: 30
+
+      - name: Publish public APK download
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: android-latest
+          name: Rannar Menu Android APK
+          body: |
+            Installable Android WebView build for Rannar Menu.
+
+            This is a debug-signed APK for testing and direct installation, not a Play Store release. Android may ask you to allow installation from your browser or file manager.
+          target_commitish: main
+          files: android-app/app/build/outputs/apk/debug/Rannar-Menu.apk
+          overwrite_files: true
+          make_latest: false
