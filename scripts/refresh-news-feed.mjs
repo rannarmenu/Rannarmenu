@@ -37,8 +37,8 @@ function cleanUrl(value, base) {
 }
 function attribute(tagText, name) {
   const escaped = name.replace(/[.*+?^$()|[\]\\]/g, '\\$&');
-  const match = tagText.match(new RegExp('(?:^|\\s)' + escaped + '\\s*=\\s*["\\']([^"\\']+)["\\']', 'i'));
-  return match ? decodeXml(match[1]) : '';
+  const match = tagText.match(new RegExp("(?:^|\\\\s)" + escaped + "\\\\s*=\\\\s*(?:\\"([^\\\"]*)\\"|'([^']*)')", 'i'));
+  return match ? decodeXml(match[1] ?? match[2]) : '';
 }
 function extractRssImage(block, descriptionRaw) {
   const candidates = [];
