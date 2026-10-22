@@ -120,7 +120,7 @@ const MIRA_COPY = {
   help: 'এই যে, একদম সহজ! 💚 হোমপেজের লম্বা সার্চ বারে খাবারের নাম বা উপকরণ লেখো। রেসিপির কার্ডে চাপ দিলে উপকরণ, সময় আর ধাপে ধাপে রান্নার পদ্ধতি খুলবে। হার্ট ♡ চাপলে পছন্দের রেসিপি সেভ থাকবে। আর তুমি চাইলে আমাকেও খাবারের নাম বলতে পারো—আমি খুঁজে দেব!',
   askName: 'অবশ্যই! 😸 কোন রেসিপিটা চাই? খাবারের নামটা লিখে দাও—আমি মিলিয়ে পেলে সরাসরি খুলে দেব।',
   notFound: 'আহা, এই নামে প্রকাশিত রেসিপি খুঁজে পেলাম না। 🥹 নামটা আরেকভাবে লিখবে, বা বাংলা/English বানানে চেষ্টা করো? যে রেসিপিগুলো আছে, শুধু সেগুলোই দেখাই—ভুল রেসিপি বানিয়ে বলি না!',
-  fallback: 'হুম, বুঝেছি—তবে আমি সবচেয়ে ভালো সাহায্য করি Rannar Menu-এর রেসিপি, উপকরণ, রান্নার ধাপ আর সাইট ব্যবহারে। 😺 কোন খাবারটা খুঁজছ? নাম বললেই খুঁজে দেখি!',
+  fallback: 'উফ, এই প্রশ্নটার পূর্ণ উত্তর দিতে আমার AI brain এখনো পুরোপুরি সংযুক্ত হয়নি 😿 তবে রেসিপি খোঁজা, রান্নার ধাপ, উপকরণ বদলানো আর ওয়েবসাইটের সমস্যা বুঝিয়ে দিতে আমি আছি। AI setup সম্পূর্ণ হলে আরও অনেক ধরনের প্রশ্ন বুঝে বিস্তারিত উত্তর দিতে পারব। 🌼',
   open: title => 'ইয়ে! পেয়ে গেছি—**' + title + '** 🍲 তোমার জন্য রেসিপিটা খুলে দিচ্ছি। একটু দেখে নিও, শেফ সাহেবা/সাহেব!',
   suggestions: 'কয়েকটা মিল পাওয়া রেসিপি পেলাম! যেটা চাও, সেটার নামেই টোকা দাও। 🐾'
 };
@@ -438,7 +438,7 @@ export default function MiraChat({ onOpenRecipe }) {
       return;
     }
 
-    if (rawLooksLikeRecipe || cleanedOriginal || cleanedBengali) {
+    if (rawLooksLikeRecipe || cleanedOriginal || cleanedBengali || aiSearchQuery) {
       addAssistantMessage(await localizeReply(MIRA_COPY.notFound, language));
       return;
     }
@@ -618,7 +618,7 @@ export default function MiraChat({ onOpenRecipe }) {
             </button>)}</div>}
           </div>
         </div>)}
-        {busy && <div className="mira-message-row mira-message-bot"><MiraMascot small/><div className="mira-bubble mira-typing" aria-label="Mira উত্তর লিখছে"><span/><span/><span/></div></div>}
+        {busy && <div className="mira-message-row mira-message-bot"><MiraMascot small/><div className="mira-bubble mira-typing" aria-label="Mira কথার প্রসঙ্গ মিলিয়ে উত্তর তৈরি করছে"><span/><span/><span/></div></div>}
       </div>
       {error && <p className="mira-error" role="status">{error}</p>}
       {messages.length === 1 && !busy && <div className="mira-quick-prompts">
@@ -632,7 +632,7 @@ export default function MiraChat({ onOpenRecipe }) {
         </label>
         <button className="mira-send-btn" type="submit" aria-label="বার্তা পাঠান" disabled={busy || !draft.trim()}><Send size={17}/></button>
       </form>
-      <p className="mira-privacy-note">প্রয়োজনে Google Translate ব্যবহার হয়; ব্যক্তিগত তথ্য লিখো না।</p>
+      <p className="mira-privacy-note">AI/অনুবাদ পরিষেবায় বার্তা প্রক্রিয়াকৃত হতে পারে। পাসওয়ার্ড বা ব্যক্তিগত তথ্য লিখো না।</p>
     </section>}
     <div className={'mira-intro-bubble ' + (showIntro && !isOpen ? 'mira-intro-visible' : '')} aria-hidden={!showIntro || isOpen}>
       <span className="mira-intro-copy"><strong>Hi, I’m Mira* <span>✦</span></strong><small>Need a little recipe help?</small></span>
