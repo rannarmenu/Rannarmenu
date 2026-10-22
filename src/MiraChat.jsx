@@ -468,7 +468,7 @@ export default function MiraChat({ onOpenRecipe }) {
             ? 'আহা, এ আর এমন কী! 💗 দরকার হলে আবার ডাক দিও!'
             : intent === 'identity'
               ? 'আমি Mira*—Rannar Menu-র ছোট্ট রান্নাঘর-সহকারী! 🐱'
-              : 'রেসিপি খুঁজে দিই, রান্নার সমস্যা সমাধানে পরামর্শ দিই, আর ওয়েবসাইট ব্যবহার বুঝিয়ে দিই! ✨'),
+              : 'রেসিপি খুঁজে দিই, রান্নার ধাপ বুঝিয়ে দিই, আর ওয়েবসাইট ব্যবহার করতে সাহায্য করি! ✨'),
         language
       ));
       return;
@@ -484,15 +484,28 @@ export default function MiraChat({ onOpenRecipe }) {
       return;
     }
 
+    const rawLooksLikeRecipe = isRecipeRequest(understoodText);
+    const cleanedOriginal = cleanRecipeQuery(rawText);
+    const cleanedBengali = cleanRecipeQuery(bengaliText);
+
+    // Never turn an ordinary question into a recipe-title search just because
+    // the fallback cleaner returns some words. If the AI request failed, explain
+    // that failure; if it didn't fail, use the general fallback, not 'recipe not found'.
+    if (!rawLooksLikeRecipe) {
+      if (aiResponse.errorCode) {
+        const locale = isBengali(rawText) ? 'bn' : detectBanglish(rawText) ? 'banglish' : (typeof navigator !== 'undefined' && String(navigator.language || '').startsWith('bn') ? 'bn' : 'en');
+        addAssistantMessage(getMiraAIErrorMessage(aiResponse.errorCode, locale));
+      } else {
+        addAssistantMessage(await localizeReply(MIRA_COPY.fallback, language));
+      }
+      return;
+    }
+
     if (!supabaseConfigured) {
       const text = await localizeReply('দুঃখিত, এই মুহূর্তে রেসিপির ডেটাবেসের সঙ্গে যোগাযোগ হচ্ছে না। একটু পরে আবার চেষ্টা করো।', language);
       addAssistantMessage(text);
       return;
     }
-
-    const rawLooksLikeRecipe = isRecipeRequest(understoodText);
-    const cleanedOriginal = cleanRecipeQuery(rawText);
-    const cleanedBengali = cleanRecipeQuery(bengaliText);
 
     if (!cleanedOriginal && !cleanedBengali && rawLooksLikeRecipe) {
       addAssistantMessage(await localizeReply(MIRA_COPY.askName, language));
@@ -540,17 +553,15 @@ export default function MiraChat({ onOpenRecipe }) {
       return;
     }
 
-    if (rawLooksLikeRecipe || cleanedOriginal || cleanedBengali || aiSearchQuery) {
-      addAssistantMessage(await localizeReply(MIRA_COPY.notFound, language));
-      return;
-    }
-
+    // If the server-side model failed, a catalogue miss is not proof that
+    // the user's message was misunderstood or that the dish doesn't exist.
     if (aiResponse.errorCode) {
       const locale = isBengali(rawText) ? 'bn' : detectBanglish(rawText) ? 'banglish' : (typeof navigator !== 'undefined' && String(navigator.language || '').startsWith('bn') ? 'bn' : 'en');
       addAssistantMessage(getMiraAIErrorMessage(aiResponse.errorCode, locale));
       return;
     }
-    addAssistantMessage(await localizeReply(MIRA_COPY.fallback, language));
+
+    addAssistantMessage(await localizeReply(MIRA_COPY.notFound, language));
   };
 
   const sendText = async (rawText) => {
