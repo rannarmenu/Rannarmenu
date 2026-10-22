@@ -652,3 +652,14 @@ html[data-theme="dark"] .admin-theme-corner { color: #e8e9eb; }
 
 html[data-theme="dark"] .theme-toggle-button { color: #f0f1f2; }
 html[data-theme="dark"] .theme-toggle-button:hover { border-color: #3a3e45; background: #202329; }
+
+
+/* Theme-aware brand lockup: follows the site's explicit data-theme toggle. */
+.brand { gap: 0; flex: 0 1 auto; min-width: 0; font-size: 0; letter-spacing: normal; line-height: 1; }
+.brand-logo { display: block; width: clamp(190px, 21vw, 245px); height: auto; max-height: 62px; object-fit: contain; }
+.brand-logo-dark { display: none; }
+html[data-theme="dark"] .brand-logo-light { display: none; }
+html[data-theme="dark"] .brand-logo-dark { display: block; }
+@media (max-width: 700px) {
+  .brand-logo { width: min(200px, 53vw); max-height: 51px; }
+}
