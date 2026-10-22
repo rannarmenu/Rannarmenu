@@ -24,10 +24,17 @@ function dbRecipeToCard(row) {
 const imageLicenseLinks = {
  'CC BY-SA 4.0':'https://creativecommons.org/licenses/by-sa/4.0/',
  'CC BY-SA 3.0':'https://creativecommons.org/licenses/by-sa/3.0/',
+ 'CC BY 4.0':'https://creativecommons.org/licenses/by/4.0/',
  'CC BY 3.0':'https://creativecommons.org/licenses/by/3.0/',
- 'CC BY 2.0':'https://creativecommons.org/licenses/by/2.0/'
+ 'CC BY 2.0':'https://creativecommons.org/licenses/by/2.0/',
+ 'CC0':'https://creativecommons.org/publicdomain/zero/1.0/'
 };
-function imageLicenseHref(license) { return imageLicenseLinks[license] || 'https://creativecommons.org/share-your-work/cclicenses/'; }
+function imageLicenseHref(license) {
+ const exact=imageLicenseLinks[String(license||'').trim()];
+ if(exact)return exact;
+ if(/public domain|\bPD[- ]/i.test(license||''))return 'https://commons.wikimedia.org/wiki/Commons:Licensing';
+ return 'https://creativecommons.org/share-your-work/cclicenses/';
+}
 function handleDishImageError(event) {
  const img = event.currentTarget;
  img.style.display = 'none';
