@@ -63,34 +63,62 @@ function App() {
  useEffect(()=>{try{localStorage.setItem('rannar-menu-saved',JSON.stringify(saved))}catch{}},[saved]);
  useEffect(()=>{
   if(!supabaseConfigured){setCatalogMode(false);return;}
-  let alive=true;setCatalogBusy(true);setCatalogError('');
+  let alive=true;
+  let timerId;
+  const translationController=new AbortController();
+  setCatalogBusy(true);setCatalogError('');
   const term=query.trim();
   const savedIds=saved.filter(id=>typeof id==='string'&&/^[0-9a-f-]{36}$/i.test(id));
   if(showSaved&&!savedIds.length){
    setCatalogMode(true);setCatalogRecipes([]);setCatalogTotal(0);setCatalogBusy(false);
-   return ()=>{alive=false;};
+   return ()=>{alive=false;translationController.abort();};
   }
   if(term){
-   const searchGroups=buildRecipeSearchGroups(term);
-   supabase.rpc('search_published_recipes_multilingual',{
-    p_search_groups:searchGroups,
+   const searchArgs=groups=>({
+    p_search_groups:groups,
     p_category:category==='সব রেসিপি'?null:category,
     p_saved_ids:showSaved?savedIds:null,
     p_only_saved:showSaved,
     p_limit:PAGE_SIZE,
     p_offset:catalogPage*PAGE_SIZE
-   }).then(({data,error})=>{
-    if(!alive)return;
-    setCatalogBusy(false);
-    if(error){
-     setCatalogMode(true);setCatalogRecipes([]);setCatalogTotal(0);setCatalogError(error.message);
-     return;
-    }
-    setCatalogMode(true);
-    setCatalogRecipes((data||[]).map(item=>dbRecipeToCard(item.recipe)));
-    setCatalogTotal(Number(data?.[0]?.total_count)||0);
    });
-   return ()=>{alive=false;};
+   const performSearch=async()=>{
+    try{
+     const primary=await supabase.rpc('search_published_recipes_multilingual',searchArgs(buildRecipeSearchGroups(term)));
+     if(!alive)return;
+     if(primary.error){
+      setCatalogBusy(false);setCatalogMode(true);setCatalogRecipes([]);setCatalogTotal(0);setCatalogError(primary.error.message);
+      return;
+     }
+     let resultRows=primary.data||[];
+     let resultCount=Number(resultRows[0]?.total_count)||0;
+     // Only call the translation provider when ordinary multilingual/alias search
+     // finds nothing. Debouncing below avoids sending a request for every keystroke.
+     if(resultCount===0&&Array.from(term).length>=2&&!translationController.signal.aborted){
+      const translations=await translateSearchQuery(term,{signal:translationController.signal});
+      for(const translatedQuery of translations){
+       if(!alive||translationController.signal.aborted)return;
+       const groups=buildRecipeSearchGroups(translatedQuery);
+       if(!groups.length)continue;
+       const alternative=await supabase.rpc('search_published_recipes_multilingual',searchArgs(groups));
+       if(alternative.error)continue;
+       const count=Number(alternative.data?.[0]?.total_count)||0;
+       if(count>0){resultRows=alternative.data||[];resultCount=count;break;}
+      }
+     }
+     if(!alive)return;
+     setCatalogMode(true);
+     setCatalogRecipes(resultRows.map(item=>dbRecipeToCard(item.recipe)));
+     setCatalogTotal(resultCount);
+     setCatalogBusy(false);
+    }catch(error){
+     if(!alive||translationController.signal.aborted)return;
+     setCatalogMode(true);setCatalogRecipes([]);setCatalogTotal(0);setCatalogBusy(false);
+     setCatalogError('সার্চ সম্পন্ন করা যায়নি। আবার চেষ্টা করুন।');
+    }
+   };
+   timerId=setTimeout(()=>{performSearch();},350);
+   return ()=>{alive=false;clearTimeout(timerId);translationController.abort();};
   }
   let req=supabase.from('recipes').select('*',{count:'exact'}).eq('is_published',true);
   if(showSaved)req=req.in('id',savedIds);
