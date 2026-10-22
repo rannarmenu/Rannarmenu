@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { Search, Heart, Clock3, ChefHat, ArrowUpRight, Leaf, Bookmark, Sparkles, Utensils, ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
+import { Search, Heart, Clock3, ChefHat, ArrowUpRight, Leaf, Bookmark, Sparkles, Utensils, ChevronLeft, ChevronRight, Pause, Play, UserRound } from 'lucide-react';
 import './styles.css';
 import AdminApp from './admin.jsx';
 import MiraChat from './MiraChat.jsx';
@@ -16,14 +16,15 @@ import { buildRecipeSearchGroups, recipeMatchesSearch } from './lib/recipeSearch
 import { getPhotoFallbackUrls, isDishSpecificPhotoTitle } from './lib/recipeImages.js';
 import './readability.css';
 import PWAInstallManager from './PWAInstallManager.jsx';
+import AccountPage from './AccountPage.jsx';
 
 const demos = [
- {id:'demo-biryani',slug:'ghoroya-chicken-biryani',title:'ঘরোয়া চিকেন বিরিয়ানি',category:'মাংস',time:55,level:'মাঝারি',tag:'সবার প্রিয়',image:null,desc:'সুগন্ধি চাল, মসলা আর নরম মুরগির মজাদার আয়োজন।',ingredients:['বাসমতি চাল ২ কাপ','মুরগি ৫০০ গ্রাম','পেঁয়াজ ২টি','টক দই ½ কাপ','বিরিয়ানি মসলা ২ টেবিল চামচ'],steps:['চাল ধুয়ে ২০ মিনিট ভিজিয়ে রাখুন।','মুরগি দই, মসলা ও পেঁয়াজ দিয়ে মাখিয়ে রান্না করুন।','আধা সেদ্ধ চাল ও মুরগি স্তরে স্তরে সাজিয়ে দমে রাখুন।']},
- {id:'demo-fish',slug:'bangla-fish-curry',title:'বাংলা স্টাইলে মাছের ঝোল',category:'মাছ',time:35,level:'সহজ',tag:'ঘরোয়া',image:null,desc:'আলু, টমেটো আর হালকা মসলায় প্রতিদিনের পরিচিত স্বাদ।',ingredients:['রুই মাছ ৪ টুকরা','আলু ২টি','টমেটো ১টি','হলুদ ও মরিচ গুঁড়া','সরিষার তেল'],steps:['মাছ হলুদ-লবণ মেখে হালকা ভেজে নিন।','আলু ও মসলা কষিয়ে পানি দিন।','মাছ দিয়ে ১০–১২ মিনিট ঢেকে রান্না করুন।']},
- {id:'demo-egg',slug:'quick-egg-curry',title:'ঝটপট ডিমের কারি',category:'ডিম',time:25,level:'সহজ',tag:'৩০ মিনিটের কম',image:null,desc:'কম উপকরণে তৈরি ঝালঝাল ডিমের তরকারি।',ingredients:['ডিম ৪টি','পেঁয়াজ ১টি','আদা-রসুন বাটা','টমেটো ১টি','জিরা ও ধনে গুঁড়া'],steps:['ডিম সেদ্ধ করে খোসা ছাড়িয়ে হালকা ভেজে নিন।','পেঁয়াজ, আদা-রসুন ও মসলা কষান।','ডিম ও পানি দিয়ে ৮ মিনিট রান্না করুন।']},
- {id:'demo-khichuri',slug:'vegetable-khichuri',title:'সবজি খিচুড়ি',category:'নিরামিষ',time:40,level:'সহজ',tag:'আরামদায়ক',image:null,desc:'ডাল, চাল ও মৌসুমি সবজিতে পুষ্টিকর এক বাটি খাবার।',ingredients:['চাল ১ কাপ','মুগ ডাল ½ কাপ','গাজর ও মটরশুঁটি','আদা কুচি','ঘি ১ চা চামচ'],steps:['ডাল শুকনো কড়াইয়ে হালকা ভেজে ধুয়ে নিন।','চাল, ডাল ও সবজি মসলা দিয়ে কষান।','পানি দিয়ে নরম হওয়া পর্যন্ত ঢেকে রান্না করুন।']},
- {id:'demo-dal',slug:'raw-mango-dal',title:'কাঁচা আমের ডাল',category:'নিরামিষ',time:30,level:'সহজ',tag:'মৌসুমি',image:null,desc:'টক-মিষ্টি স্বাদের সহজ ডাল, ভাতের সঙ্গে দারুণ।',ingredients:['মসুর ডাল ১ কাপ','কাঁচা আম ½টি','হলুদ','শুকনা মরিচ','পাঁচফোড়ন'],steps:['ডাল হলুদ ও পানি দিয়ে সেদ্ধ করুন।','কাঁচা আমের টুকরা দিয়ে নরম করুন।','পাঁচফোড়ন ও শুকনা মরিচের ফোড়ন দিন।']},
- {id:'demo-chicken',slug:'chicken-kosha',title:'চিকেন কষা',category:'মাংস',time:50,level:'মাঝারি',tag:'ঝালপ্রেমীদের জন্য',image:null,desc:'ঘন মসলার গ্রেভিতে রান্না করা জমজমাট মুরগির পদ।',ingredients:['মুরগি ৫০০ গ্রাম','পেঁয়াজ ৩টি','টক দই ¼ কাপ','আদা-রসুন বাটা','গরম মসলা'],steps:['মুরগি দই ও মসলা দিয়ে মেরিনেট করুন।','পেঁয়াজ বাদামি করে ভেজে মুরগি দিন।','কম আঁচে তেল ছাড়ানো পর্যন্ত কষিয়ে নিন।']}
+ {id:'demo-biryani',slug:'ghoroya-chicken-biryani',title:'ঘরোয়া চিকেন বিরিয়ানি',category:'মাংস',time:55,level:'মাঝারি',tag:'সবার প্রিয়',image:null,desc:'সুগন্ধি চাল, মসলা আর নরম মুরগির মজাদার আয়োজন।',ingredients:[],steps:[]},
+ {id:'demo-fish',slug:'bangla-fish-curry',title:'বাংলা স্টাইলে মাছের ঝোল',category:'মাছ',time:35,level:'সহজ',tag:'ঘরোয়া',image:null,desc:'আলু, টমেটো আর হালকা মসলায় প্রতিদিনের পরিচিত স্বাদ।',ingredients:[],steps:[]},
+ {id:'demo-egg',slug:'quick-egg-curry',title:'ঝটপট ডিমের কারি',category:'ডিম',time:25,level:'সহজ',tag:'৩০ মিনিটের কম',image:null,desc:'কম উপকরণে তৈরি ঝালঝাল ডিমের তরকারি।',ingredients:[],steps:[]},
+ {id:'demo-khichuri',slug:'vegetable-khichuri',title:'সবজি খিচুড়ি',category:'নিরামিষ',time:40,level:'সহজ',tag:'আরামদায়ক',image:null,desc:'ডাল, চাল ও মৌসুমি সবজিতে পুষ্টিকর এক বাটি খাবার।',ingredients:[],steps:[]},
+ {id:'demo-dal',slug:'raw-mango-dal',title:'কাঁচা আমের ডাল',category:'নিরামিষ',time:30,level:'সহজ',tag:'মৌসুমি',image:null,desc:'টক-মিষ্টি স্বাদের সহজ ডাল, ভাতের সঙ্গে দারুণ।',ingredients:[],steps:[]},
+ {id:'demo-chicken',slug:'chicken-kosha',title:'চিকেন কষা',category:'মাংস',time:50,level:'মাঝারি',tag:'ঝালপ্রেমীদের জন্য',image:null,desc:'ঘন মসলার গ্রেভিতে রান্না করা জমজমাট মুরগির পদ।',ingredients:[],steps:[]}
 ];
 const categories = ['সব রেসিপি','মাছ','মাংস','ডিম','নিরামিষ'];
 const homeSearchExamples = [
@@ -32,7 +33,7 @@ const homeSearchExamples = [
  {label:'মুরগির ঝোল',query:'chicken curry'}
 ];
 const PAGE_SIZE = 24;
-const ROUTABLE_PAGES = ['home', 'recipes', 'saved', 'about'];
+const ROUTABLE_PAGES = ['home', 'recipes', 'saved', 'about', 'profile'];
 function routeFromHash(hash = window.location.hash) {
  const raw=String(hash||'');
  const path=raw.startsWith('#/')?raw.slice(2):raw.startsWith('#')?raw.slice(1):raw;
@@ -130,7 +131,7 @@ function App() {
  const [query,setQuery]=useState('');
  const [category,setCategory]=useState('সব রেসিপি');
  const [route,setRoute]=useState(()=>routeFromHash());
- const [saved,setSaved]=useState(()=>{try{return JSON.parse(localStorage.getItem('rannar-menu-saved')||'[]')}catch{return[]}});
+ const [saved,setSaved]=useState(()=>{try{return JSON.parse(localStorage.getItem('rannar-menu-guest-saved')||'[]')}catch{return[]}});
  const [showSaved,setShowSaved]=useState(false);
  const [selected,setSelected]=useState(null);
  const [catalogRecipes,setCatalogRecipes]=useState(demos);
@@ -145,7 +146,19 @@ function App() {
  const [featuredLoading,setFeaturedLoading]=useState(supabaseConfigured);
  const [featuredError,setFeaturedError]=useState(false);
  const [featuredPaused,setFeaturedPaused]=useState(false);
- useEffect(()=>{try{localStorage.setItem('rannar-menu-saved',JSON.stringify(saved))}catch{}},[saved]);
+ const [session,setSession]=useState(null);
+ const [authReady,setAuthReady]=useState(!supabaseConfigured);
+ const [customerProfile,setCustomerProfile]=useState(null);
+ const [profileNotice,setProfileNotice]=useState('');
+ const [recipeLoadError,setRecipeLoadError]=useState(false);
+ const user=session?.user||null;
+ const isVerifiedCustomer=Boolean(user&&(user.email_confirmed_at||user.phone_confirmed_at));
+ useEffect(()=>{
+  try{
+   const key=isVerifiedCustomer&&user?.id?'rannar-menu-saved-'+user.id:'rannar-menu-guest-saved';
+   localStorage.setItem(key,JSON.stringify(saved));
+  }catch{}
+ },[saved,isVerifiedCustomer,user?.id]);
  useEffect(()=>{
   const normalizeLegacyCategoryRoute=()=>{
    if(window.location.hash==='#/categories'||window.location.hash==='#categories'){
@@ -158,6 +171,99 @@ function App() {
   return ()=>window.removeEventListener('hashchange',syncRoute);
  },[]);
  useEffect(()=>{
+  if(!supabaseConfigured||!supabase){setAuthReady(true);return;}
+  let active=true;
+  supabase.auth.getSession().then(({data,error})=>{
+   if(!active)return;
+   if(!error)setSession(data?.session||null);
+   setAuthReady(true);
+  }).catch(()=>{if(active)setAuthReady(true);});
+  const {data:{subscription}}=supabase.auth.onAuthStateChange((_event,nextSession)=>{
+   if(!active)return;
+   setSession(nextSession||null);
+   setAuthReady(true);
+  });
+  return ()=>{active=false;subscription?.unsubscribe();};
+ },[]);
+ useEffect(()=>{
+  if(!authReady)return;
+  if(!user||!isVerifiedCustomer||!supabase){
+   setCustomerProfile(null);
+   if(!user){
+    try{setSaved(JSON.parse(localStorage.getItem('rannar-menu-guest-saved')||'[]'))}catch{setSaved([])}
+   }else setSaved([]);
+   return;
+  }
+  let alive=true;
+  setSaved([]);
+  const loadPrivateAccountData=async()=>{
+   try{
+    const [profileResult,savedResult]=await Promise.all([
+     supabase.from('customer_profiles').select('user_id,full_name,avatar_path,created_at,updated_at').eq('user_id',user.id).maybeSingle(),
+     supabase.from('user_saved_recipes').select('recipe_id').eq('user_id',user.id)
+    ]);
+    if(!alive)return;
+    let profile=profileResult.data||null;
+    if(!profileResult.error&&!profile){
+     const inserted=await supabase.from('customer_profiles').insert({
+      user_id:user.id,
+      full_name:user.user_metadata?.full_name||user.user_metadata?.name||''
+     }).select('user_id,full_name,avatar_path,created_at,updated_at').maybeSingle();
+     if(!inserted.error)profile=inserted.data||null;
+    }
+    if(profile?.avatar_path){
+     const {data:signed}=await supabase.storage.from('customer-avatars').createSignedUrl(profile.avatar_path,3600);
+     if(signed?.signedUrl)profile={...profile,avatar_url:signed.signedUrl};
+    }
+    if(!alive)return;
+    setCustomerProfile(profile);
+    if(!savedResult.error)setSaved((savedResult.data||[]).map(item=>item.recipe_id));
+    else setSaved([]);
+   }catch{
+    if(alive){setCustomerProfile(null);setSaved([]);}
+   }
+  };
+  void loadPrivateAccountData();
+  return ()=>{alive=false;};
+ },[authReady,user?.id,isVerifiedCustomer]);
+ useEffect(()=>{
+  if(!authReady||!isVerifiedCustomer)return;
+  const url=new URL(window.location.href);
+  const pending=localStorage.getItem('rannar-menu-pending-recipe');
+  if(pending){
+   localStorage.removeItem('rannar-menu-pending-recipe');
+   url.searchParams.delete('account');
+   url.hash='/recipe/'+encodeURIComponent(pending);
+   window.history.replaceState(window.history.state,'',url.pathname+url.search+url.hash);
+   setRoute(routeFromHash(url.hash));
+   return;
+  }
+  if(url.searchParams.get('account')==='1'){
+   url.searchParams.delete('account');
+   window.history.replaceState(window.history.state,'',url.pathname+url.search+window.location.hash);
+   const hashPath='/profile';
+   setRoute(routeFromHash('#'+hashPath));
+   window.location.hash=hashPath;
+  }
+ },[authReady,isVerifiedCustomer]);
+ useEffect(()=>{
+  if(!authReady||route.page!=='recipe'||isVerifiedCustomer)return;
+  if(route.slug){try{localStorage.setItem('rannar-menu-pending-recipe',route.slug)}catch{}}
+  setProfileNotice('রেসিপির উপকরণ ও রান্নার ধাপ দেখতে আগে ইমেইল/ফোন যাচাই করে বা Google দিয়ে লগইন করুন।');
+  const hashPath='/profile';
+  setRoute(routeFromHash('#'+hashPath));
+  if(window.location.hash!=='#'+hashPath)window.location.hash=hashPath;
+  setSelected(null);
+ },[authReady,route.page,route.slug,isVerifiedCustomer]);
+ useEffect(()=>{
+  if(authReady&&route.page==='saved'&&!isVerifiedCustomer){
+   setProfileNotice('সংরক্ষিত রেসিপিগুলো আপনার স্থায়ী অ্যাকাউন্টের সঙ্গে যুক্ত থাকে। আগে যাচাই করে লগইন করুন।');
+   const hashPath='/profile';
+   setRoute(routeFromHash('#'+hashPath));
+   if(window.location.hash!=='#'+hashPath)window.location.hash=hashPath;
+  }
+ },[authReady,route.page,isVerifiedCustomer]);
+ useEffect(()=>{
   setShowSaved(route.page==='saved');
   if(route.page!=='recipe')setSelected(null);
   if(route.page==='saved'||route.page==='home'||route.page==='recipes')setCatalogPage(0);
@@ -165,17 +271,24 @@ function App() {
   window.scrollTo({top:0,behavior:'smooth'});
  },[route.page]);
  useEffect(()=>{
-  if(route.page!=='recipe'||!route.slug)return;
-  const known=[...demos,...catalogRecipes,...featuredRecipes].find(item=>String(item.slug||item.id)===route.slug);
-  if(known){setSelected(current=>current?.id===known.id?current:known);return;}
-  if(!supabaseConfigured){setSelected(null);return;}
+  if(route.page!=='recipe'||!route.slug||!authReady||!isVerifiedCustomer)return;
+  if(!supabaseConfigured||!supabase){setSelected(null);setRecipeLoadError(true);return;}
   let alive=true;
-  supabase.from('recipes').select('*').eq('slug',route.slug).eq('is_published',true).maybeSingle().then(({data,error})=>{
-   if(!alive)return;
-   if(data&&!error)setSelected(dbRecipeToCard(data));else setSelected(null);
-  });
+  setSelected(null);
+  setRecipeLoadError(false);
+  const loadRecipeDetails=async()=>{
+   try{
+    const {data,error}=await supabase.from('recipes').select('*').eq('is_published',true).eq('slug',route.slug).maybeSingle();
+    if(!alive)return;
+    if(error||!data){setSelected(null);setRecipeLoadError(true);return;}
+    setSelected(dbRecipeToCard(data));
+   }catch{
+    if(alive){setSelected(null);setRecipeLoadError(true);}
+   }
+  };
+  void loadRecipeDetails();
   return ()=>{alive=false;};
- },[route.page,route.slug,catalogRecipes,featuredRecipes]);
+ },[route.page,route.slug,authReady,isVerifiedCustomer]);
  useEffect(()=>{
   if(!selected)return;
   const target=document.querySelector('#recipes');
@@ -188,7 +301,7 @@ function App() {
   let alive=true;
   const loadFeatured=async()=>{
    try{
-    const {data,error}=await supabase.from('recipes').select('*').eq('is_published',true).order('published_at',{ascending:false,nullsFirst:false}).order('created_at',{ascending:false}).limit(6);
+    const {data,error}=await supabase.from('recipe_previews').select('*').order('published_at',{ascending:false,nullsFirst:false}).order('created_at',{ascending:false}).limit(6);
     if(!alive)return;
     if(error){setFeaturedRecipes([]);setFeaturedError(true);return;}
     setFeaturedRecipes((data||[]).map(dbRecipeToCard));
@@ -233,7 +346,7 @@ function App() {
    });
    const performSearch=async()=>{
     try{
-     const primary=await supabase.rpc('search_published_recipes_multilingual',searchArgs(buildRecipeSearchGroups(term)));
+     const primary=await supabase.rpc('search_recipe_previews_multilingual',searchArgs(buildRecipeSearchGroups(term)));
      if(!alive)return;
      if(primary.error){
       setCatalogBusy(false);setCatalogMode(true);setCatalogRecipes([]);setCatalogTotal(0);setCatalogError(primary.error.message);
@@ -249,7 +362,7 @@ function App() {
        if(!alive||translationController.signal.aborted)return;
        const groups=buildRecipeSearchGroups(translatedQuery);
        if(!groups.length)continue;
-       const alternative=await supabase.rpc('search_published_recipes_multilingual',searchArgs(groups));
+       const alternative=await supabase.rpc('search_recipe_previews_multilingual',searchArgs(groups));
        if(alternative.error)continue;
        const count=Number(alternative.data?.[0]?.total_count)||0;
        if(count>0){resultRows=alternative.data||[];resultCount=count;break;}
@@ -269,7 +382,7 @@ function App() {
    timerId=setTimeout(()=>{performSearch();},350);
    return ()=>{alive=false;clearTimeout(timerId);translationController.abort();};
   }
-  let req=supabase.from('recipes').select('*',{count:'exact'}).eq('is_published',true);
+  let req=supabase.from('recipe_previews').select('*',{count:'exact'});
   if(showSaved)req=req.in('id',savedIds);
   else if(category!=='সব রেসিপি')req=req.eq('category',category);
   req=req.order('published_at',{ascending:false,nullsFirst:false}).order('created_at',{ascending:false}).range(catalogPage*PAGE_SIZE,catalogPage*PAGE_SIZE+PAGE_SIZE-1);
@@ -278,11 +391,12 @@ function App() {
  },[query,category,catalogPage,showSaved,saved,route.page]);
  useEffect(()=>{
   if(!supabaseConfigured)return;
-  supabase.from('recipes').select('category').eq('is_published',true).then(({data})=>{if(data)setDbCategories([...new Set(data.map(x=>x.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'bn')));});
+  supabase.from('recipe_previews').select('category').then(({data})=>{if(data)setDbCategories([...new Set(data.map(x=>x.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'bn')));});
  },[]);
  const visibleCategories=useMemo(()=>['সব রেসিপি',...new Set([...categories.slice(1),...dbCategories])],[dbCategories]);
  const filtered=useMemo(()=>{const source=catalogMode?catalogRecipes:demos.filter(r=>(category==='সব রেসিপি'||r.category===category)&&recipeMatchesSearch(r,query));return source.filter(r=>!showSaved||saved.includes(r.id));},[catalogMode,catalogRecipes,query,category,saved,showSaved]);
  const navigateTo=(page,recipe=null,options={})=>{
+  if(page!=='profile'&&page!=='recipe'){try{localStorage.removeItem('rannar-menu-pending-recipe')}catch{}}
   const safePage=page==='recipe'?'recipe':ROUTABLE_PAGES.includes(page)?page:'home';
   const aboutSection=safePage==='about'?String(options.section||'').trim():'';
   const hashPath=safePage==='recipe'?'/recipe/'+encodeURIComponent(String(recipe?.slug||recipe?.id||'')):safePage==='about'&&aboutSection?'/about/'+encodeURIComponent(aboutSection):'/'+safePage;
@@ -297,20 +411,54 @@ function App() {
   setQuery(term);setCategory('সব রেসিপি');setCatalogPage(0);setShowSaved(false);setSelected(null);
   navigateTo('recipes',null,{keepQuery:true});
  };
- const toggleSave=id=>setSaved(prev=>prev.includes(id)?prev.filter(x=>x!==id):[...prev,id]);
+ const toggleSave=async id=>{
+  if(!isVerifiedCustomer||!supabase||!user){
+   setProfileNotice('রেসিপি সংরক্ষণ করতে যাচাইকৃত অ্যাকাউন্টে লগইন করুন।');
+   navigateTo('profile');
+   return;
+  }
+  const alreadySaved=saved.includes(id);
+  setSaved(prev=>alreadySaved?prev.filter(x=>x!==id):[...prev,id]);
+  if(!/^[0-9a-f-]{36}$/i.test(String(id)))return;
+  const result=alreadySaved
+   ?await supabase.from('user_saved_recipes').delete().eq('user_id',user.id).eq('recipe_id',id)
+   :await supabase.from('user_saved_recipes').insert({user_id:user.id,recipe_id:id});
+  if(result.error){
+   setSaved(prev=>alreadySaved?[...prev,id]:prev.filter(x=>x!==id));
+   setProfileNotice('রেসিপি সংরক্ষণ করা যায়নি। সংযোগ যাচাই করে আবার চেষ্টা করুন।');
+  }
+ };
  const resetFilters=()=>{setQuery('');setCategory('সব রেসিপি');setCatalogPage(0);setShowSaved(false);setSelected(null);navigateTo('recipes');};
  const stepFeatured=direction=>setFeaturedIndex(index=>featuredRecipes.length?(index+direction+featuredRecipes.length)%featuredRecipes.length:0);
- const openRecipe=recipe=>navigateTo('recipe',recipe);
+ const openRecipe=recipe=>{
+  const slug=String(recipe?.slug||recipe?.id||'');
+  if(!isVerifiedCustomer){
+   if(slug){try{localStorage.setItem('rannar-menu-pending-recipe',slug)}catch{}}
+   setProfileNotice('এই রেসিপির সম্পূর্ণ উপকরণ ও রান্নার ধাপ দেখতে যাচাইকৃত অ্যাকাউন্টে লগইন করুন।');
+   navigateTo('profile');
+   return;
+  }
+  navigateTo('recipe',recipe);
+ };
+ const handleNavigation=page=>{
+  if(page==='saved'&&!isVerifiedCustomer){
+   setProfileNotice('আপনার সংরক্ষিত রেসিপি দেখতে যাচাইকৃত অ্যাকাউন্টে লগইন করুন।');
+   navigateTo('profile');
+   return;
+  }
+  if(page==='profile')setProfileNotice('');
+  navigateTo(page);
+ };
  const openFeaturedRecipe=recipe=>{openRecipe(recipe);setCategory('সব রেসিপি');setQuery('');setCatalogPage(0);};
- return <><header className="header"><div className="nav wrap"><a className="brand" href="#/home" aria-label="Rannar Menu — রান্না হোক আরও সহজ" onClick={e=>{e.preventDefault();navigateTo('home')}}><img className="brand-logo brand-logo-light" src={import.meta.env.BASE_URL + "rannar-menu-logo-light.svg"} alt="" width="635" height="160" fetchPriority="high" /><img className="brand-logo brand-logo-dark" src={import.meta.env.BASE_URL + "rannar-menu-logo-dark.svg"} alt="" width="635" height="160" aria-hidden="true" /></a><nav className="nav-links"><a className={route.page==='home'?'nav-active':undefined} aria-current={route.page==='home'?'page':undefined} href="#/home" onClick={e=>{e.preventDefault();navigateTo('home')}}>হোম</a><a className={route.page==='recipes'||route.page==='recipe'?'nav-active':undefined} aria-current={route.page==='recipes'||route.page==='recipe'?'page':undefined} href="#/recipes" onClick={e=>{e.preventDefault();navigateTo('recipes')}}>রেসিপি</a><a className={route.page==='about'?'nav-active':undefined} aria-current={route.page==='about'?'page':undefined} href="#/about" onClick={e=>{e.preventDefault();navigateTo('about')}}>আমাদের কথা</a><button className="saved-link" aria-current={route.page==='saved'?'page':undefined} onClick={()=>navigateTo(route.page==='saved'?'recipes':'saved')}><Heart size={17} fill={route.page==='saved'?'currentColor':'none'}/> সংরক্ষিত ({saved.length})</button></nav><ThemeToggle/></div></header>
+ return <><header className="header"><div className="nav wrap"><a className="brand" href="#/home" aria-label="Rannar Menu — রান্না হোক আরও সহজ" onClick={e=>{e.preventDefault();navigateTo('home')}}><img className="brand-logo brand-logo-light" src={import.meta.env.BASE_URL + "rannar-menu-logo-light.svg"} alt="" width="635" height="160" fetchPriority="high" /><img className="brand-logo brand-logo-dark" src={import.meta.env.BASE_URL + "rannar-menu-logo-dark.svg"} alt="" width="635" height="160" aria-hidden="true" /></a><nav className="nav-links"><a className={route.page==='home'?'nav-active':undefined} aria-current={route.page==='home'?'page':undefined} href="#/home" onClick={e=>{e.preventDefault();navigateTo('home')}}>হোম</a><a className={route.page==='recipes'||route.page==='recipe'?'nav-active':undefined} aria-current={route.page==='recipes'||route.page==='recipe'?'page':undefined} href="#/recipes" onClick={e=>{e.preventDefault();navigateTo('recipes')}}>রেসিপি</a><a className={route.page==='about'?'nav-active':undefined} aria-current={route.page==='about'?'page':undefined} href="#/about" onClick={e=>{e.preventDefault();navigateTo('about')}}>আমাদের কথা</a><button className="saved-link" aria-current={route.page==='saved'?'page':undefined} onClick={()=>handleNavigation(route.page==='saved'?'recipes':'saved')}><Heart size={17} fill={route.page==='saved'?'currentColor':'none'}/> সংরক্ষিত ({saved.length})</button><button className="saved-link account-nav-link" aria-current={route.page==='profile'?'page':undefined} onClick={()=>handleNavigation('profile')}><UserRound size={17}/>{isVerifiedCustomer?'প্রোফাইল':'লগইন'}</button></nav><ThemeToggle/></div></header>
  <main id="home">{route.page==='home'&&<section className="hero wrap"><div className="hero-copy"><div className="eyebrow"><Sparkles size={15}/> রান্না হোক আরও আনন্দের</div><h1>প্রতিদিনের রান্নায়<br/><em>নতুন স্বাদের</em> গল্প।</h1><p>চেনা উপকরণ, সহজ রেসিপি আর ঘরোয়া স্বাদে আপনার প্রতিদিনের খাবার হোক একটু বেশি বিশেষ।</p><div className="hero-actions"><form className="hero-search" role="search" onSubmit={e=>{e.preventDefault();setCategory('সব রেসিপি');setCatalogPage(0);setShowSaved(false);setSelected(null);navigateTo('recipes',null,{keepQuery:true});}}><Search size={21} aria-hidden="true"/><input type="search" value={query} onChange={e=>{setQuery(e.target.value);setCatalogPage(0)}} placeholder="যেমন: kacchi biryani, ilish mach, মুরগির ঝোল..." aria-label="বাংলা, English বা Banglish-এ রেসিপি ও উপকরণ খুঁজুন"/><button type="submit" aria-label="খুঁজুন"><Search size={19}/></button></form><div className="hero-search-support"><span className="hero-search-support-label"><Search size={13} aria-hidden="true"/> বাংলা, English ও Banglish—সবভাবেই খুঁজুন</span><div className="hero-search-examples" aria-label="সার্চের উদাহরণ">{homeSearchExamples.map(example=><button key={example.query} type="button" onClick={()=>applySearchExample(example.query)}>{example.label}</button>)}</div></div></div><div className="hero-stats"><div><strong>সহজ</strong><span>ধাপে ধাপে নির্দেশনা</span></div><div><strong>ঘরোয়া</strong><span>পরিচিত উপকরণ</span></div><div><strong>সুস্বাদু</strong><span>প্রতিদিন নতুন আইডিয়া</span></div></div></div></section>}
  
  {route.page==='home'&&<section className="featured-banner-section" aria-label="Trending Recipes"><FeaturedRecipeCarousel recipes={featuredRecipes} activeIndex={featuredIndex} onSelect={openFeaturedRecipe} onPrevious={()=>stepFeatured(-1)} onNext={()=>stepFeatured(1)} onSelectIndex={setFeaturedIndex} paused={featuredPaused} onTogglePause={()=>setFeaturedPaused(value=>!value)} loading={featuredLoading} error={featuredError}/></section>}
  {route.page==='home'&&<SponsorTicker/>}
  
  {['recipes','saved','recipe'].includes(route.page)&&<section className="recipes-section wrap" id="recipes">{route.page==='recipes'&&!selected&&<div className="recipe-category-browser" id="categories"><div className="recipe-category-browser-head"><strong>ক্যাটাগরি দিয়ে খুঁজুন</strong><span className="category-scroll-hint">পাশে সরিয়ে আরও দেখুন →</span></div><div className="category-pills" role="group" aria-label="রেসিপির ক্যাটাগরি">{visibleCategories.map((c,i)=><button key={c} type="button" aria-pressed={category===c} className={category===c?'category-pill active':'category-pill'} onClick={()=>navigateTo('recipes',null,{category:c})}>{i===0?<Utensils size={15}/>:i===1?<span>🐟</span>:i===2?<span>🍗</span>:i===3?<span>🥚</span>:<Leaf size={15}/>} {c}</button>)}</div></div>}{!selected&&<div className="section-heading"><div><span className="section-kicker">রান্নাঘরের সংগ্রহ</span><h2>{showSaved?'আপনার সংরক্ষিত রেসিপি':route.page==='recipes'?'সব রেসিপি':'স্বাদের সেরা আয়োজন'}</h2><p>{showSaved?'পরে রান্না করার জন্য পছন্দের রেসিপিগুলো এখানে পাবেন।':route.page==='recipes'?'সহজ থেকে বিশেষ আয়োজন—সব প্রকাশিত রেসিপি এক জায়গায়।':'সহজ থেকে বিশেষ আয়োজন—আপনার পরের রান্নার আইডিয়া এখানেই।'}</p></div></div>}
- {route.page==='recipe'&&!selected?<div className="empty-state"><span className="catalog-spinner"/><h3>রেসিপি লোড হচ্ছে…</h3><p>রেসিপির তথ্য আনা হচ্ছে।</p></div>:selected?<article className="recipe-detail"><button className="back-btn" onClick={()=>navigateTo('recipes')}>← সব রেসিপিতে ফিরুন</button><div className="detail-grid"><div className="detail-image-shell">{selected.image?<><img src={selected.image} alt={selected.title} data-original-image-url={selected.image} data-source-url={selected.image_source_url} onError={handleDishImageError}/><div className="detail-image-placeholder image-error-placeholder" role="img" aria-label={selected.title+"-এর ছবি লোড হয়নি"}><Utensils size={44}/><span>ছবিটি লোড হয়নি; অন্য খাবারের ছবি দেখানো হবে না</span></div></>:<div className="detail-image-placeholder" role="img" aria-label={selected.title+"-এর সঠিক ছবি এখনো পাওয়া যায়নি"}><Utensils size={44}/><span>এই খাবারের নির্ভরযোগ্য ছবি যাচাই করা হচ্ছে</span></div>}</div><div className="detail-copy"><span className="recipe-tag">{selected.category}</span><h2>{selected.title}</h2><p>{selected.desc}</p><div className="detail-meta"><span><Clock3 size={17}/> মোট {selected.time} মিনিট</span>{Number.isFinite(selected.prep_minutes)&&<span>প্রস্তুতি {selected.prep_minutes} মিনিট</span>}{Number.isFinite(selected.cook_minutes)&&<span>রান্না {selected.cook_minutes} মিনিট</span>}{Number(selected.servings)>0&&<span>পরিবেশন {selected.servings} জন</span>}<span><ChefHat size={17}/> {selected.level}</span></div><button className="outline-btn" onClick={()=>toggleSave(selected.id)}><Heart size={17} fill={saved.includes(selected.id)?'currentColor':'none'}/>{saved.includes(selected.id)?'সংরক্ষিত':'রেসিপি সংরক্ষণ'}</button></div></div>{selected.image&&selected.image_credit&&selected.image_source_url&&<div className="image-credit">ছবির কৃতিত্ব: <a href={selected.image_source_url} target="_blank" rel="noopener noreferrer">{selected.image_credit}</a><span>·</span><a href={imageLicenseHref(selected.image_license)} target="_blank" rel="noopener noreferrer">লাইসেন্স {selected.image_license}</a></div>}<div className="instruction-grid"><div className="ingredients panel"><h3>উপকরণ</h3><ul>{selected.ingredients.map((x,i)=><li key={i}>{x}</li>)}</ul></div><div className="steps panel"><h3>রান্নার পদ্ধতি</h3><ol>{selected.steps.map((x,i)=><li key={i}>{x}</li>)}</ol></div></div>{selected.source_url&&<div className="recipe-source-note"><span>রেসিপির ধরন/নামের রেফারেন্স: {selected.source_name||"মূল উৎস"}। রান্নার নির্দেশনা Rannar Menu-তে নতুনভাবে লেখা।</span><a href={selected.source_url} target="_blank" rel="noopener noreferrer">উৎস দেখুন <ArrowUpRight size={14}/></a></div>}<RecipeReviews recipe={selected}/></article>:<>{catalogBusy?<div className="empty-state"><span className="catalog-spinner"/><h3>রেসিপি লোড হচ্ছে…</h3><p>ডেটাবেস থেকে প্রকাশিত রেসিপি আনা হচ্ছে।</p></div>:filtered.length?<div className="recipe-grid">{filtered.map(r=><article className="recipe-card" key={r.id}><button className="image-button" onClick={()=>openRecipe(r)} aria-label={r.title+' বিস্তারিত দেখুন'}>{r.image?<><img src={r.image} alt={r.title} data-original-image-url={r.image} data-source-url={r.image_source_url} loading="lazy" onError={handleDishImageError}/><span className="image-placeholder image-error-placeholder" role="img" aria-label={r.title+"-এর ছবি লোড হয়নি"}><Utensils size={34}/><small>ছবিটি লোড হয়নি; অন্য খাবারের ছবি দেখানো হবে না</small></span></>:<span className="image-placeholder" role="img" aria-label={r.title+"-এর সঠিক ছবি এখনো পাওয়া যায়নি"}><Utensils size={34}/><small>এই খাবারের সঠিক ছবি যাচাই হচ্ছে</small></span>}<span className="recipe-tag">{r.tag||r.category}</span></button>{r.image&&r.image_credit&&r.image_source_url&&<div className="card-image-credit">ছবি: <a href={r.image_source_url} target="_blank" rel="noopener noreferrer">{r.image_credit}</a> · <a href={imageLicenseHref(r.image_license)} target="_blank" rel="noopener noreferrer">লাইসেন্স {r.image_license}</a></div>}<div className="card-body"><div className="card-meta"><span>{r.category}</span><span><Clock3 size={14}/> {r.time} মিনিট</span></div><button className="card-title" onClick={()=>openRecipe(r)}>{r.title}<ArrowUpRight size={18}/></button><p>{r.desc}</p><div className="card-footer"><span className="difficulty"><span className="difficulty-dot"/>{r.level}</span><button className={saved.includes(r.id)?'save-btn saved':'save-btn'} aria-label="রেসিপি সংরক্ষণ" onClick={()=>toggleSave(r.id)}><Heart size={18} fill={saved.includes(r.id)?'currentColor':'none'}/></button></div></div></article>)}</div>:<div className="empty-state"><Search size={34}/><h3>কোনো রেসিপি পাওয়া যায়নি</h3><p>{catalogError?'ডেটাবেসে রেসিপি আনার সময় সমস্যা হয়েছে।':catalogMode?'এই অনুসন্ধানে কোনো প্রকাশিত রেসিপি নেই।':'অন্য শব্দ দিয়ে খুঁজুন অথবা ক্যাটাগরি পরিবর্তন করুন।'}</p><button className="outline-btn" onClick={resetFilters}>সব রেসিপি দেখুন</button></div>}{catalogMode&&!showSaved&&catalogTotal>PAGE_SIZE&&<div className="catalog-pagination"><button className="outline-btn" disabled={catalogPage===0||catalogBusy} onClick={()=>setCatalogPage(p=>Math.max(0,p-1))}>← আগের পৃষ্ঠা</button><span>পৃষ্ঠা {catalogPage+1} / {Math.ceil(catalogTotal/PAGE_SIZE)} · মোট {catalogTotal.toLocaleString('bn-BD')} রেসিপি</span><button className="outline-btn" disabled={(catalogPage+1)*PAGE_SIZE>=catalogTotal||catalogBusy} onClick={()=>setCatalogPage(p=>p+1)}>পরের পৃষ্ঠা →</button></div>}</>}
+ {route.page==='recipe'&&!selected?<div className="empty-state"><span className="catalog-spinner"/><h3>{recipeLoadError?'রেসিপি লোড করা যায়নি':'রেসিপি লোড হচ্ছে…'}</h3><p>{recipeLoadError?'এই রেসিপি পাওয়া যায়নি, অথবা আপনার অ্যাকাউন্টে পূর্ণ বিবরণ দেখার অনুমতি নেই।':'যাচাইকৃত অ্যাকাউন্ট থেকে রেসিপির সম্পূর্ণ তথ্য আনা হচ্ছে।'}</p><button className="outline-btn" onClick={()=>handleNavigation('recipes')}>সব রেসিপিতে ফিরুন</button></div>:selected?<article className="recipe-detail"><button className="back-btn" onClick={()=>navigateTo('recipes')}>← সব রেসিপিতে ফিরুন</button><div className="detail-grid"><div className="detail-image-shell">{selected.image?<><img src={selected.image} alt={selected.title} data-original-image-url={selected.image} data-source-url={selected.image_source_url} onError={handleDishImageError}/><div className="detail-image-placeholder image-error-placeholder" role="img" aria-label={selected.title+"-এর ছবি লোড হয়নি"}><Utensils size={44}/><span>ছবিটি লোড হয়নি; অন্য খাবারের ছবি দেখানো হবে না</span></div></>:<div className="detail-image-placeholder" role="img" aria-label={selected.title+"-এর সঠিক ছবি এখনো পাওয়া যায়নি"}><Utensils size={44}/><span>এই খাবারের নির্ভরযোগ্য ছবি যাচাই করা হচ্ছে</span></div>}</div><div className="detail-copy"><span className="recipe-tag">{selected.category}</span><h2>{selected.title}</h2><p>{selected.desc}</p><div className="detail-meta"><span><Clock3 size={17}/> মোট {selected.time} মিনিট</span>{Number.isFinite(selected.prep_minutes)&&<span>প্রস্তুতি {selected.prep_minutes} মিনিট</span>}{Number.isFinite(selected.cook_minutes)&&<span>রান্না {selected.cook_minutes} মিনিট</span>}{Number(selected.servings)>0&&<span>পরিবেশন {selected.servings} জন</span>}<span><ChefHat size={17}/> {selected.level}</span></div><button className="outline-btn" onClick={()=>toggleSave(selected.id)}><Heart size={17} fill={saved.includes(selected.id)?'currentColor':'none'}/>{saved.includes(selected.id)?'সংরক্ষিত':'রেসিপি সংরক্ষণ'}</button></div></div>{selected.image&&selected.image_credit&&selected.image_source_url&&<div className="image-credit">ছবির কৃতিত্ব: <a href={selected.image_source_url} target="_blank" rel="noopener noreferrer">{selected.image_credit}</a><span>·</span><a href={imageLicenseHref(selected.image_license)} target="_blank" rel="noopener noreferrer">লাইসেন্স {selected.image_license}</a></div>}<div className="instruction-grid"><div className="ingredients panel"><h3>উপকরণ</h3><ul>{selected.ingredients.map((x,i)=><li key={i}>{x}</li>)}</ul></div><div className="steps panel"><h3>রান্নার পদ্ধতি</h3><ol>{selected.steps.map((x,i)=><li key={i}>{x}</li>)}</ol></div></div>{selected.source_url&&<div className="recipe-source-note"><span>রেসিপির ধরন/নামের রেফারেন্স: {selected.source_name||"মূল উৎস"}। রান্নার নির্দেশনা Rannar Menu-তে নতুনভাবে লেখা।</span><a href={selected.source_url} target="_blank" rel="noopener noreferrer">উৎস দেখুন <ArrowUpRight size={14}/></a></div>}<RecipeReviews recipe={selected}/></article>:<>{catalogBusy?<div className="empty-state"><span className="catalog-spinner"/><h3>রেসিপি লোড হচ্ছে…</h3><p>ডেটাবেস থেকে প্রকাশিত রেসিপি আনা হচ্ছে।</p></div>:filtered.length?<div className="recipe-grid">{filtered.map(r=><article className="recipe-card" key={r.id}><button className="image-button" onClick={()=>openRecipe(r)} aria-label={r.title+' বিস্তারিত দেখুন'}>{r.image?<><img src={r.image} alt={r.title} data-original-image-url={r.image} data-source-url={r.image_source_url} loading="lazy" onError={handleDishImageError}/><span className="image-placeholder image-error-placeholder" role="img" aria-label={r.title+"-এর ছবি লোড হয়নি"}><Utensils size={34}/><small>ছবিটি লোড হয়নি; অন্য খাবারের ছবি দেখানো হবে না</small></span></>:<span className="image-placeholder" role="img" aria-label={r.title+"-এর সঠিক ছবি এখনো পাওয়া যায়নি"}><Utensils size={34}/><small>এই খাবারের সঠিক ছবি যাচাই হচ্ছে</small></span>}<span className="recipe-tag">{r.tag||r.category}</span></button>{r.image&&r.image_credit&&r.image_source_url&&<div className="card-image-credit">ছবি: <a href={r.image_source_url} target="_blank" rel="noopener noreferrer">{r.image_credit}</a> · <a href={imageLicenseHref(r.image_license)} target="_blank" rel="noopener noreferrer">লাইসেন্স {r.image_license}</a></div>}<div className="card-body"><div className="card-meta"><span>{r.category}</span><span><Clock3 size={14}/> {r.time} মিনিট</span></div><button className="card-title" onClick={()=>openRecipe(r)}>{r.title}<ArrowUpRight size={18}/></button><p>{r.desc}</p><div className="card-footer"><span className="difficulty"><span className="difficulty-dot"/>{r.level}</span><button className={saved.includes(r.id)?'save-btn saved':'save-btn'} aria-label="রেসিপি সংরক্ষণ" onClick={()=>toggleSave(r.id)}><Heart size={18} fill={saved.includes(r.id)?'currentColor':'none'}/></button></div></div></article>)}</div>:<div className="empty-state"><Search size={34}/><h3>কোনো রেসিপি পাওয়া যায়নি</h3><p>{catalogError?'ডেটাবেসে রেসিপি আনার সময় সমস্যা হয়েছে।':catalogMode?'এই অনুসন্ধানে কোনো প্রকাশিত রেসিপি নেই।':'অন্য শব্দ দিয়ে খুঁজুন অথবা ক্যাটাগরি পরিবর্তন করুন।'}</p><button className="outline-btn" onClick={resetFilters}>সব রেসিপি দেখুন</button></div>}{catalogMode&&!showSaved&&catalogTotal>PAGE_SIZE&&<div className="catalog-pagination"><button className="outline-btn" disabled={catalogPage===0||catalogBusy} onClick={()=>setCatalogPage(p=>Math.max(0,p-1))}>← আগের পৃষ্ঠা</button><span>পৃষ্ঠা {catalogPage+1} / {Math.ceil(catalogTotal/PAGE_SIZE)} · মোট {catalogTotal.toLocaleString('bn-BD')} রেসিপি</span><button className="outline-btn" disabled={(catalogPage+1)*PAGE_SIZE>=catalogTotal||catalogBusy} onClick={()=>setCatalogPage(p=>p+1)}>পরের পৃষ্ঠা →</button></div>}</>}
  {route.page==='recipes'&&<div className="collection-note"><div className="collection-icon"><Bookmark size={22}/></div><div><strong>আপনার রান্নার খাতা আরও বড় হবে</strong><p>রেসিপি এখন ডেটাবেসে সংরক্ষিত হয়। অ্যাডমিন থেকে CSV/JSON batch import করে বড় সংগ্রহ তৈরি করা যাবে।</p></div></div>}</section>}
- {route.page==='about'&&<AboutPage section={route.slug} onNavigateAbout={(section='')=>navigateTo('about',null,{section})}/>}</main><footer className="footer"><div className="wrap footer-inner"><a className="brand footer-brand" href="#/home" aria-label="Rannar Menu — রান্না হোক আরও সহজ" onClick={e=>{e.preventDefault();navigateTo('home')}}><img className="brand-logo brand-logo-light" src={import.meta.env.BASE_URL + "rannar-menu-logo-light.svg"} alt="" width="635" height="160" /><img className="brand-logo brand-logo-dark" src={import.meta.env.BASE_URL + "rannar-menu-logo-dark.svg"} alt="" width="635" height="160" aria-hidden="true" /></a><div className="footer-copy"><span className="footer-copyright">© {new Date().getFullYear()} Rannar Menu</span><span className="footer-copy-separator" aria-hidden="true">·</span><span className="footer-tagline">স্বাদের গল্প চলুক।</span></div><a className="footer-admin-link" href={import.meta.env.BASE_URL + "admin"}>অ্যাডমিন</a></div></footer><BottomNavigation activePage={route.page} onNavigate={navigateTo} savedCount={saved.length}/><MiraChat onOpenRecipe={recipe=>{openRecipe(recipe);setCategory('সব রেসিপি');setQuery('');setCatalogPage(0);}} /></>;
+ {route.page==='about'&&<AboutPage section={route.slug} onNavigateAbout={(section='')=>navigateTo('about',null,{section})}/>}{route.page==='profile'&&<AccountPage user={user} profile={customerProfile} isVerified={isVerifiedCustomer} authReady={authReady} notice={profileNotice} onProfileUpdated={setCustomerProfile} onSignOut={()=>{setCustomerProfile(null);setSaved([]);navigateTo('home');}}/>}</main><footer className="footer"><div className="wrap footer-inner"><a className="brand footer-brand" href="#/home" aria-label="Rannar Menu — রান্না হোক আরও সহজ" onClick={e=>{e.preventDefault();navigateTo('home')}}><img className="brand-logo brand-logo-light" src={import.meta.env.BASE_URL + "rannar-menu-logo-light.svg"} alt="" width="635" height="160" /><img className="brand-logo brand-logo-dark" src={import.meta.env.BASE_URL + "rannar-menu-logo-dark.svg"} alt="" width="635" height="160" aria-hidden="true" /></a><div className="footer-copy"><span className="footer-copyright">© {new Date().getFullYear()} Rannar Menu</span><span className="footer-copy-separator" aria-hidden="true">·</span><span className="footer-tagline">স্বাদের গল্প চলুক।</span></div><a className="footer-admin-link" href={import.meta.env.BASE_URL + "admin"}>অ্যাডমিন</a></div></footer><BottomNavigation activePage={route.page} onNavigate={handleNavigation} savedCount={saved.length} accountLabel={isVerifiedCustomer?'প্রোফাইল':'লগইন'}/><MiraChat onOpenRecipe={recipe=>{openRecipe(recipe);setCategory('সব রেসিপি');setQuery('');setCatalogPage(0);}} /></>;
 }
 createRoot(document.getElementById('root')).render(<React.StrictMode><PWAInstallManager />{window.location.pathname.replace(/\/+$/,'').endsWith('/admin')?<AdminApp/>:<App/>}</React.StrictMode>);
