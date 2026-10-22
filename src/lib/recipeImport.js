@@ -18,7 +18,7 @@ function parseList(value) {
 }
 const minutes = v => { const n=Number(String(v??'').trim()); return Number.isFinite(n)&&n>=0&&n<=1440?Math.round(n):0; };
 export function slugify(value) {
-  return String(value??'').normalize('NFKC').toLocaleLowerCase().trim().replace(/[^\p{L}\p{N}]+/gu,'-').replace(/^-+|-+$/g,'').slice(0,200);
+  return String(value??'').normalize('NFKC').toLocaleLowerCase().trim().replace(/[^\p{L}\p{M}\p{N}]+/gu,'-').replace(/^-+|-+$/g,'').slice(0,200);
 }
 export function normalizeRecipeRecord(row) {
   if (!row || typeof row !== 'object' || Array.isArray(row)) return {error:'রেকর্ডটি একটি object বা CSV row হতে হবে।'};
