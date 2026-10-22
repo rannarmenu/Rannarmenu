@@ -121,6 +121,16 @@ async function fetchArticleImage(articleUrl, publisherUrl = '') {
   try {
     let page = await fetchArticlePage(url);
     if (!page) return '';
+    if (url.includes('CBMiVEFVX3lxTE03cURZ')) {
+      console.log('IMAGE_DEBUG ' + JSON.stringify({
+        requestedUrl: url,
+        finalUrl: page.url,
+        finalHost: page.hostname,
+        publisherUrl,
+        htmlStart: page.html.slice(0, 1800),
+        articleCandidate: findPublisherArticleLink(page.html, page.url, publisherUrl),
+      }));
+    }
     if (page.hostname === 'news.google.com' || page.hostname.endsWith('.news.google.com')) {
       const article = findPublisherArticleLink(page.html, page.url, publisherUrl);
       if (!article) return '';
