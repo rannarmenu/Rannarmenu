@@ -58,7 +58,7 @@ function FeaturedRecipeCarousel({ recipes, activeIndex, onSelect, onPrevious, on
     <h2>{recipe.title}</h2>
     <p>{recipe.desc||'পরিচিত উপকরণে ধাপে ধাপে শিখুন এই ঘরোয়া রেসিপি।'}</p>
     <div className="featured-meta"><span><Clock3 size={15}/>{recipe.time>0?recipe.time+' মিনিট':'সহজ ধাপ'}</span><span><ChefHat size={15}/>{recipe.level||'ঘরোয়া স্বাদ'}</span></div>
-    <button type="button" className="featured-cta" onClick={()=>onSelect(recipe)}>রেসিপিটি দেখুন <ArrowUpRight size={16}/></button>
+    <button type="button" className="featured-cta" onClick={()=>onSelect(verifiedPhoto?recipe:{...recipe,image:null})}>রেসিপিটি দেখুন <ArrowUpRight size={16}/></button>
     {verifiedPhoto&&recipe.image_credit&&recipe.image_source_url&&recipe.image_license&&<div className="featured-credit">ছবি: <a href={recipe.image_source_url} target="_blank" rel="noopener noreferrer">{recipe.image_credit}</a><span>·</span><a href={imageLicenseHref(recipe.image_license)} target="_blank" rel="noopener noreferrer">{recipe.image_license}</a></div>}
    </div>
   </div>:<div className="featured-empty">
