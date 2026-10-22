@@ -787,3 +787,11 @@ html[data-theme="dark"] .about-option-row:hover .about-option-arrow {
     transform: none;
   }
 }
+
+
+/* Native Android app download row */
+.about-app-download{display:grid;text-decoration:none;color:inherit}
+.about-app-download .about-option-arrow{color:#315c43}
+.about-app-download-note{margin:12px 8px 20px;color:var(--about-muted);font-size:12px;line-height:1.7}
+html[data-theme="dark"] .about-app-download:hover{background:#202b21}
+html[data-theme="dark"] .about-app-download-note{color:#a5b1a4}
