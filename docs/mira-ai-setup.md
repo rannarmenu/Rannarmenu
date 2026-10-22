@@ -1,44 +1,39 @@
-# Mira AI setup
+# Mira local brain
 
-Mira has a server-side Supabase Edge Function at `supabase/functions/mira-chat/index.ts`. It uses the OpenAI Responses API without exposing the provider key to browser code.
+Mira now uses a purpose-built local rule engine instead of the ChatGPT/OpenAI API. **No OpenAI API key, paid LLM account, or generative-AI secret is required.**
 
-## Enable full AI answers
+## What Mira can do without an AI provider
 
-The function is deployed, but full generative answers require an OpenAI API key. In the Supabase Dashboard:
+- Understand common Bengali and Banglish recipe requests using intent and spelling rules.
+- Diagnose common kitchen problems such as thin curry, excess salt or spice, burnt food, undercooked chicken, and sticky rice.
+- Answer practical kitchen questions about standard measuring units, basic cooking times, and safe food handling.
+- Provide built-in starter guides for egg curry, masoor dal, chicken curry, and khichuri when the published catalogue does not have a match.
+- Search only Rannar Menu's real published recipe catalogue before offering a catalogue recipe. Mira does not invent a database match.
+- Give honest, specific follow-up prompts when a request is not covered by its local knowledge rules.
 
-1. Open the **rannarmenu** project.
-2. Go to **Edge Functions → Secrets**.
-3. Add `OPENAI_API_KEY` and paste an API key created in your OpenAI Platform account.
-4. Optionally add `OPENAI_MODEL` with a model enabled for that API account. If omitted, Mira uses `gpt-5.1` with medium reasoning effort for more considered answers.
-5. Save the secrets. Supabase Edge Functions can read them at runtime.
+## Architecture
 
-Never commit the key, add it to GitHub, or put it in any `VITE_*` browser variable. Do not send the key through chat or issue comments.
+- src/lib/miraBrain.js contains the local cooking knowledge rules and starter guides.
+- src/lib/miraLanguage.js classifies common Bengali/Banglish intents and troubleshooting phrases.
+- src/MiraChat.jsx runs the local brain in the browser. It does not invoke a generative AI endpoint or use a third-party machine-translation service for chat answers.
+- Recipe-card search still requires the configured Supabase database and an internet connection. The AI brain itself does not require an external model.
+- supabase/functions/mira-chat/index.ts is a backward-compatible rule-based endpoint for older clients. It no longer calls an external model or reads OPENAI_API_KEY. The current chat UI does not depend on this function.
 
-Supabase secrets guide: https://supabase.com/docs/guides/functions/secrets
-OpenAI Responses API: https://platform.openai.com/docs/api-reference/responses
+## Important limitation
 
-OpenAI API usage may incur charges under the API account's billing terms. Review pricing and usage limits before enabling public visitor access: https://platform.openai.com/pricing/
+This is a specialized, deterministic cooking assistant, not a new foundation language model. It can work independently of ChatGPT, but it cannot answer every open-ended question with ChatGPT-level breadth. Add and test explicit rules or reviewed cooking guides to expand its capabilities. It should not pretend to know an answer when a matching rule is absent.
 
-## Optional custom website domain
+## Security and deployment
 
-The function allows the GitHub Pages origin `https://rannarmenu.github.io` and local development origins. For another production origin, add `MIRA_ALLOWED_ORIGINS` in Edge Function Secrets, with a comma-separated list of exact origins, e.g. `https://example.com,https://www.example.com`.
+- Do not add OPENAI_API_KEY to Supabase or browser environment variables for Mira; it is no longer used.
+- The compatibility Edge Function keeps origin checks, publishable-key checks, request limits, and rate limiting. Redeploy it through the normal Supabase deployment workflow if you want the remote function source to match this repository for older clients.
+- The website uses Supabase only for recipe data and other existing site features. Recipe search still depends on the database being available.
 
-## What the function does
+## Test
 
-- Receives up to 12 recent chat messages, with size limits.
-- Sends a structured prompt to the Responses API with `store: false`.
-- Returns a validated action: ordinary chat, website help, cooking help, clarification, or recipe search.
-- For recipe search, the browser searches only Rannar Menu's published database entries and opens an actual matching recipe. The model cannot invent a database result or directly open a URL.
-- When the AI provider is unavailable, the browser keeps local recipe/catalogue handling available and now shows an actionable message for missing secrets, rejected keys, unavailable models, or rate/usage limits instead of silently pretending a generic fallback is an AI answer.
+Run the existing test suite and production build:
 
-The chat uses an external AI/translation service when available. Visitors should not enter passwords, financial details, or other private information into the widget.
-
-## Diagnosing API errors
-
-A provider 429 can mean a temporary request/token rate limit or a credit, billing, spend, or usage limit. Mira now distinguishes billing/usage errors from temporary rate-limit errors when the API returns a recognizable code. Check usage and limits before retrying repeatedly:
-
-- OpenAI API usage: https://platform.openai.com/usage
-- OpenAI billing: https://platform.openai.com/settings/organization/billing/overview
-- OpenAI rate-limit troubleshooting: https://help.openai.com/en/articles/5955604-troubleshooting-api-rate-limits-and-429-errors
-
-Do not paste the API key into chat or share it in screenshots. If the key was ever exposed publicly, revoke it and create a replacement.
+```
+npm test
+npm run build
+```
