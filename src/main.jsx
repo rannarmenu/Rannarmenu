@@ -16,7 +16,6 @@ import { buildRecipeSearchGroups, recipeMatchesSearch } from './lib/recipeSearch
 import { getPhotoFallbackUrls, isDishSpecificPhotoTitle } from './lib/recipeImages.js';
 import './readability.css';
 import PWAInstallManager from './PWAInstallManager.jsx';
-import AppUpdateGate from './AppUpdateGate.jsx';
 
 const demos = [
  {id:'demo-biryani',slug:'ghoroya-chicken-biryani',title:'ঘরোয়া চিকেন বিরিয়ানি',category:'মাংস',time:55,level:'মাঝারি',tag:'সবার প্রিয়',image:null,desc:'সুগন্ধি চাল, মসলা আর নরম মুরগির মজাদার আয়োজন।',ingredients:['বাসমতি চাল ২ কাপ','মুরগি ৫০০ গ্রাম','পেঁয়াজ ২টি','টক দই ½ কাপ','বিরিয়ানি মসলা ২ টেবিল চামচ'],steps:['চাল ধুয়ে ২০ মিনিট ভিজিয়ে রাখুন।','মুরগি দই, মসলা ও পেঁয়াজ দিয়ে মাখিয়ে রান্না করুন।','আধা সেদ্ধ চাল ও মুরগি স্তরে স্তরে সাজিয়ে দমে রাখুন।']},
@@ -314,4 +313,4 @@ function App() {
  {route.page==='recipes'&&<div className="collection-note"><div className="collection-icon"><Bookmark size={22}/></div><div><strong>আপনার রান্নার খাতা আরও বড় হবে</strong><p>রেসিপি এখন ডেটাবেসে সংরক্ষিত হয়। অ্যাডমিন থেকে CSV/JSON batch import করে বড় সংগ্রহ তৈরি করা যাবে।</p></div></div>}</section>}
  {route.page==='about'&&<AboutPage section={route.slug} onNavigateAbout={(section='')=>navigateTo('about',null,{section})}/>}</main><footer className="footer"><div className="wrap footer-inner"><a className="brand footer-brand" href="#/home" aria-label="Rannar Menu — রান্না হোক আরও সহজ" onClick={e=>{e.preventDefault();navigateTo('home')}}><img className="brand-logo brand-logo-light" src={import.meta.env.BASE_URL + "rannar-menu-logo-light.svg"} alt="" width="635" height="160" /><img className="brand-logo brand-logo-dark" src={import.meta.env.BASE_URL + "rannar-menu-logo-dark.svg"} alt="" width="635" height="160" aria-hidden="true" /></a><div className="footer-copy"><span className="footer-copyright">© {new Date().getFullYear()} Rannar Menu</span><span className="footer-copy-separator" aria-hidden="true">·</span><span className="footer-tagline">স্বাদের গল্প চলুক।</span></div><a className="footer-admin-link" href={import.meta.env.BASE_URL + "admin"}>অ্যাডমিন</a></div></footer><BottomNavigation activePage={route.page} onNavigate={navigateTo} savedCount={saved.length}/><MiraChat onOpenRecipe={recipe=>{openRecipe(recipe);setCategory('সব রেসিপি');setQuery('');setCatalogPage(0);}} /></>;
 }
-createRoot(document.getElementById('root')).render(<React.StrictMode><PWAInstallManager /><AppUpdateGate />{window.location.pathname.replace(/\/+$/,'').endsWith('/admin')?<AdminApp/>:<App/>}</React.StrictMode>);
+createRoot(document.getElementById('root')).render(<React.StrictMode><PWAInstallManager />{window.location.pathname.replace(/\/+$/,'').endsWith('/admin')?<AdminApp/>:<App/>}</React.StrictMode>);
