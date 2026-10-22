@@ -319,13 +319,7 @@ export default function MiraChat({ onOpenRecipe }) {
 
     // Local-only mode: no model endpoint or API key is contacted.
     const intent = classifyMiraIntent(rawText);
-    const language = /[\\u0980-\\u09FF]/u.test(rawText)
-      ? 'bn'
-      : detectBanglish(rawText)
-        ? 'banglish'
-        : (typeof navigator !== 'undefined' && String(navigator.language || '').startsWith('bn') ? 'bn' : 'en');
-    const fallbackNote = '';
-    const withFallbackNote = reply => reply + fallbackNote;
+    const withFallbackNote = reply => reply;
 
     const smallTalk = getSmallTalkReply(normalizeSearchText(rawText));
     if (smallTalk || ['greeting', 'thanks', 'identity', 'capabilities'].includes(intent)) {
