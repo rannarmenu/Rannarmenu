@@ -1,168 +1,248 @@
 import React from 'react';
-import { ArrowUpRight, BookOpen, Bookmark, ChefHat, Globe2, Heart, Search, ShieldCheck, Sparkles, Target, Users } from 'lucide-react';
+import {
+  ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, ChefHat, Heart,
+  Lightbulb, ShieldCheck, Sparkles, Target, Users, Utensils
+} from 'lucide-react';
 import './about-page.css';
 
-const mediaBrands = [
+const mediaSponsors = [
   {
     name: 'Somoy TV',
     bangla: 'সময় টিভি',
-    role: '২৪ ঘণ্টার সংবাদ ও চলতি ঘটনা',
+    description: 'সংবাদ ও চলমান ঘটনাপ্রবাহ',
     site: 'https://www.somoynews.tv/',
     logo: 'https://thefe-bd.sgp1.cdn.digitaloceanspaces.com/posts/53385/somoy.jpg',
-    source: 'https://www.somoynews.tv/',
   },
   {
     name: 'NTV',
     bangla: 'এনটিভি',
-    role: 'সংবাদ, অনুষ্ঠান ও বিনোদন',
+    description: 'সংবাদ, অনুষ্ঠান ও বিনোদন',
     site: 'https://www.ntvbd.com/',
     logo: 'https://cdn.jvectors.com/upload/photos/2024/03/PPOeXLNVad5v2ZG6avan_05_df80842812ab480999f0b657f73bc5d1_jvectors.webp?updated=1743062758',
-    source: 'https://www.ntvbd.com/',
   },
   {
     name: 'Boishakhi TV',
     bangla: 'বৈশাখী টিভি',
-    role: 'বাংলা সংবাদ ও টেলিভিশন অনুষ্ঠান',
+    description: 'বাংলা সংবাদ ও টেলিভিশন অনুষ্ঠান',
     site: 'https://boishakhi.tv/',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/f/f2/Boishakhi_Tv_Logo.png',
-    source: 'https://commons.wikimedia.org/wiki/File:Boishakhi_Tv_Logo.png',
   },
   {
     name: 'Jamuna TV',
     bangla: 'যমুনা টিভি',
-    role: 'জাতীয় ও আন্তর্জাতিক সংবাদ',
+    description: 'জাতীয় ও আন্তর্জাতিক সংবাদ',
     site: 'https://jamuna.tv/',
     logo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jamuna_TV_logo.svg',
-    source: 'https://commons.wikimedia.org/wiki/File:Jamuna_TV_logo.svg',
+  },
+  {
+    name: 'Maasranga TV',
+    bangla: 'মাছরাঙা টিভি',
+    description: 'সংবাদ, খেলাধুলা ও বিনোদন',
+    site: 'https://maasranga.tv/',
+    logo: 'https://beyondtechbd.com/wp-content/uploads/2023/04/16.maasranga.png',
   },
   {
     name: 'Channel 24',
     bangla: 'চ্যানেল ২৪',
-    role: 'বাংলাদেশ ও বিশ্বের সংবাদ ও চলতি ঘটনা',
+    description: 'বাংলাদেশ ও বিশ্বের সংবাদ',
     site: 'https://www.channel24bd.tv/',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Channel24logo.svg/1280px-Channel24logo.svg.png',
-    source: 'https://commons.wikimedia.org/wiki/File:Channel24logo.svg',
+  },
+];
+
+const aboutOptions = [
+  {
+    key: 'why',
+    number: '01',
+    title: 'কেন আমরা',
+    subtitle: 'Rannar Menu-র ভাবনা, লক্ষ্য ও আমাদের কাজের ধরন',
+    Icon: Lightbulb,
   },
   {
-    name: 'Maasranga Television',
-    bangla: 'মাছরাঙা টেলিভিশন',
-    role: 'সংবাদ, খেলাধুলা ও বিনোদন',
-    site: 'https://maasranga.tv/',
-    logo: 'https://beyondtechbd.com/wp-content/uploads/2023/04/16.maasranga.png',
-    source: 'https://beyondtechbd.com/case-study-maasranga-television-mobile-app-and-content-management-system-development/',
+    key: 'founder',
+    number: '02',
+    title: 'প্রতিষ্ঠাতা ও চেয়ারম্যান',
+    subtitle: 'মেঘ চৌধুরী মাহফুজ এবং তাঁর উদ্যোগের গল্প',
+    Icon: Users,
+  },
+  {
+    key: 'sponsors',
+    number: '03',
+    title: 'আমাদের স্পনসর',
+    subtitle: 'আমাদের পাশে থাকা সংবাদমাধ্যম ও SYLAÉ Group Ltd',
+    Icon: Heart,
   },
 ];
 
-const siteFeatures = [
-  { Icon: BookOpen, title: 'রেসিপি সংগ্রহ', text: 'দেশি রান্না থেকে প্রতিদিনের সহজ পদ—ধাপে ধাপে রান্নার নির্দেশনা এক জায়গায়।' },
-  { Icon: Search, title: 'সহজে খুঁজুন', text: 'রেসিপির নাম, উপকরণ বা ক্যাটাগরি ধরে পছন্দের খাবার খুঁজে নিন।' },
-  { Icon: Bookmark, title: 'নিজের রান্নার খাতা', text: 'পছন্দের রেসিপি সংরক্ষণ করে পরে দ্রুত আবার দেখে নিতে পারবেন।' },
-  { Icon: ShieldCheck, title: 'বিশ্বাসযোগ্য উপস্থাপনা', text: 'রেসিপির তথ্য, উপকরণ ও ছবির মিলকে গুরুত্ব দিয়ে পরিষ্কারভাবে কনটেন্ট সাজানোর লক্ষ্য।' },
-];
-
-function jumpToSection(event, id) {
-  event.preventDefault();
-  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
-
-function SectionHeading({ eyebrow, title, text }) {
+function BackToAbout({ onClick }) {
   return (
-    <div className="about-section-heading">
-      <span className="about-eyebrow">{eyebrow}</span>
-      <h2>{title}</h2>
-      {text && <p>{text}</p>}
-    </div>
+    <button type="button" className="about-back-link" onClick={onClick}>
+      <ArrowLeft size={17} aria-hidden="true" />
+      আমাদের কথা
+    </button>
   );
 }
 
-export default function AboutPage() {
+function SectionIntro({ eyebrow, title, children }) {
   return (
-    <div className="about-page">
-      <section className="about-hero" aria-labelledby="about-title">
-        <div className="about-hero-copy">
-          <span className="about-eyebrow"><Sparkles size={14} aria-hidden="true" /> RANNAR MENU · আমাদের পরিচয়</span>
-          <h1 id="about-title">রান্নার আনন্দ,<br /><em>সবার জন্য।</em></h1>
-          <p>Rannar Menu হলো ঘরোয়া রান্নার অনুপ্রেরণা খুঁজে নেওয়ার একটি বাংলা রেসিপি প্ল্যাটফর্ম। পরিচিত উপকরণ, সহজ নির্দেশনা আর নিজের পছন্দের রেসিপি গুছিয়ে রাখার সুবিধা—সবকিছু সহজভাবে উপস্থাপন করাই আমাদের লক্ষ্য।</p>
-          <div className="about-hero-actions">
-            <a className="about-primary-link" href="#about-site" onClick={(event) => jumpToSection(event, "about-site")}>ওয়েবসাইট সম্পর্কে <ArrowUpRight size={16} /></a>
-            <a className="about-secondary-link" href="#about-founder" onClick={(event) => jumpToSection(event, "about-founder")}>প্রতিষ্ঠাতার পরিচিতি</a>
+    <header className="about-detail-intro">
+      <span className="about-kicker">{eyebrow}</span>
+      <h1>{title}</h1>
+      {children && <p>{children}</p>}
+    </header>
+  );
+}
+
+function AboutHome({ onNavigate }) {
+  return (
+    <section className="about-hub" aria-labelledby="about-hub-title">
+      <div className="about-hub-heading">
+        <span className="about-kicker"><Sparkles size={14} aria-hidden="true" /> RANNAR MENU</span>
+        <h1 id="about-hub-title">আমাদের কথা</h1>
+        <p>আমাদের গল্প জানতে নিচের যে বিষয়টি দেখতে চান, সেটি বেছে নিন। প্রতিটি অপশনের জন্য আলাদা পেজ রাখা হয়েছে, যাতে তথ্যগুলো সহজে পড়া যায়।</p>
+      </div>
+
+      <nav className="about-option-list" aria-label="আমাদের কথা বিভাগের তালিকা">
+        {aboutOptions.map(({ key, number, title, subtitle, Icon }) => (
+          <button
+            type="button"
+            className="about-option-row"
+            key={key}
+            onClick={() => onNavigate(key)}
+          >
+            <span className="about-option-number">{number}</span>
+            <span className="about-option-icon"><Icon size={21} strokeWidth={1.7} aria-hidden="true" /></span>
+            <span className="about-option-copy">
+              <strong>{title}</strong>
+              <small>{subtitle}</small>
+            </span>
+            <ArrowRight className="about-option-arrow" size={20} aria-hidden="true" />
+          </button>
+        ))}
+      </nav>
+      <div className="about-hub-note">
+        <ChefHat size={18} aria-hidden="true" />
+        <p>ঘরোয়া রান্নার জন্য একটি সহজ, নির্ভরযোগ্য ও আপন বাংলা ডিজিটাল জায়গা তৈরি করাই আমাদের চেষ্টা।</p>
+      </div>
+    </section>
+  );
+}
+
+function WhyUs({ onBack }) {
+  return (
+    <article className="about-detail about-why-page">
+      <BackToAbout onClick={onBack} />
+      <SectionIntro eyebrow="OUR PURPOSE" title="কেন আমরা" >
+        ভালো রান্নার জন্য সবসময় জটিল আয়োজন দরকার হয় না। অনেক সময় দরকার হয় ঠিক সময়ে পাওয়া একটি সহজ রেসিপি, পরিচিত উপকরণের পরিমাপ, আর ধাপগুলো স্পষ্ট করে বলা। Rannar Menu-র ভাবনা সেখান থেকেই।
+      </SectionIntro>
+
+      <div className="about-story-copy">
+        <p>আমরা Rannar Menu-কে এমন একটি বাংলা রান্নার জায়গা হিসেবে গড়ে তুলতে চাই, যেখানে নতুন কেউ রান্না শিখতে এলেও অস্বস্তি বোধ করবেন না, আর অভিজ্ঞ রাঁধুনিও নতুন কোনো আইডিয়া খুঁজে পাবেন। আমাদের কাছে রেসিপি শুধু উপকরণের তালিকা নয়—এটা পরিবারের স্বাদ, প্রতিদিনের অভ্যাস, আর কাছের মানুষদের জন্য কিছু তৈরি করার আনন্দ।</p>
+        <p>সেই কারণে আমরা রেসিপির তথ্য সহজ ভাষায় সাজাই, ক্যাটাগরি ও সার্চ দিয়ে খুঁজে পাওয়াকে সহজ করি, এবং পছন্দের রান্না সংরক্ষণের সুবিধা রাখি। সাইটের প্রতিটি অংশ আরও পরিষ্কার, ব্যবহারবান্ধব ও উপযোগী করে তোলার কাজ চলমান।</p>
+        <p>আমরা নিখুঁত হওয়ার দাবি করছি না। বরং ব্যবহারকারীদের প্রয়োজন বুঝে নিয়মিত উন্নতি করা, খাবার ও ছবির মিলের দিকে যত্ন দেওয়া, এবং বাংলা ভাষায় রান্নার তথ্যকে আরও গোছানো করে তোলাই আমাদের প্রতিশ্রুতি।</p>
+      </div>
+
+      <div className="about-values-list">
+        <div><BookOpen size={20} /><span><strong>সহজ ভাষা</strong><small>যেন নির্দেশনা বুঝে রান্না করা যায়।</small></span></div>
+        <div><Target size={20} /><span><strong>দরকারি অভিজ্ঞতা</strong><small>খোঁজা, পড়া ও পরে আবার ফিরে পাওয়া সহজ করা।</small></span></div>
+        <div><ShieldCheck size={20} /><span><strong>যত্ন ও দায়িত্ব</strong><small>তথ্যকে পরিষ্কারভাবে উপস্থাপন এবং ভুল হলে সংশোধনের চেষ্টা।</small></span></div>
+      </div>
+
+      <a className="about-text-link" href="#/recipes">রেসিপি ঘুরে দেখুন <ArrowUpRight size={16} /></a>
+    </article>
+  );
+}
+
+function FounderPage({ onBack }) {
+  return (
+    <article className="about-detail about-founder-page">
+      <BackToAbout onClick={onBack} />
+      <div className="about-founder-layout">
+        <div className="about-founder-portrait">
+          <img
+            src="https://cdn.phototourl.com/member/2026-10-22-1ff40af4-df92-4e33-9c29-832af6b43f54.webp"
+            alt="মেঘ চৌধুরী মাহফুজ"
+            loading="lazy"
+            onError={(event) => { event.currentTarget.style.display = 'none'; }}
+          />
+          <span className="about-portrait-caption"><span /> RANNAR MENU · LEADERSHIP</span>
+        </div>
+        <div className="about-founder-story">
+          <span className="about-kicker">FOUNDER & CHAIRMAN</span>
+          <h1>মেঘ চৌধুরী মাহফুজ</h1>
+          <p className="about-founder-role">প্রতিষ্ঠাতা ও চেয়ারম্যান · Rannar Menu</p>
+          <p>একটি উদ্যোগের পেছনে থাকে অনেক ভাবনা, পরীক্ষা-নিরীক্ষা আর প্রতিদিন একটু ভালো করার চেষ্টা। মেঘ চৌধুরী মাহফুজ এমন একজন উদ্যোক্তা, যাঁর কাজের পরিচিতিতে ডিজিটাল ব্র্যান্ডিং, অনলাইন ব্যবসা এবং ব্র্যান্ডকে মানুষের কাছে পৌঁছে দেওয়ার বিষয়গুলো উঠে এসেছে।</p>
+          <p>প্রকাশিত প্রোফাইল ও সাক্ষাৎকারে তাঁকে SYLAÉ-র প্রতিষ্ঠাতা ও CEO হিসেবে পরিচয় করানো হয়েছে। সেখানে নিজের ব্র্যান্ড গড়ে তোলা, অনলাইন উপস্থিতি শক্ত করা এবং SEO ও ডিজিটাল মার্কেটিং নিয়ে তাঁর কাজের কথা তুলে ধরা হয়েছে।</p>
+          <p>Rannar Menu-র ক্ষেত্রেও আমরা সেই উদ্যোগী মনোভাবকে কাজে লাগাতে চাই—তবে একেবারে আলাদা একটি জগতে: বাংলা ভাষা, ঘরোয়া খাবার আর প্রতিদিনের রান্নার প্রয়োজনকে সামনে রেখে। Rannar Menu তাঁর চতুর্থ শাখা/উদ্যোগ হিসেবে গড়ে উঠছে; এর নিজস্ব পরিচয় তৈরি করা এবং সময়ের সঙ্গে আরও কার্যকর করে তোলাই আমাদের লক্ষ্য।</p>
+          <p>আমরা যারা Rannar Menu-র কাজ করছি, তাদের কাছে নেতৃত্ব মানে শুধু একটি পদ নয়। এর মানে হলো দলের ভাবনাকে দিক দেওয়া, কাজের মানের দায়িত্ব নেওয়া, এবং ব্যবহারকারীরা যেন সত্যিই উপকার পান—সেদিকে নজর রাখা।</p>
+          <div className="about-founder-credits">
+            <span>প্রকাশিত পরিচিতি ও সাক্ষাৎকার</span>
+            <a href="https://vocal.media/interview/megh-chowdhury-mahfuz-from-humble-beginnings-to-building-the-global-fashion-brand-sylae" target="_blank" rel="noopener noreferrer">Vocal · উদ্যোক্তার গল্প <ArrowUpRight size={14} /></a>
+            <a href="https://www.prlog.org/13108606-syla-chairman-megh-chowdhury-mahfuz-shares-vision-branding-seo-in-bangladesh-fashion.html" target="_blank" rel="noopener noreferrer">PRLog · ব্র্যান্ডিং ও SEO <ArrowUpRight size={14} /></a>
           </div>
         </div>
-        <div className="about-hero-art" aria-label="Rannar Menu-এর রান্নার অনুপ্রেরণা">
-          <div className="about-art-ring about-art-ring-one" />
-          <div className="about-art-ring about-art-ring-two" />
-          <div className="about-art-center"><span className="about-art-mark"><ChefHat size={44} strokeWidth={1.3} /></span><strong>Rannar Menu</strong><small>প্রতিদিনের রান্নার অনুপ্রেরণা</small></div>
-          <span className="about-art-caption"><Heart size={15} fill="currentColor" /> ঘরোয়া স্বাদ, যত্নে সাজানো</span>
-        </div>
-      </section>
-
-      <nav className="about-local-nav" aria-label="আমাদের কথা পেজের বিভাগ">
-        <a href="#about-site" onClick={(event) => jumpToSection(event, "about-site")}><Globe2 size={16} /> ওয়েবসাইট সম্পর্কে</a>
-        <a href="#about-media" onClick={(event) => jumpToSection(event, "about-media")}><Users size={16} /> সংবাদমাধ্যম</a>
-        <a href="#about-founder" onClick={(event) => jumpToSection(event, "about-founder")}><ChefHat size={16} /> চেয়ারম্যান ও প্রতিষ্ঠাতা</a>
-      </nav>
-
-      <section className="about-content-section" id="about-site">
-        <SectionHeading eyebrow="ABOUT THE WEBSITE" title="Rannar Menu কী এবং কেন?" text="রান্না শেখা, রেসিপি খোঁজা এবং পছন্দের পদ আবার খুঁজে পাওয়া—এই কাজগুলোকে আরও সহজ ও গোছানো করার জন্য Rannar Menu তৈরি।" />
-        <div className="about-feature-grid">
-          {siteFeatures.map(({ Icon, title, text }, index) => (
-            <article className="about-feature" key={title}>
-              <span className="about-feature-icon"><Icon size={21} strokeWidth={1.8} /></span>
-              <span className="about-feature-number">0{index + 1}</span>
-              <h3>{title}</h3>
-              <p>{text}</p>
-            </article>
-          ))}
-        </div>
-        <div className="about-mission-strip">
-          <span className="about-mission-icon"><Target size={22} /></span>
-          <div><strong>আমাদের লক্ষ্য</strong><p>বাংলা ভাষায় রান্নার তথ্যকে সহজবোধ্য, পরিপাটি এবং মোবাইল-ফ্রেন্ডলি করে সবার কাছে পৌঁছে দেওয়া।</p></div>
-        </div>
-      </section>
-
-      <section className="about-content-section about-media-section" id="about-media">
-        <SectionHeading eyebrow="MEDIA & BROADCASTERS" title="বাংলাদেশের সংবাদমাধ্যম" text="আপনার উল্লেখ করা সংবাদমাধ্যমগুলোর পরিচিতি ও তাদের ওয়েবসাইটের লিংক নিচে দেওয়া হলো। প্রতিটি লোগো নিজ নিজ প্রতিষ্ঠানের ব্র্যান্ড পরিচিতি।" />
-        <div className="about-media-grid">
-          {mediaBrands.map((brand) => (
-            <article className="about-media-card" key={brand.name}>
-              <a className="about-media-logo" href={brand.site} target="_blank" rel="noopener noreferrer" aria-label={brand.name + ' অফিসিয়াল ওয়েবসাইট'}>
-                <img src={brand.logo} alt={brand.name + ' লোগো'} loading="lazy" onError={(event) => { event.currentTarget.hidden = true; const fallback = event.currentTarget.nextElementSibling; if (fallback) fallback.hidden = false; }} />
-                <span className="about-media-fallback" hidden>{brand.bangla}</span>
-              </a>
-              <div className="about-media-copy">
-                <span className="about-media-kicker">BANGLADESH · MEDIA</span>
-                <h3>{brand.bangla}</h3>
-                <p>{brand.role}</p>
-                <a href={brand.site} target="_blank" rel="noopener noreferrer">অফিসিয়াল সাইট <ArrowUpRight size={14} /></a>
-              </div>
-              <a className="about-logo-credit" href={brand.source} target="_blank" rel="noopener noreferrer">লোগো/তথ্যের উৎস</a>
-            </article>
-          ))}
-        </div>
-        <p className="about-media-disclaimer"><ShieldCheck size={16} /> নোট: সংবাদমাধ্যমগুলোর সঙ্গে Rannar Menu-এর আনুষ্ঠানিক স্পনসরশিপ বা অংশীদারত্বের কোনো প্রকাশ্য ঘোষণা অনলাইনে যাচাই করা যায়নি। তাই এখানে তাদের পরিচিতি ও লোগো দেখানো হয়েছে, কিন্তু আনুষ্ঠানিক স্পনসর হিসেবে নিশ্চিত দাবি করা হয়নি। স্পনসরশিপ নিশ্চিত হলে এই অংশটি সেই অনুযায়ী হালনাগাদ করা যাবে।</p>
-      </section>
-
-      <section className="about-founder-section" id="about-founder">
-        <div className="about-founder-photo-wrap">
-          <img className="about-founder-photo" src="https://cdn.phototourl.com/member/2026-10-22-1ff40af4-df92-4e33-9c29-832af6b43f54.webp" alt="মেঘ চৌধুরী মাহফুজ" loading="lazy" />
-          <span className="about-founder-photo-caption"><span /> RANNAR MENU LEADERSHIP</span>
-        </div>
-        <div className="about-founder-copy">
-          <span className="about-eyebrow">CHAIRMAN & FOUNDER</span>
-          <h2>মেঘ চৌধুরী মাহফুজ</h2>
-          <p className="about-founder-role">চেয়ারম্যান ও প্রতিষ্ঠাতা · Rannar Menu</p>
-          <p>মেঘ চৌধুরী মাহফুজ একজন বাংলাদেশি উদ্যোক্তা। অনলাইনে প্রকাশিত পরিচিতিতে তাঁকে SYLAÉ ব্র্যান্ডের প্রতিষ্ঠাতা ও CEO হিসেবে উল্লেখ করা হয়েছে; সেখানে ব্র্যান্ড গঠন, ডিজিটাল উপস্থিতি এবং অনলাইন ব্যবসার বিকাশের বিষয়ে তাঁর কাজের কথা বলা হয়েছে।</p>
-          <p>Rannar Menu-তে তাঁর ভূমিকা হলো প্ল্যাটফর্মটির পরিচয়, দিকনির্দেশনা এবং দীর্ঘমেয়াদি উন্নয়নের নেতৃত্ব দেওয়া। আমাদের লক্ষ্য হলো বাংলা ভাষাভাষী রান্নাপ্রেমীদের জন্য একটি কার্যকর, সহজে ব্যবহারযোগ্য এবং পরিচ্ছন্ন ডিজিটাল অভিজ্ঞতা গড়ে তোলা।</p>
-          <div className="about-founder-tags"><span><Users size={14} /> উদ্যোক্তা</span><span><Target size={14} /> ব্র্যান্ড ও ডিজিটাল উন্নয়ন</span></div>
-          <a className="about-founder-source" href="https://www.prlog.org/13108606-syla-chairman-megh-chowdhury-mahfuz-shares-vision-branding-seo-in-bangladesh-fashion.html" target="_blank" rel="noopener noreferrer">প্রকাশিত পরিচিতি পড়ুন <ArrowUpRight size={15} /></a>
-        </div>
-      </section>
-
-      <section className="about-closing">
-        <span className="about-closing-icon"><ChefHat size={23} /></span>
-        <div><strong>চলুন, রান্নার গল্প আরও সমৃদ্ধ করি।</strong><p>নতুন রেসিপি খুঁজুন, পছন্দের পদ সেভ করুন, আর নিজের রান্নার তালিকা গুছিয়ে রাখুন।</p></div>
-        <a href="#/recipes">রেসিপি দেখুন <ArrowUpRight size={15} /></a>
-      </section>
-    </div>
+      </div>
+    </article>
   );
+}
+
+function SponsorsPage({ onBack }) {
+  return (
+    <article className="about-detail about-sponsors-page">
+      <BackToAbout onClick={onBack} />
+      <SectionIntro eyebrow="OUR SPONSORS" title="আমাদের স্পনসর">
+        Rannar Menu-র পাশে থাকা সংবাদমাধ্যম ও ব্র্যান্ডগুলোর প্রতি আমাদের কৃতজ্ঞতা। তাদের অফিসিয়াল ওয়েবসাইটে যেতে প্রতিটি লোগোতে চাপ দিন।
+      </SectionIntro>
+
+      <div className="about-sponsor-grid">
+        {mediaSponsors.map((brand) => (
+          <a
+            className="about-sponsor-item"
+            href={brand.site}
+            target="_blank"
+            rel="noopener noreferrer"
+            key={brand.name}
+            aria-label={brand.bangla + ' অফিসিয়াল ওয়েবসাইট খুলুন'}
+          >
+            <span className="about-sponsor-logo">
+              <img
+                src={brand.logo}
+                alt={brand.name + ' লোগো'}
+                loading="lazy"
+                onError={(event) => {
+                  event.currentTarget.hidden = true;
+                  const fallback = event.currentTarget.nextElementSibling;
+                  if (fallback) fallback.hidden = false;
+                }}
+              />
+              <strong className="about-sponsor-logo-fallback" hidden>{brand.bangla}</strong>
+            </span>
+            <span className="about-sponsor-name">{brand.bangla}</span>
+            <span className="about-sponsor-description">{brand.description}</span>
+            <span className="about-sponsor-visit">অফিসিয়াল ওয়েবসাইট <ArrowUpRight size={14} /></span>
+          </a>
+        ))}
+      </div>
+
+      <section className="about-sylae-partner" aria-label="SYLAÉ Group Ltd">
+        <div className="about-sylae-wordmark" aria-hidden="true">
+          <span>SYLAÉ</span>
+          <small>GROUP LTD</small>
+        </div>
+        <div className="about-sylae-copy">
+          <span className="about-kicker">BRAND PARTNER</span>
+          <h2>SYLAÉ Group Ltd</h2>
+          <p>SYLAÉ-র সঙ্গে আমাদের সংযোগ Rannar Menu-র উদ্যোগী যাত্রার অংশ। ব্র্যান্ড ও ব্যবসা সম্পর্কে আরও জানতে তাদের ওয়েবসাইট দেখুন।</p>
+          <a href="https://sylaebd.shop/" target="_blank" rel="noopener noreferrer">sylaebd.shop দেখুন <ArrowUpRight size={15} /></a>
+        </div>
+      </section>
+    </article>
+  );
+}
+
+export default function AboutPage({ section = '', onNavigateAbout = () => {} }) {
+  if (section === 'why') return <div className="about-page"><WhyUs onBack={() => onNavigateAbout('')} /></div>;
+  if (section === 'founder') return <div className="about-page"><FounderPage onBack={() => onNavigateAbout('')} /></div>;
+  if (section === 'sponsors') return <div className="about-page"><SponsorsPage onBack={() => onNavigateAbout('')} /></div>;
+  return <div className="about-page"><AboutHome onNavigate={onNavigateAbout} /></div>;
 }
