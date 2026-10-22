@@ -88,6 +88,10 @@ Connect `rannarmenu/Rannarmenu` and configure these environment variables for Pr
 
 `vercel.json` provides the `/admin` SPA route. A production build must pass before treating the site as ready.
 
+## Mira local cooking assistant
+
+Mira uses an in-app, rule-based cooking brain for Bengali/Banglish intent detection, common cooking troubleshooting, practical measurements and reviewed starter recipe guides. It no longer depends on the ChatGPT/OpenAI API or an OpenAI API key. It searches the real published Supabase recipe catalogue when users ask to find a site recipe. Because it is a specialized local rule engine rather than a foundation language model, answers outside its curated knowledge may be limited. See [Mira local brain setup](./docs/mira-ai-setup.md).
+
 ## Current limitations
 
 - A read-only audit of the live database on **22 October 2026** found 63 recipes in total, all 63 currently published. All 63 rows had `image_search_status = 'matched'` and complete image URL, source page, creator/credit, and license metadata. This verifies stored attribution fields, not a manual visual review of every image. The target of 10,000 recipes is **not yet met**.
