@@ -29,7 +29,9 @@ The Edge Function defaults to `gemini-3.8-flash`, a current stable model chosen 
 
 ## Deploy and verify
 
-The GitHub Pages workflow builds and deploys the browser UI. The Edge Function must also be deployed to the active Supabase project; the repository source file alone does not update the live server. A live request must succeed with the configured key to verify provider access.
+The GitHub Pages workflow builds and deploys the browser UI. The Edge Function must also be deployed to the active Supabase project; the repository source file alone does not update the live server.
+
+A safe health check is available at `GET https://fiwqeivmieckzqglfrar.supabase.co/functions/v1/mira-chat`. It reports only the provider name, selected model and whether a key-shaped secret is configured; it never returns the key or makes a billable Gemini request. This verifies presence, not key validity. A successful chat turn is still needed to prove the key has permission/quota for the model.
 
 - Gemini generateContent API: https://ai.google.dev/api/generate-content
 - Gemini API key security: https://ai.google.dev/gemini-api/docs/api-key
