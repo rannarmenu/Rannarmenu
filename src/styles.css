@@ -1078,3 +1078,7 @@
   .featured-cta svg,.featured-arrow,.featured-dot,.featured-cta { transition: none; }
   .featured-progress > span { transform: scaleX(0); }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .featured-progress { display: none; }
+}
