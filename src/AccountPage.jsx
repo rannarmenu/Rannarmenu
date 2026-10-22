@@ -51,7 +51,7 @@ export default function AccountPage({
   recoveryMode = false,
   onPasswordResetComplete = () => {}
 }) {
-  const [mode, setMode] = useState('login');
+  const [mode, setMode] = useState('signup');
   const [method, setMethod] = useState('email');
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
