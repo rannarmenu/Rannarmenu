@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { ArrowUpRight, BadgeCheck, Clock3, Globe2, LoaderCircle, Newspaper, RefreshCw, Utensils, MapPin } from 'lucide-react';
 import './news-feed.css';
 import { AUTO_NEWS_SPONSORS } from './lib/sponsorPartners.js';
