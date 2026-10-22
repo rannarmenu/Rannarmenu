@@ -44,13 +44,15 @@ async function fetchFeed(query, source) {
     const block = match[1];
     const rawTitle = tag(block, 'title');
     const separator = rawTitle.lastIndexOf(' - ');
-    const title = separator > 18 ? rawTitle.slice(0, separator).trim() : rawTitle;
+    const hasPublisher = separator > 18 && separator < rawTitle.length - 4;
+    const title = hasPublisher ? rawTitle.slice(0, separator).trim() : rawTitle;
+    const publisher = hasPublisher ? rawTitle.slice(separator + 3).trim() : source;
     const link = cleanUrl(tag(block, 'link'));
     const descriptionRaw = tag(block, 'description');
     const description = descriptionRaw.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
     const imageMatch = descriptionRaw.match(/<img[^>]+src=["']([^"']+)["']/i);
     return {
-      id: link, title, link, source,
+      id: link, title, link, source: source === 'Google News' ? publisher : source,
       publishedAt: tag(block, 'pubDate'),
       summary: description.length > 190 ? description.slice(0, 187) + '…' : description,
       image: cleanUrl(imageMatch?.[1] || ''),
