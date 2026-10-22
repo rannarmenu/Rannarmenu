@@ -12,6 +12,7 @@ import {
   X
 } from 'lucide-react';
 import { supabase, supabaseConfigured } from './lib/supabaseClient.js';
+import { clampMiraAnchor, getMiraWidgetOrigin } from './lib/miraPosition.js';
 import {
   buildRecipeSearchGroups,
   normalizeSearchText,
@@ -148,11 +149,41 @@ export default function MiraChat({ onOpenRecipe }) {
   const [error, setError] = useState('');
   const [showIntro, setShowIntro] = useState(false);
   const [mood, setMood] = useState('idle');
+  const [floatingPosition, setFloatingPosition] = useState(null);
+  const [isDragging, setIsDragging] = useState(false);
   const messageListRef = useRef(null);
   const inputRef = useRef(null);
   const busyRef = useRef(false);
   const lastSentAt = useRef(0);
   const greetingLocalized = useRef(false);
+  const dragRef = useRef(null);
+  const suppressClickRef = useRef(false);
+
+  useEffect(() => {
+    const readSavedPosition = () => {
+      try {
+        const value = JSON.parse(window.localStorage.getItem('mira-floating-position-v1') || 'null');
+        if (!value || !Number.isFinite(value.left) || !Number.isFinite(value.top)) return;
+        const button = document.getElementById('mira-launcher-button');
+        const rect = button?.getBoundingClientRect();
+        const size = { width: rect?.width || 56, height: rect?.height || 56 };
+        setFloatingPosition(clampMiraAnchor(value, { width: window.innerWidth, height: window.innerHeight }, size));
+      } catch { /* Position persistence is optional if storage is unavailable. */ }
+    };
+    readSavedPosition();
+    const handleResize = () => {
+      setFloatingPosition(current => {
+        if (!current) return current;
+        const button = document.getElementById('mira-launcher-button');
+        const rect = button?.getBoundingClientRect();
+        const next = clampMiraAnchor(current, { width: window.innerWidth, height: window.innerHeight }, { width: rect?.width || 56, height: rect?.height || 56 });
+        try { window.localStorage.setItem('mira-floating-position-v1', JSON.stringify(next)); } catch { /* Ignore storage failures. */ }
+        return next;
+      });
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   useEffect(() => {
     let showTimer;
@@ -376,12 +407,86 @@ export default function MiraChat({ onOpenRecipe }) {
     }
   };
 
+  const handleLauncherPointerDown = event => {
+    if (event.pointerType === 'mouse' && event.button !== 0) return;
+    const rect = event.currentTarget.getBoundingClientRect();
+    dragRef.current = {
+      pointerId: event.pointerId,
+      startX: event.clientX,
+      startY: event.clientY,
+      startLeft: rect.left,
+      startTop: rect.top,
+      lastPosition: { left: rect.left, top: rect.top },
+      moved: false
+    };
+    suppressClickRef.current = false;
+    try { event.currentTarget.setPointerCapture(event.pointerId); } catch { /* Pointer capture is not supported in every browser. */ }
+  };
+
+  const handleLauncherPointerMove = event => {
+    const drag = dragRef.current;
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    const dx = event.clientX - drag.startX;
+    const dy = event.clientY - drag.startY;
+    if (!drag.moved && Math.hypot(dx, dy) < 7) return;
+    drag.moved = true;
+    suppressClickRef.current = true;
+    setIsDragging(true);
+    const rect = event.currentTarget.getBoundingClientRect();
+    const size = { width: rect.width || 56, height: rect.height || 56 };
+    const next = clampMiraAnchor(
+      { left: drag.startLeft + dx, top: drag.startTop + dy },
+      { width: window.innerWidth, height: window.innerHeight },
+      size
+    );
+    drag.lastPosition = next;
+    setFloatingPosition(next);
+  };
+
+  const finishLauncherDrag = event => {
+    const drag = dragRef.current;
+    if (!drag || (event.pointerId != null && drag.pointerId !== event.pointerId)) return;
+    dragRef.current = null;
+    setIsDragging(false);
+    if (drag.moved) {
+      const finalPosition = drag.lastPosition;
+      setFloatingPosition(finalPosition);
+      try { window.localStorage.setItem('mira-floating-position-v1', JSON.stringify(finalPosition)); } catch { /* Position still works until this page is closed. */ }
+      window.setTimeout(() => { suppressClickRef.current = false; }, 250);
+    }
+  };
+
+  const handleLauncherClick = () => {
+    if (suppressClickRef.current) {
+      suppressClickRef.current = false;
+      return;
+    }
+    setShowIntro(false);
+    setIsOpen(value => !value);
+  };
+
+  const viewportWidth = typeof window !== 'undefined' ? window.innerWidth : 1024;
+  const viewportHeight = typeof window !== 'undefined' ? window.innerHeight : 768;
+  const widgetWidth = Math.min(370, Math.max(0, viewportWidth - (viewportWidth <= 700 ? 22 : 28)));
+  const launcherSize = viewportWidth <= 360 ? 47 : viewportWidth <= 700 ? 51 : 56;
+  const placementLeft = floatingPosition ? floatingPosition.left < viewportWidth / 2 : false;
+  const placementTop = floatingPosition ? floatingPosition.top < viewportHeight / 2 : false;
+  const widgetOrigin = floatingPosition
+    ? getMiraWidgetOrigin(floatingPosition.left, viewportWidth, widgetWidth, launcherSize)
+    : null;
+  const widgetStyle = widgetOrigin && floatingPosition
+    ? { left: widgetOrigin.left + 'px', top: floatingPosition.top + 'px', right: 'auto', bottom: 'auto' }
+    : undefined;
+
   const handleSubmit = event => {
     event.preventDefault();
     void sendText(draft);
   };
 
-  return <div className={'mira-widget mira-widget-' + mood}>
+  return <div
+    className={'mira-widget mira-widget-' + mood + (floatingPosition ? (placementLeft ? ' mira-position-left' : ' mira-position-right') + (placementTop ? ' mira-position-top' : ' mira-position-bottom') : '') + (isDragging ? ' mira-widget-dragging' : '')}
+    style={widgetStyle}
+  >
     {isOpen && <section className="mira-panel" role="dialog" aria-label="Mira recipe helper" aria-modal="false">
       <header className="mira-header">
         <MiraMascot small/>
@@ -425,7 +530,21 @@ export default function MiraChat({ onOpenRecipe }) {
       <span className="mira-intro-copy"><strong>Hi, I’m Mira* <span>✦</span></strong><small>Need a little recipe help?</small></span>
       <button type="button" className="mira-intro-close" onClick={() => setShowIntro(false)} aria-label="Greeting বন্ধ করো"><X size={12}/></button>
     </div>
-    <button type="button" className={'mira-launcher ' + (isOpen ? 'mira-launcher-open' : '')} onClick={() => { setShowIntro(false); setIsOpen(value => !value); }} aria-label={isOpen ? 'Mira বন্ধ করো' : 'Mira-র সঙ্গে কথা বলো'} aria-expanded={isOpen}>
+    <button
+      id="mira-launcher-button"
+      type="button"
+      className={'mira-launcher ' + (isOpen ? 'mira-launcher-open' : '') + (isDragging ? ' mira-launcher-dragging' : '')}
+      onClick={handleLauncherClick}
+      onPointerDown={handleLauncherPointerDown}
+      onPointerMove={handleLauncherPointerMove}
+      onPointerUp={finishLauncherDrag}
+      onPointerCancel={finishLauncherDrag}
+      onLostPointerCapture={finishLauncherDrag}
+      onDragStart={event => event.preventDefault()}
+      aria-label={isOpen ? 'Mira বন্ধ করো' : 'Mira-র সঙ্গে কথা বলো; ধরে টেনে যেকোনো পাশে সরাতে পারো'}
+      aria-expanded={isOpen}
+      title="Mira-কে ধরে টেনে সরাও"
+    >
       <MiraMascot mood={mood}/>
       <span className="mira-launcher-sr">{isOpen ? 'Mira chat বন্ধ করো' : 'Mira-র সঙ্গে কথা বলো'}</span>
     </button>
