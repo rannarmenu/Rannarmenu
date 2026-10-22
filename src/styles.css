@@ -3,3 +3,29 @@
 @media(max-width:950px){.hero{gap:35px;padding-top:48px}.hero-visual{height:410px}.hero-stats div{padding-inline:12px}.category-inner{align-items:flex-start;flex-direction:column;gap:16px}.recipe-grid{gap:15px}.image-button{height:190px}.card-body{padding:14px}}
 @media(max-width:700px){.wrap{width:calc(100% - 34px)}.header{height:70px}.brand{font-size:21px}.brand-mark{width:39px;height:39px}.mobile-toggle{display:block;padding:8px}.nav-links{display:none;position:absolute;top:69px;left:0;right:0;background:#fbfaf6;padding:18px 22px 22px;border-bottom:1px solid var(--line);box-shadow:0 12px 18px #1727190d;flex-direction:column;align-items:stretch;gap:18px}.nav-links.open{display:flex}.saved-link{justify-content:center}.hero{grid-template-columns:1fr;gap:32px;padding-top:35px;padding-bottom:45px}.hero h1{font-size:45px}.hero-copy>p{font-size:15px}.hero-stats{margin-top:29px}.hero-stats div{padding-inline:10px}.hero-stats strong{font-size:15px}.hero-stats span{font-size:10px}.hero-visual{height:350px;width:calc(100% - 18px);margin-left:18px}.hero-image{border-radius:135px 135px 18px 18px}.floating-note{left:-16px;bottom:35px;padding:12px}.category-inner{padding-block:22px}.category-inner h2{font-size:24px}.category-pills{gap:7px}.category-pill{padding:8px 10px;font-size:12px}.recipes-section{padding-top:46px;padding-bottom:48px}.section-heading{align-items:stretch;flex-direction:column;margin-bottom:22px}.section-heading h2{font-size:29px}.search-box{width:100%}.recipe-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.image-button{height:150px}.recipe-tag{left:8px;top:8px;padding:5px 7px;font-size:10px}.card-body{padding:11px}.card-meta{font-size:10px}.card-title{align-items:flex-start;font-size:15px}.card-body>p{font-size:12px;min-height:58px;margin-bottom:12px}.save-btn{height:31px;width:31px}.collection-note{padding:17px;align-items:flex-start}.collection-note p{font-size:12px}.detail-grid,.instruction-grid{grid-template-columns:1fr}.detail-grid>img{height:240px}.detail-grid h2{font-size:28px}.recipe-detail{padding:15px}.newsletter{padding:38px 0}.newsletter h2{font-size:29px}.newsletter-inner{align-items:flex-start}.newsletter-art{display:none}.footer-inner{padding-block:20px;flex-wrap:wrap}.footer-inner>span{order:3;width:100%}.catalog-pagination{gap:8px}.admin-shell{padding:18px 13px}.admin-heading{align-items:flex-start;flex-direction:column;margin:25px 0 18px}.admin-heading h1{font-size:30px}.admin-top{align-items:flex-start}.admin-user{flex-direction:column;align-items:flex-end}.admin-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.admin-stats>div{padding:13px}.admin-panel{padding:15px;margin-bottom:14px}.admin-panel-head{align-items:flex-start;flex-direction:column}.admin-search{width:100%}.admin-search input{flex:1;min-width:0}.recipe-form{grid-template-columns:1fr;gap:13px}.recipe-form .wide{grid-column:auto}.admin-login,.admin-gate{padding:22px;margin-top:7vh}.import-report .report-stats{gap:6px}}
 @media(max-width:390px){.recipe-grid{grid-template-columns:1fr}.image-button{height:205px}.card-body>p{min-height:0}.hero h1{font-size:40px}.social-proof{font-size:11px}}
+
+
+/* Recipe provenance: clear attribution without distracting from the cooking steps. */
+.recipe-source-note {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem 1rem;
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(90, 77, 56, 0.18);
+  color: #68645d;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+.recipe-source-note a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  flex-shrink: 0;
+  color: #356b4d;
+  font-weight: 700;
+  text-decoration: none;
+}
+.recipe-source-note a:hover { text-decoration: underline; }

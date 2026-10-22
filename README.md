@@ -78,8 +78,8 @@ Connect `rannarmenu/Rannarmenu` and configure these environment variables for Pr
 
 ## Current limitations
 
-- Six starter/sample recipes are in the database; the target of 10,000 recipes is **not yet met**.
-- Reaching 10,000 requires an authorized, licensed data source/API and editorial checks. The importer is a pipeline, not a recipe source.
+- The live database currently contains 39 published recipes, including 33 newly curated additions; the target of 10,000 recipes is **not yet met**.
+- Reaching 10,000 requires authorized sources and editorial review. The importer blocks repeated normalized titles/slugs; distinct cooking styles should have clearly distinct descriptive titles. It is a pipeline, not a recipe source.
 - Starter image URLs require rights/availability review before commercial production.
 - Favorites remain in this browser, not synced to accounts.
 - Build/browser acceptance tests need to pass in an environment with npm registry access.

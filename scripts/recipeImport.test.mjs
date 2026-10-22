@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { normalizeRecipeRecord, slugify, parseRecipeFile } from '../src/lib/recipeImport.js';
+import { normalizeRecipeRecord, slugify, parseRecipeFile, recipeTitleKey } from '../src/lib/recipeImport.js';
 
 const valid = {
   title: 'সবজি খিচুড়ি',
@@ -14,6 +14,11 @@ const valid = {
 
 test('slugify creates a stable unicode-safe slug', () => {
   assert.equal(slugify('  সবজি   খিচুড়ি! '), 'সবজি-খিচুড়ি');
+});
+
+test('title dedupe ignores case, punctuation and repeated whitespace, but keeps style variants distinct', () => {
+  assert.equal(recipeTitleKey('  Chicken—Curry  '), recipeTitleKey('chicken curry'));
+  assert.notEqual(recipeTitleKey('ঢাকাই মোরগ পোলাও'), recipeTitleKey('চিকেন বিরিয়ানি'));
 });
 
 test('recipe normalizer parses separated ingredients and steps', () => {

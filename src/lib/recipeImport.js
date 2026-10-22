@@ -20,6 +20,44 @@ const minutes = v => { const n=Number(String(v??'').trim()); return Number.isFin
 export function slugify(value) {
   return String(value??'').normalize('NFKC').toLocaleLowerCase().trim().replace(/[^\p{L}\p{M}\p{N}]+/gu,'-').replace(/^-+|-+$/g,'').slice(0,200);
 }
+export function recipeTitleKey(value) {
+  return String(value ?? '').normalize('NFKC').toLocaleLowerCase().trim()
+    .replace(/[^\p{L}\p{M}\p{N}]+/gu, ' ')
+    .replace(/\s+/g, ' ').trim();
+}
+
+export async function loadExistingRecipeIndex(client, pageSize = 1000) {
+  const titles = new Map();
+  const slugs = new Set();
+  const titleBySlug = new Map();
+  let offset = 0;
+  while (true) {
+    const { data, error } = await client.from('recipes').select('slug,title')
+      .order('slug', { ascending: true }).range(offset, offset + pageSize - 1);
+    if (error) throw new Error('বর্তমান রেসিপির তালিকা যাচাই করা যায়নি: ' + error.message);
+    const rows = data || [];
+    for (const row of rows) {
+      if (row.slug) slugs.add(row.slug);
+      const key = recipeTitleKey(row.title);
+      if (key && !titles.has(key)) titles.set(key, row.slug);
+      if (row.slug) titleBySlug.set(row.slug, key);
+    }
+    if (rows.length < pageSize) break;
+    offset += rows.length;
+    if (offset > 1000000) throw new Error('রেসিপির তালিকা অস্বাভাবিক বড়; import বন্ধ করা হয়েছে।');
+  }
+  return { titles, slugs, titleBySlug };
+}
+
+export function rememberRecipe(index, recipe) {
+  const key = recipeTitleKey(recipe.title);
+  const oldKey = index.titleBySlug.get(recipe.slug);
+  if (oldKey && index.titles.get(oldKey) === recipe.slug && oldKey !== key) index.titles.delete(oldKey);
+  if (key) index.titles.set(key, recipe.slug);
+  index.slugs.add(recipe.slug);
+  index.titleBySlug.set(recipe.slug, key);
+}
+
 export function normalizeRecipeRecord(row) {
   if (!row || typeof row !== 'object' || Array.isArray(row)) return {error:'রেকর্ডটি একটি object বা CSV row হতে হবে।'};
   const title=String(first(row,['title','name','recipe_title','রেসিপির_নাম','রেসিপি'])||'').trim();
