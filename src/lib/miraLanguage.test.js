@@ -42,6 +42,14 @@ test('asks for a dish name when the user only asks for a recipe', () => {
   assert.equal(classifyMiraIntent('amar jonno kichu ranna bolo'), 'generic_recipe_request');
 });
 
+test('recognizes a dish name even when the user gives no explicit command', () => {
+  assert.equal(classifyMiraIntent('chicken biryani'), 'recipe_search');
+  assert.equal(classifyMiraIntent('I want chicken biryani'), 'recipe_search');
+  assert.equal(classifyMiraIntent('Mira ilish mach'), 'recipe_search');
+  assert.equal(classifyMiraIntent('ডিমের কারি'), 'recipe_search');
+  assert.equal(classifyMiraIntent('kacchi biryani'), 'recipe_search');
+});
+
 test('treats vague preferences as missing recipe names instead of failed searches', () => {
   assert.equal(classifyMiraIntent('ami ekta easy recipe chai'), 'generic_recipe_request');
   assert.equal(cleanBanglishRecipeQuery('ami ekta easy recipe chai'), '');
