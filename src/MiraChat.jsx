@@ -81,7 +81,7 @@ function titleMatchCount(recipe, groups) {
 
 function isWebsiteHelp(question) {
   const value = normalizeSearchText(question);
-  if (/^(help|help me|please help|help please|সাহায্য|একটু সাহায্য)$/u.test(value)) return true;
+  if (/(^|\\s)(help|help me|please help|help please|সাহায্য|একটু সাহায্য)(\\s|$)/u.test(value)) return true;
   return /(website|web site|webpage|site use|use this site|use website|search bar|where can i|how can i|how do i use|help me use|ওয়েবসাইট|ওয়েবসাইট|এই সাইট|সার্চ বার|খুঁজে পাব|কোথায় খুঁজ|কোথায় খুঁজ|ব্যবহার কর|কিভাবে ব্যবহার|কীভাবে ব্যবহার|কোথায় পাব|কোথায় পাব|রেসিপি সেভ|সংরক্ষণ কর)/u.test(value);
 }
 
@@ -92,7 +92,7 @@ function isRecipeRequest(question) {
 
 function getSmallTalkReply(question) {
   const value = normalizeSearchText(question);
-  if (/^(hi|hello|hey|hiya|hola|bonjour|salut|hallo|hii|হাই|হ্যালো|নমস্কার|আসসালামু আলাইকুম|السلام عليكم|你好|こんにちは|नमस्ते|ہیلو|مرحبا)$/u.test(value)) {
+  if (/(^|\\s)(hi|hello|hey|hiya|hola|bonjour|salut|hallo|hii|হাই|হ্যালো|নমস্কার|আসসালামু আলাইকুম|السلام عليكم|你好|こんにちは|नमस्ते|ہیلو|مرحبا)(\\s|$)/u.test(value) && value.split(' ').length <= 5) {
     return 'হেইই! 🌸 Mira* হাজির! রেসিপি খুঁজতে এসেছ, না শুধু আমার গাল টিপে যেতে? 😼';
   }
   if (/(thank you|thanks|thx|ধন্যবাদ|অনেক ধন্যবাদ|شكرا|شكرًا|gracias|merci|danke|ありがとう|谢谢|धन्यवाद)/u.test(value)) {
