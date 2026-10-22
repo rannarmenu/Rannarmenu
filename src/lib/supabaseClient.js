@@ -7,7 +7,7 @@ const publishableKey = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
 // Never expose a Supabase secret/service-role key in any VITE_ variable.
 export const supabase = url && publishableKey
   ? createClient(url, publishableKey, {
-      auth: { autoRefreshToken: true, persistSession: true, detectSessionInUrl: true },
+      auth: { autoRefreshToken: true, persistSession: true, detectSessionInUrl: true, flowType: 'pkce' },
     })
   : null;
 export const supabaseConfigured = Boolean(supabase);
