@@ -54,8 +54,8 @@ button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:poin
 <script>
 (function(){function reportEngineLoadFailure(){var alertBox=document.getElementById("engine-load-error");if(alertBox)alertBox.classList.add("show");}window.addEventListener("error",function(event){if(event&&/three\.module|OrbitControls|rannar-cooking-game\.html/i.test(String(event.filename||event.message||"")))reportEngineLoadFailure();});window.addEventListener("unhandledrejection",function(event){if(event&&/three|module|import/i.test(String(event.reason||"")))reportEngineLoadFailure();});})();
 </script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js" onerror="document.getElementById('engine-load-error')?.classList.add('show')"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.152.2/examples/js/controls/OrbitControls.js" onerror="document.getElementById('engine-load-error')?.classList.add('show')"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/build/three.min.js" onerror="document.getElementById('engine-load-error')?.classList.add('show')"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/controls/OrbitControls.js" onerror="document.getElementById('engine-load-error')?.classList.add('show')"></script>
 <script>
 const THREE = window.THREE;
 const OrbitControls = THREE.OrbitControls;
@@ -87,7 +87,7 @@ function makeScene(){
  scene=new THREE.Scene();scene.background=new THREE.Color(0xe3ebdf);scene.fog=new THREE.Fog(0xe3ebdf,16,27);
  camera=new THREE.PerspectiveCamera(40,1,.1,80);camera.position.set(9,8.2,10.8);
  renderer=new THREE.WebGLRenderer({canvas:canvas,antialias:true,alpha:false,powerPreference:'high-performance'});
- renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,1.65));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.12;
+ renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,1.65));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.outputEncoding=THREE.sRGBEncoding;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.12;
  controls=new OrbitControls(camera,renderer.domElement);controls.target.set(0,1.18,0);controls.enableDamping=true;controls.dampingFactor=.06;controls.minDistance=7;controls.maxDistance=16;controls.minPolarAngle=.65;controls.maxPolarAngle=1.43;controls.autoRotate=false;controls.autoRotateSpeed=.55;
  scene.add(new THREE.HemisphereLight(0xfff6df,0x83927e,2.1));
  const key=new THREE.DirectionalLight(0xffe4bb,3.1);key.position.set(5,10,6);key.castShadow=true;key.shadow.mapSize.set(1024,1024);key.shadow.camera.left=-9;key.shadow.camera.right=9;key.shadow.camera.top=8;key.shadow.camera.bottom=-8;scene.add(key);
