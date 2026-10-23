@@ -73,7 +73,7 @@ const INGREDIENT_LOOKS={
 };
 const state={phase:'home',recipeId:null,selected:new Set(),stepIndex:0,score:0,streak:0,timeLeft:90,best:0,message:'',messageType:'',cookOptions:[],expired:false};
 const canvas=document.getElementById('kitchen-canvas'),panel=document.getElementById('game-panel'),toast=document.getElementById('toast'),statusText=document.getElementById('scene-status-text'),statusPill=document.getElementById('scene-status'),fatal=document.getElementById('fatal'),topScore=document.getElementById('top-score');
-let timerId=null,toastId=null,renderer=null,scene=null,camera=null,controls=null,clock=null,ingredientMeshes=[],clickables=[],potGroup=null,potSoup=null,flameGroup=null,steamGroup=null,spoonGroup=null,plateFood=null,animationJobs=[],autoSpin=false,raycaster=null,pointerDown=null;
+let timerId=null,toastId=null,renderer=null,scene=null,camera=null,controls=null,clock=null,ingredientMeshes=[],clickables=[],potGroup=null,potSoup=null,flameGroup=null,steamGroup=null,spoonGroup=null,plateFood=null,chefHead=null,chefArms=[],animationJobs=[],autoSpin=false,raycaster=null,pointerDown=null;
 function bestScore(){try{return Number(localStorage.getItem('rannar-menu-3d-best')||0)}catch(e){return 0}}
 state.best=bestScore();
 function message(text,type){state.message=text||'';state.messageType=type||''}
@@ -140,6 +140,31 @@ function makeScene(){
  for(let i=0;i<3;i++){const x=-.35+i*.63;cyl(scene,.09,.11,.37,mat([0x49734b,0xc0a16d,0xd6d9c9][i],.4),x,2.05,-2.88,24);cyl(scene,.095,.095,.04,mat(0xd6ccb5),x,2.25,-2.88,24);}
  // Warm floating decor dots
  for(let i=0;i<22;i++){const x=-4.4+(i%11)*.88,y=2.25+Math.floor(i/11)*.17;const dot=sphere(scene,.018,mat(0xc6b58f),x,y,-3.0,[1,1,1]);dot.castShadow=false}
+ // A small original, stylized 3D chef stands behind the counter.
+ const chef=groupAt(scene,.55,1.48,-1.72);chef.rotation.y=.09;
+ const skin=mat(0xdba982,.76),coatMat=mat(0xfff8e9,.8),apronMat=mat(0x315c43,.78);
+ box(chef,.72,.88,.42,coatMat,0,.61,0);
+ box(chef,.53,.7,.085,apronMat,0,.5,.245);
+ box(chef,.25,.16,.035,mat(0x527c59),0,.33,.296);
+ box(chef,.1,.09,.035,mat(0xc7a45d,.4),0,.57,.298);
+ // neck and expressive face
+ cyl(chef,.105,.105,.17,skin,0,1.11,.015,18);
+ chefHead=groupAt(chef,0,1.4,.015);
+ sphere(chefHead,.33,skin,0,0,0,[.92,1.12,.85]);
+ sphere(chefHead,.045,skin,-.31,-.05,0,[.65,1.1,.7]);sphere(chefHead,.045,skin,.31,-.05,0,[.65,1.1,.7]);
+ const eyeMat=mat(0x29382d,.35);
+ sphere(chefHead,.027,eyeMat,-.105,.045,.269,[.78,1.2,.55]);sphere(chefHead,.027,eyeMat,.105,.045,.269,[.78,1.2,.55]);
+ sphere(chefHead,.045,mat(0xc98d66),0,-.015,.292,[.82,.68,.58]);
+ sphere(chefHead,.055,mat(0x814b3a),0,-.14,.262,[1.2,.26,.33]);
+ // Puffy chef hat
+ cyl(chef,.285,.31,.115,coatMat,0,1.78,0,28);
+ sphere(chef,.19,coatMat,-.14,1.88,0,[1,1,.86]);sphere(chef,.2,coatMat,0,1.92,0,[1.05,1,.9]);sphere(chef,.18,coatMat,.15,1.88,0,[1,.96,.86]);
+ // Sleeves and hands remain visible above the worktop.
+ const leftArm=groupAt(chef,-.43,.82,.015);const leftSleeve=cyl(leftArm,.13,.115,.55,coatMat,0,-.18,0,18);leftSleeve.rotation.z=-.53;
+ sphere(leftArm,.115,skin,-.14,-.46,.16,[.95,1,.95]);
+ const rightArm=groupAt(chef,.43,.82,.025);const rightSleeve=cyl(rightArm,.13,.115,.55,coatMat,0,-.18,0,18);rightSleeve.rotation.z=.53;
+ sphere(rightArm,.115,skin,.14,-.46,.16,[.95,1,.95]);
+ chefArms=[leftArm,rightArm];
  // plate waits at right-rear corner
  const plate=groupAt(scene,3.25,1.56,-.65);cyl(plate,.57,.57,.065,mat(0xf9f3e4,.24),0,.06,0,48);cyl(plate,.43,.43,.024,mat(0xd8dfcd,.3),0,.105,0,48);cyl(plate,.35,.35,.026,mat(0xf9f3e4,.25),0,.125,0,48);plateFood=groupAt(plate,0,.15,0);plateFood.visible=false;
  // spoon, pot steam
@@ -158,7 +183,7 @@ function makeScene(){
 }
 function resetCamera(){camera.position.set(9,8.2,10.8);controls.target.set(0,1.18,0);controls.update()}
 function resizeRenderer(){if(!renderer||!camera)return;const w=canvas.clientWidth||680,h=canvas.clientHeight||470;renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix()}
-function animate(){requestAnimationFrame(animate);if(!renderer)return;const t=clock?clock.getElapsedTime():0;if(controls)controls.update();if(steamGroup&&steamGroup.visible){steamGroup.children.forEach(function(s,i){s.position.y=s.userData.baseY+Math.sin(t*1.3+s.userData.offset)*.16;s.position.x=-2.0+Math.sin(t*.7+s.userData.offset)*.22;s.material.opacity=.14+((Math.sin(t*2+s.userData.offset)+1)*.1)})}if(flameGroup&&flameGroup.visible)flameGroup.children.forEach(function(f,i){f.scale.y=.8+Math.abs(Math.sin(t*8+i*1.3))*.7});if(spoonGroup&&spoonGroup.userData.stirring)spoonGroup.rotation.y=Math.sin(t*4)*.75;for(let i=animationJobs.length-1;i>=0;i--){const job=animationJobs[i];job.t+=.035;const p=Math.min(1,job.t);job.obj.position.lerpVectors(job.from,job.to,p);job.obj.scale.setScalar(Math.max(.01,1-p*.92));job.obj.rotation.y+=.07;if(p>=1){if(job.onDone)job.onDone(job.obj);else scene.remove(job.obj);animationJobs.splice(i,1)}}renderer.render(scene,camera)}
+function animate(){requestAnimationFrame(animate);if(!renderer)return;const t=clock?clock.getElapsedTime():0;if(controls)controls.update();if(steamGroup&&steamGroup.visible){steamGroup.children.forEach(function(s,i){s.position.y=s.userData.baseY+Math.sin(t*1.3+s.userData.offset)*.16;s.position.x=-2.0+Math.sin(t*.7+s.userData.offset)*.22;s.material.opacity=.14+((Math.sin(t*2+s.userData.offset)+1)*.1)})}if(flameGroup&&flameGroup.visible)flameGroup.children.forEach(function(f,i){f.scale.y=.8+Math.abs(Math.sin(t*8+i*1.3))*.7});if(spoonGroup&&spoonGroup.userData.stirring)spoonGroup.rotation.y=Math.sin(t*4)*.75;if(chefHead)chefHead.position.y=1.4+Math.sin(t*1.6)*.015;if(chefArms.length===2){const waving=state.phase==='cooking'&&state.stepIndex===1;chefArms[1].rotation.z=waving?Math.sin(t*5)*.12:0;}for(let i=animationJobs.length-1;i>=0;i--){const job=animationJobs[i];job.t+=.035;const p=Math.min(1,job.t);job.obj.position.lerpVectors(job.from,job.to,p);job.obj.scale.setScalar(Math.max(.01,1-p*.92));job.obj.rotation.y+=.07;if(p>=1){if(job.onDone)job.onDone(job.obj);else scene.remove(job.obj);animationJobs.splice(i,1)}}renderer.render(scene,camera)}
 function onPointerDown(event){pointerDown={x:event.clientX,y:event.clientY};}
 function onPointerUp(event){if(!pointerDown)return;const delta=Math.hypot(event.clientX-pointerDown.x,event.clientY-pointerDown.y);pointerDown=null;if(delta>7||state.phase!=='ingredients')return;const rect=canvas.getBoundingClientRect();const pointer=new THREE.Vector2(((event.clientX-rect.left)/rect.width)*2-1,-((event.clientY-rect.top)/rect.height)*2+1);raycaster.setFromCamera(pointer,camera);const hit=raycaster.intersectObjects(clickables,true)[0];if(!hit)return;let root=hit.object;while(root.parent&&root.parent!==scene&&!root.userData.ingredientId)root=root.parent;const id=root.userData.ingredientId||hit.object.userData.ingredientId;if(id)selectIngredient(id)}
 function clearIngredients(){ingredientMeshes.forEach(function(m){scene.remove(m);m.traverse(function(o){if(o.geometry)o.geometry.dispose();if(o.material){if(Array.isArray(o.material))o.material.forEach(function(x){x.dispose()});else o.material.dispose()}})});ingredientMeshes=[];clickables=[]}
