@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-23T01:48:25.678Z",
+  "generatedAt": "2026-10-23T02:25:22.020Z",
   "sponsors": {
     "somoy": [
       {
@@ -69,6 +69,19 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNampKT1dqQkFBaFRqX3I1ZDZPVWdfa1F4UklwMVN5emRuYjN2TTZVMTNnQmk5MkwxdlJDV2FFYW1faVN2Q1pxTENDVDRMV25yRFIwSnhGZENkWG95Q2c?oc=5",
+        "title": "জিয়াউর রহমানের সমাধিতে নেতাকর্মীদের ফুলেল শ্রদ্ধা",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNampKT1dqQkFBaFRqX3I1ZDZPVWdfa1F4UklwMVN5emRuYjN2TTZVMTNnQmk5MkwxdlJDV2FFYW1faVN2Q1pxTENDVDRMV25yRFIwSnhGZENkWG95Q2c?oc=5",
+        "source": "সময় টিভি",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 29 May 2025 07:00:00 GMT",
+        "summary": "জিয়াউর রহমানের সমাধিতে নেতাকর্মীদের ফুলেল শ্রদ্ধা &nbsp;&nbsp; সময় নিউজ",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.somoynews.tv/news/2025-05-30/4ZGTK3v5",
+        "imageAttemptedAt": "2026-10-23T02:25:24.808Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KUGYxS0M3ZDN5SUxRZTEtVFhwQ3drNS1sVUpBR3BKTlBHbW55c3gwaG9BTGJUbGZ4WURPcXh6QzU4MGNWekpEVjVoVXBHT2F0d21oTGZOLXlycDU5MHc?oc=5",
         "title": "মাধ্যমিক বিদ্যালয়ে ২০২৫ সালে ছুটি কতদিন?",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KUGYxS0M3ZDN5SUxRZTEtVFhwQ3drNS1sVUpBR3BKTlBHbW55c3gwaG9BTGJUbGZ4WURPcXh6QzU4MGNWekpEVjVoVXBHT2F0d21oTGZOLXlycDU5MHc?oc=5",
@@ -117,19 +130,6 @@
         "summary": "প্রধান উপদেষ্টার সঙ্গে বৈঠকে কী চাইবে বিএনপি, জানালেন সালাহউদ্দিন &nbsp;&nbsp; সময় নিউজ",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.somoynews.tv/news/2025-04-09/RDSXQUtO",
-        "imageAttemptedAt": "2026-10-23T01:48:26.710Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9aLTRTMnU1WTFQWVNxdHNwcU5NT21yVGFGMEZBTkdLMHJOcm52VHU1bU1teTQ4OWVoRThuR2lSTXZCRnVpTnFPUUNOam5XX3hWWWE0QVp4TmZkdk5ObUE?oc=5",
-        "title": "পাঁচ বিষয়ে গবেষণা, প্রাথমিকের শিক্ষক-কর্মকর্তারা পাবেন ২ লাখ টাকা",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9aLTRTMnU1WTFQWVNxdHNwcU5NT21yVGFGMEZBTkdLMHJOcm52VHU1bU1teTQ4OWVoRThuR2lSTXZCRnVpTnFPUUNOam5XX3hWWWE0QVp4TmZkdk5ObUE?oc=5",
-        "source": "সময় টিভি",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 19 Jul 2026 13:04:26 GMT",
-        "summary": "পাঁচ বিষয়ে গবেষণা, প্রাথমিকের শিক্ষক-কর্মকর্তারা পাবেন ২ লাখ টাকা &nbsp;&nbsp; সময় নিউজ",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.somoynews.tv/news/2026-07-19/CDO8VX7Z",
         "imageAttemptedAt": "2026-10-23T01:48:26.710Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
@@ -181,7 +181,7 @@
         "source": "Maasranga TV",
         "publisherUrl": "",
         "publishedAt": "Mon, 15 Jul 2024 05:18:49 GMT",
-        "summary": "মাছরাঙা নাটক/টেলিফিল্ম – Page 2 &nbsp;&nbsp; Maasranga Television",
+        "summary": "মাছরাঙা নাটক/টেলিফিল্ম – Page 2 &nbsp;&nbsp; Maasranga TV",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/category/maasranga-drama-telefilm/page/2/",
         "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
@@ -263,6 +263,138 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/messi/",
         "imageAttemptedAt": "2026-10-22T21:16:36.369Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      }
+    ],
+    "jamuna": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
+        "title": "Most Popular Television in Bangladesh",
+        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 13 Apr 2023 17:30:30 GMT",
+        "summary": "Most Popular Television in Bangladesh &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/?",
+        "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1UbVNOSWhTVURZT3hBYTRreV8xOVdTS2NfVDFtdDVMbS1vZlVoZUtXdHdMb2tjRFQwdjhESWo3UUV5dVhMLTVCQzlvbEpaQQ?oc=5",
+        "title": "পূজার ছুটিতে মেট্রোরেলের সময়সূচিতে পরিবর্তন",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1UbVNOSWhTVURZT3hBYTRreV8xOVdTS2NfVDFtdDVMbS1vZlVoZUtXdHdMb2tjRFQwdjhESWo3UUV5dVhMLTVCQzlvbEpaQQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 19 Oct 2026 12:49:43 GMT",
+        "summary": "পূজার ছুটিতে মেট্রোরেলের সময়সূচিতে পরিবর্তন &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/666473",
+        "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAwVmNvdkpyM3J3VS1neXYtVnpzY3hpNTN1d2NWQ1pJTmpjMUU0NFlNYTFCOGVYV3RpcG9fMkRGeTBXU0dOQXdVTVpyVQ?oc=5",
+        "title": "বিনোদন - Jamuna Television",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAwVmNvdkpyM3J3VS1neXYtVnpzY3hpNTN1d2NWQ1pJTmpjMUU0NFlNYTFCOGVYV3RpcG9fMkRGeTBXU0dOQXdVTVpyVQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 20 Mar 2026 13:31:46 GMT",
+        "summary": "বিনোদন &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/entertainment",
+        "imageAttemptedAt": "2026-10-22T17:25:54.937Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hbEE1UFFsTzlJUk1hV0tnS3k0MjJUUHFlejNXZ2xYRFpKamw5NTFEeDFFQ1U3UTBoX042ei0xYXY2b1RJYTF1bFltUHJaRVdnaFJjdg?oc=5",
+        "title": "পিএইচপির ভয়ংকর ত্রুটি, নিজেদের ওয়েবসাইটই বন্ধ করলো ইউরোপের বিভিন্ন প্রতিষ্ঠান",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hbEE1UFFsTzlJUk1hV0tnS3k0MjJUUHFlejNXZ2xYRFpKamw5NTFEeDFFQ1U3UTBoX042ei0xYXY2b1RJYTF1bFltUHJaRVdnaFJjdg?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 22 Oct 2026 17:00:40 GMT",
+        "summary": "পিএইচপির ভয়ংকর ত্রুটি, নিজেদের ওয়েবসাইটই বন্ধ করলো ইউরোপের বিভিন্ন প্রতিষ্ঠান &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/international/666664",
+        "imageAttemptedAt": "2026-10-22T19:20:02.694Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pUFM2VVNmeWp6QWpZVk13Qy1kcEw4bnoyWlNaZEt2djllSDd2cmU3VUZzSUJWdXl4dWJwR1hWN0QwUGlmeWlva0VwSlVsZw?oc=5",
+        "title": "মোহাম্মদপুরে ‘মুখে ল’ গ্রুপের সক্রিয় সদস্য দিদার গ্রেফতার",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pUFM2VVNmeWp6QWpZVk13Qy1kcEw4bnoyWlNaZEt2djllSDd2cmU3VUZzSUJWdXl4dWJwR1hWN0QwUGlmeWlva0VwSlVsZw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 23 Oct 2026 01:05:51 GMT",
+        "summary": "মোহাম্মদপুরে ‘মুখে ল’ গ্রুপের সক্রিয় সদস্য দিদার গ্রেফতার &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/666670",
+        "imageAttemptedAt": "2026-10-23T02:25:24.808Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IWVVmQ3lvX1NqMDJ2QWxhWlFPLXR0M2FPdi0xaHQ5a0M0dUxDa1IzTnN4VXNQX3NMZmc2ZEUzbzhCSFRMYllqLVRJUi1CQQ?oc=5",
+        "title": "১০ বছরেও শেখ হাসিনার দেশে ফেরার সম্ভবনা নেই: স্পিকার",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IWVVmQ3lvX1NqMDJ2QWxhWlFPLXR0M2FPdi0xaHQ5a0M0dUxDa1IzTnN4VXNQX3NMZmc2ZEUzbzhCSFRMYllqLVRJUi1CQQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 22 Oct 2026 07:46:29 GMT",
+        "summary": "১০ বছরেও শেখ হাসিনার দেশে ফেরার সম্ভবনা নেই: স্পিকার &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/666636",
+        "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4tdGk1anNSQlRMSkxqVVd1djktMDlqcEMySGUwMHA1dTNXRTN0ZUJFV0Y4bjhVLXBmaXdXTy14d0JjUXA5NUNBRHREeFg?oc=5",
+        "title": "সাইবার নিরাপত্তাঝুঁকিতে বাংলাদেশ ব্যাংকের ওয়েবসাইট বন্ধ",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4tdGk1anNSQlRMSkxqVVd1djktMDlqcEMySGUwMHA1dTNXRTN0ZUJFV0Y4bjhVLXBmaXdXTy14d0JjUXA5NUNBRHREeFg?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 22 Oct 2026 13:50:32 GMT",
+        "summary": "সাইবার নিরাপত্তাঝুঁকিতে বাংলাদেশ ব্যাংকের ওয়েবসাইট বন্ধ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/economy/666659",
+        "imageAttemptedAt": "2026-10-22T17:58:30.334Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KTHpOYUdVZXdkaGtFM2hmM2RuMXlHTlhOdjlLZWV2SWJ5VjFNSzBFVXZ5R3ZOdEd1LUI4bnBfRmF2bXQ0VE1meXJwakd3TmRDRk56MQ?oc=5",
+        "title": "সৌদিতে দাম্মাম বিমানবন্দরে হামলায় আহত দুই বাংলাদেশির মিলেছে পরিচয়, রয়েছে সুস্থ",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KTHpOYUdVZXdkaGtFM2hmM2RuMXlHTlhOdjlLZWV2SWJ5VjFNSzBFVXZ5R3ZOdEd1LUI4bnBfRmF2bXQ0VE1meXJwakd3TmRDRk56MQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 22 Oct 2026 12:38:53 GMT",
+        "summary": "সৌদিতে দাম্মাম বিমানবন্দরে হামলায় আহত দুই বাংলাদেশির মিলেছে পরিচয়, রয়েছে সুস্থ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/international/666654",
+        "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5cnZmRzFCblhLQXZDd2lrQ2o5bllna1hYZWZvTUxkSGhtVFlJREppMnlVV2pTTk1OZHV1clNVbjQ4Ty1qWTdPN2JQeUZWUQ?oc=5",
+        "title": "ডিবির অভিযানে উদ্ধার ১১৭ মোবাইল, আইএমইআই মিলিয়ে ফোন শনাক্তের আহ্বান",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5cnZmRzFCblhLQXZDd2lrQ2o5bllna1hYZWZvTUxkSGhtVFlJREppMnlVV2pTTk1OZHV1clNVbjQ4Ty1qWTdPN2JQeUZWUQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 22 Oct 2026 18:58:48 GMT",
+        "summary": "ডিবির অভিযানে উদ্ধার ১১৭ মোবাইল, আইএমইআই মিলিয়ে ফোন শনাক্তের আহ্বান &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/666667",
+        "imageAttemptedAt": "2026-10-23T02:25:24.808Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE50N0lKbENqczRydHpycE9BbzR4cEdpeHcyMGRxaURicjIzaF9VWUdHT09mbnhpeDlWUHQzUHBqeDl0ZEFCeFBuUnVMV2xVdw?oc=5",
+        "title": "সৌদিগামী ১৩৫ ফ্লাইট বিঘ্নিত, ভোগান্তিতে ২০,৬৭২ যাত্রী",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE50N0lKbENqczRydHpycE9BbzR4cEdpeHcyMGRxaURicjIzaF9VWUdHT09mbnhpeDlWUHQzUHBqeDl0ZEFCeFBuUnVMV2xVdw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 22 Oct 2026 11:55:40 GMT",
+        "summary": "সৌদিগামী ১৩৫ ফ্লাইট বিঘ্নিত, ভোগান্তিতে ২০,৬৭২ যাত্রী &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/666652",
+        "imageAttemptedAt": "2026-10-22T17:25:54.937Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -452,19 +584,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNmY5RXNJQ2Rycm1QcW9hSWFnbnVvSW1CdHQzYkhrcXZqNU43T1Z6OUFMTG1rYTBwcWRuNGpVZjRRc3BpMkd3Z3Y3dEtQcDQ4X252em1faFJ0OHFPdUM1c2FHeGVjdHBSV2JnUXBvLTUyLUdCWEZrUXhQMGZPYlFTZHRzekFlTElOOWpBQ1JWMkI4UQ?oc=5",
-        "title": "মধ্যাহ্নের খবর : ২২ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNmY5RXNJQ2Rycm1QcW9hSWFnbnVvSW1CdHQzYkhrcXZqNU43T1Z6OUFMTG1rYTBwcWRuNGpVZjRRc3BpMkd3Z3Y3dEtQcDQ4X252em1faFJ0OHFPdUM1c2FHeGVjdHBSV2JnUXBvLTUyLUdCWEZrUXhQMGZPYlFTZHRzekFlTElOOWpBQ1JWMkI4UQ?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 22 Oct 2026 07:28:05 GMT",
-        "summary": "মধ্যাহ্নের খবর : ২২ অক্টোবর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/modhyanner-khobor/modhyanner-khobor-22-october-2026",
-        "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qQ0pJR0J4N0g0LVhuNUNfNGpuTkRSeUZFaVMwdTNhOTNLbmduTVFIT3dwMnFfLS11RHhWY0lBa244QWJ5MER6VDAwWjZtckdieFdOVm42WDhXZDlnZEpYcTAyUTBySkJWeGpQQi1rbUNNLUQtYklNakxiMA?oc=5",
         "title": "কোরআনুল কারিম : পর্ব ৪৬৯",
         "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qQ0pJR0J4N0g0LVhuNUNfNGpuTkRSeUZFaVMwdTNhOTNLbmduTVFIT3dwMnFfLS11RHhWY0lBa244QWJ5MER6VDAwWjZtckdieFdOVm42WDhXZDlnZEpYcTAyUTBySkJWeGpQQi1rbUNNLUQtYklNakxiMA?oc=5",
@@ -528,137 +647,18 @@
         "articleUrl": "https://www.ntvbd.com/video/drama/chawa-pawa/chawa-pawa-ep-33",
         "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
-      }
-    ],
-    "jamuna": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
-        "title": "Most Popular Television in Bangladesh",
-        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 13 Apr 2023 17:30:30 GMT",
-        "summary": "Most Popular Television in Bangladesh &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/?",
-        "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1UbVNOSWhTVURZT3hBYTRreV8xOVdTS2NfVDFtdDVMbS1vZlVoZUtXdHdMb2tjRFQwdjhESWo3UUV5dVhMLTVCQzlvbEpaQQ?oc=5",
-        "title": "পূজার ছুটিতে মেট্রোরেলের সময়সূচিতে পরিবর্তন",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1UbVNOSWhTVURZT3hBYTRreV8xOVdTS2NfVDFtdDVMbS1vZlVoZUtXdHdMb2tjRFQwdjhESWo3UUV5dVhMLTVCQzlvbEpaQQ?oc=5",
-        "source": "Jamuna TV",
+        "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS3R1Mi1LU01oYWk5SFRrbk1oMldVaUd4OHlRMmhLa2JFZlhKU3Z1ODFuZWFNQUJleUNlTWVSZldvdURwYWtQNnV4bHR3NHJkMENobDZfSHFudlozZ0pYX2ZqUmNjTUd4SGUxM25Kb2x1eVhOMVNBUTNhT0J4alNlakFkT1RsZndHaUVubHln?oc=5",
+        "title": "সন্ধ্যার খবর : ২২ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS3R1Mi1LU01oYWk5SFRrbk1oMldVaUd4OHlRMmhLa2JFZlhKU3Z1ODFuZWFNQUJleUNlTWVSZldvdURwYWtQNnV4bHR3NHJkMENobDZfSHFudlozZ0pYX2ZqUmNjTUd4SGUxM25Kb2x1eVhOMVNBUTNhT0J4alNlakFkT1RsZndHaUVubHln?oc=5",
+        "source": "NTV",
         "publisherUrl": "",
-        "publishedAt": "Mon, 19 Oct 2026 12:49:43 GMT",
-        "summary": "পূজার ছুটিতে মেট্রোরেলের সময়সূচিতে পরিবর্তন &nbsp;&nbsp; Jamuna Television",
+        "publishedAt": "Thu, 22 Oct 2026 16:12:59 GMT",
+        "summary": "সন্ধ্যার খবর : ২২ অক্টোবর ২০২৬ &nbsp;&nbsp; Ntvbd",
         "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/666473",
-        "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAwVmNvdkpyM3J3VS1neXYtVnpzY3hpNTN1d2NWQ1pJTmpjMUU0NFlNYTFCOGVYV3RpcG9fMkRGeTBXU0dOQXdVTVpyVQ?oc=5",
-        "title": "বিনোদন - Jamuna Television",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAwVmNvdkpyM3J3VS1neXYtVnpzY3hpNTN1d2NWQ1pJTmpjMUU0NFlNYTFCOGVYV3RpcG9fMkRGeTBXU0dOQXdVTVpyVQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 20 Mar 2026 13:31:46 GMT",
-        "summary": "বিনোদন &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/entertainment",
-        "imageAttemptedAt": "2026-10-22T17:25:54.937Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hbEE1UFFsTzlJUk1hV0tnS3k0MjJUUHFlejNXZ2xYRFpKamw5NTFEeDFFQ1U3UTBoX042ei0xYXY2b1RJYTF1bFltUHJaRVdnaFJjdg?oc=5",
-        "title": "পিএইচপির ভয়ংকর ত্রুটি, নিজেদের ওয়েবসাইটই বন্ধ করলো ইউরোপের বিভিন্ন প্রতিষ্ঠান",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hbEE1UFFsTzlJUk1hV0tnS3k0MjJUUHFlejNXZ2xYRFpKamw5NTFEeDFFQ1U3UTBoX042ei0xYXY2b1RJYTF1bFltUHJaRVdnaFJjdg?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 22 Oct 2026 17:00:40 GMT",
-        "summary": "পিএইচপির ভয়ংকর ত্রুটি, নিজেদের ওয়েবসাইটই বন্ধ করলো ইউরোপের বিভিন্ন প্রতিষ্ঠান &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/international/666664",
-        "imageAttemptedAt": "2026-10-22T19:20:02.694Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IWVVmQ3lvX1NqMDJ2QWxhWlFPLXR0M2FPdi0xaHQ5a0M0dUxDa1IzTnN4VXNQX3NMZmc2ZEUzbzhCSFRMYllqLVRJUi1CQQ?oc=5",
-        "title": "১০ বছরেও শেখ হাসিনার দেশে ফেরার সম্ভবনা নেই: স্পিকার",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IWVVmQ3lvX1NqMDJ2QWxhWlFPLXR0M2FPdi0xaHQ5a0M0dUxDa1IzTnN4VXNQX3NMZmc2ZEUzbzhCSFRMYllqLVRJUi1CQQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 22 Oct 2026 07:46:29 GMT",
-        "summary": "১০ বছরেও শেখ হাসিনার দেশে ফেরার সম্ভবনা নেই: স্পিকার &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/666636",
-        "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KTHpOYUdVZXdkaGtFM2hmM2RuMXlHTlhOdjlLZWV2SWJ5VjFNSzBFVXZ5R3ZOdEd1LUI4bnBfRmF2bXQ0VE1meXJwakd3TmRDRk56MQ?oc=5",
-        "title": "সৌদিতে দাম্মাম বিমানবন্দরে হামলায় আহত দুই বাংলাদেশির মিলেছে পরিচয়, রয়েছে সুস্থ",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KTHpOYUdVZXdkaGtFM2hmM2RuMXlHTlhOdjlLZWV2SWJ5VjFNSzBFVXZ5R3ZOdEd1LUI4bnBfRmF2bXQ0VE1meXJwakd3TmRDRk56MQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 22 Oct 2026 12:38:53 GMT",
-        "summary": "সৌদিতে দাম্মাম বিমানবন্দরে হামলায় আহত দুই বাংলাদেশির মিলেছে পরিচয়, রয়েছে সুস্থ &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/international/666654",
-        "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4tdGk1anNSQlRMSkxqVVd1djktMDlqcEMySGUwMHA1dTNXRTN0ZUJFV0Y4bjhVLXBmaXdXTy14d0JjUXA5NUNBRHREeFg?oc=5",
-        "title": "সাইবার নিরাপত্তাঝুঁকিতে বাংলাদেশ ব্যাংকের ওয়েবসাইট বন্ধ",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4tdGk1anNSQlRMSkxqVVd1djktMDlqcEMySGUwMHA1dTNXRTN0ZUJFV0Y4bjhVLXBmaXdXTy14d0JjUXA5NUNBRHREeFg?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 22 Oct 2026 13:50:32 GMT",
-        "summary": "সাইবার নিরাপত্তাঝুঁকিতে বাংলাদেশ ব্যাংকের ওয়েবসাইট বন্ধ &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/economy/666659",
-        "imageAttemptedAt": "2026-10-22T17:58:30.334Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE50N0lKbENqczRydHpycE9BbzR4cEdpeHcyMGRxaURicjIzaF9VWUdHT09mbnhpeDlWUHQzUHBqeDl0ZEFCeFBuUnVMV2xVdw?oc=5",
-        "title": "সৌদিগামী ১৩৫ ফ্লাইট বিঘ্নিত, ভোগান্তিতে ২০,৬৭২ যাত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE50N0lKbENqczRydHpycE9BbzR4cEdpeHcyMGRxaURicjIzaF9VWUdHT09mbnhpeDlWUHQzUHBqeDl0ZEFCeFBuUnVMV2xVdw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 22 Oct 2026 11:55:40 GMT",
-        "summary": "সৌদিগামী ১৩৫ ফ্লাইট বিঘ্নিত, ভোগান্তিতে ২০,৬৭২ যাত্রী &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/666652",
-        "imageAttemptedAt": "2026-10-22T17:25:54.937Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9URERRUEp6NlJrQzBuQ0ZzQXh2dlk3MGRNRWFMX004cllFS29TRlhKMUpBb3RVdEQ1N0NxY3gtTE1oUWJ5enMxYWN5Rjh2Zw?oc=5",
-        "title": "প্রধানমন্ত্রী পদত্যাগ করার নির্দেশ দিয়ে এযাবৎকালের সেরা পরামর্শটি দিয়েছিলেন: ইশরাক",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9URERRUEp6NlJrQzBuQ0ZzQXh2dlk3MGRNRWFMX004cllFS29TRlhKMUpBb3RVdEQ1N0NxY3gtTE1oUWJ5enMxYWN5Rjh2Zw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 22 Oct 2026 04:18:21 GMT",
-        "summary": "প্রধানমন্ত্রী পদত্যাগ করার নির্দেশ দিয়ে এযাবৎকালের সেরা পরামর্শটি দিয়েছিলেন: ইশরাক &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/666616",
-        "imageAttemptedAt": "2026-10-22T15:56:02.192Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBTeXlGXy1CaWh0R0JhSkdjRU5mTllVdHpXYmI3enRXSmhQZVFMQ1JtMnE1ZEVOa0Y3OUVDVjdEZmt6bXJLakYzdU1jTQ?oc=5",
-        "title": "আফগানিস্তানের কাছে ৭ উইকেটে হেরে ত্রিদেশীয় সিরিজ থেকে বিদায় বাংলাদেশের",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBTeXlGXy1CaWh0R0JhSkdjRU5mTllVdHpXYmI3enRXSmhQZVFMQ1JtMnE1ZEVOa0Y3OUVDVjdEZmt6bXJLakYzdU1jTQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 21 Oct 2026 18:17:24 GMT",
-        "summary": "আফগানিস্তানের কাছে ৭ উইকেটে হেরে ত্রিদেশীয় সিরিজ থেকে বিদায় বাংলাদেশের &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/sports/666609",
-        "imageAttemptedAt": "2026-10-22T21:16:36.369Z",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/shondhyar-khobor/shondhar-khobor-22-october-2026",
+        "imageAttemptedAt": "2026-10-23T02:25:24.808Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ]
@@ -718,6 +718,19 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hdHZGLXNIY0ZId1AwYTJNbDRPNUtzY0FRXzFqVGlGZ2lQN0F4bUlYUy1QamJueHV1Wm9vSWpGalpFWUl3X242c0lISU41SzFDTVpzYU52YkhTNmswcWZJYU9jRHR4bVZOZmhHUElmZ3hPV3lydm1tZ2lR?oc=5",
+        "title": "আজ বিশ্ব ট্রমা দিবস",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hdHZGLXNIY0ZId1AwYTJNbDRPNUtzY0FRXzFqVGlGZ2lQN0F4bUlYUy1QamJueHV1Wm9vSWpGalpFWUl3X242c0lISU41SzFDTVpzYU52YkhTNmswcWZJYU9jRHR4bVZOZmhHUElmZ3hPV3lydm1tZ2lR?oc=5",
+        "source": "Dainik Shiksha",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 17 Oct 2026 02:18:16 GMT",
+        "summary": "আজ বিশ্ব ট্রমা দিবস &nbsp;&nbsp; Dainik Shiksha",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.dainikshiksha.com/bn/news/today-is-world-trauma-day-387739",
+        "imageAttemptedAt": "2026-10-23T02:25:24.808Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KZ1k1R1otQWVTMmc1RDhUdE1IWlMyOTVFOTNVWXlQcVlqUlk2MmN4LUpPT2Q5bGp6Y1VPSjFoS2gtTENMaDZObHFMczBfd3RyQWUzMHRhREEtZ0U?oc=5",
         "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ২০ অক্টোবর ২০২৬",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KZ1k1R1otQWVTMmc1RDhUdE1IWlMyOTVFOTNVWXlQcVlqUlk2MmN4LUpPT2Q5bGp6Y1VPSjFoS2gtTENMaDZObHFMczBfd3RyQWUzMHRhREEtZ0U?oc=5",
@@ -744,6 +757,19 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORWpkTWxNbV90SGpkVFpxajh4b0c2bFFpYjBoR1BybnlES1NxZUpJSnlpOUJ2NHVrb0ZwdHd6Qm1lajg4OHcydDZWX29DSDRMdHdnZHRyQ1l6RnY0N0poa19WTktFbWFocG56Qzg5MjJxVDhKLWpYZEpoRHM0dGw5cG9JWER2NUdxd1dfUl96aDhiWF9JMnFyaVZvd0YtSGw0eFdvUmtGVDRPYWM?oc=5",
+        "title": "বিশ্ব ডাক দিবসে সম্মাননা পেলেন ‘নগদ’-এর ৬ প্রতিনিধি",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORWpkTWxNbV90SGpkVFpxajh4b0c2bFFpYjBoR1BybnlES1NxZUpJSnlpOUJ2NHVrb0ZwdHd6Qm1lajg4OHcydDZWX29DSDRMdHdnZHRyQ1l6RnY0N0poa19WTktFbWFocG56Qzg5MjJxVDhKLWpYZEpoRHM0dGw5cG9JWER2NUdxd1dfUl96aDhiWF9JMnFyaVZvd0YtSGw0eFdvUmtGVDRPYWM?oc=5",
+        "source": "Dainik Shiksha",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 15 Oct 2026 12:01:12 GMT",
+        "summary": "বিশ্ব ডাক দিবসে সম্মাননা পেলেন ‘নগদ’-এর ৬ প্রতিনিধি &nbsp;&nbsp; Dainik Shiksha",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.dainikshiksha.com/bn/news/6-nagad-representatives-received-recognition-on-world-post-day-387638",
+        "imageAttemptedAt": "2026-10-23T02:25:24.808Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE82V0l3aWZwcUpCVW1xVllkU2Nldkp6N3pQNWl0VE5sNDA4dExtdW1yYUlnbFM3RnYzNGNPSEp6NDVEaU5oUEZ0aHc2NEpoV25Tc3hZSzQyendoTDZ5bVhhY1ZTNA?oc=5",
         "title": "দাউদ ইব্রাহিম ভারতে নাকি পাকিস্তানে?",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE82V0l3aWZwcUpCVW1xVllkU2Nldkp6N3pQNWl0VE5sNDA4dExtdW1yYUlnbFM3RnYzNGNPSEp6NDVEaU5oUEZ0aHc2NEpoV25Tc3hZSzQyendoTDZ5bVhhY1ZTNA?oc=5",
@@ -767,32 +793,6 @@
         "image": "news-fallbacks/world.svg",
         "articleUrl": "https://www.jagonews24.com/international/news/1170795",
         "imageAttemptedAt": "2026-10-22T22:00:16.723Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwMnl0QVQzNGJqM3RpSURvczBtcVEtenRKQXRPSDVXQ2V3STlyRXdCTEdWb2xFb2lrTUFyX1ZSeDRuenNlc0NnZHctUWFpVUdSbXFmZm1IWktFelpFNlc4QzBBUQ?oc=5",
-        "title": "সৌদি আরবে দুই বাংলাদেশির মৃত্যুদণ্ডের ভিডিওটি ‘বিভ্রান্তিকর’",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwMnl0QVQzNGJqM3RpSURvczBtcVEtenRKQXRPSDVXQ2V3STlyRXdCTEdWb2xFb2lrTUFyX1ZSeDRuenNlc0NnZHctUWFpVUdSbXFmZm1IWktFelpFNlc4QzBBUQ?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 20 Oct 2026 15:17:00 GMT",
-        "summary": "সৌদি আরবে দুই বাংলাদেশির মৃত্যুদণ্ডের ভিডিওটি ‘বিভ্রান্তিকর’ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1170436",
-        "imageAttemptedAt": "2026-10-22T22:42:33.997Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01bkxnUEQxRlNlLWdtNzRldEg3R0JydzBGSWlVSFB4bkNldG5YcHFxbDFmWEhzTXRsTHJyenRxY191M3J4NGlUX21sU3dxb1pURWZiVlh6Unc2eHFzN0N3SDdDZw?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৪ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01bkxnUEQxRlNlLWdtNzRldEg3R0JydzBGSWlVSFB4bkNldG5YcHFxbDFmWEhzTXRsTHJyenRxY191M3J4NGlUX21sU3dxb1pURWZiVlh6Unc2eHFzN0N3SDdDZw?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 14 Oct 2026 15:58:14 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৪ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1168375",
-        "imageAttemptedAt": "2026-10-23T01:48:26.710Z",
         "imageFallback": "news-fallbacks/world.svg"
       }
     ],
@@ -1008,16 +1008,29 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LRUcwbmlYWExfaHFSWW9GM2wxODV3RS1yYWtjYlp6eUFOUHY4N1ZrWlVfLUFsUkNuNXlzTG1wN0Q?oc=5",
-        "title": "সাইবার নিরাপত্তাঝুঁকিতে বন্ধ বাংলাদেশ ব্যাংকের ওয়েবসাইট",
-        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LRUcwbmlYWExfaHFSWW9GM2wxODV3RS1yYWtjYlp6eUFOUHY4N1ZrWlVfLUFsUkNuNXlzTG1wN0Q?oc=5",
-        "source": "Sunbd24",
+        "id": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNT01RdVpIcnpPZnBOT3NTenRLdENhSEFETkt6QnRlSDBFT3lTc2dIYl9SRUlXTzMxY2s2eGtDYVAyUHBKaHR0NVJ2UjVRMkxOZE91azdkU2NxRDlPajZaeVNWSEg1MXVyREZuUThKUUNJMnFYbDRVcXVWRm5ERnFnSk0xa1ZPYVRpTmVSN2NsOVAzUVdMR2Z1ejctUnJyR21EYWx5N0dIM2ZnN2ZNY0xSZjRBeUVTS0w5MU41SFg4c0NKbklHVDJFYVNqZV9nWmVxcV9rUHVGNVVfLXJ5WjhPVzVQTUFtd9IB6wFBVV95cUxQaHhlenhWX1dPT1p2eWxIbXV4aHBHSWJmZFVycGQtLWpvOTRmeVRaa2NOcGVXdFFVMmZxdlhTX2R3NE5LYnEzSmNUMUdlb25vZGdOa3EwaXltV2hsZGNEQzNLbC1HeDRpcGNTX0xuSHl5RWsxSDhKekt0Y3RCdkllMm15RUlnZ05GWkRTMloxbmczajBpUzlIZDFldG1YUkxWeDhxdE51RWsweW1QTV9ZT1o2X3ctSktGU0tjeXhudjlQdG1PRjdpMm1pdGVnbDhwN0RhS3VkUFNLSFJYRW15bVV0N3FOWjY0bFY0?oc=5",
+        "title": "Bangladesh News: বাংলাদেশে ফের মৌলবাদীদের তাণ্ডব, ধর্ম অবমাননার অভিযোগে যুবককে পিটিয়ে খুন",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNT01RdVpIcnpPZnBOT3NTenRLdENhSEFETkt6QnRlSDBFT3lTc2dIYl9SRUlXTzMxY2s2eGtDYVAyUHBKaHR0NVJ2UjVRMkxOZE91azdkU2NxRDlPajZaeVNWSEg1MXVyREZuUThKUUNJMnFYbDRVcXVWRm5ERnFnSk0xa1ZPYVRpTmVSN2NsOVAzUVdMR2Z1ejctUnJyR21EYWx5N0dIM2ZnN2ZNY0xSZjRBeUVTS0w5MU41SFg4c0NKbklHVDJFYVNqZV9nWmVxcV9rUHVGNVVfLXJ5WjhPVzVQTUFtd9IB6wFBVV95cUxQaHhlenhWX1dPT1p2eWxIbXV4aHBHSWJmZFVycGQtLWpvOTRmeVRaa2NOcGVXdFFVMmZxdlhTX2R3NE5LYnEzSmNUMUdlb25vZGdOa3EwaXltV2hsZGNEQzNLbC1HeDRpcGNTX0xuSHl5RWsxSDhKekt0Y3RCdkllMm15RUlnZ05GWkRTMloxbmczajBpUzlIZDFldG1YUkxWeDhxdE51RWsweW1QTV9ZT1o2X3ctSktGU0tjeXhudjlQdG1PRjdpMm1pdGVnbDhwN0RhS3VkUFNLSFJYRW15bVV0N3FOWjY0bFY0?oc=5",
+        "source": "Asianet News Bangla",
         "publisherUrl": "",
-        "publishedAt": "Thu, 22 Oct 2026 13:58:05 GMT",
-        "summary": "সাইবার নিরাপত্তাঝুঁকিতে বন্ধ বাংলাদেশ ব্যাংকের ওয়েবসাইট &nbsp;&nbsp; Sunbd24",
+        "publishedAt": "Sat, 17 Oct 2026 05:17:15 GMT",
+        "summary": "Bangladesh News: বাংলাদেশে ফের মৌলবাদীদের তাণ্ডব, ধর্ম অবমাননার অভিযোগে যুবককে পিটিয়ে খুন &nbsp;&nbsp; Asianet News Bangla",
+        "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m5438qevdye8br2y0pa8cm63,imgname-bangladesh-news-1792212753883.png",
+        "articleUrl": "https://bangla.asianetnews.com/international/world-news/bangladesh-satkhira-wahiduzzaman-shamim-mob-lynched-alleged-blasphemy-anbsg/articleshow-aoycegi",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiowVBVV95cUxPQTVxbVhmaEF0SmJ5NGx2Z01iUlNBLWhEUWxGeXdDdUFqdVViVE5tMlhFXzVjeXdaOWRXcFA0TkQyck80VnhQX05NdVBEQXFUY216VkFFM0pSaWlCRWppeVpia0ZMSEd1OHVLeVJUOGJDZVN5U05BTE9UaVppbVJmU2R5QVdtZXJnaU1aZ1FIaFZuRVBOSkFwcHhrcm5OZTQxc2xkd2JHQ19XWm9yQlhlQUxJN244Tm9RX3BoWVR4bnlKa0xaMXVDdF9SbEJmQWxVTk9SdzVqT3Y0bjEtWEhpQ091MzJsaUVLeW4yc1JLcWNXak9SVzJTS3dSLW9MTGpDeHlNZlhYb1ZLWkhta0FVMWR0ZGoxcUdyRVZiTkJWaGtDN1JCN05remsxOVJwdFdDdXJ0SnhjOTVya29uS2c4RDBUckpxOS1JejBSSVBlQk5MaWo0TUZHX3ZWVHVwRWFsbUxnNkNJU05RVGxKbjlPMDNtUzZ1SXRBbFdhR3o1cGx2ZVpTUl95M3p3aGJ5MzBQemthb1hRUjV5NHYxdU95OUJYa1d6ZU8zVmJpWDFNNkhfV1h0TzNxcXA2ZmYySkFaM2JnRjRib19tekpOZGlrOURFRWNDdXdtb0VNM2RibWRveXVqYzF6aGhENnIxaHJFWFJKd2Zick1RUXV6UnFhWXJ5SFBEUjFSaUFqMEJhbzl2N1hmY3MwZ1Q5MjVOZm9mQ0k0YjlGV0NEUXFRNktveVI0bEZMV2QxM3JZQnl5bS1Uc0tra1FzcVc3MTQyMU9nS2xrYnRMQS1jTEl3dU1WTnJoaHJ6VHVSaEZ1V1Y5Q2hIekw1NGhUMDZMWldyQzhZUUpTc0NTUnFONjBkX2pnN0ZPNm52eEVZQjNTWFUtc2tmMm8?oc=5",
+        "title": "Bangladesh News | পুজোর মুখে ফের বাংলাদেশে তাণ্ডব! ভাঙল দুর্গামূর্তি! #shorts #zee24ghanta #bangladesh #durgapuja2026",
+        "link": "https://news.google.com/rss/articles/CBMiowVBVV95cUxPQTVxbVhmaEF0SmJ5NGx2Z01iUlNBLWhEUWxGeXdDdUFqdVViVE5tMlhFXzVjeXdaOWRXcFA0TkQyck80VnhQX05NdVBEQXFUY216VkFFM0pSaWlCRWppeVpia0ZMSEd1OHVLeVJUOGJDZVN5U05BTE9UaVppbVJmU2R5QVdtZXJnaU1aZ1FIaFZuRVBOSkFwcHhrcm5OZTQxc2xkd2JHQ19XWm9yQlhlQUxJN244Tm9RX3BoWVR4bnlKa0xaMXVDdF9SbEJmQWxVTk9SdzVqT3Y0bjEtWEhpQ091MzJsaUVLeW4yc1JLcWNXak9SVzJTS3dSLW9MTGpDeHlNZlhYb1ZLWkhta0FVMWR0ZGoxcUdyRVZiTkJWaGtDN1JCN05remsxOVJwdFdDdXJ0SnhjOTVya29uS2c4RDBUckpxOS1JejBSSVBlQk5MaWo0TUZHX3ZWVHVwRWFsbUxnNkNJU05RVGxKbjlPMDNtUzZ1SXRBbFdhR3o1cGx2ZVpTUl95M3p3aGJ5MzBQemthb1hRUjV5NHYxdU95OUJYa1d6ZU8zVmJpWDFNNkhfV1h0TzNxcXA2ZmYySkFaM2JnRjRib19tekpOZGlrOURFRWNDdXdtb0VNM2RibWRveXVqYzF6aGhENnIxaHJFWFJKd2Zick1RUXV6UnFhWXJ5SFBEUjFSaUFqMEJhbzl2N1hmY3MwZ1Q5MjVOZm9mQ0k0YjlGV0NEUXFRNktveVI0bEZMV2QxM3JZQnl5bS1Uc0tra1FzcVc3MTQyMU9nS2xrYnRMQS1jTEl3dU1WTnJoaHJ6VHVSaEZ1V1Y5Q2hIekw1NGhUMDZMWldyQzhZUUpTc0NTUnFONjBkX2pnN0ZPNm52eEVZQjNTWFUtc2tmMm8?oc=5",
+        "source": "Facebook",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 11 Oct 2026 07:00:00 GMT",
+        "summary": "Bangladesh News | পুজোর মুখে ফের বাংলাদেশে তাণ্ডব! ভাঙল দুর্গামূর্তি! #shorts #zee24ghanta #bangladesh #durgapuja2026 &nbsp;&nbsp; Facebook",
         "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://sunbd24.com/418433/",
-        "imageAttemptedAt": "2026-10-22T22:42:33.997Z",
+        "articleUrl": "https://www.facebook.com/Zee24Ghanta/posts/bangladesh-news-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%87-%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%A4%E0%A6%BE%E0%A6%A3%E0%A7%8D%E0%A6%A1%E0%A6%AC-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A6%B2-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-shorts-zee24gh/1643834584440616/",
+        "imageAttemptedAt": "2026-10-23T02:25:24.808Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
@@ -1043,19 +1056,6 @@
         "summary": "দশমীর বিকেলে সমুদ্রে স্নান করতে নেমে মৃত তিন পর্যটক, কক্সবাজারে নিখোঁজ আরও ২ &nbsp;&nbsp; Ei Samay",
         "image": "https://cf-images.assettype.com/eisamay%2F2026-10-22%2Ftnsi74ij%2FCoxsBazaarSunsetSep2019.webp?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
         "articleUrl": "https://eisamay.com/bangladesh-news/3-tourists-died-after-drowning-at-sea-in-coxs-bazar-in-bangladesh-2-still-missing/200557315.cms",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNT01RdVpIcnpPZnBOT3NTenRLdENhSEFETkt6QnRlSDBFT3lTc2dIYl9SRUlXTzMxY2s2eGtDYVAyUHBKaHR0NVJ2UjVRMkxOZE91azdkU2NxRDlPajZaeVNWSEg1MXVyREZuUThKUUNJMnFYbDRVcXVWRm5ERnFnSk0xa1ZPYVRpTmVSN2NsOVAzUVdMR2Z1ejctUnJyR21EYWx5N0dIM2ZnN2ZNY0xSZjRBeUVTS0w5MU41SFg4c0NKbklHVDJFYVNqZV9nWmVxcV9rUHVGNVVfLXJ5WjhPVzVQTUFtd9IB6wFBVV95cUxQaHhlenhWX1dPT1p2eWxIbXV4aHBHSWJmZFVycGQtLWpvOTRmeVRaa2NOcGVXdFFVMmZxdlhTX2R3NE5LYnEzSmNUMUdlb25vZGdOa3EwaXltV2hsZGNEQzNLbC1HeDRpcGNTX0xuSHl5RWsxSDhKekt0Y3RCdkllMm15RUlnZ05GWkRTMloxbmczajBpUzlIZDFldG1YUkxWeDhxdE51RWsweW1QTV9ZT1o2X3ctSktGU0tjeXhudjlQdG1PRjdpMm1pdGVnbDhwN0RhS3VkUFNLSFJYRW15bVV0N3FOWjY0bFY0?oc=5",
-        "title": "Bangladesh News: বাংলাদেশে ফের মৌলবাদীদের তাণ্ডব, ধর্ম অবমাননার অভিযোগে যুবককে পিটিয়ে খুন",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNT01RdVpIcnpPZnBOT3NTenRLdENhSEFETkt6QnRlSDBFT3lTc2dIYl9SRUlXTzMxY2s2eGtDYVAyUHBKaHR0NVJ2UjVRMkxOZE91azdkU2NxRDlPajZaeVNWSEg1MXVyREZuUThKUUNJMnFYbDRVcXVWRm5ERnFnSk0xa1ZPYVRpTmVSN2NsOVAzUVdMR2Z1ejctUnJyR21EYWx5N0dIM2ZnN2ZNY0xSZjRBeUVTS0w5MU41SFg4c0NKbklHVDJFYVNqZV9nWmVxcV9rUHVGNVVfLXJ5WjhPVzVQTUFtd9IB6wFBVV95cUxQaHhlenhWX1dPT1p2eWxIbXV4aHBHSWJmZFVycGQtLWpvOTRmeVRaa2NOcGVXdFFVMmZxdlhTX2R3NE5LYnEzSmNUMUdlb25vZGdOa3EwaXltV2hsZGNEQzNLbC1HeDRpcGNTX0xuSHl5RWsxSDhKekt0Y3RCdkllMm15RUlnZ05GWkRTMloxbmczajBpUzlIZDFldG1YUkxWeDhxdE51RWsweW1QTV9ZT1o2X3ctSktGU0tjeXhudjlQdG1PRjdpMm1pdGVnbDhwN0RhS3VkUFNLSFJYRW15bVV0N3FOWjY0bFY0?oc=5",
-        "source": "Asianet News Bangla",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 17 Oct 2026 05:17:15 GMT",
-        "summary": "Bangladesh News: বাংলাদেশে ফের মৌলবাদীদের তাণ্ডব, ধর্ম অবমাননার অভিযোগে যুবককে পিটিয়ে খুন &nbsp;&nbsp; Asianet News Bangla",
-        "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m5438qevdye8br2y0pa8cm63,imgname-bangladesh-news-1792212753883.png",
-        "articleUrl": "https://bangla.asianetnews.com/international/world-news/bangladesh-satkhira-wahiduzzaman-shamim-mob-lynched-alleged-blasphemy-anbsg/articleshow-aoycegi",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       }
