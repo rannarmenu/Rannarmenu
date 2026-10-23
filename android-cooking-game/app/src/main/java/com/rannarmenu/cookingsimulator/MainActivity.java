@@ -115,7 +115,7 @@ public class MainActivity extends Activity {
         gameWebView.evaluateJavascript(
                 "(function(){return window.rannarGameBack ? window.rannarGameBack() : 'home'})()",
                 value -> {
-                    if (""home"".equals(value) || "null".equals(value)) {
+                    if (value != null && value.contains("home")) {
                         finish();
                     }
                 });
