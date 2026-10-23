@@ -44,7 +44,7 @@ function AboutHome({ onNavigate }) {
       <span className="about-option-icon"><Gamepad2 size={21} strokeWidth={1.7} aria-hidden="true" /></span>
       <span className="about-option-copy"><strong>3D রান্নার গেম · Chef Challenge</strong><small>আসল 3D রান্নাঘর ঘোরান, উপকরণ হাঁড়িতে দিন, রান্না করে স্কোর বাড়ান।</small></span>
       <a className="about-game-play" href={import.meta.env.BASE_URL + "rannar-cooking-game.html"} aria-label="Rannar Menu 3D রান্নার গেম খেলুন">3D খেলুন <ArrowUpRight size={15} aria-hidden="true" /></a>
-      <a className="about-game-download" href={import.meta.env.BASE_URL + "rannar-cooking-game.html"} download="Rannar-Menu-Cooking-Game.html" aria-label="3D রান্নার গেম ডাউনলোড করুন" title="3D রান্নার গেম ডাউনলোড"><ArrowDownToLine size={17} aria-hidden="true" /><span>ডাউনলোড</span></a>
+      <a className="about-game-download" href={import.meta.env.BASE_URL + "rannar-cooking-game.html"} download="Rannar-Menu-3D-Cooking-Game.html" aria-label="3D রান্নার গেম ডাউনলোড করুন" title="3D রান্নার গেম ডাউনলোড"><ArrowDownToLine size={17} aria-hidden="true" /><span>ডাউনলোড</span></a>
     </div>
     <p className="about-app-download-note">3D গ্রাফিক্স চালাতে ইন্টারনেট ও WebGL-সমর্থিত ব্রাউজার প্রয়োজন। সেরা স্কোর আপনার নিজের ডিভাইসে সংরক্ষিত থাকবে।</p>
     <div className="about-hub-note"><ChefHat size={18} aria-hidden="true" /><p>বাংলা ভাষায় রান্নার তথ্যকে আরও সহজে খুঁজে পাওয়া, বুঝতে পারা এবং দৈনন্দিন জীবনে কাজে লাগানোর অভিজ্ঞতা তৈরি করাই Rannar Menu-র লক্ষ্য।</p></div>
