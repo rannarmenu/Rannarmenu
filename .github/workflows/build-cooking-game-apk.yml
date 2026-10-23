@@ -124,3 +124,20 @@ jobs:
           files: android-cooking-game/build/public/Rannar-Menu-Cooking-Game.apk
           overwrite_files: true
           make_latest: false
+
+      - name: Publish APK to the website downloads folder
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p ../public/downloads
+          cp build/public/Rannar-Menu-Cooking-Game.apk ../public/downloads/Rannar-Menu-Cooking-Game.apk
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ../public/downloads/Rannar-Menu-Cooking-Game.apk
+          if git diff --cached --quiet; then
+            echo "The website APK is already up to date."
+          else
+            git commit -m "chore: publish Android cooking game APK to website"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
