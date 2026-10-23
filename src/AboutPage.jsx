@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDownToLine, ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, ChefHat, Heart, Lightbulb, ShieldCheck, Smartphone, Sparkles, Target, Users } from 'lucide-react';
+import { ArrowDownToLine, ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, ChefHat, Heart, Lightbulb, ShieldCheck, Gamepad2, Sparkles, Target, Users } from 'lucide-react';
 import './about-page.css';
 
 const mediaSponsors = [
@@ -39,13 +39,14 @@ function AboutHome({ onNavigate }) {
         <ArrowRight className="about-option-arrow" size={20} aria-hidden="true" />
       </button>)}
     </nav>
-    <a className="about-option-row about-app-download" href="https://github.com/rannarmenu/Rannarmenu/releases/download/android-latest/Rannar-Menu.apk" download>
+    <div className="about-option-row about-game-row">
       <span className="about-option-number">04</span>
-      <span className="about-option-icon"><Smartphone size={21} strokeWidth={1.7} aria-hidden="true" /></span>
-      <span className="about-option-copy"><strong>Android অ্যাপ ডাউনলোড</strong><small>Rannar Menu APK ডাউনলোড করে ফোনে ইনস্টল করুন · Android</small></span>
-      <ArrowDownToLine className="about-option-arrow" size={20} aria-hidden="true" />
-    </a>
-    <p className="about-app-download-note">শুধু Android ফোনের জন্য। ডাউনলোডের পর ইনস্টল করতে Android-এর অনুমতি চাইতে পারে। iPhone-এ APK ইনস্টল করা যায় না।</p>
+      <span className="about-option-icon"><Gamepad2 size={21} strokeWidth={1.7} aria-hidden="true" /></span>
+      <span className="about-option-copy"><strong>রান্নার গেম · Chef Challenge</strong><small>উপকরণ বাছুন, সঠিক ধাপে রান্না করুন, স্কোর বাড়ান—মোবাইল ও ডেস্কটপে খেলুন।</small></span>
+      <a className="about-game-play" href={import.meta.env.BASE_URL + "rannar-cooking-game.html"} aria-label="Rannar Menu রান্নার গেম খেলুন">খেলুন <ArrowUpRight size={15} aria-hidden="true" /></a>
+      <a className="about-game-download" href={import.meta.env.BASE_URL + "rannar-cooking-game.html"} download="Rannar-Menu-Cooking-Game.html" aria-label="রান্নার গেম ডাউনলোড করুন" title="রান্নার গেম ডাউনলোড"><ArrowDownToLine size={17} aria-hidden="true" /><span>ডাউনলোড</span></a>
+    </div>
+    <p className="about-app-download-note">ডাউনলোড করা একক HTML ফাইলটি ইন্টারনেট ছাড়াও খেলা যাবে। গেমের সেরা স্কোর আপনার নিজের ডিভাইসেই সংরক্ষিত থাকবে।</p>
     <div className="about-hub-note"><ChefHat size={18} aria-hidden="true" /><p>বাংলা ভাষায় রান্নার তথ্যকে আরও সহজে খুঁজে পাওয়া, বুঝতে পারা এবং দৈনন্দিন জীবনে কাজে লাগানোর অভিজ্ঞতা তৈরি করাই Rannar Menu-র লক্ষ্য।</p></div>
   </section>;
 }
