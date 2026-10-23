@@ -111,9 +111,15 @@ Mira uses Gemini through a server-side Supabase Edge Function, with multi-turn c
 - GitHub Actions runs `npm test` and `npm run build`. A dedicated automated cross-browser/end-to-end visual test suite is not configured yet.
 
 
-## 3D cooking game
+## 3D Cooking Simulator Android App
 
-Open `/rannar-cooking-game.html` from the deployed site. The game is a browser-based WebGL experience with original, code-built 3D kitchen props and recipe interactions. It uses the pinned Three.js `0.180.0` ES modules from jsDelivr, so an internet connection is required to load the 3D engine; browser WebGL support is also required. The HTML download links to the same game and is not an Android APK or a Play Store release. The best score is stored locally in the player's browser.
+The Cooking Simulator is **Android-app-only**. The public website route `/rannar-cooking-game.html` is a download landing page; it does not run the game in a browser. The standalone Android source lives in [`android-cooking-game/`](./android-cooking-game/).
+
+Gameplay includes a real-time 3D kitchen, touch camera controls, ingredient selection and pickup, cutting-board actions, stove/pot/spoon interactions, cooking steam and flame effects, plating, a countdown timer and local best-score storage. The first playable build includes egg curry, chicken curry and vegetable khichuri recipes.
+
+The app bundles the game HTML as a local Android asset and serves it through AndroidX WebViewAssetLoader; gameplay itself stays inside the app. Three.js `0.147.0` and OrbitControls are loaded from jsDelivr, so an internet connection is required for the 3D engine. Android WebView hardware acceleration and WebGL support are required.
+
+GitHub Actions builds the standalone APK from `android-cooking-game/` and publishes the `Rannar-Menu-Cooking-Game.apk` release asset after a successful build. This repository change does **not** publish the game to Google Play automatically; a Play Store release still needs a signed release build, store listing and Google Play Console submission.
 
 ## Android app (APK)
 
