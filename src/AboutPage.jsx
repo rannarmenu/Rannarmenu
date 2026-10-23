@@ -43,8 +43,8 @@ function AboutHome({ onNavigate }) {
       <span className="about-option-number">04</span>
       <span className="about-option-icon"><Gamepad2 size={21} strokeWidth={1.7} aria-hidden="true" /></span>
       <span className="about-option-copy"><strong>3D রান্নার গেম · Chef Challenge</strong><small>আসল 3D রান্নাঘর ঘোরান, উপকরণ হাঁড়িতে দিন, রান্না করে স্কোর বাড়ান।</small></span>
-      <a className="about-game-play" href="https://github.com/rannarmenu/Rannarmenu/releases/tag/android-game-latest" target="_blank" rel="noopener noreferrer" aria-label="3D রান্নার অ্যাপের রিলিজ তথ্য দেখুন">অ্যাপের তথ্য <ArrowUpRight size={15} aria-hidden="true" /></a>
-      <a className="about-game-download" href="https://github.com/rannarmenu/Rannarmenu/releases/download/android-game-latest/Rannar-Menu-Cooking-Game.apk" download="Rannar-Menu-Cooking-Game.apk" aria-label="3D রান্নার Android অ্যাপ APK ডাউনলোড করুন" title="Android অ্যাপ ডাউনলোড"><ArrowDownToLine size={17} aria-hidden="true" /><span>APK ডাউনলোড</span></a>
+      <a className="about-game-play" href="https://github.com/rannarmenu/Rannarmenu/releases/tag/android-game-latest" target="_blank" rel="noopener noreferrer" aria-label="বিকল্প APK ডাউনলোডের GitHub Release খুলুন">বিকল্প ডাউনলোড <ArrowUpRight size={15} aria-hidden="true" /></a>
+      <a className="about-game-download" href="https://rannarmenu.github.io/Rannarmenu/downloads/Rannar-Menu-Cooking-Game.apk" download="Rannar-Menu-Cooking-Game.apk" aria-label="3D রান্নার Android অ্যাপ APK ডাউনলোড করুন" title="Android অ্যাপ ডাউনলোড"><ArrowDownToLine size={17} aria-hidden="true" /><span>APK ডাউনলোড</span></a>
     </div>
     <p className="about-app-download-note">এই গেমটি শুধু Android অ্যাপের ভেতরে খেলার জন্য—ওয়েবসাইটে খেলার সংস্করণ নেই। APK ডাউনলোড করে ইনস্টল করুন। 3D ইঞ্জিন চালু করতে অ্যাপের প্রথম ব্যবহারে ইন্টারনেট প্রয়োজন।</p>
     <div className="about-hub-note"><ChefHat size={18} aria-hidden="true" /><p>বাংলা ভাষায় রান্নার তথ্যকে আরও সহজে খুঁজে পাওয়া, বুঝতে পারা এবং দৈনন্দিন জীবনে কাজে লাগানোর অভিজ্ঞতা তৈরি করাই Rannar Menu-র লক্ষ্য।</p></div>
