@@ -1,0 +1,126 @@
+name: Build Rannar Menu Cooking Simulator APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'android-cooking-game/**'
+      - '.github/workflows/build-cooking-game-apk.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cooking-simulator-apk
+  cancel-in-progress: true
+
+jobs:
+  test-and-build:
+    name: Test and build Android game
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    defaults:
+      run:
+        working-directory: android-cooking-game
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node.js for game smoke tests
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Smoke-test the app-only game and JavaScript
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import { readFileSync } from 'node:fs';
+
+          const html = readFileSync('app/src/main/assets/index.html', 'utf8');
+          const activity = readFileSync('app/src/main/java/com/rannarmenu/cookingsimulator/MainActivity.java', 'utf8');
+          const webPage = readFileSync('../public/rannar-cooking-game.html', 'utf8');
+          const scripts = [...html.matchAll(/<script>([\\s\\S]*?)<\\/script>/g)];
+          assert.ok(scripts.length >= 2, 'Expected the app error handler and game script.');
+          const gameScript = scripts.at(-1)[1];
+          new Function(gameScript);
+          assert.equal((html.match(/action:'chop'/g) || []).length, 3, 'Each recipe must have a cutting step.');
+          assert.equal((html.match(/action:'plate'/g) || []).length, 3, 'Each recipe must have a serving step.');
+          assert.ok(html.includes('function performStepAction(source)'), 'Real cooking actions must be wired.');
+          assert.ok(html.includes('function stationAction(station)'), '3D kitchen stations must respond to taps.');
+          assert.ok(html.includes('three@0.147.0/build/three.min.js'), 'Pinned Three.js runtime is missing.');
+          assert.ok(!html.includes('type="module"'), 'The local Android asset uses classic script loading.');
+          assert.ok(activity.includes('WebViewAssetLoader'), 'The game must load from a secure local app asset origin.');
+          assert.ok(activity.includes('setAllowFileAccess(false)'), 'Unrestricted file access must remain disabled.');
+          assert.ok(!webPage.includes('three.min.js') && !webPage.includes('id="kitchen-canvas"'), 'The public page must not run the game.');
+          assert.ok(webPage.includes('APK ডাউনলোড'), 'The public page must link to the app download.');
+          console.log('Game smoke tests passed: JavaScript syntax, 3 recipes, interactive action flow, app-only delivery.');
+          NODE
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Build APK (persistent release signing when configured)
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p build/public
+
+          if [[ -n "$ANDROID_KEYSTORE_BASE64" ]]; then
+            if [[ -z "$ANDROID_KEYSTORE_PASSWORD" || -z "$ANDROID_KEY_ALIAS" || -z "$ANDROID_KEY_PASSWORD" ]]; then
+              echo "::error::All four Android signing secrets must be configured together."
+              exit 1
+            fi
+            printf '%s' "$ANDROID_KEYSTORE_BASE64" | base64 --decode > app/release-signing-key.jks
+            export ANDROID_KEYSTORE_PATH="$PWD/app/release-signing-key.jks"
+            gradle --no-daemon assembleRelease
+            cp app/build/outputs/apk/release/app-release.apk build/public/Rannar-Menu-Cooking-Game.apk
+            rm -f app/release-signing-key.jks
+            echo "Built APK with the configured persistent release key."
+          else
+            gradle --no-daemon assembleDebug
+            cp app/build/outputs/apk/debug/app-debug.apk build/public/Rannar-Menu-Cooking-Game.apk
+            echo "::warning::This is a debug-signed test APK, not a production Google Play release."
+          fi
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Rannar-Menu-Cooking-Game-APK
+          path: android-cooking-game/build/public/Rannar-Menu-Cooking-Game.apk
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Publish APK download release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: android-game-latest
+          name: Rannar Menu Cooking Simulator (Android)
+          body: |
+            Rannar Menu Cooking Simulator — standalone Android game app.
+
+            The app contains a real-time 3D kitchen and interactive cooking steps. This is the APK distribution release, not an automatic Google Play Store publication.
+
+            If repository Android signing secrets are configured, the APK is signed with the persistent release key. Otherwise this is a debug-signed test APK and should not be treated as a production Play Store build.
+          target_commitish: main
+          files: android-cooking-game/build/public/Rannar-Menu-Cooking-Game.apk
+          overwrite_files: true
+          make_latest: false
