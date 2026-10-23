@@ -7,6 +7,7 @@ A responsive Bengali recipe catalogue built with React, Vite, Supabase Auth/Post
 - Bengali recipe catalogue with category filters and full-text search.
 - Server-side pagination (24 recipes per page).
 - Recipe details, ingredients and ordered cooking steps. Dish-matched photos are shown only when their source, creator and reuse license are recorded; otherwise the site displays a photo-unavailable placeholder.
+- Interactive 3D cooking challenge at `public/rannar-cooking-game.html`, featuring a Three.js kitchen, touch/mouse camera orbit, ingredient picking, cooking stages, timer, scoring and local best-score storage.
 - Supabase-backed published recipes.
 - Customer sign-up/sign-in with email verification, Google OAuth entry point, phone SMS OTP entry point, password reset, and persistent profile records.
 - Recipe ingredients and cooking instructions are protected by database policies and require a verified account; public catalogue/search only returns preview-safe recipe fields.
@@ -109,6 +110,10 @@ Mira uses Gemini through a server-side Supabase Edge Function, with multi-turn c
 - Customer saved recipes are stored by account. Guest-only selections, before sign-in, remain in that browser.
 - GitHub Actions runs `npm test` and `npm run build`. A dedicated automated cross-browser/end-to-end visual test suite is not configured yet.
 
+
+## 3D cooking game
+
+Open `/rannar-cooking-game.html` from the deployed site. The game is a browser-based WebGL experience with original, code-built 3D kitchen props and recipe interactions. It uses the pinned Three.js `0.180.0` ES modules from jsDelivr, so an internet connection is required to load the 3D engine; browser WebGL support is also required. The HTML download links to the same game and is not an Android APK or a Play Store release. The best score is stored locally in the player's browser.
 
 ## Android app (APK)
 
