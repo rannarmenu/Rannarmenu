@@ -42,11 +42,11 @@ function AboutHome({ onNavigate }) {
     <div className="about-option-row about-game-row">
       <span className="about-option-number">04</span>
       <span className="about-option-icon"><Gamepad2 size={21} strokeWidth={1.7} aria-hidden="true" /></span>
-      <span className="about-option-copy"><strong>রান্নার গেম · Chef Challenge</strong><small>উপকরণ বাছুন, সঠিক ধাপে রান্না করুন, স্কোর বাড়ান—মোবাইল ও ডেস্কটপে খেলুন।</small></span>
-      <a className="about-game-play" href={import.meta.env.BASE_URL + "rannar-cooking-game.html"} aria-label="Rannar Menu রান্নার গেম খেলুন">খেলুন <ArrowUpRight size={15} aria-hidden="true" /></a>
-      <a className="about-game-download" href={import.meta.env.BASE_URL + "rannar-cooking-game.html"} download="Rannar-Menu-Cooking-Game.html" aria-label="রান্নার গেম ডাউনলোড করুন" title="রান্নার গেম ডাউনলোড"><ArrowDownToLine size={17} aria-hidden="true" /><span>ডাউনলোড</span></a>
+      <span className="about-option-copy"><strong>3D রান্নার গেম · Chef Challenge</strong><small>আসল 3D রান্নাঘর ঘোরান, উপকরণ হাঁড়িতে দিন, রান্না করে স্কোর বাড়ান।</small></span>
+      <a className="about-game-play" href={import.meta.env.BASE_URL + "rannar-cooking-game.html"} aria-label="Rannar Menu 3D রান্নার গেম খেলুন">3D খেলুন <ArrowUpRight size={15} aria-hidden="true" /></a>
+      <a className="about-game-download" href={import.meta.env.BASE_URL + "rannar-cooking-game.html"} download="Rannar-Menu-Cooking-Game.html" aria-label="3D রান্নার গেম ডাউনলোড করুন" title="3D রান্নার গেম ডাউনলোড"><ArrowDownToLine size={17} aria-hidden="true" /><span>ডাউনলোড</span></a>
     </div>
-    <p className="about-app-download-note">ডাউনলোড করা একক HTML ফাইলটি ইন্টারনেট ছাড়াও খেলা যাবে। গেমের সেরা স্কোর আপনার নিজের ডিভাইসেই সংরক্ষিত থাকবে।</p>
+    <p className="about-app-download-note">3D গ্রাফিক্স চালাতে ইন্টারনেট ও WebGL-সমর্থিত ব্রাউজার প্রয়োজন। সেরা স্কোর আপনার নিজের ডিভাইসে সংরক্ষিত থাকবে।</p>
     <div className="about-hub-note"><ChefHat size={18} aria-hidden="true" /><p>বাংলা ভাষায় রান্নার তথ্যকে আরও সহজে খুঁজে পাওয়া, বুঝতে পারা এবং দৈনন্দিন জীবনে কাজে লাগানোর অভিজ্ঞতা তৈরি করাই Rannar Menu-র লক্ষ্য।</p></div>
   </section>;
 }
