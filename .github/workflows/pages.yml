@@ -15,7 +15,7 @@ permissions:
 
 concurrency:
   group: github-pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -41,6 +41,17 @@ jobs:
         run: npm run build
       - name: Support direct /admin navigation on GitHub Pages
         run: cp dist/index.html dist/404.html
+      - name: Verify Android APK is included in the website build
+        shell: bash
+        run: |
+          set -euo pipefail
+          apk="Rannar-Menu-Cooking-Game.apk"
+          test -s "public/downloads/$apk"
+          test -s "dist/downloads/$apk"
+          cmp "public/downloads/$apk" "dist/downloads/$apk"
+          size="$(stat -c '%s' "dist/downloads/$apk")"
+          test "$size" -ge 500000
+          echo "APK bundled successfully: $size bytes"
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -55,3 +66,23 @@ jobs:
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify live Android APK download
+        shell: bash
+        run: |
+          set -euo pipefail
+          url="https://rannarmenu.github.io/Rannarmenu/downloads/Rannar-Menu-Cooking-Game.apk"
+          for attempt in {1..8}; do
+            if curl --fail --silent --show-error --location --max-time 30 "$url?verify=$GITHUB_RUN_ID" -o /tmp/Rannar-Menu-Cooking-Game.apk; then
+              break
+            fi
+            if [[ "$attempt" -eq 8 ]]; then
+              echo "::error::The live APK URL did not return a successful download."
+              exit 1
+            fi
+            sleep 5
+          done
+          size="$(stat -c '%s' /tmp/Rannar-Menu-Cooking-Game.apk)"
+          test "$size" -ge 500000
+          magic="$(od -An -tx1 -N4 /tmp/Rannar-Menu-Cooking-Game.apk | tr -d ' \n')"
+          test "$magic" = "504b0304"
+          echo "Live APK download verified: $size bytes; ZIP/APK signature OK."
