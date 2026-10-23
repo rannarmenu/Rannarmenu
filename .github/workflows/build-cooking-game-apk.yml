@@ -45,7 +45,7 @@ jobs:
           const html = readFileSync('app/src/main/assets/index.html', 'utf8');
           const activity = readFileSync('app/src/main/java/com/rannarmenu/cookingsimulator/MainActivity.java', 'utf8');
           const webPage = readFileSync('../public/rannar-cooking-game.html', 'utf8');
-          const scripts = [...html.matchAll(/<script>([\s\\S]*?)<\/script>/g)];
+          const scripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)];
           assert.ok(scripts.length >= 2, 'Expected the app error handler and game script.');
           const gameScript = scripts.at(-1)[1];
           new Function(gameScript);
