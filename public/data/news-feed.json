@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-23T21:43:33.015Z",
+  "generatedAt": "2026-10-23T22:13:48.702Z",
   "sponsors": {
     "somoy": [
       {
@@ -610,19 +610,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaWR6bVlmRUczZFFjM3prTU9vNExuVFlTeUJfMXl4WGpVNlNMclZva0F6NFViUWpqcWxVYXp0UGNyVUxYUU5pOGZfSHM2UldiTkZIQkQ4eXRnalNUZnNmcW5Kd3B0UmlrWHpyMzVqUUg5NVd4RXlwdlVldktmbnI0UFkyMVdvNjhUMEl2WlBiUXc3QW9vQlE?oc=5",
-        "title": "CamScanner 08-14-2026 09.59",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaWR6bVlmRUczZFFjM3prTU9vNExuVFlTeUJfMXl4WGpVNlNMclZva0F6NFViUWpqcWxVYXp0UGNyVUxYUU5pOGZfSHM2UldiTkZIQkQ4eXRnalNUZnNmcW5Kd3B0UmlrWHpyMzVqUUg5NVd4RXlwdlVldktmbnI0UFkyMVdvNjhUMEl2WlBiUXc3QW9vQlE?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 14 Aug 2026 09:47:02 GMT",
-        "summary": "CamScanner 08-14-2026 09.59 &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://backoffice.channel24bd.tv/media/common/singleFile/police-comissionar-1786688201.pdf",
-        "imageAttemptedAt": "2026-10-23T20:26:50.417Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
         "title": "News Video, Latest Bangla News & Live TV",
         "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
@@ -660,142 +647,23 @@
         "articleUrl": "https://www.channel24bd.tv/contact-us",
         "imageAttemptedAt": "2026-10-23T21:01:29.026Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMivwZBVV95cUxNY1hXVHVZMVVWd0p0ZVN6MzFjWlMybDhNbnkwWEVSVUtNdjMzVy1OSmNWV3JvZkJoVjFPSHdqazhSTm9MVzhCdEt2WTV3OEFwYW00ZWIzV1c0Vnh0VTJnVU1CS1ZMOUsxa3JsZURxRGc3V25ZSXZqTjRNRm9tbF9QT3JrWkdQb3dHakJmYllxbXRXalBMZVhKUThTV2pKemo1eGU2SjBvbXpKV1lXRmt0VGxUWEh6cVlCc2ZyTEhOdW90V3AxaXVpV1Y5bnZnUWk0NXU5UEc1dEd4MGd0UVJfOHFrUnJZc3RzQ25BaXhubldkS1hvNnpRaThMbVpiR2lRNEw3OF9LZDhidnl0T0VVMVRvNWJsSzVxaHVHeExKcjNzWVlMak9hTHBYaUhJVE56VUVKZnk3NmpGUnZuTzVSbmdXV2dfTkw1TnRUVFZqNGcyeHkzaDNKaUtHX3otdVhOR3g2MVo5eEp6aGRDM3JtQXdPNmtySzB1VS1vQTRQa0RJSkxEa1FUa0FMSWh0TjBiMmJNMGpWeWZ4N29XSW5FaDVsUDZqajZKdHllanlCNFF0djV1SlhiMFI4OHpGUzg5Vk1Fb2tZZnBFQkNhTTZTb3o4Y3J5V3ZOR3pWZ044N2l6Q3ZldW5PbDR2VTQxMTJQTWhyTzF5UzRWZFJReks1SnZsNWd4UzY5ZzM2SXJ4WnNaVXFjYmZSSzJKOWtjbUpsR2ZCN2VxQTBKVTdtMVhhbEZjQjdOZ2V6WEYzMFo2SDFwa3V4amZ2S3NNdV8xWnpBcFpWNEhDUHU1Nmt1WVJGaU5uOTZiazBfai0yYVAyUkowcnZJR3lmamtlQUdKckNiOXoyYWlDb2M1TWhvSjVEZVludXprQmRVa2pmNzItUWJSaHhTY0lTc3Z5YV9uM3JHY1VPUzNfM2R1MnhwMGNqclRmdzNHblNtcEhtNzMzS2pKYkNVcmw1aUlDUDlZTDI5WnVCSERlRlI4OGpNdTExMnhNY0hGVF9ud2ZFNVY1Tm10WkE5WkhlTnZOSkt4U294WlljbHR0d0xTZlBBSExUeWd6SzBSenB4cVhrYVFqUmhyd0Q1NnN0ZGNpQlluNlk?oc=5",
+        "title": "জুলাই সনদ পাশ কাটিয়ে গণতান্ত্রিক রাষ্ট্র প্রতিষ্ঠা সম্ভব নয়: ড. আলী রীয়াজ",
+        "link": "https://news.google.com/rss/articles/CBMivwZBVV95cUxNY1hXVHVZMVVWd0p0ZVN6MzFjWlMybDhNbnkwWEVSVUtNdjMzVy1OSmNWV3JvZkJoVjFPSHdqazhSTm9MVzhCdEt2WTV3OEFwYW00ZWIzV1c0Vnh0VTJnVU1CS1ZMOUsxa3JsZURxRGc3V25ZSXZqTjRNRm9tbF9QT3JrWkdQb3dHakJmYllxbXRXalBMZVhKUThTV2pKemo1eGU2SjBvbXpKV1lXRmt0VGxUWEh6cVlCc2ZyTEhOdW90V3AxaXVpV1Y5bnZnUWk0NXU5UEc1dEd4MGd0UVJfOHFrUnJZc3RzQ25BaXhubldkS1hvNnpRaThMbVpiR2lRNEw3OF9LZDhidnl0T0VVMVRvNWJsSzVxaHVHeExKcjNzWVlMak9hTHBYaUhJVE56VUVKZnk3NmpGUnZuTzVSbmdXV2dfTkw1TnRUVFZqNGcyeHkzaDNKaUtHX3otdVhOR3g2MVo5eEp6aGRDM3JtQXdPNmtySzB1VS1vQTRQa0RJSkxEa1FUa0FMSWh0TjBiMmJNMGpWeWZ4N29XSW5FaDVsUDZqajZKdHllanlCNFF0djV1SlhiMFI4OHpGUzg5Vk1Fb2tZZnBFQkNhTTZTb3o4Y3J5V3ZOR3pWZ044N2l6Q3ZldW5PbDR2VTQxMTJQTWhyTzF5UzRWZFJReks1SnZsNWd4UzY5ZzM2SXJ4WnNaVXFjYmZSSzJKOWtjbUpsR2ZCN2VxQTBKVTdtMVhhbEZjQjdOZ2V6WEYzMFo2SDFwa3V4amZ2S3NNdV8xWnpBcFpWNEhDUHU1Nmt1WVJGaU5uOTZiazBfai0yYVAyUkowcnZJR3lmamtlQUdKckNiOXoyYWlDb2M1TWhvSjVEZVludXprQmRVa2pmNzItUWJSaHhTY0lTc3Z5YV9uM3JHY1VPUzNfM2R1MnhwMGNqclRmdzNHblNtcEhtNzMzS2pKYkNVcmw1aUlDUDlZTDI5WnVCSERlRlI4OGpNdTExMnhNY0hGVF9ud2ZFNVY1Tm10WkE5WkhlTnZOSkt4U294WlljbHR0d0xTZlBBSExUeWd6SzBSenB4cVhrYVFqUmhyd0Q1NnN0ZGNpQlluNlk?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 17 Oct 2026 03:24:36 GMT",
+        "summary": "জুলাই সনদ পাশ কাটিয়ে গণতান্ত্রিক রাষ্ট্র প্রতিষ্ঠা সম্ভব নয়: ড. আলী রীয়াজ &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/channel24-special/article/353425/%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%87-%E0%A6%B8%E0%A6%A8%E0%A6%A6-%E0%A6%AA%E0%A6%BE%E0%A6%B6-%E0%A6%95%E0%A6%BE%E0%A6%9F%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%97%E0%A6%A3%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%95-%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AD%E0%A6%AC-%E0%A6%A8%E0%A7%9F:-%E0%A6%86%E0%A6%B2%E0%A7%80-%E0%A6%B0%E0%A7%80%E0%A7%9F%E0%A6%BE%E0%A6%9C",
+        "imageAttemptedAt": "2026-10-23T22:13:58.731Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ]
   },
   "categories": {
-    "food": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EX2xGY01YWjc2Q2VqZnA4UFBDSE9RbHpiU3A4c0RQZ2o4Y2RDZFM0eHBQLWQ0SzRHTlNLSE9BcHpKejF2NE9yZ05VY1JHVEQ2ZktzQQ?oc=5",
-        "title": "মাদ্রাসার স্টল কার দখলে? তালাবন্দি ৫ লাখ টাকার পশু ও মাছের খাদ্য",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EX2xGY01YWjc2Q2VqZnA4UFBDSE9RbHpiU3A4c0RQZ2o4Y2RDZFM0eHBQLWQ0SzRHTlNLSE9BcHpKejF2NE9yZ05VY1JHVEQ2ZktzQQ?oc=5",
-        "source": "Daily Bhorer Dak",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 23 Oct 2026 17:45:16 GMT",
-        "summary": "মাদ্রাসার স্টল কার দখলে? তালাবন্দি ৫ লাখ টাকার পশু ও মাছের খাদ্য &nbsp;&nbsp; Daily Bhorer Dak",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.dailybhorerdak.com/news/263946",
-        "imageAttemptedAt": "2026-10-23T11:59:18.735Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE42X05NREhNaUxPdGdqM094SGJnbFpCZDNlVmpOeTMwQndXR0RKZ3NibFpWUW82VVpPR01YRll2eVBLSFdhQ0U4X0Fza2hDZGpNck11dUdvZzZXakY0dThN?oc=5",
-        "title": "তাইজ শহর অবরোধ হুথিদের: তীব্র খাদ্য ও পানি সংকটে ৮ লাখ মানুষ",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE42X05NREhNaUxPdGdqM094SGJnbFpCZDNlVmpOeTMwQndXR0RKZ3NibFpWUW82VVpPR01YRll2eVBLSFdhQ0U4X0Fza2hDZGpNck11dUdvZzZXakY0dThN?oc=5",
-        "source": "দৈনিক ইনকিলাব",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 23 Oct 2026 15:27:55 GMT",
-        "summary": "তাইজ শহর অবরোধ হুথিদের: তীব্র খাদ্য ও পানি সংকটে ৮ লাখ মানুষ &nbsp;&nbsp; দৈনিক ইনকিলাব",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://dailyinqilab.com/international/news/954357",
-        "imageAttemptedAt": "2026-10-23T16:11:21.977Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VejZUNzFabGNDNWk2VWpMaTJKVlBtaDZoRFlMcnFxMFdpUHpCQTJlLWRrS2lKME5CLTJreGlzSEF0VDNNelpOcEd3eXVGeFJXcFpHSW00dHB4Zw?oc=5",
-        "title": "ডেঙ্গু প্রতিরোধে মশক নিধনের পাশাপাশি পরিচ্ছন্ন পরিবেশ জরুরি: জনপ্রশাসন ও খাদ্য প্রতিমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VejZUNzFabGNDNWk2VWpMaTJKVlBtaDZoRFlMcnFxMFdpUHpCQTJlLWRrS2lKME5CLTJreGlzSEF0VDNNelpOcEd3eXVGeFJXcFpHSW00dHB4Zw?oc=5",
-        "source": "Bangladesh Sangbad Sangstha (BSS)",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 23 Oct 2026 06:38:00 GMT",
-        "summary": "ডেঙ্গু প্রতিরোধে মশক নিধনের পাশাপাশি পরিচ্ছন্ন পরিবেশ জরুরি: জনপ্রশাসন ও খাদ্য প্রতিমন্ত্রী &nbsp;&nbsp; Bangladesh Sangbad Sangstha (BSS)",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.bssnews.net/bangla/national/352758",
-        "imageAttemptedAt": "2026-10-23T07:17:41.539Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZk9NeVdPWVBHZm5OV1YtS3dpUlh1eEZrY2J4MV9ieU5SQUlQdldIZkFkaWlWV1hzVnB0aWpyTHhLbXlCb05LSjVWdzJpSnZ3bkF4dzM4dHZsMU5qUC1jdWNxVjhsTWx2Q0dkR2lHNXM2MWs4RGNZdk9NVEpWWk9sMERYdnp4ZEdLeEZvYW1iX0NDT2lES2FSTlVUYndpaHotQi1JbWx3VmZKM2lQcVBRajVDS0FuYUxDRDBrbXoxaThuN1FWT0JmOUppaEd1VUxtOFRnZ9IB1AFBVV95cUxNZk9NeVdPWVBHZm5OV1YtS3dpUlh1eEZrY2J4MV9ieU5SQUlQdldIZkFkaWlWV1hzVnB0aWpyTHhLbXlCb05LSjVWdzJpSnZ3bkF4dzM4dHZsMU5qUC1jdWNxVjhsTWx2Q0dkR2lHNXM2MWs4RGNZdk9NVEpWWk9sMERYdnp4ZEdLeEZvYW1iX0NDT2lES2FSTlVUYndpaHotQi1JbWx3VmZKM2lQcVBRajVDS0FuYUxDRDBrbXoxaThuN1FWT0JmOUppaEd1VUxtOFRnZw?oc=5",
-        "title": "UK Prime Minister: দেশের মানুষকে খাবার ও জল মজুত করার পরামর্শ দিয়েছেন প্রাইম মিনিস্টার",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZk9NeVdPWVBHZm5OV1YtS3dpUlh1eEZrY2J4MV9ieU5SQUlQdldIZkFkaWlWV1hzVnB0aWpyTHhLbXlCb05LSjVWdzJpSnZ3bkF4dzM4dHZsMU5qUC1jdWNxVjhsTWx2Q0dkR2lHNXM2MWs4RGNZdk9NVEpWWk9sMERYdnp4ZEdLeEZvYW1iX0NDT2lES2FSTlVUYndpaHotQi1JbWx3VmZKM2lQcVBRajVDS0FuYUxDRDBrbXoxaThuN1FWT0JmOUppaEd1VUxtOFRnZ9IB1AFBVV95cUxNZk9NeVdPWVBHZm5OV1YtS3dpUlh1eEZrY2J4MV9ieU5SQUlQdldIZkFkaWlWV1hzVnB0aWpyTHhLbXlCb05LSjVWdzJpSnZ3bkF4dzM4dHZsMU5qUC1jdWNxVjhsTWx2Q0dkR2lHNXM2MWs4RGNZdk9NVEpWWk9sMERYdnp4ZEdLeEZvYW1iX0NDT2lES2FSTlVUYndpaHotQi1JbWx3VmZKM2lQcVBRajVDS0FuYUxDRDBrbXoxaThuN1FWT0JmOUppaEd1VUxtOFRnZw?oc=5",
-        "source": "ABP Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 23 Oct 2026 15:36:10 GMT",
-        "summary": "UK Prime Minister: দেশের মানুষকে খাবার ও জল মজুত করার পরামর্শ দিয়েছেন প্রাইম মিনিস্টার &nbsp;&nbsp; ABP Ananda",
-        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/10/23/f215d8df761532b95ffd2732d7b77ec417927696723411373_original.jpg",
-        "articleUrl": "https://bengali.abplive.com/news/uk-prime-minister-burnham-has-advised-the-people-of-the-country-to-stock-up-on-food-and-water-1196971/amp",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14VDQxVHJER2s2TlFnUnZxS05ZMW13dC12eXR3NWMxM0lvQXNZTUY2UENobEtFT3lZdnBLSUFIYUlubGhZTW5HSUpqbmdMS3A4SUtoRWZYVGhEc2dQNC1xSU9iMkg3M0M2UWc?oc=5",
-        "title": "এলএনজি আমদানি, খাদ্য নিরাপত্তার জন্য বিশ্বব্যাংকের কাছে অতিরিক্ত ৩.৭৭ বিলিয়ন ডলার চায় সরকার",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14VDQxVHJER2s2TlFnUnZxS05ZMW13dC12eXR3NWMxM0lvQXNZTUY2UENobEtFT3lZdnBLSUFIYUlubGhZTW5HSUpqbmdMS3A4SUtoRWZYVGhEc2dQNC1xSU9iMkg3M0M2UWc?oc=5",
-        "source": "The Business Standard",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 23 Oct 2026 11:20:01 GMT",
-        "summary": "এলএনজি আমদানি, খাদ্য নিরাপত্তার জন্য বিশ্বব্যাংকের কাছে অতিরিক্ত ৩.৭৭ বিলিয়ন ডলার চায় সরকার &nbsp;&nbsp; The Business Standard",
-        "image": "https://www.tbsnews.net/bangla/sites/default/files/styles/social_share/public/images/2026/10/22/wb-loans.png",
-        "articleUrl": "https://www.tbsnews.net/bangla/Economy/news-details-555396",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mUWRtWkFTdmYyVTJ0N2xhWE1Gem5UZG1yWFpQZmZ1cUpvNXZpWFFucmpuWDB1bUxBd1E3b1VVT0lzcFo3U3k2cXNvd1hPU2VWRTNMZXh3RE1xbVNJWFZxYzVSYw?oc=5",
-        "title": "মাংস যেন শুধুই অভিজাতদের খাবার",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mUWRtWkFTdmYyVTJ0N2xhWE1Gem5UZG1yWFpQZmZ1cUpvNXZpWFFucmpuWDB1bUxBd1E3b1VVT0lzcFo3U3k2cXNvd1hPU2VWRTNMZXh3RE1xbVNJWFZxYzVSYw?oc=5",
-        "source": "Gramer Kagoj News",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 23 Oct 2026 18:05:00 GMT",
-        "summary": "মাংস যেন শুধুই অভিজাতদের খাবার &nbsp;&nbsp; Gramer Kagoj News",
-        "image": "https://www.gramerkagoj.com/cache-images/news_photos/2026/10/23/resize-600x315x1x0-image-316270-1792769428.webp",
-        "articleUrl": "https://www.gramerkagoj.com/south-west/jessore/316270",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1GYlgxeVhQNXNvaF9LRi1IWi01WDJ4TFBpang2cldOLTRWQUJxQk96R1A4QlZnX1pxRkhhMnF0YWRuX1NfMk1oc2dSMVppYnBOZVE?oc=5",
-        "title": "বেলা ২টা বাজলেই ঈদগাহ মাঠে ভিড়, খাবারের অপেক্ষায় ৮০ মুখ!",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1GYlgxeVhQNXNvaF9LRi1IWi01WDJ4TFBpang2cldOLTRWQUJxQk96R1A4QlZnX1pxRkhhMnF0YWRuX1NfMk1oc2dSMVppYnBOZVE?oc=5",
-        "source": "BD Bulletin",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 23 Oct 2026 13:19:00 GMT",
-        "summary": "বেলা ২টা বাজলেই ঈদগাহ মাঠে ভিড়, খাবারের অপেক্ষায় ৮০ মুখ! &nbsp;&nbsp; BD Bulletin",
-        "image": "https://www.bd-bulletin.com/cache-images/news_photos/2026/10/23/resize-600x315x1x0-image-9497-1792761715.webp",
-        "articleUrl": "https://www.bd-bulletin.com/country/9497",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YMUsxdE02em5uWi11RkR6NUdQNEsybUNnMzEzS0swbExIUEhCNFZjcFJJbHkzV2RtVlVJZmx5MzJQWExWdGQ1VlNRcDJWVjNXWGs0WGNqWk1pdDE3Y2FGYmgtQl9MVFk?oc=5",
-        "title": "চিকিৎসক-যন্ত্রপাতি সংকটে সেবা ব্যাহত",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YMUsxdE02em5uWi11RkR6NUdQNEsybUNnMzEzS0swbExIUEhCNFZjcFJJbHkzV2RtVlVJZmx5MzJQWExWdGQ1VlNRcDJWVjNXWGs0WGNqWk1pdDE3Y2FGYmgtQl9MVFk?oc=5",
-        "source": "Amader Shomoy",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 23 Oct 2026 18:00:00 GMT",
-        "summary": "চিকিৎসক-যন্ত্রপাতি সংকটে সেবা ব্যাহত &nbsp;&nbsp; Amader Shomoy",
-        "image": "https://admin.dainikamadershomoy.com/images/large/2026/10/24/news_1792784300198.webp",
-        "articleUrl": "https://www.dainikamadershomoy.com/details/01a16a457d314",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NakpsS0Voc29tRGNuZVFiSzl3c3hxMFFtbk9jVHlIWm5heUVCM0phVGU1bE5hUUNadlp3Wkl1bHBfUnRKTE5tN2FOZEhPdHJvVkHSAVJBVV95cUxNTWpKbEtFaHNvbURjbmVRYks5d3N4cTBRbW5PY1R5SFpuYXlFQjNKYVRlNWxOYVFDWnZad1pJdWxwX1J0SkxObTdhTmRIT3Ryb1ZB?oc=5",
-        "title": "মাদারীপুরে খাদ্য সংকটে লোকালয়ে বানর, বেড়েছে উৎপাত",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NakpsS0Voc29tRGNuZVFiSzl3c3hxMFFtbk9jVHlIWm5heUVCM0phVGU1bE5hUUNadlp3Wkl1bHBfUnRKTE5tN2FOZEhPdHJvVkHSAVJBVV95cUxNTWpKbEtFaHNvbURjbmVRYks5d3N4cTBRbW5PY1R5SFpuYXlFQjNKYVRlNWxOYVFDWnZad1pJdWxwX1J0SkxObTdhTmRIT3Ryb1ZB?oc=5",
-        "source": "Dhaka Mail",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 23 Oct 2026 09:22:28 GMT",
-        "summary": "মাদারীপুরে খাদ্য সংকটে লোকালয়ে বানর, বেড়েছে উৎপাত &nbsp;&nbsp; Dhaka Mail",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://dhakamail.com/amp/country/338167",
-        "imageAttemptedAt": "2026-10-23T09:28:19.216Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YNDJuSmVBSWlYNktsV09oZGNUVkxBTU9tQnFrOUFhdlZrWGVGUTRTVXdldkhfR2pVNlhvVzNXUHlWYjhNTHFpVUhPMW9MeHFzNlE?oc=5",
-        "title": "ফুটপাতের খাবারের দোকানের নিবন্ধন বাধ্যতামূলক, কারা পড়বেন আওতায়",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YNDJuSmVBSWlYNktsV09oZGNUVkxBTU9tQnFrOUFhdlZrWGVGUTRTVXdldkhfR2pVNlhvVzNXUHlWYjhNTHFpVUhPMW9MeHFzNlE?oc=5",
-        "source": "সিলেট ভয়েস",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 23 Oct 2026 16:01:01 GMT",
-        "summary": "ফুটপাতের খাবারের দোকানের নিবন্ধন বাধ্যতামূলক, কারা পড়বেন আওতায় &nbsp;&nbsp; সিলেট ভয়েস",
-        "image": "https://sylhetvoice24.com/storage/12252/01M5MAVV213DTCVVAAGDECP47J.webp",
-        "articleUrl": "https://sylhetvoice24.com/news/100002337",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      }
-    ],
     "international": [
       {
         "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EdnRVYXJ5WHhiaUd5c0VkOEtuV1lDWUFvd0FCSFk3OTJhd1ZyV0lVQlpPQXgxNnVSa0xYYS1xeS04enhScGpkTnJkVTZ1VTRuRWJ3R181d2lVWWpwalZEMTVqdw?oc=5",
@@ -928,6 +796,138 @@
         "imageFallback": "news-fallbacks/world.svg"
       }
     ],
+    "food": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxQamV5Yi03ZHdQWGl0ckpBRU1EdHlnbnAtNVc2QlJHRFpobmQtV2VoWjVDYmNhUVRoUVdOdy14bWxlVUctdkJnZmFzNVlFUU52V3B5eTkzU3EzelljLVlVYzBKdjB6VnU5MXR5ZkQycWRJQm94OTZPR1RNd2J3R0E0NUpvaXpsQ3hDNzEwYWtPUTM0WU9mbFY4NTE2LVhuMXpBVFZBSjdOUTVFWTZydlY1d3B4dk5SbW82THd5SDA1UWVtOElkWDRFNnlJbS03MHBDcGRWemN4WDJfc0hZdWQ0cTFBZVV6SkxQYmJOV0U0aDlhMmlrR2FEOWVpRF9VbDMxYklhWnFQTjZIVS1EQkVjSGVsWUtVN21vUll0a3VYSEdXUWptTnB6c2d4UjJXN09jZktQN085R2VyLWlzc01jM0tvZkloNGpfRWVVSWdWb3J1SXExdWZtZzFGTnVhY1ZQdXZmUlpBNFpIWk5BS0IzMGE4aFFoWEhTMjRTUlhBNjBlbVgwRXBzRzN2Snp5czhZZHdKc2Vsc01BQ3oxWldrM2JLejJGQUZncFJzNDJVZ3RWblRsSmhuVy10WFg4SHZpYTNsTWM3TzJxVzVBT2V2MS1NZ3FzNTN5d1ZOS3NxckEwSDRpTEhoUTRLT2hKTmPSAe8DQVVfeXFMUGpleWItN2R3UFhpdHJKQUVNRHR5Z25wLTVXNkJSR0RaaG5kLVdlaFo1Q2JjYVFUaFFXTncteG1sZVVHLXZCZ2ZhczVZRVFOdldweXk5M1NxM3pZYy1ZVWMwSnYwelZ1OTF0eWZEMnFkSUJveDk2T0dUTXdid0dBNDVKb2l6bEN4QzcxMGFrT1EzNFlPZmxWODUxNi1YbjF6QVRWQUo3TlE1RVk2cnZWNXdweHZOUm1vNkx3eUgwNVFlbThJZFg0RTZ5SW0tNzBwQ3BkVnpjeFgyX3NIWXVkNHExQWVVekpMUGJiTldFNGg5YTJpa0dhRDllaURfVWwzMWJJYVpxUE42SFUtREJFY0hlbFlLVTdtb1JZdGt1WEhHV1FqbU5wenNneFIyVzdPY2ZLUDdPOUdlci1pc3NNYzNLb2ZJaDRqX0VlVUlnVm9ydUlxMXVmbWcxRk51YWNWUHV2ZlJaQTRaSFpOQUtCMzBhOGhRaFhIUzI0U1JYQTYwZW1YMEVwc0czdkp6eXM4WWR3SnNlbHNNQUN6MVpXazNiS3oyRkFGZ3BSczQyVWd0Vm5UbEpoblctdFhYOEh2aWEzbE1jN08ycVc1QU9ldjEtTWdxczUzeXdWTktzcXJBMEg0aUxIaFE0S09oSk5j?oc=5",
+        "title": "খাদ্য উৎপাদনে স্বস্তি, নিরাপত্তায় শঙ্কা",
+        "link": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxQamV5Yi03ZHdQWGl0ckpBRU1EdHlnbnAtNVc2QlJHRFpobmQtV2VoWjVDYmNhUVRoUVdOdy14bWxlVUctdkJnZmFzNVlFUU52V3B5eTkzU3EzelljLVlVYzBKdjB6VnU5MXR5ZkQycWRJQm94OTZPR1RNd2J3R0E0NUpvaXpsQ3hDNzEwYWtPUTM0WU9mbFY4NTE2LVhuMXpBVFZBSjdOUTVFWTZydlY1d3B4dk5SbW82THd5SDA1UWVtOElkWDRFNnlJbS03MHBDcGRWemN4WDJfc0hZdWQ0cTFBZVV6SkxQYmJOV0U0aDlhMmlrR2FEOWVpRF9VbDMxYklhWnFQTjZIVS1EQkVjSGVsWUtVN21vUll0a3VYSEdXUWptTnB6c2d4UjJXN09jZktQN085R2VyLWlzc01jM0tvZkloNGpfRWVVSWdWb3J1SXExdWZtZzFGTnVhY1ZQdXZmUlpBNFpIWk5BS0IzMGE4aFFoWEhTMjRTUlhBNjBlbVgwRXBzRzN2Snp5czhZZHdKc2Vsc01BQ3oxWldrM2JLejJGQUZncFJzNDJVZ3RWblRsSmhuVy10WFg4SHZpYTNsTWM3TzJxVzVBT2V2MS1NZ3FzNTN5d1ZOS3NxckEwSDRpTEhoUTRLT2hKTmPSAe8DQVVfeXFMUGpleWItN2R3UFhpdHJKQUVNRHR5Z25wLTVXNkJSR0RaaG5kLVdlaFo1Q2JjYVFUaFFXTncteG1sZVVHLXZCZ2ZhczVZRVFOdldweXk5M1NxM3pZYy1ZVWMwSnYwelZ1OTF0eWZEMnFkSUJveDk2T0dUTXdid0dBNDVKb2l6bEN4QzcxMGFrT1EzNFlPZmxWODUxNi1YbjF6QVRWQUo3TlE1RVk2cnZWNXdweHZOUm1vNkx3eUgwNVFlbThJZFg0RTZ5SW0tNzBwQ3BkVnpjeFgyX3NIWXVkNHExQWVVekpMUGJiTldFNGg5YTJpa0dhRDllaURfVWwzMWJJYVpxUE42SFUtREJFY0hlbFlLVTdtb1JZdGt1WEhHV1FqbU5wenNneFIyVzdPY2ZLUDdPOUdlci1pc3NNYzNLb2ZJaDRqX0VlVUlnVm9ydUlxMXVmbWcxRk51YWNWUHV2ZlJaQTRaSFpOQUtCMzBhOGhRaFhIUzI0U1JYQTYwZW1YMEVwc0czdkp6eXM4WWR3SnNlbHNNQUN6MVpXazNiS3oyRkFGZ3BSczQyVWd0Vm5UbEpoblctdFhYOEh2aWEzbE1jN08ycVc1QU9ldjEtTWdxczUzeXdWTktzcXJBMEg0aUxIaFE0S09oSk5j?oc=5",
+        "source": "দেশ রূপান্তর",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 23 Oct 2026 18:58:29 GMT",
+        "summary": "খাদ্য উৎপাদনে স্বস্তি, নিরাপত্তায় শঙ্কা &nbsp;&nbsp; দেশ রূপান্তর",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.deshrupantor.com/amp/729649/%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%89%E0%A7%8E%E0%A6%AA%E0%A6%BE%E0%A6%A6%E0%A6%A8%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A7%9F-%E0%A6%B6%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A6%BE",
+        "imageAttemptedAt": "2026-10-23T22:13:58.731Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EX2xGY01YWjc2Q2VqZnA4UFBDSE9RbHpiU3A4c0RQZ2o4Y2RDZFM0eHBQLWQ0SzRHTlNLSE9BcHpKejF2NE9yZ05VY1JHVEQ2ZktzQQ?oc=5",
+        "title": "মাদ্রাসার স্টল কার দখলে? তালাবন্দি ৫ লাখ টাকার পশু ও মাছের খাদ্য",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EX2xGY01YWjc2Q2VqZnA4UFBDSE9RbHpiU3A4c0RQZ2o4Y2RDZFM0eHBQLWQ0SzRHTlNLSE9BcHpKejF2NE9yZ05VY1JHVEQ2ZktzQQ?oc=5",
+        "source": "Daily Bhorer Dak",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 23 Oct 2026 17:45:16 GMT",
+        "summary": "মাদ্রাসার স্টল কার দখলে? তালাবন্দি ৫ লাখ টাকার পশু ও মাছের খাদ্য &nbsp;&nbsp; Daily Bhorer Dak",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.dailybhorerdak.com/news/263946",
+        "imageAttemptedAt": "2026-10-23T11:59:18.735Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE42X05NREhNaUxPdGdqM094SGJnbFpCZDNlVmpOeTMwQndXR0RKZ3NibFpWUW82VVpPR01YRll2eVBLSFdhQ0U4X0Fza2hDZGpNck11dUdvZzZXakY0dThN?oc=5",
+        "title": "তাইজ শহর অবরোধ হুথিদের: তীব্র খাদ্য ও পানি সংকটে ৮ লাখ মানুষ",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE42X05NREhNaUxPdGdqM094SGJnbFpCZDNlVmpOeTMwQndXR0RKZ3NibFpWUW82VVpPR01YRll2eVBLSFdhQ0U4X0Fza2hDZGpNck11dUdvZzZXakY0dThN?oc=5",
+        "source": "দৈনিক ইনকিলাব",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 23 Oct 2026 15:27:55 GMT",
+        "summary": "তাইজ শহর অবরোধ হুথিদের: তীব্র খাদ্য ও পানি সংকটে ৮ লাখ মানুষ &nbsp;&nbsp; দৈনিক ইনকিলাব",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://dailyinqilab.com/international/news/954357",
+        "imageAttemptedAt": "2026-10-23T16:11:21.977Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VejZUNzFabGNDNWk2VWpMaTJKVlBtaDZoRFlMcnFxMFdpUHpCQTJlLWRrS2lKME5CLTJreGlzSEF0VDNNelpOcEd3eXVGeFJXcFpHSW00dHB4Zw?oc=5",
+        "title": "ডেঙ্গু প্রতিরোধে মশক নিধনের পাশাপাশি পরিচ্ছন্ন পরিবেশ জরুরি: জনপ্রশাসন ও খাদ্য প্রতিমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VejZUNzFabGNDNWk2VWpMaTJKVlBtaDZoRFlMcnFxMFdpUHpCQTJlLWRrS2lKME5CLTJreGlzSEF0VDNNelpOcEd3eXVGeFJXcFpHSW00dHB4Zw?oc=5",
+        "source": "Bangladesh Sangbad Sangstha (BSS)",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 23 Oct 2026 06:38:00 GMT",
+        "summary": "ডেঙ্গু প্রতিরোধে মশক নিধনের পাশাপাশি পরিচ্ছন্ন পরিবেশ জরুরি: জনপ্রশাসন ও খাদ্য প্রতিমন্ত্রী &nbsp;&nbsp; Bangladesh Sangbad Sangstha (BSS)",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.bssnews.net/bangla/national/352758",
+        "imageAttemptedAt": "2026-10-23T07:17:41.539Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZk9NeVdPWVBHZm5OV1YtS3dpUlh1eEZrY2J4MV9ieU5SQUlQdldIZkFkaWlWV1hzVnB0aWpyTHhLbXlCb05LSjVWdzJpSnZ3bkF4dzM4dHZsMU5qUC1jdWNxVjhsTWx2Q0dkR2lHNXM2MWs4RGNZdk9NVEpWWk9sMERYdnp4ZEdLeEZvYW1iX0NDT2lES2FSTlVUYndpaHotQi1JbWx3VmZKM2lQcVBRajVDS0FuYUxDRDBrbXoxaThuN1FWT0JmOUppaEd1VUxtOFRnZ9IB1AFBVV95cUxNZk9NeVdPWVBHZm5OV1YtS3dpUlh1eEZrY2J4MV9ieU5SQUlQdldIZkFkaWlWV1hzVnB0aWpyTHhLbXlCb05LSjVWdzJpSnZ3bkF4dzM4dHZsMU5qUC1jdWNxVjhsTWx2Q0dkR2lHNXM2MWs4RGNZdk9NVEpWWk9sMERYdnp4ZEdLeEZvYW1iX0NDT2lES2FSTlVUYndpaHotQi1JbWx3VmZKM2lQcVBRajVDS0FuYUxDRDBrbXoxaThuN1FWT0JmOUppaEd1VUxtOFRnZw?oc=5",
+        "title": "UK Prime Minister: দেশের মানুষকে খাবার ও জল মজুত করার পরামর্শ দিয়েছেন প্রাইম মিনিস্টার",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZk9NeVdPWVBHZm5OV1YtS3dpUlh1eEZrY2J4MV9ieU5SQUlQdldIZkFkaWlWV1hzVnB0aWpyTHhLbXlCb05LSjVWdzJpSnZ3bkF4dzM4dHZsMU5qUC1jdWNxVjhsTWx2Q0dkR2lHNXM2MWs4RGNZdk9NVEpWWk9sMERYdnp4ZEdLeEZvYW1iX0NDT2lES2FSTlVUYndpaHotQi1JbWx3VmZKM2lQcVBRajVDS0FuYUxDRDBrbXoxaThuN1FWT0JmOUppaEd1VUxtOFRnZ9IB1AFBVV95cUxNZk9NeVdPWVBHZm5OV1YtS3dpUlh1eEZrY2J4MV9ieU5SQUlQdldIZkFkaWlWV1hzVnB0aWpyTHhLbXlCb05LSjVWdzJpSnZ3bkF4dzM4dHZsMU5qUC1jdWNxVjhsTWx2Q0dkR2lHNXM2MWs4RGNZdk9NVEpWWk9sMERYdnp4ZEdLeEZvYW1iX0NDT2lES2FSTlVUYndpaHotQi1JbWx3VmZKM2lQcVBRajVDS0FuYUxDRDBrbXoxaThuN1FWT0JmOUppaEd1VUxtOFRnZw?oc=5",
+        "source": "ABP Ananda",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 23 Oct 2026 15:36:10 GMT",
+        "summary": "UK Prime Minister: দেশের মানুষকে খাবার ও জল মজুত করার পরামর্শ দিয়েছেন প্রাইম মিনিস্টার &nbsp;&nbsp; ABP Ananda",
+        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/10/23/f215d8df761532b95ffd2732d7b77ec417927696723411373_original.jpg",
+        "articleUrl": "https://bengali.abplive.com/news/uk-prime-minister-burnham-has-advised-the-people-of-the-country-to-stock-up-on-food-and-water-1196971/amp",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14VDQxVHJER2s2TlFnUnZxS05ZMW13dC12eXR3NWMxM0lvQXNZTUY2UENobEtFT3lZdnBLSUFIYUlubGhZTW5HSUpqbmdMS3A4SUtoRWZYVGhEc2dQNC1xSU9iMkg3M0M2UWc?oc=5",
+        "title": "এলএনজি আমদানি, খাদ্য নিরাপত্তার জন্য বিশ্বব্যাংকের কাছে অতিরিক্ত ৩.৭৭ বিলিয়ন ডলার চায় সরকার",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14VDQxVHJER2s2TlFnUnZxS05ZMW13dC12eXR3NWMxM0lvQXNZTUY2UENobEtFT3lZdnBLSUFIYUlubGhZTW5HSUpqbmdMS3A4SUtoRWZYVGhEc2dQNC1xSU9iMkg3M0M2UWc?oc=5",
+        "source": "The Business Standard",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 23 Oct 2026 11:20:01 GMT",
+        "summary": "এলএনজি আমদানি, খাদ্য নিরাপত্তার জন্য বিশ্বব্যাংকের কাছে অতিরিক্ত ৩.৭৭ বিলিয়ন ডলার চায় সরকার &nbsp;&nbsp; The Business Standard",
+        "image": "https://www.tbsnews.net/bangla/sites/default/files/styles/social_share/public/images/2026/10/22/wb-loans.png",
+        "articleUrl": "https://www.tbsnews.net/bangla/Economy/news-details-555396",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mUWRtWkFTdmYyVTJ0N2xhWE1Gem5UZG1yWFpQZmZ1cUpvNXZpWFFucmpuWDB1bUxBd1E3b1VVT0lzcFo3U3k2cXNvd1hPU2VWRTNMZXh3RE1xbVNJWFZxYzVSYw?oc=5",
+        "title": "মাংস যেন শুধুই অভিজাতদের খাবার",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mUWRtWkFTdmYyVTJ0N2xhWE1Gem5UZG1yWFpQZmZ1cUpvNXZpWFFucmpuWDB1bUxBd1E3b1VVT0lzcFo3U3k2cXNvd1hPU2VWRTNMZXh3RE1xbVNJWFZxYzVSYw?oc=5",
+        "source": "Gramer Kagoj News",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 23 Oct 2026 18:05:00 GMT",
+        "summary": "মাংস যেন শুধুই অভিজাতদের খাবার &nbsp;&nbsp; Gramer Kagoj News",
+        "image": "https://www.gramerkagoj.com/cache-images/news_photos/2026/10/23/resize-600x315x1x0-image-316270-1792769428.webp",
+        "articleUrl": "https://www.gramerkagoj.com/south-west/jessore/316270",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YNDJuSmVBSWlYNktsV09oZGNUVkxBTU9tQnFrOUFhdlZrWGVGUTRTVXdldkhfR2pVNlhvVzNXUHlWYjhNTHFpVUhPMW9MeHFzNlE?oc=5",
+        "title": "ফুটপাতের খাবারের দোকানের নিবন্ধন বাধ্যতামূলক, কারা পড়বেন আওতায়",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YNDJuSmVBSWlYNktsV09oZGNUVkxBTU9tQnFrOUFhdlZrWGVGUTRTVXdldkhfR2pVNlhvVzNXUHlWYjhNTHFpVUhPMW9MeHFzNlE?oc=5",
+        "source": "সিলেট ভয়েস",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 23 Oct 2026 16:01:01 GMT",
+        "summary": "ফুটপাতের খাবারের দোকানের নিবন্ধন বাধ্যতামূলক, কারা পড়বেন আওতায় &nbsp;&nbsp; সিলেট ভয়েস",
+        "image": "https://sylhetvoice24.com/storage/12252/01M5MAVV213DTCVVAAGDECP47J.webp",
+        "articleUrl": "https://sylhetvoice24.com/news/100002337",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1GYlgxeVhQNXNvaF9LRi1IWi01WDJ4TFBpang2cldOLTRWQUJxQk96R1A4QlZnX1pxRkhhMnF0YWRuX1NfMk1oc2dSMVppYnBOZVE?oc=5",
+        "title": "বেলা ২টা বাজলেই ঈদগাহ মাঠে ভিড়, খাবারের অপেক্ষায় ৮০ মুখ!",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1GYlgxeVhQNXNvaF9LRi1IWi01WDJ4TFBpang2cldOLTRWQUJxQk96R1A4QlZnX1pxRkhhMnF0YWRuX1NfMk1oc2dSMVppYnBOZVE?oc=5",
+        "source": "BD Bulletin",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 23 Oct 2026 13:19:00 GMT",
+        "summary": "বেলা ২টা বাজলেই ঈদগাহ মাঠে ভিড়, খাবারের অপেক্ষায় ৮০ মুখ! &nbsp;&nbsp; BD Bulletin",
+        "image": "https://www.bd-bulletin.com/cache-images/news_photos/2026/10/23/resize-600x315x1x0-image-9497-1792761715.webp",
+        "articleUrl": "https://www.bd-bulletin.com/country/9497",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YMUsxdE02em5uWi11RkR6NUdQNEsybUNnMzEzS0swbExIUEhCNFZjcFJJbHkzV2RtVlVJZmx5MzJQWExWdGQ1VlNRcDJWVjNXWGs0WGNqWk1pdDE3Y2FGYmgtQl9MVFk?oc=5",
+        "title": "চিকিৎসক-যন্ত্রপাতি সংকটে সেবা ব্যাহত",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YMUsxdE02em5uWi11RkR6NUdQNEsybUNnMzEzS0swbExIUEhCNFZjcFJJbHkzV2RtVlVJZmx5MzJQWExWdGQ1VlNRcDJWVjNXWGs0WGNqWk1pdDE3Y2FGYmgtQl9MVFk?oc=5",
+        "source": "Amader Shomoy",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 23 Oct 2026 18:00:00 GMT",
+        "summary": "চিকিৎসক-যন্ত্রপাতি সংকটে সেবা ব্যাহত &nbsp;&nbsp; Amader Shomoy",
+        "image": "https://admin.dainikamadershomoy.com/images/large/2026/10/24/news_1792784300198.webp",
+        "articleUrl": "https://www.dainikamadershomoy.com/details/01a16a457d314",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      }
+    ],
     "bangladesh": [
       {
         "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jbHUzNXJEYVBlbDRKUWt1UUt3TGlCZ19zQkc5WXNFRl9IMC1WdGVGODkxX2dPWWpCc0V3TmxqMlgwUUNqeDdCMTBGT21MdE5GTFBrb2FkeXZNRmdqb0o00gFkQVVfeXFMUGYyNnNiOFUzS1hYeVhZN0pnZ2l1TXFXMVNid2pBVW5ZdklhcDVBZlY4Ujc3ZGJJcjJBS3BrRW5FX1p2LTdCME1ENEVfenhsdUFUV0ppTUpFMmJxMDNpLWU3MlNHTg?oc=5",
@@ -995,19 +995,6 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTE03aGE4enp2LUFHOUNHNzZNSm5HTWR5TURSa1JzSm5pQVdOREVzRmJXbUJZUFVQcnlvV1k2MVptVDFFU2Iwd01qS0hEcnJKbDFQQU9SR2JfdEJvUnJQcDd5dU95eDg4UnFVbW9NRGVn?oc=5",
-        "title": "সাইবার হামলার আশঙ্কায় ওয়েবসাইট বন্ধ রাখল বাংলাদেশ ব্যাংক",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE03aGE4enp2LUFHOUNHNzZNSm5HTWR5TURSa1JzSm5pQVdOREVzRmJXbUJZUFVQcnlvV1k2MVptVDFFU2Iwd01qS0hEcnJKbDFQQU9SR2JfdEJvUnJQcDd5dU95eDg4UnFVbW9NRGVn?oc=5",
-        "source": "The Business Standard",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 22 Oct 2026 14:10:00 GMT",
-        "summary": "সাইবার হামলার আশঙ্কায় ওয়েবসাইট বন্ধ রাখল বাংলাদেশ ব্যাংক &nbsp;&nbsp; The Business Standard",
-        "image": "https://www.tbsnews.net/bangla/sites/default/files/styles/social_share/public/images/2026/10/22/bangladesh_bank.jpg",
-        "articleUrl": "https://www.tbsnews.net/bangla/bangladesh/news-details-555736",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFB0Qzh5NkRpNGVkbHBLZ0xwSWxLY2tpa1ZicGg2LVhiUVNzdk9ndW8wM0QtMWNwa0NwUElGWC10UU8?oc=5",
         "title": "সৌদি আরবে হুথিদের হামলার তীব্র নিন্দা বাংলাদেশের",
         "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFB0Qzh5NkRpNGVkbHBLZ0xwSWxLY2tpa1ZicGg2LVhiUVNzdk9ndW8wM0QtMWNwa0NwUElGWC10UU8?oc=5",
@@ -1030,6 +1017,19 @@
         "summary": "বাংলাদেশের জেলে ২৩৮ ভারতীয়, সাজা শেষ হলেও দেশে ফিরতে পারছেন না ১৬৮ জন! &nbsp;&nbsp; Asianet News Bangla",
         "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m5ksdp87z6t2r7mgyevzj5jg,imgname-asianet-bangla-thump--87--1792739301639.jpg",
         "articleUrl": "https://bangla.asianetnews.com/international/world-news/238-indians-lodged-in-bangladesh-jails-168-have-completed-their-sentences-but-remain-detained-awaiting-repatriation/articleshow-1ge7s72",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTE03aGE4enp2LUFHOUNHNzZNSm5HTWR5TURSa1JzSm5pQVdOREVzRmJXbUJZUFVQcnlvV1k2MVptVDFFU2Iwd01qS0hEcnJKbDFQQU9SR2JfdEJvUnJQcDd5dU95eDg4UnFVbW9NRGVn?oc=5",
+        "title": "সাইবার হামলার আশঙ্কায় ওয়েবসাইট বন্ধ রাখল বাংলাদেশ ব্যাংক",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE03aGE4enp2LUFHOUNHNzZNSm5HTWR5TURSa1JzSm5pQVdOREVzRmJXbUJZUFVQcnlvV1k2MVptVDFFU2Iwd01qS0hEcnJKbDFQQU9SR2JfdEJvUnJQcDd5dU95eDg4UnFVbW9NRGVn?oc=5",
+        "source": "The Business Standard",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 22 Oct 2026 14:10:00 GMT",
+        "summary": "সাইবার হামলার আশঙ্কায় ওয়েবসাইট বন্ধ রাখল বাংলাদেশ ব্যাংক &nbsp;&nbsp; The Business Standard",
+        "image": "https://www.tbsnews.net/bangla/sites/default/files/styles/social_share/public/images/2026/10/22/bangladesh_bank.jpg",
+        "articleUrl": "https://www.tbsnews.net/bangla/bangladesh/news-details-555736",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
