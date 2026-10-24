@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { demoRecipes } from '../src/lib/demoRecipes.js';
+import { demoRecipes, findDemoRecipe } from './demoRecipes.js';
 
 test('fallback recipes have usable detail content', () => {
   assert.ok(demoRecipes.length >= 6, 'expected the six fallback recipes to remain available');
@@ -23,8 +23,7 @@ test('fallback recipes have valid positive cooking times and servings', () => {
   }
 });
 
-test('demo recipes resolve from both direct slugs and fallback IDs', async () => {
-  const { findDemoRecipe } = await import('../src/lib/demoRecipes.js');
+test('demo recipes resolve from both direct slugs and fallback IDs', () => {
   assert.equal(findDemoRecipe('ghoroya-chicken-biryani'), demoRecipes[0]);
   assert.equal(findDemoRecipe('demo-biryani'), demoRecipes[0]);
   assert.equal(findDemoRecipe('not-a-real-recipe'), null);
