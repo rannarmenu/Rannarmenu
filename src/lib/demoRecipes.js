@@ -181,3 +181,7 @@ export const demoRecipes = [
 ];
 
 export default demoRecipes;
+
+export function findDemoRecipe(slugOrId) {
+  return demoRecipes.find((recipe) => recipe.slug === slugOrId || recipe.id === slugOrId) || null;
+}
