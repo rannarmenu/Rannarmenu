@@ -66,6 +66,67 @@ jobs:
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Smoke-test live website, static news, and PWA assets
+        shell: bash
+        env:
+          SITE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          set -euo pipefail
+          site_base="${SITE_URL%/}"
+          workdir="$(mktemp -d)"
+          trap 'rm -rf "$workdir"' EXIT
+
+          curl --fail --silent --show-error --location --retry 4 --retry-delay 3 --max-time 30 \
+            "$site_base/?smoke=$GITHUB_RUN_ID" -o "$workdir/index.html"
+
+          node --input-type=module - "$workdir/index.html" "$SITE_URL" "$workdir/asset-urls.txt" <<'NODE'
+          import { readFile, writeFile } from 'node:fs/promises';
+
+          const [htmlPath, siteUrl, assetsPath] = process.argv.slice(2);
+          const html = await readFile(htmlPath, 'utf8');
+          if (!/Rannar Menu/i.test(html)) throw new Error('Homepage title/brand is missing.');
+
+          const assets = [...html.matchAll(/(?:src|href)=["']([^"']+\.(?:js|css)(?:\?[^"']*)?)["']/g)]
+            .map((match) => match[1]);
+          if (!assets.some((asset) => /\.js(?:\?|$)/i.test(asset))) throw new Error('Homepage JavaScript asset is missing.');
+          if (!assets.some((asset) => /\.css(?:\?|$)/i.test(asset))) throw new Error('Homepage CSS asset is missing.');
+
+          await writeFile(assetsPath, [...new Set(assets)].map((asset) => new URL(asset, siteUrl).href).join('\n') + '\n');
+          NODE
+
+          while IFS= read -r asset_url; do
+            curl --fail --silent --show-error --location --retry 2 --max-time 30 "$asset_url" -o /dev/null
+          done < "$workdir/asset-urls.txt"
+
+          curl --fail --silent --show-error --location --retry 3 --max-time 30 \
+            "$site_base/data/news-feed.json?smoke=$GITHUB_RUN_ID" -o "$workdir/news-feed.json"
+          curl --fail --silent --show-error --location --retry 2 --max-time 30 \
+            "$site_base/manifest.webmanifest" -o "$workdir/manifest.webmanifest"
+          curl --fail --silent --show-error --location --retry 2 --max-time 30 \
+            "$site_base/rannar-menu-logo.svg" -o /dev/null
+          curl --fail --silent --show-error --location --retry 2 --max-time 30 \
+            "$site_base/404.html" -o /dev/null
+
+          node --input-type=module - "$workdir/news-feed.json" "$workdir/manifest.webmanifest" <<'NODE'
+          import { readFile } from 'node:fs/promises';
+
+          const [newsPath, manifestPath] = process.argv.slice(2);
+          const snapshot = JSON.parse(await readFile(newsPath, 'utf8'));
+          const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
+
+          if (!snapshot.generatedAt || !snapshot.categories || !Array.isArray(snapshot.categories.food)
+            || !Array.isArray(snapshot.categories.bangladesh) || !Array.isArray(snapshot.categories.international)) {
+            throw new Error('News snapshot schema is invalid.');
+          }
+          if (!manifest.name || !Array.isArray(manifest.icons) || manifest.icons.length < 1) {
+            throw new Error('PWA manifest is invalid.');
+          }
+
+          const count = Object.values(snapshot.categories)
+            .filter(Array.isArray)
+            .reduce((total, entries) => total + entries.length, 0);
+          console.log(`Website smoke test passed: homepage, JS/CSS assets, news snapshot (${count} categorized items), PWA manifest, logo, and 404 fallback.`);
+          NODE
       - name: Verify live Android APK download
         shell: bash
         run: |
