@@ -643,71 +643,11 @@ function FeedStatus({ loading, error, updatedAt, fromCache, onRefresh }) {
 }
 
 export default function NewsFeed() {
-  const [sponsorRefreshKey, setSponsorRefreshKey] = useState(0);
   const [categoryRefreshKey, setCategoryRefreshKey] = useState(0);
-  const sponsorFeed = useSponsorNewsFeed(null, sponsorRefreshKey);
   const categoryFeed = useNewsFeed('all', categoryRefreshKey);
 
   return (
     <div className="homepage-news-wrap">
-      <section className="homepage-news-panel sponsor-news-panel" id="sponsor-news" aria-labelledby="sponsor-news-heading">
-        <div className="homepage-news-heading">
-          <div className="homepage-news-heading-copy">
-            <span className="homepage-news-kicker"><BadgeCheck size={13} /> PARTNER UPDATES</span>
-            <h2 id="sponsor-news-heading"><Newspaper size={23} aria-hidden="true" /> স্পনসরদের সর্বশেষ খবর <span className="news-auto-badge">AUTO UPDATE</span></h2>
-            <p>
-              সময় টিভি, NTV, News24 / Channel 24, Jamuna TV ও Maasranga TV-এর সর্বশেষ শিরোনাম একসঙ্গে স্বয়ংক্রিয়ভাবে এখানে আসবে।
-            </p>
-          </div>
-          {sponsorFeed.selectedSource && (
-            <a className="news-source-site-link" href={sponsorFeed.selectedSource.href} target="_blank" rel="noopener noreferrer">
-              অফিসিয়াল সাইট <ArrowUpRight size={14} aria-hidden="true" />
-            </a>
-          )}
-        </div>
-
-        <FeedStatus
-          loading={sponsorFeed.loading}
-          error={sponsorFeed.items.length ? '' : sponsorFeed.error}
-          updatedAt={sponsorFeed.updatedAt}
-          fromCache={sponsorFeed.fromCache}
-          onRefresh={() => setSponsorRefreshKey((value) => value + 1)}
-        />
-
-        {sponsorFeed.failedSources.length > 0 && sponsorFeed.items.length > 0 && (
-          <p className="news-source-warning" role="status">
-            {sponsorFeed.failedSources.map((source) => source.newsLabel || source.label).join(', ')}-এর ফিড এখন পাওয়া যায়নি; অন্য উৎসের খবর দেখানো হচ্ছে।
-          </p>
-        )}
-
-        {sponsorFeed.loading && !sponsorFeed.items.length ? (
-          <div className="news-empty-state">
-            <LoaderCircle className="news-spin" size={24} />
-            <strong>স্পনসরদের খবর আনা হচ্ছে…</strong>
-            <span>পাঁচটি সংবাদমাধ্যমের সাম্প্রতিক শিরোনাম সংগ্রহ করা হচ্ছে।</span>
-          </div>
-        ) : sponsorFeed.items.length ? (
-          <NewsItems items={sponsorFeed.items} Icon={Newspaper} compact={false} />
-        ) : (
-          <div className="news-empty-state">
-            <Newspaper size={27} />
-            <strong>{sponsorFeed.error ? 'এই মুহূর্তে খবর আনা যাচ্ছে না' : 'এখন নতুন খবর পাওয়া যায়নি'}</strong>
-            <span>
-              সংবাদ-সূচকে খবর না পাওয়া মানেই ওই চ্যানেলে নতুন খবর নেই—এমন নয়। আবার চেষ্টা করুন অথবা উৎসের অফিসিয়াল সাইট খুলুন।
-            </span>
-            {sponsorFeed.selectedSource ? (
-              <a href={sponsorFeed.selectedSource.href} target="_blank" rel="noopener noreferrer">অফিসিয়াল সাইট খুলুন <ArrowUpRight size={14} /></a>
-            ) : (
-              <button className="news-retry-button" type="button" onClick={() => setSponsorRefreshKey((value) => value + 1)}>আবার চেষ্টা করুন <RefreshCw size={14} /></button>
-            )}
-          </div>
-        )}
-
-        <p className="news-attribution-note">
-          শিরোনাম, সময় ও লিংক Google News-এর RSS সার্চ ফিড থেকে আনা হয়। প্রতিটি শিরোনামে চাপ দিলে মূল প্রকাশনার পাতায় যাবেন; ফিড নির্ভর করে সংশ্লিষ্ট সংবাদ ওয়েবসাইটের ইনডেক্স ও বাইরের RSS সার্ভিসের ওপর।
-        </p>
-      </section>
-
       <section className="homepage-news-panel latest-news-panel" id="latest-news" aria-labelledby="latest-news-heading">
         <div className="homepage-news-heading">
           <div className="homepage-news-heading-copy">
