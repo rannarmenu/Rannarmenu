@@ -47,7 +47,7 @@ The migration files in `supabase/migrations/` mirror the migrations applied to t
 - `public.admin_users`: trusted accounts permitted to manage content.
 - `public.recipe_import_batches`: import audit and error reports.
 
-Anonymous visitors can read only safe preview fields. Verified customers can read published recipe details. Trusted owners/admins/editors may manage recipe content; only owners/admins may delete recipes or run bulk imports. Admin access requires an account explicitly listed in `public.admin_users`; public customers cannot self-assign admin privileges.
+Anonymous visitors can browse published recipe details and read the approved public review fields; unpublished recipe records and protected customer/admin data remain governed by Row Level Security. Customer profile and saved-recipe tables are owner-scoped, although the public customer-account UI is not currently wired into this release. Trusted owners/admins/editors may manage recipe content; only owners/admins may delete recipes or run bulk imports. Admin access requires an account explicitly listed in `public.admin_users`; public customers cannot self-assign admin privileges. New review submissions are disabled for client roles.
 
 ### Provision the first admin
 
