@@ -85,12 +85,9 @@ jobs:
           node --input-type=module - "$workdir/index.html" "$SITE_URL" "$workdir/asset-urls.txt" <<'NODE'
           import { readFile, writeFile } from 'node:fs/promises';
 
-          const [htmlPath, adminPath, siteUrl, assetsPath] = process.argv.slice(2);
+          const [htmlPath, siteUrl, assetsPath] = process.argv.slice(2);
           const html = await readFile(htmlPath, 'utf8');
-          const adminHtml = await readFile(adminPath, 'utf8');
           if (!/Rannar Menu/i.test(html)) throw new Error('Homepage title/brand is missing.');
-          if (!/Rannar Menu/i.test(adminHtml)) throw new Error('Direct /admin route HTML is missing.');
-          if (!adminHtml.includes('/Rannarmenu/assets/')) throw new Error('Direct /admin route does not reference the deployed bundle.');
 
           const assets = [...html.matchAll(/(?:src|href)=["']([^"']+\.(?:js|css)(?:\?[^"']*)?)["']/g)]
             .map((match) => match[1]);
@@ -115,13 +112,16 @@ jobs:
           curl --fail --silent --show-error --location --retry 3 --max-time 30 \
             "$site_base/admin/?smoke=$GITHUB_RUN_ID" -o "$workdir/admin.html"
 
-          node --input-type=module - "$workdir/index.html" "$workdir/admin.html" "$SITE_URL" "$workdir/asset-urls.txt" <<'NODE'
+          node --input-type=module - "$workdir/news-feed.json" "$workdir/manifest.webmanifest" "$workdir/admin.html" <<'NODE'
           import { readFile } from 'node:fs/promises';
 
-          const [newsPath, manifestPath] = process.argv.slice(2);
+          const [newsPath, manifestPath, adminPath] = process.argv.slice(2);
           const snapshot = JSON.parse(await readFile(newsPath, 'utf8'));
           const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
+          const adminHtml = await readFile(adminPath, 'utf8');
 
+          if (!/Rannar Menu/i.test(adminHtml)) throw new Error('Direct /admin route HTML is missing.');
+          if (!adminHtml.includes('/Rannarmenu/assets/')) throw new Error('Direct /admin route does not reference the deployed bundle.');
           if (!snapshot.generatedAt || !snapshot.categories || !Array.isArray(snapshot.categories.food)
             || !Array.isArray(snapshot.categories.bangladesh) || !Array.isArray(snapshot.categories.international)) {
             throw new Error('News snapshot schema is invalid.');
