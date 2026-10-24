@@ -19,6 +19,9 @@ test('fallback recipe identifiers and slugs are unique', () => {
 test('fallback recipes have valid positive cooking times and servings', () => {
   for (const recipe of demoRecipes) {
     assert.ok(Number.isFinite(recipe.time) && recipe.time > 0, `${recipe.title} must have a positive time`);
+    assert.ok(Number.isFinite(recipe.prep_minutes) && recipe.prep_minutes >= 0, `${recipe.title} must have a prep time`);
+    assert.ok(Number.isFinite(recipe.cook_minutes) && recipe.cook_minutes > 0, `${recipe.title} must have a cook time`);
+    assert.equal(recipe.prep_minutes + recipe.cook_minutes, recipe.time, `${recipe.title} total time must match its prep and cook times`);
     assert.ok(Number.isFinite(recipe.servings) && recipe.servings > 0, `${recipe.title} must have positive servings`);
   }
 });
