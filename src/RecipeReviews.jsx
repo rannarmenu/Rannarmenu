@@ -1,36 +1,12 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
-  AlertCircle, CheckCircle2, Clock3, LoaderCircle, MessageCircle,
-  Send, ShieldCheck, Sparkles, Star, UserRound
+  AlertCircle, Clock3, LoaderCircle, MessageCircle, ShieldCheck, Sparkles, Star
 } from 'lucide-react';
 import { supabase, supabaseConfigured } from './lib/supabaseClient.js';
 import './recipe-reviews.css';
 
-const REVIEWER_KEY_STORE = 'rannar-menu-reviewer-key';
-const REVIEWER_NAME_STORE = 'rannar-menu-reviewer-name';
 const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-const ratingLabels = ['', 'খুব একটা ভালো লাগেনি', 'আরও ভালো হতে পারত', 'ভালো', 'খুব ভালো', 'দারুণ হয়েছে'];
 
-function safeGet(key) {
-  try { return window.localStorage.getItem(key) || ''; } catch { return ''; }
-}
-function safeSet(key, value) {
-  try { window.localStorage.setItem(key, value); } catch { /* Private browsing may block storage. */ }
-}
-function createUuid() {
-  if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') return crypto.randomUUID();
-  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
-    const r = Math.floor(Math.random() * 16);
-    return (c === 'x' ? r : (r & 3) | 8).toString(16);
-  });
-}
-function getReviewerKey() {
-  const existing = safeGet(REVIEWER_KEY_STORE);
-  if (UUID_PATTERN.test(existing)) return existing;
-  const next = createUuid();
-  safeSet(REVIEWER_KEY_STORE, next);
-  return next;
-}
 function formatDate(value) {
   if (!value) return '';
   const date = new Date(value);
@@ -51,21 +27,12 @@ function RatingStars({ value = 0, size = 17 }) {
   );
 }
 
-export default function RecipeReviews({ recipe, user = null }) {
+export default function RecipeReviews({ recipe }) {
   const recipeId = typeof recipe?.id === 'string' && UUID_PATTERN.test(recipe.id) ? recipe.id : '';
   const [reviews, setReviews] = useState([]);
   const [summary, setSummary] = useState(null);
-  const [reviewerKey, setReviewerKey] = useState('');
-  const [displayName, setDisplayName] = useState(() => safeGet(REVIEWER_NAME_STORE));
-  const [rating, setRating] = useState(0);
-  const [comment, setComment] = useState('');
-  const [honeypot, setHoneypot] = useState('');
   const [sortOrder, setSortOrder] = useState('newest');
   const [loading, setLoading] = useState(true);
-  const userIsVerified = Boolean(user && (user.email_confirmed_at || user.phone_confirmed_at));
-  const [submitting, setSubmitting] = useState(false);
-  const [alreadyReviewed, setAlreadyReviewed] = useState(false);
-  const [feedback, setFeedback] = useState(null);
   const [loadIssue, setLoadIssue] = useState('');
   const requestVersion = useRef(0);
 
@@ -85,48 +52,42 @@ export default function RecipeReviews({ recipe, user = null }) {
       setSummary(null);
       return;
     }
-    setLoading(true);
-    const existingReviewQuery = userIsVerified && user?.id
-      ? supabase.from('recipe_reviews').select('id').eq('recipe_id', recipeId).eq('user_id', user.id).maybeSingle()
-      : Promise.resolve({ data: null, error: null });
-    const [reviewResponse, summaryResponse, existingResponse] = await Promise.all([
-      supabase
-        .from('recipe_reviews')
-        .select('id, display_name, rating, comment, created_at')
-        .eq('recipe_id', recipeId)
-        .eq('is_visible', true)
-        .order('created_at', { ascending: false })
-        .limit(50),
-      supabase
-        .from('recipe_review_summaries')
-        .select('review_count, average_rating, one_star, two_star, three_star, four_star, five_star')
-        .eq('recipe_id', recipeId)
-        .maybeSingle(),
-      existingReviewQuery
-    ]);
 
-    if (requestId !== requestVersion.current) return;
-    setReviews(Array.isArray(reviewResponse.data) ? reviewResponse.data : []);
-    setSummary(summaryResponse.data || null);
-    setAlreadyReviewed(
-      Boolean(existingResponse.data) ||
-      Boolean(user?.id && safeGet('rannar-menu-reviewed:' + recipeId + ':' + user.id)) ||
-      Boolean(reviewerKey && safeGet('rannar-menu-reviewed:' + recipeId + ':' + reviewerKey))
-    );
-    setLoadIssue(reviewResponse.error ? 'reviews' : summaryResponse.error ? 'summary' : (userIsVerified && existingResponse.error) ? 'reviews' : '');
-    setLoading(false);
-  }, [recipeId, user?.id, userIsVerified, reviewerKey]);
+    setLoading(true);
+    try {
+      const [reviewResponse, summaryResponse] = await Promise.all([
+        supabase
+          .from('recipe_reviews')
+          .select('id, display_name, rating, comment, created_at')
+          .eq('recipe_id', recipeId)
+          .eq('is_visible', true)
+          .order('created_at', { ascending: false })
+          .limit(50),
+        supabase
+          .from('recipe_review_summaries')
+          .select('review_count, average_rating, one_star, two_star, three_star, four_star, five_star')
+          .eq('recipe_id', recipeId)
+          .maybeSingle()
+      ]);
+
+      if (requestId !== requestVersion.current) return;
+      setReviews(Array.isArray(reviewResponse.data) ? reviewResponse.data : []);
+      setSummary(summaryResponse.data || null);
+      setLoadIssue(reviewResponse.error ? 'reviews' : summaryResponse.error ? 'summary' : '');
+    } catch {
+      if (requestId !== requestVersion.current) return;
+      setReviews([]);
+      setSummary(null);
+      setLoadIssue('reviews');
+    } finally {
+      if (requestId === requestVersion.current) setLoading(false);
+    }
+  }, [recipeId]);
 
   useEffect(() => {
-    setReviewerKey(getReviewerKey());
-    setRating(0);
-    setComment('');
-    setHoneypot('');
-    setFeedback(null);
-    setAlreadyReviewed(false);
-    loadReviews();
+    void loadReviews();
     return () => { requestVersion.current += 1; };
-  }, [recipeId, loadReviews, user?.id]);
+  }, [loadReviews]);
 
   const sortedReviews = useMemo(() => {
     const result = [...reviews];
@@ -149,68 +110,6 @@ export default function RecipeReviews({ recipe, user = null }) {
     { stars: 2, value: Number(summary?.two_star) || 0 },
     { stars: 1, value: Number(summary?.one_star) || 0 }
   ];
-  const canSubmit = Boolean(supabaseConfigured && supabase && recipeId && reviewerKey && !alreadyReviewed && !submitting);
-
-  async function handleSubmit(event) {
-    event.preventDefault();
-    if (honeypot.trim()) return;
-    if (!supabaseConfigured || !supabase || !recipeId || !reviewerKey) {
-      setFeedback({ type: 'error', text: 'রিভিউ সিস্টেমটি এখন প্রস্তুত নয়। কিছুক্ষণ পর আবার চেষ্টা করুন।' });
-      return;
-    }
-    const cleanName = displayName.trim();
-    const cleanComment = comment.trim();
-    if (rating < 1 || rating > 5) {
-      setFeedback({ type: 'error', text: 'জমা দেওয়ার আগে ১ থেকে ৫ স্টারের মধ্যে একটি রেটিং বেছে নিন।' });
-      return;
-    }
-    if (cleanName.length < 2 || cleanName.length > 50) {
-      setFeedback({ type: 'error', text: 'নাম ২–৫০ অক্ষরের মধ্যে লিখুন।' });
-      return;
-    }
-    if (cleanComment.length < 5 || cleanComment.length > 1200) {
-      setFeedback({ type: 'error', text: 'মন্তব্য কমপক্ষে ৫ অক্ষর এবং সর্বোচ্চ ১,২০০ অক্ষরের হতে হবে।' });
-      return;
-    }
-
-    setSubmitting(true);
-    setFeedback(null);
-    try {
-      const reviewEntry = {
-        recipe_id: recipeId,
-        reviewer_key: reviewerKey,
-        display_name: cleanName,
-        rating,
-        comment: cleanComment
-      };
-      if (userIsVerified && user?.id) reviewEntry.user_id = user.id;
-
-      const { error } = await supabase.from('recipe_reviews').insert(reviewEntry);
-      if (error) {
-        if (error.code === '23505') {
-          setAlreadyReviewed(true);
-          setFeedback({ type: 'error', text: 'এই ব্রাউজার থেকে এই রেসিপিতে আগে একটি রিভিউ জমা হয়েছে।' });
-        } else {
-          setFeedback({ type: 'error', text: 'রিভিউ জমা দেওয়া যায়নি। কিছুক্ষণ পর আবার চেষ্টা করুন।' });
-        }
-        return;
-      }
-      safeSet(REVIEWER_NAME_STORE, cleanName);
-      safeSet('rannar-menu-reviewed:' + recipeId + ':' + reviewerKey, '1');
-      if (user?.id) safeSet('rannar-menu-reviewed:' + recipeId + ':' + user.id, '1');
-      setAlreadyReviewed(true);
-      setDisplayName(cleanName);
-      setRating(0);
-      setComment('');
-      setFeedback({ type: 'success', text: 'আপনার রেটিং ও মন্তব্য প্রকাশিত হয়েছে। ধন্যবাদ!' });
-      await loadReviews();
-    } catch {
-      setFeedback({ type: 'error', text: 'সংযোগের সমস্যায় রিভিউ জমা দেওয়া যায়নি। আবার চেষ্টা করুন।' });
-    } finally {
-      setSubmitting(false);
-    }
-  }
-
   return (
     <section className="reviews-section" aria-labelledby="recipe-reviews-heading">
       <div className="reviews-heading">
