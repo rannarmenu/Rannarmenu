@@ -40,7 +40,10 @@ jobs:
       - name: Build static site
         run: npm run build
       - name: Support direct /admin navigation on GitHub Pages
-        run: cp dist/index.html dist/404.html
+        run: |
+          mkdir -p dist/admin
+          cp dist/index.html dist/admin/index.html
+          cp dist/index.html dist/404.html
       - name: Verify Android APK is included in the website build
         shell: bash
         run: |
@@ -82,9 +85,12 @@ jobs:
           node --input-type=module - "$workdir/index.html" "$SITE_URL" "$workdir/asset-urls.txt" <<'NODE'
           import { readFile, writeFile } from 'node:fs/promises';
 
-          const [htmlPath, siteUrl, assetsPath] = process.argv.slice(2);
+          const [htmlPath, adminPath, siteUrl, assetsPath] = process.argv.slice(2);
           const html = await readFile(htmlPath, 'utf8');
+          const adminHtml = await readFile(adminPath, 'utf8');
           if (!/Rannar Menu/i.test(html)) throw new Error('Homepage title/brand is missing.');
+          if (!/Rannar Menu/i.test(adminHtml)) throw new Error('Direct /admin route HTML is missing.');
+          if (!adminHtml.includes('/Rannarmenu/assets/')) throw new Error('Direct /admin route does not reference the deployed bundle.');
 
           const assets = [...html.matchAll(/(?:src|href)=["']([^"']+\.(?:js|css)(?:\?[^"']*)?)["']/g)]
             .map((match) => match[1]);
@@ -106,8 +112,10 @@ jobs:
             "$site_base/rannar-menu-logo.svg" -o /dev/null
           curl --fail --silent --show-error --location --retry 2 --max-time 30 \
             "$site_base/404.html" -o /dev/null
+          curl --fail --silent --show-error --location --retry 3 --max-time 30 \
+            "$site_base/admin/?smoke=$GITHUB_RUN_ID" -o "$workdir/admin.html"
 
-          node --input-type=module - "$workdir/news-feed.json" "$workdir/manifest.webmanifest" <<'NODE'
+          node --input-type=module - "$workdir/index.html" "$workdir/admin.html" "$SITE_URL" "$workdir/asset-urls.txt" <<'NODE'
           import { readFile } from 'node:fs/promises';
 
           const [newsPath, manifestPath] = process.argv.slice(2);
@@ -125,7 +133,7 @@ jobs:
           const count = Object.values(snapshot.categories)
             .filter(Array.isArray)
             .reduce((total, entries) => total + entries.length, 0);
-          console.log(`Website smoke test passed: homepage, JS/CSS assets, news snapshot (${count} categorized items), PWA manifest, logo, and 404 fallback.`);
+          console.log(`Website smoke test passed: homepage, direct /admin route, JS/CSS assets, news snapshot (${count} categorized items), PWA manifest, logo, and 404 fallback.`);
           NODE
       - name: Verify live Android APK download
         shell: bash
