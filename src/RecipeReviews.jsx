@@ -244,90 +244,19 @@ export default function RecipeReviews({ recipe, user = null }) {
         </aside>
 
         <div className="review-form-panel">
-          <div className="review-form-title">
-            <span className="review-form-icon"><UserRound size={18} /></span>
-            <div><h4>আপনার অভিজ্ঞতা শেয়ার করুন</h4><p>অ্যাকাউন্ট ছাড়াই রেটিং দিন, সঙ্গে ছোট্ট মন্তব্য লিখুন।</p></div>
+        <div className="review-form-title">
+          <span className="review-form-icon"><ShieldCheck size={18} /></span>
+          <div>
+            <h4>রেটিং ও পাঠকের মন্তব্য</h4>
+            <p>এই সংস্করণে নতুন রিভিউ জমা দেওয়া বন্ধ রাখা হয়েছে।</p>
           </div>
-
-          {!supabaseConfigured || !recipeId ? (
-            <div className="review-notice" role="status">
-              <AlertCircle size={17} />
-              <span>{!supabaseConfigured ? 'লাইভ রিভিউ চালু করতে Supabase configuration প্রয়োজন।' : 'এই রেসিপির স্থায়ী database ID পাওয়া যায়নি, তাই এখানে রিভিউ জমা দেওয়া যাবে না।'}</span>
-            </div>
-          ) : alreadyReviewed ? (
-            <div className="review-notice review-notice-success" role="status">
-              <CheckCircle2 size={17} />
-              <span>এই ব্রাউজার থেকে এই রেসিপিতে আপনার রিভিউ জমা হয়েছে। অন্য পাঠকরাও এটি দেখতে পারবেন।</span>
-            </div>
-          ) : (
-            <form className="review-form" onSubmit={handleSubmit}>
-              <fieldset className="review-rating-field">
-                <legend>আপনার রেটিং</legend>
-                <div className="review-star-picker" role="group" aria-label="১ থেকে ৫ স্টার রেটিং">
-                  {[1, 2, 3, 4, 5].map(value => (
-                    <button
-                      key={value}
-                      type="button"
-                      className={value <= rating ? 'selected' : ''}
-                      aria-label={countBn(value) + ' স্টার'}
-                      aria-pressed={rating === value}
-                      onClick={() => { setRating(value); setFeedback(null); }}
-                    >
-                      <Star size={25} strokeWidth={1.7} fill={value <= rating ? 'currentColor' : 'none'} />
-                    </button>
-                  ))}
-                  <span>{rating ? ratingLabels[rating] : 'স্টার বেছে নিন'}</span>
-                </div>
-              </fieldset>
-
-              <label className="review-field">
-                <span>আপনার নাম</span>
-                <input
-                  type="text"
-                  value={displayName}
-                  onChange={event => setDisplayName(event.target.value)}
-                  autoComplete="name"
-                  minLength={2}
-                  maxLength={50}
-                  placeholder="যে নামে মন্তব্য দেখাতে চান"
-                  required
-                />
-              </label>
-
-              <label className="review-field">
-                <span>আপনার মন্তব্য</span>
-                <textarea
-                  value={comment}
-                  onChange={event => setComment(event.target.value)}
-                  minLength={5}
-                  maxLength={1200}
-                  rows={4}
-                  placeholder="রান্নার স্বাদ, সহজতা বা নিজের কোনো টিপস লিখুন..."
-                  required
-                />
-                <small>{countBn(comment.length)} / ১,২০০ অক্ষর</small>
-              </label>
-
-              <label className="review-honeypot" aria-hidden="true">
-                Website
-                <input value={honeypot} onChange={event => setHoneypot(event.target.value)} tabIndex={-1} autoComplete="off" />
-              </label>
-
-              {feedback && <div className={'review-feedback ' + feedback.type} role="status">{feedback.type === 'success' ? <CheckCircle2 size={16} /> : <AlertCircle size={16} />}{feedback.text}</div>}
-
-              <button className="review-submit" type="submit" disabled={!canSubmit}>
-                {submitting ? <LoaderCircle className="review-spin" size={17} /> : <Send size={16} />}
-                {submitting ? 'জমা হচ্ছে…' : 'রেটিং ও মন্তব্য প্রকাশ করুন'}
-              </button>
-              <p className="review-privacy"><ShieldCheck size={14} /> মন্তব্যটি প্রকাশ্যে দেখা যাবে। পাসওয়ার্ড বা ব্যক্তিগত তথ্য লিখবেন না।</p>
-            </form>
-          )}
-
-          {feedback && (!supabaseConfigured || !recipeId || alreadyReviewed) && (
-            <div className={'review-feedback ' + feedback.type} role="status">{feedback.type === 'success' ? <CheckCircle2 size={16} /> : <AlertCircle size={16} />}{feedback.text}</div>
-          )}
+        </div>
+        <div className="review-notice" role="status">
+          <AlertCircle size={17} />
+          <span>আগে প্রকাশিত রেটিং ও মন্তব্য সবাই দেখতে পারবেন। নতুন মন্তব্য যোগ করা বা রেটিং জমা দেওয়ার সুবিধা বর্তমানে বন্ধ।</span>
         </div>
       </div>
+    </div>
 
       <div className="reviews-list-header">
         <div><h4>পাঠকদের মতামত</h4><span>{countBn(reviewCount)}টি রিভিউ · সর্বশেষ ৫০টি মন্তব্য দেখানো হচ্ছে</span></div>
