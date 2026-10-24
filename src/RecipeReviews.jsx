@@ -143,19 +143,19 @@ export default function RecipeReviews({ recipe }) {
         </aside>
 
         <div className="review-form-panel">
-        <div className="review-form-title">
-          <span className="review-form-icon"><ShieldCheck size={18} /></span>
-          <div>
-            <h4>রেটিং ও পাঠকের মন্তব্য</h4>
-            <p>এই সংস্করণে নতুন রিভিউ জমা দেওয়া বন্ধ রাখা হয়েছে।</p>
+          <div className="review-form-title">
+            <span className="review-form-icon"><ShieldCheck size={18} /></span>
+            <div>
+              <h4>রেটিং ও পাঠকের মন্তব্য</h4>
+              <p>এই সংস্করণে নতুন রিভিউ জমা দেওয়া বন্ধ রাখা হয়েছে।</p>
+            </div>
+          </div>
+          <div className="review-notice" role="status">
+            <AlertCircle size={17} />
+            <span>আগে প্রকাশিত রেটিং ও মন্তব্য সবাই দেখতে পারবেন। নতুন মন্তব্য যোগ করা বা রেটিং জমা দেওয়ার সুবিধা বর্তমানে বন্ধ।</span>
           </div>
         </div>
-        <div className="review-notice" role="status">
-          <AlertCircle size={17} />
-          <span>আগে প্রকাশিত রেটিং ও মন্তব্য সবাই দেখতে পারবেন। নতুন মন্তব্য যোগ করা বা রেটিং জমা দেওয়ার সুবিধা বর্তমানে বন্ধ।</span>
-        </div>
       </div>
-    </div>
 
       <div className="reviews-list-header">
         <div><h4>পাঠকদের মতামত</h4><span>{countBn(reviewCount)}টি রিভিউ · সর্বশেষ ৫০টি মন্তব্য দেখানো হচ্ছে</span></div>
@@ -198,7 +198,7 @@ export default function RecipeReviews({ recipe }) {
           <div className="reviews-empty">
             <span><MessageCircle size={22} /></span>
             <strong>এখনো কোনো মন্তব্য নেই</strong>
-            <p>এই রেসিপিটি প্রথম রান্না করে আপনার অভিজ্ঞতা শেয়ার করুন।</p>
+            <p>এই সংস্করণে নতুন মন্তব্য জমা বন্ধ রাখা হয়েছে।</p>
           </div>
         )
       )}
