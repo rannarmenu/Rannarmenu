@@ -9,14 +9,20 @@ A responsive Bengali recipe catalogue built with React, Vite, Supabase Auth/Post
 - Recipe details, ingredients and ordered cooking steps. Dish-matched photos are shown only when their source, creator and reuse license are recorded; otherwise the site displays a photo-unavailable placeholder.
 - Interactive 3D cooking challenge at `public/rannar-cooking-game.html`, featuring a Three.js kitchen, touch/mouse camera orbit, ingredient picking, cooking stages, timer, scoring and local best-score storage.
 - Supabase-backed published recipes.
-- Customer sign-up/sign-in with email verification, Google OAuth entry point, phone SMS OTP entry point, password reset, and persistent profile records.
-- Recipe ingredients and cooking instructions are protected by database policies and require a verified account; public catalogue/search only returns preview-safe recipe fields.
-- Customer profile supports name and private profile photo; saved recipes sync to the signed-in account.
-- Public review submission is restricted to verified accounts, with one review per account per recipe.
+- Guest-first public experience. Customer sign-up/sign-in, Google OAuth, phone SMS OTP, public profile editing, and cross-device saved-recipe sync are not currently exposed in the public UI.
+- Published recipe previews and published recipe details are public. Row Level Security still restricts unpublished recipes and protected administrator/profile data.
+- Guest saved recipes are stored in the current browser. Supabase has customer-profile and cloud-saved-recipe tables, but they are not connected to a public customer-account UI in this release.
+- Public ratings and existing reviews are read-only in this release. New review submissions are disabled in the UI and blocked for both anonymous and authenticated client roles by database grants/policies.
 - Admin sign-up remains closed; content management is restricted to explicitly allow-listed owner/admin/editor accounts.
 - Role-scoped recipe management: owners/admins can delete and bulk import; editors can create and edit recipes.
 - Browser CSV/JSON import, validation, duplicate-slug handling, 100-row batches and import history.
 - Database migrations with Row Level Security (RLS), least-privilege grants and explicit admin allow-list.
+
+## Current release notes
+
+- The review list and rating summaries are publicly readable; adding a new review is intentionally disabled.
+- The GitHub Pages deployment workflow runs recipe tests/build and now smoke-tests the live HTML, bundled JS/CSS, news snapshot, PWA manifest, brand logo, and SPA fallback.
+- The public UI does not currently provide customer account creation/login or cross-device saved-recipe sync; guest saves remain browser-local.
 
 ## Run locally
 
