@@ -17,15 +17,9 @@ import { buildRecipeSearchGroups, recipeMatchesSearch } from './lib/recipeSearch
 import { getPhotoFallbackUrls, isDishSpecificPhotoTitle } from './lib/recipeImages.js';
 import './readability.css';
 import PWAInstallManager from './PWAInstallManager.jsx';
+import { demoRecipes as demos } from './lib/demoRecipes.js';
 
-const demos = [
- {id:'demo-biryani',slug:'ghoroya-chicken-biryani',title:'ঘরোয়া চিকেন বিরিয়ানি',category:'মাংস',time:55,level:'মাঝারি',tag:'সবার প্রিয়',image:null,desc:'সুগন্ধি চাল, মসলা আর নরম মুরগির মজাদার আয়োজন।',ingredients:[],steps:[]},
- {id:'demo-fish',slug:'bangla-fish-curry',title:'বাংলা স্টাইলে মাছের ঝোল',category:'মাছ',time:35,level:'সহজ',tag:'ঘরোয়া',image:null,desc:'আলু, টমেটো আর হালকা মসলায় প্রতিদিনের পরিচিত স্বাদ।',ingredients:[],steps:[]},
- {id:'demo-egg',slug:'quick-egg-curry',title:'ঝটপট ডিমের কারি',category:'ডিম',time:25,level:'সহজ',tag:'৩০ মিনিটের কম',image:null,desc:'কম উপকরণে তৈরি ঝালঝাল ডিমের তরকারি।',ingredients:[],steps:[]},
- {id:'demo-khichuri',slug:'vegetable-khichuri',title:'সবজি খিচুড়ি',category:'নিরামিষ',time:40,level:'সহজ',tag:'আরামদায়ক',image:null,desc:'ডাল, চাল ও মৌসুমি সবজিতে পুষ্টিকর এক বাটি খাবার।',ingredients:[],steps:[]},
- {id:'demo-dal',slug:'raw-mango-dal',title:'কাঁচা আমের ডাল',category:'নিরামিষ',time:30,level:'সহজ',tag:'মৌসুমি',image:null,desc:'টক-মিষ্টি স্বাদের সহজ ডাল, ভাতের সঙ্গে দারুণ।',ingredients:[],steps:[]},
- {id:'demo-chicken',slug:'chicken-kosha',title:'চিকেন কষা',category:'মাংস',time:50,level:'মাঝারি',tag:'ঝালপ্রেমীদের জন্য',image:null,desc:'ঘন মসলার গ্রেভিতে রান্না করা জমজমাট মুরগির পদ।',ingredients:[],steps:[]}
-];
+/* Fallback recipes live in src/lib/demoRecipes.js so they can be tested independently. */
 const categories = ['সব রেসিপি','মাছ','মাংস','ডিম','নিরামিষ'];
 const homeSearchExamples = [
  {label:'ইলিশ মাছ',query:'ilish mach'},
@@ -106,7 +100,7 @@ function FeaturedRecipeCarousel({ recipes, activeIndex, onSelect, onPrevious, on
   {recipe?<div className="featured-slide" key={recipe.id||recipe.slug||recipe.title}>
    {verifiedPhoto?<><img className="featured-image" src={recipe.image} alt={recipe.title} data-original-image-url={recipe.image} data-source-url={recipe.image_source_url} loading={activeIndex===0?'eager':'lazy'} onError={handleDishImageError}/><div className="featured-image-placeholder image-error-placeholder" role="img" aria-label={recipe.title+"-এর ছবিটি লোড হয়নি"}><ChefHat size={42}/><span>ছবিটি লোড হয়নি</span></div></>:<div className="featured-image-placeholder" role="img" aria-label={recipe.title+"-এর নির্ভরযোগ্য ছবি যাচাই করা হচ্ছে"}><span className="featured-placeholder-orbit orbit-one"/><span className="featured-placeholder-orbit orbit-two"/><span className="featured-placeholder-mark"><ChefHat size={46} strokeWidth={1.15}/></span><span className="featured-placeholder-title">{recipe.title}</span><small>এই রেসিপির সঠিক ছবি যাচাই করা হচ্ছে</small></div>}
    <div className="featured-overlay">
-    <div className="featured-eyebrow"><span className="featured-live-dot"/>{recipe.category||'ঘরোয়া রান্না'} <span className="featured-eyebrow-divider"/> <span>নতুন রেসিপি</span></div>
+    <div className="featured-eyebrow"><span className="featured-live-dot"/>{recipe.category||'ঘরোয়া রান্না'} <span className="featured-eyebrow-divider"/> <span>{recipe.id?.startsWith('demo-')?'নমুনা রেসিপি':'নতুন রেসিপি'}</span></div>
     <h2>{recipe.title}</h2>
     <p>{recipe.desc||'পরিচিত উপকরণে ধাপে ধাপে শিখুন এই ঘরোয়া রেসিপি।'}</p>
     <div className="featured-meta"><span><Clock3 size={15}/>{recipe.time>0?recipe.time+' মিনিট':'সহজ ধাপ'}</span><span><ChefHat size={15}/>{recipe.level||'ঘরোয়া স্বাদ'}</span></div>
@@ -171,6 +165,8 @@ function App() {
  },[route.page]);
  useEffect(()=>{
   if(route.page!=='recipe'||!route.slug)return;
+  const localDemo=demos.find(recipe=>recipe.slug===route.slug||recipe.id===route.slug);
+  if(localDemo){setSelected(localDemo);setRecipeLoadError(false);return;}
   if(!supabaseConfigured||!supabase){setSelected(null);setRecipeLoadError(true);return;}
   let alive=true;
   setSelected(null);
@@ -202,12 +198,12 @@ function App() {
    try{
     const {data,error}=await supabase.from('recipe_previews').select('*').order('published_at',{ascending:false,nullsFirst:false}).order('created_at',{ascending:false}).limit(6);
     if(!alive)return;
-    if(error){setFeaturedRecipes([]);setFeaturedError(true);return;}
+    if(error){setFeaturedRecipes(demos);setFeaturedError(true);return;}
     setFeaturedRecipes((data||[]).map(dbRecipeToCard));
     setFeaturedError(false);
    }catch{
     if(!alive)return;
-    setFeaturedRecipes([]);setFeaturedError(true);
+    setFeaturedRecipes(demos);setFeaturedError(true);
    }finally{if(alive)setFeaturedLoading(false);}
   };
   void loadFeatured();
@@ -248,7 +244,7 @@ function App() {
      const primary=await supabase.rpc('search_recipe_previews_multilingual',searchArgs(buildRecipeSearchGroups(term)));
      if(!alive)return;
      if(primary.error){
-      setCatalogBusy(false);setCatalogMode(true);setCatalogRecipes([]);setCatalogTotal(0);setCatalogError(primary.error.message);
+      setCatalogBusy(false);setCatalogMode(false);setCatalogRecipes(demos);setCatalogTotal(demos.length);setCatalogError(primary.error.message);
       return;
      }
      let resultRows=primary.data||[];
@@ -274,7 +270,7 @@ function App() {
      setCatalogBusy(false);
     }catch(error){
      if(!alive||translationController.signal.aborted)return;
-     setCatalogMode(true);setCatalogRecipes([]);setCatalogTotal(0);setCatalogBusy(false);
+     setCatalogMode(false);setCatalogRecipes(demos);setCatalogTotal(demos.length);setCatalogBusy(false);
      setCatalogError('সার্চ সম্পন্ন করা যায়নি। আবার চেষ্টা করুন।');
     }
    };
@@ -285,7 +281,7 @@ function App() {
   if(showSaved)req=req.in('id',savedIds);
   else if(category!=='সব রেসিপি')req=req.eq('category',category);
   req=req.order('published_at',{ascending:false,nullsFirst:false}).order('created_at',{ascending:false}).range(catalogPage*PAGE_SIZE,catalogPage*PAGE_SIZE+PAGE_SIZE-1);
-  req.then(({data,error,count})=>{if(!alive)return;setCatalogBusy(false);if(error){setCatalogError(error.message);setCatalogMode(true);setCatalogRecipes([]);setCatalogTotal(0);return;}setCatalogMode(true);setCatalogRecipes((data||[]).map(dbRecipeToCard));setCatalogTotal(count||0);});
+  req.then(({data,error,count})=>{if(!alive)return;setCatalogBusy(false);if(error){setCatalogError(error.message);setCatalogMode(false);setCatalogRecipes(demos);setCatalogTotal(demos.length);return;}setCatalogMode(true);setCatalogRecipes((data||[]).map(dbRecipeToCard));setCatalogTotal(count||0);});
   return ()=>{alive=false;};
  },[query,category,catalogPage,showSaved,saved,route.page]);
  useEffect(()=>{
