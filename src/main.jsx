@@ -17,7 +17,7 @@ import { buildRecipeSearchGroups, recipeMatchesSearch } from './lib/recipeSearch
 import { getPhotoFallbackUrls, isDishSpecificPhotoTitle } from './lib/recipeImages.js';
 import './readability.css';
 import PWAInstallManager from './PWAInstallManager.jsx';
-import { demoRecipes as demos } from './lib/demoRecipes.js';
+import { demoRecipes as demos, findDemoRecipe } from './lib/demoRecipes.js';
 
 /* Fallback recipes live in src/lib/demoRecipes.js so they can be tested independently. */
 const categories = ['সব রেসিপি','মাছ','মাংস','ডিম','নিরামিষ'];
@@ -165,7 +165,7 @@ function App() {
  },[route.page]);
  useEffect(()=>{
   if(route.page!=='recipe'||!route.slug)return;
-  const localDemo=demos.find(recipe=>recipe.slug===route.slug||recipe.id===route.slug);
+  const localDemo=findDemoRecipe(route.slug);
   if(localDemo){setSelected(localDemo);setRecipeLoadError(false);return;}
   if(!supabaseConfigured||!supabase){setSelected(null);setRecipeLoadError(true);return;}
   let alive=true;
