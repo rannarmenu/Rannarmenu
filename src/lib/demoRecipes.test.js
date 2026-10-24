@@ -22,3 +22,10 @@ test('fallback recipes have valid positive cooking times and servings', () => {
     assert.ok(Number.isFinite(recipe.servings) && recipe.servings > 0, `${recipe.title} must have positive servings`);
   }
 });
+
+test('demo recipes resolve from both direct slugs and fallback IDs', async () => {
+  const { findDemoRecipe } = await import('../src/lib/demoRecipes.js');
+  assert.equal(findDemoRecipe('ghoroya-chicken-biryani'), demoRecipes[0]);
+  assert.equal(findDemoRecipe('demo-biryani'), demoRecipes[0]);
+  assert.equal(findDemoRecipe('not-a-real-recipe'), null);
+});
