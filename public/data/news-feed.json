@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-25T02:12:28.570Z",
+  "generatedAt": "2026-10-25T02:48:52.618Z",
   "sponsors": {
     "somoy": [
       {
@@ -636,6 +636,19 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaWR6bVlmRUczZFFjM3prTU9vNExuVFlTeUJfMXl4WGpVNlNMclZva0F6NFViUWpqcWxVYXp0UGNyVUxYUU5pOGZfSHM2UldiTkZIQkQ4eXRnalNUZnNmcW5Kd3B0UmlrWHpyMzVqUUg5NVd4RXlwdlVldktmbnI0UFkyMVdvNjhUMEl2WlBiUXc3QW9vQlE?oc=5",
+        "title": "CamScanner 08-14-2026 09.59",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaWR6bVlmRUczZFFjM3prTU9vNExuVFlTeUJfMXl4WGpVNlNMclZva0F6NFViUWpqcWxVYXp0UGNyVUxYUU5pOGZfSHM2UldiTkZIQkQ4eXRnalNUZnNmcW5Kd3B0UmlrWHpyMzVqUUg5NVd4RXlwdlVldktmbnI0UFkyMVdvNjhUMEl2WlBiUXc3QW9vQlE?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 14 Aug 2026 09:47:02 GMT",
+        "summary": "CamScanner 08-14-2026 09.59 &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://backoffice.channel24bd.tv/media/common/singleFile/police-comissionar-1786688201.pdf",
+        "imageAttemptedAt": "2026-10-25T02:48:55.690Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
         "title": "News Video, Latest Bangla News & Live TV",
         "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
@@ -647,23 +660,142 @@
         "articleUrl": "https://www.channel24bd.tv/live",
         "imageAttemptedAt": "2026-10-25T00:24:39.994Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi6ARBVV95cUxOWHlqanJ5VVYxOXo5RllpaEdYcWhFVEFBdnBWTXFiZDZMc3VUbHA0anlKXzBsZWRFV1IzR0ZtVUF0VWE1WXdQXzdJT3ozZ2lFU01EV0xEVHhyRjdFclUwM0tqMHRVQWsta0xDWVdvTHY2eE5IaC1HSWpJN0E3cUlxY2RoeGJBU1RJUWhyMEZaSkhnM21DREdhRlBKZWlRNVFGNUZROHVNcFYtSGJiMkNhanJWT2VDMWVFbjdMeU01aWRveDZxdmNvOExEUVRoOEI4SWNCd0pqaTJvWktjY2taSE1GZkZJSmp5ZGw0QlRWTVVrTzJjOGttbXp0NFctQU5sbU5yWWRIRWg1d3RuYVFwUUswX1JXdUxRSk5VR19wc0VPSmpZMUoxOXBweDdlMmVHUGN6OHRCa2d4TmxETkhWWXhvaHF5ZE1PQ1duVV8tdVA1Uk5EZUM0Z2MtN1M3XzRiai1GSVdzcjZfT2k1S0w3amFaLXRESXc1aXpfSUVzLWlEX3lWbnFQOVJGUmVSa281Y293VS1qOFlsUU9sSDRBSlBhR0tNam5lMU92djl6cEhDSTdKX1lxSnNpUFJQSHRqMndaVm9sVzdvTjZ1eFROY0VhSGozdXpmYnNLeDVxWElMUWtOdlpYdWZpelY1dVBITTU1TEpEYTVpSHg5U2JoSmtjM3BackZ6YjVvSE5ZMERaWlVXWldzcDdVNGNwZlZRUEtfX2hmVUNhMUwtM3l6RE1JWEMxMTVsX005eWgzRVlTdjZBay1QNHA5ckNsSmJqblo2ZktnMmdCRTRqMXQyVlhxVmlrZFYx?oc=5",
-        "title": "সৌদির দাম্মামে কিং ফাহাদ বিমানবন্দরে ভয়াবহ হামলা, হতাহত ৯",
-        "link": "https://news.google.com/rss/articles/CBMi6ARBVV95cUxOWHlqanJ5VVYxOXo5RllpaEdYcWhFVEFBdnBWTXFiZDZMc3VUbHA0anlKXzBsZWRFV1IzR0ZtVUF0VWE1WXdQXzdJT3ozZ2lFU01EV0xEVHhyRjdFclUwM0tqMHRVQWsta0xDWVdvTHY2eE5IaC1HSWpJN0E3cUlxY2RoeGJBU1RJUWhyMEZaSkhnM21DREdhRlBKZWlRNVFGNUZROHVNcFYtSGJiMkNhanJWT2VDMWVFbjdMeU01aWRveDZxdmNvOExEUVRoOEI4SWNCd0pqaTJvWktjY2taSE1GZkZJSmp5ZGw0QlRWTVVrTzJjOGttbXp0NFctQU5sbU5yWWRIRWg1d3RuYVFwUUswX1JXdUxRSk5VR19wc0VPSmpZMUoxOXBweDdlMmVHUGN6OHRCa2d4TmxETkhWWXhvaHF5ZE1PQ1duVV8tdVA1Uk5EZUM0Z2MtN1M3XzRiai1GSVdzcjZfT2k1S0w3amFaLXRESXc1aXpfSUVzLWlEX3lWbnFQOVJGUmVSa281Y293VS1qOFlsUU9sSDRBSlBhR0tNam5lMU92djl6cEhDSTdKX1lxSnNpUFJQSHRqMndaVm9sVzdvTjZ1eFROY0VhSGozdXpmYnNLeDVxWElMUWtOdlpYdWZpelY1dVBITTU1TEpEYTVpSHg5U2JoSmtjM3BackZ6YjVvSE5ZMERaWlVXWldzcDdVNGNwZlZRUEtfX2hmVUNhMUwtM3l6RE1JWEMxMTVsX005eWgzRVlTdjZBay1QNHA5ckNsSmJqblo2ZktnMmdCRTRqMXQyVlhxVmlrZFYx?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 22 Oct 2026 01:47:00 GMT",
-        "summary": "সৌদির দাম্মামে কিং ফাহাদ বিমানবন্দরে ভয়াবহ হামলা, হতাহত ৯ &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/untitled-1-1792634073.jpg",
-        "articleUrl": "https://www.channel24bd.tv/international/article/354314/%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A7%87-%E0%A6%95%E0%A6%BF%E0%A6%82-%E0%A6%AB%E0%A6%BE%E0%A6%B9%E0%A6%A6-%E0%A6%AC%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%B9%E0%A6%A4%E0%A6%BE%E0%A6%B9%E0%A6%A4-%E0%A7%AF",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ]
   },
   "categories": {
+    "food": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9EYndacWQ4ZFJUOWpPR3NNR2cxNy1lM2RnNzhTYkk5VHZmUHlwNlFlSDROZjM2T1U4MXFCWGR6QVJxeGc?oc=5",
+        "title": "গ্রামীণ নারী দিবস ও বিশ্ব খাদ্য দিবস পালিত",
+        "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9EYndacWQ4ZFJUOWpPR3NNR2cxNy1lM2RnNzhTYkk5VHZmUHlwNlFlSDROZjM2T1U4MXFCWGR6QVJxeGc?oc=5",
+        "source": "Daily Sunamkantha",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 24 Oct 2026 22:00:05 GMT",
+        "summary": "গ্রামীণ নারী দিবস ও বিশ্ব খাদ্য দিবস পালিত &nbsp;&nbsp; Daily Sunamkantha",
+        "image": "https://sunamkantha.com/public/postimages/6adcd76b5c1ef.jpg",
+        "articleUrl": "https://sunamkantha.com/12088",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHNEtidGpvVUJpNjVWdWFsM1RvV3VDWjMyN1JUdkZoRzJnWS1pR3hSSHp5dndyRjRJOWhZNDBLbDh6OUxNb3FoUHAxSWkzbGM?oc=5",
+        "title": "খাদ্য নিরাপত্তায় ইসলামের নির্দেশনা",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHNEtidGpvVUJpNjVWdWFsM1RvV3VDWjMyN1JUdkZoRzJnWS1pR3hSSHp5dndyRjRJOWhZNDBLbDh6OUxNb3FoUHAxSWkzbGM?oc=5",
+        "source": "www.news24bd.tv",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 24 Oct 2026 19:23:38 GMT",
+        "summary": "খাদ্য নিরাপত্তায় ইসলামের নির্দেশনা &nbsp;&nbsp; www.news24bd.tv",
+        "image": "https://asset.news24bd.tv/public/news_images/2026/10/25/1792869816-5f732a84bfba6ba0230e11ef4e49ba38.jpg",
+        "articleUrl": "https://www.news24bd.tv/details/304440",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE91M21UMDM3NF80R09tTXk1QmNPbTRZNDFrRnRMWS1CQzdqeHZvYm5YcXlwcEEwVFUxM0VkUk91bFZJdUVUTUZOMzBRdHdXZnJ1cjJmOGVicw?oc=5",
+        "title": "নাগরিকদের পানি ও খাবার মজুতের পরামর্শ দিল যুক্তরাজ্য সরকার",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE91M21UMDM3NF80R09tTXk1QmNPbTRZNDFrRnRMWS1CQzdqeHZvYm5YcXlwcEEwVFUxM0VkUk91bFZJdUVUTUZOMzBRdHdXZnJ1cjJmOGVicw?oc=5",
+        "source": "bdnews24.com",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 24 Oct 2026 15:44:00 GMT",
+        "summary": "নাগরিকদের পানি ও খাবার মজুতের পরামর্শ দিল যুক্তরাজ্য সরকার &nbsp;&nbsp; bdnews24.com",
+        "image": "https://media.assettype.com/bdnews24/2026-10-24/w49pb83b/wes-streeting-241026-01.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=https%3A%2F%2Fmedia.assettype.com%2Fbdnews24%2F2026-06-27%2Fm5wwkbzf%2F1024-bdnews-1725269350-1730989838.jpg&overlay_position=bottom&overlay_width=100",
+        "articleUrl": "https://bangla.bdnews24.com/world/twi0sz6thi",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oNi1oTEE1aGRoWGQyUzNmd2RhUVJtVk5PQkk5SWNha2JKRVQzWUcyWjgwampJTFFQZW1NN2syQ29CLTNpNEhCTERoU1c5SVl0?oc=5",
+        "title": "নাগরিকদের ঘরে তিন দিনের খাবার-পানি মজুতের পরামর্শ যুক্তরাজ্যের",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oNi1oTEE1aGRoWGQyUzNmd2RhUVJtVk5PQkk5SWNha2JKRVQzWUcyWjgwampJTFFQZW1NN2syQ29CLTNpNEhCTERoU1c5SVl0?oc=5",
+        "source": "Shomoyer Alo",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 24 Oct 2026 11:38:54 GMT",
+        "summary": "নাগরিকদের ঘরে তিন দিনের খাবার-পানি মজুতের পরামর্শ যুক্তরাজ্যের &nbsp;&nbsp; Shomoyer Alo",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.shomoyeralo.com/news/391471",
+        "imageAttemptedAt": "2026-10-25T01:41:45.532Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS2Y5RmhjSzhicEtPNXpIWUVfUXdaYl8zcTdjUXBpQW5NMTY0OHJhbHBMNHJyRDFOenJCUXFsdEJnQ3l6eWFwRUpiRmduV2FpbDA4SUE2UVp6YkFwQTU0eHFSV0VaX3R4dVoxdnVMWjhiYk9OaENQS3NmZ3FWbEJNajA5OW1FN0dYQXhmVXozRmFPdGVaamR3MG1hYTNKck1WQ01kUHNFVG4zN0ZWRkU5Xzk2dk1oMTE2NVMzZTB5YWxiTGh5N1hENW1ITdIB0AFBVV95cUxPOFhGeUpvbVowdVNaWThXaWJsQXMxMUF5cC1FbXlZWEF2MFkwX2NndG9xRXctbktZejhhNVBERE9yaEYyY082ZXV0ZmhZaE5Tc0t2dHJCcTRGcUI1cmNxVGxrZlVfcXlRRURnYVNNV3lGMHhRSXU1dXptUmlQZFpEMENyVURFWU42ejUyOVU1cXg3cDZpWHFzU0Q4dER3dW8wRi1jSGppRm15N0l6UFJFakZIMlR3WE9keURPaXBoZllaVFhQd0s0MUw5Q25oS28t?oc=5",
+        "title": "উৎসবে নিরামিষেও থাক বৈচিত্র, ভাতের সঙ্গে দিন তিলমোহিনী থেকে মুগেশ্বরী, রাঁধবেন কী করে",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS2Y5RmhjSzhicEtPNXpIWUVfUXdaYl8zcTdjUXBpQW5NMTY0OHJhbHBMNHJyRDFOenJCUXFsdEJnQ3l6eWFwRUpiRmduV2FpbDA4SUE2UVp6YkFwQTU0eHFSV0VaX3R4dVoxdnVMWjhiYk9OaENQS3NmZ3FWbEJNajA5OW1FN0dYQXhmVXozRmFPdGVaamR3MG1hYTNKck1WQ01kUHNFVG4zN0ZWRkU5Xzk2dk1oMTE2NVMzZTB5YWxiTGh5N1hENW1ITdIB0AFBVV95cUxPOFhGeUpvbVowdVNaWThXaWJsQXMxMUF5cC1FbXlZWEF2MFkwX2NndG9xRXctbktZejhhNVBERE9yaEYyY082ZXV0ZmhZaE5Tc0t2dHJCcTRGcUI1cmNxVGxrZlVfcXlRRURnYVNNV3lGMHhRSXU1dXptUmlQZFpEMENyVURFWU42ejUyOVU1cXg3cDZpWHFzU0Q4dER3dW8wRi1jSGppRm15N0l6UFJFakZIMlR3WE9keURPaXBoZllaVFhQd0s0MUw5Q25oS28t?oc=5",
+        "source": "Anandabazar Patrika",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 16 Oct 2026 13:50:14 GMT",
+        "summary": "উৎসবে নিরামিষেও থাক বৈচিত্র, ভাতের সঙ্গে দিন তিলমোহিনী থেকে মুগেশ্বরী, রাঁধবেন কী করে &nbsp;&nbsp; Anandabazar Patrika",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.anandabazar.com/lifestyle/festive-pure-veg-delights-how-to-cook-tilmohini-mugeshwari-and-more-for-rice-dgtl/cid/1720194",
+        "imageAttemptedAt": "2026-10-25T01:41:45.532Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQZU5UWlQ1ODA0WnY0TFYya3BmUjZod3daaXBxQmFVVlBGdm1hSHFKb3VUbEM3X0ZaZHBfbDR2bHpaaTZJZEhoSTFlTzVEME5CY2R1elNZYmtOeXpxUXljWFhONHBOUUNPLThKUmdrYkhlc0IxZzM4elNGdUtmdVRsVnZMVzRsRHNScFkwNkllZ0FfVS1XSTZ6dVRPdVVRSzNzaDJ2RlZlbC1qY2Jhd1A2b0FKUXVqU290ZW9haC1Vb2NBSHVaSnlXWC1QeDZBSTlGNFpaemRLdmRYcmNPRHJBUlJxYU53M0J4TXFLTEMydzBKVEV0U1FOYjdna3dNek5lejR6QjBGQ2czaTdTYWZScGcwdFlraTNBOHVILV9NTlhjbGlhdERTRHEtUFlqM0t6M2oyRldXbzlCQ2Z6MzB6MA?oc=5",
+        "title": "শিশুদের মাঝে লায়ন্স ক্লাব অব চট্টগ্রাম প্লাটিনামের খাদ্য বিতরণ",
+        "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQZU5UWlQ1ODA0WnY0TFYya3BmUjZod3daaXBxQmFVVlBGdm1hSHFKb3VUbEM3X0ZaZHBfbDR2bHpaaTZJZEhoSTFlTzVEME5CY2R1elNZYmtOeXpxUXljWFhONHBOUUNPLThKUmdrYkhlc0IxZzM4elNGdUtmdVRsVnZMVzRsRHNScFkwNkllZ0FfVS1XSTZ6dVRPdVVRSzNzaDJ2RlZlbC1qY2Jhd1A2b0FKUXVqU290ZW9haC1Vb2NBSHVaSnlXWC1QeDZBSTlGNFpaemRLdmRYcmNPRHJBUlJxYU53M0J4TXFLTEMydzBKVEV0U1FOYjdna3dNek5lejR6QjBGQ2czaTdTYWZScGcwdFlraTNBOHVILV9NTlhjbGlhdERTRHEtUFlqM0t6M2oyRldXbzlCQ2Z6MzB6MA?oc=5",
+        "source": "দৈনিক আজাদী",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 25 Oct 2026 02:15:00 GMT",
+        "summary": "শিশুদের মাঝে লায়ন্স ক্লাব অব চট্টগ্রাম প্লাটিনামের খাদ্য বিতরণ &nbsp;&nbsp; দৈনিক আজাদী",
+        "image": "https://dainikazadi.net/wp-content/uploads/2026/10/S-07-5.jpg",
+        "articleUrl": "https://dainikazadi.net/%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%9D%E0%A7%87-%E0%A6%B2%E0%A6%BE%E0%A7%9F%E0%A6%A8%E0%A7%8D%E0%A6%B8-%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE-2/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOVzRyVkpXTnZMMWZDaEJ1dk8tbVFjRkY2Q3otZ1N6TERiZzA5ZHBES0RSek1zVkZ5Z0Z3WE42Y2tzbENnbUFZRGpaLV9peDhNeE5iS0YtZ0l3Wm1FTmNvcXlJN3hqcGs?oc=5",
+        "title": "৪৫ কোটি টাকা ব্যয়ের পর খোঁজা হচ্ছে বিনিয়োগকারী",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOVzRyVkpXTnZMMWZDaEJ1dk8tbVFjRkY2Q3otZ1N6TERiZzA5ZHBES0RSek1zVkZ5Z0Z3WE42Y2tzbENnbUFZRGpaLV9peDhNeE5iS0YtZ0l3Wm1FTmNvcXlJN3hqcGs?oc=5",
+        "source": "Amader Shomoy",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 24 Oct 2026 18:00:00 GMT",
+        "summary": "৪৫ কোটি টাকা ব্যয়ের পর খোঁজা হচ্ছে বিনিয়োগকারী &nbsp;&nbsp; Amader Shomoy",
+        "image": "https://admin.dainikamadershomoy.com/images/large/2026/10/24/news_1792864456435.webp",
+        "articleUrl": "https://www.dainikamadershomoy.com/details/01a16f0c94a52",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14VDQxVHJER2s2TlFnUnZxS05ZMW13dC12eXR3NWMxM0lvQXNZTUY2UENobEtFT3lZdnBLSUFIYUlubGhZTW5HSUpqbmdMS3A4SUtoRWZYVGhEc2dQNC1xSU9iMkg3M0M2UWc?oc=5",
+        "title": "এলএনজি আমদানি, খাদ্য নিরাপত্তার জন্য বিশ্বব্যাংকের কাছে অতিরিক্ত ৩.৭৭ বিলিয়ন ডলার চায় সরকার",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14VDQxVHJER2s2TlFnUnZxS05ZMW13dC12eXR3NWMxM0lvQXNZTUY2UENobEtFT3lZdnBLSUFIYUlubGhZTW5HSUpqbmdMS3A4SUtoRWZYVGhEc2dQNC1xSU9iMkg3M0M2UWc?oc=5",
+        "source": "The Business Standard",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 24 Oct 2026 16:02:30 GMT",
+        "summary": "এলএনজি আমদানি, খাদ্য নিরাপত্তার জন্য বিশ্বব্যাংকের কাছে অতিরিক্ত ৩.৭৭ বিলিয়ন ডলার চায় সরকার &nbsp;&nbsp; The Business Standard",
+        "image": "https://www.tbsnews.net/bangla/sites/default/files/styles/social_share/public/images/2026/10/22/wb-loans.png",
+        "articleUrl": "https://www.tbsnews.net/bangla/Economy/news-details-555396",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SbjhwU1VuRTVvV1B4R1ZZcXQ4SGNKNVJlcVNjSHlxcnAwVXN5TGtiVFR3SUZNTTJIUWpiRGRkRXJDaWRXdUd4cm52ZTJKZHI0UldXLXRoemJKbkxCTGpj?oc=5",
+        "title": "দৃষ্টিশক্তি হারাতে না চাইলে পাতে রাখুন এই পুষ্টিকর খাবার",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SbjhwU1VuRTVvV1B4R1ZZcXQ4SGNKNVJlcVNjSHlxcnAwVXN5TGtiVFR3SUZNTTJIUWpiRGRkRXJDaWRXdUd4cm52ZTJKZHI0UldXLXRoemJKbkxCTGpj?oc=5",
+        "source": "24 Live Newspaper",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 25 Oct 2026 01:01:00 GMT",
+        "summary": "দৃষ্টিশক্তি হারাতে না চাইলে পাতে রাখুন এই পুষ্টিকর খাবার &nbsp;&nbsp; 24 Live Newspaper",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.bangla.24livenewspaper.com/post-160747",
+        "imageAttemptedAt": "2026-10-25T01:41:45.532Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi_wZBVV95cUxQc0czMmV2bGJsRTU2cDdSWmxmbXpRVC1KbEZxYXRZbnpMSzlqamV6eElTbC0wNWtqRDFXdWxvQjBMWGR5NGJPTk9Hck82d0Rna1c0WDFHRjhkWDBsNFQ3NEdiOFJ3bURxN3M2YXhfSzNFZzlKWGRQeE5OMDJXUVhDbGt1VU5pMEN5ejJySXkzWEVDNzV1SUo3SGllNkUya19nTE5uUGppSUZYWGVRV1FRSlZVTTdwYWJwQUtQODlQU2xyV3cwNEhEY28ta0FYOGZOdmJJVWdXS0FjWWtrSWRhek91QkI2LVlseGZETkdtdzVzRkpuRGplZ3lOU21FeU12V1o2OUxHUjNmbHpmd2VocmxRVl8tVHNNcDlwQm5CQTRnNFVPbXVJUVppTEU2RVo0d1RxS19wVDJJZ0ZrVll1cU5QMFo3UGZRWW0ycjRKWlRWYTVscjN3aFhTekNSRmNKZnR4eVpuRUhUTDVCTXQyQ1kyNS1fVTk1Z0l2bElrZWZlbVBMcXB0YzV1bnhnemR2d0VnMU9MNVl6ZzBkZnM0NnB1NjVNbXQwcGMtNURfcS1tLWJwZjRKMWhvYmhEbmRRbDRqWklNbGFyTzR0Vl9Bd2t4T2pVY2dNcHV3MkhmdGlJcjRYRmhmdUtURXVLSWRPOEd0cExMQlAxVndGUW1EZVM0Mlo0TTZJTHR6LUUtZTNRSWEwaXROZGZxYkNqaW01ZDhQdHFpUlp1NGdUMmg2S2NjbDNuZmNfekdfdDZkeHhXcHFvd3V3bHd2clhHTGVsbFNfSm9RaDBjaFpUU0NfdG1HcE5WWTlPMTZkTHVsSWdpeGtESnRNeHZZODMxZHZvVWZZQ2M5OTZqdFQ3YmxLckZUbFBRSGJjNWhuVWpEOTVOdFQzaHppZm8tN0tmLUZQTEsySGxuNE9kNjRPd2RZV3psY2NLVW1XUk1vMElZd2JYanNwUHQ5SXJNWGdSM2hzZXFVRER0d0FhdUNuWUFlcWlmUWdVRkNMSkJnb1hlS1JXekNZVkdmY0sxSkY3Rktmd0dyN3Q0eXl0Y3o0c25IdUxabWpqWUVaUU5USnRrbGY4LUc4NmtWbk04em1hOUZsck5kaTZSdElvWDJOLWpseGpMXzF3MXRCY2tZTk9tTXRfcUFnR2EtdDBUQ0JIMVFSOFJabk9oWWM1RlNTZHdR?oc=5",
+        "title": "শেরপুরে শহীদ দারোগালী পৌর পার্কে বেলা ২টা বাজলেই খাবারের অপেক্ষায় অসহায় মানুষ,",
+        "link": "https://news.google.com/rss/articles/CBMi_wZBVV95cUxQc0czMmV2bGJsRTU2cDdSWmxmbXpRVC1KbEZxYXRZbnpMSzlqamV6eElTbC0wNWtqRDFXdWxvQjBMWGR5NGJPTk9Hck82d0Rna1c0WDFHRjhkWDBsNFQ3NEdiOFJ3bURxN3M2YXhfSzNFZzlKWGRQeE5OMDJXUVhDbGt1VU5pMEN5ejJySXkzWEVDNzV1SUo3SGllNkUya19nTE5uUGppSUZYWGVRV1FRSlZVTTdwYWJwQUtQODlQU2xyV3cwNEhEY28ta0FYOGZOdmJJVWdXS0FjWWtrSWRhek91QkI2LVlseGZETkdtdzVzRkpuRGplZ3lOU21FeU12V1o2OUxHUjNmbHpmd2VocmxRVl8tVHNNcDlwQm5CQTRnNFVPbXVJUVppTEU2RVo0d1RxS19wVDJJZ0ZrVll1cU5QMFo3UGZRWW0ycjRKWlRWYTVscjN3aFhTekNSRmNKZnR4eVpuRUhUTDVCTXQyQ1kyNS1fVTk1Z0l2bElrZWZlbVBMcXB0YzV1bnhnemR2d0VnMU9MNVl6ZzBkZnM0NnB1NjVNbXQwcGMtNURfcS1tLWJwZjRKMWhvYmhEbmRRbDRqWklNbGFyTzR0Vl9Bd2t4T2pVY2dNcHV3MkhmdGlJcjRYRmhmdUtURXVLSWRPOEd0cExMQlAxVndGUW1EZVM0Mlo0TTZJTHR6LUUtZTNRSWEwaXROZGZxYkNqaW01ZDhQdHFpUlp1NGdUMmg2S2NjbDNuZmNfekdfdDZkeHhXcHFvd3V3bHd2clhHTGVsbFNfSm9RaDBjaFpUU0NfdG1HcE5WWTlPMTZkTHVsSWdpeGtESnRNeHZZODMxZHZvVWZZQ2M5OTZqdFQ3YmxLckZUbFBRSGJjNWhuVWpEOTVOdFQzaHppZm8tN0tmLUZQTEsySGxuNE9kNjRPd2RZV3psY2NLVW1XUk1vMElZd2JYanNwUHQ5SXJNWGdSM2hzZXFVRER0d0FhdUNuWUFlcWlmUWdVRkNMSkJnb1hlS1JXekNZVkdmY0sxSkY3Rktmd0dyN3Q0eXl0Y3o0c25IdUxabWpqWUVaUU5USnRrbGY4LUc4NmtWbk04em1hOUZsck5kaTZSdElvWDJOLWpseGpMXzF3MXRCY2tZTk9tTXRfcUFnR2EtdDBUQ0JIMVFSOFJabk9oWWM1RlNTZHdR?oc=5",
+        "source": "Banglar Alo News",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 24 Oct 2026 15:18:14 GMT",
+        "summary": "শেরপুরে শহীদ দারোগালী পৌর পার্কে বেলা ২টা বাজলেই খাবারের অপেক্ষায় অসহায় মানুষ, &nbsp;&nbsp; Banglar Alo News",
+        "image": "https://banglaralonews.com/public/facebookimages/6adccb2244af5.jpg",
+        "articleUrl": "https://banglaralonews.com/5551098/%E0%A6%B6%E0%A7%87%E0%A6%B0%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%B6%E0%A6%B9%E0%A7%80%E0%A6%A6-%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%B2%E0%A7%80-%E0%A6%AA%E0%A7%8C%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A7%A8%E0%A6%9F%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%B2%E0%A7%87%E0%A6%87-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AA%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A7%9F-%E0%A6%85%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7,",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      }
+    ],
     "international": [
       {
         "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTdHVqbzUwSlJENFdhLUd0R3dyVi1XRmJSSy0wa0JQVUJCdFBTYU1oU3dic0dxRElsdkx2V2dQVzU3aW1LRFNHM2FHQ0F4QkVud3BKeGR5SGlsMnA5WlJ3WlkwSQ?oc=5",
@@ -927,148 +1059,16 @@
         "imageAttemptedAt": "2026-10-24T18:59:15.810Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       }
-    ],
-    "food": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9EYndacWQ4ZFJUOWpPR3NNR2cxNy1lM2RnNzhTYkk5VHZmUHlwNlFlSDROZjM2T1U4MXFCWGR6QVJxeGc?oc=5",
-        "title": "গ্রামীণ নারী দিবস ও বিশ্ব খাদ্য দিবস পালিত",
-        "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9EYndacWQ4ZFJUOWpPR3NNR2cxNy1lM2RnNzhTYkk5VHZmUHlwNlFlSDROZjM2T1U4MXFCWGR6QVJxeGc?oc=5",
-        "source": "Daily Sunamkantha",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 24 Oct 2026 22:00:05 GMT",
-        "summary": "গ্রামীণ নারী দিবস ও বিশ্ব খাদ্য দিবস পালিত &nbsp;&nbsp; Daily Sunamkantha",
-        "image": "https://sunamkantha.com/public/postimages/6adcd76b5c1ef.jpg",
-        "articleUrl": "https://sunamkantha.com/12088",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHNEtidGpvVUJpNjVWdWFsM1RvV3VDWjMyN1JUdkZoRzJnWS1pR3hSSHp5dndyRjRJOWhZNDBLbDh6OUxNb3FoUHAxSWkzbGM?oc=5",
-        "title": "খাদ্য নিরাপত্তায় ইসলামের নির্দেশনা",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHNEtidGpvVUJpNjVWdWFsM1RvV3VDWjMyN1JUdkZoRzJnWS1pR3hSSHp5dndyRjRJOWhZNDBLbDh6OUxNb3FoUHAxSWkzbGM?oc=5",
-        "source": "www.news24bd.tv",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 24 Oct 2026 19:23:38 GMT",
-        "summary": "খাদ্য নিরাপত্তায় ইসলামের নির্দেশনা &nbsp;&nbsp; www.news24bd.tv",
-        "image": "https://asset.news24bd.tv/public/news_images/2026/10/25/1792869816-5f732a84bfba6ba0230e11ef4e49ba38.jpg",
-        "articleUrl": "https://www.news24bd.tv/details/304440",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE91M21UMDM3NF80R09tTXk1QmNPbTRZNDFrRnRMWS1CQzdqeHZvYm5YcXlwcEEwVFUxM0VkUk91bFZJdUVUTUZOMzBRdHdXZnJ1cjJmOGVicw?oc=5",
-        "title": "নাগরিকদের পানি ও খাবার মজুতের পরামর্শ দিল যুক্তরাজ্য সরকার",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE91M21UMDM3NF80R09tTXk1QmNPbTRZNDFrRnRMWS1CQzdqeHZvYm5YcXlwcEEwVFUxM0VkUk91bFZJdUVUTUZOMzBRdHdXZnJ1cjJmOGVicw?oc=5",
-        "source": "bdnews24.com",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 24 Oct 2026 15:44:00 GMT",
-        "summary": "নাগরিকদের পানি ও খাবার মজুতের পরামর্শ দিল যুক্তরাজ্য সরকার &nbsp;&nbsp; bdnews24.com",
-        "image": "https://media.assettype.com/bdnews24/2026-10-24/w49pb83b/wes-streeting-241026-01.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=https%3A%2F%2Fmedia.assettype.com%2Fbdnews24%2F2026-06-27%2Fm5wwkbzf%2F1024-bdnews-1725269350-1730989838.jpg&overlay_position=bottom&overlay_width=100",
-        "articleUrl": "https://bangla.bdnews24.com/world/twi0sz6thi",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oNi1oTEE1aGRoWGQyUzNmd2RhUVJtVk5PQkk5SWNha2JKRVQzWUcyWjgwampJTFFQZW1NN2syQ29CLTNpNEhCTERoU1c5SVl0?oc=5",
-        "title": "নাগরিকদের ঘরে তিন দিনের খাবার-পানি মজুতের পরামর্শ যুক্তরাজ্যের",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oNi1oTEE1aGRoWGQyUzNmd2RhUVJtVk5PQkk5SWNha2JKRVQzWUcyWjgwampJTFFQZW1NN2syQ29CLTNpNEhCTERoU1c5SVl0?oc=5",
-        "source": "Shomoyer Alo",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 24 Oct 2026 11:38:54 GMT",
-        "summary": "নাগরিকদের ঘরে তিন দিনের খাবার-পানি মজুতের পরামর্শ যুক্তরাজ্যের &nbsp;&nbsp; Shomoyer Alo",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.shomoyeralo.com/news/391471",
-        "imageAttemptedAt": "2026-10-25T01:41:45.532Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14VDQxVHJER2s2TlFnUnZxS05ZMW13dC12eXR3NWMxM0lvQXNZTUY2UENobEtFT3lZdnBLSUFIYUlubGhZTW5HSUpqbmdMS3A4SUtoRWZYVGhEc2dQNC1xSU9iMkg3M0M2UWc?oc=5",
-        "title": "এলএনজি আমদানি, খাদ্য নিরাপত্তার জন্য বিশ্বব্যাংকের কাছে অতিরিক্ত ৩.৭৭ বিলিয়ন ডলার চায় সরকার",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14VDQxVHJER2s2TlFnUnZxS05ZMW13dC12eXR3NWMxM0lvQXNZTUY2UENobEtFT3lZdnBLSUFIYUlubGhZTW5HSUpqbmdMS3A4SUtoRWZYVGhEc2dQNC1xSU9iMkg3M0M2UWc?oc=5",
-        "source": "The Business Standard",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 24 Oct 2026 16:02:30 GMT",
-        "summary": "এলএনজি আমদানি, খাদ্য নিরাপত্তার জন্য বিশ্বব্যাংকের কাছে অতিরিক্ত ৩.৭৭ বিলিয়ন ডলার চায় সরকার &nbsp;&nbsp; The Business Standard",
-        "image": "https://www.tbsnews.net/bangla/sites/default/files/styles/social_share/public/images/2026/10/22/wb-loans.png",
-        "articleUrl": "https://www.tbsnews.net/bangla/Economy/news-details-555396",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS2Y5RmhjSzhicEtPNXpIWUVfUXdaYl8zcTdjUXBpQW5NMTY0OHJhbHBMNHJyRDFOenJCUXFsdEJnQ3l6eWFwRUpiRmduV2FpbDA4SUE2UVp6YkFwQTU0eHFSV0VaX3R4dVoxdnVMWjhiYk9OaENQS3NmZ3FWbEJNajA5OW1FN0dYQXhmVXozRmFPdGVaamR3MG1hYTNKck1WQ01kUHNFVG4zN0ZWRkU5Xzk2dk1oMTE2NVMzZTB5YWxiTGh5N1hENW1ITdIB0AFBVV95cUxPOFhGeUpvbVowdVNaWThXaWJsQXMxMUF5cC1FbXlZWEF2MFkwX2NndG9xRXctbktZejhhNVBERE9yaEYyY082ZXV0ZmhZaE5Tc0t2dHJCcTRGcUI1cmNxVGxrZlVfcXlRRURnYVNNV3lGMHhRSXU1dXptUmlQZFpEMENyVURFWU42ejUyOVU1cXg3cDZpWHFzU0Q4dER3dW8wRi1jSGppRm15N0l6UFJFakZIMlR3WE9keURPaXBoZllaVFhQd0s0MUw5Q25oS28t?oc=5",
-        "title": "উৎসবে নিরামিষেও থাক বৈচিত্র, ভাতের সঙ্গে দিন তিলমোহিনী থেকে মুগেশ্বরী, রাঁধবেন কী করে",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS2Y5RmhjSzhicEtPNXpIWUVfUXdaYl8zcTdjUXBpQW5NMTY0OHJhbHBMNHJyRDFOenJCUXFsdEJnQ3l6eWFwRUpiRmduV2FpbDA4SUE2UVp6YkFwQTU0eHFSV0VaX3R4dVoxdnVMWjhiYk9OaENQS3NmZ3FWbEJNajA5OW1FN0dYQXhmVXozRmFPdGVaamR3MG1hYTNKck1WQ01kUHNFVG4zN0ZWRkU5Xzk2dk1oMTE2NVMzZTB5YWxiTGh5N1hENW1ITdIB0AFBVV95cUxPOFhGeUpvbVowdVNaWThXaWJsQXMxMUF5cC1FbXlZWEF2MFkwX2NndG9xRXctbktZejhhNVBERE9yaEYyY082ZXV0ZmhZaE5Tc0t2dHJCcTRGcUI1cmNxVGxrZlVfcXlRRURnYVNNV3lGMHhRSXU1dXptUmlQZFpEMENyVURFWU42ejUyOVU1cXg3cDZpWHFzU0Q4dER3dW8wRi1jSGppRm15N0l6UFJFakZIMlR3WE9keURPaXBoZllaVFhQd0s0MUw5Q25oS28t?oc=5",
-        "source": "Anandabazar Patrika",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 16 Oct 2026 13:50:14 GMT",
-        "summary": "উৎসবে নিরামিষেও থাক বৈচিত্র, ভাতের সঙ্গে দিন তিলমোহিনী থেকে মুগেশ্বরী, রাঁধবেন কী করে &nbsp;&nbsp; Anandabazar Patrika",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.anandabazar.com/lifestyle/festive-pure-veg-delights-how-to-cook-tilmohini-mugeshwari-and-more-for-rice-dgtl/cid/1720194",
-        "imageAttemptedAt": "2026-10-25T01:41:45.532Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOVzRyVkpXTnZMMWZDaEJ1dk8tbVFjRkY2Q3otZ1N6TERiZzA5ZHBES0RSek1zVkZ5Z0Z3WE42Y2tzbENnbUFZRGpaLV9peDhNeE5iS0YtZ0l3Wm1FTmNvcXlJN3hqcGs?oc=5",
-        "title": "৪৫ কোটি টাকা ব্যয়ের পর খোঁজা হচ্ছে বিনিয়োগকারী",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOVzRyVkpXTnZMMWZDaEJ1dk8tbVFjRkY2Q3otZ1N6TERiZzA5ZHBES0RSek1zVkZ5Z0Z3WE42Y2tzbENnbUFZRGpaLV9peDhNeE5iS0YtZ0l3Wm1FTmNvcXlJN3hqcGs?oc=5",
-        "source": "Amader Shomoy",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 24 Oct 2026 18:00:00 GMT",
-        "summary": "৪৫ কোটি টাকা ব্যয়ের পর খোঁজা হচ্ছে বিনিয়োগকারী &nbsp;&nbsp; Amader Shomoy",
-        "image": "https://admin.dainikamadershomoy.com/images/large/2026/10/24/news_1792864456435.webp",
-        "articleUrl": "https://www.dainikamadershomoy.com/details/01a16f0c94a52",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmSGFGSEFHbEZzRDlVSjRFS3lRRXpjdHhxaTNYcnlZbEZsczdxMHB5TzFBRDhfTkJ1N1JTTEZUcG9Bbk44YnRkU0IyOEwxU1NMbENkZw?oc=5",
-        "title": "খাবারে চেতনানাশক মিশিয়ে কিশোরীকে ধর্ষণের অভিযোগ প্রতিবেশীর বিরুদ্ধে",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmSGFGSEFHbEZzRDlVSjRFS3lRRXpjdHhxaTNYcnlZbEZsczdxMHB5TzFBRDhfTkJ1N1JTTEZUcG9Bbk44YnRkU0IyOEwxU1NMbENkZw?oc=5",
-        "source": "bvnews24",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 24 Oct 2026 20:34:56 GMT",
-        "summary": "খাবারে চেতনানাশক মিশিয়ে কিশোরীকে ধর্ষণের অভিযোগ প্রতিবেশীর বিরুদ্ধে &nbsp;&nbsp; bvnews24",
-        "image": "https://www.bvnews24.com/media/imgAll/2026April/rape-2610241913.png",
-        "articleUrl": "https://www.bvnews24.com/crime/news/219561",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SbjhwU1VuRTVvV1B4R1ZZcXQ4SGNKNVJlcVNjSHlxcnAwVXN5TGtiVFR3SUZNTTJIUWpiRGRkRXJDaWRXdUd4cm52ZTJKZHI0UldXLXRoemJKbkxCTGpj?oc=5",
-        "title": "দৃষ্টিশক্তি হারাতে না চাইলে পাতে রাখুন এই পুষ্টিকর খাবার",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SbjhwU1VuRTVvV1B4R1ZZcXQ4SGNKNVJlcVNjSHlxcnAwVXN5TGtiVFR3SUZNTTJIUWpiRGRkRXJDaWRXdUd4cm52ZTJKZHI0UldXLXRoemJKbkxCTGpj?oc=5",
-        "source": "24 Live Newspaper",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 25 Oct 2026 01:01:00 GMT",
-        "summary": "দৃষ্টিশক্তি হারাতে না চাইলে পাতে রাখুন এই পুষ্টিকর খাবার &nbsp;&nbsp; 24 Live Newspaper",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.bangla.24livenewspaper.com/post-160747",
-        "imageAttemptedAt": "2026-10-25T01:41:45.532Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi_wZBVV95cUxQc0czMmV2bGJsRTU2cDdSWmxmbXpRVC1KbEZxYXRZbnpMSzlqamV6eElTbC0wNWtqRDFXdWxvQjBMWGR5NGJPTk9Hck82d0Rna1c0WDFHRjhkWDBsNFQ3NEdiOFJ3bURxN3M2YXhfSzNFZzlKWGRQeE5OMDJXUVhDbGt1VU5pMEN5ejJySXkzWEVDNzV1SUo3SGllNkUya19nTE5uUGppSUZYWGVRV1FRSlZVTTdwYWJwQUtQODlQU2xyV3cwNEhEY28ta0FYOGZOdmJJVWdXS0FjWWtrSWRhek91QkI2LVlseGZETkdtdzVzRkpuRGplZ3lOU21FeU12V1o2OUxHUjNmbHpmd2VocmxRVl8tVHNNcDlwQm5CQTRnNFVPbXVJUVppTEU2RVo0d1RxS19wVDJJZ0ZrVll1cU5QMFo3UGZRWW0ycjRKWlRWYTVscjN3aFhTekNSRmNKZnR4eVpuRUhUTDVCTXQyQ1kyNS1fVTk1Z0l2bElrZWZlbVBMcXB0YzV1bnhnemR2d0VnMU9MNVl6ZzBkZnM0NnB1NjVNbXQwcGMtNURfcS1tLWJwZjRKMWhvYmhEbmRRbDRqWklNbGFyTzR0Vl9Bd2t4T2pVY2dNcHV3MkhmdGlJcjRYRmhmdUtURXVLSWRPOEd0cExMQlAxVndGUW1EZVM0Mlo0TTZJTHR6LUUtZTNRSWEwaXROZGZxYkNqaW01ZDhQdHFpUlp1NGdUMmg2S2NjbDNuZmNfekdfdDZkeHhXcHFvd3V3bHd2clhHTGVsbFNfSm9RaDBjaFpUU0NfdG1HcE5WWTlPMTZkTHVsSWdpeGtESnRNeHZZODMxZHZvVWZZQ2M5OTZqdFQ3YmxLckZUbFBRSGJjNWhuVWpEOTVOdFQzaHppZm8tN0tmLUZQTEsySGxuNE9kNjRPd2RZV3psY2NLVW1XUk1vMElZd2JYanNwUHQ5SXJNWGdSM2hzZXFVRER0d0FhdUNuWUFlcWlmUWdVRkNMSkJnb1hlS1JXekNZVkdmY0sxSkY3Rktmd0dyN3Q0eXl0Y3o0c25IdUxabWpqWUVaUU5USnRrbGY4LUc4NmtWbk04em1hOUZsck5kaTZSdElvWDJOLWpseGpMXzF3MXRCY2tZTk9tTXRfcUFnR2EtdDBUQ0JIMVFSOFJabk9oWWM1RlNTZHdR?oc=5",
-        "title": "শেরপুরে শহীদ দারোগালী পৌর পার্কে বেলা ২টা বাজলেই খাবারের অপেক্ষায় অসহায় মানুষ,",
-        "link": "https://news.google.com/rss/articles/CBMi_wZBVV95cUxQc0czMmV2bGJsRTU2cDdSWmxmbXpRVC1KbEZxYXRZbnpMSzlqamV6eElTbC0wNWtqRDFXdWxvQjBMWGR5NGJPTk9Hck82d0Rna1c0WDFHRjhkWDBsNFQ3NEdiOFJ3bURxN3M2YXhfSzNFZzlKWGRQeE5OMDJXUVhDbGt1VU5pMEN5ejJySXkzWEVDNzV1SUo3SGllNkUya19nTE5uUGppSUZYWGVRV1FRSlZVTTdwYWJwQUtQODlQU2xyV3cwNEhEY28ta0FYOGZOdmJJVWdXS0FjWWtrSWRhek91QkI2LVlseGZETkdtdzVzRkpuRGplZ3lOU21FeU12V1o2OUxHUjNmbHpmd2VocmxRVl8tVHNNcDlwQm5CQTRnNFVPbXVJUVppTEU2RVo0d1RxS19wVDJJZ0ZrVll1cU5QMFo3UGZRWW0ycjRKWlRWYTVscjN3aFhTekNSRmNKZnR4eVpuRUhUTDVCTXQyQ1kyNS1fVTk1Z0l2bElrZWZlbVBMcXB0YzV1bnhnemR2d0VnMU9MNVl6ZzBkZnM0NnB1NjVNbXQwcGMtNURfcS1tLWJwZjRKMWhvYmhEbmRRbDRqWklNbGFyTzR0Vl9Bd2t4T2pVY2dNcHV3MkhmdGlJcjRYRmhmdUtURXVLSWRPOEd0cExMQlAxVndGUW1EZVM0Mlo0TTZJTHR6LUUtZTNRSWEwaXROZGZxYkNqaW01ZDhQdHFpUlp1NGdUMmg2S2NjbDNuZmNfekdfdDZkeHhXcHFvd3V3bHd2clhHTGVsbFNfSm9RaDBjaFpUU0NfdG1HcE5WWTlPMTZkTHVsSWdpeGtESnRNeHZZODMxZHZvVWZZQ2M5OTZqdFQ3YmxLckZUbFBRSGJjNWhuVWpEOTVOdFQzaHppZm8tN0tmLUZQTEsySGxuNE9kNjRPd2RZV3psY2NLVW1XUk1vMElZd2JYanNwUHQ5SXJNWGdSM2hzZXFVRER0d0FhdUNuWUFlcWlmUWdVRkNMSkJnb1hlS1JXekNZVkdmY0sxSkY3Rktmd0dyN3Q0eXl0Y3o0c25IdUxabWpqWUVaUU5USnRrbGY4LUc4NmtWbk04em1hOUZsck5kaTZSdElvWDJOLWpseGpMXzF3MXRCY2tZTk9tTXRfcUFnR2EtdDBUQ0JIMVFSOFJabk9oWWM1RlNTZHdR?oc=5",
-        "source": "Banglar Alo News",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 24 Oct 2026 15:18:14 GMT",
-        "summary": "শেরপুরে শহীদ দারোগালী পৌর পার্কে বেলা ২টা বাজলেই খাবারের অপেক্ষায় অসহায় মানুষ, &nbsp;&nbsp; Banglar Alo News",
-        "image": "https://banglaralonews.com/public/facebookimages/6adccb2244af5.jpg",
-        "articleUrl": "https://banglaralonews.com/5551098/%E0%A6%B6%E0%A7%87%E0%A6%B0%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%B6%E0%A6%B9%E0%A7%80%E0%A6%A6-%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%B2%E0%A7%80-%E0%A6%AA%E0%A7%8C%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A7%A8%E0%A6%9F%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%B2%E0%A7%87%E0%A6%87-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AA%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A7%9F-%E0%A6%85%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7,",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      }
     ]
   },
   "sourceErrors": [],
   "imageStats": {
     "total": 80,
     "fromRss": 0,
-    "fromArticleMetadata": 20,
+    "fromArticleMetadata": 19,
     "reusedCached": 18,
-    "actualPhotos": 20,
-    "fallbackIllustrations": 60,
+    "actualPhotos": 19,
+    "fallbackIllustrations": 61,
     "withImage": 80,
     "withoutImage": 0
   }
