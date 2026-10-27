@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-27T06:57:04.832Z",
+  "generatedAt": "2026-10-27T07:44:26.578Z",
   "sponsors": {
     "somoy": [
       {
@@ -69,19 +69,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1xbUwyTENQNnZFX1p6WjNzOE9OSVo2ZVNJQnFLSlAzLVZHaXZDSVZEQ3pMU25NTDFkR2ZqbXNPQXpuVTZyYnNhcEFhb2tNMlpHdHJrQTF5dFltOUtYS1c0ZTV5dE45R2VodkxGbFhWWQ?oc=5",
-        "title": "World Cup Players - সময় নিউজ",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1xbUwyTENQNnZFX1p6WjNzOE9OSVo2ZVNJQnFLSlAzLVZHaXZDSVZEQ3pMU25NTDFkR2ZqbXNPQXpuVTZyYnNhcEFhb2tNMlpHdHJrQTF5dFltOUtYS1c0ZTV5dE45R2VodkxGbFhWWQ?oc=5",
-        "source": "সময় টিভি",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 07 Jun 2024 16:54:19 GMT",
-        "summary": "World Cup Players &nbsp;&nbsp; সময় নিউজ",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.somoynews.tv/world-cup/icc-t20/players/shivam-dube",
-        "imageAttemptedAt": "2026-10-26T10:59:32.937Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EaVFrUXBKaVF6RFB6Y3lUQkc2ZlNHdGVHNEsyRlkyTVc1RDFLX3lRWVlia082c2x3M2dnY2puUGkyWXYwSlYwUkxwSEtLV05zbVl1THB0M0lzWVFoSHc?oc=5",
         "title": "তোমার অভাব প্রতিটি মুহূর্তে অনুভব করি: অপু বিশ্বা...",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EaVFrUXBKaVF6RFB6Y3lUQkc2ZlNHdGVHNEsyRlkyTVc1RDFLX3lRWVlia082c2x3M2dnY2puUGkyWXYwSlYwUkxwSEtLV05zbVl1THB0M0lzWVFoSHc?oc=5",
@@ -92,6 +79,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.somoynews.tv/news/2025-09-18/NzxuD1YB",
         "imageAttemptedAt": "2026-10-27T03:18:14.628Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kcEE4ZXdKSVE1Q1lGMzR3Q1ZZeXJ5TWpPODJDUElNbkNoVFdIeGRiR01YQlRHc3d1Uy04NkNTM1A1VXVWR1RXYWdTWi1GVFR5UVJSU3N3dGl1QTBBRGc?oc=5",
+        "title": "মাদারীপুরে ইসলামী আন্দোলনের গণসমাবেশ",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kcEE4ZXdKSVE1Q1lGMzR3Q1ZZeXJ5TWpPODJDUElNbkNoVFdIeGRiR01YQlRHc3d1Uy04NkNTM1A1VXVWR1RXYWdTWi1GVFR5UVJSU3N3dGl1QTBBRGc?oc=5",
+        "source": "সময় টিভি",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 09 Aug 2024 07:00:00 GMT",
+        "summary": "মাদারীপুরে ইসলামী আন্দোলনের গণসমাবেশ &nbsp;&nbsp; সময় নিউজ",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.somoynews.tv/news/2024-08-09/W6KVXM23",
+        "imageAttemptedAt": "2026-10-27T07:44:29.176Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -131,138 +131,6 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.somoynews.tv/news/2024-05-15/XD00wTLD",
         "imageAttemptedAt": "2026-10-27T06:57:11.701Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      }
-    ],
-    "ntv": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1ZZjhSQjVOTUIxTFBMV3dpRkVpMW5sQUFaUkM1OVlNY3RwM2tELS1CTEQtVGUtNDIxZ2c?oc=5",
-        "title": "NTV: Latest Bangla News, Infotainment, Online & Live TV | NTV Online",
-        "link": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1ZZjhSQjVOTUIxTFBMV3dpRkVpMW5sQUFaUkM1OVlNY3RwM2tELS1CTEQtVGUtNDIxZ2c?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 21 Apr 2017 03:02:59 GMT",
-        "summary": "NTV: Latest Bangla News, Infotainment, Online & Live TV | NTV Online &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "",
-        "imageAttemptedAt": "2026-10-26T20:53:59.134Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTVF5ZDN3YkJiLWJBckVLYmE3WUhZaE9yblQ1RFIzTXhkazBRbXptQndXY0h3VHpvVE5ndEdESnJwdTh1bkFLNjcyYzc2cXZaUWgzYmg4VGVWQkFxcW5Ddm5SWWdWY2RiT3dCZVFQVGQ3Uk04THJrTGU0aGVMUUh1UFk4QktyeG9OMlRSZW0tNGRBd0ZBenBn?oc=5",
-        "title": "মধ্যরাতের খবর : ২৭ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTVF5ZDN3YkJiLWJBckVLYmE3WUhZaE9yblQ1RFIzTXhkazBRbXptQndXY0h3VHpvVE5ndEdESnJwdTh1bkFLNjcyYzc2cXZaUWgzYmg4VGVWQkFxcW5Ddm5SWWdWY2RiT3dCZVFQVGQ3Uk04THJrTGU0aGVMUUh1UFk4QktyeG9OMlRSZW0tNGRBd0ZBenBn?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 26 Oct 2026 20:40:19 GMT",
-        "summary": "মধ্যরাতের খবর : ২৭ অক্টোবর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/moddhoraater-khobor/moddho-rater-khobor-27-october-2026",
-        "imageAttemptedAt": "2026-10-26T20:53:59.134Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VbDR2TTV3OXZDdTYyaDhPQVF1Mm0xZnptMEpPRmFWQmJGTGhXM1ExT2k5VndFSTFXRTNCMDQ2QVpDWmZ0enJZRlJKNDJCVHZCYk5DRmxxS0U4TVU3d1Fxbk44YVVKdkdWNmMyRzRleTVwYUk?oc=5",
-        "title": "এই সময় : পর্ব ৫০০৫",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VbDR2TTV3OXZDdTYyaDhPQVF1Mm0xZnptMEpPRmFWQmJGTGhXM1ExT2k5VndFSTFXRTNCMDQ2QVpDWmZ0enJZRlJKNDJCVHZCYk5DRmxxS0U4TVU3d1Fxbk44YVVKdkdWNmMyRzRleTVwYUk?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 26 Oct 2026 20:11:15 GMT",
-        "summary": "এই সময় : পর্ব ৫০০৫ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/discussion/ei-shomoy/ei-somoy-ep-5005",
-        "imageAttemptedAt": "2026-10-26T20:13:50.138Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMW1HQkVrdmZFQi16QmFDOUh5MFVGWnlYSXNkMzdYRWpUNFpvTlFKS1FWaUY0eDBoeEpSUEdCdmVtQjdzN2FjTEs1b0EzTHNoZ1pkTFJpekxTWUh2dU50VElUblhHSzIya1BGV25kOXI4NlFSRFBVOVNMb2JiSzVQTklSSQ?oc=5",
-        "title": "স্বাস্থ্য প্রতিদিন : পর্ব ৬০১৮",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMW1HQkVrdmZFQi16QmFDOUh5MFVGWnlYSXNkMzdYRWpUNFpvTlFKS1FWaUY0eDBoeEpSUEdCdmVtQjdzN2FjTEs1b0EzTHNoZ1pkTFJpekxTWUh2dU50VElUblhHSzIya1BGV25kOXI4NlFSRFBVOVNMb2JiSzVQTklSSQ?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 26 Oct 2026 13:48:53 GMT",
-        "summary": "স্বাস্থ্য প্রতিদিন : পর্ব ৬০১৮ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/health/swasthyo-protidin/shastho-protidin-ep-6018",
-        "imageAttemptedAt": "2026-10-26T14:07:07.076Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03UHBaZENYZVNwS1J6NURyMmJDZmhuQXd2Q1JGRG01LWxMYnlscEFvOWozOHpDUlNUQXhZV2tBZndhb043SGlMdFhYN0dfT3RZakJlblRycDRBMml3R1JPeHhyLVlFdHpLSExwNk56cEJPQmJsQWhEdEdQbw?oc=5",
-        "title": "কোরআনুল কারিম : পর্ব ৪৭৩",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03UHBaZENYZVNwS1J6NURyMmJDZmhuQXd2Q1JGRG01LWxMYnlscEFvOWozOHpDUlNUQXhZV2tBZndhb043SGlMdFhYN0dfT3RZakJlblRycDRBMml3R1JPeHhyLVlFdHpLSExwNk56cEJPQmJsQWhEdEdQbw?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 27 Oct 2026 01:08:41 GMT",
-        "summary": "কোরআনুল কারিম : পর্ব ৪৭৩ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/religion/quranul-karim/quranul-karim-ep-473",
-        "imageAttemptedAt": "2026-10-27T01:25:17.282Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOUpUVS0yaC1OcTZqbHQtWURVRlM3aUpMNXpmZUtzN3pOWkRUREx1dXFCNm9TN2JZQUllZ1Y5TUFUS09Za01SS2xVMHc4NGxjZjZfbkc2dDdjMGF5U00wMkQ5bTBJR2VXcUlES2h2eGY5Unc0RjdMR01QUmwxdzVVR21Gc2dRdDQ?oc=5",
-        "title": "দেশের খবর : ২৬ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOUpUVS0yaC1OcTZqbHQtWURVRlM3aUpMNXpmZUtzN3pOWkRUREx1dXFCNm9TN2JZQUllZ1Y5TUFUS09Za01SS2xVMHc4NGxjZjZfbkc2dDdjMGF5U00wMkQ5bTBJR2VXcUlES2h2eGY5Unc0RjdMR01QUmwxdzVVR21Gc2dRdDQ?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 26 Oct 2026 13:30:17 GMT",
-        "summary": "দেশের খবর : ২৬ অক্টোবর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/desher-khobor/desher-khobor-26-october-2026",
-        "imageAttemptedAt": "2026-10-26T14:07:07.076Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVktvQmJZZFBLX3paOC1BcGdraUdBQXBUVXEyZ0VFeVhPOHVFSlBmVnNKb2hKWDhIbnVndUR6dXlkNnpWVnlIUHNnN1d4UlNEbFdsTF8tYVNySXpNbkFGWmctbjdhblF0Wm1kN1pCMDZCeEFtWlVVSWxiRGNWU3Q5Sl9mc3Etdw?oc=5",
-        "title": "সংলাপ প্রতিদিন (লাইভ) : পর্ব ৬৯৮",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVktvQmJZZFBLX3paOC1BcGdraUdBQXBUVXEyZ0VFeVhPOHVFSlBmVnNKb2hKWDhIbnVndUR6dXlkNnpWVnlIUHNnN1d4UlNEbFdsTF8tYVNySXpNbkFGWmctbjdhblF0Wm1kN1pCMDZCeEFtWlVVSWxiRGNWU3Q5Sl9mc3Etdw?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 26 Oct 2026 16:23:33 GMT",
-        "summary": "সংলাপ প্রতিদিন (লাইভ) : পর্ব ৬৯৮ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/discussion/songlap-protidin/songlap-protidin-ep-698",
-        "imageAttemptedAt": "2026-10-26T16:33:40.912Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QdlRXY2ZHZGFZY3g4ZVlxdThzV1VnbFFpRnZkNDdDcnhpNHRMVkp5M19sdDdLQllDYUh6UUhMSEZQdXJfQ0RIbHNOSmFMVUZGMWxGaGtlT3NuVmRpb2o2MHNWd2dPa056b0Q2V3dkbEtRZm5sc0JJbDdCNWtaUlk?oc=5",
-        "title": "কোরআনুল কারিম : পর্ব ৪৭২",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QdlRXY2ZHZGFZY3g4ZVlxdThzV1VnbFFpRnZkNDdDcnhpNHRMVkp5M19sdDdLQllDYUh6UUhMSEZQdXJfQ0RIbHNOSmFMVUZGMWxGaGtlT3NuVmRpb2o2MHNWd2dPa056b0Q2V3dkbEtRZm5sc0JJbDdCNWtaUlk?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 26 Oct 2026 01:24:25 GMT",
-        "summary": "কোরআনুল কারিম : পর্ব ৪৭২ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://web221.ntvbd.com/video/religion/quranul-karim/quranul-karim-ep-472",
-        "imageAttemptedAt": "2026-10-27T06:06:17.869Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd0tORDdxZExXT0hCZnRPNFoxam1MUUVEZHpQbjExa0RLLXphdTBZUEVlT3YwTmFUQVlBbk80VzFWUlVueGVCNGwxM29lajc0d3lnQ3FvZGQxMU13QVZGYkYtZkFSM1JpaGgtUldjcWM0eUtuMXk2cl9iQmZGUjZhUXZDOUpNSFNQYm56bGh3?oc=5",
-        "title": "সন্ধ্যার খবর : ২৬ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd0tORDdxZExXT0hCZnRPNFoxam1MUUVEZHpQbjExa0RLLXphdTBZUEVlT3YwTmFUQVlBbk80VzFWUlVueGVCNGwxM29lajc0d3lnQ3FvZGQxMU13QVZGYkYtZkFSM1JpaGgtUldjcWM0eUtuMXk2cl9iQmZGUjZhUXZDOUpNSFNQYm56bGh3?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 26 Oct 2026 16:25:42 GMT",
-        "summary": "সন্ধ্যার খবর : ২৬ অক্টোবর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/shondhyar-khobor/shondhar-khobor-26-october-2026",
-        "imageAttemptedAt": "2026-10-26T16:33:40.912Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11X1hNU2xzeUcyZVNiRGNaWmg1N2g4YjB3THRXQXhLNHFWVTl5OWFmQUlHcGdLSl9CdmgwUmtSZVNxTnpOYlVmRTlaNjNqbGVZcHRsUFh3cWpqRUZlbXBlTy1jMy1YQW05aUFsN3ptZHppcTBWc1RPdV9kX214bzA?oc=5",
-        "title": "এনটিভি'র নিমন্ত্রণে : পর্ব ৩৯৫",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11X1hNU2xzeUcyZVNiRGNaWmg1N2g4YjB3THRXQXhLNHFWVTl5OWFmQUlHcGdLSl9CdmgwUmtSZVNxTnpOYlVmRTlaNjNqbGVZcHRsUFh3cWpqRUZlbXBlTy1jMy1YQW05aUFsN3ptZHppcTBWc1RPdV9kX214bzA?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 27 Oct 2026 05:47:25 GMT",
-        "summary": "এনটিভি'র নিমন্ত্রণে : পর্ব ৩৯৫ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/discussion/ntv-nimontron/ntv-nimontrone-ep-395",
-        "imageAttemptedAt": "2026-10-27T06:06:17.869Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -398,6 +266,138 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
+    "ntv": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1ZZjhSQjVOTUIxTFBMV3dpRkVpMW5sQUFaUkM1OVlNY3RwM2tELS1CTEQtVGUtNDIxZ2c?oc=5",
+        "title": "NTV: Latest Bangla News, Infotainment, Online & Live TV | NTV Online",
+        "link": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1ZZjhSQjVOTUIxTFBMV3dpRkVpMW5sQUFaUkM1OVlNY3RwM2tELS1CTEQtVGUtNDIxZ2c?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 21 Apr 2017 03:02:59 GMT",
+        "summary": "NTV: Latest Bangla News, Infotainment, Online & Live TV | NTV Online &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "",
+        "imageAttemptedAt": "2026-10-26T20:53:59.134Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTVF5ZDN3YkJiLWJBckVLYmE3WUhZaE9yblQ1RFIzTXhkazBRbXptQndXY0h3VHpvVE5ndEdESnJwdTh1bkFLNjcyYzc2cXZaUWgzYmg4VGVWQkFxcW5Ddm5SWWdWY2RiT3dCZVFQVGQ3Uk04THJrTGU0aGVMUUh1UFk4QktyeG9OMlRSZW0tNGRBd0ZBenBn?oc=5",
+        "title": "মধ্যরাতের খবর : ২৭ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTVF5ZDN3YkJiLWJBckVLYmE3WUhZaE9yblQ1RFIzTXhkazBRbXptQndXY0h3VHpvVE5ndEdESnJwdTh1bkFLNjcyYzc2cXZaUWgzYmg4VGVWQkFxcW5Ddm5SWWdWY2RiT3dCZVFQVGQ3Uk04THJrTGU0aGVMUUh1UFk4QktyeG9OMlRSZW0tNGRBd0ZBenBn?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 26 Oct 2026 20:40:19 GMT",
+        "summary": "মধ্যরাতের খবর : ২৭ অক্টোবর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/moddhoraater-khobor/moddho-rater-khobor-27-october-2026",
+        "imageAttemptedAt": "2026-10-26T20:53:59.134Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VbDR2TTV3OXZDdTYyaDhPQVF1Mm0xZnptMEpPRmFWQmJGTGhXM1ExT2k5VndFSTFXRTNCMDQ2QVpDWmZ0enJZRlJKNDJCVHZCYk5DRmxxS0U4TVU3d1Fxbk44YVVKdkdWNmMyRzRleTVwYUk?oc=5",
+        "title": "এই সময় : পর্ব ৫০০৫",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VbDR2TTV3OXZDdTYyaDhPQVF1Mm0xZnptMEpPRmFWQmJGTGhXM1ExT2k5VndFSTFXRTNCMDQ2QVpDWmZ0enJZRlJKNDJCVHZCYk5DRmxxS0U4TVU3d1Fxbk44YVVKdkdWNmMyRzRleTVwYUk?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 26 Oct 2026 20:11:15 GMT",
+        "summary": "এই সময় : পর্ব ৫০০৫ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/discussion/ei-shomoy/ei-somoy-ep-5005",
+        "imageAttemptedAt": "2026-10-26T20:13:50.138Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMW1HQkVrdmZFQi16QmFDOUh5MFVGWnlYSXNkMzdYRWpUNFpvTlFKS1FWaUY0eDBoeEpSUEdCdmVtQjdzN2FjTEs1b0EzTHNoZ1pkTFJpekxTWUh2dU50VElUblhHSzIya1BGV25kOXI4NlFSRFBVOVNMb2JiSzVQTklSSQ?oc=5",
+        "title": "স্বাস্থ্য প্রতিদিন : পর্ব ৬০১৮",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMW1HQkVrdmZFQi16QmFDOUh5MFVGWnlYSXNkMzdYRWpUNFpvTlFKS1FWaUY0eDBoeEpSUEdCdmVtQjdzN2FjTEs1b0EzTHNoZ1pkTFJpekxTWUh2dU50VElUblhHSzIya1BGV25kOXI4NlFSRFBVOVNMb2JiSzVQTklSSQ?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 26 Oct 2026 13:48:53 GMT",
+        "summary": "স্বাস্থ্য প্রতিদিন : পর্ব ৬০১৮ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/health/swasthyo-protidin/shastho-protidin-ep-6018",
+        "imageAttemptedAt": "2026-10-26T14:07:07.076Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03UHBaZENYZVNwS1J6NURyMmJDZmhuQXd2Q1JGRG01LWxMYnlscEFvOWozOHpDUlNUQXhZV2tBZndhb043SGlMdFhYN0dfT3RZakJlblRycDRBMml3R1JPeHhyLVlFdHpLSExwNk56cEJPQmJsQWhEdEdQbw?oc=5",
+        "title": "কোরআনুল কারিম : পর্ব ৪৭৩",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03UHBaZENYZVNwS1J6NURyMmJDZmhuQXd2Q1JGRG01LWxMYnlscEFvOWozOHpDUlNUQXhZV2tBZndhb043SGlMdFhYN0dfT3RZakJlblRycDRBMml3R1JPeHhyLVlFdHpLSExwNk56cEJPQmJsQWhEdEdQbw?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 27 Oct 2026 01:08:41 GMT",
+        "summary": "কোরআনুল কারিম : পর্ব ৪৭৩ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/religion/quranul-karim/quranul-karim-ep-473",
+        "imageAttemptedAt": "2026-10-27T01:25:17.282Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOUpUVS0yaC1OcTZqbHQtWURVRlM3aUpMNXpmZUtzN3pOWkRUREx1dXFCNm9TN2JZQUllZ1Y5TUFUS09Za01SS2xVMHc4NGxjZjZfbkc2dDdjMGF5U00wMkQ5bTBJR2VXcUlES2h2eGY5Unc0RjdMR01QUmwxdzVVR21Gc2dRdDQ?oc=5",
+        "title": "দেশের খবর : ২৬ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOUpUVS0yaC1OcTZqbHQtWURVRlM3aUpMNXpmZUtzN3pOWkRUREx1dXFCNm9TN2JZQUllZ1Y5TUFUS09Za01SS2xVMHc4NGxjZjZfbkc2dDdjMGF5U00wMkQ5bTBJR2VXcUlES2h2eGY5Unc0RjdMR01QUmwxdzVVR21Gc2dRdDQ?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 26 Oct 2026 13:30:17 GMT",
+        "summary": "দেশের খবর : ২৬ অক্টোবর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/desher-khobor/desher-khobor-26-october-2026",
+        "imageAttemptedAt": "2026-10-26T14:07:07.076Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVktvQmJZZFBLX3paOC1BcGdraUdBQXBUVXEyZ0VFeVhPOHVFSlBmVnNKb2hKWDhIbnVndUR6dXlkNnpWVnlIUHNnN1d4UlNEbFdsTF8tYVNySXpNbkFGWmctbjdhblF0Wm1kN1pCMDZCeEFtWlVVSWxiRGNWU3Q5Sl9mc3Etdw?oc=5",
+        "title": "সংলাপ প্রতিদিন (লাইভ) : পর্ব ৬৯৮",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVktvQmJZZFBLX3paOC1BcGdraUdBQXBUVXEyZ0VFeVhPOHVFSlBmVnNKb2hKWDhIbnVndUR6dXlkNnpWVnlIUHNnN1d4UlNEbFdsTF8tYVNySXpNbkFGWmctbjdhblF0Wm1kN1pCMDZCeEFtWlVVSWxiRGNWU3Q5Sl9mc3Etdw?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 26 Oct 2026 16:23:33 GMT",
+        "summary": "সংলাপ প্রতিদিন (লাইভ) : পর্ব ৬৯৮ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/discussion/songlap-protidin/songlap-protidin-ep-698",
+        "imageAttemptedAt": "2026-10-26T16:33:40.912Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QdlRXY2ZHZGFZY3g4ZVlxdThzV1VnbFFpRnZkNDdDcnhpNHRMVkp5M19sdDdLQllDYUh6UUhMSEZQdXJfQ0RIbHNOSmFMVUZGMWxGaGtlT3NuVmRpb2o2MHNWd2dPa056b0Q2V3dkbEtRZm5sc0JJbDdCNWtaUlk?oc=5",
+        "title": "কোরআনুল কারিম : পর্ব ৪৭২",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QdlRXY2ZHZGFZY3g4ZVlxdThzV1VnbFFpRnZkNDdDcnhpNHRMVkp5M19sdDdLQllDYUh6UUhMSEZQdXJfQ0RIbHNOSmFMVUZGMWxGaGtlT3NuVmRpb2o2MHNWd2dPa056b0Q2V3dkbEtRZm5sc0JJbDdCNWtaUlk?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 26 Oct 2026 01:24:25 GMT",
+        "summary": "কোরআনুল কারিম : পর্ব ৪৭২ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://web221.ntvbd.com/video/religion/quranul-karim/quranul-karim-ep-472",
+        "imageAttemptedAt": "2026-10-27T06:06:17.869Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd0tORDdxZExXT0hCZnRPNFoxam1MUUVEZHpQbjExa0RLLXphdTBZUEVlT3YwTmFUQVlBbk80VzFWUlVueGVCNGwxM29lajc0d3lnQ3FvZGQxMU13QVZGYkYtZkFSM1JpaGgtUldjcWM0eUtuMXk2cl9iQmZGUjZhUXZDOUpNSFNQYm56bGh3?oc=5",
+        "title": "সন্ধ্যার খবর : ২৬ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd0tORDdxZExXT0hCZnRPNFoxam1MUUVEZHpQbjExa0RLLXphdTBZUEVlT3YwTmFUQVlBbk80VzFWUlVueGVCNGwxM29lajc0d3lnQ3FvZGQxMU13QVZGYkYtZkFSM1JpaGgtUldjcWM0eUtuMXk2cl9iQmZGUjZhUXZDOUpNSFNQYm56bGh3?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 26 Oct 2026 16:25:42 GMT",
+        "summary": "সন্ধ্যার খবর : ২৬ অক্টোবর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/shondhyar-khobor/shondhar-khobor-26-october-2026",
+        "imageAttemptedAt": "2026-10-26T16:33:40.912Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11X1hNU2xzeUcyZVNiRGNaWmg1N2g4YjB3THRXQXhLNHFWVTl5OWFmQUlHcGdLSl9CdmgwUmtSZVNxTnpOYlVmRTlaNjNqbGVZcHRsUFh3cWpqRUZlbXBlTy1jMy1YQW05aUFsN3ptZHppcTBWc1RPdV9kX214bzA?oc=5",
+        "title": "এনটিভি'র নিমন্ত্রণে : পর্ব ৩৯৫",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11X1hNU2xzeUcyZVNiRGNaWmg1N2g4YjB3THRXQXhLNHFWVTl5OWFmQUlHcGdLSl9CdmgwUmtSZVNxTnpOYlVmRTlaNjNqbGVZcHRsUFh3cWpqRUZlbXBlTy1jMy1YQW05aUFsN3ptZHppcTBWc1RPdV9kX214bzA?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 27 Oct 2026 05:47:25 GMT",
+        "summary": "এনটিভি'র নিমন্ত্রণে : পর্ব ৩৯৫ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/discussion/ntv-nimontron/ntv-nimontrone-ep-395",
+        "imageAttemptedAt": "2026-10-27T06:06:17.869Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      }
+    ],
     "jamuna": [
       {
         "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
@@ -410,19 +410,6 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "",
         "imageAttemptedAt": "2026-10-26T20:53:59.134Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NalhTVTVfNy1FSkpKa3FVVG1iX3RLeG1CbVB5YlF5TFQzVmJQX09qdEpoTW81djZnZ19seTRjczYyc0ZwX09lc05McUZMcURD?oc=5",
-        "title": "ব্যয় কমাতে ৬০ হাজার কর্মীকে স্বেচ্ছায় চাকরি ছাড়ার প্রস্তাব মাইক্রোসফটের",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NalhTVTVfNy1FSkpKa3FVVG1iX3RLeG1CbVB5YlF5TFQzVmJQX09qdEpoTW81djZnZ19seTRjczYyc0ZwX09lc05McUZMcURD?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 27 Oct 2026 06:00:27 GMT",
-        "summary": "ব্যয় কমাতে ৬০ হাজার কর্মীকে স্বেচ্ছায় চাকরি ছাড়ার প্রস্তাব মাইক্রোসফটের &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/technology/666894",
-        "imageAttemptedAt": "2026-10-27T06:57:11.701Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -528,6 +515,19 @@
         "articleUrl": "https://www.jamuna.tv/national/666799",
         "imageAttemptedAt": "2026-10-27T04:05:22.190Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5MTNUUV80WTB6RGV0TkNhUGJRb3dWREZ1d21ldHkxVTBLMWp4OVAzNmZSN2NmRWFqbF9FMGp3ZWkzaC1UcTE4and3RTZPdw?oc=5",
+        "title": "দেবী লক্ষ্মীর আরাধনায় মেতেছেন সনাতন ধর্মাবলম্বীরা",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5MTNUUV80WTB6RGV0TkNhUGJRb3dWREZ1d21ldHkxVTBLMWp4OVAzNmZSN2NmRWFqbF9FMGp3ZWkzaC1UcTE4and3RTZPdw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 25 Oct 2026 15:33:15 GMT",
+        "summary": "দেবী লক্ষ্মীর আরাধনায় মেতেছেন সনাতন ধর্মাবলম্বীরা &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/666816",
+        "imageAttemptedAt": "2026-10-27T07:44:29.176Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
     "channel24": [
@@ -597,19 +597,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMipAZBVV95cUxPZUJfUXZEbDFLaTc1Mmcxa2VJbm5wOEdMR1ZQM0ZndnkzckZkWEYwQzFpeE5nd1dLdjRPckxpNF9yb2RGcVhKbWN5MlB5VjYwMy1xdXNYaWdPREhNc1RFWDI2VU9nelFHcWktNHdweG5yZEVEUEN5MFR4SmtXWEpraFNwSGVUMEpKcjFlSTdHQ1FFR1hQWDFXcmlac0RxcmNycTJuZ0RzeXNzakwwX0RzWi1kU29lOG5UcC0yUURSaTVDQ3p1LWFOQUlpeXFoNE1JY2FNd0RhcTJ2NkcwQ3duT1huZ09lTlhiT0ZwZG81X1ZzZmVONmxZMF9oYlA5SVlBbHNfWUd3UUxZVDFBZkNEQWx0dzRwUWZ5TVFickZVWmNPMkxDVHpEUkkzNzA1NlBYMm9HdU0tZXV3NWdTUlI1bTB3bk5DRll6WGVMczFiX3RLWEV5Wl92SmdoZi1pTm5pczJ4LUhSOWtzd3N4S1FvekFWN1VXRHo3VjA0QnRGZXV2WUtvN29sd3EyalNvWDd3LU1EY2JReklLenZPUy1jRWJyMmpVakxYLU1WZTBna3VzSmQ1QVdGNi1hYVAwUGptZ1Fyb3d4ODhLdHptdkktblVoVmhwV0tpTUxSU2g4bmhvUi1SSzRUV2RldXBFbm52OW1oVWFmYnpmRGRLNHJHd2FLeEhZenpPajczRV94Tlc3TTFxMlJUOEtHTThsbWpIYTY4QmVKX1ZVM1JhWmlWMUgxcVlSLVR4ZGlpU1c5TzZsMTlJeW1FRG1CZjh5R2M3UDBZRWRTNTVteVdhSU45UnFRRjQ0OWtxWnNTOTVDX3AyWDExWEQ0MmZSeEJLUnQtd3N3WjFYNlZiT2FBM2ZnQjVyalczVlZxSnNzMXpRRHN5TWQzQXo0cGUtbFZZYm9fTFI2Rl9xZUZqQU52cTREbUQxcVQ3UWVXM1JaSkJtSGYzTkVMVnFScUlmNUdMYm1VMFQxQzJIV3Y1a2NyNlVpNXJaSlItQTBjOE5qTUZFckdxdUZUcnc4UzFZZmY4aXRTNGRaMXF1cG0xczBvcFlfVndNVVk?oc=5",
-        "title": "ট্রাইব্যুনালে হাজির হয়ে নিঃশর্ত ক্ষমা চাইলেন আওয়ামীপন্থি ২ আইনজীবী",
-        "link": "https://news.google.com/rss/articles/CBMipAZBVV95cUxPZUJfUXZEbDFLaTc1Mmcxa2VJbm5wOEdMR1ZQM0ZndnkzckZkWEYwQzFpeE5nd1dLdjRPckxpNF9yb2RGcVhKbWN5MlB5VjYwMy1xdXNYaWdPREhNc1RFWDI2VU9nelFHcWktNHdweG5yZEVEUEN5MFR4SmtXWEpraFNwSGVUMEpKcjFlSTdHQ1FFR1hQWDFXcmlac0RxcmNycTJuZ0RzeXNzakwwX0RzWi1kU29lOG5UcC0yUURSaTVDQ3p1LWFOQUlpeXFoNE1JY2FNd0RhcTJ2NkcwQ3duT1huZ09lTlhiT0ZwZG81X1ZzZmVONmxZMF9oYlA5SVlBbHNfWUd3UUxZVDFBZkNEQWx0dzRwUWZ5TVFickZVWmNPMkxDVHpEUkkzNzA1NlBYMm9HdU0tZXV3NWdTUlI1bTB3bk5DRll6WGVMczFiX3RLWEV5Wl92SmdoZi1pTm5pczJ4LUhSOWtzd3N4S1FvekFWN1VXRHo3VjA0QnRGZXV2WUtvN29sd3EyalNvWDd3LU1EY2JReklLenZPUy1jRWJyMmpVakxYLU1WZTBna3VzSmQ1QVdGNi1hYVAwUGptZ1Fyb3d4ODhLdHptdkktblVoVmhwV0tpTUxSU2g4bmhvUi1SSzRUV2RldXBFbm52OW1oVWFmYnpmRGRLNHJHd2FLeEhZenpPajczRV94Tlc3TTFxMlJUOEtHTThsbWpIYTY4QmVKX1ZVM1JhWmlWMUgxcVlSLVR4ZGlpU1c5TzZsMTlJeW1FRG1CZjh5R2M3UDBZRWRTNTVteVdhSU45UnFRRjQ0OWtxWnNTOTVDX3AyWDExWEQ0MmZSeEJLUnQtd3N3WjFYNlZiT2FBM2ZnQjVyalczVlZxSnNzMXpRRHN5TWQzQXo0cGUtbFZZYm9fTFI2Rl9xZUZqQU52cTREbUQxcVQ3UWVXM1JaSkJtSGYzTkVMVnFScUlmNUdMYm1VMFQxQzJIV3Y1a2NyNlVpNXJaSlItQTBjOE5qTUZFckdxdUZUcnc4UzFZZmY4aXRTNGRaMXF1cG0xczBvcFlfVndNVVk?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 26 Oct 2026 05:27:00 GMT",
-        "summary": "ট্রাইব্যুনালে হাজির হয়ে নিঃশর্ত ক্ষমা চাইলেন আওয়ামীপন্থি ২ আইনজীবী &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/court02-1792992451.jpg",
-        "articleUrl": "https://www.channel24bd.tv/law-court/article/355015/%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%B0-%E0%A6%B9%E0%A7%9F%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%83%E0%A6%B6%E0%A6%B0%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%AE%E0%A6%BE-%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%86%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%AE%E0%A7%80%E0%A6%AA%E0%A6%A8%E0%A7%8D%E0%A6%A5%E0%A6%BF-%E0%A7%A8-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A7%80",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMi5AVBVV95cUxPNjlSd3JaYTZIbkZlN2lZU3VrRkJ6ektGTXNlZHlHMzloRmNoUVJnby1YeEdNOE5DVEZvbDhzNU42d3dHTnp5SjBhRVF3cDVFcmVQMDNVUy1HcEFHc0p0czd3RjZlVUVaQWg2OFFBbUJKWThMTGRZV3pmU3pXeTFoM1l5eWg4YnVFeTZtcmlDRlZrMHZiZ0dDaW9aRllyVmhkemszeWIxR2xmNW40STF6SlhwbmU1TnZmTFJ6czJmaC1FZ2J3TGVqR01JS0UzRkxSajBDMV9XODhoQ1kxNGhvUTBpQUxGcnMxYTBra3FjdDZBeEEwV0tZUlVGd3I0czdNOXd3R3R3S1ExVW9NSUhQYzVxaC1rY00ySjdpQWFEQjBIVFVDUngyMm5vZTZMWjJTUmVBYU1aLUhpZmFBbllQWWVGcGpHWUhFT0NOX043b1JjLW1TdWwzOXVTbmNQVUdMXzVscTd2cktJbGNuczhmMktCT3lMQW9SVWprZ0NsSVpneDVta2tDbWdpNl9PQU1SUVBJNUZVNkdRR3RwdzNzS3hBb21ET3QtTUd5N1ptRkxmVlJPVklBZGRaZzFwNzhMMjdmT0RGb2IyRTlTTkh2cUFVT0dET2YwS1I5SEJIUG1KN3FSRUxKTWVFZmZjVWZXU0tXc2dBb2Vaei1SQUh0UkFyS3hxX0xoMXpMOWdIWF81NF9mZld4ejZRbkM4SHdJX2JuS29YZGVVRnBhb3JITHVGNHY2X19XTm10S0R0REpwbTVFSE9HNEtyRklRRUJpTTlacGtFaW5FdkU4VW1rZU50QktwS0pvZHhNZGRtUUNZaEEtZ0VxaElHM1pvanFaVW1ZSG5xbUVvTTI4NmJSTC1MT1pzZUw3c3VzWmJEdTJKeE14UHRJcVFjdnRpblRZd2J5OU5HOEFzMHhOZUVqSVp5djhnYV9sb1Q4VE03MmV6MEtLQngyOVhwNUtJNDk5cmpFYw?oc=5",
         "title": "মাদক নিয়ন্ত্রণ ও আইনশৃঙ্খলা রক্ষায় ক্রসফায়ার করতেও পিছপা হবে না পুলিশ",
         "link": "https://news.google.com/rss/articles/CBMi5AVBVV95cUxPNjlSd3JaYTZIbkZlN2lZU3VrRkJ6ektGTXNlZHlHMzloRmNoUVJnby1YeEdNOE5DVEZvbDhzNU42d3dHTnp5SjBhRVF3cDVFcmVQMDNVUy1HcEFHc0p0czd3RjZlVUVaQWg2OFFBbUJKWThMTGRZV3pmU3pXeTFoM1l5eWg4YnVFeTZtcmlDRlZrMHZiZ0dDaW9aRllyVmhkemszeWIxR2xmNW40STF6SlhwbmU1TnZmTFJ6czJmaC1FZ2J3TGVqR01JS0UzRkxSajBDMV9XODhoQ1kxNGhvUTBpQUxGcnMxYTBra3FjdDZBeEEwV0tZUlVGd3I0czdNOXd3R3R3S1ExVW9NSUhQYzVxaC1rY00ySjdpQWFEQjBIVFVDUngyMm5vZTZMWjJTUmVBYU1aLUhpZmFBbllQWWVGcGpHWUhFT0NOX043b1JjLW1TdWwzOXVTbmNQVUdMXzVscTd2cktJbGNuczhmMktCT3lMQW9SVWprZ0NsSVpneDVta2tDbWdpNl9PQU1SUVBJNUZVNkdRR3RwdzNzS3hBb21ET3QtTUd5N1ptRkxmVlJPVklBZGRaZzFwNzhMMjdmT0RGb2IyRTlTTkh2cUFVT0dET2YwS1I5SEJIUG1KN3FSRUxKTWVFZmZjVWZXU0tXc2dBb2Vaei1SQUh0UkFyS3hxX0xoMXpMOWdIWF81NF9mZld4ejZRbkM4SHdJX2JuS29YZGVVRnBhb3JITHVGNHY2X19XTm10S0R0REpwbTVFSE9HNEtyRklRRUJpTTlacGtFaW5FdkU4VW1rZU50QktwS0pvZHhNZGRtUUNZaEEtZ0VxaElHM1pvanFaVW1ZSG5xbUVvTTI4NmJSTC1MT1pzZUw3c3VzWmJEdTJKeE14UHRJcVFjdnRpblRZd2J5OU5HOEFzMHhOZUVqSVp5djhnYV9sb1Q4VE03MmV6MEtLQngyOVhwNUtJNDk5cmpFYw?oc=5",
@@ -660,10 +647,155 @@
         "articleUrl": "https://www.channel24bd.tv/national/article/354919/%E0%A6%85%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%A8-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%B7%E0%A6%A6-%E0%A6%AA%E0%A7%81%E0%A6%A8%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%A0%E0%A6%A8-%E0%A6%93-%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%95%E0%A6%B0%E0%A6%A3-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%AE-%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%97%E0%A6%BF%E0%A6%A4",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi0wVBVV95cUxPR0ZObjdKT09Rc3o5VTNSR0VBZEs5M0thQ1g4VTZHXzFfVmJXaS16bjFDNTFfSW9SbjhxU05FaGppTFVtaWFBUnJ5Vl94V1o1YWdtN3ZBMzhZcm1iTTdmd2lPRXp3TUppRTZBb19peFpSdVZhb2ZNeVV2NE5SMjNNSnBxN0Y2SHhCMW5uaDFlejByVmVSSEp1Mzh3YjI5Zzh1Q1pERzRDOVF6NHRldDBLZTRueXV5SE8zOHZCM3gxM0ZQamZiUTR4Qmpkb3ZHUkZzYVdaNTZWaXRpZGNfTHdzckJjZmZPY0kyWERwbTgxNm00cWpIb2ZwNnRfWWp5b3hqQWdkWEt2R2NyOWp1VGg2MEhOdHNSTUZXaVJ1eE1SdFVXMDVNSEwyUlpLRVBYMnBoaE5WaVIxRzh5R0tkUlhKQjRTQ3lEc3l6SlZ5US1pS3Nsa3FZb3haa1hlenh5ZTBzV0JmaUYtQXpyUE1PSGhuY3VZUmhRekNjeHFaVVVEX0dxd0IwdUJDMHotUXVJTTRHQmZUOHRfNzV6SWcxV1hvSGdFRklkenN5NHc4UHlaeTNqVW13aUNMa2JHOU40VHhBZjU3bW1aNlAxNXZkWk1aYmFITFR3aHNmMlhqeEJKWXJFeUhwQUcyLUpvTnlaYkkyT0k4dWlCR0ZQMmpmX1poY1Y4WVRiU0t3cUd5c2doVFRVU2VtNXVjV3JLZVQtWF9QTkVPa2NHcjhQOHFaeXRFN3dScEZ5QUpuSFFwOUtRUUZrQWs4UWdVOTdVMTJ0RDI4bGU5aVhFYnhnM2pVU3prV084eVZaRXo0SERpdDlUdWxfRktxZ3RFMkg2TVFLYW94MDlxVXpyeWxTMGxSTnlxWWgxRUl0UHNIR05DQUxGSTRQQmNTZVJ5S1JfZ0poZEpTOC11RjZVYlM4NXVMZ2xyZU1pcFZqaU9nZGlEaHhVRUFoU0E?oc=5",
+        "title": "ই-টিন আছে, রিটার্ন দেননি? ৫ হাজার টাকা জরিমানা নিয়ে যা জানা জরুরি",
+        "link": "https://news.google.com/rss/articles/CBMi0wVBVV95cUxPR0ZObjdKT09Rc3o5VTNSR0VBZEs5M0thQ1g4VTZHXzFfVmJXaS16bjFDNTFfSW9SbjhxU05FaGppTFVtaWFBUnJ5Vl94V1o1YWdtN3ZBMzhZcm1iTTdmd2lPRXp3TUppRTZBb19peFpSdVZhb2ZNeVV2NE5SMjNNSnBxN0Y2SHhCMW5uaDFlejByVmVSSEp1Mzh3YjI5Zzh1Q1pERzRDOVF6NHRldDBLZTRueXV5SE8zOHZCM3gxM0ZQamZiUTR4Qmpkb3ZHUkZzYVdaNTZWaXRpZGNfTHdzckJjZmZPY0kyWERwbTgxNm00cWpIb2ZwNnRfWWp5b3hqQWdkWEt2R2NyOWp1VGg2MEhOdHNSTUZXaVJ1eE1SdFVXMDVNSEwyUlpLRVBYMnBoaE5WaVIxRzh5R0tkUlhKQjRTQ3lEc3l6SlZ5US1pS3Nsa3FZb3haa1hlenh5ZTBzV0JmaUYtQXpyUE1PSGhuY3VZUmhRekNjeHFaVVVEX0dxd0IwdUJDMHotUXVJTTRHQmZUOHRfNzV6SWcxV1hvSGdFRklkenN5NHc4UHlaeTNqVW13aUNMa2JHOU40VHhBZjU3bW1aNlAxNXZkWk1aYmFITFR3aHNmMlhqeEJKWXJFeUhwQUcyLUpvTnlaYkkyT0k4dWlCR0ZQMmpmX1poY1Y4WVRiU0t3cUd5c2doVFRVU2VtNXVjV3JLZVQtWF9QTkVPa2NHcjhQOHFaeXRFN3dScEZ5QUpuSFFwOUtRUUZrQWs4UWdVOTdVMTJ0RDI4bGU5aVhFYnhnM2pVU3prV084eVZaRXo0SERpdDlUdWxfRktxZ3RFMkg2TVFLYW94MDlxVXpyeWxTMGxSTnlxWWgxRUl0UHNIR05DQUxGSTRQQmNTZVJ5S1JfZ0poZEpTOC11RjZVYlM4NXVMZ2xyZU1pcFZqaU9nZGlEaHhVRUFoU0E?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 25 Oct 2026 10:17:00 GMT",
+        "summary": "ই-টিন আছে, রিটার্ন দেননি? ৫ হাজার টাকা জরিমানা নিয়ে যা জানা জরুরি &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/tin-return-1792923468.jpg",
+        "articleUrl": "https://www.channel24bd.tv/economy/article/354871/%E0%A6%87-%E0%A6%9F%E0%A6%BF%E0%A6%A8-%E0%A6%86%E0%A6%9B%E0%A7%87-%E0%A6%B0%E0%A6%BF%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A8-%E0%A6%A6%E0%A7%87%E0%A6%A8%E0%A6%A8%E0%A6%BF-%E0%A7%AB-%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%9C%E0%A6%B0%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AF%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%9C%E0%A6%B0%E0%A7%81%E0%A6%B0%E0%A6%BF",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ]
   },
   "categories": {
+    "bangladesh": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tWnhOQ3lKUGc3eDQ4UUVoQ3huMmZwQWdVN1BVV0x4b0dwZGJMMVdaVEhXQkNfLVlZekcySi1DWFRxLWItX0dvMEFwN05tQVBwdHNWT181ZTc5bVFEdTlj0gFkQVVfeXFMTmktdXZwNDFvbHMzemxMMDlYS1VONW9XUGpyNl9EM1M3THhSSXpYaHI2d2xSOW8zSW5PYk1lcHlXa29DWmctNkpmOGpuWVdhOHFJMFFOeGMwUnF1UExMdnhGeGpteg?oc=5",
+        "title": "তারেক রহমানের জাপান সফরে কী চাইছে বাংলাদেশ",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tWnhOQ3lKUGc3eDQ4UUVoQ3huMmZwQWdVN1BVV0x4b0dwZGJMMVdaVEhXQkNfLVlZekcySi1DWFRxLWItX0dvMEFwN05tQVBwdHNWT181ZTc5bVFEdTlj0gFkQVVfeXFMTmktdXZwNDFvbHMzemxMMDlYS1VONW9XUGpyNl9EM1M3THhSSXpYaHI2d2xSOW8zSW5PYk1lcHlXa29DWmctNkpmOGpuWVdhOHFJMFFOeGMwUnF1UExMdnhGeGpteg?oc=5",
+        "source": "BBC",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 26 Oct 2026 14:40:52 GMT",
+        "summary": "তারেক রহমানের জাপান সফরে কী চাইছে বাংলাদেশ &nbsp;&nbsp; BBC",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.bbc.com/bengali/articles/cmwy4glx5e0lo",
+        "imageAttemptedAt": "2026-10-26T18:59:49.150Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWVZ5N0FGcHJuTU1KLVNaRlBIeElDZVNKZnl4V21tYUgyenlPc2UwNUw5TjhTUVpzSFJKSUZCQzZRNXdEZXRScV90RlFmX3BaUUFfVmE0Y3RHQnBIU2xYU01JMzVWNE9GNVpNTk56OXpwQWcyRlY2a1NYY3FFanNnZlhGX3JTaGRLbk4wX3o2NjJsRkRLNnpCUmJqczVoUElaRXRvSzRGRDltbUVfNTFfb3NNWGdHa2s4WlhSY0pmSDlBN2dKZU5YS21YYy01OVBqNHU0?oc=5",
+        "title": "বাংলাদেশ ও জাপানের প্রধানমন্ত্রীর বৈঠকে গুরুত্ব পেল যেসব বিষয়",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWVZ5N0FGcHJuTU1KLVNaRlBIeElDZVNKZnl4V21tYUgyenlPc2UwNUw5TjhTUVpzSFJKSUZCQzZRNXdEZXRScV90RlFmX3BaUUFfVmE0Y3RHQnBIU2xYU01JMzVWNE9GNVpNTk56OXpwQWcyRlY2a1NYY3FFanNnZlhGX3JTaGRLbk4wX3o2NjJsRkRLNnpCUmJqczVoUElaRXRvSzRGRDltbUVfNTFfb3NNWGdHa2s4WlhSY0pmSDlBN2dKZU5YS21YYy01OVBqNHU0?oc=5",
+        "source": "https://starnews.com.bd/",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 27 Oct 2026 06:06:30 GMT",
+        "summary": "বাংলাদেশ ও জাপানের প্রধানমন্ত্রীর বৈঠকে গুরুত্ব পেল যেসব বিষয় &nbsp;&nbsp; https://starnews.com.bd/",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://starnews.com.bd/national/27450/key-issues-highlighted-during-the-meeting-between-the-prime-ministers-of-bangladesh-and-japan.html",
+        "imageAttemptedAt": "2026-10-27T06:57:11.701Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZlVTS0Y4cFQ5aXFSaVV0b2VudWRlX1h4cXN0MVdDUE9nSC0wd25zNHJUOEF4UmZmUEFJdmxZQy1CWW11cEsxWGVTS1FTWHJsUGZZM25uQTFXOXpTM0tGVXluMllHX3pGT0tkZFEwV2tCZThhaHdCNXhJaWgyVjN2TlpxUzNSNVVTcEpjbnNFUHVCazJOQW9xVlZ0U0piZWFpZXl1a3FBTUc5dEFlTmZZQ3c2UFZveHFvRkVNVVdGZkZHSWIwR2hqaW1Yd0JuTFXSAdwBQVVfeXFMUGIwY2trUV9NRTA0R2I5R1NERmRnU0RNbHVvU3ZNYzBMQlBKQ1gyMk92V0NhSnQyTzN3dXVNMUxWMUxKZlVBQmR2OURLN0twdzJPY3kxbFBhY0lzVFdfaWVkVE1MQ0I4emRJZ0IybVBsTmkyTlhKZFBhQzc2ZkZ6amNmNnZSSy1mOFFHYW5vMGF4N2RrOTREXzFPaTNLUlA5SHYtR1JNcktKN1BUOGJ2cmktUmdFamNMU1E3eWs4QTVrSE8xQ0NaVFhXTjRyaE9ZMzRvUk1wNGdaZ3pLYg?oc=5",
+        "title": "ঢাকা-চট্টগ্রাম সড়কে মাঝরাতে ট্রাকের ধাক্কায় মৃত্যু পাঁচ বাসযাত্রীর",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZlVTS0Y4cFQ5aXFSaVV0b2VudWRlX1h4cXN0MVdDUE9nSC0wd25zNHJUOEF4UmZmUEFJdmxZQy1CWW11cEsxWGVTS1FTWHJsUGZZM25uQTFXOXpTM0tGVXluMllHX3pGT0tkZFEwV2tCZThhaHdCNXhJaWgyVjN2TlpxUzNSNVVTcEpjbnNFUHVCazJOQW9xVlZ0U0piZWFpZXl1a3FBTUc5dEFlTmZZQ3c2UFZveHFvRkVNVVdGZkZHSWIwR2hqaW1Yd0JuTFXSAdwBQVVfeXFMUGIwY2trUV9NRTA0R2I5R1NERmRnU0RNbHVvU3ZNYzBMQlBKQ1gyMk92V0NhSnQyTzN3dXVNMUxWMUxKZlVBQmR2OURLN0twdzJPY3kxbFBhY0lzVFdfaWVkVE1MQ0I4emRJZ0IybVBsTmkyTlhKZFBhQzc2ZkZ6amNmNnZSSy1mOFFHYW5vMGF4N2RrOTREXzFPaTNLUlA5SHYtR1JNcktKN1BUOGJ2cmktUmdFamNMU1E3eWs4QTVrSE8xQ0NaVFhXTjRyaE9ZMzRvUk1wNGdaZ3pLYg?oc=5",
+        "source": "Ei Samay",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 27 Oct 2026 05:50:08 GMT",
+        "summary": "ঢাকা-চট্টগ্রাম সড়কে মাঝরাতে ট্রাকের ধাক্কায় মৃত্যু পাঁচ বাসযাত্রীর &nbsp;&nbsp; Ei Samay",
+        "image": "https://cf-images.assettype.com/eisamay%2F2026-10-27%2Fqtsbtj9x%2FiStock-2155677697.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+        "articleUrl": "https://eisamay.com/bangladesh-news/bus-accident-passengers-died-in-truck-collision-on-dhaka-chittagong-road-at-midnight/200558854.cms",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1hLThLejluSEw1UkZuSzVOSUtwcXpabzBuN2x0R3FPXzZoVjN6RGZDaVlKcFdYbUluT2hkYTA2eWg?oc=5",
+        "title": "জাপানের সঙ্গে অর্থনৈতিক অংশীদারি বাড়াতে চায় বাংলাদেশ",
+        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1hLThLejluSEw1UkZuSzVOSUtwcXpabzBuN2x0R3FPXzZoVjN6RGZDaVlKcFdYbUluT2hkYTA2eWg?oc=5",
+        "source": "Sunbd24",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 27 Oct 2026 05:21:04 GMT",
+        "summary": "জাপানের সঙ্গে অর্থনৈতিক অংশীদারি বাড়াতে চায় বাংলাদেশ &nbsp;&nbsp; Sunbd24",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://sunbd24.com/418976/",
+        "imageAttemptedAt": "2026-10-27T06:06:17.869Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi-gZBVV95cUxNQ3hKTTVod3RJcTl2TjlTNGF5VjJ3aVlsMV9Nb1lhaUNsR1BQTzZxS2xpSFVCanZsb0ViXzdhTWtEX3RGUWNzOTJXU0w5YjdBMTRUY0RzQVgxTWo5dDNBOVR6T2tpVFI2VG1Jd1hlbnowOURxeVdJREhaa28tLW5xeUJyZzBTdW54QWR3aUtiNV8xUEQ2TlZZS0VrQUJ2cXZYVVpsSk5Md2NYeUNIdWItbFpSS3ZfV2dBQUh1cmQzT1NBQ09wWWJDaU9taTZTeUc3RGxNck4zakZSZk5rc1B0OWpxX1Q5bEFfbm5ZaFNnbURNRS1XZ0JHb00zTGJBR3ZOT2NxSnAyOVBZV2o5cUg3a0hBa2xuTkQwTVdGOHBYZjRnYVVUV1RHZUJsTnVoWXpwMllNM1p2OGY4dnNJRGhFaUlRQXJabVFkbkxLM29HMlR1R1JudGl1SExOYkVSdW85X1FoQkc5UnJMd09LSE9fUVJsS09aRW1uY0s1RHE2dmwtZHFES2xtUi1BUHo5bExQT3Z6cWdxUnVUc01BS25rd3huQUEyTExiMDFtLUI2XzJBOGY1b3pRZ0hTRENDWjJqdE1JUUhfb01qM25yU2RrMGpzbDdUTmMzVkl5dEpWYXFRX1JjN0hQWDVLcXBtTGRpc2tiTHQ5RFBJRDRWMll0Y2FQN0EzSTl2Tm9LUXktUThmMEg1Q3EtcWFEbEY2Zl81bVJFUkplN0RLaGJPYmVoRDRHSmk3cE5nM1JTbFpHajlBRDhfMUZjaVNaNmpKdmMyeWliWE0wWDNlZ09YdW5SUVhweXFubDVKS2ctaDB3RG5zTkNHR1pZVHZrVzlsRXJSRUNEdEVScnRDQUJMUzIxLWRtaFZKRTZ2a1JIdjIxNGE1R3RITFU5ZjlqM0NfYjVYOUItcnRkaTFHQ0RwR2N6Zi1nRURieHRKcTZFUkowR3hEVnczc2JxdXBycUYwSldFVUN5Um5vTVpzcnNwbWZIYmZWNzN1Z21oYmxteHZOdG43OU9wOTItV0pRVVhBSHhOWG1CSUJZeHJBTUFLMXVIdmhVeldQWVlwbW9CZ1FYaWh5NEZhQXgxUlRtX3lXMldrTkRqOGhnZjBMczBfaUc1SmljRzR0eVhSYTFhLWNOOC1OXzlBdGpfMHpLRy1wYkNlN2FDSXBGYkZqZw?oc=5",
+        "title": "জাপান-বাংলাদেশ বন্ধুত্ব হবে অর্থনৈতিক সমৃদ্ধির চালিকাশক্তি: প্রধানমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMi-gZBVV95cUxNQ3hKTTVod3RJcTl2TjlTNGF5VjJ3aVlsMV9Nb1lhaUNsR1BQTzZxS2xpSFVCanZsb0ViXzdhTWtEX3RGUWNzOTJXU0w5YjdBMTRUY0RzQVgxTWo5dDNBOVR6T2tpVFI2VG1Jd1hlbnowOURxeVdJREhaa28tLW5xeUJyZzBTdW54QWR3aUtiNV8xUEQ2TlZZS0VrQUJ2cXZYVVpsSk5Md2NYeUNIdWItbFpSS3ZfV2dBQUh1cmQzT1NBQ09wWWJDaU9taTZTeUc3RGxNck4zakZSZk5rc1B0OWpxX1Q5bEFfbm5ZaFNnbURNRS1XZ0JHb00zTGJBR3ZOT2NxSnAyOVBZV2o5cUg3a0hBa2xuTkQwTVdGOHBYZjRnYVVUV1RHZUJsTnVoWXpwMllNM1p2OGY4dnNJRGhFaUlRQXJabVFkbkxLM29HMlR1R1JudGl1SExOYkVSdW85X1FoQkc5UnJMd09LSE9fUVJsS09aRW1uY0s1RHE2dmwtZHFES2xtUi1BUHo5bExQT3Z6cWdxUnVUc01BS25rd3huQUEyTExiMDFtLUI2XzJBOGY1b3pRZ0hTRENDWjJqdE1JUUhfb01qM25yU2RrMGpzbDdUTmMzVkl5dEpWYXFRX1JjN0hQWDVLcXBtTGRpc2tiTHQ5RFBJRDRWMll0Y2FQN0EzSTl2Tm9LUXktUThmMEg1Q3EtcWFEbEY2Zl81bVJFUkplN0RLaGJPYmVoRDRHSmk3cE5nM1JTbFpHajlBRDhfMUZjaVNaNmpKdmMyeWliWE0wWDNlZ09YdW5SUVhweXFubDVKS2ctaDB3RG5zTkNHR1pZVHZrVzlsRXJSRUNEdEVScnRDQUJMUzIxLWRtaFZKRTZ2a1JIdjIxNGE1R3RITFU5ZjlqM0NfYjVYOUItcnRkaTFHQ0RwR2N6Zi1nRURieHRKcTZFUkowR3hEVnczc2JxdXBycUYwSldFVUN5Um5vTVpzcnNwbWZIYmZWNzN1Z21oYmxteHZOdG43OU9wOTItV0pRVVhBSHhOWG1CSUJZeHJBTUFLMXVIdmhVeldQWVlwbW9CZ1FYaWh5NEZhQXgxUlRtX3lXMldrTkRqOGhnZjBMczBfaUc1SmljRzR0eVhSYTFhLWNOOC1OXzlBdGpfMHpLRy1wYkNlN2FDSXBGYkZqZw?oc=5",
+        "source": "Bahanno News",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 27 Oct 2026 05:06:00 GMT",
+        "summary": "জাপান-বাংলাদেশ বন্ধুত্ব হবে অর্থনৈতিক সমৃদ্ধির চালিকাশক্তি: প্রধানমন্ত্রী &nbsp;&nbsp; Bahanno News",
+        "image": "https://www.bahannonews.com/uploads/4160abad02da2b950bd56ca6679b07d5.jpg?fb=1",
+        "articleUrl": "https://www.bahannonews.com/details/article/10221559/%E0%A6%9C%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%B9%E0%A6%AC%E0%A7%87-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%88%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%B8%E0%A6%AE%E0%A7%83%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BF%E0%A6%B0-%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQb3lKeDZfdS1oLUdIVWhacjNGZldiN3Fta1lCcGU4dXJZUVhIcUdyVzEtWFBKaGZ6MzFrSXBSdGJlWUUxaHdhWFlWTko2ZmtKcEYzbS1kZVlBNnVRT293NktvNDZmdWZMS0hUR1JQU1N6SkJYbG1DZmtqc01tYWVNWWtBa2xzSnE1LWpWRNIBkgFBVV95cUxOVnRZbmlndVZjeV93OFE4YWNBeVdPZkYxOEdENlpPSG5jcHZJZlh6OVc1aVl5RUtiNFpfUEQ5Ym5neDlyUW01VGtyRWlkcXRrQlBxTFRHTHVKMjVsc3NKZ0tWYkU0a3hBb253Mk5CdlAtT19DV2syZWFFa0o0c3oyMFpnbGM0MTdqRWNaUDZLNmhydw?oc=5",
+        "title": "Coochbehar News | কোচবিহারে ভারত-বাংলাদেশ সীমান্তে উত্তেজনা | ABP Ananda LIVE",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQb3lKeDZfdS1oLUdIVWhacjNGZldiN3Fta1lCcGU4dXJZUVhIcUdyVzEtWFBKaGZ6MzFrSXBSdGJlWUUxaHdhWFlWTko2ZmtKcEYzbS1kZVlBNnVRT293NktvNDZmdWZMS0hUR1JQU1N6SkJYbG1DZmtqc01tYWVNWWtBa2xzSnE1LWpWRNIBkgFBVV95cUxOVnRZbmlndVZjeV93OFE4YWNBeVdPZkYxOEdENlpPSG5jcHZJZlh6OVc1aVl5RUtiNFpfUEQ5Ym5neDlyUW01VGtyRWlkcXRrQlBxTFRHTHVKMjVsc3NKZ0tWYkU0a3hBb253Mk5CdlAtT19DV2syZWFFa0o0c3oyMFpnbGM0MTdqRWNaUDZLNmhydw?oc=5",
+        "source": "ABP Ananda",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 26 Oct 2026 05:49:50 GMT",
+        "summary": "Coochbehar News | কোচবিহারে ভারত-বাংলাদেশ সীমান্তে উত্তেজনা | ABP Ananda LIVE &nbsp;&nbsp; ABP Ananda",
+        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/10/26/3a18417b2d9f09b5da77984d105c006d1792993762710894_original.jpg?impolicy=abp_cdn&imwidth=1200",
+        "articleUrl": "https://bengali.abplive.com/videos/district/chaos-at-india-bangladesh-border-1197226",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiogVBVV95cUxNQTM3djJmTk0yNmtGeDBZaUpiZUdDSmlHcGZ3QVJ5ZzRkOFk3MkVRdW02aHl0RThzak9RUzJINFR6ckd2N0lkOEFzWFZ2VjVMY1R1QmVCNHdVbDFYQ0YzT05DQ1lkaFNfVllwVWpPTndzOXNfNUhYZWI2VEZib19XV2xlMWdsLUYzRGtvekROdzJURFJWOUp1d3BmRjQ2U0VDQzBFa0lsNDZBUVVrRVRrYmtTVURIQkU1aHJ1VHdPSnpWa09rS2tRQ0c0Y1dhRUE0ODhxWEs2cF9aVkJVWEdsWXpNOUlVVE1LQ2xxNnBLUnU0REkwRnZkaHAxS0ljcEZudVFKQzQ0eEl3ZzgtcDZXUEN0STcwYnRyVG4zZkFGWWFhak1TSzF6dEZqYzBRc1NucVpEV0prdzIzU3pQX1QxYnFKYTkwbGFKVGhJTlIwczUwMmx1UVBCbTZTajJSUVREMXR3dFl1UG1oTnNnVU1mNXhraFFKVWlOblUwSUxKZWE4ZDRlMDE1WFRiaS1PaDdkbjByazlydHdUaXhQVzc0TjN4RV9ub1V1TElBcE1JYXkyNHFLYUtBYzhqdUw4cjFZWmt0Q2xJWFNfYzN3SlljMXd5dVZYTHVWXzRqbndSUTB2UmIyWFg0OTJlMGdkMkw1aU9leUdQdG9uQ3JfWDI3RG80c2t3T0NHQk1YOTcyTUt0UE1VQndvNk5xSnVrSHRMVzU2VUc5NXpwOUZBOVFsY3FZQmdacFh5ZkRqaTZESnEzdi1INXozTjc4N3M5VmxtMk02Z0hIbWlvLU1YR0RJRXBIYm1PeGVraUdYV2ZZYlptZ0p6cG5NRDY5V2NxT2pDNXFjeFRFU0dJQjRUVTJiVWxiUldJYkdQR2g5RHNHdTdUdw?oc=5",
+        "title": "আলোকিত বাংলাদেশে সংবাদ প্রকাশের পর যুবদল নেতা বহিষ্কার",
+        "link": "https://news.google.com/rss/articles/CBMiogVBVV95cUxNQTM3djJmTk0yNmtGeDBZaUpiZUdDSmlHcGZ3QVJ5ZzRkOFk3MkVRdW02aHl0RThzak9RUzJINFR6ckd2N0lkOEFzWFZ2VjVMY1R1QmVCNHdVbDFYQ0YzT05DQ1lkaFNfVllwVWpPTndzOXNfNUhYZWI2VEZib19XV2xlMWdsLUYzRGtvekROdzJURFJWOUp1d3BmRjQ2U0VDQzBFa0lsNDZBUVVrRVRrYmtTVURIQkU1aHJ1VHdPSnpWa09rS2tRQ0c0Y1dhRUE0ODhxWEs2cF9aVkJVWEdsWXpNOUlVVE1LQ2xxNnBLUnU0REkwRnZkaHAxS0ljcEZudVFKQzQ0eEl3ZzgtcDZXUEN0STcwYnRyVG4zZkFGWWFhak1TSzF6dEZqYzBRc1NucVpEV0prdzIzU3pQX1QxYnFKYTkwbGFKVGhJTlIwczUwMmx1UVBCbTZTajJSUVREMXR3dFl1UG1oTnNnVU1mNXhraFFKVWlOblUwSUxKZWE4ZDRlMDE1WFRiaS1PaDdkbjByazlydHdUaXhQVzc0TjN4RV9ub1V1TElBcE1JYXkyNHFLYUtBYzhqdUw4cjFZWmt0Q2xJWFNfYzN3SlljMXd5dVZYTHVWXzRqbndSUTB2UmIyWFg0OTJlMGdkMkw1aU9leUdQdG9uQ3JfWDI3RG80c2t3T0NHQk1YOTcyTUt0UE1VQndvNk5xSnVrSHRMVzU2VUc5NXpwOUZBOVFsY3FZQmdacFh5ZkRqaTZESnEzdi1INXozTjc4N3M5VmxtMk02Z0hIbWlvLU1YR0RJRXBIYm1PeGVraUdYV2ZZYlptZ0p6cG5NRDY5V2NxT2pDNXFjeFRFU0dJQjRUVTJiVWxiUldJYkdQR2g5RHNHdTdUdw?oc=5",
+        "source": "Alokito Bangladesh",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 26 Oct 2026 13:09:00 GMT",
+        "summary": "আলোকিত বাংলাদেশে সংবাদ প্রকাশের পর যুবদল নেতা বহিষ্কার &nbsp;&nbsp; Alokito Bangladesh",
+        "image": "https://www.alokitobangladesh.com/image-contents/600x315x1x1/news-photos/2026/10/26/image-355438-1793020499.jpg",
+        "articleUrl": "https://www.alokitobangladesh.com/country-news/355438/%E0%A6%86%E0%A6%B2%E0%A7%8B%E0%A6%95%E0%A6%BF%E0%A6%A4-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%AF%E0%A7%81%E0%A6%AC%E0%A6%A6%E0%A6%B2-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE-%E0%A6%AC%E0%A6%B9%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%95%E0%A6%BE%E0%A6%B0",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLUFIcEF5N0lIZ193alFVVWhGb2xuRDdTa2xGUmVDc2s2M1h1Y2F5cTFrZi1mVEZXNzZ4RVNxVHBEZ1BDN19LelZkWXh6YldCUkVBU0drZXV4cDdFbEJyVFdQcFZfc18zdGFlYkJDNUJ6M2hKQlVTcWRxWUxUUkdESFVhUlpiM1o5dFh0cHBMNXJPd1owai04Rnd2d2ZwZ1JKQUEyZTgyZy1oZGpXSjNOT1dETGloQlgxYzdyMTA2QlFPN08wblE?oc=5",
+        "title": "পুলিশ-যানে বরাদ্দ ৬,৬০৯ কোটি, অর্থ জোগান ঘিরে উঠছে প্রশ্ন",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLUFIcEF5N0lIZ193alFVVWhGb2xuRDdTa2xGUmVDc2s2M1h1Y2F5cTFrZi1mVEZXNzZ4RVNxVHBEZ1BDN19LelZkWXh6YldCUkVBU0drZXV4cDdFbEJyVFdQcFZfc18zdGFlYkJDNUJ6M2hKQlVTcWRxWUxUUkdESFVhUlpiM1o5dFh0cHBMNXJPd1owai04Rnd2d2ZwZ1JKQUEyZTgyZy1oZGpXSjNOT1dETGloQlgxYzdyMTA2QlFPN08wblE?oc=5",
+        "source": "Aaro Ananda",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 24 Oct 2026 08:34:00 GMT",
+        "summary": "পুলিশ-যানে বরাদ্দ ৬,৬০৯ কোটি, অর্থ জোগান ঘিরে উঠছে প্রশ্ন &nbsp;&nbsp; Aaro Ananda",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.aaroananda.com/story/latest-news/breaking-news/controversy-over-bangladesh-police-vehicle-purchase-project/11025593",
+        "imageAttemptedAt": "2026-10-26T10:14:40.991Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOXM5RjJ3OUF3LUNMVU5pVFU4dXN6YktjSFlfWjdiV1dwbzM1cmxJcUVIYjlrb3dqZnJHSkJjRVFYRDlBS0V2akI3VnMxX3ZoRXFPdTdnUUROM2VfWXpfY2x2a3FrVXVtc3N6OF8wSHp6LW14SGl1WE93NWM5RE1sNVJPbUZvbk9uUFdoOXY3QTNuamdYYU8wVWhINkJuVWE1aURsV09FS0ExaHIzVlY4?oc=5",
+        "title": "বাংলাদেশ-জাপান দ্বিপক্ষীয় শীর্ষ বৈঠকে নেতৃত্ব দেবেন প্রধানমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOXM5RjJ3OUF3LUNMVU5pVFU4dXN6YktjSFlfWjdiV1dwbzM1cmxJcUVIYjlrb3dqZnJHSkJjRVFYRDlBS0V2akI3VnMxX3ZoRXFPdTdnUUROM2VfWXpfY2x2a3FrVXVtc3N6OF8wSHp6LW14SGl1WE93NWM5RE1sNVJPbUZvbk9uUFdoOXY3QTNuamdYYU8wVWhINkJuVWE1aURsV09FS0ExaHIzVlY4?oc=5",
+        "source": "https://starnews.com.bd/",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 26 Oct 2026 16:34:43 GMT",
+        "summary": "বাংলাদেশ-জাপান দ্বিপক্ষীয় শীর্ষ বৈঠকে নেতৃত্ব দেবেন প্রধানমন্ত্রী &nbsp;&nbsp; https://starnews.com.bd/",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://starnews.com.bd/national/27416/the-prime-minister-will-lead-the-bangladesh-japan-bilateral-summit.html",
+        "imageAttemptedAt": "2026-10-26T17:25:41.516Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nNlk0Z09DeDZxdWFaU29vWU9oOE5tVUdxRHQtZkg5SjJ6bVJseW1INnpzVHc0NkhEbkNxb245eDdiSk9yY0dzczhRaHM4OHpBQk5udUk3UW1kQktsVkHSAWNBVV95cUxNT1JiWXY2RUdPV2dWRWVoRWJvNjYwckxKZURvN0tVc05nWVZrNlljTkM1ODlpaF96TkJNcmxzMmdodGdRZU1leUZ2VzJNNFBMSFlka29FRkE5MUE1V0J3blJaTnM?oc=5",
+        "title": "বাংলাদেশে সাপের বিষের প্রতিষেধক বা অ্যান্টিভেনম তৈরির কাজ কতদূর?",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nNlk0Z09DeDZxdWFaU29vWU9oOE5tVUdxRHQtZkg5SjJ6bVJseW1INnpzVHc0NkhEbkNxb245eDdiSk9yY0dzczhRaHM4OHpBQk5udUk3UW1kQktsVkHSAWNBVV95cUxNT1JiWXY2RUdPV2dWRWVoRWJvNjYwckxKZURvN0tVc05nWVZrNlljTkM1ODlpaF96TkJNcmxzMmdodGdRZU1leUZ2VzJNNFBMSFlka29FRkE5MUE1V0J3blJaTnM?oc=5",
+        "source": "BBC",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 26 Oct 2026 02:02:31 GMT",
+        "summary": "বাংলাদেশে সাপের বিষের প্রতিষেধক বা অ্যান্টিভেনম তৈরির কাজ কতদূর? &nbsp;&nbsp; BBC",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.bbc.com/bengali/articles/c70gleqrnljo",
+        "imageAttemptedAt": "2026-10-27T07:44:29.176Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      }
+    ],
     "international": [
       {
         "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWbkRkZi1KN0FiNVlBSUduU3FyOGdmSGFpeEVMUEd4ZFJUcjg4NlA2dTZIdkFfT2pMWnNITlVMY3dMOGJRUGktSGR6RHhXVmVyWHFZbXp3QmdYakk?oc=5",
@@ -692,6 +824,32 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZRF9xa3A5cjRhWkRaMEhoTlpmODZwNlpjYWNpTkl1STlUUEcxS0ZPTnd3RFEtRkItcEpDY25LQ05QQVYtSVdOc21hMUluMEVaalE?oc=5",
+        "title": "মার্কিন কর্মকর্তাদের হত্যার চেষ্টা চালাচ্ছে ইরান, গোয়েন্দাদের সতর্কবার্তা",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZRF9xa3A5cjRhWkRaMEhoTlpmODZwNlpjYWNpTkl1STlUUEcxS0ZPTnd3RFEtRkItcEpDY25LQ05QQVYtSVdOc21hMUluMEVaalE?oc=5",
+        "source": "CNI | CREATIVE NEWS INTERNATIONAL",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 24 Oct 2026 13:40:28 GMT",
+        "summary": "মার্কিন কর্মকর্তাদের হত্যার চেষ্টা চালাচ্ছে ইরান, গোয়েন্দাদের সতর্কবার্তা &nbsp;&nbsp; CNI | CREATIVE NEWS INTERNATIONAL",
+        "image": "https://cniasia.news/admin/assets/images/background/login-register.jpg",
+        "articleUrl": "https://cniasia.news/post-details/200682",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRU1ZeDltMUZ4bmZDZklVal9tYWpfVVZ5R0RIMnE3Wnh1bklVekhsaVRybUpSQ3JCSlN1Z2lWSVdUX2VMWEZUX3dZc0lxV1BncUR1OVh1ZkQ0NFdzTktIa0Y5OVd6S3VjeGJxTkhGRzdPaGNLRWZPZG13VGl2cXh2VDRoMVZmaEE5N1ZDbkRmSHlLQU5vcHpReHJYdW1yNDFsRmI3VjQ0cEl2WF9HaTZr?oc=5",
+        "title": "বিশ্ব নেতৃত্ব ধরে রাখতে ট্রাম্পের নতুন বাহিনী গঠন, নাম ‘এসআইএফ’",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRU1ZeDltMUZ4bmZDZklVal9tYWpfVVZ5R0RIMnE3Wnh1bklVekhsaVRybUpSQ3JCSlN1Z2lWSVdUX2VMWEZUX3dZc0lxV1BncUR1OVh1ZkQ0NFdzTktIa0Y5OVd6S3VjeGJxTkhGRzdPaGNLRWZPZG13VGl2cXh2VDRoMVZmaEE5N1ZDbkRmSHlLQU5vcHpReHJYdW1yNDFsRmI3VjQ0cEl2WF9HaTZr?oc=5",
+        "source": "https://starnews.com.bd/",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 04 Oct 2026 07:00:00 GMT",
+        "summary": "বিশ্ব নেতৃত্ব ধরে রাখতে ট্রাম্পের নতুন বাহিনী গঠন, নাম ‘এসআইএফ’ &nbsp;&nbsp; https://starnews.com.bd/",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://starnews.com.bd/international/25348/trump-forms-new-force-named-sif-to-maintain-global-leadership.html",
+        "imageAttemptedAt": "2026-10-27T07:44:29.176Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EdnRVYXJ5WHhiaUd5c0VkOEtuV1lDWUFvd0FCSFk3OTJhd1ZyV0lVQlpPQXgxNnVSa0xYYS1xeS04enhScGpkTnJkVTZ1VTRuRWJ3R181d2lVWWpwalZEMTVqdw?oc=5",
         "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২৩ অক্টোবর ২০২৬",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EdnRVYXJ5WHhiaUd5c0VkOEtuV1lDWUFvd0FCSFk3OTJhd1ZyV0lVQlpPQXgxNnVSa0xYYS1xeS04enhScGpkTnJkVTZ1VTRuRWJ3R181d2lVWWpwalZEMTVqdw?oc=5",
@@ -705,16 +863,42 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tWWNZYUtpS18wRG1xSUtzNXkybWZFRml4R2I4Z1gzSklyNUIxc3ZERU91azd4bkR4dVN3U1dxUXFadnFLemhrUTVQNTczSm42YjRfZEpUR2M2SVFyRGdDWnRfdVg?oc=5",
-        "title": "নোবেল বিজয়ী পিল্লাই বলছেন আন্তর্জাতিক ন্যায়বিচার বিশ্বের প্রয়োজন",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tWWNZYUtpS18wRG1xSUtzNXkybWZFRml4R2I4Z1gzSklyNUIxc3ZERU91azd4bkR4dVN3U1dxUXFadnFLemhrUTVQNTczSm42YjRfZEpUR2M2SVFyRGdDWnRfdVg?oc=5",
-        "source": "NHKニュース",
+        "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hdHZGLXNIY0ZId1AwYTJNbDRPNUtzY0FRXzFqVGlGZ2lQN0F4bUlYUy1QamJueHV1Wm9vSWpGalpFWUl3X242c0lISU41SzFDTVpzYU52YkhTNmswcWZJYU9jRHR4bVZOZmhHUElmZ3hPV3lydm1tZ2lR?oc=5",
+        "title": "আজ বিশ্ব ট্রমা দিবস",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hdHZGLXNIY0ZId1AwYTJNbDRPNUtzY0FRXzFqVGlGZ2lQN0F4bUlYUy1QamJueHV1Wm9vSWpGalpFWUl3X242c0lISU41SzFDTVpzYU52YkhTNmswcWZJYU9jRHR4bVZOZmhHUElmZ3hPV3lydm1tZ2lR?oc=5",
+        "source": "Dainik Shiksha",
         "publisherUrl": "",
-        "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
-        "summary": "নোবেল বিজয়ী পিল্লাই বলছেন আন্তর্জাতিক ন্যায়বিচার বিশ্বের প্রয়োজন &nbsp;&nbsp; NHKニュース",
-        "image": "https://www3.nhk.or.jp/nhkworld/upld/thumbnails/news/20261014de58962_E0000070634_L.jpg",
-        "articleUrl": "https://www3.nhk.or.jp/nhkworld/bn/news/20261014_RS08/",
-        "imageAttemptedAt": "",
+        "publishedAt": "Sat, 17 Oct 2026 02:18:16 GMT",
+        "summary": "আজ বিশ্ব ট্রমা দিবস &nbsp;&nbsp; Dainik Shiksha",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.dainikshiksha.com/bn/news/today-is-world-trauma-day-387739",
+        "imageAttemptedAt": "2026-10-27T07:44:29.176Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SQ1U3NmFxMVFEdUVkbk1iSjJjdGZ5UTlsbWJCUXRJOC1oWnkydXlkT09hbkpZQUhpS2xYRjJmNE5tazF2Tl9JRFktc3ozRjBacFd4dW1vQjVfY2daN0IxSDhDOA?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২২ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SQ1U3NmFxMVFEdUVkbk1iSjJjdGZ5UTlsbWJCUXRJOC1oWnkydXlkT09hbkpZQUhpS2xYRjJmNE5tazF2Tl9JRFktc3ozRjBacFd4dW1vQjVfY2daN0IxSDhDOA?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 22 Oct 2026 15:57:56 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২২ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1171027",
+        "imageAttemptedAt": "2026-10-27T07:44:29.176Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORWpkTWxNbV90SGpkVFpxajh4b0c2bFFpYjBoR1BybnlES1NxZUpJSnlpOUJ2NHVrb0ZwdHd6Qm1lajg4OHcydDZWX29DSDRMdHdnZHRyQ1l6RnY0N0poa19WTktFbWFocG56Qzg5MjJxVDhKLWpYZEpoRHM0dGw5cG9JWER2NUdxd1dfUl96aDhiWF9JMnFyaVZvd0YtSGw0eFdvUmtGVDRPYWM?oc=5",
+        "title": "বিশ্ব ডাক দিবসে সম্মাননা পেলেন ‘নগদ’-এর ৬ প্রতিনিধি",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORWpkTWxNbV90SGpkVFpxajh4b0c2bFFpYjBoR1BybnlES1NxZUpJSnlpOUJ2NHVrb0ZwdHd6Qm1lajg4OHcydDZWX29DSDRMdHdnZHRyQ1l6RnY0N0poa19WTktFbWFocG56Qzg5MjJxVDhKLWpYZEpoRHM0dGw5cG9JWER2NUdxd1dfUl96aDhiWF9JMnFyaVZvd0YtSGw0eFdvUmtGVDRPYWM?oc=5",
+        "source": "Dainik Shiksha",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 15 Oct 2026 12:01:12 GMT",
+        "summary": "বিশ্ব ডাক দিবসে সম্মাননা পেলেন ‘নগদ’-এর ৬ প্রতিনিধি &nbsp;&nbsp; Dainik Shiksha",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.dainikshiksha.com/bn/news/6-nagad-representatives-received-recognition-on-world-post-day-387638",
+        "imageAttemptedAt": "2026-10-27T07:44:29.176Z",
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
@@ -731,68 +915,16 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBMS24xdmx1V19WUzFmNkNsdFZNRkhxaDJVcEw0RzczTFA4N3VrV3hwRlJCZ1JhTjV2VDAyYUNTVlE3ck9wRll6WV9HZjRyWkEtWTZWWkU3RTM4ck5Id1p6bVZPNA?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৩ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBMS24xdmx1V19WUzFmNkNsdFZNRkhxaDJVcEw0RzczTFA4N3VrV3hwRlJCZ1JhTjV2VDAyYUNTVlE3ck9wRll6WV9HZjRyWkEtWTZWWkU3RTM4ck5Id1p6bVZPNA?oc=5",
-        "source": "Jagonews24",
+        "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SNzdZV0ZERWZVN1VtNU12WFVfR0NWVVNLRkhuckZjV2gxVmR6dUN5bGJncElpNENHR2lVNy1HYUxkOXFsdzVTSlpDR2xSMVVZUnZpWVRaR1piX3BV?oc=5",
+        "title": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ২১ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SNzdZV0ZERWZVN1VtNU12WFVfR0NWVVNLRkhuckZjV2gxVmR6dUN5bGJncElpNENHR2lVNy1HYUxkOXFsdzVTSlpDR2xSMVVZUnZpWVRaR1piX3BV?oc=5",
+        "source": "সময় নিউজ",
         "publisherUrl": "",
-        "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৩ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1168004",
-        "imageAttemptedAt": "2026-10-27T06:57:11.701Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3bWZHT2lmTWJxMHF5UHIzZEZxZ04wWXZwODJUcGF2SU9sX1Z1b0ZIOXdHbUtJNTN3V0lhNGozVTRmRUtWZXFXdDdXN3FMV1pOajhKamZCZmtVd1NDbG5UVUE5aw?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৮ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3bWZHT2lmTWJxMHF5UHIzZEZxZ04wWXZwODJUcGF2SU9sX1Z1b0ZIOXdHbUtJNTN3V0lhNGozVTRmRUtWZXFXdDdXN3FMV1pOajhKamZCZmtVd1NDbG5UVUE5aw?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 18 Oct 2026 15:45:14 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৮ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1169670",
-        "imageAttemptedAt": "2026-10-27T06:57:11.701Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01bkxnUEQxRlNlLWdtNzRldEg3R0JydzBGSWlVSFB4bkNldG5YcHFxbDFmWEhzTXRsTHJyenRxY191M3J4NGlUX21sU3dxb1pURWZiVlh6Unc2eHFzN0N3SDdDZw?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৪ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01bkxnUEQxRlNlLWdtNzRldEg3R0JydzBGSWlVSFB4bkNldG5YcHFxbDFmWEhzTXRsTHJyenRxY191M3J4NGlUX21sU3dxb1pURWZiVlh6Unc2eHFzN0N3SDdDZw?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৪ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1168375",
-        "imageAttemptedAt": "2026-10-27T06:57:11.701Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9STUpmYjJkN2lUV1kwUnFvc0QwMjJuSHYwUWNrOUNjY1R6VTVucE9CQzVkcnVCRFBkSXExYXVFQ05McjlzWE5EV2U3c2hHUnVuUDFNd2RMTGdUbkdkb19OMWdBaw?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৪ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9STUpmYjJkN2lUV1kwUnFvc0QwMjJuSHYwUWNrOUNjY1R6VTVucE9CQzVkcnVCRFBkSXExYXVFQ05McjlzWE5EV2U3c2hHUnVuUDFNd2RMTGdUbkdkb19OMWdBaw?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 04 Oct 2026 07:00:00 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৪ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1164574",
-        "imageAttemptedAt": "2026-10-27T06:57:11.701Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PblZWWXZCRkluc2RVT1JkZHJHVFVWNVVsVGNfSTJoQ1lTaEpfNXpURm5xZ0lHNU1Ld0QwTjVIMVdrU2NyazR3TVhWVTg5ZzN5cGpfZkd3UXd4NkphSkIzWjk0SQ?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২১ সেপ্টেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PblZWWXZCRkluc2RVT1JkZHJHVFVWNVVsVGNfSTJoQ1lTaEpfNXpURm5xZ0lHNU1Ld0QwTjVIMVdrU2NyazR3TVhWVTg5ZzN5cGpfZkd3UXd4NkphSkIzWjk0SQ?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 21 Sep 2026 07:00:00 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২১ সেপ্টেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1159766",
-        "imageAttemptedAt": "2026-10-27T06:57:11.701Z",
+        "publishedAt": "Wed, 21 Oct 2026 10:51:16 GMT",
+        "summary": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ২১ অক্টোবর ২০২৬ &nbsp;&nbsp; সময় নিউজ",
+        "image": "https://img.youtube.com/vi/NnTI-eHb2IY/0.jpg",
+        "articleUrl": "https://somoynews.com.bd/video/video-gallery/108",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/world.svg"
       }
     ],
@@ -824,19 +956,6 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1R5Zm83QXBsR2FXV1RrOHdiQkZqSHMyelBwYnJfQXJsdHVscFhIaWsyRVI3em5FZ2xOR2xjdVVtSjlqUldtS1lJd3d1LWV4VHp1cFNQWXNzRldPQl8teTNCVXRmOFkxVVZabkJTOHFnTExtdnlCTzNWY1A2VXpncjA1MWwtbjlyaHlwOEF3RUQ5aVlkanZod3ZwNWVUZ9IBqwFBVV95cUxNUXE0d2NnTlNKc2VtUHlpanVXc0FyV090SDVXSnkwcWtsYUhXeFNQSktGTVBDZ3dlNExMSUJGWVNaRmVHT3J6Ri1yeFNCTlV2cVRSNXVMeEliclRobWhramRWUmZCQXZnRU1mUUxoaUdtLXVGUWd6ZmJuZ3NkbElFVGJVTExQTERON1FUbkwtRTlzU05hVXhfM1NBMTRjOU1LUm83RDFNMFRpdDg?oc=5",
-        "title": "আবর্জনা জমা দিলেই ভাত-ডাল-তরকারি, কোথায় রয়েছে এই ‘গারবেজ ক্যাফে’?",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1R5Zm83QXBsR2FXV1RrOHdiQkZqSHMyelBwYnJfQXJsdHVscFhIaWsyRVI3em5FZ2xOR2xjdVVtSjlqUldtS1lJd3d1LWV4VHp1cFNQWXNzRldPQl8teTNCVXRmOFkxVVZabkJTOHFnTExtdnlCTzNWY1A2VXpncjA1MWwtbjlyaHlwOEF3RUQ5aVlkanZod3ZwNWVUZ9IBqwFBVV95cUxNUXE0d2NnTlNKc2VtUHlpanVXc0FyV090SDVXSnkwcWtsYUhXeFNQSktGTVBDZ3dlNExMSUJGWVNaRmVHT3J6Ri1yeFNCTlV2cVRSNXVMeEliclRobWhramRWUmZCQXZnRU1mUUxoaUdtLXVGUWd6ZmJuZ3NkbElFVGJVTExQTERON1FUbkwtRTlzU05hVXhfM1NBMTRjOU1LUm83RDFNMFRpdDg?oc=5",
-        "source": "Ei Samay",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 27 Oct 2026 06:40:20 GMT",
-        "summary": "আবর্জনা জমা দিলেই ভাত-ডাল-তরকারি, কোথায় রয়েছে এই ‘গারবেজ ক্যাফে’? &nbsp;&nbsp; Ei Samay",
-        "image": "https://cf-images.assettype.com/eisamay%2F2026-10-27%2Ftsvx7x4q%2FLEAD01-8.webp?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-        "articleUrl": "https://eisamay.com/positive-news/india-garbage-cafe-chhattisgar-plastic-waste-food/200558869.cms",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0zQzZYY045VVNweS01YjZQQzd3UUZQYjlYV1p3SkowNkczckNxZ3U5NUZqQnJWWm5vejdmYVprM1V0cWp2RFd6dGFueGtJd2ZoVG9uWmtZNldTY2J5Q2NLZm5YdXhZbWs5dnVkazZuSUl1dmdZNHV5ZVJ0Zw?oc=5",
         "title": "রাস্তার পাশের অস্থায়ী খাবারের দোকান নিবন্ধনের আওতায় আসছে",
         "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0zQzZYY045VVNweS01YjZQQzd3UUZQYjlYV1p3SkowNkczckNxZ3U5NUZqQnJWWm5vejdmYVprM1V0cWp2RFd6dGFueGtJd2ZoVG9uWmtZNldTY2J5Q2NLZm5YdXhZbWs5dnVkazZuSUl1dmdZNHV5ZVJ0Zw?oc=5",
@@ -847,6 +966,19 @@
         "image": "news-fallbacks/food.svg",
         "articleUrl": "https://www.banglanews24.com/economics-business/news/bd/1689351.details",
         "imageAttemptedAt": "2026-10-27T06:57:11.701Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1R5Zm83QXBsR2FXV1RrOHdiQkZqSHMyelBwYnJfQXJsdHVscFhIaWsyRVI3em5FZ2xOR2xjdVVtSjlqUldtS1lJd3d1LWV4VHp1cFNQWXNzRldPQl8teTNCVXRmOFkxVVZabkJTOHFnTExtdnlCTzNWY1A2VXpncjA1MWwtbjlyaHlwOEF3RUQ5aVlkanZod3ZwNWVUZ9IBqwFBVV95cUxNUXE0d2NnTlNKc2VtUHlpanVXc0FyV090SDVXSnkwcWtsYUhXeFNQSktGTVBDZ3dlNExMSUJGWVNaRmVHT3J6Ri1yeFNCTlV2cVRSNXVMeEliclRobWhramRWUmZCQXZnRU1mUUxoaUdtLXVGUWd6ZmJuZ3NkbElFVGJVTExQTERON1FUbkwtRTlzU05hVXhfM1NBMTRjOU1LUm83RDFNMFRpdDg?oc=5",
+        "title": "আবর্জনা জমা দিলেই ভাত-ডাল-তরকারি, কোথায় রয়েছে এই ‘গারবেজ ক্যাফে’?",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1R5Zm83QXBsR2FXV1RrOHdiQkZqSHMyelBwYnJfQXJsdHVscFhIaWsyRVI3em5FZ2xOR2xjdVVtSjlqUldtS1lJd3d1LWV4VHp1cFNQWXNzRldPQl8teTNCVXRmOFkxVVZabkJTOHFnTExtdnlCTzNWY1A2VXpncjA1MWwtbjlyaHlwOEF3RUQ5aVlkanZod3ZwNWVUZ9IBqwFBVV95cUxNUXE0d2NnTlNKc2VtUHlpanVXc0FyV090SDVXSnkwcWtsYUhXeFNQSktGTVBDZ3dlNExMSUJGWVNaRmVHT3J6Ri1yeFNCTlV2cVRSNXVMeEliclRobWhramRWUmZCQXZnRU1mUUxoaUdtLXVGUWd6ZmJuZ3NkbElFVGJVTExQTERON1FUbkwtRTlzU05hVXhfM1NBMTRjOU1LUm83RDFNMFRpdDg?oc=5",
+        "source": "Ei Samay",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 27 Oct 2026 06:40:20 GMT",
+        "summary": "আবর্জনা জমা দিলেই ভাত-ডাল-তরকারি, কোথায় রয়েছে এই ‘গারবেজ ক্যাফে’? &nbsp;&nbsp; Ei Samay",
+        "image": "https://cf-images.assettype.com/eisamay%2F2026-10-27%2Ftsvx7x4q%2FLEAD01-8.webp?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+        "articleUrl": "https://eisamay.com/positive-news/india-garbage-cafe-chhattisgar-plastic-waste-food/200558869.cms",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -863,6 +995,32 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sQ2JWUE5xZnZKdUxIT0RMNFBackREUFF5Sml6ZjRic0dpZkl2amVzZzlNdHFHRzJXOU54TDVGWWk2ZWNXVVBQOGZMUko0d3k0STFV?oc=5",
+        "title": "খাদ্যে ভেজাল রোধ না করলে মৃত্যুর মিছিল থামবে না: স্বাস্থ্য প্রতিমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sQ2JWUE5xZnZKdUxIT0RMNFBackREUFF5Sml6ZjRic0dpZkl2amVzZzlNdHFHRzJXOU54TDVGWWk2ZWNXVVBQOGZMUko0d3k0STFV?oc=5",
+        "source": "Sarabangla",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 27 Oct 2026 07:25:00 GMT",
+        "summary": "খাদ্যে ভেজাল রোধ না করলে মৃত্যুর মিছিল থামবে না: স্বাস্থ্য প্রতিমন্ত্রী &nbsp;&nbsp; Sarabangla",
+        "image": "https://sarabangla.net/wp-content/uploads/2026/10/Lobon.jpg",
+        "articleUrl": "https://sarabangla.net/news/post-1213155/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9URlBhTjdtNWViclJ2dUVyUTdUNS1ocUxTd0lCTjFLWUh4QU1LbWEtWXRfWEJuU2RoRVQyQzF4NGN5eHdWZ0Y5ZWd4ekx1TmEzbGJtbA?oc=5",
+        "title": "নিবন্ধনের আওতায় আসছে খাবারের দোকান, আবেদন শুরু ১ নভেম্বর",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9URlBhTjdtNWViclJ2dUVyUTdUNS1ocUxTd0lCTjFLWUh4QU1LbWEtWXRfWEJuU2RoRVQyQzF4NGN5eHdWZ0Y5ZWd4ekx1TmEzbGJtbA?oc=5",
+        "source": "Bangla Stream",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 27 Oct 2026 07:03:00 GMT",
+        "summary": "নিবন্ধনের আওতায় আসছে খাবারের দোকান, আবেদন শুরু ১ নভেম্বর &nbsp;&nbsp; Bangla Stream",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://banglastream.net/news/bsfeqfqymnqw",
+        "imageAttemptedAt": "2026-10-27T07:44:29.176Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE56Q0p2RFNoaFE3R1VKY0dsaGJUYnYzeUtWUDM1V1B3dTViOVVPMDNWMk1VX1RoVzRZZG4xb21fM3R6LXhlcnJ6ZUluQkpyRFRYWThXdg?oc=5",
         "title": "নিরাপদ খাদ্য কর্তৃপক্ষের সব কার্যালয় শতভাগ তামাক ও ধূমপানমুক্ত ঘোষণা | খবর | বাংলাদেশ সংবাদ সংস্থা (বাসস)",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE56Q0p2RFNoaFE3R1VKY0dsaGJUYnYzeUtWUDM1V1B3dTViOVVPMDNWMk1VX1RoVzRZZG4xb21fM3R6LXhlcnJ6ZUluQkpyRFRYWThXdg?oc=5",
@@ -873,32 +1031,6 @@
         "image": "news-fallbacks/food.svg",
         "articleUrl": "https://www.bssnews.net/bangla/news/353742",
         "imageAttemptedAt": "2026-10-26T14:07:07.076Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jSGhGS0kyZEM4c25kaUxxbm9hdmRqMHpkUEYwWkFtY0VsQnhOM3lxYkN4MF9ob3hScmNNNHR1bTZONmxtVS1SSGdONDhSWVlx0gFQQVVfeXFMT2NIaEZLSTJkQzhzbmRpTHFub2F2ZGowemRQRjBaQW1jRWxCeE4zeXFiQ3gwX2hveFJyY000dHVtNk42bG1VLVJIZ040OFJZWXE?oc=5",
-        "title": "খাদ্যে ভেজাল ও স্বাস্থ্যে দুর্নীতি রোধ না করলে মৃত্যুর মিছিল থামবে না",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jSGhGS0kyZEM4c25kaUxxbm9hdmRqMHpkUEYwWkFtY0VsQnhOM3lxYkN4MF9ob3hScmNNNHR1bTZONmxtVS1SSGdONDhSWVlx0gFQQVVfeXFMT2NIaEZLSTJkQzhzbmRpTHFub2F2ZGowemRQRjBaQW1jRWxCeE4zeXFiQ3gwX2hveFJyY000dHVtNk42bG1VLVJIZ040OFJZWXE?oc=5",
-        "source": "Dhaka Mail",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 27 Oct 2026 06:52:48 GMT",
-        "summary": "খাদ্যে ভেজাল ও স্বাস্থ্যে দুর্নীতি রোধ না করলে মৃত্যুর মিছিল থামবে না &nbsp;&nbsp; Dhaka Mail",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://dhakamail.com/amp/health/338970",
-        "imageAttemptedAt": "2026-10-27T06:57:11.701Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi4gRBVV95cUxOX3VqQXVGbGQ3STZkTDBrdHVaUUlsZXFJczRHWDRCckdZZ1BNM3JlcUVjUWZIbW9ZXzd2alRDU2JycnVGclB2NlhhZ3FpcUR1eWg1TC1zbXBWeFFqeW0tdkV6MGlic2QtUXAtcnJyOEhPT1NQWjNfX2ZFVC11VHZVUkZ0bUVOcDZVMENEZ2k1cHNMNHludmZIZlJyampoQld0VF9LWnpMc3NfWjQyQ1E3Wnp3a09DYjFuM1dkYWFScXdSZTY0TWFOdVdhYXU4VTd3MDVfNDd0LW85X3B3OTRRSXh6UkEyYm8yeHVpWHowZE94UDZNeXIwaHl5MGxUdV9PZ1dXU3lvbmlyT2gyalhjVmtPcWhPYXd0Q3diNTE1T1lLTkdiVG9WNkx5d2dSa25qZ3FIM2NLcVp0OWJ3Z3RnblpINFpBSy1vSlVaeTk0d0lKdnV0ZGRvUjNRczZ2TkZHWEQ4NG11Mmp1Q05aQ0tjMVRxWHBlNkppYUpyY3NWdUxEdHBnWnozUE5NWU5ZODFCaWc4dVh6OGMydWN1MjFHRmFrdDFPTDVWZTJ1SG5jWEFYTi1NaGRhRnU3WFBNYkRETXRhMmtPVFNLRTJOYVFiUW83MkVKMEw3SkRTYVVoXzlJOWhtMzU1S1hHeUFlLXRBd0JOaXVQZEFOSFJNVHZkZWZ6TUF5MElINWhidTRHWnM0U3Y2YTNGcUl1cDhLd0Q5TFNVMmlFM2JxemlBeVBra1FWVGp4UUFkd1VteDJCM2tlM29RWXVJTG5OeVpCZjkyS0lVREJwWU5MMTlGR3lhSHln0gHnBEFVX3lxTE5PLUQ5bFRUbndUTEhCLUt3M0pjRWY1MjFYOEpiMnlEUWJGVkJkLUZuUFg4SFhDZ2Z1b2pQQTQzTXNCZ1lzTFZPYi1sRFU0RVI2S2JIZ1h6a21hR3ZfSFQ0em1maEs4ZEIxd3NLaXB3eTVuUFJJX2Y5UTBLb29POTBOcHkzM0xYZVY2bW9hbnNfMXlTU2RzbkExMVpfRS1MOXBDU3BlWkhUdGpaYVdNdFpQRm5Ea3pVYzZqTHctMEtxNHB5TFlHeE5mSElmVjZEWjhaU19PSHVwM1BVZVlrQ2FoWGo4Mm5iaVdtNmo5aTVPT09uTjhGeVRLNFJReEJBc0xvLXltdmEtN1dXS0tlRVppdHhsbWhlVEdqYVF5b1RLY1NKZ29QcGptcW4ybG9JMDQyaUptNjB4bnQzWG5FWFVFQW9YaXZoUHFDTjFyY2JMV0JRdlhmbjZ5SERjVDBJVE9WUXA1bzMtdWVNMG9GcGtjbnNjb3d1UVE3cGx0STVLVDFOUWlBaGQwWE1CNTNoSUU3YTMtN0ZmVU80WmtjM2NaLTRBbjZuNHJQUlNmOUdRYnRoZE5uVV8yNEZkUk1rZTdhaFo1R0R5OXlNYjF3T1cyRERCbUVGRlcwZV9ZWlFyWFI4OFVOTFIyTV9MOFZUSjROaHBZUXZXRm5hMl8xcHdLT0ltVlNReUhoMllGVHBlb1c3MzRJQ1lnUDRaQzZyeUhzOXV5anFUeWVlRjhKUUZyS2JDMENPLVp0WEQ1RDFvQnVJT2MtVjFBSW51Rm9iTGtna1drRmw1b1BVVGwtczZ5MnZEU1RVNA?oc=5",
-        "title": "খাদ্য সংরক্ষণে পাকিস্তানের সহযোগিতা গুরুত্বপূর্ণ",
-        "link": "https://news.google.com/rss/articles/CBMi4gRBVV95cUxOX3VqQXVGbGQ3STZkTDBrdHVaUUlsZXFJczRHWDRCckdZZ1BNM3JlcUVjUWZIbW9ZXzd2alRDU2JycnVGclB2NlhhZ3FpcUR1eWg1TC1zbXBWeFFqeW0tdkV6MGlic2QtUXAtcnJyOEhPT1NQWjNfX2ZFVC11VHZVUkZ0bUVOcDZVMENEZ2k1cHNMNHludmZIZlJyampoQld0VF9LWnpMc3NfWjQyQ1E3Wnp3a09DYjFuM1dkYWFScXdSZTY0TWFOdVdhYXU4VTd3MDVfNDd0LW85X3B3OTRRSXh6UkEyYm8yeHVpWHowZE94UDZNeXIwaHl5MGxUdV9PZ1dXU3lvbmlyT2gyalhjVmtPcWhPYXd0Q3diNTE1T1lLTkdiVG9WNkx5d2dSa25qZ3FIM2NLcVp0OWJ3Z3RnblpINFpBSy1vSlVaeTk0d0lKdnV0ZGRvUjNRczZ2TkZHWEQ4NG11Mmp1Q05aQ0tjMVRxWHBlNkppYUpyY3NWdUxEdHBnWnozUE5NWU5ZODFCaWc4dVh6OGMydWN1MjFHRmFrdDFPTDVWZTJ1SG5jWEFYTi1NaGRhRnU3WFBNYkRETXRhMmtPVFNLRTJOYVFiUW83MkVKMEw3SkRTYVVoXzlJOWhtMzU1S1hHeUFlLXRBd0JOaXVQZEFOSFJNVHZkZWZ6TUF5MElINWhidTRHWnM0U3Y2YTNGcUl1cDhLd0Q5TFNVMmlFM2JxemlBeVBra1FWVGp4UUFkd1VteDJCM2tlM29RWXVJTG5OeVpCZjkyS0lVREJwWU5MMTlGR3lhSHln0gHnBEFVX3lxTE5PLUQ5bFRUbndUTEhCLUt3M0pjRWY1MjFYOEpiMnlEUWJGVkJkLUZuUFg4SFhDZ2Z1b2pQQTQzTXNCZ1lzTFZPYi1sRFU0RVI2S2JIZ1h6a21hR3ZfSFQ0em1maEs4ZEIxd3NLaXB3eTVuUFJJX2Y5UTBLb29POTBOcHkzM0xYZVY2bW9hbnNfMXlTU2RzbkExMVpfRS1MOXBDU3BlWkhUdGpaYVdNdFpQRm5Ea3pVYzZqTHctMEtxNHB5TFlHeE5mSElmVjZEWjhaU19PSHVwM1BVZVlrQ2FoWGo4Mm5iaVdtNmo5aTVPT09uTjhGeVRLNFJReEJBc0xvLXltdmEtN1dXS0tlRVppdHhsbWhlVEdqYVF5b1RLY1NKZ29QcGptcW4ybG9JMDQyaUptNjB4bnQzWG5FWFVFQW9YaXZoUHFDTjFyY2JMV0JRdlhmbjZ5SERjVDBJVE9WUXA1bzMtdWVNMG9GcGtjbnNjb3d1UVE3cGx0STVLVDFOUWlBaGQwWE1CNTNoSUU3YTMtN0ZmVU80WmtjM2NaLTRBbjZuNHJQUlNmOUdRYnRoZE5uVV8yNEZkUk1rZTdhaFo1R0R5OXlNYjF3T1cyRERCbUVGRlcwZV9ZWlFyWFI4OFVOTFIyTV9MOFZUSjROaHBZUXZXRm5hMl8xcHdLT0ltVlNReUhoMllGVHBlb1c3MzRJQ1lnUDRaQzZyeUhzOXV5anFUeWVlRjhKUUZyS2JDMENPLVp0WEQ1RDFvQnVJT2MtVjFBSW51Rm9iTGtna1drRmw1b1BVVGwtczZ5MnZEU1RVNA?oc=5",
-        "source": "দেশ রূপান্তর",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 27 Oct 2026 01:32:01 GMT",
-        "summary": "খাদ্য সংরক্ষণে পাকিস্তানের সহযোগিতা গুরুত্বপূর্ণ &nbsp;&nbsp; দেশ রূপান্তর",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.deshrupantor.com/730512/%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%B8%E0%A6%82%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A3%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B9%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BF%E0%A6%A4%E0%A6%BE-%E0%A6%97%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A3",
-        "imageAttemptedAt": "2026-10-27T02:45:04.867Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -915,149 +1047,17 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kcFozZXZRQ2xCejBmS05CTkJvUlJIaEZJYzFVY2hGaEgtb3Z1dEZOUTcydW5Xd012Ri1xd0YxWHNScWZFeklkWnh1SEZUUHRoS3JIR29RQV9hWUNx0gFqQVVfeXFMUE1zSEZQNE50VkoyalI1elVRNzZzclVGa2JlTy00NFRrM2kyWjR1NUFGc2UtZ3VxWlhhdmJnY0hiQ0IxWEJSZF9PWmI1RlhHQXpYQ0IzUHdkbXZuWE1zdkduWmhkLVZRRno5Zw?oc=5",
-        "title": "অসংক্রামক রোগের বড় কারণ খাবারে ভেজাল",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kcFozZXZRQ2xCejBmS05CTkJvUlJIaEZJYzFVY2hGaEgtb3Z1dEZOUTcydW5Xd012Ri1xd0YxWHNScWZFeklkWnh1SEZUUHRoS3JIR29RQV9hWUNx0gFqQVVfeXFMUE1zSEZQNE50VkoyalI1elVRNzZzclVGa2JlTy00NFRrM2kyWjR1NUFGc2UtZ3VxWlhhdmJnY0hiQ0IxWEJSZF9PWmI1RlhHQXpYQ0IzUHdkbXZuWE1zdkduWmhkLVZRRno5Zw?oc=5",
-        "source": "প্রথম আলো",
+        "id": "https://news.google.com/rss/articles/CBMi4gRBVV95cUxOX3VqQXVGbGQ3STZkTDBrdHVaUUlsZXFJczRHWDRCckdZZ1BNM3JlcUVjUWZIbW9ZXzd2alRDU2JycnVGclB2NlhhZ3FpcUR1eWg1TC1zbXBWeFFqeW0tdkV6MGlic2QtUXAtcnJyOEhPT1NQWjNfX2ZFVC11VHZVUkZ0bUVOcDZVMENEZ2k1cHNMNHludmZIZlJyampoQld0VF9LWnpMc3NfWjQyQ1E3Wnp3a09DYjFuM1dkYWFScXdSZTY0TWFOdVdhYXU4VTd3MDVfNDd0LW85X3B3OTRRSXh6UkEyYm8yeHVpWHowZE94UDZNeXIwaHl5MGxUdV9PZ1dXU3lvbmlyT2gyalhjVmtPcWhPYXd0Q3diNTE1T1lLTkdiVG9WNkx5d2dSa25qZ3FIM2NLcVp0OWJ3Z3RnblpINFpBSy1vSlVaeTk0d0lKdnV0ZGRvUjNRczZ2TkZHWEQ4NG11Mmp1Q05aQ0tjMVRxWHBlNkppYUpyY3NWdUxEdHBnWnozUE5NWU5ZODFCaWc4dVh6OGMydWN1MjFHRmFrdDFPTDVWZTJ1SG5jWEFYTi1NaGRhRnU3WFBNYkRETXRhMmtPVFNLRTJOYVFiUW83MkVKMEw3SkRTYVVoXzlJOWhtMzU1S1hHeUFlLXRBd0JOaXVQZEFOSFJNVHZkZWZ6TUF5MElINWhidTRHWnM0U3Y2YTNGcUl1cDhLd0Q5TFNVMmlFM2JxemlBeVBra1FWVGp4UUFkd1VteDJCM2tlM29RWXVJTG5OeVpCZjkyS0lVREJwWU5MMTlGR3lhSHln0gHnBEFVX3lxTE5PLUQ5bFRUbndUTEhCLUt3M0pjRWY1MjFYOEpiMnlEUWJGVkJkLUZuUFg4SFhDZ2Z1b2pQQTQzTXNCZ1lzTFZPYi1sRFU0RVI2S2JIZ1h6a21hR3ZfSFQ0em1maEs4ZEIxd3NLaXB3eTVuUFJJX2Y5UTBLb29POTBOcHkzM0xYZVY2bW9hbnNfMXlTU2RzbkExMVpfRS1MOXBDU3BlWkhUdGpaYVdNdFpQRm5Ea3pVYzZqTHctMEtxNHB5TFlHeE5mSElmVjZEWjhaU19PSHVwM1BVZVlrQ2FoWGo4Mm5iaVdtNmo5aTVPT09uTjhGeVRLNFJReEJBc0xvLXltdmEtN1dXS0tlRVppdHhsbWhlVEdqYVF5b1RLY1NKZ29QcGptcW4ybG9JMDQyaUptNjB4bnQzWG5FWFVFQW9YaXZoUHFDTjFyY2JMV0JRdlhmbjZ5SERjVDBJVE9WUXA1bzMtdWVNMG9GcGtjbnNjb3d1UVE3cGx0STVLVDFOUWlBaGQwWE1CNTNoSUU3YTMtN0ZmVU80WmtjM2NaLTRBbjZuNHJQUlNmOUdRYnRoZE5uVV8yNEZkUk1rZTdhaFo1R0R5OXlNYjF3T1cyRERCbUVGRlcwZV9ZWlFyWFI4OFVOTFIyTV9MOFZUSjROaHBZUXZXRm5hMl8xcHdLT0ltVlNReUhoMllGVHBlb1c3MzRJQ1lnUDRaQzZyeUhzOXV5anFUeWVlRjhKUUZyS2JDMENPLVp0WEQ1RDFvQnVJT2MtVjFBSW51Rm9iTGtna1drRmw1b1BVVGwtczZ5MnZEU1RVNA?oc=5",
+        "title": "খাদ্য সংরক্ষণে পাকিস্তানের সহযোগিতা গুরুত্বপূর্ণ",
+        "link": "https://news.google.com/rss/articles/CBMi4gRBVV95cUxOX3VqQXVGbGQ3STZkTDBrdHVaUUlsZXFJczRHWDRCckdZZ1BNM3JlcUVjUWZIbW9ZXzd2alRDU2JycnVGclB2NlhhZ3FpcUR1eWg1TC1zbXBWeFFqeW0tdkV6MGlic2QtUXAtcnJyOEhPT1NQWjNfX2ZFVC11VHZVUkZ0bUVOcDZVMENEZ2k1cHNMNHludmZIZlJyampoQld0VF9LWnpMc3NfWjQyQ1E3Wnp3a09DYjFuM1dkYWFScXdSZTY0TWFOdVdhYXU4VTd3MDVfNDd0LW85X3B3OTRRSXh6UkEyYm8yeHVpWHowZE94UDZNeXIwaHl5MGxUdV9PZ1dXU3lvbmlyT2gyalhjVmtPcWhPYXd0Q3diNTE1T1lLTkdiVG9WNkx5d2dSa25qZ3FIM2NLcVp0OWJ3Z3RnblpINFpBSy1vSlVaeTk0d0lKdnV0ZGRvUjNRczZ2TkZHWEQ4NG11Mmp1Q05aQ0tjMVRxWHBlNkppYUpyY3NWdUxEdHBnWnozUE5NWU5ZODFCaWc4dVh6OGMydWN1MjFHRmFrdDFPTDVWZTJ1SG5jWEFYTi1NaGRhRnU3WFBNYkRETXRhMmtPVFNLRTJOYVFiUW83MkVKMEw3SkRTYVVoXzlJOWhtMzU1S1hHeUFlLXRBd0JOaXVQZEFOSFJNVHZkZWZ6TUF5MElINWhidTRHWnM0U3Y2YTNGcUl1cDhLd0Q5TFNVMmlFM2JxemlBeVBra1FWVGp4UUFkd1VteDJCM2tlM29RWXVJTG5OeVpCZjkyS0lVREJwWU5MMTlGR3lhSHln0gHnBEFVX3lxTE5PLUQ5bFRUbndUTEhCLUt3M0pjRWY1MjFYOEpiMnlEUWJGVkJkLUZuUFg4SFhDZ2Z1b2pQQTQzTXNCZ1lzTFZPYi1sRFU0RVI2S2JIZ1h6a21hR3ZfSFQ0em1maEs4ZEIxd3NLaXB3eTVuUFJJX2Y5UTBLb29POTBOcHkzM0xYZVY2bW9hbnNfMXlTU2RzbkExMVpfRS1MOXBDU3BlWkhUdGpaYVdNdFpQRm5Ea3pVYzZqTHctMEtxNHB5TFlHeE5mSElmVjZEWjhaU19PSHVwM1BVZVlrQ2FoWGo4Mm5iaVdtNmo5aTVPT09uTjhGeVRLNFJReEJBc0xvLXltdmEtN1dXS0tlRVppdHhsbWhlVEdqYVF5b1RLY1NKZ29QcGptcW4ybG9JMDQyaUptNjB4bnQzWG5FWFVFQW9YaXZoUHFDTjFyY2JMV0JRdlhmbjZ5SERjVDBJVE9WUXA1bzMtdWVNMG9GcGtjbnNjb3d1UVE3cGx0STVLVDFOUWlBaGQwWE1CNTNoSUU3YTMtN0ZmVU80WmtjM2NaLTRBbjZuNHJQUlNmOUdRYnRoZE5uVV8yNEZkUk1rZTdhaFo1R0R5OXlNYjF3T1cyRERCbUVGRlcwZV9ZWlFyWFI4OFVOTFIyTV9MOFZUSjROaHBZUXZXRm5hMl8xcHdLT0ltVlNReUhoMllGVHBlb1c3MzRJQ1lnUDRaQzZyeUhzOXV5anFUeWVlRjhKUUZyS2JDMENPLVp0WEQ1RDFvQnVJT2MtVjFBSW51Rm9iTGtna1drRmw1b1BVVGwtczZ5MnZEU1RVNA?oc=5",
+        "source": "দেশ রূপান্তর",
         "publisherUrl": "",
-        "publishedAt": "Sun, 25 Oct 2026 19:44:50 GMT",
-        "summary": "অসংক্রামক রোগের বড় কারণ খাবারে ভেজাল &nbsp;&nbsp; প্রথম আলো",
-        "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2F37tci5pu%2Ffood-safety.jpeg?rect=0%2C0%2C1600%2C900&w=1200&ar=16%3A9&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
-        "articleUrl": "https://www.prothomalo.com/bangladesh/js0jcg9kh0",
-        "imageAttemptedAt": "",
+        "publishedAt": "Tue, 27 Oct 2026 01:32:01 GMT",
+        "summary": "খাদ্য সংরক্ষণে পাকিস্তানের সহযোগিতা গুরুত্বপূর্ণ &nbsp;&nbsp; দেশ রূপান্তর",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.deshrupantor.com/730512/%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%B8%E0%A6%82%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A3%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B9%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BF%E0%A6%A4%E0%A6%BE-%E0%A6%97%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A3",
+        "imageAttemptedAt": "2026-10-27T02:45:04.867Z",
         "imageFallback": "news-fallbacks/food.svg"
-      }
-    ],
-    "bangladesh": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWVZ5N0FGcHJuTU1KLVNaRlBIeElDZVNKZnl4V21tYUgyenlPc2UwNUw5TjhTUVpzSFJKSUZCQzZRNXdEZXRScV90RlFmX3BaUUFfVmE0Y3RHQnBIU2xYU01JMzVWNE9GNVpNTk56OXpwQWcyRlY2a1NYY3FFanNnZlhGX3JTaGRLbk4wX3o2NjJsRkRLNnpCUmJqczVoUElaRXRvSzRGRDltbUVfNTFfb3NNWGdHa2s4WlhSY0pmSDlBN2dKZU5YS21YYy01OVBqNHU0?oc=5",
-        "title": "বাংলাদেশ ও জাপানের প্রধানমন্ত্রীর বৈঠকে গুরুত্ব পেল যেসব বিষয়",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWVZ5N0FGcHJuTU1KLVNaRlBIeElDZVNKZnl4V21tYUgyenlPc2UwNUw5TjhTUVpzSFJKSUZCQzZRNXdEZXRScV90RlFmX3BaUUFfVmE0Y3RHQnBIU2xYU01JMzVWNE9GNVpNTk56OXpwQWcyRlY2a1NYY3FFanNnZlhGX3JTaGRLbk4wX3o2NjJsRkRLNnpCUmJqczVoUElaRXRvSzRGRDltbUVfNTFfb3NNWGdHa2s4WlhSY0pmSDlBN2dKZU5YS21YYy01OVBqNHU0?oc=5",
-        "source": "starnews.com.bd",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 27 Oct 2026 06:06:30 GMT",
-        "summary": "বাংলাদেশ ও জাপানের প্রধানমন্ত্রীর বৈঠকে গুরুত্ব পেল যেসব বিষয় &nbsp;&nbsp; starnews.com.bd",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://starnews.com.bd/national/27450/key-issues-highlighted-during-the-meeting-between-the-prime-ministers-of-bangladesh-and-japan.html",
-        "imageAttemptedAt": "2026-10-27T06:57:11.701Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tWnhOQ3lKUGc3eDQ4UUVoQ3huMmZwQWdVN1BVV0x4b0dwZGJMMVdaVEhXQkNfLVlZekcySi1DWFRxLWItX0dvMEFwN05tQVBwdHNWT181ZTc5bVFEdTlj0gFkQVVfeXFMTmktdXZwNDFvbHMzemxMMDlYS1VONW9XUGpyNl9EM1M3THhSSXpYaHI2d2xSOW8zSW5PYk1lcHlXa29DWmctNkpmOGpuWVdhOHFJMFFOeGMwUnF1UExMdnhGeGpteg?oc=5",
-        "title": "তারেক রহমানের জাপান সফরে কী চাইছে বাংলাদেশ",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tWnhOQ3lKUGc3eDQ4UUVoQ3huMmZwQWdVN1BVV0x4b0dwZGJMMVdaVEhXQkNfLVlZekcySi1DWFRxLWItX0dvMEFwN05tQVBwdHNWT181ZTc5bVFEdTlj0gFkQVVfeXFMTmktdXZwNDFvbHMzemxMMDlYS1VONW9XUGpyNl9EM1M3THhSSXpYaHI2d2xSOW8zSW5PYk1lcHlXa29DWmctNkpmOGpuWVdhOHFJMFFOeGMwUnF1UExMdnhGeGpteg?oc=5",
-        "source": "BBC",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 26 Oct 2026 14:40:52 GMT",
-        "summary": "তারেক রহমানের জাপান সফরে কী চাইছে বাংলাদেশ &nbsp;&nbsp; BBC",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.bbc.com/bengali/articles/cmwy4glx5e0lo",
-        "imageAttemptedAt": "2026-10-26T18:59:49.150Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi-gZBVV95cUxNQ3hKTTVod3RJcTl2TjlTNGF5VjJ3aVlsMV9Nb1lhaUNsR1BQTzZxS2xpSFVCanZsb0ViXzdhTWtEX3RGUWNzOTJXU0w5YjdBMTRUY0RzQVgxTWo5dDNBOVR6T2tpVFI2VG1Jd1hlbnowOURxeVdJREhaa28tLW5xeUJyZzBTdW54QWR3aUtiNV8xUEQ2TlZZS0VrQUJ2cXZYVVpsSk5Md2NYeUNIdWItbFpSS3ZfV2dBQUh1cmQzT1NBQ09wWWJDaU9taTZTeUc3RGxNck4zakZSZk5rc1B0OWpxX1Q5bEFfbm5ZaFNnbURNRS1XZ0JHb00zTGJBR3ZOT2NxSnAyOVBZV2o5cUg3a0hBa2xuTkQwTVdGOHBYZjRnYVVUV1RHZUJsTnVoWXpwMllNM1p2OGY4dnNJRGhFaUlRQXJabVFkbkxLM29HMlR1R1JudGl1SExOYkVSdW85X1FoQkc5UnJMd09LSE9fUVJsS09aRW1uY0s1RHE2dmwtZHFES2xtUi1BUHo5bExQT3Z6cWdxUnVUc01BS25rd3huQUEyTExiMDFtLUI2XzJBOGY1b3pRZ0hTRENDWjJqdE1JUUhfb01qM25yU2RrMGpzbDdUTmMzVkl5dEpWYXFRX1JjN0hQWDVLcXBtTGRpc2tiTHQ5RFBJRDRWMll0Y2FQN0EzSTl2Tm9LUXktUThmMEg1Q3EtcWFEbEY2Zl81bVJFUkplN0RLaGJPYmVoRDRHSmk3cE5nM1JTbFpHajlBRDhfMUZjaVNaNmpKdmMyeWliWE0wWDNlZ09YdW5SUVhweXFubDVKS2ctaDB3RG5zTkNHR1pZVHZrVzlsRXJSRUNEdEVScnRDQUJMUzIxLWRtaFZKRTZ2a1JIdjIxNGE1R3RITFU5ZjlqM0NfYjVYOUItcnRkaTFHQ0RwR2N6Zi1nRURieHRKcTZFUkowR3hEVnczc2JxdXBycUYwSldFVUN5Um5vTVpzcnNwbWZIYmZWNzN1Z21oYmxteHZOdG43OU9wOTItV0pRVVhBSHhOWG1CSUJZeHJBTUFLMXVIdmhVeldQWVlwbW9CZ1FYaWh5NEZhQXgxUlRtX3lXMldrTkRqOGhnZjBMczBfaUc1SmljRzR0eVhSYTFhLWNOOC1OXzlBdGpfMHpLRy1wYkNlN2FDSXBGYkZqZw?oc=5",
-        "title": "জাপান-বাংলাদেশ বন্ধুত্ব হবে অর্থনৈতিক সমৃদ্ধির চালিকাশক্তি: প্রধানমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMi-gZBVV95cUxNQ3hKTTVod3RJcTl2TjlTNGF5VjJ3aVlsMV9Nb1lhaUNsR1BQTzZxS2xpSFVCanZsb0ViXzdhTWtEX3RGUWNzOTJXU0w5YjdBMTRUY0RzQVgxTWo5dDNBOVR6T2tpVFI2VG1Jd1hlbnowOURxeVdJREhaa28tLW5xeUJyZzBTdW54QWR3aUtiNV8xUEQ2TlZZS0VrQUJ2cXZYVVpsSk5Md2NYeUNIdWItbFpSS3ZfV2dBQUh1cmQzT1NBQ09wWWJDaU9taTZTeUc3RGxNck4zakZSZk5rc1B0OWpxX1Q5bEFfbm5ZaFNnbURNRS1XZ0JHb00zTGJBR3ZOT2NxSnAyOVBZV2o5cUg3a0hBa2xuTkQwTVdGOHBYZjRnYVVUV1RHZUJsTnVoWXpwMllNM1p2OGY4dnNJRGhFaUlRQXJabVFkbkxLM29HMlR1R1JudGl1SExOYkVSdW85X1FoQkc5UnJMd09LSE9fUVJsS09aRW1uY0s1RHE2dmwtZHFES2xtUi1BUHo5bExQT3Z6cWdxUnVUc01BS25rd3huQUEyTExiMDFtLUI2XzJBOGY1b3pRZ0hTRENDWjJqdE1JUUhfb01qM25yU2RrMGpzbDdUTmMzVkl5dEpWYXFRX1JjN0hQWDVLcXBtTGRpc2tiTHQ5RFBJRDRWMll0Y2FQN0EzSTl2Tm9LUXktUThmMEg1Q3EtcWFEbEY2Zl81bVJFUkplN0RLaGJPYmVoRDRHSmk3cE5nM1JTbFpHajlBRDhfMUZjaVNaNmpKdmMyeWliWE0wWDNlZ09YdW5SUVhweXFubDVKS2ctaDB3RG5zTkNHR1pZVHZrVzlsRXJSRUNEdEVScnRDQUJMUzIxLWRtaFZKRTZ2a1JIdjIxNGE1R3RITFU5ZjlqM0NfYjVYOUItcnRkaTFHQ0RwR2N6Zi1nRURieHRKcTZFUkowR3hEVnczc2JxdXBycUYwSldFVUN5Um5vTVpzcnNwbWZIYmZWNzN1Z21oYmxteHZOdG43OU9wOTItV0pRVVhBSHhOWG1CSUJZeHJBTUFLMXVIdmhVeldQWVlwbW9CZ1FYaWh5NEZhQXgxUlRtX3lXMldrTkRqOGhnZjBMczBfaUc1SmljRzR0eVhSYTFhLWNOOC1OXzlBdGpfMHpLRy1wYkNlN2FDSXBGYkZqZw?oc=5",
-        "source": "Bahanno News",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 27 Oct 2026 05:06:00 GMT",
-        "summary": "জাপান-বাংলাদেশ বন্ধুত্ব হবে অর্থনৈতিক সমৃদ্ধির চালিকাশক্তি: প্রধানমন্ত্রী &nbsp;&nbsp; Bahanno News",
-        "image": "https://www.bahannonews.com/uploads/4160abad02da2b950bd56ca6679b07d5.jpg?fb=1",
-        "articleUrl": "https://www.bahannonews.com/details/article/10221559/%E0%A6%9C%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%B9%E0%A6%AC%E0%A7%87-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%88%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%B8%E0%A6%AE%E0%A7%83%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BF%E0%A6%B0-%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZlVTS0Y4cFQ5aXFSaVV0b2VudWRlX1h4cXN0MVdDUE9nSC0wd25zNHJUOEF4UmZmUEFJdmxZQy1CWW11cEsxWGVTS1FTWHJsUGZZM25uQTFXOXpTM0tGVXluMllHX3pGT0tkZFEwV2tCZThhaHdCNXhJaWgyVjN2TlpxUzNSNVVTcEpjbnNFUHVCazJOQW9xVlZ0U0piZWFpZXl1a3FBTUc5dEFlTmZZQ3c2UFZveHFvRkVNVVdGZkZHSWIwR2hqaW1Yd0JuTFXSAdwBQVVfeXFMUGIwY2trUV9NRTA0R2I5R1NERmRnU0RNbHVvU3ZNYzBMQlBKQ1gyMk92V0NhSnQyTzN3dXVNMUxWMUxKZlVBQmR2OURLN0twdzJPY3kxbFBhY0lzVFdfaWVkVE1MQ0I4emRJZ0IybVBsTmkyTlhKZFBhQzc2ZkZ6amNmNnZSSy1mOFFHYW5vMGF4N2RrOTREXzFPaTNLUlA5SHYtR1JNcktKN1BUOGJ2cmktUmdFamNMU1E3eWs4QTVrSE8xQ0NaVFhXTjRyaE9ZMzRvUk1wNGdaZ3pLYg?oc=5",
-        "title": "ঢাকা-চট্টগ্রাম সড়কে মাঝরাতে ট্রাকের ধাক্কায় মৃত্যু পাঁচ বাসযাত্রীর",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZlVTS0Y4cFQ5aXFSaVV0b2VudWRlX1h4cXN0MVdDUE9nSC0wd25zNHJUOEF4UmZmUEFJdmxZQy1CWW11cEsxWGVTS1FTWHJsUGZZM25uQTFXOXpTM0tGVXluMllHX3pGT0tkZFEwV2tCZThhaHdCNXhJaWgyVjN2TlpxUzNSNVVTcEpjbnNFUHVCazJOQW9xVlZ0U0piZWFpZXl1a3FBTUc5dEFlTmZZQ3c2UFZveHFvRkVNVVdGZkZHSWIwR2hqaW1Yd0JuTFXSAdwBQVVfeXFMUGIwY2trUV9NRTA0R2I5R1NERmRnU0RNbHVvU3ZNYzBMQlBKQ1gyMk92V0NhSnQyTzN3dXVNMUxWMUxKZlVBQmR2OURLN0twdzJPY3kxbFBhY0lzVFdfaWVkVE1MQ0I4emRJZ0IybVBsTmkyTlhKZFBhQzc2ZkZ6amNmNnZSSy1mOFFHYW5vMGF4N2RrOTREXzFPaTNLUlA5SHYtR1JNcktKN1BUOGJ2cmktUmdFamNMU1E3eWs4QTVrSE8xQ0NaVFhXTjRyaE9ZMzRvUk1wNGdaZ3pLYg?oc=5",
-        "source": "Ei Samay",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 27 Oct 2026 05:50:08 GMT",
-        "summary": "ঢাকা-চট্টগ্রাম সড়কে মাঝরাতে ট্রাকের ধাক্কায় মৃত্যু পাঁচ বাসযাত্রীর &nbsp;&nbsp; Ei Samay",
-        "image": "https://cf-images.assettype.com/eisamay%2F2026-10-27%2Fqtsbtj9x%2FiStock-2155677697.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-        "articleUrl": "https://eisamay.com/bangladesh-news/bus-accident-passengers-died-in-truck-collision-on-dhaka-chittagong-road-at-midnight/200558854.cms",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPVl9GTkV5MFVLMWwtRGtpQ1F0X3hac1pSa0daS2JJS0taNXJWUlFxT01fWFVTV3c0VXhfeVotelhIX2Rwd24tM3RXRlJnM01mRDNjWVVzQlo4WVlQeGFyWWFaWW9PZzBKTUVYcnpqZjRETHBTUGxUQmUzdjY4cExBeW01S01lRTJpQkt6cFdUV2czb245N01aSEZrZTVTMHo3Nk85Um81QXV6SW93UmY1UTZjM1FKVTF3Z0VaYnJxLThVeEI5bE5qaGFjbkxYWXNuNFNQVm9NalNMc3E5ek1TU3JGTTBZSWtyUEFBVkJQSFQ3YnJIZGM4MFI1Z2pGUDZwRGFXN1pIT1pCblFuTFZlYjVWbkJfTXNtbXA5WWV6WldQTGt5ekxXbkphWXVicC0wOVoxcXl5TXphSVJ1RWhWNGNKcl9sbzludVR6bE9ubw?oc=5",
-        "title": "বাংলাদেশ-ওয়েস্ট ইন্ডিজের আনুষ্ঠানিক সংবাদ সম্মেলন l Bangladesh vs West Indies l Deepto News",
-        "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPVl9GTkV5MFVLMWwtRGtpQ1F0X3hac1pSa0daS2JJS0taNXJWUlFxT01fWFVTV3c0VXhfeVotelhIX2Rwd24tM3RXRlJnM01mRDNjWVVzQlo4WVlQeGFyWWFaWW9PZzBKTUVYcnpqZjRETHBTUGxUQmUzdjY4cExBeW01S01lRTJpQkt6cFdUV2czb245N01aSEZrZTVTMHo3Nk85Um81QXV6SW93UmY1UTZjM1FKVTF3Z0VaYnJxLThVeEI5bE5qaGFjbkxYWXNuNFNQVm9NalNMc3E5ek1TU3JGTTBZSWtyUEFBVkJQSFQ3YnJIZGM4MFI1Z2pGUDZwRGFXN1pIT1pCblFuTFZlYjVWbkJfTXNtbXA5WWV6WldQTGt5ekxXbkphWXVicC0wOVoxcXl5TXphSVJ1RWhWNGNKcl9sbzludVR6bE9ubw?oc=5",
-        "source": "দীপ্ত নিউজ",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 26 Oct 2026 12:36:34 GMT",
-        "summary": "বাংলাদেশ-ওয়েস্ট ইন্ডিজের আনুষ্ঠানিক সংবাদ সম্মেলন l Bangladesh vs West Indies l Deepto News &nbsp;&nbsp; দীপ্ত নিউজ",
-        "image": "https://vf73y28mr2.gpcdn.net/deepto-news/2022/10/deepto-og-image.jpeg",
-        "articleUrl": "https://deeptonews.com/video/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%9C%E0%A7%87/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1hLThLejluSEw1UkZuSzVOSUtwcXpabzBuN2x0R3FPXzZoVjN6RGZDaVlKcFdYbUluT2hkYTA2eWg?oc=5",
-        "title": "জাপানের সঙ্গে অর্থনৈতিক অংশীদারি বাড়াতে চায় বাংলাদেশ",
-        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1hLThLejluSEw1UkZuSzVOSUtwcXpabzBuN2x0R3FPXzZoVjN6RGZDaVlKcFdYbUluT2hkYTA2eWg?oc=5",
-        "source": "Sunbd24",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 27 Oct 2026 05:21:04 GMT",
-        "summary": "জাপানের সঙ্গে অর্থনৈতিক অংশীদারি বাড়াতে চায় বাংলাদেশ &nbsp;&nbsp; Sunbd24",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://sunbd24.com/418976/",
-        "imageAttemptedAt": "2026-10-27T06:06:17.869Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiogVBVV95cUxNQTM3djJmTk0yNmtGeDBZaUpiZUdDSmlHcGZ3QVJ5ZzRkOFk3MkVRdW02aHl0RThzak9RUzJINFR6ckd2N0lkOEFzWFZ2VjVMY1R1QmVCNHdVbDFYQ0YzT05DQ1lkaFNfVllwVWpPTndzOXNfNUhYZWI2VEZib19XV2xlMWdsLUYzRGtvekROdzJURFJWOUp1d3BmRjQ2U0VDQzBFa0lsNDZBUVVrRVRrYmtTVURIQkU1aHJ1VHdPSnpWa09rS2tRQ0c0Y1dhRUE0ODhxWEs2cF9aVkJVWEdsWXpNOUlVVE1LQ2xxNnBLUnU0REkwRnZkaHAxS0ljcEZudVFKQzQ0eEl3ZzgtcDZXUEN0STcwYnRyVG4zZkFGWWFhak1TSzF6dEZqYzBRc1NucVpEV0prdzIzU3pQX1QxYnFKYTkwbGFKVGhJTlIwczUwMmx1UVBCbTZTajJSUVREMXR3dFl1UG1oTnNnVU1mNXhraFFKVWlOblUwSUxKZWE4ZDRlMDE1WFRiaS1PaDdkbjByazlydHdUaXhQVzc0TjN4RV9ub1V1TElBcE1JYXkyNHFLYUtBYzhqdUw4cjFZWmt0Q2xJWFNfYzN3SlljMXd5dVZYTHVWXzRqbndSUTB2UmIyWFg0OTJlMGdkMkw1aU9leUdQdG9uQ3JfWDI3RG80c2t3T0NHQk1YOTcyTUt0UE1VQndvNk5xSnVrSHRMVzU2VUc5NXpwOUZBOVFsY3FZQmdacFh5ZkRqaTZESnEzdi1INXozTjc4N3M5VmxtMk02Z0hIbWlvLU1YR0RJRXBIYm1PeGVraUdYV2ZZYlptZ0p6cG5NRDY5V2NxT2pDNXFjeFRFU0dJQjRUVTJiVWxiUldJYkdQR2g5RHNHdTdUdw?oc=5",
-        "title": "আলোকিত বাংলাদেশে সংবাদ প্রকাশের পর যুবদল নেতা বহিষ্কার",
-        "link": "https://news.google.com/rss/articles/CBMiogVBVV95cUxNQTM3djJmTk0yNmtGeDBZaUpiZUdDSmlHcGZ3QVJ5ZzRkOFk3MkVRdW02aHl0RThzak9RUzJINFR6ckd2N0lkOEFzWFZ2VjVMY1R1QmVCNHdVbDFYQ0YzT05DQ1lkaFNfVllwVWpPTndzOXNfNUhYZWI2VEZib19XV2xlMWdsLUYzRGtvekROdzJURFJWOUp1d3BmRjQ2U0VDQzBFa0lsNDZBUVVrRVRrYmtTVURIQkU1aHJ1VHdPSnpWa09rS2tRQ0c0Y1dhRUE0ODhxWEs2cF9aVkJVWEdsWXpNOUlVVE1LQ2xxNnBLUnU0REkwRnZkaHAxS0ljcEZudVFKQzQ0eEl3ZzgtcDZXUEN0STcwYnRyVG4zZkFGWWFhak1TSzF6dEZqYzBRc1NucVpEV0prdzIzU3pQX1QxYnFKYTkwbGFKVGhJTlIwczUwMmx1UVBCbTZTajJSUVREMXR3dFl1UG1oTnNnVU1mNXhraFFKVWlOblUwSUxKZWE4ZDRlMDE1WFRiaS1PaDdkbjByazlydHdUaXhQVzc0TjN4RV9ub1V1TElBcE1JYXkyNHFLYUtBYzhqdUw4cjFZWmt0Q2xJWFNfYzN3SlljMXd5dVZYTHVWXzRqbndSUTB2UmIyWFg0OTJlMGdkMkw1aU9leUdQdG9uQ3JfWDI3RG80c2t3T0NHQk1YOTcyTUt0UE1VQndvNk5xSnVrSHRMVzU2VUc5NXpwOUZBOVFsY3FZQmdacFh5ZkRqaTZESnEzdi1INXozTjc4N3M5VmxtMk02Z0hIbWlvLU1YR0RJRXBIYm1PeGVraUdYV2ZZYlptZ0p6cG5NRDY5V2NxT2pDNXFjeFRFU0dJQjRUVTJiVWxiUldJYkdQR2g5RHNHdTdUdw?oc=5",
-        "source": "Alokito Bangladesh",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 26 Oct 2026 13:09:00 GMT",
-        "summary": "আলোকিত বাংলাদেশে সংবাদ প্রকাশের পর যুবদল নেতা বহিষ্কার &nbsp;&nbsp; Alokito Bangladesh",
-        "image": "https://www.alokitobangladesh.com/image-contents/600x315x1x1/news-photos/2026/10/26/image-355438-1793020499.jpg",
-        "articleUrl": "https://www.alokitobangladesh.com/country-news/355438/%E0%A6%86%E0%A6%B2%E0%A7%8B%E0%A6%95%E0%A6%BF%E0%A6%A4-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%AF%E0%A7%81%E0%A6%AC%E0%A6%A6%E0%A6%B2-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE-%E0%A6%AC%E0%A6%B9%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%95%E0%A6%BE%E0%A6%B0",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQb3lKeDZfdS1oLUdIVWhacjNGZldiN3Fta1lCcGU4dXJZUVhIcUdyVzEtWFBKaGZ6MzFrSXBSdGJlWUUxaHdhWFlWTko2ZmtKcEYzbS1kZVlBNnVRT293NktvNDZmdWZMS0hUR1JQU1N6SkJYbG1DZmtqc01tYWVNWWtBa2xzSnE1LWpWRNIBkgFBVV95cUxOVnRZbmlndVZjeV93OFE4YWNBeVdPZkYxOEdENlpPSG5jcHZJZlh6OVc1aVl5RUtiNFpfUEQ5Ym5neDlyUW01VGtyRWlkcXRrQlBxTFRHTHVKMjVsc3NKZ0tWYkU0a3hBb253Mk5CdlAtT19DV2syZWFFa0o0c3oyMFpnbGM0MTdqRWNaUDZLNmhydw?oc=5",
-        "title": "Coochbehar News | কোচবিহারে ভারত-বাংলাদেশ সীমান্তে উত্তেজনা | ABP Ananda LIVE",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQb3lKeDZfdS1oLUdIVWhacjNGZldiN3Fta1lCcGU4dXJZUVhIcUdyVzEtWFBKaGZ6MzFrSXBSdGJlWUUxaHdhWFlWTko2ZmtKcEYzbS1kZVlBNnVRT293NktvNDZmdWZMS0hUR1JQU1N6SkJYbG1DZmtqc01tYWVNWWtBa2xzSnE1LWpWRNIBkgFBVV95cUxOVnRZbmlndVZjeV93OFE4YWNBeVdPZkYxOEdENlpPSG5jcHZJZlh6OVc1aVl5RUtiNFpfUEQ5Ym5neDlyUW01VGtyRWlkcXRrQlBxTFRHTHVKMjVsc3NKZ0tWYkU0a3hBb253Mk5CdlAtT19DV2syZWFFa0o0c3oyMFpnbGM0MTdqRWNaUDZLNmhydw?oc=5",
-        "source": "ABP Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 26 Oct 2026 05:49:50 GMT",
-        "summary": "Coochbehar News | কোচবিহারে ভারত-বাংলাদেশ সীমান্তে উত্তেজনা | ABP Ananda LIVE &nbsp;&nbsp; ABP Ananda",
-        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/10/26/3a18417b2d9f09b5da77984d105c006d1792993762710894_original.jpg?impolicy=abp_cdn&imwidth=1200",
-        "articleUrl": "https://bengali.abplive.com/videos/district/chaos-at-india-bangladesh-border-1197226",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLUFIcEF5N0lIZ193alFVVWhGb2xuRDdTa2xGUmVDc2s2M1h1Y2F5cTFrZi1mVEZXNzZ4RVNxVHBEZ1BDN19LelZkWXh6YldCUkVBU0drZXV4cDdFbEJyVFdQcFZfc18zdGFlYkJDNUJ6M2hKQlVTcWRxWUxUUkdESFVhUlpiM1o5dFh0cHBMNXJPd1owai04Rnd2d2ZwZ1JKQUEyZTgyZy1oZGpXSjNOT1dETGloQlgxYzdyMTA2QlFPN08wblE?oc=5",
-        "title": "পুলিশ-যানে বরাদ্দ ৬,৬০৯ কোটি, অর্থ জোগান ঘিরে উঠছে প্রশ্ন",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLUFIcEF5N0lIZ193alFVVWhGb2xuRDdTa2xGUmVDc2s2M1h1Y2F5cTFrZi1mVEZXNzZ4RVNxVHBEZ1BDN19LelZkWXh6YldCUkVBU0drZXV4cDdFbEJyVFdQcFZfc18zdGFlYkJDNUJ6M2hKQlVTcWRxWUxUUkdESFVhUlpiM1o5dFh0cHBMNXJPd1owai04Rnd2d2ZwZ1JKQUEyZTgyZy1oZGpXSjNOT1dETGloQlgxYzdyMTA2QlFPN08wblE?oc=5",
-        "source": "Aaro Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 24 Oct 2026 08:34:00 GMT",
-        "summary": "পুলিশ-যানে বরাদ্দ ৬,৬০৯ কোটি, অর্থ জোগান ঘিরে উঠছে প্রশ্ন &nbsp;&nbsp; Aaro Ananda",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.aaroananda.com/story/latest-news/breaking-news/controversy-over-bangladesh-police-vehicle-purchase-project/11025593",
-        "imageAttemptedAt": "2026-10-26T10:14:40.991Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOXM5RjJ3OUF3LUNMVU5pVFU4dXN6YktjSFlfWjdiV1dwbzM1cmxJcUVIYjlrb3dqZnJHSkJjRVFYRDlBS0V2akI3VnMxX3ZoRXFPdTdnUUROM2VfWXpfY2x2a3FrVXVtc3N6OF8wSHp6LW14SGl1WE93NWM5RE1sNVJPbUZvbk9uUFdoOXY3QTNuamdYYU8wVWhINkJuVWE1aURsV09FS0ExaHIzVlY4?oc=5",
-        "title": "বাংলাদেশ-জাপান দ্বিপক্ষীয় শীর্ষ বৈঠকে নেতৃত্ব দেবেন প্রধানমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOXM5RjJ3OUF3LUNMVU5pVFU4dXN6YktjSFlfWjdiV1dwbzM1cmxJcUVIYjlrb3dqZnJHSkJjRVFYRDlBS0V2akI3VnMxX3ZoRXFPdTdnUUROM2VfWXpfY2x2a3FrVXVtc3N6OF8wSHp6LW14SGl1WE93NWM5RE1sNVJPbUZvbk9uUFdoOXY3QTNuamdYYU8wVWhINkJuVWE1aURsV09FS0ExaHIzVlY4?oc=5",
-        "source": "https://starnews.com.bd/",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 26 Oct 2026 16:34:43 GMT",
-        "summary": "বাংলাদেশ-জাপান দ্বিপক্ষীয় শীর্ষ বৈঠকে নেতৃত্ব দেবেন প্রধানমন্ত্রী &nbsp;&nbsp; https://starnews.com.bd/",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://starnews.com.bd/national/27416/the-prime-minister-will-lead-the-bangladesh-japan-bilateral-summit.html",
-        "imageAttemptedAt": "2026-10-26T17:25:41.516Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
       }
     ]
   },
@@ -1066,7 +1066,7 @@
     "total": 80,
     "fromRss": 0,
     "fromArticleMetadata": 18,
-    "reusedCached": 13,
+    "reusedCached": 14,
     "actualPhotos": 18,
     "fallbackIllustrations": 62,
     "withImage": 80,
