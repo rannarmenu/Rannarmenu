@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-01T20:27:24.389Z",
+  "generatedAt": "2026-11-01T21:07:01.126Z",
   "sponsors": {
     "somoy": [
       {
@@ -277,20 +277,7 @@
         "summary": "সর্বশেষ &nbsp;&nbsp; Jamuna Television",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.jamuna.tv/latest",
-        "imageAttemptedAt": "2026-10-31T20:34:06.432Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBZTnFjZGVtSDZjVmMyLXhzSlFTUjJWU0lJbVJhSGJqY0lBWEF1SWZOT1lsSXozY3A3LXpfemdoS2ViZw?oc=5",
-        "title": "খেলাধুলা - Jamuna Television",
-        "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBZTnFjZGVtSDZjVmMyLXhzSlFTUjJWU0lJbVJhSGJqY0lBWEF1SWZOT1lsSXozY3A3LXpfemdoS2ViZw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 16 Apr 2026 01:35:19 GMT",
-        "summary": "খেলাধুলা &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/sports",
-        "imageAttemptedAt": "2026-11-01T14:30:16.701Z",
+        "imageAttemptedAt": "2026-11-01T21:07:04.837Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -343,6 +330,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.jamuna.tv/campus/667098",
         "imageAttemptedAt": "2026-11-01T19:14:20.102Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yVkJkaEhqZHd4MWU5Zms0RllsUzUyeVRvTUVnYzRycHNFTWV6N1Y0bVBfZFhaNlFWaERfblhGbmRWbGJxaDhRZXIzeV9tZ3dUSUZ0OEtR?oc=5",
+        "title": "মেহেরপুর সীমান্তে ৭ কোটি টাকার স্বর্ণের বারসহ আটক ২",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yVkJkaEhqZHd4MWU5Zms0RllsUzUyeVRvTUVnYzRycHNFTWV6N1Y0bVBfZFhaNlFWaERfblhGbmRWbGJxaDhRZXIzeV9tZ3dUSUZ0OEtR?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 13:07:12 GMT",
+        "summary": "মেহেরপুর সীমান্তে ৭ কোটি টাকার স্বর্ণের বারসহ আটক ২ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/all-bangladesh/667234",
+        "imageAttemptedAt": "2026-11-01T21:07:04.837Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -612,138 +612,6 @@
     ]
   },
   "categories": {
-    "bangladesh": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcU5GbGJmU2RCOExyRXg2S2FHbjctUG54a1hMSDRkaERJYmRBOUx0NGMyMjJEa3dPRENSQ1B6dnBpQjIzaDlqWDJWMUJPME53aWN5LWRVdHliUHpfQ0o4M0t0NnZCczdsaDFBbk1ZSTFBLUo3OW1LRGRHbVRxXzc4bmJZcEdXSWtEdEZUUDlvRkpPM0hwcG5iTk4xYVJBdVQzT0JSRzFKOVplTkVTbWpIamVlTzlBRHM0ejQ0RUFqZ3VyeWY0d2VQNmh5U0FOZkpRdzlELWRMb2RRNm1scEHSAeMBQVVfeXFMTlNLN2YtX2ZUUW1KR2hTbjRfemFEeU5CYzZfN2dXVzl0dE5hSjdwMHltbVNqZFdNY25nS2N3ZDFIRFRNQWYyc3ROU1Z5Ukd6WlQxbmlrVnZKcEl5UGYxZmJMMGtwSDJkNnc5TmdGcGpBMmpnUU1NYWk4VnlJNzdZLURZZ3BHeDg5Q0xnZzhRWFFuVXZvSzRBZG5neHAyMkkzdUoxVVUtYUtXd3NOVFpaZDFCb2daVXZISTF5QmZhNTVzR20zWXVuOXRqVnhrMlJOaXNzU0txRnlvRnJsVVJ6eEFyWjQ?oc=5",
-        "title": "Bangladesh News | বিক্ষোভে উত্তপ্ত ঢাকা-গাজিপুর!বস্ত্র কারখানার কর্মীদের আন্দোলনে তুলকালাম পরিস্থিতি",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcU5GbGJmU2RCOExyRXg2S2FHbjctUG54a1hMSDRkaERJYmRBOUx0NGMyMjJEa3dPRENSQ1B6dnBpQjIzaDlqWDJWMUJPME53aWN5LWRVdHliUHpfQ0o4M0t0NnZCczdsaDFBbk1ZSTFBLUo3OW1LRGRHbVRxXzc4bmJZcEdXSWtEdEZUUDlvRkpPM0hwcG5iTk4xYVJBdVQzT0JSRzFKOVplTkVTbWpIamVlTzlBRHM0ejQ0RUFqZ3VyeWY0d2VQNmh5U0FOZkpRdzlELWRMb2RRNm1scEHSAeMBQVVfeXFMTlNLN2YtX2ZUUW1KR2hTbjRfemFEeU5CYzZfN2dXVzl0dE5hSjdwMHltbVNqZFdNY25nS2N3ZDFIRFRNQWYyc3ROU1Z5Ukd6WlQxbmlrVnZKcEl5UGYxZmJMMGtwSDJkNnc5TmdGcGpBMmpnUU1NYWk4VnlJNzdZLURZZ3BHeDg5Q0xnZzhRWFFuVXZvSzRBZG5neHAyMkkzdUoxVVUtYUtXd3NOVFpaZDFCb2daVXZISTF5QmZhNTVzR20zWXVuOXRqVnhrMlJOaXNzU0txRnlvRnJsVVJ6eEFyWjQ?oc=5",
-        "source": "ABP Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 01 Nov 2026 19:37:38 GMT",
-        "summary": "Bangladesh News | বিক্ষোভে উত্তপ্ত ঢাকা-গাজিপুর!বস্ত্র কারখানার কর্মীদের আন্দোলনে তুলকালাম পরিস্থিতি &nbsp;&nbsp; ABP Ananda",
-        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/02/95ececdb0f2e28be859ed9f13555ecf617935618466291327_original.png?impolicy=abp_cdn&imwidth=1200",
-        "articleUrl": "https://bengali.abplive.com/videos/news/dhaka-gazipur-in-the-grip-of-protests-chaos-erupts-as-garment-factory-workers-take-to-the-streets-1198019",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYXhxeklnb2hFeEJHV0hOdkhpcXpRRmVfT29SQWFxNUVDQzBnU3dzaGVyNVY4STZIVS00Nkl6cUZxSFNkcXRrTjdpSWR6LUFzUU0xcG12dFhnYkt2dnBuSS03UVI4T1ItX1FYYklUMFBrQmFlWlg3RGJ5Z3NZWTUyLXhGR3VpSFUzNkp3?oc=5",
-        "title": "ভারতের কাছে ৫ উইকেটে পরাজিত বাংলাদেশ",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYXhxeklnb2hFeEJHV0hOdkhpcXpRRmVfT29SQWFxNUVDQzBnU3dzaGVyNVY4STZIVS00Nkl6cUZxSFNkcXRrTjdpSWR6LUFzUU0xcG12dFhnYkt2dnBuSS03UVI4T1ItX1FYYklUMFBrQmFlWlg3RGJ5Z3NZWTUyLXhGR3VpSFUzNkp3?oc=5",
-        "source": "https://starnews.com.bd/",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 01 Nov 2026 13:32:43 GMT",
-        "summary": "ভারতের কাছে ৫ উইকেটে পরাজিত বাংলাদেশ &nbsp;&nbsp; https://starnews.com.bd/",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://starnews.com.bd/sports/27971/bangladesh-defeated-by-india-by-5-wickets.html",
-        "imageAttemptedAt": "2026-11-01T13:45:56.888Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOWZyOUtQTEo5RmtfU0R3dlk4TXlCQnRTVW55UXJmUHVybmNuX2oyRV9MT0plblRPaExWd1VUdjI2ZHNOYzE1amM5LVZ3cURFWnd5c1NTWVEweTlxM09taGoxVVE5RVJZYnJ1SF9ZS3o3RDlNUm4zblpRTzRQNjNFSFJLTHZYZm9HOGtRM1RZT0psU2podEszUWN5M2xTR2JpTlhOZ2xva2tfdzkwYjZUQU9YRTBwZmM0a2I3Tjg5N2VWbFpBQUxTMA?oc=5",
-        "title": "বাংলাদেশে পোশাক শ্রমিকদের আন্দোলন, নতুন মজুরি বোর্ড গঠন",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOWZyOUtQTEo5RmtfU0R3dlk4TXlCQnRTVW55UXJmUHVybmNuX2oyRV9MT0plblRPaExWd1VUdjI2ZHNOYzE1amM5LVZ3cURFWnd5c1NTWVEweTlxM09taGoxVVE5RVJZYnJ1SF9ZS3o3RDlNUm4zblpRTzRQNjNFSFJLTHZYZm9HOGtRM1RZT0psU2podEszUWN5M2xTR2JpTlhOZ2xva2tfdzkwYjZUQU9YRTBwZmM0a2I3Tjg5N2VWbFpBQUxTMA?oc=5",
-        "source": "Aaro Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 01 Nov 2026 04:37:00 GMT",
-        "summary": "বাংলাদেশে পোশাক শ্রমিকদের আন্দোলন, নতুন মজুরি বোর্ড গঠন &nbsp;&nbsp; Aaro Ananda",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.aaroananda.com/story/latest-news/breaking-news/bangladesh-readymade-garments-workers-movement-new-wage-board/11026647",
-        "imageAttemptedAt": "2026-11-01T05:27:20.526Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNajFybEVKR1FKQXVfTHhxUTJMdXBrOWFTN1IzRC1XUldObXpCS1NyRVFFZ2NHMUp0ODlxRVlKQWk0ZGFmdUVtdmJVZTQ3cjZ1WXRQS1NucEdNd0VMVmtfY3lza3hHSTFFcVpVdV9qMjRrTzdBNGVoSDJpSmhEN1V5RjJVSURocXhfanRha3ZPTnQ5cnhFSXNIZ3ZLdkNqZG44TzkwT19acXVQdlVfMndfcXpSSVFCS29RYmJRMlZoSXlhWVdSc3ZLMnJIMHFUN1FyYUFTTVRHMjJfVjM5MEhpVHVlaEdGRUZoZE5mcG14RXB4bWUxVzJLYkxmekM2OEdnZlBPRkUtM2tXMElVZ0piaU5NaEQ1bFdHUlk3REE0MENiWDVRY2d6YUs0WnJwQm9ISFc0dnJ4WEJwbU5vR1FnVWxfRQ?oc=5",
-        "title": "কলকাতায় বাংলাদেশ উপহাইকমিশন ঘেরাওয়ের চেষ্টা",
-        "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNajFybEVKR1FKQXVfTHhxUTJMdXBrOWFTN1IzRC1XUldObXpCS1NyRVFFZ2NHMUp0ODlxRVlKQWk0ZGFmdUVtdmJVZTQ3cjZ1WXRQS1NucEdNd0VMVmtfY3lza3hHSTFFcVpVdV9qMjRrTzdBNGVoSDJpSmhEN1V5RjJVSURocXhfanRha3ZPTnQ5cnhFSXNIZ3ZLdkNqZG44TzkwT19acXVQdlVfMndfcXpSSVFCS29RYmJRMlZoSXlhWVdSc3ZLMnJIMHFUN1FyYUFTTVRHMjJfVjM5MEhpVHVlaEdGRUZoZE5mcG14RXB4bWUxVzJLYkxmekM2OEdnZlBPRkUtM2tXMElVZ0piaU5NaEQ1bFdHUlk3REE0MENiWDVRY2d6YUs0WnJwQm9ISFc0dnJ4WEJwbU5vR1FnVWxfRQ?oc=5",
-        "source": "Dhaka News 24",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 01 Nov 2026 15:12:46 GMT",
-        "summary": "কলকাতায় বাংলাদেশ উপহাইকমিশন ঘেরাওয়ের চেষ্টা &nbsp;&nbsp; Dhaka News 24",
-        "image": "https://www.dhakanews24.com/wp-content/uploads/2026/11/kalkata-bongosena.webp",
-        "articleUrl": "https://www.dhakanews24.com/%E0%A6%95%E0%A6%B2%E0%A6%95%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%89%E0%A6%AA/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdDNVem9IT0g3djROY3ZNczR3WVhuWVFpRWY5WUFwZU9lZmplSTJGemt4Tlp0RXJnWTA2ZXlZci01UTV4SFJ0eXJkNnpGdnlLWDByWEJScWVLOC1BR3luR0U2NF80N3Y3eWF6d1F5RUt6VmcwZEZJWU82dzl5NUVFaThjTlN6aGpMcTRYZWZ3aDBfbUNUU2JmcjZ5Uy0yaFdSTmx0QUh3cndpTjlXN0ZlOGVreGVyQVBsSjdIUWZycVhuUkV3T3FoWGhfMEnSAdIBQVVfeXFMT0JkZ2dCeVljMjdxMTFJZGRQUVRKTWFhLUlvN3lYd3pWVkVBZW10Q2pEa3dFWWxkZC1RSnZyTURRbDQ2UWZSUzFhZGJqeDRmTGs5TldIM2l4X0xHZHQ0d2xJMFJKeVJEbmtxQlhPd1IxcnpPVDNnckxFQ29aWjZ0YVIyT012RmY4Q2pLYmdYUE9QNG9VQVJJQTZ0OTZ2elBfN2pISWpnOHAzcndaY2NDRWlGeFFHWGdtd1lzdENTNE4wckktakhnNHlLdDI1X3ZwWHdR?oc=5",
-        "title": "হাসিনার দেশ ছাড়ার ভিডিয়ো ফাঁসের শাস্তি? পাইলটের রহস্যমৃত্যুতে তোলপাড় বাংলাদেশ",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdDNVem9IT0g3djROY3ZNczR3WVhuWVFpRWY5WUFwZU9lZmplSTJGemt4Tlp0RXJnWTA2ZXlZci01UTV4SFJ0eXJkNnpGdnlLWDByWEJScWVLOC1BR3luR0U2NF80N3Y3eWF6d1F5RUt6VmcwZEZJWU82dzl5NUVFaThjTlN6aGpMcTRYZWZ3aDBfbUNUU2JmcjZ5Uy0yaFdSTmx0QUh3cndpTjlXN0ZlOGVreGVyQVBsSjdIUWZycVhuUkV3T3FoWGhfMEnSAdIBQVVfeXFMT0JkZ2dCeVljMjdxMTFJZGRQUVRKTWFhLUlvN3lYd3pWVkVBZW10Q2pEa3dFWWxkZC1RSnZyTURRbDQ2UWZSUzFhZGJqeDRmTGs5TldIM2l4X0xHZHQ0d2xJMFJKeVJEbmtxQlhPd1IxcnpPVDNnckxFQ29aWjZ0YVIyT012RmY4Q2pLYmdYUE9QNG9VQVJJQTZ0OTZ2elBfN2pISWpnOHAzcndaY2NDRWlGeFFHWGdtd1lzdENTNE4wckktakhnNHlLdDI1X3ZwWHdR?oc=5",
-        "source": "Anandabazar Patrika",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 17:04:00 GMT",
-        "summary": "হাসিনার দেশ ছাড়ার ভিডিয়ো ফাঁসের শাস্তি? পাইলটের রহস্যমৃত্যুতে তোলপাড় বাংলাদেশ &nbsp;&nbsp; Anandabazar Patrika",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.anandabazar.com/video/former-bangladesh-air-force-pilot-km-tahsif-souri-found-dead-amid-political-storm-dgtl/cid/1723217",
-        "imageAttemptedAt": "2026-11-01T18:17:42.088Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQYVp2ZmE3X0hQWjBmMm15UGdJbjJFQ04wSVVfRl9DS2owOVJuZ3kyQkh5bFpxamhFWWlYV0tzQ0NkeFpZSHZDS0t4NktMa0l3dDk3UERNaWxOaEJsQ2xhRnBlRzhKQ09fUWRmektZY0NMUTJrTnFaUk52OFBxMkx1Q1pmVlRjOER1V0JjWFFnU1hKREJQSHNjYVNPVV9XRjBTMWhvdjVZU2tjbGg1VENTWmtUOXRtbUJzeTRMVVlwMFdWQWNhNWZ3TV9rLXJSNWVUZzktaGd1WXJjWWpsRk43RlAxdkphb1U2aXVWT1p2d0tCMGktQWdEQnJ4MkoxRlNMd2RjRllveHhMd9IBjwJBVV95cUxNTEJKSmhzVVlucHdYTkRqb3ZtVWFvbWx5RXlOdU9UN2NWd2VLdldJeHpyQUlnMlgwZVJPbnlHa3dCQkVReGlnNmhuSEt6aHpXVUdFSFNvQy1weHZFNlZYaTk0S3hYYkNEMXVxblJRcVdoQ1hfZzRyTlBLTFIzOExrUmZFMFZfMU45ZjNNVFBJRVk5X1VlOFgwQllydU1fTi1qSFlicGpoX0szRU1PQ1pmSVQtTzFNNC15ZFBZeG11Vy1fTl92bFV6NEwxTTU4b3E2dzZVaDkwZnVvYUIzb2tBWWZvdHBTakpwRVA3REhlT3U0cVJpUzJNQTJXREFZWHY2YXRXZ3N0TXRFQ3pnM3VF?oc=5",
-        "title": "Bangladesh: 'কলকাতায় কি ইরান যুদ্ধের প্রভাব পড়ে না?' জ্বালানির দর নিয়ে বাংলাদেশে ক্ষোভ",
-        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQYVp2ZmE3X0hQWjBmMm15UGdJbjJFQ04wSVVfRl9DS2owOVJuZ3kyQkh5bFpxamhFWWlYV0tzQ0NkeFpZSHZDS0t4NktMa0l3dDk3UERNaWxOaEJsQ2xhRnBlRzhKQ09fUWRmektZY0NMUTJrTnFaUk52OFBxMkx1Q1pmVlRjOER1V0JjWFFnU1hKREJQSHNjYVNPVV9XRjBTMWhvdjVZU2tjbGg1VENTWmtUOXRtbUJzeTRMVVlwMFdWQWNhNWZ3TV9rLXJSNWVUZzktaGd1WXJjWWpsRk43RlAxdkphb1U2aXVWT1p2d0tCMGktQWdEQnJ4MkoxRlNMd2RjRllveHhMd9IBjwJBVV95cUxNTEJKSmhzVVlucHdYTkRqb3ZtVWFvbWx5RXlOdU9UN2NWd2VLdldJeHpyQUlnMlgwZVJPbnlHa3dCQkVReGlnNmhuSEt6aHpXVUdFSFNvQy1weHZFNlZYaTk0S3hYYkNEMXVxblJRcVdoQ1hfZzRyTlBLTFIzOExrUmZFMFZfMU45ZjNNVFBJRVk5X1VlOFgwQllydU1fTi1qSFlicGpoX0szRU1PQ1pmSVQtTzFNNC15ZFBZeG11Vy1fTl92bFV6NEwxTTU4b3E2dzZVaDkwZnVvYUIzb2tBWWZvdHBTakpwRVA3REhlT3U0cVJpUzJNQTJXREFZWHY2YXRXZ3N0TXRFQ3pnM3VF?oc=5",
-        "source": "Asianet News Bangla",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 09:29:46 GMT",
-        "summary": "Bangladesh: 'কলকাতায় কি ইরান যুদ্ধের প্রভাব পড়ে না?' জ্বালানির দর নিয়ে বাংলাদেশে ক্ষোভ &nbsp;&nbsp; Asianet News Bangla",
-        "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01khp511mg3a5y302y52fxvmdd,imgname-gettyimages-2261620500-594x594-1771343742608.jpg",
-        "articleUrl": "https://bangla.asianetnews.com/international/world-news/bangladesh-national-citizen-party-attacked-government-fuel-price-hike-pressurized-tarique-rahman-anbsg/articleshow-rd7gi39",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOSktJWmQ0cnl0NEpJZ0dyQVdNRWFEUzVIcW9NcHU4Ujhxb0ZCYlRRRjcxMmZpamZHWmhmWV9FbEt0WEtDQmFYSkgwRlltVjVzTVo0ckFvaVhydXEtRFNzME1SalRka0VuUFpmaFpNUms2emZIbTJzWG1aRzVIamFSc28zSTZlbml5eG53RGVQYjlCVEs0NVBYbVZBLVhUV1BFVkp6ZnNGaGRYN2tHN1JDX1hlUWc3U1poelhrRzNUSEJkQVFEVWJ1TkFkNWRfZC1NUE9PMWYtT2FLdHI1QUdDMTJWRWZWVEc0dHo2S3Zpclp1Zw?oc=5",
-        "title": "Bangladesh News: শেখ হাসিনার দেশছাড়ার ভিডিও-র সঙ্গে জড়িয়েছিল নাম! বাংলাদেশে হঠাৎ প্রাক্তন বায়ুসেনার রহস্যমৃত্যু, বাড়ছে জল্পনা",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOSktJWmQ0cnl0NEpJZ0dyQVdNRWFEUzVIcW9NcHU4Ujhxb0ZCYlRRRjcxMmZpamZHWmhmWV9FbEt0WEtDQmFYSkgwRlltVjVzTVo0ckFvaVhydXEtRFNzME1SalRka0VuUFpmaFpNUms2emZIbTJzWG1aRzVIamFSc28zSTZlbml5eG53RGVQYjlCVEs0NVBYbVZBLVhUV1BFVkp6ZnNGaGRYN2tHN1JDX1hlUWc3U1poelhrRzNUSEJkQVFEVWJ1TkFkNWRfZC1NUE9PMWYtT2FLdHI1QUdDMTJWRWZWVEc0dHo2S3Zpclp1Zw?oc=5",
-        "source": "News18 Bengali",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 30 Oct 2026 07:55:00 GMT",
-        "summary": "Bangladesh News: শেখ হাসিনার দেশছাড়ার ভিডিও-র সঙ্গে জড়িয়েছিল নাম! বাংলাদেশে হঠাৎ প্রাক্তন বায়ুসেনার রহস্যমৃত্যু, বাড়ছে জল্পনা &nbsp;&nbsp; News18 Bengali",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://bengali.news18.com/news/international/sheikh-hasina-news-former-bangladesh-air-force-officer-linked-to-hasina-video-found-dead-in-dhaka-sta-2945721.html",
-        "imageAttemptedAt": "2026-11-01T09:15:22.239Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNYW1zYW13VkFSUkZCS3BaaXZtcTZDNWNzRUx6VzhzLUhUWXVHY0ZRMG8xR0otY0FpekotTTE1OHlERHBsLTJ1NHNMQUFGc2hGbV9GOTBGNjI1b1NGdTZodm1SQ0dSeEZuRHh3WlVOR1lOUG9vOGFRT2EyeGFzS0RRSk1lT3dWZXg3dFF3MjZaZF9FMjNxMWN6VTZiUDgxT2dwQi1aUTFPX05LaXJNWWhKNDh3blZPNGd0VXdyVFR5WXhDOENkRENiT2g3SGRVelhsOF9Hd09leW5QdDI0bHVQYkc0T3VkTHF6UHBjT2swNlJwUzcxU3dHcGY3UVRfQdIBgwJBVV95cUxOZ2pFTXVudnJZRlQ2X0gzdGxDc3VGSXVwbVJ3TWdLT3RIb0llRTBHR2hXVWxJRHFwcmNZQmlHOGExVmhYUm5IeWJpWU1uX3daT2N3NnJKN2ZrV0lsamRLaF8zRjJXNGpNRHdWcXd0MFdsbXdQS01JV2k0RUNHNnc5NzExQTNpbkUxd2NRN0JJZS16VERQTFI2bHpuWGVXcUVpWktPNnZvUVE0bW9wWHpjblEzSi1CcDF4c2FrMjdWWEkzdTN2RG94YUJHTFZzY0ptSHJWRUFWWWZOZlJOTjJmRE9Kc21YX01rQ05Hcll2NlVQamRFSVVFVklPZUdQS0ZjcFZJ?oc=5",
-        "title": "Bangladesh News : ফের ঢাকার রাস্তায় ফিরল ভারত-বিরোধী স্লোগান, নিশানায় তারেক রহমানের সরকার",
-        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNYW1zYW13VkFSUkZCS3BaaXZtcTZDNWNzRUx6VzhzLUhUWXVHY0ZRMG8xR0otY0FpekotTTE1OHlERHBsLTJ1NHNMQUFGc2hGbV9GOTBGNjI1b1NGdTZodm1SQ0dSeEZuRHh3WlVOR1lOUG9vOGFRT2EyeGFzS0RRSk1lT3dWZXg3dFF3MjZaZF9FMjNxMWN6VTZiUDgxT2dwQi1aUTFPX05LaXJNWWhKNDh3blZPNGd0VXdyVFR5WXhDOENkRENiT2g3SGRVelhsOF9Hd09leW5QdDI0bHVQYkc0T3VkTHF6UHBjT2swNlJwUzcxU3dHcGY3UVRfQdIBgwJBVV95cUxOZ2pFTXVudnJZRlQ2X0gzdGxDc3VGSXVwbVJ3TWdLT3RIb0llRTBHR2hXVWxJRHFwcmNZQmlHOGExVmhYUm5IeWJpWU1uX3daT2N3NnJKN2ZrV0lsamRLaF8zRjJXNGpNRHdWcXd0MFdsbXdQS01JV2k0RUNHNnc5NzExQTNpbkUxd2NRN0JJZS16VERQTFI2bHpuWGVXcUVpWktPNnZvUVE0bW9wWHpjblEzSi1CcDF4c2FrMjdWWEkzdTN2RG94YUJHTFZzY0ptSHJWRUFWWWZOZlJOTjJmRE9Kc21YX01rQ05Hcll2NlVQamRFSVVFVklPZUdQS0ZjcFZJ?oc=5",
-        "source": "ABP Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 08:47:03 GMT",
-        "summary": "Bangladesh News : ফের ঢাকার রাস্তায় ফিরল ভারত-বিরোধী স্লোগান, নিশানায় তারেক রহমানের সরকার &nbsp;&nbsp; ABP Ananda",
-        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/10/31/2e0a357c4a5bb6b22be3f6a6f8bd4fbb1793436615439170_original.jpg?impolicy=abp_cdn&imwidth=1200",
-        "articleUrl": "https://bengali.abplive.com/news/anti-india-slogans-once-again-echoed-in-dhaka-as-protests-returned-to-bangladesh-this-time-against-prime-minister-tarique-rahman-1197829",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdjFXRXNpbnNrUlZMbGk3bE00a0tBQ3otdmEyS3JSem1vT095NTFHbkk4Ykk3bmZCZmFGYllfQkJKUDFNQlRlOUE2b1ZaMU9iLUdVVmktbnlZTExaektQMWRNQ0l0VzBlbGF2XzZEREdROXgtZFpJZ3BrWTZqOFNDbUJINkFGSWJWRU9lYUZzdHl5SHZpd3Bwa2pNNi1jSXhfMWxwWlRqZFE0VW9tckFTbk0tUXNWTmoxQXh6Q2g1MXZyVzJKeG15ZjJn?oc=5",
-        "title": "এলডিসি থেকে উত্তরণে বাংলাদেশের সময় বাড়ানো ব্যতিক্রমী বৈশ্বিক সিদ্ধান্ত: সিপিডি",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdjFXRXNpbnNrUlZMbGk3bE00a0tBQ3otdmEyS3JSem1vT095NTFHbkk4Ykk3bmZCZmFGYllfQkJKUDFNQlRlOUE2b1ZaMU9iLUdVVmktbnlZTExaektQMWRNQ0l0VzBlbGF2XzZEREdROXgtZFpJZ3BrWTZqOFNDbUJINkFGSWJWRU9lYUZzdHl5SHZpd3Bwa2pNNi1jSXhfMWxwWlRqZFE0VW9tckFTbk0tUXNWTmoxQXh6Q2g1MXZyVzJKeG15ZjJn?oc=5",
-        "source": "https://starnews.com.bd/",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 01 Nov 2026 09:42:06 GMT",
-        "summary": "এলডিসি থেকে উত্তরণে বাংলাদেশের সময় বাড়ানো ব্যতিক্রমী বৈশ্বিক সিদ্ধান্ত: সিপিডি &nbsp;&nbsp; https://starnews.com.bd/",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://starnews.com.bd/economic/27936/extension-of-bangladeshs-ldc-graduation-timeline-is-an-exceptional-global-decision-cpd.html",
-        "imageAttemptedAt": "2026-11-01T10:10:47.436Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdWlKWGhJNXFhSU9BaGdDa0FLNWttNU5hSXFkSkcwQjVZT1FsekdRbHMza3B6dmRlaU5naGxnM3JWMUZzdDU3R3ZoUW5rSlN3Q0RzTTFFcXhoa1FNU1hVR3ZkekZlTndOcUwyeTlrWDg3bjNibTRTZTNWUWJKRDBhQ3R4WG1BTzFRbHhNc1BDQmN3QXZQa0hXM3lvaDJETjJQZVUxOWtJZlIzSzdDUWxrOHY3VEJMVksxMWI0d1lBUXFNU1hTZVNNSVBJMnllVGVxQ0RXRGFmV3JXMGpzaTJfeVQwZm7SAfIBQVVfeXFMT1RIQXpSQ0RBQkFNdU05d0tRQ1lYMnJBeXZMeDgxZFE0UXg4bGhXOGd2UTRtR196VnFmb3VXTnQzTjFPMDc2ZGRnaXZIWUdLWXRuS3VPQmhpNUZkcnRlRWlkMjRJcUI1UEtaMkRGdmlwWlVoNlN3dFVSaVNRSHVoM0pIZVg0NzBjOGE2Unk1SWdKcDZIbW4wSHhXLWxFMVhnWTBkU19xQ283MFFXVjI2QjZyUnRMQndxdkJNTFRKUkNRdDNjWHJsRWVnckRORUg5VDBIX0ZMaU1kWlYxWWV0QllZWWIxOENBMW9xTjZZY2dBR0E?oc=5",
-        "title": "কাশ্মীরে ধৃত ৬০০ বাংলাদেশি, কুশমন্ডিতেও গ্রেপ্তার ২৫ জন",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdWlKWGhJNXFhSU9BaGdDa0FLNWttNU5hSXFkSkcwQjVZT1FsekdRbHMza3B6dmRlaU5naGxnM3JWMUZzdDU3R3ZoUW5rSlN3Q0RzTTFFcXhoa1FNU1hVR3ZkekZlTndOcUwyeTlrWDg3bjNibTRTZTNWUWJKRDBhQ3R4WG1BTzFRbHhNc1BDQmN3QXZQa0hXM3lvaDJETjJQZVUxOWtJZlIzSzdDUWxrOHY3VEJMVksxMWI0d1lBUXFNU1hTZVNNSVBJMnllVGVxQ0RXRGFmV3JXMGpzaTJfeVQwZm7SAfIBQVVfeXFMT1RIQXpSQ0RBQkFNdU05d0tRQ1lYMnJBeXZMeDgxZFE0UXg4bGhXOGd2UTRtR196VnFmb3VXTnQzTjFPMDc2ZGRnaXZIWUdLWXRuS3VPQmhpNUZkcnRlRWlkMjRJcUI1UEtaMkRGdmlwWlVoNlN3dFVSaVNRSHVoM0pIZVg0NzBjOGE2Unk1SWdKcDZIbW4wSHhXLWxFMVhnWTBkU19xQ283MFFXVjI2QjZyUnRMQndxdkJNTFRKUkNRdDNjWHJsRWVnckRORUg5VDBIX0ZMaU1kWlYxWWV0QllZWWIxOENBMW9xTjZZY2dBR0E?oc=5",
-        "source": "Ei Samay",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-        "summary": "কাশ্মীরে ধৃত ৬০০ বাংলাদেশি, কুশমন্ডিতেও গ্রেপ্তার ২৫ জন &nbsp;&nbsp; Ei Samay",
-        "image": "https://cf-images.assettype.com/eisamay%2F2026-10-07%2Fj9078ugw%2F20081.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-        "articleUrl": "https://eisamay.com/bangladesh-news/600-bangladeshis-arrested-in-kashmir-25-also-detained-in-kushmandi-allegation-illegally-cross-border/200552160.cms",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      }
-    ],
     "international": [
       {
         "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HLXl4VG0tOHNRNUdzeWIxQ25XSmNXeXByN2toRDBMeXE0MmtOWnNNUXhTbVJIQ3VRb2VBZXlOUXRoYklsSktIQ2JDLVlJdU80NWxlQXFpQ0lDcGxqSlhPc2hpYw?oc=5",
@@ -876,6 +744,138 @@
         "imageFallback": "news-fallbacks/world.svg"
       }
     ],
+    "bangladesh": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcU5GbGJmU2RCOExyRXg2S2FHbjctUG54a1hMSDRkaERJYmRBOUx0NGMyMjJEa3dPRENSQ1B6dnBpQjIzaDlqWDJWMUJPME53aWN5LWRVdHliUHpfQ0o4M0t0NnZCczdsaDFBbk1ZSTFBLUo3OW1LRGRHbVRxXzc4bmJZcEdXSWtEdEZUUDlvRkpPM0hwcG5iTk4xYVJBdVQzT0JSRzFKOVplTkVTbWpIamVlTzlBRHM0ejQ0RUFqZ3VyeWY0d2VQNmh5U0FOZkpRdzlELWRMb2RRNm1scEHSAeMBQVVfeXFMTlNLN2YtX2ZUUW1KR2hTbjRfemFEeU5CYzZfN2dXVzl0dE5hSjdwMHltbVNqZFdNY25nS2N3ZDFIRFRNQWYyc3ROU1Z5Ukd6WlQxbmlrVnZKcEl5UGYxZmJMMGtwSDJkNnc5TmdGcGpBMmpnUU1NYWk4VnlJNzdZLURZZ3BHeDg5Q0xnZzhRWFFuVXZvSzRBZG5neHAyMkkzdUoxVVUtYUtXd3NOVFpaZDFCb2daVXZISTF5QmZhNTVzR20zWXVuOXRqVnhrMlJOaXNzU0txRnlvRnJsVVJ6eEFyWjQ?oc=5",
+        "title": "Bangladesh News | বিক্ষোভে উত্তপ্ত ঢাকা-গাজিপুর!বস্ত্র কারখানার কর্মীদের আন্দোলনে তুলকালাম পরিস্থিতি",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcU5GbGJmU2RCOExyRXg2S2FHbjctUG54a1hMSDRkaERJYmRBOUx0NGMyMjJEa3dPRENSQ1B6dnBpQjIzaDlqWDJWMUJPME53aWN5LWRVdHliUHpfQ0o4M0t0NnZCczdsaDFBbk1ZSTFBLUo3OW1LRGRHbVRxXzc4bmJZcEdXSWtEdEZUUDlvRkpPM0hwcG5iTk4xYVJBdVQzT0JSRzFKOVplTkVTbWpIamVlTzlBRHM0ejQ0RUFqZ3VyeWY0d2VQNmh5U0FOZkpRdzlELWRMb2RRNm1scEHSAeMBQVVfeXFMTlNLN2YtX2ZUUW1KR2hTbjRfemFEeU5CYzZfN2dXVzl0dE5hSjdwMHltbVNqZFdNY25nS2N3ZDFIRFRNQWYyc3ROU1Z5Ukd6WlQxbmlrVnZKcEl5UGYxZmJMMGtwSDJkNnc5TmdGcGpBMmpnUU1NYWk4VnlJNzdZLURZZ3BHeDg5Q0xnZzhRWFFuVXZvSzRBZG5neHAyMkkzdUoxVVUtYUtXd3NOVFpaZDFCb2daVXZISTF5QmZhNTVzR20zWXVuOXRqVnhrMlJOaXNzU0txRnlvRnJsVVJ6eEFyWjQ?oc=5",
+        "source": "ABP Ananda",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 19:37:38 GMT",
+        "summary": "Bangladesh News | বিক্ষোভে উত্তপ্ত ঢাকা-গাজিপুর!বস্ত্র কারখানার কর্মীদের আন্দোলনে তুলকালাম পরিস্থিতি &nbsp;&nbsp; ABP Ananda",
+        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/02/95ececdb0f2e28be859ed9f13555ecf617935618466291327_original.png?impolicy=abp_cdn&imwidth=1200",
+        "articleUrl": "https://bengali.abplive.com/videos/news/dhaka-gazipur-in-the-grip-of-protests-chaos-erupts-as-garment-factory-workers-take-to-the-streets-1198019",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYXhxeklnb2hFeEJHV0hOdkhpcXpRRmVfT29SQWFxNUVDQzBnU3dzaGVyNVY4STZIVS00Nkl6cUZxSFNkcXRrTjdpSWR6LUFzUU0xcG12dFhnYkt2dnBuSS03UVI4T1ItX1FYYklUMFBrQmFlWlg3RGJ5Z3NZWTUyLXhGR3VpSFUzNkp3?oc=5",
+        "title": "ভারতের কাছে ৫ উইকেটে পরাজিত বাংলাদেশ",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYXhxeklnb2hFeEJHV0hOdkhpcXpRRmVfT29SQWFxNUVDQzBnU3dzaGVyNVY4STZIVS00Nkl6cUZxSFNkcXRrTjdpSWR6LUFzUU0xcG12dFhnYkt2dnBuSS03UVI4T1ItX1FYYklUMFBrQmFlWlg3RGJ5Z3NZWTUyLXhGR3VpSFUzNkp3?oc=5",
+        "source": "https://starnews.com.bd/",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 13:32:43 GMT",
+        "summary": "ভারতের কাছে ৫ উইকেটে পরাজিত বাংলাদেশ &nbsp;&nbsp; https://starnews.com.bd/",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://starnews.com.bd/sports/27971/bangladesh-defeated-by-india-by-5-wickets.html",
+        "imageAttemptedAt": "2026-11-01T13:45:56.888Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOWZyOUtQTEo5RmtfU0R3dlk4TXlCQnRTVW55UXJmUHVybmNuX2oyRV9MT0plblRPaExWd1VUdjI2ZHNOYzE1amM5LVZ3cURFWnd5c1NTWVEweTlxM09taGoxVVE5RVJZYnJ1SF9ZS3o3RDlNUm4zblpRTzRQNjNFSFJLTHZYZm9HOGtRM1RZT0psU2podEszUWN5M2xTR2JpTlhOZ2xva2tfdzkwYjZUQU9YRTBwZmM0a2I3Tjg5N2VWbFpBQUxTMA?oc=5",
+        "title": "বাংলাদেশে পোশাক শ্রমিকদের আন্দোলন, নতুন মজুরি বোর্ড গঠন",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOWZyOUtQTEo5RmtfU0R3dlk4TXlCQnRTVW55UXJmUHVybmNuX2oyRV9MT0plblRPaExWd1VUdjI2ZHNOYzE1amM5LVZ3cURFWnd5c1NTWVEweTlxM09taGoxVVE5RVJZYnJ1SF9ZS3o3RDlNUm4zblpRTzRQNjNFSFJLTHZYZm9HOGtRM1RZT0psU2podEszUWN5M2xTR2JpTlhOZ2xva2tfdzkwYjZUQU9YRTBwZmM0a2I3Tjg5N2VWbFpBQUxTMA?oc=5",
+        "source": "Aaro Ananda",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 04:37:00 GMT",
+        "summary": "বাংলাদেশে পোশাক শ্রমিকদের আন্দোলন, নতুন মজুরি বোর্ড গঠন &nbsp;&nbsp; Aaro Ananda",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.aaroananda.com/story/latest-news/breaking-news/bangladesh-readymade-garments-workers-movement-new-wage-board/11026647",
+        "imageAttemptedAt": "2026-11-01T05:27:20.526Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNajFybEVKR1FKQXVfTHhxUTJMdXBrOWFTN1IzRC1XUldObXpCS1NyRVFFZ2NHMUp0ODlxRVlKQWk0ZGFmdUVtdmJVZTQ3cjZ1WXRQS1NucEdNd0VMVmtfY3lza3hHSTFFcVpVdV9qMjRrTzdBNGVoSDJpSmhEN1V5RjJVSURocXhfanRha3ZPTnQ5cnhFSXNIZ3ZLdkNqZG44TzkwT19acXVQdlVfMndfcXpSSVFCS29RYmJRMlZoSXlhWVdSc3ZLMnJIMHFUN1FyYUFTTVRHMjJfVjM5MEhpVHVlaEdGRUZoZE5mcG14RXB4bWUxVzJLYkxmekM2OEdnZlBPRkUtM2tXMElVZ0piaU5NaEQ1bFdHUlk3REE0MENiWDVRY2d6YUs0WnJwQm9ISFc0dnJ4WEJwbU5vR1FnVWxfRQ?oc=5",
+        "title": "কলকাতায় বাংলাদেশ উপহাইকমিশন ঘেরাওয়ের চেষ্টা",
+        "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNajFybEVKR1FKQXVfTHhxUTJMdXBrOWFTN1IzRC1XUldObXpCS1NyRVFFZ2NHMUp0ODlxRVlKQWk0ZGFmdUVtdmJVZTQ3cjZ1WXRQS1NucEdNd0VMVmtfY3lza3hHSTFFcVpVdV9qMjRrTzdBNGVoSDJpSmhEN1V5RjJVSURocXhfanRha3ZPTnQ5cnhFSXNIZ3ZLdkNqZG44TzkwT19acXVQdlVfMndfcXpSSVFCS29RYmJRMlZoSXlhWVdSc3ZLMnJIMHFUN1FyYUFTTVRHMjJfVjM5MEhpVHVlaEdGRUZoZE5mcG14RXB4bWUxVzJLYkxmekM2OEdnZlBPRkUtM2tXMElVZ0piaU5NaEQ1bFdHUlk3REE0MENiWDVRY2d6YUs0WnJwQm9ISFc0dnJ4WEJwbU5vR1FnVWxfRQ?oc=5",
+        "source": "Dhaka News 24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 15:12:46 GMT",
+        "summary": "কলকাতায় বাংলাদেশ উপহাইকমিশন ঘেরাওয়ের চেষ্টা &nbsp;&nbsp; Dhaka News 24",
+        "image": "https://www.dhakanews24.com/wp-content/uploads/2026/11/kalkata-bongosena.webp",
+        "articleUrl": "https://www.dhakanews24.com/%E0%A6%95%E0%A6%B2%E0%A6%95%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%89%E0%A6%AA/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiwwRBVV95cUxOMEVZUGxORk01MkY3aDJ3WHl1T2FEczZIVzh4cl8xZlFKREsyc2N1Tno0RU94a0tMSWN3alVIdktaZDA4UDZUand0NGI0WlR0QUNCaElhazlwcG1yVG1yTkRSbmp0eVZ4R2ZNMU1KU0Fjbm5ReEFwdjdGbGhwVkxQcnZzTlhNeUhmT0dpMElYUDdsaUJ4a0xsOVFxbkN4aW80eGpzYU9ucW12MFZNaXBSSWZHV0loelJHSWNyRUlvRVM3akdJTHZOdlQ4VGVZRGloVGdENG01QlRibk1XMHkyUnRmTTRiM1pacGdrdVJ5WS02WEl2aEhNMlZqM3VsT1B5SG1PRy1qOHM4NWJNT1JpWVV6RkVKVTFlY0VSdnl1LWV1aG5yajY4M0VDcDVBZ3B5Vk84cHpNZkdKZ1BTWThVZ1NkX3VHMnNuYnl2eTFwbHdtNDNmd3RkVldmMFcyY3JPS3hkclh6a3Fac2lzS1k4M0lZSThqXzZBT1V1VG9ocC1ZanphSno5ZXBzYnByZVUta3dvSVRiNUtDU2hBWHN0QV9BR2RsRTEzVXpRUWRzamxzbkgwUTdQVGpZSXI5bXZJSVVhMTZ0QnFRWkdhRzdEaldMUDhxUTFoLUp1MDRZakNKOUkxZExWSEJtUUw2a2h6UkpoM3Q0TUkxTllUWnNTTFhNcUNmVVdIbTI3Z0p4S0dkUmg0d0VrbHdYa0ZkVWl4ZXdzRS1ZeVdERVNEcUthanIwMFBFS0daWklwUXZVSWFDWHc?oc=5",
+        "title": "রাজধানীতে দুর্বৃত্তের ছুরিকাঘাতে যুবকের মৃত্যু",
+        "link": "https://news.google.com/rss/articles/CBMiwwRBVV95cUxOMEVZUGxORk01MkY3aDJ3WHl1T2FEczZIVzh4cl8xZlFKREsyc2N1Tno0RU94a0tMSWN3alVIdktaZDA4UDZUand0NGI0WlR0QUNCaElhazlwcG1yVG1yTkRSbmp0eVZ4R2ZNMU1KU0Fjbm5ReEFwdjdGbGhwVkxQcnZzTlhNeUhmT0dpMElYUDdsaUJ4a0xsOVFxbkN4aW80eGpzYU9ucW12MFZNaXBSSWZHV0loelJHSWNyRUlvRVM3akdJTHZOdlQ4VGVZRGloVGdENG01QlRibk1XMHkyUnRmTTRiM1pacGdrdVJ5WS02WEl2aEhNMlZqM3VsT1B5SG1PRy1qOHM4NWJNT1JpWVV6RkVKVTFlY0VSdnl1LWV1aG5yajY4M0VDcDVBZ3B5Vk84cHpNZkdKZ1BTWThVZ1NkX3VHMnNuYnl2eTFwbHdtNDNmd3RkVldmMFcyY3JPS3hkclh6a3Fac2lzS1k4M0lZSThqXzZBT1V1VG9ocC1ZanphSno5ZXBzYnByZVUta3dvSVRiNUtDU2hBWHN0QV9BR2RsRTEzVXpRUWRzamxzbkgwUTdQVGpZSXI5bXZJSVVhMTZ0QnFRWkdhRzdEaldMUDhxUTFoLUp1MDRZakNKOUkxZExWSEJtUUw2a2h6UkpoM3Q0TUkxTllUWnNTTFhNcUNmVVdIbTI3Z0p4S0dkUmg0d0VrbHdYa0ZkVWl4ZXdzRS1ZeVdERVNEcUthanIwMFBFS0daWklwUXZVSWFDWHc?oc=5",
+        "source": "FNS24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 13:48:00 GMT",
+        "summary": "রাজধানীতে দুর্বৃত্তের ছুরিকাঘাতে যুবকের মৃত্যু &nbsp;&nbsp; FNS24",
+        "image": "https://fns24.com/storage/2026/november/01/news/fair-news-service_6ae7432fb4098-1793540911.jpg",
+        "articleUrl": "https://fns24.com/single/91854/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%9B%E0%A7%81%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%98%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%AF%E0%A7%81%E0%A6%AC%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBWc084bzlRQ1QxNzFHR3dUS0hxWXVEWWZ6Uy1zOTJidzVYckZWSU1lT3RIcUtMdWhvVEUzb1FVMmYtTG1mTU5tb194UktQS1RzTG5RU05oN1BsTVR1UmxnRnBGUVZrUzFGa3VLQWpUUmlIMm1kb2pfVXRkQ3RId9IBgwFBVV95cUxONkRiUHNIOTlsRzAzSHNMODE5cjNhSkZHZk03eGhHcE5XTlVmSDRZMHlfbWV2N09ZdWl4WG01YUM5ZTFRZnlQU251MzUteGNDTmUzWGJWR09ZRGdjZnBqcTNXSDk0aXBsd2VwTGpRSC1YZFVWMFZMVDl6VGZJYkEyWGh6WQ?oc=5",
+        "title": "'আওয়ামী লিগ ছিল, আছে, থাকবে'",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBWc084bzlRQ1QxNzFHR3dUS0hxWXVEWWZ6Uy1zOTJidzVYckZWSU1lT3RIcUtMdWhvVEUzb1FVMmYtTG1mTU5tb194UktQS1RzTG5RU05oN1BsTVR1UmxnRnBGUVZrUzFGa3VLQWpUUmlIMm1kb2pfVXRkQ3RId9IBgwFBVV95cUxONkRiUHNIOTlsRzAzSHNMODE5cjNhSkZHZk03eGhHcE5XTlVmSDRZMHlfbWV2N09ZdWl4WG01YUM5ZTFRZnlQU251MzUteGNDTmUzWGJWR09ZRGdjZnBqcTNXSDk0aXBsd2VwTGpRSC1YZFVWMFZMVDl6VGZJYkEyWGh6WQ?oc=5",
+        "source": "TheWall",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 30 Oct 2026 13:39:01 GMT",
+        "summary": "'আওয়ামী লিগ ছিল, আছে, থাকবে' &nbsp;&nbsp; TheWall",
+        "image": "https://s3.ap-south-1.amazonaws.com/statics.thewall.in/sites/default/files/styles/medium/public/2026-10/Sheikh%20Hasina%20Awami%20Leauge%20Bangladesh.webp.webp",
+        "articleUrl": "https://www.thewall.in/video-story/awami-league-was-is-will-be/tid/208237",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQcWs3dl9aNGo4VE1MTG40Tkw3bHRYQzI3YlBvVmhYdjFFSUsxRWtaRHVtZHFHc0IwWkxFb2ZJYlY4ZEtnQ1RYRVR0S1FPa3JqdG44MG1iOXJsNHF2ZVRMMGxPZG9ITktUclNEdkhfVXdjQjlET2xUVWo3a3M4Zmp3NTZaekdBYVBsOXVvdTFRWGNHdUo4QmtfeVZNZWNza1hNQ3NmMkNkWVdtcFVFX0JWbFplUlhjSGpyNGFyRjI2aGtSelByQWVtdDd4UHJCZ0pNNnJweE0tY1VsblUtQ1JDRE1SOTFPS1hkS01nVHVLb0dyZ2lHY0labmFLYU5mSFI2RmtHYnhaN245dkU5ODVmdG1XNlJhMWY5aWNRTTNDdElic3VqM2pEdWdtcHNaTlQ0dGd3Z2Jfd2h0OEpQQlE?oc=5",
+        "title": "বাংলাদেশের ‘গুড়ের রাজধানী’ কোন জেলা?",
+        "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQcWs3dl9aNGo4VE1MTG40Tkw3bHRYQzI3YlBvVmhYdjFFSUsxRWtaRHVtZHFHc0IwWkxFb2ZJYlY4ZEtnQ1RYRVR0S1FPa3JqdG44MG1iOXJsNHF2ZVRMMGxPZG9ITktUclNEdkhfVXdjQjlET2xUVWo3a3M4Zmp3NTZaekdBYVBsOXVvdTFRWGNHdUo4QmtfeVZNZWNza1hNQ3NmMkNkWVdtcFVFX0JWbFplUlhjSGpyNGFyRjI2aGtSelByQWVtdDd4UHJCZ0pNNnJweE0tY1VsblUtQ1JDRE1SOTFPS1hkS01nVHVLb0dyZ2lHY0labmFLYU5mSFI2RmtHYnhaN245dkU5ODVmdG1XNlJhMWY5aWNRTTNDdElic3VqM2pEdWdtcHNaTlQ0dGd3Z2Jfd2h0OEpQQlE?oc=5",
+        "source": "Silkcity News",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 15:04:53 GMT",
+        "summary": "বাংলাদেশের ‘গুড়ের রাজধানী’ কোন জেলা? &nbsp;&nbsp; Silkcity News",
+        "image": "https://silkcitynews.com/wp-content/uploads/2026/11/1793528715-98bc9a9e8e5eb706af081f1194250060.jpg",
+        "articleUrl": "https://silkcitynews.com/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A7%81%E0%A6%A1%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdDNVem9IT0g3djROY3ZNczR3WVhuWVFpRWY5WUFwZU9lZmplSTJGemt4Tlp0RXJnWTA2ZXlZci01UTV4SFJ0eXJkNnpGdnlLWDByWEJScWVLOC1BR3luR0U2NF80N3Y3eWF6d1F5RUt6VmcwZEZJWU82dzl5NUVFaThjTlN6aGpMcTRYZWZ3aDBfbUNUU2JmcjZ5Uy0yaFdSTmx0QUh3cndpTjlXN0ZlOGVreGVyQVBsSjdIUWZycVhuUkV3T3FoWGhfMEnSAdIBQVVfeXFMT0JkZ2dCeVljMjdxMTFJZGRQUVRKTWFhLUlvN3lYd3pWVkVBZW10Q2pEa3dFWWxkZC1RSnZyTURRbDQ2UWZSUzFhZGJqeDRmTGs5TldIM2l4X0xHZHQ0d2xJMFJKeVJEbmtxQlhPd1IxcnpPVDNnckxFQ29aWjZ0YVIyT012RmY4Q2pLYmdYUE9QNG9VQVJJQTZ0OTZ2elBfN2pISWpnOHAzcndaY2NDRWlGeFFHWGdtd1lzdENTNE4wckktakhnNHlLdDI1X3ZwWHdR?oc=5",
+        "title": "হাসিনার দেশ ছাড়ার ভিডিয়ো ফাঁসের শাস্তি? পাইলটের রহস্যমৃত্যুতে তোলপাড় বাংলাদেশ",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdDNVem9IT0g3djROY3ZNczR3WVhuWVFpRWY5WUFwZU9lZmplSTJGemt4Tlp0RXJnWTA2ZXlZci01UTV4SFJ0eXJkNnpGdnlLWDByWEJScWVLOC1BR3luR0U2NF80N3Y3eWF6d1F5RUt6VmcwZEZJWU82dzl5NUVFaThjTlN6aGpMcTRYZWZ3aDBfbUNUU2JmcjZ5Uy0yaFdSTmx0QUh3cndpTjlXN0ZlOGVreGVyQVBsSjdIUWZycVhuUkV3T3FoWGhfMEnSAdIBQVVfeXFMT0JkZ2dCeVljMjdxMTFJZGRQUVRKTWFhLUlvN3lYd3pWVkVBZW10Q2pEa3dFWWxkZC1RSnZyTURRbDQ2UWZSUzFhZGJqeDRmTGs5TldIM2l4X0xHZHQ0d2xJMFJKeVJEbmtxQlhPd1IxcnpPVDNnckxFQ29aWjZ0YVIyT012RmY4Q2pLYmdYUE9QNG9VQVJJQTZ0OTZ2elBfN2pISWpnOHAzcndaY2NDRWlGeFFHWGdtd1lzdENTNE4wckktakhnNHlLdDI1X3ZwWHdR?oc=5",
+        "source": "Anandabazar Patrika",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 31 Oct 2026 17:04:00 GMT",
+        "summary": "হাসিনার দেশ ছাড়ার ভিডিয়ো ফাঁসের শাস্তি? পাইলটের রহস্যমৃত্যুতে তোলপাড় বাংলাদেশ &nbsp;&nbsp; Anandabazar Patrika",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.anandabazar.com/video/former-bangladesh-air-force-pilot-km-tahsif-souri-found-dead-amid-political-storm-dgtl/cid/1723217",
+        "imageAttemptedAt": "2026-11-01T18:17:42.088Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQYVp2ZmE3X0hQWjBmMm15UGdJbjJFQ04wSVVfRl9DS2owOVJuZ3kyQkh5bFpxamhFWWlYV0tzQ0NkeFpZSHZDS0t4NktMa0l3dDk3UERNaWxOaEJsQ2xhRnBlRzhKQ09fUWRmektZY0NMUTJrTnFaUk52OFBxMkx1Q1pmVlRjOER1V0JjWFFnU1hKREJQSHNjYVNPVV9XRjBTMWhvdjVZU2tjbGg1VENTWmtUOXRtbUJzeTRMVVlwMFdWQWNhNWZ3TV9rLXJSNWVUZzktaGd1WXJjWWpsRk43RlAxdkphb1U2aXVWT1p2d0tCMGktQWdEQnJ4MkoxRlNMd2RjRllveHhMd9IBjwJBVV95cUxNTEJKSmhzVVlucHdYTkRqb3ZtVWFvbWx5RXlOdU9UN2NWd2VLdldJeHpyQUlnMlgwZVJPbnlHa3dCQkVReGlnNmhuSEt6aHpXVUdFSFNvQy1weHZFNlZYaTk0S3hYYkNEMXVxblJRcVdoQ1hfZzRyTlBLTFIzOExrUmZFMFZfMU45ZjNNVFBJRVk5X1VlOFgwQllydU1fTi1qSFlicGpoX0szRU1PQ1pmSVQtTzFNNC15ZFBZeG11Vy1fTl92bFV6NEwxTTU4b3E2dzZVaDkwZnVvYUIzb2tBWWZvdHBTakpwRVA3REhlT3U0cVJpUzJNQTJXREFZWHY2YXRXZ3N0TXRFQ3pnM3VF?oc=5",
+        "title": "Bangladesh: 'কলকাতায় কি ইরান যুদ্ধের প্রভাব পড়ে না?' জ্বালানির দর নিয়ে বাংলাদেশে ক্ষোভ",
+        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQYVp2ZmE3X0hQWjBmMm15UGdJbjJFQ04wSVVfRl9DS2owOVJuZ3kyQkh5bFpxamhFWWlYV0tzQ0NkeFpZSHZDS0t4NktMa0l3dDk3UERNaWxOaEJsQ2xhRnBlRzhKQ09fUWRmektZY0NMUTJrTnFaUk52OFBxMkx1Q1pmVlRjOER1V0JjWFFnU1hKREJQSHNjYVNPVV9XRjBTMWhvdjVZU2tjbGg1VENTWmtUOXRtbUJzeTRMVVlwMFdWQWNhNWZ3TV9rLXJSNWVUZzktaGd1WXJjWWpsRk43RlAxdkphb1U2aXVWT1p2d0tCMGktQWdEQnJ4MkoxRlNMd2RjRllveHhMd9IBjwJBVV95cUxNTEJKSmhzVVlucHdYTkRqb3ZtVWFvbWx5RXlOdU9UN2NWd2VLdldJeHpyQUlnMlgwZVJPbnlHa3dCQkVReGlnNmhuSEt6aHpXVUdFSFNvQy1weHZFNlZYaTk0S3hYYkNEMXVxblJRcVdoQ1hfZzRyTlBLTFIzOExrUmZFMFZfMU45ZjNNVFBJRVk5X1VlOFgwQllydU1fTi1qSFlicGpoX0szRU1PQ1pmSVQtTzFNNC15ZFBZeG11Vy1fTl92bFV6NEwxTTU4b3E2dzZVaDkwZnVvYUIzb2tBWWZvdHBTakpwRVA3REhlT3U0cVJpUzJNQTJXREFZWHY2YXRXZ3N0TXRFQ3pnM3VF?oc=5",
+        "source": "Asianet News Bangla",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 31 Oct 2026 09:29:46 GMT",
+        "summary": "Bangladesh: 'কলকাতায় কি ইরান যুদ্ধের প্রভাব পড়ে না?' জ্বালানির দর নিয়ে বাংলাদেশে ক্ষোভ &nbsp;&nbsp; Asianet News Bangla",
+        "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01khp511mg3a5y302y52fxvmdd,imgname-gettyimages-2261620500-594x594-1771343742608.jpg",
+        "articleUrl": "https://bangla.asianetnews.com/international/world-news/bangladesh-national-citizen-party-attacked-government-fuel-price-hike-pressurized-tarique-rahman-anbsg/articleshow-rd7gi39",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOSktJWmQ0cnl0NEpJZ0dyQVdNRWFEUzVIcW9NcHU4Ujhxb0ZCYlRRRjcxMmZpamZHWmhmWV9FbEt0WEtDQmFYSkgwRlltVjVzTVo0ckFvaVhydXEtRFNzME1SalRka0VuUFpmaFpNUms2emZIbTJzWG1aRzVIamFSc28zSTZlbml5eG53RGVQYjlCVEs0NVBYbVZBLVhUV1BFVkp6ZnNGaGRYN2tHN1JDX1hlUWc3U1poelhrRzNUSEJkQVFEVWJ1TkFkNWRfZC1NUE9PMWYtT2FLdHI1QUdDMTJWRWZWVEc0dHo2S3Zpclp1Zw?oc=5",
+        "title": "Bangladesh News: শেখ হাসিনার দেশছাড়ার ভিডিও-র সঙ্গে জড়িয়েছিল নাম! বাংলাদেশে হঠাৎ প্রাক্তন বায়ুসেনার রহস্যমৃত্যু, বাড়ছে জল্পনা",
+        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOSktJWmQ0cnl0NEpJZ0dyQVdNRWFEUzVIcW9NcHU4Ujhxb0ZCYlRRRjcxMmZpamZHWmhmWV9FbEt0WEtDQmFYSkgwRlltVjVzTVo0ckFvaVhydXEtRFNzME1SalRka0VuUFpmaFpNUms2emZIbTJzWG1aRzVIamFSc28zSTZlbml5eG53RGVQYjlCVEs0NVBYbVZBLVhUV1BFVkp6ZnNGaGRYN2tHN1JDX1hlUWc3U1poelhrRzNUSEJkQVFEVWJ1TkFkNWRfZC1NUE9PMWYtT2FLdHI1QUdDMTJWRWZWVEc0dHo2S3Zpclp1Zw?oc=5",
+        "source": "News18 Bengali",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 30 Oct 2026 07:55:00 GMT",
+        "summary": "Bangladesh News: শেখ হাসিনার দেশছাড়ার ভিডিও-র সঙ্গে জড়িয়েছিল নাম! বাংলাদেশে হঠাৎ প্রাক্তন বায়ুসেনার রহস্যমৃত্যু, বাড়ছে জল্পনা &nbsp;&nbsp; News18 Bengali",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://bengali.news18.com/news/international/sheikh-hasina-news-former-bangladesh-air-force-officer-linked-to-hasina-video-found-dead-in-dhaka-sta-2945721.html",
+        "imageAttemptedAt": "2026-11-01T09:15:22.239Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      }
+    ],
     "food": [
       {
         "id": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLVXpxZ0ZzTnBQdlRsV25wVzFDZWRyLXU4RDMtM291TUcwTEJEellaZk11d2hJeXJDX05GcTNwcE04bFl6MVRXbW14NnQ1a01VaG96b2xhc2ZYVFM1RUUwRTN3OE9idUppR1ZLU2tURkI?oc=5",
@@ -888,6 +888,19 @@
         "image": "https://bangla.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/food.jpg",
         "articleUrl": "https://bangla.thedailystar.net/life-living/travel/news-3976536",
         "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1lUEpPVk5SRUE5TmZUdGV1bzdIeVVYVTBfYi16aDlpUkpJNF91Wm9sb3N6VWN1ZkFFRFYxYXZVUFNXS1lJRlNyWHlzTGNQb3F0UkE?oc=5",
+        "title": "ভিন্ন মোড়কে শিশু খাদ্য বিক্রি, কক্সবাজারে ৩ প্রতিষ্ঠানকে জরিমানা",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1lUEpPVk5SRUE5TmZUdGV1bzdIeVVYVTBfYi16aDlpUkpJNF91Wm9sb3N6VWN1ZkFFRFYxYXZVUFNXS1lJRlNyWHlzTGNQb3F0UkE?oc=5",
+        "source": "dhakapost.com",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 14:44:27 GMT",
+        "summary": "ভিন্ন মোড়কে শিশু খাদ্য বিক্রি, কক্সবাজারে ৩ প্রতিষ্ঠানকে জরিমানা &nbsp;&nbsp; dhakapost.com",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.dhakapost.com/country/494687",
+        "imageAttemptedAt": "2026-11-01T15:09:51.687Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -914,19 +927,6 @@
         "image": "news-fallbacks/food.svg",
         "articleUrl": "https://www.bd-pratidin.com/minister-speech/2026/11/01/1320273",
         "imageAttemptedAt": "2026-11-01T13:45:56.888Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1lUEpPVk5SRUE5TmZUdGV1bzdIeVVYVTBfYi16aDlpUkpJNF91Wm9sb3N6VWN1ZkFFRFYxYXZVUFNXS1lJRlNyWHlzTGNQb3F0UkE?oc=5",
-        "title": "ভিন্ন মোড়কে শিশু খাদ্য বিক্রি, কক্সবাজারে ৩ প্রতিষ্ঠানকে জরিমানা",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1lUEpPVk5SRUE5TmZUdGV1bzdIeVVYVTBfYi16aDlpUkpJNF91Wm9sb3N6VWN1ZkFFRFYxYXZVUFNXS1lJRlNyWHlzTGNQb3F0UkE?oc=5",
-        "source": "dhakapost.com",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 01 Nov 2026 14:44:27 GMT",
-        "summary": "ভিন্ন মোড়কে শিশু খাদ্য বিক্রি, কক্সবাজারে ৩ প্রতিষ্ঠানকে জরিমানা &nbsp;&nbsp; dhakapost.com",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.dhakapost.com/country/494687",
-        "imageAttemptedAt": "2026-11-01T15:09:51.687Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -1013,10 +1013,10 @@
   "imageStats": {
     "total": 76,
     "fromRss": 0,
-    "fromArticleMetadata": 20,
+    "fromArticleMetadata": 21,
     "reusedCached": 18,
-    "actualPhotos": 20,
-    "fallbackIllustrations": 56,
+    "actualPhotos": 21,
+    "fallbackIllustrations": 55,
     "withImage": 76,
     "withoutImage": 0
   }
