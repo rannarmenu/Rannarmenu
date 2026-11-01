@@ -1,8 +1,21 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-01T05:27:17.627Z",
+  "generatedAt": "2026-11-01T06:15:02.156Z",
   "sponsors": {
     "somoy": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE96Z3lWRERrY2wxbU81Nl9fUzdnS185ZHZxZVJlRDhEdW1oTVZLcHJfaWVwV1ZMeWxOaGc4NUVn?oc=5",
+        "title": "সময় নিউজ | সর্বশেষ বাংলা সংবাদ",
+        "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE96Z3lWRERrY2wxbU81Nl9fUzdnS185ZHZxZVJlRDhEdW1oTVZLcHJfaWVwV1ZMeWxOaGc4NUVn?oc=5",
+        "source": "সময় টিভি",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 05 Mar 2013 03:05:37 GMT",
+        "summary": "সময় নিউজ | সর্বশেষ বাংলা সংবাদ &nbsp;&nbsp; সময় নিউজ",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "",
+        "imageAttemptedAt": "2026-11-01T06:15:06.681Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
       {
         "id": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxOSnlFRFkzVGV3WllVeU9Ta3VjOVlWdnhtUS1sSHZqcTRBRFNWcHZSSTZlQ0NpazlicFN0VjdHRl9vNktpdTdqemdRWHAweXFzWVZaU0tvdDJyb0pNNmt0TkZiWnJQUWhibHFqZ2pfWXNfeXlOOW03NmxTbGZnc1VTQ0J6VzU0a3ZjbnNQY1dSaFJUQS1qeWdLcno5VVUtOGpwM1JnYVR5X05xVGg2ZnJVM216cWFvamVSVnpaSWRGdzVEWkZFTXpzZ0Npekx4SjFsUjNNV1ZvQ2stQ0cwbllMdUQzVnh0RFFTRGhQbFBBQnYwZUh0cXlLV3hZWHh0Y1NSM3dxLWJ4Mm5xWXk3MDdDMWhORFNqUmVxN1pBRXRiSnFrMlZSeHQxSTdmTTRISzhkUldjMXMwMUFiOTZpM19OX0dBdkpmZWRtSjR0c2g2TnpRZHVUclRxNnVTWGtuWDZFSG1nQzkyY05WWG1XdHJXV0hLa0N2S3A5LThJWXFTTkVWRy1xOEVTUnFZdEF4eWJDME5tVHRoMHlFYXJqUWFhSlhjd0NZczBCNFA3RUlTanVhRmFabFdtdjQtRDMySFBhdllFcFZMRHBDb3ZyRV90ZFQ0WFJoWGl2WThOVlF3TThfXzE2MHFQaFBuazdFM1QyanVr?oc=5",
         "title": "বিএনপি নেতা ইশরাক গ্রেফতার",
@@ -13,7 +26,7 @@
         "summary": "বিএনপি নেতা ইশরাক গ্রেফতার &nbsp;&nbsp; সময় নিউজ",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.somoynews.tv/news/2022-04-06/%E0%A6%B2%E0%A6%BF%E0%A6%AB%E0%A6%B2%E0%A7%87%E0%A6%9F-%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A6%B0%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%9F-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE-%E0%A6%87%E0%A6%B6%E0%A6%B0%E0%A6%BE%E0%A6%95-%E0%A6%86%E0%A6%9F%E0%A6%95",
-        "imageAttemptedAt": "2026-10-31T05:50:54.682Z",
+        "imageAttemptedAt": "2026-11-01T06:15:06.681Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -52,7 +65,139 @@
         "summary": "Gemini &nbsp;&nbsp; Somoy News",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://en.somoynews.tv/topic/gemini",
-        "imageAttemptedAt": "2026-10-31T05:50:54.682Z",
+        "imageAttemptedAt": "2026-11-01T06:15:06.681Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      }
+    ],
+    "jamuna": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
+        "title": "Most Popular Television in Bangladesh",
+        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 13 Apr 2023 17:30:30 GMT",
+        "summary": "Most Popular Television in Bangladesh &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "",
+        "imageAttemptedAt": "2026-10-31T10:29:51.867Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCanJSMU5TM1RTR3lCZUV0b0N1X1BiSHJlMXZUWGw0Vko2bTloY0NJbm1Rd1ZMTHV1d19Xd2JvODBKb3NTMHJ6UTlzNA?oc=5",
+        "title": "এইচএসসিতে পাসের হার ৫২.১২ শতাংশ",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCanJSMU5TM1RTR3lCZUV0b0N1X1BiSHJlMXZUWGw0Vko2bTloY0NJbm1Rd1ZMTHV1d19Xd2JvODBKb3NTMHJ6UTlzNA?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 31 Oct 2026 06:52:47 GMT",
+        "summary": "এইচএসসিতে পাসের হার ৫২.১২ শতাংশ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/campus/667127",
+        "imageAttemptedAt": "2026-10-31T08:26:47.966Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MRW1lZUY5UnJFc2F1bkVjZGFlSlcwdkVmZkF1NGZ5OXFRQVdLV3h1WVJISjlUTER0SWdvSFVsdXE4cUdkV1ZkSg?oc=5",
+        "title": "‘ভাগওয়া লাভ ট্র্যাপ’ প্রচারণায় ব্যক্তিগত তথ্য ফাঁস, হয়রানি ও হুমকির শিকার অনেকে",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MRW1lZUY5UnJFc2F1bkVjZGFlSlcwdkVmZkF1NGZ5OXFRQVdLV3h1WVJISjlUTER0SWdvSFVsdXE4cUdkV1ZkSg?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 31 Oct 2026 11:38:03 GMT",
+        "summary": "‘ভাগওয়া লাভ ট্র্যাপ’ প্রচারণায় ব্যক্তিগত তথ্য ফাঁস, হয়রানি ও হুমকির শিকার অনেকে &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/misc/667158",
+        "imageAttemptedAt": "2026-11-01T03:43:48.257Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3Ym1pVDl1aFY5S3BHNHhCc2dsSjlQZGwzVWpPRlRlcVQ2Z3RIbnhKQ0Z0c092NW5VcG9tVXRZUnd2S0JYQktQSUdxRVFHZw?oc=5",
+        "title": "গায়ক অন্তুর বিরুদ্ধে যৌন নির্যাতনের প্রমাণ মেলেনি: আদালতে পুলিশের চূড়ান্ত রিপোর্ট",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3Ym1pVDl1aFY5S3BHNHhCc2dsSjlQZGwzVWpPRlRlcVQ2Z3RIbnhKQ0Z0c092NW5VcG9tVXRZUnd2S0JYQktQSUdxRVFHZw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 30 Oct 2026 15:53:12 GMT",
+        "summary": "গায়ক অন্তুর বিরুদ্ধে যৌন নির্যাতনের প্রমাণ মেলেনি: আদালতে পুলিশের চূড়ান্ত রিপোর্ট &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667115",
+        "imageAttemptedAt": "2026-11-01T02:45:28.581Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZYjkxZGFCTnhkbWxZZXBXZFNKUHV2Q1d4d09KWlRoRmR3aWE1RDd1eTI4OEpCMks5a2RyUEw0YnNLQ2R2YWJZbWV2ZE42QQ?oc=5",
+        "title": "প্রধানমন্ত্রীর সফরে জাপানের সঙ্গে ৪ সমঝোতা স্মারক, ২ অনুদান চুক্তি ও অভিপ্রায়পত্র সই",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZYjkxZGFCTnhkbWxZZXBXZFNKUHV2Q1d4d09KWlRoRmR3aWE1RDd1eTI4OEpCMks5a2RyUEw0YnNLQ2R2YWJZbWV2ZE42QQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 28 Oct 2026 15:02:06 GMT",
+        "summary": "প্রধানমন্ত্রীর সফরে জাপানের সঙ্গে ৪ সমঝোতা স্মারক, ২ অনুদান চুক্তি ও অভিপ্রায়পত্র সই &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667005",
+        "imageAttemptedAt": "2026-10-31T23:58:48.559Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9QUTVha2ZFa2dUMXU3bDZ4YU52RWhDZmxOTEFqVXRXeG5Wc19yLVBucWNRc29GYWRZTVhwQkVhWXNjUQ?oc=5",
+        "title": "সর্বশেষ - Jamuna Television",
+        "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9QUTVha2ZFa2dUMXU3bDZ4YU52RWhDZmxOTEFqVXRXeG5Wc19yLVBucWNRc29GYWRZTVhwQkVhWXNjUQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 25 Apr 2026 06:28:04 GMT",
+        "summary": "সর্বশেষ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/latest",
+        "imageAttemptedAt": "2026-10-31T20:34:06.432Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBZTnFjZGVtSDZjVmMyLXhzSlFTUjJWU0lJbVJhSGJqY0lBWEF1SWZOT1lsSXozY3A3LXpfemdoS2ViZw?oc=5",
+        "title": "খেলাধুলা - Jamuna Television",
+        "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBZTnFjZGVtSDZjVmMyLXhzSlFTUjJWU0lJbVJhSGJqY0lBWEF1SWZOT1lsSXozY3A3LXpfemdoS2ViZw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 16 Apr 2026 01:35:19 GMT",
+        "summary": "খেলাধুলা &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/sports",
+        "imageAttemptedAt": "2026-10-31T14:12:31.626Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iUFB3MkVIME9sdFZXTUdncGU1QmtEbUN4b0pSSTBESHFQUWRuTVh2cWdkNFFzRWhYWkgxLWZUQ2NDREVPSDJmUnllZEd4dzRuMk40WkVn?oc=5",
+        "title": "১০ মাস পর পর্যটকদের জন্য খুললো সেন্টমার্টিন, আজই চলছে না জাহাজ",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iUFB3MkVIME9sdFZXTUdncGU1QmtEbUN4b0pSSTBESHFQUWRuTVh2cWdkNFFzRWhYWkgxLWZUQ2NDREVPSDJmUnllZEd4dzRuMk40WkVn?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 04:00:18 GMT",
+        "summary": "১০ মাস পর পর্যটকদের জন্য খুললো সেন্টমার্টিন, আজই চলছে না জাহাজ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/all-bangladesh/667180",
+        "imageAttemptedAt": "2026-11-01T05:27:20.526Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5rUGVMNUpJQVk0UF90VFlGNWl2R1Npc1h2U0EwRmJBcGh3TmNLQWN4OVExa0xXYTBMel9renpXcy1uT1Q5dkRVSUZ0dHJJdw?oc=5",
+        "title": "রাজধানীর হাজারীবাগে পুলিশের ওপর হামলা ও গাড়ি ভাঙচুর, গ্রেফতার ৫",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5rUGVMNUpJQVk0UF90VFlGNWl2R1Npc1h2U0EwRmJBcGh3TmNLQWN4OVExa0xXYTBMel9renpXcy1uT1Q5dkRVSUZ0dHJJdw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 31 Oct 2026 15:14:28 GMT",
+        "summary": "রাজধানীর হাজারীবাগে পুলিশের ওপর হামলা ও গাড়ি ভাঙচুর, গ্রেফতার ৫ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667169",
+        "imageAttemptedAt": "2026-10-31T17:26:47.282Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWTFhTdV94WmRIM1pLNzVkVWY3YklzRkk1bzVDWl9XZnNoeS1YLUFmRHloY3JxU1FEZ1Vmcm1VVjlaV3RoQ0tiTXBKT3p0YklQeGdUYg?oc=5",
+        "title": "বিক্ষোভ ও সংঘর্ষে আবারও উত্তপ্ত ফ্রান্স, রাজপথে ৩ লাখেরও বেশি মানুষ",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWTFhTdV94WmRIM1pLNzVkVWY3YklzRkk1bzVDWl9XZnNoeS1YLUFmRHloY3JxU1FEZ1Vmcm1VVjlaV3RoQ0tiTXBKT3p0YklQeGdUYg?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 00:26:13 GMT",
+        "summary": "বিক্ষোভ ও সংঘর্ষে আবারও উত্তপ্ত ফ্রান্স, রাজপথে ৩ লাখেরও বেশি মানুষ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/international/667175",
+        "imageAttemptedAt": "2026-11-01T06:15:06.681Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -203,19 +348,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMilgRBVV95cUxOY3hHVi1nWTIzdWVta09jbFg5TzZvaU5iZG9jdERqX2FSY1lKWDdBbnJOdGlLeVdGM2xMSzNqM2VhNzVucW5QdWpuUFdFNHBCTDM3TVlmVUJCRmR4WGoxSVFJVGEzbXFFMjBxWnFuY21fdUU4WHpFSHdkdVpEdzlJc2xXekR2akdwRGJzYUhUa0JaMXR3WXRqWC1iNDRDN1dzSmM0LW90QVR4RXhDTEtCSU5rYnltVm1FYXhaVjRmOUlFaVp1RzItQzZMRlVjZmpPWjVCcnBFRElZMFRVdzVEUTMwOEZmbmVZLW5zM0J4QmprY2I2WlBjOTBweE9Ya290QV95VUhVSXFoeU0xX1N6REtPeGQ2REhxVkFIeG1Gd1cwZmRfcVR2NVdGQkVvcUI3dEd3TXp4bm1LVXdHNXBvWTNxRmhqbWtMTThsQUpQRjBfbTQxOG9GMUtGNUtFWFNmWmxhWXQ4d1BHSXBXaVVTdUxRMmRGbDd6ZnE3RGxKTGFKbHZ1MUJhVkdGN0lQc0xYMjdwUzlYbkRYX08yRktGeWtaaGg3T3BZUnhTV0JIek0zSVhEdzRPNUhodF9NUHIybWwybElUa0NoSkg5UGR1b3JsNm9yak5iWlB4akloME0zRFhmSXpsVm9tY3RRNmZhQnpZSk40LWdxQ25wRmtfSG04LVlQZWk2a28ydkZ1VjVlNnpQZ0E?oc=5",
-        "title": "পাবলিক পরীক্ষায় ব্যর্থ হয়েও যারা বিশ্বজয়ী",
-        "link": "https://news.google.com/rss/articles/CBMilgRBVV95cUxOY3hHVi1nWTIzdWVta09jbFg5TzZvaU5iZG9jdERqX2FSY1lKWDdBbnJOdGlLeVdGM2xMSzNqM2VhNzVucW5QdWpuUFdFNHBCTDM3TVlmVUJCRmR4WGoxSVFJVGEzbXFFMjBxWnFuY21fdUU4WHpFSHdkdVpEdzlJc2xXekR2akdwRGJzYUhUa0JaMXR3WXRqWC1iNDRDN1dzSmM0LW90QVR4RXhDTEtCSU5rYnltVm1FYXhaVjRmOUlFaVp1RzItQzZMRlVjZmpPWjVCcnBFRElZMFRVdzVEUTMwOEZmbmVZLW5zM0J4QmprY2I2WlBjOTBweE9Ya290QV95VUhVSXFoeU0xX1N6REtPeGQ2REhxVkFIeG1Gd1cwZmRfcVR2NVdGQkVvcUI3dEd3TXp4bm1LVXdHNXBvWTNxRmhqbWtMTThsQUpQRjBfbTQxOG9GMUtGNUtFWFNmWmxhWXQ4d1BHSXBXaVVTdUxRMmRGbDd6ZnE3RGxKTGFKbHZ1MUJhVkdGN0lQc0xYMjdwUzlYbkRYX08yRktGeWtaaGg3T3BZUnhTV0JIek0zSVhEdzRPNUhodF9NUHIybWwybElUa0NoSkg5UGR1b3JsNm9yak5iWlB4akloME0zRFhmSXpsVm9tY3RRNmZhQnpZSk40LWdxQ25wRmtfSG04LVlQZWk2a28ydkZ1VjVlNnpQZ0E?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 09:57:00 GMT",
-        "summary": "পাবলিক পরীক্ষায় ব্যর্থ হয়েও যারা বিশ্বজয়ী &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/collage-1793441007.jpg",
-        "articleUrl": "https://www.channel24bd.tv/feature/article/355999/%E0%A6%AA%E0%A6%BE%E0%A6%AC%E0%A6%B2%E0%A6%BF%E0%A6%95-%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A7%9F-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%B0%E0%A7%8D%E0%A6%A5-%E0%A6%B9%E0%A7%9F%E0%A7%87%E0%A6%93-%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A7%9F%E0%A7%80",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxQem52NjJRV3hZck4xZjZVZGxheHg5NlM5NGtxaWZfUDM2MGQxVHVtYi03QTRDRUpfTWVScFF4VUZHbm1KUER3QlVJeC0yM3hjOGplVEpzMVF1bHNwcGFDVHZXZ3dzdFhrWG1kMFNJZmJDTUpSdjYzR0RaNUdNeGk4LXd2Um90RktoYnhGMFdZYms2MUNzZGpTRndDeTFLZW4yMzZZT00yZzF3Zmh2bnBBdjJhUFF1THllZDBfMWh4c0pNU18tMEtLNkNzUVNHOXdVeE1KNnBTcGRIcmR4Rk82WXRXdEt0TV9IMjc5bTRJTXBaOVBBa3NHWGdheW51TnBFN210dTllVkJqZjFOZVUySk1GQmFUTXdZT0tiSzJGbWVQbkE0NlhPUUZaYzd1OVFxRmw4QzN5MnhMN1U0VEFtUzFGbnhSa3E0VmlTcU1YNkpsMHdvN2ozNUFuYWNVMG1wYWZFT2FQbnNZMExUbmswMHprNjJtQWl6OU9uWWp3NUozVW1xVHEtRW5hRzRoVzVuZHpWWlQtdVJHd1JEeUh1WTRSWmFTZm5Za0NmSmVGM1preDRfU3pILWVldVcwQ044cHY5dzEtb01JT1BvWHhaSkxGUElkUkVxUDdNSVluRzFOZlRod1BIZG1uYm9ZUU9BREJuSVo0SHgxTHRzSFZnVmdaLXlSZGJBcWhFamJQMTR3dGNybzNkWG1uS0RzTFdGMjZTQkZWcTV1aU4ya2xtbVpUQ05YdE1YaXpoUWV0N3dpYWljSzVZb3gyRVFGTk84ckxCNW5KWQ?oc=5",
         "title": "শনিবার টানা ১১ ঘণ্টা বিদ্যুৎ থাকবে না যেসব এলাকায়",
         "link": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxQem52NjJRV3hZck4xZjZVZGxheHg5NlM5NGtxaWZfUDM2MGQxVHVtYi03QTRDRUpfTWVScFF4VUZHbm1KUER3QlVJeC0yM3hjOGplVEpzMVF1bHNwcGFDVHZXZ3dzdFhrWG1kMFNJZmJDTUpSdjYzR0RaNUdNeGk4LXd2Um90RktoYnhGMFdZYms2MUNzZGpTRndDeTFLZW4yMzZZT00yZzF3Zmh2bnBBdjJhUFF1THllZDBfMWh4c0pNU18tMEtLNkNzUVNHOXdVeE1KNnBTcGRIcmR4Rk82WXRXdEt0TV9IMjc5bTRJTXBaOVBBa3NHWGdheW51TnBFN210dTllVkJqZjFOZVUySk1GQmFUTXdZT0tiSzJGbWVQbkE0NlhPUUZaYzd1OVFxRmw4QzN5MnhMN1U0VEFtUzFGbnhSa3E0VmlTcU1YNkpsMHdvN2ozNUFuYWNVMG1wYWZFT2FQbnNZMExUbmswMHprNjJtQWl6OU9uWWp3NUozVW1xVHEtRW5hRzRoVzVuZHpWWlQtdVJHd1JEeUh1WTRSWmFTZm5Za0NmSmVGM1preDRfU3pILWVldVcwQ044cHY5dzEtb01JT1BvWHhaSkxGUElkUkVxUDdNSVluRzFOZlRod1BIZG1uYm9ZUU9BREJuSVo0SHgxTHRzSFZnVmdaLXlSZGJBcWhFamJQMTR3dGNybzNkWG1uS0RzTFdGMjZTQkZWcTV1aU4ya2xtbVpUQ05YdE1YaXpoUWV0N3dpYWljSzVZb3gyRVFGTk84ckxCNW5KWQ?oc=5",
@@ -247,7 +379,7 @@
         "link": "https://news.google.com/rss/articles/CBMi1AZBVV95cUxOWkdHQlVEYjZPcl9yckJHRUdTSG1UT0ZmUDdvclVwSlppWTVMVWNkX1ZkanU4OVdVOUwySk83OHNZOXZJRW83LXJUMTZ5cWpFbm5Yc3M3TGlMTW5oOW1mSUtFTjFyX2R0TW4tekhncC1FSHdYZHNmQmpfYkVTZng1RlhfQldSSlFzTmV5MjIzSXMyUC1QT29VeWp5MVNJUERPMThLV3hnQXc3NDh3Wnkya2JPQkZCdWdsdXU1Mll0bWx1bmYwTEpBRjFueElhVmR0QUdqenlMdTU3LW52QWtuWFVJU2VUZGdqQm1NUW5PYVZRUzU0Rzc0NmdYTXNmMnJsY0t2XzI2QTRFZThqODZqTWJOM3lhYlU4WUlJVTRKdDVGNmN6UXZyV1BRZW0tSlpvdFVPbnlTNzJldWVGUzY5V1AtMG9hTjg3Q0pod0ZMbUZQa3V0UWlqZlFkTFRPanE2MV8taHVfYzZvOGtkYW83LS1vODRtNGFwa1JkcENxMTBrYWlZbEJMOGxKWTR1bmZJeC1tdkZEUzNxdFR5MmRFWE5XLTlGbkd3dkEteUVDbF9mb1hKdVNoQlJlTExKSUQ4ZnVHS2NlQlBCb2hCTU1QMWQ0cFpoZENnS1o0TnlaRDI2ejBPWDhjQnN5aWU5aWtCM1IyQUpJM25kcHdtU0dWSzBic01SVVQ1UHBqQVlGbEJDQnlBeFBlX185TlJYYTMtT1FvZmxyWV9BQV82am5WUmo3YlVkNHVHTEJRZWhUNENVdHZzQ3BfSFozNjRXSXpUSEl4ZkFDNkszV1dkZThvMXBwUkNDV2Q0elF2RTJfNi03R2ItaDlZQUZ4M2pZMm5sU0MtbG9EbWhTOVAwM1dMZWQycG8wZk5hOTlJR1E3S0lGS1QyMWdkbEVWeE5EOThZa3FzOWgxdzJiUThXc3YxYkZ5dlFlbUJ0enJ4TWhsZHh3Q0I0TXZfNnRBdS1WMERLV1hDekppSlBlMUktTEtYSGlmQllBaDZ5LXA5cU5nUkw5YUlJWFJoVEsyREVna2l0WjlBTENQUE9YaExmbUZkQ3k5Z1JqeVZUS21jbnZkWGYwb2EwSUF3Y21TN25IWkN1Tkhnbk1uNWozT3RsRjF1by0yTDA?oc=5",
         "source": "News24 / Channel 24",
         "publisherUrl": "",
-        "publishedAt": "Fri, 30 Oct 2026 07:00:00 GMT",
+        "publishedAt": "Sun, 01 Nov 2026 01:42:20 GMT",
         "summary": "বনানী থেকে সাবেক সেনা কর্মকর্তা অবসরপ্রাপ্ত মেজর আব্দুল হাফিজ গ্রেপ্তার &nbsp;&nbsp; Channel 24",
         "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/hafiz-1793497389.jpg",
         "articleUrl": "https://www.channel24bd.tv/national/article/356107/%E0%A6%AC%E0%A6%A8%E0%A6%BE%E0%A6%A8%E0%A7%80-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%B8%E0%A7%87%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%85%E0%A6%AC%E0%A6%B8%E0%A6%B0%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%AE%E0%A7%87%E0%A6%9C%E0%A6%B0-%E0%A6%86%E0%A6%AC%E0%A7%8D%E0%A6%A6%E0%A7%81%E0%A6%B2-%E0%A6%B9%E0%A6%BE%E0%A6%AB%E0%A6%BF%E0%A6%9C-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0",
@@ -294,6 +426,19 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
+        "title": "News Video, Latest Bangla News & Live TV",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 01 Jul 2019 07:04:28 GMT",
+        "summary": "News Video, Latest Bangla News & Live TV &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/live",
+        "imageAttemptedAt": "2026-11-01T06:15:06.681Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4yRklIUkpPRlB2azBmUG01Z1VjdHdaSWxTcU1NLWJwdHEycHM2T0xqeHhfc1MwdUVUYmxOWDZqNV9TTVJ5MWJJ?oc=5",
         "title": "ত্রয়োদশ জাতীয় সংসদ নির্বাচন ২০২৬",
         "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4yRklIUkpPRlB2azBmUG01Z1VjdHdaSWxTcU1NLWJwdHEycHM2T0xqeHhfc1MwdUVUYmxOWDZqNV9TTVJ5MWJJ?oc=5",
@@ -317,138 +462,6 @@
         "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/garments01-1793377058.jpg",
         "articleUrl": "https://www.channel24bd.tv/economy/article/355895/%E0%A6%B0%E0%A7%8B%E0%A6%AC%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8B%E0%A6%B6%E0%A6%BE%E0%A6%95-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A7%82%E0%A6%A8%E0%A6%A4%E0%A6%AE-%E0%A6%AE%E0%A6%9C%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%AC%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%A1-%E0%A6%97%E0%A6%A0%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4",
         "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      }
-    ],
-    "jamuna": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
-        "title": "Most Popular Television in Bangladesh",
-        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 13 Apr 2023 17:30:30 GMT",
-        "summary": "Most Popular Television in Bangladesh &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "",
-        "imageAttemptedAt": "2026-10-31T10:29:51.867Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9BczF4Z0wtLWtoQ1lpLWpndmF2Y05vd0NEVEREei1YQi1CNU9OMEowaVhMeWY2S0RpWGxBa3pGY3lEcmhKQTRzY1dsMA?oc=5",
-        "title": "প্রধানমন্ত্রীর বিশেষ সহকারী রিমনের সঙ্গে ব্রিটিশ কাউন্সিলের বৈঠক অনুষ্ঠিত",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9BczF4Z0wtLWtoQ1lpLWpndmF2Y05vd0NEVEREei1YQi1CNU9OMEowaVhMeWY2S0RpWGxBa3pGY3lEcmhKQTRzY1dsMA?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 30 Oct 2026 10:17:24 GMT",
-        "summary": "প্রধানমন্ত্রীর বিশেষ সহকারী রিমনের সঙ্গে ব্রিটিশ কাউন্সিলের বৈঠক অনুষ্ঠিত &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/campus/667098",
-        "imageAttemptedAt": "2026-10-31T08:26:47.966Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCanJSMU5TM1RTR3lCZUV0b0N1X1BiSHJlMXZUWGw0Vko2bTloY0NJbm1Rd1ZMTHV1d19Xd2JvODBKb3NTMHJ6UTlzNA?oc=5",
-        "title": "এইচএসসিতে পাসের হার ৫২.১২ শতাংশ",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCanJSMU5TM1RTR3lCZUV0b0N1X1BiSHJlMXZUWGw0Vko2bTloY0NJbm1Rd1ZMTHV1d19Xd2JvODBKb3NTMHJ6UTlzNA?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 06:52:47 GMT",
-        "summary": "এইচএসসিতে পাসের হার ৫২.১২ শতাংশ &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/campus/667127",
-        "imageAttemptedAt": "2026-10-31T08:26:47.966Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MRW1lZUY5UnJFc2F1bkVjZGFlSlcwdkVmZkF1NGZ5OXFRQVdLV3h1WVJISjlUTER0SWdvSFVsdXE4cUdkV1ZkSg?oc=5",
-        "title": "‘ভাগওয়া লাভ ট্র্যাপ’ প্রচারণায় ব্যক্তিগত তথ্য ফাঁস, হয়রানি ও হুমকির শিকার অনেকে",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MRW1lZUY5UnJFc2F1bkVjZGFlSlcwdkVmZkF1NGZ5OXFRQVdLV3h1WVJISjlUTER0SWdvSFVsdXE4cUdkV1ZkSg?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 11:38:03 GMT",
-        "summary": "‘ভাগওয়া লাভ ট্র্যাপ’ প্রচারণায় ব্যক্তিগত তথ্য ফাঁস, হয়রানি ও হুমকির শিকার অনেকে &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/misc/667158",
-        "imageAttemptedAt": "2026-11-01T03:43:48.257Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3Ym1pVDl1aFY5S3BHNHhCc2dsSjlQZGwzVWpPRlRlcVQ2Z3RIbnhKQ0Z0c092NW5VcG9tVXRZUnd2S0JYQktQSUdxRVFHZw?oc=5",
-        "title": "গায়ক অন্তুর বিরুদ্ধে যৌন নির্যাতনের প্রমাণ মেলেনি: আদালতে পুলিশের চূড়ান্ত রিপোর্ট",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3Ym1pVDl1aFY5S3BHNHhCc2dsSjlQZGwzVWpPRlRlcVQ2Z3RIbnhKQ0Z0c092NW5VcG9tVXRZUnd2S0JYQktQSUdxRVFHZw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 30 Oct 2026 15:53:12 GMT",
-        "summary": "গায়ক অন্তুর বিরুদ্ধে যৌন নির্যাতনের প্রমাণ মেলেনি: আদালতে পুলিশের চূড়ান্ত রিপোর্ট &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667115",
-        "imageAttemptedAt": "2026-11-01T02:45:28.581Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZYjkxZGFCTnhkbWxZZXBXZFNKUHV2Q1d4d09KWlRoRmR3aWE1RDd1eTI4OEpCMks5a2RyUEw0YnNLQ2R2YWJZbWV2ZE42QQ?oc=5",
-        "title": "প্রধানমন্ত্রীর সফরে জাপানের সঙ্গে ৪ সমঝোতা স্মারক, ২ অনুদান চুক্তি ও অভিপ্রায়পত্র সই",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZYjkxZGFCTnhkbWxZZXBXZFNKUHV2Q1d4d09KWlRoRmR3aWE1RDd1eTI4OEpCMks5a2RyUEw0YnNLQ2R2YWJZbWV2ZE42QQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 28 Oct 2026 15:02:06 GMT",
-        "summary": "প্রধানমন্ত্রীর সফরে জাপানের সঙ্গে ৪ সমঝোতা স্মারক, ২ অনুদান চুক্তি ও অভিপ্রায়পত্র সই &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667005",
-        "imageAttemptedAt": "2026-10-31T23:58:48.559Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9QUTVha2ZFa2dUMXU3bDZ4YU52RWhDZmxOTEFqVXRXeG5Wc19yLVBucWNRc29GYWRZTVhwQkVhWXNjUQ?oc=5",
-        "title": "সর্বশেষ - Jamuna Television",
-        "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9QUTVha2ZFa2dUMXU3bDZ4YU52RWhDZmxOTEFqVXRXeG5Wc19yLVBucWNRc29GYWRZTVhwQkVhWXNjUQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 25 Apr 2026 06:28:04 GMT",
-        "summary": "সর্বশেষ &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/latest",
-        "imageAttemptedAt": "2026-10-31T20:34:06.432Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBZTnFjZGVtSDZjVmMyLXhzSlFTUjJWU0lJbVJhSGJqY0lBWEF1SWZOT1lsSXozY3A3LXpfemdoS2ViZw?oc=5",
-        "title": "খেলাধুলা - Jamuna Television",
-        "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBZTnFjZGVtSDZjVmMyLXhzSlFTUjJWU0lJbVJhSGJqY0lBWEF1SWZOT1lsSXozY3A3LXpfemdoS2ViZw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 16 Apr 2026 01:35:19 GMT",
-        "summary": "খেলাধুলা &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/sports",
-        "imageAttemptedAt": "2026-10-31T14:12:31.626Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iUFB3MkVIME9sdFZXTUdncGU1QmtEbUN4b0pSSTBESHFQUWRuTVh2cWdkNFFzRWhYWkgxLWZUQ2NDREVPSDJmUnllZEd4dzRuMk40WkVn?oc=5",
-        "title": "১০ মাস পর পর্যটকদের জন্য খুললো সেন্টমার্টিন, আজই চলছে না জাহাজ",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iUFB3MkVIME9sdFZXTUdncGU1QmtEbUN4b0pSSTBESHFQUWRuTVh2cWdkNFFzRWhYWkgxLWZUQ2NDREVPSDJmUnllZEd4dzRuMk40WkVn?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 01 Nov 2026 04:00:18 GMT",
-        "summary": "১০ মাস পর পর্যটকদের জন্য খুললো সেন্টমার্টিন, আজই চলছে না জাহাজ &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/all-bangladesh/667180",
-        "imageAttemptedAt": "2026-11-01T05:27:20.526Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5rUGVMNUpJQVk0UF90VFlGNWl2R1Npc1h2U0EwRmJBcGh3TmNLQWN4OVExa0xXYTBMel9renpXcy1uT1Q5dkRVSUZ0dHJJdw?oc=5",
-        "title": "রাজধানীর হাজারীবাগে পুলিশের ওপর হামলা ও গাড়ি ভাঙচুর, গ্রেফতার ৫",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5rUGVMNUpJQVk0UF90VFlGNWl2R1Npc1h2U0EwRmJBcGh3TmNLQWN4OVExa0xXYTBMel9renpXcy1uT1Q5dkRVSUZ0dHJJdw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 15:14:28 GMT",
-        "summary": "রাজধানীর হাজারীবাগে পুলিশের ওপর হামলা ও গাড়ি ভাঙচুর, গ্রেফতার ৫ &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667169",
-        "imageAttemptedAt": "2026-10-31T17:26:47.282Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -490,6 +503,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.ntvbd.com/video/ntv-news/desher-khobor/desher-khobor-30-october-2026-0",
         "imageAttemptedAt": "2026-10-31T14:12:31.626Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUHctSHYtVlVVUllQTXFPOGNkMkl6b0hZa0YwdmtFNzM0ejhyRWVjSDU3REppY2x6dGViYm93RW9SN2pjTC0tRGZyLTVzbkpiSU5jM24yVnFnbU9nYkVYMVp4bldwNU1hTG41djJXVjJuYVdjMUJHcTU5bjNYYzIwal94djkzVDMzRW8zaQ?oc=5",
+        "title": "সকালের খবর : ১ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUHctSHYtVlVVUllQTXFPOGNkMkl6b0hZa0YwdmtFNzM0ejhyRWVjSDU3REppY2x6dGViYm93RW9SN2pjTC0tRGZyLTVzbkpiSU5jM24yVnFnbU9nYkVYMVp4bldwNU1hTG41djJXVjJuYVdjMUJHcTU5bjNYYzIwal94djkzVDMzRW8zaQ?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 05:59:12 GMT",
+        "summary": "সকালের খবর : ১ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/shokaler-khobor/shokaler-khobor-1-november-2026",
+        "imageAttemptedAt": "2026-11-01T06:15:06.681Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -567,19 +593,6 @@
         "summary": "মধ্যরাতের খবর : ১ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.ntvbd.com/video/ntv-news/moddhoraater-khobor/moddho-rater-khobor-1-november-2026",
-        "imageAttemptedAt": "2026-11-01T05:27:20.526Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWUw2b1NtTVdiUzg3eTltSXBLRXJCYlZkWEpmQm1MQzlRczV5Nm9wU2QzcGJxWklCeFJTUHBmRV8yeW43WWFwU1VzVUptbXhKbmlQMFRqVXdiQlltaVQ0Mmg1Z1ZYSW40bXpLSFhnZnVoSkt0LU5tUzYzN3ZmRGF0c2NLaGlmcEVBUC11WEQxZ0VWQQ?oc=5",
-        "title": "মধ্যাহ্নের খবর : ৩১ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWUw2b1NtTVdiUzg3eTltSXBLRXJCYlZkWEpmQm1MQzlRczV5Nm9wU2QzcGJxWklCeFJTUHBmRV8yeW43WWFwU1VzVUptbXhKbmlQMFRqVXdiQlltaVQ0Mmg1Z1ZYSW40bXpLSFhnZnVoSkt0LU5tUzYzN3ZmRGF0c2NLaGlmcEVBUC11WEQxZ0VWQQ?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 07:43:49 GMT",
-        "summary": "মধ্যাহ্নের খবর : ৩১ অক্টোবর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/modhyanner-khobor/modhyanner-khobor-31-october-2026",
         "imageAttemptedAt": "2026-11-01T05:27:20.526Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
@@ -718,138 +731,6 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       }
     ],
-    "food": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WV0ttN1FuV2dRRzA2aE1fOE1HTUZiTm9ITGJmRTh3YjBQMG5BNzFQbHB0SGFTWWU0SDBLQlY0d1RqNUQ2c0F6TUJyUHN2NjVvQnZPRnFUVFN1SlIwRWlQY2ViUWrSAXJBVV95cUxOVVZ4Q1p3VzVJVzVVZ3ZSNHRUYkdtOTdBSmpoMmpzR2lGWmVhUGZKTTMteWNva25WV2g2WHUtTkFxekt2REt1SHgxRklXeG5PbDVfWGtiR01ISU16RldZWGQySm11N1ExcDJlVGF5Qy1uV2c?oc=5",
-        "title": "রান্নার চুলা নিয়ে মেসে মারধর, কিশোরের মৃত্যু",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WV0ttN1FuV2dRRzA2aE1fOE1HTUZiTm9ITGJmRTh3YjBQMG5BNzFQbHB0SGFTWWU0SDBLQlY0d1RqNUQ2c0F6TUJyUHN2NjVvQnZPRnFUVFN1SlIwRWlQY2ViUWrSAXJBVV95cUxOVVZ4Q1p3VzVJVzVVZ3ZSNHRUYkdtOTdBSmpoMmpzR2lGWmVhUGZKTTMteWNva25WV2g2WHUtTkFxekt2REt1SHgxRklXeG5PbDVfWGtiR01ISU16RldZWGQySm11N1ExcDJlVGF5Qy1uV2c?oc=5",
-        "source": "প্রথম আলো",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 16:20:49 GMT",
-        "summary": "রান্নার চুলা নিয়ে মেসে মারধর, কিশোরের মৃত্যু &nbsp;&nbsp; প্রথম আলো",
-        "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-05%2Fa3qupf92%2Fprothomalo-bangla2026-01-23v0i11hbq%E0%A7%A7.avif?rect=0%2C39%2C621%2C349&w=1200&ar=16%3A9&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
-        "articleUrl": "https://www.prothomalo.com/bangladesh/crime/bbdyi8b0sg",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMihwRBVV95cUxNS3NVS1k3UVJaSW5hVFZPQVowaWhma0JtU29VTUk0T0c3ZVc1aTdMclplMk1pOHZFOEpUdlNGVFpFMl9FRjNNWHRwOGtKYlpHU0lpY1dzVC1XdWh1VW56TndYbVlLWlJfWUVHXzNER3paZHg5MWEwd1JfdFV1OFhabjVhQlNhdUY4ZnVaSUl3WXFaSXB1SXd1T044ejFVVHpLSXdYLTFNaHk0S2YydGplS0xxc2NINzFIdVBDWmxnOFE3YVBnS1hudVUyVS1uUE43UE8wdkRTbDJ3cWpGYjg2ZVRsMFNiR19UMlJrb1E4RXQ2RHRaWlN2V2d3UlFib01WbWdIZG1CdU5aak4wRElDb0xzWThZcW5SLXAxeGVVLUpOa21uMWtVbVBYNGVkR18zbWVmaGRud3I4c1FUUXhTR0FQUm5Ya293QV9Sam1jQUlZRnE5Z0FnNUM3M0xlS1FsR3R1QlhkU0U1MUhzNGxROVBqYjNGNzhKWU5vOEZiYS11Y0sxN2lPQllWVGxHclE3NWZ1MkE4cTQyNVNUZXc2bWxUMEdhQjZpWS1vR2Raa0JQdW9ra3ZMYlNveGFyWU9CNGlVY3BNdTJVODBibHI2aTlPZ0x3MUlSSjZWY1JPcGc4RTdHdUM5V1g5cDZzX1hYd0pxUmtNZy1hVjhoaG83a3NJVWtaeEU?oc=5",
-        "title": "বিষমুক্ত খাদ্য উৎপাদনে কৃষকদের স্বীকৃতি",
-        "link": "https://news.google.com/rss/articles/CBMihwRBVV95cUxNS3NVS1k3UVJaSW5hVFZPQVowaWhma0JtU29VTUk0T0c3ZVc1aTdMclplMk1pOHZFOEpUdlNGVFpFMl9FRjNNWHRwOGtKYlpHU0lpY1dzVC1XdWh1VW56TndYbVlLWlJfWUVHXzNER3paZHg5MWEwd1JfdFV1OFhabjVhQlNhdUY4ZnVaSUl3WXFaSXB1SXd1T044ejFVVHpLSXdYLTFNaHk0S2YydGplS0xxc2NINzFIdVBDWmxnOFE3YVBnS1hudVUyVS1uUE43UE8wdkRTbDJ3cWpGYjg2ZVRsMFNiR19UMlJrb1E4RXQ2RHRaWlN2V2d3UlFib01WbWdIZG1CdU5aak4wRElDb0xzWThZcW5SLXAxeGVVLUpOa21uMWtVbVBYNGVkR18zbWVmaGRud3I4c1FUUXhTR0FQUm5Ya293QV9Sam1jQUlZRnE5Z0FnNUM3M0xlS1FsR3R1QlhkU0U1MUhzNGxROVBqYjNGNzhKWU5vOEZiYS11Y0sxN2lPQllWVGxHclE3NWZ1MkE4cTQyNVNUZXc2bWxUMEdhQjZpWS1vR2Raa0JQdW9ra3ZMYlNveGFyWU9CNGlVY3BNdTJVODBibHI2aTlPZ0x3MUlSSjZWY1JPcGc4RTdHdUM5V1g5cDZzX1hYd0pxUmtNZy1hVjhoaG83a3NJVWtaeEU?oc=5",
-        "source": "SAMAKAL",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 01 Nov 2026 02:05:00 GMT",
-        "summary": "বিষমুক্ত খাদ্য উৎপাদনে কৃষকদের স্বীকৃতি &nbsp;&nbsp; SAMAKAL",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://samakal.com/whole-country/article/380739/%E0%A6%AC%E0%A6%BF%E0%A6%B7%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%89%E0%A7%8E%E0%A6%AA%E0%A6%BE%E0%A6%A6%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A7%80%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A6%BF",
-        "imageAttemptedAt": "2026-11-01T02:45:28.581Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90ekhWWEZLME5IVmVmcjd4TENWNHhYZzZ5ZzlWV3ZRTUtTMVNpZ2Y0ZGIwTnN2cXZmRlBZcEx3b0NYS2FQd3BhUm5PVXZwbmlwTGZlTkgybDh4QQ?oc=5",
-        "title": "এবার চাল আমদানি হয়েছে, যে চালে আফলাটক্সিন পাওয়া গেছে",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90ekhWWEZLME5IVmVmcjd4TENWNHhYZzZ5ZzlWV3ZRTUtTMVNpZ2Y0ZGIwTnN2cXZmRlBZcEx3b0NYS2FQd3BhUm5PVXZwbmlwTGZlTkgybDh4QQ?oc=5",
-        "source": "Dhakatimes24",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 01 Nov 2026 03:09:00 GMT",
-        "summary": "এবার চাল আমদানি হয়েছে, যে চালে আফলাটক্সিন পাওয়া গেছে &nbsp;&nbsp; Dhakatimes24",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.dhakatimes24.com/2026/11/01/416239",
-        "imageAttemptedAt": "2026-11-01T03:43:48.257Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBvU04zbU9rdlI4VWtJb1JrYmxGTVVJRWFEYmxQTU12Tjd3UnpudU1yRmpWX3FWTzljRUlGaUFlcHFwOExqQlE?oc=5",
-        "title": "খাদ্যে ভেজাল: নীরব বিপর্যয়",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBvU04zbU9rdlI4VWtJb1JrYmxGTVVJRWFEYmxQTU12Tjd3UnpudU1yRmpWX3FWTzljRUlGaUFlcHFwOExqQlE?oc=5",
-        "source": "The sangbad",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 01 Nov 2026 03:08:00 GMT",
-        "summary": "খাদ্যে ভেজাল: নীরব বিপর্যয় &nbsp;&nbsp; The sangbad",
-        "image": "https://sangbad.net/uploads/2026/11/Techtaranga.com_1200x630_17935025809188_social.jpg",
-        "articleUrl": "https://sangbad.net/news/22248/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSEdBYW5OWmZTZXk2bTJaTjFTejAwam5xM0RMR2lMTzBIdWVwNWVkWGQtcTJyYXJTaHRVNE9qamxZbV84eDBFbHVfbzNkeXdqb3pyTFdOYllxc2ZKejBGNm1ZYVN1YUxPc2lscXNZSzBhUkxaTFZLbGo0RkZfdW1ueE42aF9mSVFrTXdKaUUyRGJlSXVNREloY1pPQ292SnNaWkthVzlRUE5zaVhxZnhjM01ETkk4cHIzSVQ5WDNUWXpnT3YxUFZ4VExzbEtFZExz0gHeAUFVX3lxTFBxTGZ0b1lXSkJRcUhMUlVZaGtKeEItbUFCOE5ONzZwSmJiUF8xalh3NENZRzNKSXJFUlVnSHNFck5xU0hxSlZnYjZFUzB3MjBfaEFIQVFHQ2dLQkpuM2RveWtncE80RUNROVFOR2l3ZV9mMk1oUjNYY2V6bXU1am5ZVFFsN1ZGR09qczhreVpBWTRWN0lWYWk0NnNXM1NmazhHN1lMV2c5Mkxic2lNcG1FNVpoMEg2dXdZQi1CQkRJNGpSZ0E1M0FjempzN2h3dW5yMU1PT0xqV1UwNFRtdw?oc=5",
-        "title": "রাজুদার পকেট পরোটার দোকানে খাদ্য সুরক্ষা দপ্তরের হানা, অভিযান শিয়ালদহের একাধিক ফুড স্টলেও",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSEdBYW5OWmZTZXk2bTJaTjFTejAwam5xM0RMR2lMTzBIdWVwNWVkWGQtcTJyYXJTaHRVNE9qamxZbV84eDBFbHVfbzNkeXdqb3pyTFdOYllxc2ZKejBGNm1ZYVN1YUxPc2lscXNZSzBhUkxaTFZLbGo0RkZfdW1ueE42aF9mSVFrTXdKaUUyRGJlSXVNREloY1pPQ292SnNaWkthVzlRUE5zaVhxZnhjM01ETkk4cHIzSVQ5WDNUWXpnT3YxUFZ4VExzbEtFZExz0gHeAUFVX3lxTFBxTGZ0b1lXSkJRcUhMUlVZaGtKeEItbUFCOE5ONzZwSmJiUF8xalh3NENZRzNKSXJFUlVnSHNFck5xU0hxSlZnYjZFUzB3MjBfaEFIQVFHQ2dLQkpuM2RveWtncE80RUNROVFOR2l3ZV9mMk1oUjNYY2V6bXU1am5ZVFFsN1ZGR09qczhreVpBWTRWN0lWYWk0NnNXM1NmazhHN1lMV2c5Mkxic2lNcG1FNVpoMEg2dXdZQi1CQkRJNGpSZ0E1M0FjempzN2h3dW5yMU1PT0xqV1UwNFRtdw?oc=5",
-        "source": "Ei Samay",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 04:13:53 GMT",
-        "summary": "রাজুদার পকেট পরোটার দোকানে খাদ্য সুরক্ষা দপ্তরের হানা, অভিযান শিয়ালদহের একাধিক ফুড স্টলেও &nbsp;&nbsp; Ei Samay",
-        "image": "https://cf-images.assettype.com/eisamay%2F2026-10-31%2Fijw4tvlx%2Fthumb-2026-10-31T100106.435.png?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-        "articleUrl": "https://eisamay.com/west-bengal-news/kolkata-news/food-safety-department-raids-sealdah-famous-rajudar-pocket-paratha-shop/200560478.cms",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS2Y5RmhjSzhicEtPNXpIWUVfUXdaYl8zcTdjUXBpQW5NMTY0OHJhbHBMNHJyRDFOenJCUXFsdEJnQ3l6eWFwRUpiRmduV2FpbDA4SUE2UVp6YkFwQTU0eHFSV0VaX3R4dVoxdnVMWjhiYk9OaENQS3NmZ3FWbEJNajA5OW1FN0dYQXhmVXozRmFPdGVaamR3MG1hYTNKck1WQ01kUHNFVG4zN0ZWRkU5Xzk2dk1oMTE2NVMzZTB5YWxiTGh5N1hENW1ITdIB0AFBVV95cUxPOFhGeUpvbVowdVNaWThXaWJsQXMxMUF5cC1FbXlZWEF2MFkwX2NndG9xRXctbktZejhhNVBERE9yaEYyY082ZXV0ZmhZaE5Tc0t2dHJCcTRGcUI1cmNxVGxrZlVfcXlRRURnYVNNV3lGMHhRSXU1dXptUmlQZFpEMENyVURFWU42ejUyOVU1cXg3cDZpWHFzU0Q4dER3dW8wRi1jSGppRm15N0l6UFJFakZIMlR3WE9keURPaXBoZllaVFhQd0s0MUw5Q25oS28t?oc=5",
-        "title": "উৎসবে নিরামিষেও থাক বৈচিত্র, ভাতের সঙ্গে দিন তিলমোহিনী থেকে মুগেশ্বরী, রাঁধবেন কী করে",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS2Y5RmhjSzhicEtPNXpIWUVfUXdaYl8zcTdjUXBpQW5NMTY0OHJhbHBMNHJyRDFOenJCUXFsdEJnQ3l6eWFwRUpiRmduV2FpbDA4SUE2UVp6YkFwQTU0eHFSV0VaX3R4dVoxdnVMWjhiYk9OaENQS3NmZ3FWbEJNajA5OW1FN0dYQXhmVXozRmFPdGVaamR3MG1hYTNKck1WQ01kUHNFVG4zN0ZWRkU5Xzk2dk1oMTE2NVMzZTB5YWxiTGh5N1hENW1ITdIB0AFBVV95cUxPOFhGeUpvbVowdVNaWThXaWJsQXMxMUF5cC1FbXlZWEF2MFkwX2NndG9xRXctbktZejhhNVBERE9yaEYyY082ZXV0ZmhZaE5Tc0t2dHJCcTRGcUI1cmNxVGxrZlVfcXlRRURnYVNNV3lGMHhRSXU1dXptUmlQZFpEMENyVURFWU42ejUyOVU1cXg3cDZpWHFzU0Q4dER3dW8wRi1jSGppRm15N0l6UFJFakZIMlR3WE9keURPaXBoZllaVFhQd0s0MUw5Q25oS28t?oc=5",
-        "source": "Anandabazar Patrika",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 16 Oct 2026 07:00:00 GMT",
-        "summary": "উৎসবে নিরামিষেও থাক বৈচিত্র, ভাতের সঙ্গে দিন তিলমোহিনী থেকে মুগেশ্বরী, রাঁধবেন কী করে &nbsp;&nbsp; Anandabazar Patrika",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.anandabazar.com/lifestyle/festive-pure-veg-delights-how-to-cook-tilmohini-mugeshwari-and-more-for-rice-dgtl/cid/1720194",
-        "imageAttemptedAt": "2026-11-01T05:27:20.526Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE12d1pyWGVvNUhqZFVseU5YUnR3akVrbkVZZGdGelRJTlc0R25nTk9hMVZRRWtBQ0FWR0ZKOUdoNkJEWXN3QzdaRGEwcERpZWZUX3lCb1RYa3JhWC1qTVE?oc=5",
-        "title": "খাদ্য বিপণনের নতুন দিগন্ত",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE12d1pyWGVvNUhqZFVseU5YUnR3akVrbkVZZGdGelRJTlc0R25nTk9hMVZRRWtBQ0FWR0ZKOUdoNkJEWXN3QzdaRGEwcERpZWZUX3lCb1RYa3JhWC1qTVE?oc=5",
-        "source": "দৈনিক ইনকিলাব",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 18:06:25 GMT",
-        "summary": "খাদ্য বিপণনের নতুন দিগন্ত &nbsp;&nbsp; দৈনিক ইনকিলাব",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://dailyinqilab.com/editorial/article/957276",
-        "imageAttemptedAt": "2026-10-31T18:41:27.523Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HNFNhMnROeXFvTGNKcUtFbzZ1ZU5HaElMOEdONHp6MExBMFpTeWt4cHFwMjZNakJ6eFlHYTZKTnVKUVF5OVFJbjgwamY5YlBfTWx5eHlIdDEtb2N6RHc?oc=5",
-        "title": "ভাত রান্না করা নিয়ে দ্বন্ধ, কাঁচির আঘাতে আহত কিশোরের মৃত্যু",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HNFNhMnROeXFvTGNKcUtFbzZ1ZU5HaElMOEdONHp6MExBMFpTeWt4cHFwMjZNakJ6eFlHYTZKTnVKUVF5OVFJbjgwamY5YlBfTWx5eHlIdDEtb2N6RHc?oc=5",
-        "source": "Sarabangla",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 14:57:00 GMT",
-        "summary": "ভাত রান্না করা নিয়ে দ্বন্ধ, কাঁচির আঘাতে আহত কিশোরের মৃত্যু &nbsp;&nbsp; Sarabangla",
-        "image": "https://sarabangla.net/wp-content/uploads/2025/06/Deadbody.jpg",
-        "articleUrl": "https://sarabangla.net/news/capital/post-1214748/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1wX090cUVWV21MT2lwRDRTSXNJVUhZYl9sYVVEYl94T0o0Y0dHWDhxam5XTHl3Qi1xVnc3Y1lDMGNBdk9GZWtsaktB?oc=5",
-        "title": "যুক্তরাষ্ট্রে বিয়ার ও খাবার লুট করল চার ভালুক, বাধা দিতেই হামলা",
-        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1wX090cUVWV21MT2lwRDRTSXNJVUhZYl9sYVVEYl94T0o0Y0dHWDhxam5XTHl3Qi1xVnc3Y1lDMGNBdk9GZWtsaktB?oc=5",
-        "source": "dbcnews.tv",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 12:47:05 GMT",
-        "summary": "যুক্তরাষ্ট্রে বিয়ার ও খাবার লুট করল চার ভালুক, বাধা দিতেই হামলা &nbsp;&nbsp; dbcnews.tv",
-        "image": "https://assets.dbcnews.tv/171749/%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%93-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%B2%E0%A7%81%E0%A6%9F-%E0%A6%95%E0%A6%B0%E0%A6%B2-%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%B2%E0%A7%81%E0%A6%95,-%E0%A6%AC%E0%A6%BE%E0%A6%A7%E0%A6%BE-%E0%A6%A6%E0%A6%BF%E0%A6%A4%E0%A7%87%E0%A6%87-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE.webp",
-        "articleUrl": "https://dbcnews.tv/articles/180643",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LbVdzME9ZOWFHTEIxaUtiMVlLQUlkS1JEc0RkbkpZM2NER3J2YVJzOGhINE5tUjRBT0I3NHpwSVhVRXpuWV9yc2FnaGNwNWprbkZPU0FaQnFtSzdjOTVJdmRYZkxzUHVkVkJ3Szg2WnQxYWlw?oc=5",
-        "title": "খাবার না পেয়ে মারধর, বাবুর্চির পর মারা গেলেন সহকারীও",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LbVdzME9ZOWFHTEIxaUtiMVlLQUlkS1JEc0RkbkpZM2NER3J2YVJzOGhINE5tUjRBT0I3NHpwSVhVRXpuWV9yc2FnaGNwNWprbkZPU0FaQnFtSzdjOTVJdmRYZkxzUHVkVkJ3Szg2WnQxYWlw?oc=5",
-        "source": "কালের কণ্ঠ",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 16:16:49 GMT",
-        "summary": "খাবার না পেয়ে মারধর, বাবুর্চির পর মারা গেলেন সহকারীও &nbsp;&nbsp; কালের কণ্ঠ",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.kalerkantho.com/online/country-news/2026/10/31/1760942",
-        "imageAttemptedAt": "2026-11-01T05:27:20.526Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      }
-    ],
     "international": [
       {
         "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QYnpuUnpYVFR5Ny1LWURHZF9kdy1nbjU3T1F6dlRfN1MtNC1yMGFxRnlSWWtfalJYeFJqT1o2M29nUFdOQkJicVV2VGI4ZDBVYlBCZjhGbTNmWnV3ZXczT3FqTQ?oc=5",
@@ -981,17 +862,149 @@
         "imageAttemptedAt": "2026-11-01T05:27:20.526Z",
         "imageFallback": "news-fallbacks/world.svg"
       }
+    ],
+    "food": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WV0ttN1FuV2dRRzA2aE1fOE1HTUZiTm9ITGJmRTh3YjBQMG5BNzFQbHB0SGFTWWU0SDBLQlY0d1RqNUQ2c0F6TUJyUHN2NjVvQnZPRnFUVFN1SlIwRWlQY2ViUWrSAXJBVV95cUxOVVZ4Q1p3VzVJVzVVZ3ZSNHRUYkdtOTdBSmpoMmpzR2lGWmVhUGZKTTMteWNva25WV2g2WHUtTkFxekt2REt1SHgxRklXeG5PbDVfWGtiR01ISU16RldZWGQySm11N1ExcDJlVGF5Qy1uV2c?oc=5",
+        "title": "রান্নার চুলা নিয়ে মেসে মারধর, কিশোরের মৃত্যু",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WV0ttN1FuV2dRRzA2aE1fOE1HTUZiTm9ITGJmRTh3YjBQMG5BNzFQbHB0SGFTWWU0SDBLQlY0d1RqNUQ2c0F6TUJyUHN2NjVvQnZPRnFUVFN1SlIwRWlQY2ViUWrSAXJBVV95cUxOVVZ4Q1p3VzVJVzVVZ3ZSNHRUYkdtOTdBSmpoMmpzR2lGWmVhUGZKTTMteWNva25WV2g2WHUtTkFxekt2REt1SHgxRklXeG5PbDVfWGtiR01ISU16RldZWGQySm11N1ExcDJlVGF5Qy1uV2c?oc=5",
+        "source": "প্রথম আলো",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 31 Oct 2026 16:20:49 GMT",
+        "summary": "রান্নার চুলা নিয়ে মেসে মারধর, কিশোরের মৃত্যু &nbsp;&nbsp; প্রথম আলো",
+        "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-05%2Fa3qupf92%2Fprothomalo-bangla2026-01-23v0i11hbq%E0%A7%A7.avif?rect=0%2C39%2C621%2C349&w=1200&ar=16%3A9&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+        "articleUrl": "https://www.prothomalo.com/bangladesh/crime/bbdyi8b0sg",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMihwRBVV95cUxNS3NVS1k3UVJaSW5hVFZPQVowaWhma0JtU29VTUk0T0c3ZVc1aTdMclplMk1pOHZFOEpUdlNGVFpFMl9FRjNNWHRwOGtKYlpHU0lpY1dzVC1XdWh1VW56TndYbVlLWlJfWUVHXzNER3paZHg5MWEwd1JfdFV1OFhabjVhQlNhdUY4ZnVaSUl3WXFaSXB1SXd1T044ejFVVHpLSXdYLTFNaHk0S2YydGplS0xxc2NINzFIdVBDWmxnOFE3YVBnS1hudVUyVS1uUE43UE8wdkRTbDJ3cWpGYjg2ZVRsMFNiR19UMlJrb1E4RXQ2RHRaWlN2V2d3UlFib01WbWdIZG1CdU5aak4wRElDb0xzWThZcW5SLXAxeGVVLUpOa21uMWtVbVBYNGVkR18zbWVmaGRud3I4c1FUUXhTR0FQUm5Ya293QV9Sam1jQUlZRnE5Z0FnNUM3M0xlS1FsR3R1QlhkU0U1MUhzNGxROVBqYjNGNzhKWU5vOEZiYS11Y0sxN2lPQllWVGxHclE3NWZ1MkE4cTQyNVNUZXc2bWxUMEdhQjZpWS1vR2Raa0JQdW9ra3ZMYlNveGFyWU9CNGlVY3BNdTJVODBibHI2aTlPZ0x3MUlSSjZWY1JPcGc4RTdHdUM5V1g5cDZzX1hYd0pxUmtNZy1hVjhoaG83a3NJVWtaeEU?oc=5",
+        "title": "বিষমুক্ত খাদ্য উৎপাদনে কৃষকদের স্বীকৃতি",
+        "link": "https://news.google.com/rss/articles/CBMihwRBVV95cUxNS3NVS1k3UVJaSW5hVFZPQVowaWhma0JtU29VTUk0T0c3ZVc1aTdMclplMk1pOHZFOEpUdlNGVFpFMl9FRjNNWHRwOGtKYlpHU0lpY1dzVC1XdWh1VW56TndYbVlLWlJfWUVHXzNER3paZHg5MWEwd1JfdFV1OFhabjVhQlNhdUY4ZnVaSUl3WXFaSXB1SXd1T044ejFVVHpLSXdYLTFNaHk0S2YydGplS0xxc2NINzFIdVBDWmxnOFE3YVBnS1hudVUyVS1uUE43UE8wdkRTbDJ3cWpGYjg2ZVRsMFNiR19UMlJrb1E4RXQ2RHRaWlN2V2d3UlFib01WbWdIZG1CdU5aak4wRElDb0xzWThZcW5SLXAxeGVVLUpOa21uMWtVbVBYNGVkR18zbWVmaGRud3I4c1FUUXhTR0FQUm5Ya293QV9Sam1jQUlZRnE5Z0FnNUM3M0xlS1FsR3R1QlhkU0U1MUhzNGxROVBqYjNGNzhKWU5vOEZiYS11Y0sxN2lPQllWVGxHclE3NWZ1MkE4cTQyNVNUZXc2bWxUMEdhQjZpWS1vR2Raa0JQdW9ra3ZMYlNveGFyWU9CNGlVY3BNdTJVODBibHI2aTlPZ0x3MUlSSjZWY1JPcGc4RTdHdUM5V1g5cDZzX1hYd0pxUmtNZy1hVjhoaG83a3NJVWtaeEU?oc=5",
+        "source": "SAMAKAL",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 02:05:00 GMT",
+        "summary": "বিষমুক্ত খাদ্য উৎপাদনে কৃষকদের স্বীকৃতি &nbsp;&nbsp; SAMAKAL",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://samakal.com/whole-country/article/380739/%E0%A6%AC%E0%A6%BF%E0%A6%B7%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%89%E0%A7%8E%E0%A6%AA%E0%A6%BE%E0%A6%A6%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A7%80%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A6%BF",
+        "imageAttemptedAt": "2026-11-01T02:45:28.581Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90ekhWWEZLME5IVmVmcjd4TENWNHhYZzZ5ZzlWV3ZRTUtTMVNpZ2Y0ZGIwTnN2cXZmRlBZcEx3b0NYS2FQd3BhUm5PVXZwbmlwTGZlTkgybDh4QQ?oc=5",
+        "title": "এবার চাল আমদানি হয়েছে, যে চালে আফলাটক্সিন পাওয়া গেছে",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90ekhWWEZLME5IVmVmcjd4TENWNHhYZzZ5ZzlWV3ZRTUtTMVNpZ2Y0ZGIwTnN2cXZmRlBZcEx3b0NYS2FQd3BhUm5PVXZwbmlwTGZlTkgybDh4QQ?oc=5",
+        "source": "Dhakatimes24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 03:09:00 GMT",
+        "summary": "এবার চাল আমদানি হয়েছে, যে চালে আফলাটক্সিন পাওয়া গেছে &nbsp;&nbsp; Dhakatimes24",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.dhakatimes24.com/2026/11/01/416239",
+        "imageAttemptedAt": "2026-11-01T03:43:48.257Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBvU04zbU9rdlI4VWtJb1JrYmxGTVVJRWFEYmxQTU12Tjd3UnpudU1yRmpWX3FWTzljRUlGaUFlcHFwOExqQlE?oc=5",
+        "title": "খাদ্যে ভেজাল: নীরব বিপর্যয়",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBvU04zbU9rdlI4VWtJb1JrYmxGTVVJRWFEYmxQTU12Tjd3UnpudU1yRmpWX3FWTzljRUlGaUFlcHFwOExqQlE?oc=5",
+        "source": "The sangbad",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 03:08:00 GMT",
+        "summary": "খাদ্যে ভেজাল: নীরব বিপর্যয় &nbsp;&nbsp; The sangbad",
+        "image": "https://sangbad.net/uploads/2026/11/Techtaranga.com_1200x630_17935025809188_social.jpg",
+        "articleUrl": "https://sangbad.net/news/22248/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vS3dMQVhBQVhmV0ZGS2szcmh4bF9VdXVGQjZ5cXVZNVZyX0JONkNkZFpJRlNUeFNkRVE2YTJUd19OWEhIaTJNV1hFa3A0LXVFRUdQbw?oc=5",
+        "title": "কুড়িগ্রামে শিশুদের মাঝে পুষ্টিকর খাবার বিতরণ",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vS3dMQVhBQVhmV0ZGS2szcmh4bF9VdXVGQjZ5cXVZNVZyX0JONkNkZFpJRlNUeFNkRVE2YTJUd19OWEhIaTJNV1hFa3A0LXVFRUdQbw?oc=5",
+        "source": "bdnews24.com",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 31 Oct 2026 13:45:00 GMT",
+        "summary": "কুড়িগ্রামে শিশুদের মাঝে পুষ্টিকর খাবার বিতরণ &nbsp;&nbsp; bdnews24.com",
+        "image": "https://media.assettype.com/bdnews24/2026-10-31/rw9hpang/ws-Kurigram-nutritious-food-thum.jpeg",
+        "articleUrl": "https://hello.bdnews24.com/news/s8siv126zo",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSEdBYW5OWmZTZXk2bTJaTjFTejAwam5xM0RMR2lMTzBIdWVwNWVkWGQtcTJyYXJTaHRVNE9qamxZbV84eDBFbHVfbzNkeXdqb3pyTFdOYllxc2ZKejBGNm1ZYVN1YUxPc2lscXNZSzBhUkxaTFZLbGo0RkZfdW1ueE42aF9mSVFrTXdKaUUyRGJlSXVNREloY1pPQ292SnNaWkthVzlRUE5zaVhxZnhjM01ETkk4cHIzSVQ5WDNUWXpnT3YxUFZ4VExzbEtFZExz0gHeAUFVX3lxTFBxTGZ0b1lXSkJRcUhMUlVZaGtKeEItbUFCOE5ONzZwSmJiUF8xalh3NENZRzNKSXJFUlVnSHNFck5xU0hxSlZnYjZFUzB3MjBfaEFIQVFHQ2dLQkpuM2RveWtncE80RUNROVFOR2l3ZV9mMk1oUjNYY2V6bXU1am5ZVFFsN1ZGR09qczhreVpBWTRWN0lWYWk0NnNXM1NmazhHN1lMV2c5Mkxic2lNcG1FNVpoMEg2dXdZQi1CQkRJNGpSZ0E1M0FjempzN2h3dW5yMU1PT0xqV1UwNFRtdw?oc=5",
+        "title": "রাজুদার পকেট পরোটার দোকানে খাদ্য সুরক্ষা দপ্তরের হানা, অভিযান শিয়ালদহের একাধিক ফুড স্টলেও",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSEdBYW5OWmZTZXk2bTJaTjFTejAwam5xM0RMR2lMTzBIdWVwNWVkWGQtcTJyYXJTaHRVNE9qamxZbV84eDBFbHVfbzNkeXdqb3pyTFdOYllxc2ZKejBGNm1ZYVN1YUxPc2lscXNZSzBhUkxaTFZLbGo0RkZfdW1ueE42aF9mSVFrTXdKaUUyRGJlSXVNREloY1pPQ292SnNaWkthVzlRUE5zaVhxZnhjM01ETkk4cHIzSVQ5WDNUWXpnT3YxUFZ4VExzbEtFZExz0gHeAUFVX3lxTFBxTGZ0b1lXSkJRcUhMUlVZaGtKeEItbUFCOE5ONzZwSmJiUF8xalh3NENZRzNKSXJFUlVnSHNFck5xU0hxSlZnYjZFUzB3MjBfaEFIQVFHQ2dLQkpuM2RveWtncE80RUNROVFOR2l3ZV9mMk1oUjNYY2V6bXU1am5ZVFFsN1ZGR09qczhreVpBWTRWN0lWYWk0NnNXM1NmazhHN1lMV2c5Mkxic2lNcG1FNVpoMEg2dXdZQi1CQkRJNGpSZ0E1M0FjempzN2h3dW5yMU1PT0xqV1UwNFRtdw?oc=5",
+        "source": "Ei Samay",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 31 Oct 2026 04:13:53 GMT",
+        "summary": "রাজুদার পকেট পরোটার দোকানে খাদ্য সুরক্ষা দপ্তরের হানা, অভিযান শিয়ালদহের একাধিক ফুড স্টলেও &nbsp;&nbsp; Ei Samay",
+        "image": "https://cf-images.assettype.com/eisamay%2F2026-10-31%2Fijw4tvlx%2Fthumb-2026-10-31T100106.435.png?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+        "articleUrl": "https://eisamay.com/west-bengal-news/kolkata-news/food-safety-department-raids-sealdah-famous-rajudar-pocket-paratha-shop/200560478.cms",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi0wRBVV95cUxOeG9SM08zM0QtbWM4Qzc3cS1KUWJJbjEtLUtrM2FhODNZVXpfRnJJQ1E4b29Xa09mVzNvV1N6am9rLUdZcXF3UmxjTnpqemZ5QXBlbXB3b0Z1SEJWZm5RakJyaGpPTEpFalFfbHZKZkRabzVnRU9pTFUtbi1KVi1DNVRneWRrNDAtZzRhaGo0UTdodlB1dENPSTd6emhyVVNORGZxSGNJbUQycWlwZFoxMUd2a2JKejlUWVRfUVlNaXZoeGZEQnNJY3AwX1BlWXM3VzM5cFRpREhaMVdFSWhHWkdMWXotc2FEeXVpWDIwZTVWY3NaQmNBZFFVcG4wZTU1QlU4WGlXYnBKSldUR1FpcEtGNDQtTV95T292SXNtYVl3X0FxTVpxLUd5aVJoTlFRZkRWR0lEYmxjcWszYkJacS1lSXRORHJRVk4xNnFOOU4tTzBsU1k3Wm9lSU5uSUQwVGNDeC03QUpiMzFaRmwxZkdnSUdwNkpRSWNUY0Q2Z0tiX0tXLXFBQzZuMFBZdUdQUl9Wb2M5ZldmZV9sV1FTQW14QTJUYmFCdUdPTmhaRDhEb0xmU29WQnpxY0lVTFFvbnVvbmRQME5mWVR2SVhoRk1mcmFVNDE3NUJCYlpsU0E0YzZiT1hxaDZJVlY3TXdVQnVwOUFGOV9ZMjYzYmpGR2FwclRYSnlMVEh2S1ZEbG9jTTJBLXkzaldQSl9XQ2R3c0tha3ljODhDQkh0em9QYkNDclFubWt4SEwzcDBXa2U1SDBVWTljQjU3eXNQREk5Njhn0gHTBEFVX3lxTE54b1IzTzMzRC1tYzhDNzdxLUpRYkluMS0tS2szYWE4M1lVel9GcklDUThvb1drT2ZXM29XU3pqb2stR1lxcXdSbGNOemp6ZnlBcGVtcHdvRnVIQlZmblFqQnJoak9MSkVqUV9sdkpmRFpvNWdFT2lMVS1uLUpWLUM1VGd5ZGs0MC1nNGFoajRRN2h2UHV0Q09JN3p6aHJVU05EZnFIY0ltRDJxaXBkWjExR3ZrYkp6OVRZVF9RWU1pdmh4ZkRCc0ljcDBfUGVZczdXMzlwVGlESFoxV0VJaEdaR0xZei1zYUR5dWlYMjBlNVZjc1pCY0FkUVVwbjBlNTVCVThYaVdicEpKV1RHUWlwS0Y0NC1NX3lPb3ZJc21hWXdfQXFNWnEtR3lpUmhOUVFmRFZHSURibGNxazNiQlpxLWVJdE5EclFWTjE2cU45Ti1PMGxTWTdab2VJTm5JRDBUY0N4LTdBSmIzMVpGbDFmR2dJR3A2SlFJY1RjRDZnS2JfS1ctcUFDNm4wUFl1R1BSX1ZvYzlmV2ZlX2xXUVNBbXhBMlRiYUJ1R09OaFpEOERvTGZTb1ZCenFjSVVMUW9udW9uZFAwTmZZVHZJWGhGTWZyYVU0MTc1QkJiWmxTQTRjNmJPWHFoNklWVjdNd1VCdXA5QUY5X1kyNjNiakZHYXByVFhKeUxUSHZLVkRsb2NNMkEteTNqV1BKX1dDZHdzS2FreWM4OENCSHR6b1BiQ0NyUW5ta3hITDNwMFdrZTVIMFVZOWNCNTd5c1BESTk2OGc?oc=5",
+        "title": "ভাত রান্না নিয়ে বিরোধ, কাঁচির আঘাতে কিশোরের মৃত্যু",
+        "link": "https://news.google.com/rss/articles/CBMi0wRBVV95cUxOeG9SM08zM0QtbWM4Qzc3cS1KUWJJbjEtLUtrM2FhODNZVXpfRnJJQ1E4b29Xa09mVzNvV1N6am9rLUdZcXF3UmxjTnpqemZ5QXBlbXB3b0Z1SEJWZm5RakJyaGpPTEpFalFfbHZKZkRabzVnRU9pTFUtbi1KVi1DNVRneWRrNDAtZzRhaGo0UTdodlB1dENPSTd6emhyVVNORGZxSGNJbUQycWlwZFoxMUd2a2JKejlUWVRfUVlNaXZoeGZEQnNJY3AwX1BlWXM3VzM5cFRpREhaMVdFSWhHWkdMWXotc2FEeXVpWDIwZTVWY3NaQmNBZFFVcG4wZTU1QlU4WGlXYnBKSldUR1FpcEtGNDQtTV95T292SXNtYVl3X0FxTVpxLUd5aVJoTlFRZkRWR0lEYmxjcWszYkJacS1lSXRORHJRVk4xNnFOOU4tTzBsU1k3Wm9lSU5uSUQwVGNDeC03QUpiMzFaRmwxZkdnSUdwNkpRSWNUY0Q2Z0tiX0tXLXFBQzZuMFBZdUdQUl9Wb2M5ZldmZV9sV1FTQW14QTJUYmFCdUdPTmhaRDhEb0xmU29WQnpxY0lVTFFvbnVvbmRQME5mWVR2SVhoRk1mcmFVNDE3NUJCYlpsU0E0YzZiT1hxaDZJVlY3TXdVQnVwOUFGOV9ZMjYzYmpGR2FwclRYSnlMVEh2S1ZEbG9jTTJBLXkzaldQSl9XQ2R3c0tha3ljODhDQkh0em9QYkNDclFubWt4SEwzcDBXa2U1SDBVWTljQjU3eXNQREk5Njhn0gHTBEFVX3lxTE54b1IzTzMzRC1tYzhDNzdxLUpRYkluMS0tS2szYWE4M1lVel9GcklDUThvb1drT2ZXM29XU3pqb2stR1lxcXdSbGNOemp6ZnlBcGVtcHdvRnVIQlZmblFqQnJoak9MSkVqUV9sdkpmRFpvNWdFT2lMVS1uLUpWLUM1VGd5ZGs0MC1nNGFoajRRN2h2UHV0Q09JN3p6aHJVU05EZnFIY0ltRDJxaXBkWjExR3ZrYkp6OVRZVF9RWU1pdmh4ZkRCc0ljcDBfUGVZczdXMzlwVGlESFoxV0VJaEdaR0xZei1zYUR5dWlYMjBlNVZjc1pCY0FkUVVwbjBlNTVCVThYaVdicEpKV1RHUWlwS0Y0NC1NX3lPb3ZJc21hWXdfQXFNWnEtR3lpUmhOUVFmRFZHSURibGNxazNiQlpxLWVJdE5EclFWTjE2cU45Ti1PMGxTWTdab2VJTm5JRDBUY0N4LTdBSmIzMVpGbDFmR2dJR3A2SlFJY1RjRDZnS2JfS1ctcUFDNm4wUFl1R1BSX1ZvYzlmV2ZlX2xXUVNBbXhBMlRiYUJ1R09OaFpEOERvTGZTb1ZCenFjSVVMUW9udW9uZFAwTmZZVHZJWGhGTWZyYVU0MTc1QkJiWmxTQTRjNmJPWHFoNklWVjdNd1VCdXA5QUY5X1kyNjNiakZHYXByVFhKeUxUSHZLVkRsb2NNMkEteTNqV1BKX1dDZHdzS2FreWM4OENCSHR6b1BiQ0NyUW5ta3hITDNwMFdrZTVIMFVZOWNCNTd5c1BESTk2OGc?oc=5",
+        "source": "দেশ রূপান্তর",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 31 Oct 2026 15:17:59 GMT",
+        "summary": "ভাত রান্না নিয়ে বিরোধ, কাঁচির আঘাতে কিশোরের মৃত্যু &nbsp;&nbsp; দেশ রূপান্তর",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.deshrupantor.com/amp/731660/%E0%A6%AD%E0%A6%BE%E0%A6%A4-%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7-%E0%A6%95%E0%A6%BE%E0%A6%81%E0%A6%9A%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%98%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%95%E0%A6%BF%E0%A6%B6%E0%A7%8B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81",
+        "imageAttemptedAt": "2026-11-01T06:15:06.681Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE12d1pyWGVvNUhqZFVseU5YUnR3akVrbkVZZGdGelRJTlc0R25nTk9hMVZRRWtBQ0FWR0ZKOUdoNkJEWXN3QzdaRGEwcERpZWZUX3lCb1RYa3JhWC1qTVE?oc=5",
+        "title": "খাদ্য বিপণনের নতুন দিগন্ত",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE12d1pyWGVvNUhqZFVseU5YUnR3akVrbkVZZGdGelRJTlc0R25nTk9hMVZRRWtBQ0FWR0ZKOUdoNkJEWXN3QzdaRGEwcERpZWZUX3lCb1RYa3JhWC1qTVE?oc=5",
+        "source": "দৈনিক ইনকিলাব",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 31 Oct 2026 18:06:25 GMT",
+        "summary": "খাদ্য বিপণনের নতুন দিগন্ত &nbsp;&nbsp; দৈনিক ইনকিলাব",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://dailyinqilab.com/editorial/article/957276",
+        "imageAttemptedAt": "2026-10-31T18:41:27.523Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HNFNhMnROeXFvTGNKcUtFbzZ1ZU5HaElMOEdONHp6MExBMFpTeWt4cHFwMjZNakJ6eFlHYTZKTnVKUVF5OVFJbjgwamY5YlBfTWx5eHlIdDEtb2N6RHc?oc=5",
+        "title": "ভাত রান্না করা নিয়ে দ্বন্ধ, কাঁচির আঘাতে আহত কিশোরের মৃত্যু",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HNFNhMnROeXFvTGNKcUtFbzZ1ZU5HaElMOEdONHp6MExBMFpTeWt4cHFwMjZNakJ6eFlHYTZKTnVKUVF5OVFJbjgwamY5YlBfTWx5eHlIdDEtb2N6RHc?oc=5",
+        "source": "Sarabangla",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 31 Oct 2026 14:57:00 GMT",
+        "summary": "ভাত রান্না করা নিয়ে দ্বন্ধ, কাঁচির আঘাতে আহত কিশোরের মৃত্যু &nbsp;&nbsp; Sarabangla",
+        "image": "https://sarabangla.net/wp-content/uploads/2025/06/Deadbody.jpg",
+        "articleUrl": "https://sarabangla.net/news/capital/post-1214748/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTVk3SmlOa1l5UllFemd6bWY5X0QzTUw1NTY5Rm4tS3hrZGtxcXVSdmxPWUtPcnRja1phRUg1TXNwWFprd2tjYTZZTWlvZWw0dndUOGNzVHF3MVh0VXl5eThlWlVUUE9CQkR6YXJCOVo0bXR1VkVKOEdhYkk4MDJXZXlSM3dYUXNsa0dyZ1Fjdzk2eE41QXRBaXppQ1JnYWlWMzI3RktRRGdZSExiMGRGUUlpNm5yYmtrOXdacGdmTXZLbFRCc1JkWm42djJZb0ZoQzVF0gHYAUFVX3lxTE41MkUwa3h4bHh5RW1zaXZUNFliYTNZODlqNmJ3cHZMZjVUSHdhcXB1dkQ0djJVY1psWUlkeWdtbklkdkoyUXJhQm40M3BsQVVfNzJSQjJRUDgzVGhlVlYtZ0ppaGprLVZpdGNiQ045aFpZX0p0YUd3Nk1FTWdydnl2UXJhM1RLZUxBNHJGUWoyZ2tRUmtSUkl0YWI5WDd4d0lqTFJ0N0R2Vm85dDZ5bFE5TlVTcDExRGtiUXdTZGdSM3NrTHdrQ2hUTHplSVY2ZzZPLUQweDFIWA?oc=5",
+        "title": "Food Safety: প্রিয়াগোল্ড বিস্কিটে ভুসি, ফুল ক্রিম দুধে ডিটারজেন্ট, কিশমিশে কীটনাশক,",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTVk3SmlOa1l5UllFemd6bWY5X0QzTUw1NTY5Rm4tS3hrZGtxcXVSdmxPWUtPcnRja1phRUg1TXNwWFprd2tjYTZZTWlvZWw0dndUOGNzVHF3MVh0VXl5eThlWlVUUE9CQkR6YXJCOVo0bXR1VkVKOEdhYkk4MDJXZXlSM3dYUXNsa0dyZ1Fjdzk2eE41QXRBaXppQ1JnYWlWMzI3RktRRGdZSExiMGRGUUlpNm5yYmtrOXdacGdmTXZLbFRCc1JkWm42djJZb0ZoQzVF0gHYAUFVX3lxTE41MkUwa3h4bHh5RW1zaXZUNFliYTNZODlqNmJ3cHZMZjVUSHdhcXB1dkQ0djJVY1psWUlkeWdtbklkdkoyUXJhQm40M3BsQVVfNzJSQjJRUDgzVGhlVlYtZ0ppaGprLVZpdGNiQ045aFpZX0p0YUd3Nk1FTWdydnl2UXJhM1RLZUxBNHJGUWoyZ2tRUmtSUkl0YWI5WDd4d0lqTFJ0N0R2Vm85dDZ5bFE5TlVTcDExRGtiUXdTZGdSM3NrTHdrQ2hUTHplSVY2ZzZPLUQweDFIWA?oc=5",
+        "source": "ABP Ananda",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 17 Oct 2026 07:00:00 GMT",
+        "summary": "Food Safety: প্রিয়াগোল্ড বিস্কিটে ভুসি, ফুল ক্রিম দুধে ডিটারজেন্ট, কিশমিশে কীটনাশক, &nbsp;&nbsp; ABP Ananda",
+        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/10/17/2acbd59a29ea8ff2589645df05ca143f1792243008930338_original.jpg?impolicy=abp_cdn&imwidth=1200",
+        "articleUrl": "https://bengali.abplive.com/news/fssai-takes-legal-action-against-priyagold-biscuits-others-companies-over-food-safety-violations-1196372",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      }
     ]
   },
   "sourceErrors": [],
   "imageStats": {
-    "total": 74,
+    "total": 75,
     "fromRss": 0,
     "fromArticleMetadata": 20,
     "reusedCached": 18,
     "actualPhotos": 20,
-    "fallbackIllustrations": 54,
-    "withImage": 74,
+    "fallbackIllustrations": 55,
+    "withImage": 75,
     "withoutImage": 0
   }
 }
