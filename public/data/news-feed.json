@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-05T00:07:06.235Z",
+  "generatedAt": "2026-11-05T01:19:24.474Z",
   "sponsors": {
     "somoy": [
       {
@@ -519,19 +519,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWVFacWh5RjU5ZkxWOVI1MEZERzM0LWhGQ0UxRGJGZzJURGZBaFdOd19LOUF5TEd6aFlaOWY5MVpwSzM5c2Y0MEdwek5wbEVIdlJCcFdadDk0YzQxdmQxaDRDV2xXRVZaQ2VucEdqZlJFcWF1QVhuR19TakVHRXY3ZFJtX2tVY1IzLURReA?oc=5",
-        "title": "সকালের খবর : ৪ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWVFacWh5RjU5ZkxWOVI1MEZERzM0LWhGQ0UxRGJGZzJURGZBaFdOd19LOUF5TEd6aFlaOWY5MVpwSzM5c2Y0MEdwek5wbEVIdlJCcFdadDk0YzQxdmQxaDRDV2xXRVZaQ2VucEdqZlJFcWF1QVhuR19TakVHRXY3ZFJtX2tVY1IzLURReA?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 04 Nov 2026 06:26:37 GMT",
-        "summary": "সকালের খবর : ৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/shokaler-khobor/shokaler-khobor-4-november-2026",
-        "imageAttemptedAt": "2026-11-04T07:58:11.658Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd0QtODE5RnBDUjZxcWxOSW9zNUd2RUlmZFZFaWxQenN0QVhTM1ZERFBoZTBIRU9RWHY0aGZVRkxibkRod09MUG96dDJNVlFPX21tMUNTZVdfVE83bWdPeG9remFPeGdzNzFka2pvOHFsajFpY0VaanJpaFV1RFhMU0x3?oc=5",
         "title": "সংলাপ প্রতিদিন (লাইভ) : পর্ব ৭০৭",
         "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd0QtODE5RnBDUjZxcWxOSW9zNUd2RUlmZFZFaWxQenN0QVhTM1ZERFBoZTBIRU9RWHY0aGZVRkxibkRod09MUG96dDJNVlFPX21tMUNTZVdfVE83bWdPeG9remFPeGdzNzFka2pvOHFsajFpY0VaanJpaFV1RFhMU0x3?oc=5",
@@ -542,6 +529,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.ntvbd.com/video/discussion/songlap-protidin/songlap-protidin-707",
         "imageAttemptedAt": "2026-11-04T14:32:01.533Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVZDVSdnl5Q0xrc3dCWnprOHZUaXNxcDMtNkFlRGRtMXUxV3pPc3Fna1JLSVBFa0hRTmpzbzlzT0VxcGdXS2lKQ243TE5vTkExUVIxUVQyRkNDcHBfMVJpUUs3cUlHVGlkN3BOUXRGeE42MVFFS1Y0TUdCMA?oc=5",
+        "title": "কোরআনুল কারিম : পর্ব ৪৮২",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVZDVSdnl5Q0xrc3dCWnprOHZUaXNxcDMtNkFlRGRtMXUxV3pPc3Fna1JLSVBFa0hRTmpzbzlzT0VxcGdXS2lKQ243TE5vTkExUVIxUVQyRkNDcHBfMVJpUUs3cUlHVGlkN3BOUXRGeE42MVFFS1Y0TUdCMA?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 00:45:52 GMT",
+        "summary": "কোরআনুল কারিম : পর্ব ৪৮২ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/religion/quranul-karim/quranul-karim-ep-482",
+        "imageAttemptedAt": "2026-11-05T01:19:26.301Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -666,19 +666,6 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91VEJadWhLVzllVlpTemZ4N3Q3Q1F6TDdzcXZ2eThISVd0dEd4TEpEa2Ewc3ZUZ1NqdW5sNkttc0dkcHZjNjRJUnQ2RUhhVUQ2Z0JzSnkwRkN4bWx4eTc4Q2lvenAwUQ?oc=5",
-        "title": "🔴LIVE: আজকের টপ আন্তর্জাতিক সংবাদ | BBC World News Bangla | 10 Sep 2026 | বিশ্বজুড়ে এখন যা ঘটছে Freeview (vHhpalSIXU)",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91VEJadWhLVzllVlpTemZ4N3Q3Q1F6TDdzcXZ2eThISVd0dEd4TEpEa2Ewc3ZUZ1NqdW5sNkttc0dkcHZjNjRJUnQ2RUhhVUQ2Z0JzSnkwRkN4bWx4eTc4Q2lvenAwUQ?oc=5",
-        "source": "Unisba Media",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 04 Nov 2026 07:41:58 GMT",
-        "summary": "🔴LIVE: আজকের টপ আন্তর্জাতিক সংবাদ | BBC World News Bangla | 10 Sep 2026 | বিশ্বজুড়ে এখন যা ঘটছে Freeview (vHhpalSIXU) &nbsp;&nbsp; Unisba Media",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://media.unisba.ac.id/789cbec1/cffc979asbYXKmsmGyo",
-        "imageAttemptedAt": "2026-11-05T00:07:07.838Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qWmhnSUVlX1ZlM1JWSTZzS2RVbjFIMk1rRFRUS185c01VQ1hCb3QwbXRvd1dkc2t4VnIyWDc0Nk4xRG0xb19HUWRJeV9zUGFVcE1uUENkVmZJODA?oc=5",
         "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৪ নভেম্বর ২০২৬",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qWmhnSUVlX1ZlM1JWSTZzS2RVbjFIMk1rRFRUS185c01VQ1hCb3QwbXRvd1dkc2t4VnIyWDc0Nk4xRG0xb19HUWRJeV9zUGFVcE1uUENkVmZJODA?oc=5",
@@ -755,6 +742,19 @@
         "articleUrl": "https://www.jagonews24.com/international/news/1171247",
         "imageAttemptedAt": "2026-11-04T16:36:30.019Z",
         "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3bWZHT2lmTWJxMHF5UHIzZEZxZ04wWXZwODJUcGF2SU9sX1Z1b0ZIOXdHbUtJNTN3V0lhNGozVTRmRUtWZXFXdDdXN3FMV1pOajhKamZCZmtVd1NDbG5UVUE5aw?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৮ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3bWZHT2lmTWJxMHF5UHIzZEZxZ04wWXZwODJUcGF2SU9sX1Z1b0ZIOXdHbUtJNTN3V0lhNGozVTRmRUtWZXFXdDdXN3FMV1pOajhKamZCZmtVd1NDbG5UVUE5aw?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 18 Oct 2026 07:00:00 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৮ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1169670",
+        "imageAttemptedAt": "2026-11-05T01:19:26.301Z",
+        "imageFallback": "news-fallbacks/world.svg"
       }
     ],
     "bangladesh": [
@@ -824,19 +824,6 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVncwUGQzbHVBMlBVaEVGcXplT0tDNlU5bUpteUpCSjQtTXhYanVscHVfQ2U5WTBYVUZZSzlRdTc4aGVIVDhJVmFCaUJLT0E2Wnpkd1RQeHh5SzFVMmFaYVc2dXdOTnY0MGpub0RiUklyXzNJUGdOQlJNc3lTRll3c0N0X3ZxdVlBY0xVZmp5ZnFrUlJaM0Rvc2ZweGYxaTZjN2Vza3E0MjFWNDJTT3JSYmRWeHRHYlJLRDZzUTAxb19qVzRxcEI2czFhZGF2Q3MxcDJPajJqeXZiQTNESWFuS0hHX0hZOU1ER0tuRm9fMEhmZTN0aDBJNkxoWdIBiAJBVV95cUxQY2JORXMtbTF0M0lJamhiTWpNWGwwMndtT0Q0OFh6T0s4amxFbGRya1l5c1BvOHJrdFBJeVV5eUpqZjlaUWN6SmxBM05zelRETGg3d3Y1VmZkbTRTdWVlMXk1TFRxajBvNm9PakhQXzVOak0yM01aM0dTcnYySjhvMk1EMWdJZ2plMXhSdFVIM2ZOaTBLSVpYVUZDWmVNYmdTWVg4YS1PeE50dmtJbzFIdHdXYk1YMUt3T25XUzhvRHpHandPMnRqRjBJUTlQRXg4VloyMi1mMzF1a3lGczdyM3U0VWZDNzZNak9hODV3MzdnYXp3NTIzdUJnR1BDdWdrQ0hRMU9aM28?oc=5",
-        "title": "আন্দোলনের জেরে পর পর বন্ধ কারখানা",
-        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVncwUGQzbHVBMlBVaEVGcXplT0tDNlU5bUpteUpCSjQtTXhYanVscHVfQ2U5WTBYVUZZSzlRdTc4aGVIVDhJVmFCaUJLT0E2Wnpkd1RQeHh5SzFVMmFaYVc2dXdOTnY0MGpub0RiUklyXzNJUGdOQlJNc3lTRll3c0N0X3ZxdVlBY0xVZmp5ZnFrUlJaM0Rvc2ZweGYxaTZjN2Vza3E0MjFWNDJTT3JSYmRWeHRHYlJLRDZzUTAxb19qVzRxcEI2czFhZGF2Q3MxcDJPajJqeXZiQTNESWFuS0hHX0hZOU1ER0tuRm9fMEhmZTN0aDBJNkxoWdIBiAJBVV95cUxQY2JORXMtbTF0M0lJamhiTWpNWGwwMndtT0Q0OFh6T0s4amxFbGRya1l5c1BvOHJrdFBJeVV5eUpqZjlaUWN6SmxBM05zelRETGg3d3Y1VmZkbTRTdWVlMXk1TFRxajBvNm9PakhQXzVOak0yM01aM0dTcnYySjhvMk1EMWdJZ2plMXhSdFVIM2ZOaTBLSVpYVUZDWmVNYmdTWVg4YS1PeE50dmtJbzFIdHdXYk1YMUt3T25XUzhvRHpHandPMnRqRjBJUTlQRXg4VloyMi1mMzF1a3lGczdyM3U0VWZDNzZNak9hODV3MzdnYXp3NTIzdUJnR1BDdWdrQ0hRMU9aM28?oc=5",
-        "source": "Ei Samay",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 04 Nov 2026 05:42:59 GMT",
-        "summary": "আন্দোলনের জেরে পর পর বন্ধ কারখানা &nbsp;&nbsp; Ei Samay",
-        "image": "https://cf-images.assettype.com/eisamay%2F2026-11-04%2F76q7o4ax%2FBangladesh-Protest?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-        "articleUrl": "https://eisamay.com/bangladesh-news/more-than-hundred-garment-factories-have-been-shut-down-due-to-repeated-clashes-between-workers-and-police-bangladesh/200562186.cms",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbWdFSGExekhfOUkyYjhXRFY3OS10MWxPeGh5WjBxcy1YeV9oZmdJLUVZalJrR2ZVeWo3SWw1WXY0aVJPWkxlRDBqMWl6U3I3MkJhaktaZFVUUDN1WlRHeDhnNWtacERkeWlrc25aa3pGMGdyQTVhMXZBNjI2MlZtRFFaSS1ELTdoRTlwSFd1UWJ0cVNxNV9od2N0YmpJUzNLZDc3a2szeDliQjdST1Zfc1lRcTBVd2NQSW5tb2h0YkY3MFBwQ2pxUWJ4VzVqczZYOFp0eHdKVzVidnM?oc=5",
         "title": "আওয়ামী লীগ সরকারের মন্ত্রীর বিরুদ্ধে ট্রাইবুনালে মামলা শুরু",
         "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbWdFSGExekhfOUkyYjhXRFY3OS10MWxPeGh5WjBxcy1YeV9oZmdJLUVZalJrR2ZVeWo3SWw1WXY0aVJPWkxlRDBqMWl6U3I3MkJhaktaZFVUUDN1WlRHeDhnNWtacERkeWlrc25aa3pGMGdyQTVhMXZBNjI2MlZtRFFaSS1ELTdoRTlwSFd1UWJ0cVNxNV9od2N0YmpJUzNLZDc3a2szeDliQjdST1Zfc1lRcTBVd2NQSW5tb2h0YkY3MFBwQ2pxUWJ4VzVqczZYOFp0eHdKVzVidnM?oc=5",
@@ -847,6 +834,19 @@
         "image": "news-fallbacks/bangladesh.svg",
         "articleUrl": "https://www.aaroananda.com/story/latest-news/breaking-news/bangladesh-ict-case-filed-against-former-ministers-in-student-protest-probe/11026792",
         "imageAttemptedAt": "2026-11-04T12:00:20.856Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVncwUGQzbHVBMlBVaEVGcXplT0tDNlU5bUpteUpCSjQtTXhYanVscHVfQ2U5WTBYVUZZSzlRdTc4aGVIVDhJVmFCaUJLT0E2Wnpkd1RQeHh5SzFVMmFaYVc2dXdOTnY0MGpub0RiUklyXzNJUGdOQlJNc3lTRll3c0N0X3ZxdVlBY0xVZmp5ZnFrUlJaM0Rvc2ZweGYxaTZjN2Vza3E0MjFWNDJTT3JSYmRWeHRHYlJLRDZzUTAxb19qVzRxcEI2czFhZGF2Q3MxcDJPajJqeXZiQTNESWFuS0hHX0hZOU1ER0tuRm9fMEhmZTN0aDBJNkxoWdIBiAJBVV95cUxQY2JORXMtbTF0M0lJamhiTWpNWGwwMndtT0Q0OFh6T0s4amxFbGRya1l5c1BvOHJrdFBJeVV5eUpqZjlaUWN6SmxBM05zelRETGg3d3Y1VmZkbTRTdWVlMXk1TFRxajBvNm9PakhQXzVOak0yM01aM0dTcnYySjhvMk1EMWdJZ2plMXhSdFVIM2ZOaTBLSVpYVUZDWmVNYmdTWVg4YS1PeE50dmtJbzFIdHdXYk1YMUt3T25XUzhvRHpHandPMnRqRjBJUTlQRXg4VloyMi1mMzF1a3lGczdyM3U0VWZDNzZNak9hODV3MzdnYXp3NTIzdUJnR1BDdWdrQ0hRMU9aM28?oc=5",
+        "title": "আন্দোলনের জেরে পর পর বন্ধ কারখানা",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVncwUGQzbHVBMlBVaEVGcXplT0tDNlU5bUpteUpCSjQtTXhYanVscHVfQ2U5WTBYVUZZSzlRdTc4aGVIVDhJVmFCaUJLT0E2Wnpkd1RQeHh5SzFVMmFaYVc2dXdOTnY0MGpub0RiUklyXzNJUGdOQlJNc3lTRll3c0N0X3ZxdVlBY0xVZmp5ZnFrUlJaM0Rvc2ZweGYxaTZjN2Vza3E0MjFWNDJTT3JSYmRWeHRHYlJLRDZzUTAxb19qVzRxcEI2czFhZGF2Q3MxcDJPajJqeXZiQTNESWFuS0hHX0hZOU1ER0tuRm9fMEhmZTN0aDBJNkxoWdIBiAJBVV95cUxQY2JORXMtbTF0M0lJamhiTWpNWGwwMndtT0Q0OFh6T0s4amxFbGRya1l5c1BvOHJrdFBJeVV5eUpqZjlaUWN6SmxBM05zelRETGg3d3Y1VmZkbTRTdWVlMXk1TFRxajBvNm9PakhQXzVOak0yM01aM0dTcnYySjhvMk1EMWdJZ2plMXhSdFVIM2ZOaTBLSVpYVUZDWmVNYmdTWVg4YS1PeE50dmtJbzFIdHdXYk1YMUt3T25XUzhvRHpHandPMnRqRjBJUTlQRXg4VloyMi1mMzF1a3lGczdyM3U0VWZDNzZNak9hODV3MzdnYXp3NTIzdUJnR1BDdWdrQ0hRMU9aM28?oc=5",
+        "source": "Ei Samay",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 04 Nov 2026 05:42:59 GMT",
+        "summary": "আন্দোলনের জেরে পর পর বন্ধ কারখানা &nbsp;&nbsp; Ei Samay",
+        "image": "https://cf-images.assettype.com/eisamay%2F2026-11-04%2F76q7o4ax%2FBangladesh-Protest?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+        "articleUrl": "https://eisamay.com/bangladesh-news/more-than-hundred-garment-factories-have-been-shut-down-due-to-repeated-clashes-between-workers-and-police-bangladesh/200562186.cms",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
@@ -904,19 +904,6 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiygNBVV95cUxOWHlJSDVrUHdvMjRSeDhvRFVWSGkwSEU2ZHFJLU1qY2VFUF9UbnlWNEdZSTROQTVZZWo0YV83ajFiQkFVcjhrX3ZGRTE0czJsUlJKaF9xMUJGbUg1YzQ1Tm5MNmdBRDAzSGtNTWhwckxBb3FnRktMUDVYMlJ1RHBQNkhvV3FDdmR2bkRNbFJZUTFveHB1MVpnaXBKamNzYXlsSTJjTlFHUmVSYnotb3JvcFhsQUtydC1uMnFhVS1HcVVoZGc0MEZERDYzTU5OTkI3d2dxOWwwTk9fOVExVlNILXpzd3d0N0J1T1J3VTlLTUdpN09JcUhNN2NvLUpMUTgzYTNteVVicm13bnM5MUI4NGgyQVVwc0FDZVFaRU4zTzRwVzFyVHhmc3hGalUtSGNHQmh5Q0xZclJ1UEVVN3NBS1pLQnR0VDVBdFhMb0RtZFJGOHBESzQ4RHpZdEpEczRzbTg2OWFxYkF2c2JmNzlQTlhaQk03VFU1NTBKcXd2RE1LX3JkQlFXYVBVZFpENXh6T25ub3pVQ2M0UTg4T3djWmdSaWU2TzhSdUo3cFpxRnhWSVo1clhSbC1Ic0YxQXRNMDIxRnE4YzNtUQ?oc=5",
-        "title": "শিশুর মুখে খাবার দিতে বড়রা উপোস করেন",
-        "link": "https://news.google.com/rss/articles/CBMiygNBVV95cUxOWHlJSDVrUHdvMjRSeDhvRFVWSGkwSEU2ZHFJLU1qY2VFUF9UbnlWNEdZSTROQTVZZWo0YV83ajFiQkFVcjhrX3ZGRTE0czJsUlJKaF9xMUJGbUg1YzQ1Tm5MNmdBRDAzSGtNTWhwckxBb3FnRktMUDVYMlJ1RHBQNkhvV3FDdmR2bkRNbFJZUTFveHB1MVpnaXBKamNzYXlsSTJjTlFHUmVSYnotb3JvcFhsQUtydC1uMnFhVS1HcVVoZGc0MEZERDYzTU5OTkI3d2dxOWwwTk9fOVExVlNILXpzd3d0N0J1T1J3VTlLTUdpN09JcUhNN2NvLUpMUTgzYTNteVVicm13bnM5MUI4NGgyQVVwc0FDZVFaRU4zTzRwVzFyVHhmc3hGalUtSGNHQmh5Q0xZclJ1UEVVN3NBS1pLQnR0VDVBdFhMb0RtZFJGOHBESzQ4RHpZdEpEczRzbTg2OWFxYkF2c2JmNzlQTlhaQk03VFU1NTBKcXd2RE1LX3JkQlFXYVBVZFpENXh6T25ub3pVQ2M0UTg4T3djWmdSaWU2TzhSdUo3cFpxRnhWSVo1clhSbC1Ic0YxQXRNMDIxRnE4YzNtUQ?oc=5",
-        "source": "SAMAKAL",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 04 Nov 2026 18:42:02 GMT",
-        "summary": "শিশুর মুখে খাবার দিতে বড়রা উপোস করেন &nbsp;&nbsp; SAMAKAL",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://samakal.com/bangladesh/article/381307/%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A7%9C%E0%A6%B0%E0%A6%BE-%E0%A6%89%E0%A6%AA%E0%A7%8B%E0%A6%B8-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A6%A8",
-        "imageAttemptedAt": "2026-11-04T19:41:57.378Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwUjdMNjljdzFnQk5zQ2RoT1V6dEFiWnI1OHFTcUlPMU9id1RWcVRYbWdCRkhwMmQ1cFFBcThfV2swTUhxRDJueHFFUVpMSTBjbGVyR3d3Q3BydWxl?oc=5",
         "title": "খাদ্য অপচয় রোধে সমন্বিত জাতীয় কৌশল প্রণয়নের আহ্বান মন্ত্রীর",
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwUjdMNjljdzFnQk5zQ2RoT1V6dEFiWnI1OHFTcUlPMU9id1RWcVRYbWdCRkhwMmQ1cFFBcThfV2swTUhxRDJueHFFUVpMSTBjbGVyR3d3Q3BydWxl?oc=5",
@@ -927,6 +914,19 @@
         "image": "news-fallbacks/food.svg",
         "articleUrl": "https://www.jagonews24.com/national/news/1175723",
         "imageAttemptedAt": "2026-11-04T16:36:30.019Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiygNBVV95cUxOWHlJSDVrUHdvMjRSeDhvRFVWSGkwSEU2ZHFJLU1qY2VFUF9UbnlWNEdZSTROQTVZZWo0YV83ajFiQkFVcjhrX3ZGRTE0czJsUlJKaF9xMUJGbUg1YzQ1Tm5MNmdBRDAzSGtNTWhwckxBb3FnRktMUDVYMlJ1RHBQNkhvV3FDdmR2bkRNbFJZUTFveHB1MVpnaXBKamNzYXlsSTJjTlFHUmVSYnotb3JvcFhsQUtydC1uMnFhVS1HcVVoZGc0MEZERDYzTU5OTkI3d2dxOWwwTk9fOVExVlNILXpzd3d0N0J1T1J3VTlLTUdpN09JcUhNN2NvLUpMUTgzYTNteVVicm13bnM5MUI4NGgyQVVwc0FDZVFaRU4zTzRwVzFyVHhmc3hGalUtSGNHQmh5Q0xZclJ1UEVVN3NBS1pLQnR0VDVBdFhMb0RtZFJGOHBESzQ4RHpZdEpEczRzbTg2OWFxYkF2c2JmNzlQTlhaQk03VFU1NTBKcXd2RE1LX3JkQlFXYVBVZFpENXh6T25ub3pVQ2M0UTg4T3djWmdSaWU2TzhSdUo3cFpxRnhWSVo1clhSbC1Ic0YxQXRNMDIxRnE4YzNtUQ?oc=5",
+        "title": "শিশুর মুখে খাবার দিতে বড়রা উপোস করেন",
+        "link": "https://news.google.com/rss/articles/CBMiygNBVV95cUxOWHlJSDVrUHdvMjRSeDhvRFVWSGkwSEU2ZHFJLU1qY2VFUF9UbnlWNEdZSTROQTVZZWo0YV83ajFiQkFVcjhrX3ZGRTE0czJsUlJKaF9xMUJGbUg1YzQ1Tm5MNmdBRDAzSGtNTWhwckxBb3FnRktMUDVYMlJ1RHBQNkhvV3FDdmR2bkRNbFJZUTFveHB1MVpnaXBKamNzYXlsSTJjTlFHUmVSYnotb3JvcFhsQUtydC1uMnFhVS1HcVVoZGc0MEZERDYzTU5OTkI3d2dxOWwwTk9fOVExVlNILXpzd3d0N0J1T1J3VTlLTUdpN09JcUhNN2NvLUpMUTgzYTNteVVicm13bnM5MUI4NGgyQVVwc0FDZVFaRU4zTzRwVzFyVHhmc3hGalUtSGNHQmh5Q0xZclJ1UEVVN3NBS1pLQnR0VDVBdFhMb0RtZFJGOHBESzQ4RHpZdEpEczRzbTg2OWFxYkF2c2JmNzlQTlhaQk03VFU1NTBKcXd2RE1LX3JkQlFXYVBVZFpENXh6T25ub3pVQ2M0UTg4T3djWmdSaWU2TzhSdUo3cFpxRnhWSVo1clhSbC1Ic0YxQXRNMDIxRnE4YzNtUQ?oc=5",
+        "source": "SAMAKAL",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 04 Nov 2026 18:42:02 GMT",
+        "summary": "শিশুর মুখে খাবার দিতে বড়রা উপোস করেন &nbsp;&nbsp; SAMAKAL",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://samakal.com/bangladesh/article/381307/%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A7%9C%E0%A6%B0%E0%A6%BE-%E0%A6%89%E0%A6%AA%E0%A7%8B%E0%A6%B8-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A6%A8",
+        "imageAttemptedAt": "2026-11-04T19:41:57.378Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -969,6 +969,19 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMivgRBVV95cUxNY2NMdmI1MWhubmJZeTBNbVJaamk3N2tudlZPWGhUdFk2TF95dVlHVkxDaFJtOFYyaTJXbmNiZmlRTlYtUmRmcE9KRzNZQUVFNGJ1MjVqMngtZjhDUkhUTER2T1djaW9DWlBnd1FqMERaZEJmZTh0N3dBa09LcFdFQk8wdkxTazZxY1NaSF9MOVB4RDZDVXR0anhrbVFqN2oybVBMUkY4MkNpcW56dThYLVhlNEE3dWJBUGMzRldqcGRwNXVCdzZtZ3NnMUt3ald4bE1NZmg1bDFKTER1b2JUOHMxNWltMUIxQ2VDU3hTcG8xcU12SnAtLXkyekRmd19lVGdaakM0aXB0S0gzekJEZmk2VXNrbEVaMHBpdEZDTmpzSWR2ZTR3QVJrVnFOV1F5dWRvNElVcUNtcHVqMWMxc3FRNm1lYUI5WU4tRGtNMllUU053SWpmenBMVFJCd2lwSDNEbXNFNXZOd3hDa2RNRmt5Z2dZOGZkRFJxUV9HZlVhSlExQTUtWExwRDgyODEydVFxODg0cnA4NlZLdFpHcXp0dFNWakN1OFRYVE5fVkMwb3dkenNNQ19pZ2lIMFU1aTVZTndhbDBfa2hVMEI2eHdaZlE1aGVsM0h6YkYycEhaV3V1a1FaXzN1LW90OVB3VWhITktFdWUzeFVFUjhGYWlfUms3NzNNUjZPc1poeUJSWWxsNmFOTGg4SVM1NERpT1NJX2VyNjRrdmd0eFI1U2FiamFUVl84WU1sVjdn0gHDBEFVX3lxTE9kVDE2U09ENmE0NXlMMmIwMFdQSzNRYnZwWmJKZWY1RDdsbFRMRGpkcmhLREFtdVZVODRyNjJZUDZPdE1NSll5akQ3d1V3VkFycmpkS1ZRNHJTdmExSEl0LUVqcE9VQ0VLcUtDQmdxdkxfWlkzM2J0M0thSlRoVm9MY25BcVktMHN6WXZlTXhuYUwxeGx1aFY2eHZCXzlSR0g5a0wwUnJJenBaVEZ4clFub2t0Y1JaVm5uZEU4VUp4aFU5YWZoODJPb0VkRUtIOTFEbTQ4elIyei1aWUNOS0J3aWlGNnNaZTFFUU5fNEVZMEZodWtmMzhYZ1RCUjlSOTl6STJ4dTRidnVYWEVXQWQ5ckI0WnBkSkhBcmV1TFhuTEU3ZV92MmtXSmdOMEN2V20zbjhaZkVuSGpEdVotSkxJRDhnNFVtNl9vSEFqbTNydVlxSFFVV2IweVVkSnVINExxMmxNNmhHZHZEYU9oc0VieXhLTkhwR0NndU56Q21MZzBpb21yN3RhV1pGYVdHSnVxUl9nWl9rbzFwZnRMeFg4V08yQjNRWWZBMkRaYnRHODRhMHBWcmF4WW1iWjdINDdFQUFPMFZLQkctUUcxUG1kVU0wZXhLdGNoRWU5RkJjSWRwR0xuRFJoeVVCaXhybFZqS1MtTkJpQy03clRRNWtSWTFkMHZjNmtIVjZPUTZjNVh2aXFLTkFQaEh5Ull0SzZRbEdMTWwwMUh3S3pVbHk1UjlFZVdkUDBkak51bkhaQXR6TQ?oc=5",
+        "title": "কীসের আশঙ্কায় খাবার-পানি মজুতের নির্দেশ দিচ্ছে বিশ্বের বিভিন্ন দেশ?",
+        "link": "https://news.google.com/rss/articles/CBMivgRBVV95cUxNY2NMdmI1MWhubmJZeTBNbVJaamk3N2tudlZPWGhUdFk2TF95dVlHVkxDaFJtOFYyaTJXbmNiZmlRTlYtUmRmcE9KRzNZQUVFNGJ1MjVqMngtZjhDUkhUTER2T1djaW9DWlBnd1FqMERaZEJmZTh0N3dBa09LcFdFQk8wdkxTazZxY1NaSF9MOVB4RDZDVXR0anhrbVFqN2oybVBMUkY4MkNpcW56dThYLVhlNEE3dWJBUGMzRldqcGRwNXVCdzZtZ3NnMUt3ald4bE1NZmg1bDFKTER1b2JUOHMxNWltMUIxQ2VDU3hTcG8xcU12SnAtLXkyekRmd19lVGdaakM0aXB0S0gzekJEZmk2VXNrbEVaMHBpdEZDTmpzSWR2ZTR3QVJrVnFOV1F5dWRvNElVcUNtcHVqMWMxc3FRNm1lYUI5WU4tRGtNMllUU053SWpmenBMVFJCd2lwSDNEbXNFNXZOd3hDa2RNRmt5Z2dZOGZkRFJxUV9HZlVhSlExQTUtWExwRDgyODEydVFxODg0cnA4NlZLdFpHcXp0dFNWakN1OFRYVE5fVkMwb3dkenNNQ19pZ2lIMFU1aTVZTndhbDBfa2hVMEI2eHdaZlE1aGVsM0h6YkYycEhaV3V1a1FaXzN1LW90OVB3VWhITktFdWUzeFVFUjhGYWlfUms3NzNNUjZPc1poeUJSWWxsNmFOTGg4SVM1NERpT1NJX2VyNjRrdmd0eFI1U2FiamFUVl84WU1sVjdn0gHDBEFVX3lxTE9kVDE2U09ENmE0NXlMMmIwMFdQSzNRYnZwWmJKZWY1RDdsbFRMRGpkcmhLREFtdVZVODRyNjJZUDZPdE1NSll5akQ3d1V3VkFycmpkS1ZRNHJTdmExSEl0LUVqcE9VQ0VLcUtDQmdxdkxfWlkzM2J0M0thSlRoVm9MY25BcVktMHN6WXZlTXhuYUwxeGx1aFY2eHZCXzlSR0g5a0wwUnJJenBaVEZ4clFub2t0Y1JaVm5uZEU4VUp4aFU5YWZoODJPb0VkRUtIOTFEbTQ4elIyei1aWUNOS0J3aWlGNnNaZTFFUU5fNEVZMEZodWtmMzhYZ1RCUjlSOTl6STJ4dTRidnVYWEVXQWQ5ckI0WnBkSkhBcmV1TFhuTEU3ZV92MmtXSmdOMEN2V20zbjhaZkVuSGpEdVotSkxJRDhnNFVtNl9vSEFqbTNydVlxSFFVV2IweVVkSnVINExxMmxNNmhHZHZEYU9oc0VieXhLTkhwR0NndU56Q21MZzBpb21yN3RhV1pGYVdHSnVxUl9nWl9rbzFwZnRMeFg4V08yQjNRWWZBMkRaYnRHODRhMHBWcmF4WW1iWjdINDdFQUFPMFZLQkctUUcxUG1kVU0wZXhLdGNoRWU5RkJjSWRwR0xuRFJoeVVCaXhybFZqS1MtTkJpQy03clRRNWtSWTFkMHZjNmtIVjZPUTZjNVh2aXFLTkFQaEh5Ull0SzZRbEdMTWwwMUh3S3pVbHk1UjlFZVdkUDBkak51bkhaQXR6TQ?oc=5",
+        "source": "The Daily Ittefaq",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 02 Nov 2026 20:06:42 GMT",
+        "summary": "কীসের আশঙ্কায় খাবার-পানি মজুতের নির্দেশ দিচ্ছে বিশ্বের বিভিন্ন দেশ? &nbsp;&nbsp; The Daily Ittefaq",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.ittefaq.com.bd/818755/%E0%A6%95%E0%A6%BF%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%B6%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%AE%E0%A6%9C%E0%A7%81%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%A6%E0%A6%BF%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87",
+        "imageAttemptedAt": "2026-11-05T00:07:07.838Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PWjhlVFVyakdCT04wdFROTWZRZzZnUy1IaXdUanVBOU1PVjVnZ2ZMYTRWMXVISDE4M1Fxb0hZUUdmYVdsNEdXYk8ybkFEY0lLc3hKUw?oc=5",
         "title": "অতি প্রক্রিয়াজাত খাবারে বাড়ছে শিশুদের স্থূলতার ঝুঁকি",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PWjhlVFVyakdCT04wdFROTWZRZzZnUy1IaXdUanVBOU1PVjVnZ2ZMYTRWMXVISDE4M1Fxb0hZUUdmYVdsNEdXYk8ybkFEY0lLc3hKUw?oc=5",
@@ -1006,19 +1019,6 @@
         "articleUrl": "https://iskconnews.org/bn/%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%A1%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%B7/",
         "imageAttemptedAt": "2026-11-04T19:41:57.378Z",
         "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMivgRBVV95cUxNY2NMdmI1MWhubmJZeTBNbVJaamk3N2tudlZPWGhUdFk2TF95dVlHVkxDaFJtOFYyaTJXbmNiZmlRTlYtUmRmcE9KRzNZQUVFNGJ1MjVqMngtZjhDUkhUTER2T1djaW9DWlBnd1FqMERaZEJmZTh0N3dBa09LcFdFQk8wdkxTazZxY1NaSF9MOVB4RDZDVXR0anhrbVFqN2oybVBMUkY4MkNpcW56dThYLVhlNEE3dWJBUGMzRldqcGRwNXVCdzZtZ3NnMUt3ald4bE1NZmg1bDFKTER1b2JUOHMxNWltMUIxQ2VDU3hTcG8xcU12SnAtLXkyekRmd19lVGdaakM0aXB0S0gzekJEZmk2VXNrbEVaMHBpdEZDTmpzSWR2ZTR3QVJrVnFOV1F5dWRvNElVcUNtcHVqMWMxc3FRNm1lYUI5WU4tRGtNMllUU053SWpmenBMVFJCd2lwSDNEbXNFNXZOd3hDa2RNRmt5Z2dZOGZkRFJxUV9HZlVhSlExQTUtWExwRDgyODEydVFxODg0cnA4NlZLdFpHcXp0dFNWakN1OFRYVE5fVkMwb3dkenNNQ19pZ2lIMFU1aTVZTndhbDBfa2hVMEI2eHdaZlE1aGVsM0h6YkYycEhaV3V1a1FaXzN1LW90OVB3VWhITktFdWUzeFVFUjhGYWlfUms3NzNNUjZPc1poeUJSWWxsNmFOTGg4SVM1NERpT1NJX2VyNjRrdmd0eFI1U2FiamFUVl84WU1sVjdn0gHDBEFVX3lxTE9kVDE2U09ENmE0NXlMMmIwMFdQSzNRYnZwWmJKZWY1RDdsbFRMRGpkcmhLREFtdVZVODRyNjJZUDZPdE1NSll5akQ3d1V3VkFycmpkS1ZRNHJTdmExSEl0LUVqcE9VQ0VLcUtDQmdxdkxfWlkzM2J0M0thSlRoVm9MY25BcVktMHN6WXZlTXhuYUwxeGx1aFY2eHZCXzlSR0g5a0wwUnJJenBaVEZ4clFub2t0Y1JaVm5uZEU4VUp4aFU5YWZoODJPb0VkRUtIOTFEbTQ4elIyei1aWUNOS0J3aWlGNnNaZTFFUU5fNEVZMEZodWtmMzhYZ1RCUjlSOTl6STJ4dTRidnVYWEVXQWQ5ckI0WnBkSkhBcmV1TFhuTEU3ZV92MmtXSmdOMEN2V20zbjhaZkVuSGpEdVotSkxJRDhnNFVtNl9vSEFqbTNydVlxSFFVV2IweVVkSnVINExxMmxNNmhHZHZEYU9oc0VieXhLTkhwR0NndU56Q21MZzBpb21yN3RhV1pGYVdHSnVxUl9nWl9rbzFwZnRMeFg4V08yQjNRWWZBMkRaYnRHODRhMHBWcmF4WW1iWjdINDdFQUFPMFZLQkctUUcxUG1kVU0wZXhLdGNoRWU5RkJjSWRwR0xuRFJoeVVCaXhybFZqS1MtTkJpQy03clRRNWtSWTFkMHZjNmtIVjZPUTZjNVh2aXFLTkFQaEh5Ull0SzZRbEdMTWwwMUh3S3pVbHk1UjlFZVdkUDBkak51bkhaQXR6TQ?oc=5",
-        "title": "কীসের আশঙ্কায় খাবার-পানি মজুতের নির্দেশ দিচ্ছে বিশ্বের বিভিন্ন দেশ?",
-        "link": "https://news.google.com/rss/articles/CBMivgRBVV95cUxNY2NMdmI1MWhubmJZeTBNbVJaamk3N2tudlZPWGhUdFk2TF95dVlHVkxDaFJtOFYyaTJXbmNiZmlRTlYtUmRmcE9KRzNZQUVFNGJ1MjVqMngtZjhDUkhUTER2T1djaW9DWlBnd1FqMERaZEJmZTh0N3dBa09LcFdFQk8wdkxTazZxY1NaSF9MOVB4RDZDVXR0anhrbVFqN2oybVBMUkY4MkNpcW56dThYLVhlNEE3dWJBUGMzRldqcGRwNXVCdzZtZ3NnMUt3ald4bE1NZmg1bDFKTER1b2JUOHMxNWltMUIxQ2VDU3hTcG8xcU12SnAtLXkyekRmd19lVGdaakM0aXB0S0gzekJEZmk2VXNrbEVaMHBpdEZDTmpzSWR2ZTR3QVJrVnFOV1F5dWRvNElVcUNtcHVqMWMxc3FRNm1lYUI5WU4tRGtNMllUU053SWpmenBMVFJCd2lwSDNEbXNFNXZOd3hDa2RNRmt5Z2dZOGZkRFJxUV9HZlVhSlExQTUtWExwRDgyODEydVFxODg0cnA4NlZLdFpHcXp0dFNWakN1OFRYVE5fVkMwb3dkenNNQ19pZ2lIMFU1aTVZTndhbDBfa2hVMEI2eHdaZlE1aGVsM0h6YkYycEhaV3V1a1FaXzN1LW90OVB3VWhITktFdWUzeFVFUjhGYWlfUms3NzNNUjZPc1poeUJSWWxsNmFOTGg4SVM1NERpT1NJX2VyNjRrdmd0eFI1U2FiamFUVl84WU1sVjdn0gHDBEFVX3lxTE9kVDE2U09ENmE0NXlMMmIwMFdQSzNRYnZwWmJKZWY1RDdsbFRMRGpkcmhLREFtdVZVODRyNjJZUDZPdE1NSll5akQ3d1V3VkFycmpkS1ZRNHJTdmExSEl0LUVqcE9VQ0VLcUtDQmdxdkxfWlkzM2J0M0thSlRoVm9MY25BcVktMHN6WXZlTXhuYUwxeGx1aFY2eHZCXzlSR0g5a0wwUnJJenBaVEZ4clFub2t0Y1JaVm5uZEU4VUp4aFU5YWZoODJPb0VkRUtIOTFEbTQ4elIyei1aWUNOS0J3aWlGNnNaZTFFUU5fNEVZMEZodWtmMzhYZ1RCUjlSOTl6STJ4dTRidnVYWEVXQWQ5ckI0WnBkSkhBcmV1TFhuTEU3ZV92MmtXSmdOMEN2V20zbjhaZkVuSGpEdVotSkxJRDhnNFVtNl9vSEFqbTNydVlxSFFVV2IweVVkSnVINExxMmxNNmhHZHZEYU9oc0VieXhLTkhwR0NndU56Q21MZzBpb21yN3RhV1pGYVdHSnVxUl9nWl9rbzFwZnRMeFg4V08yQjNRWWZBMkRaYnRHODRhMHBWcmF4WW1iWjdINDdFQUFPMFZLQkctUUcxUG1kVU0wZXhLdGNoRWU5RkJjSWRwR0xuRFJoeVVCaXhybFZqS1MtTkJpQy03clRRNWtSWTFkMHZjNmtIVjZPUTZjNVh2aXFLTkFQaEh5Ull0SzZRbEdMTWwwMUh3S3pVbHk1UjlFZVdkUDBkak51bkhaQXR6TQ?oc=5",
-        "source": "The Daily Ittefaq",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 02 Nov 2026 20:06:42 GMT",
-        "summary": "কীসের আশঙ্কায় খাবার-পানি মজুতের নির্দেশ দিচ্ছে বিশ্বের বিভিন্ন দেশ? &nbsp;&nbsp; The Daily Ittefaq",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.ittefaq.com.bd/818755/%E0%A6%95%E0%A6%BF%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%B6%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%AE%E0%A6%9C%E0%A7%81%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%A6%E0%A6%BF%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87",
-        "imageAttemptedAt": "2026-11-05T00:07:07.838Z",
-        "imageFallback": "news-fallbacks/food.svg"
       }
     ]
   },
@@ -1027,7 +1027,7 @@
     "total": 77,
     "fromRss": 0,
     "fromArticleMetadata": 12,
-    "reusedCached": 11,
+    "reusedCached": 12,
     "actualPhotos": 12,
     "fallbackIllustrations": 65,
     "withImage": 77,
