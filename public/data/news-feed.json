@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-05T18:26:33.053Z",
+  "generatedAt": "2026-11-05T19:26:41.758Z",
   "sponsors": {
     "somoy": [
       {
@@ -264,7 +264,7 @@
         "summary": "পরীমনির বিরুদ্ধে গ্রেফতারি পরোয়ানা &nbsp;&nbsp; Jamuna Television",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.jamuna.tv/entertainment/667416",
-        "imageAttemptedAt": "2026-11-04T18:34:42.247Z",
+        "imageAttemptedAt": "2026-11-05T19:26:43.570Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -374,6 +374,19 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcVBHeXFsZHJOb0JnQWVORUx1MHczbENiS3RBS04zQjRnV05NQ1VFZUxGSzA1amlrWWRySXJRWTZQbWlVMU91ejBTS21QT2NYQ0p1WFY2b3JUZ2xuWDI3U19XaHBaejRmSW8zY1BycV80U1Q0LTNScWozSTFKYjZpOGl0ZHFpdUxSWGJN?oc=5",
+        "title": "দুপুরের খবর : ৫ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcVBHeXFsZHJOb0JnQWVORUx1MHczbENiS3RBS04zQjRnV05NQ1VFZUxGSzA1amlrWWRySXJRWTZQbWlVMU91ejBTS21QT2NYQ0p1WFY2b3JUZ2xuWDI3U19XaHBaejRmSW8zY1BycV80U1Q0LTNScWozSTFKYjZpOGl0ZHFpdUxSWGJN?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 10:13:54 GMT",
+        "summary": "দুপুরের খবর : ৫ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/dupurer-khobor/dupurer-khobor-05-november-2026",
+        "imageAttemptedAt": "2026-11-05T19:26:43.570Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaDZiV1pfblo0Y0lCbm42cDZpV0JvOTZxVDMtbWh0LVhpcHQ3NVF4ZXhQTDF5WjNUb1BkTDJQVXNGRzNmbkFINE1CNWQtc3F5bjI1STF1YXNaV3RHU09MZFp0RkdaU205NERnM2VxdFBRR2EyeTJSNzg4YTVnQWlDdk1fYW9GQQ?oc=5",
         "title": "সংলাপ প্রতিদিন (লাইভ) : পর্ব ৭০৮",
         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaDZiV1pfblo0Y0lCbm42cDZpV0JvOTZxVDMtbWh0LVhpcHQ3NVF4ZXhQTDF5WjNUb1BkTDJQVXNGRzNmbkFINE1CNWQtc3F5bjI1STF1YXNaV3RHU09MZFp0RkdaU205NERnM2VxdFBRR2EyeTJSNzg4YTVnQWlDdk1fYW9GQQ?oc=5",
@@ -413,19 +426,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVZDVSdnl5Q0xrc3dCWnprOHZUaXNxcDMtNkFlRGRtMXUxV3pPc3Fna1JLSVBFa0hRTmpzbzlzT0VxcGdXS2lKQ243TE5vTkExUVIxUVQyRkNDcHBfMVJpUUs3cUlHVGlkN3BOUXRGeE42MVFFS1Y0TUdCMA?oc=5",
-        "title": "কোরআনুল কারিম : পর্ব ৪৮২",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVZDVSdnl5Q0xrc3dCWnprOHZUaXNxcDMtNkFlRGRtMXUxV3pPc3Fna1JLSVBFa0hRTmpzbzlzT0VxcGdXS2lKQ243TE5vTkExUVIxUVQyRkNDcHBfMVJpUUs3cUlHVGlkN3BOUXRGeE42MVFFS1Y0TUdCMA?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 00:45:52 GMT",
-        "summary": "কোরআনুল কারিম : পর্ব ৪৮২ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/religion/quranul-karim/quranul-karim-ep-482",
-        "imageAttemptedAt": "2026-11-05T01:19:26.301Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tQ2N5MFdLLTdnUlhLUV9VQWdBeDBvcFRUUEc4Q25CNVhCNzZienNGSGxsTE9KZWRzbUM3VlpFNnZiOGpVSzhSREpwd3RlQzh5TDltcktST1h0QzAwOUQ1cWJMa2QzTHpBbVNnN3d3?oc=5",
         "title": "চাওয়া-পাওয়া : পর্ব ৩৯",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tQ2N5MFdLLTdnUlhLUV9VQWdBeDBvcFRUUEc4Q25CNVhCNzZienNGSGxsTE9KZWRzbUM3VlpFNnZiOGpVSzhSREpwd3RlQzh5TDltcktST1h0QzAwOUQ1cWJMa2QzTHpBbVNnN3d3?oc=5",
@@ -436,6 +436,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.ntvbd.com/video/drama/chawa-pawa/chawa-pawa-ep-39",
         "imageAttemptedAt": "2026-11-05T14:15:37.612Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZzBRZnFCd3NTQzN5N3VMR3FBdHpoUjdHYjgyaThIUFR2SURlYVZEVk5QYmVuTjZJYWlDVVA3OWRZbjYzcmw3cWVVeGg2akliSE5reHFvdFJuZlRWY2l4RzBuUVZWQlB3YUxOZU0yMHFRT25ZZnA4RzVpU1NUQUpyM1ZYRE9mZw?oc=5",
+        "title": "রাতের খবর : ৫ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZzBRZnFCd3NTQzN5N3VMR3FBdHpoUjdHYjgyaThIUFR2SURlYVZEVk5QYmVuTjZJYWlDVVA3OWRZbjYzcmw3cWVVeGg2akliSE5reHFvdFJuZlRWY2l4RzBuUVZWQlB3YUxOZU0yMHFRT25ZZnA4RzVpU1NUQUpyM1ZYRE9mZw?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 18:42:08 GMT",
+        "summary": "রাতের খবর : ৫ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/raater-khobor/rater-khobor-5-november-2026",
+        "imageAttemptedAt": "2026-11-05T19:26:43.570Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -452,29 +465,16 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRk9BbndOc3F1RDhrZW5OaGxpNXBmR0V2c3lRMDR0Rl82NGRWVnVmbFF2OHdkekdpcV9DM3Q3Q0FUVXdIZmxOdklIaHVaM2RKbFo5SjJabHlid3NuTDM0dWxrajd5QV94a2VablhGbzB0blpJUnZWUUc2N1VnWUx0aDF3UzA1OS0tbDFDR0JtQQ?oc=5",
-        "title": "সন্ধ্যার খবর : ৪ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRk9BbndOc3F1RDhrZW5OaGxpNXBmR0V2c3lRMDR0Rl82NGRWVnVmbFF2OHdkekdpcV9DM3Q3Q0FUVXdIZmxOdklIaHVaM2RKbFo5SjJabHlid3NuTDM0dWxrajd5QV94a2VablhGbzB0blpJUnZWUUc2N1VnWUx0aDF3UzA1OS0tbDFDR0JtQQ?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVZDVSdnl5Q0xrc3dCWnprOHZUaXNxcDMtNkFlRGRtMXUxV3pPc3Fna1JLSVBFa0hRTmpzbzlzT0VxcGdXS2lKQ243TE5vTkExUVIxUVQyRkNDcHBfMVJpUUs3cUlHVGlkN3BOUXRGeE42MVFFS1Y0TUdCMA?oc=5",
+        "title": "কোরআনুল কারিম : পর্ব ৪৮২",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVZDVSdnl5Q0xrc3dCWnprOHZUaXNxcDMtNkFlRGRtMXUxV3pPc3Fna1JLSVBFa0hRTmpzbzlzT0VxcGdXS2lKQ243TE5vTkExUVIxUVQyRkNDcHBfMVJpUUs3cUlHVGlkN3BOUXRGeE42MVFFS1Y0TUdCMA?oc=5",
         "source": "NTV",
         "publisherUrl": "",
-        "publishedAt": "Wed, 04 Nov 2026 18:16:30 GMT",
-        "summary": "সন্ধ্যার খবর : ৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "publishedAt": "Thu, 05 Nov 2026 00:45:52 GMT",
+        "summary": "কোরআনুল কারিম : পর্ব ৪৮২ &nbsp;&nbsp; Ntvbd",
         "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/shondhyar-khobor/shondhar-khobor-04-november-2026",
-        "imageAttemptedAt": "2026-11-05T15:24:58.517Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRXhWZDNXYnRaRms3X0ZvcElLTHlNQ1JBQjNraXVUcC1KUjE4M0xHQV9qMFV6aDg3OHVNRWtpYXdFcVdWa1RGdGxPZHdhWU0xbFE2MDJKOGk2NDZtRFBJWmxIUUhkQmJJcXVLT20ySkhwbDN5NV9OSXdnMDdROHVaeTlpajAtU0NqWlFfbjJXdGU3RFVLdlRV?oc=5",
-        "title": "মধ্যরাতের খবর : ৫ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRXhWZDNXYnRaRms3X0ZvcElLTHlNQ1JBQjNraXVUcC1KUjE4M0xHQV9qMFV6aDg3OHVNRWtpYXdFcVdWa1RGdGxPZHdhWU0xbFE2MDJKOGk2NDZtRFBJWmxIUUhkQmJJcXVLT20ySkhwbDN5NV9OSXdnMDdROHVaeTlpajAtU0NqWlFfbjJXdGU3RFVLdlRV?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 04 Nov 2026 20:24:48 GMT",
-        "summary": "মধ্যরাতের খবর : ৫ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/moddhoraater-khobor/moddho-rater-khobor-5-november-2026",
-        "imageAttemptedAt": "2026-11-05T18:26:35.767Z",
+        "articleUrl": "https://www.ntvbd.com/video/religion/quranul-karim/quranul-karim-ep-482",
+        "imageAttemptedAt": "2026-11-05T01:19:26.301Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -493,19 +493,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMi-gRBVV95cUxPY2NJWTF2dWtacDFLUXJCM3c0Rlh2T0ZBU0VGeUZ1aUR2RThzZklPOXpwdGMzZmlXOXNaRVR4Y180Yk9FVXBlLWdKODA1eHMxUE01ZXZBVUI2d052amw2cnU4LWRlTk9aYThmLTFoajRNNUVHa0xiSDB2WC0yMWRpTm95RXo1YUM4UUdUc0d1dXI4ZmR4T0xUajVvMkUtZnBGbXg2Qi1OMGZSbF81UWhaWXJQM28yeXpiQzIxZ0pTMVBYdk55TnF4VDQ5WXd1dGl3Q0Z0dU1UWWgyNFZwZUFsa3hpZTBJaklmMldLeU9ROEg4RmFhRDFucW5SNFNwN3RJeC03R2ozeTBTRTlrcXZrRUU2UmZJclQzbWFKLWNPVnE3Q2g5RFE2VWMxWXp2dmctVUtZeExYcmpGVFdZS25kRlB2enhrdHVrWEVkTWpyTThoVjltN2QwZklhNUdXcXJtNFBDZFRzelhGazlkQlJpNENFU0E2QWFZZEVtN1FsQWhiUUY2SHhWYTRiTWRKd0d1NGJzajhkWmRfempWdEpYX1ZBTXZUUmwxZ3lDU1E4UGhKRVNJRmdJWWR0RlozLVAyM0p5TzdKczNDc0YxUXl2UDFDbUFOS1NJU3lFNWVvcEpNVGRMRUFRMTJEakZPQm5Bbi1aeDk2Ymg5MEJBYkRHcEFWMGhndGxwREJ4dzRmclJ0Vnd0VGJyUHlxZ0RYMkZEY0dpVUpWMmlXR1RJOXVnWWVZczIwVkQ3MkUzUC1qWmJUS29FeUJhZzhlUFcwYmtHamhqQk5aY2VqaTI2cEhUQk16YnZpdlVKOXhOT05QT2pCbmVvejQ4T3hR?oc=5",
-        "title": "মোংলায় আরও শিল্পকারখানা গড়ে তোলা হবে: প্রধানমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMi-gRBVV95cUxPY2NJWTF2dWtacDFLUXJCM3c0Rlh2T0ZBU0VGeUZ1aUR2RThzZklPOXpwdGMzZmlXOXNaRVR4Y180Yk9FVXBlLWdKODA1eHMxUE01ZXZBVUI2d052amw2cnU4LWRlTk9aYThmLTFoajRNNUVHa0xiSDB2WC0yMWRpTm95RXo1YUM4UUdUc0d1dXI4ZmR4T0xUajVvMkUtZnBGbXg2Qi1OMGZSbF81UWhaWXJQM28yeXpiQzIxZ0pTMVBYdk55TnF4VDQ5WXd1dGl3Q0Z0dU1UWWgyNFZwZUFsa3hpZTBJaklmMldLeU9ROEg4RmFhRDFucW5SNFNwN3RJeC03R2ozeTBTRTlrcXZrRUU2UmZJclQzbWFKLWNPVnE3Q2g5RFE2VWMxWXp2dmctVUtZeExYcmpGVFdZS25kRlB2enhrdHVrWEVkTWpyTThoVjltN2QwZklhNUdXcXJtNFBDZFRzelhGazlkQlJpNENFU0E2QWFZZEVtN1FsQWhiUUY2SHhWYTRiTWRKd0d1NGJzajhkWmRfempWdEpYX1ZBTXZUUmwxZ3lDU1E4UGhKRVNJRmdJWWR0RlozLVAyM0p5TzdKczNDc0YxUXl2UDFDbUFOS1NJU3lFNWVvcEpNVGRMRUFRMTJEakZPQm5Bbi1aeDk2Ymg5MEJBYkRHcEFWMGhndGxwREJ4dzRmclJ0Vnd0VGJyUHlxZ0RYMkZEY0dpVUpWMmlXR1RJOXVnWWVZczIwVkQ3MkUzUC1qWmJUS29FeUJhZzhlUFcwYmtHamhqQk5aY2VqaTI2cEhUQk16YnZpdlVKOXhOT05QT2pCbmVvejQ4T3hR?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 06:19:00 GMT",
-        "summary": "মোংলায় আরও শিল্পকারখানা গড়ে তোলা হবে: প্রধানমন্ত্রী &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.channel24bd.tv/national/article/356968/%E0%A6%AE%E0%A7%8B%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%B0%E0%A6%93-%E0%A6%B6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%96%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%97%E0%A7%9C%E0%A7%87-%E0%A6%A4%E0%A7%8B%E0%A6%B2%E0%A6%BE-%E0%A6%B9%E0%A6%AC%E0%A7%87:-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
-        "imageAttemptedAt": "2026-11-05T08:56:32.746Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMilwRBVV95cUxNWWRqbWVVTENvdHdHMXVaaTY0WXFxMTh1ZEFFMWZRN0FUeVktdmRBT1ZqT2JNS1BLSXV0SkxJQ0NTR0xXeGw1a2s3Q3VpMTBiUDRzdURjZmhMMUJITDgtV1BfNWxmQldFZGxIdG9uLW5mYnVLNEZ1VGtHVGZQcm9EV3FHLTRta0NXMlYzRS0taG1UZ0p3WEYzeFFETE9wOXhVWnk5MVZSSjdnRTlQTFh0ZG1lOThJeGFZTzFQaHJ0VThDRWxNWUd1MmVVcEluaWVlclZHOVZIZGp3al9qN1hXR0c1dUFNdDRBR1RrQXpXUzRIOTdQN2lGQlNfZU5HcS0wRS1nb3dyekdzN1JjZFdDZTFNa2luMzlBb01lTHpuWm1KWllYVF9CamtJM1BpNkRKeTQ4WG5ZeEVULTVJVUh4cE5pdXdsR0JVODYwclZBekVRemhJT2lYV0kxd0N2b1RlLWZpdC1hWmhKMDhFbWRMR0F4Mk1oRFFTaGRvRVBoZXlCT2I5SEtValZJQTJ0T3BDcV9Ta1dTRkd6cmpLSHJSRDRLeVlieEpSeUhsV3VfZ2IzY01qOWpIN1loZVVwQy0wVXRHZVcxZHh2V2pEbVN1RF9fcG9WVnVHYTVIbFpyLWFJanlBd01rODlQbVg4cXpKdkFnbEtIU0M2NkY4NUZqTlp3bW4zMWVVNm9xTm5UdzBqZHNjNFVv?oc=5",
         "title": "এনসিপি থেকে পদত্যাগ করলেন সামান্তা শারমিন",
         "link": "https://news.google.com/rss/articles/CBMilwRBVV95cUxNWWRqbWVVTENvdHdHMXVaaTY0WXFxMTh1ZEFFMWZRN0FUeVktdmRBT1ZqT2JNS1BLSXV0SkxJQ0NTR0xXeGw1a2s3Q3VpMTBiUDRzdURjZmhMMUJITDgtV1BfNWxmQldFZGxIdG9uLW5mYnVLNEZ1VGtHVGZQcm9EV3FHLTRta0NXMlYzRS0taG1UZ0p3WEYzeFFETE9wOXhVWnk5MVZSSjdnRTlQTFh0ZG1lOThJeGFZTzFQaHJ0VThDRWxNWUd1MmVVcEluaWVlclZHOVZIZGp3al9qN1hXR0c1dUFNdDRBR1RrQXpXUzRIOTdQN2lGQlNfZU5HcS0wRS1nb3dyekdzN1JjZFdDZTFNa2luMzlBb01lTHpuWm1KWllYVF9CamtJM1BpNkRKeTQ4WG5ZeEVULTVJVUh4cE5pdXdsR0JVODYwclZBekVRemhJT2lYV0kxd0N2b1RlLWZpdC1hWmhKMDhFbWRMR0F4Mk1oRFFTaGRvRVBoZXlCT2I5SEtValZJQTJ0T3BDcV9Ta1dTRkd6cmpLSHJSRDRLeVlieEpSeUhsV3VfZ2IzY01qOWpIN1loZVVwQy0wVXRHZVcxZHh2V2pEbVN1RF9fcG9WVnVHYTVIbFpyLWFJanlBd01rODlQbVg4cXpKdkFnbEtIU0M2NkY4NUZqTlp3bW4zMWVVNm9xTm5UdzBqZHNjNFVv?oc=5",
@@ -516,6 +503,19 @@
         "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/ncpshamanta-1793883144.jpg",
         "articleUrl": "https://www.channel24bd.tv/politics/article/357060/%E0%A6%8F%E0%A6%A8%E0%A6%B8%E0%A6%BF%E0%A6%AA%E0%A6%BF-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AA%E0%A6%A6%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%97-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%B6%E0%A6%BE%E0%A6%B0%E0%A6%AE%E0%A6%BF%E0%A6%A8",
         "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi-gRBVV95cUxPY2NJWTF2dWtacDFLUXJCM3c0Rlh2T0ZBU0VGeUZ1aUR2RThzZklPOXpwdGMzZmlXOXNaRVR4Y180Yk9FVXBlLWdKODA1eHMxUE01ZXZBVUI2d052amw2cnU4LWRlTk9aYThmLTFoajRNNUVHa0xiSDB2WC0yMWRpTm95RXo1YUM4UUdUc0d1dXI4ZmR4T0xUajVvMkUtZnBGbXg2Qi1OMGZSbF81UWhaWXJQM28yeXpiQzIxZ0pTMVBYdk55TnF4VDQ5WXd1dGl3Q0Z0dU1UWWgyNFZwZUFsa3hpZTBJaklmMldLeU9ROEg4RmFhRDFucW5SNFNwN3RJeC03R2ozeTBTRTlrcXZrRUU2UmZJclQzbWFKLWNPVnE3Q2g5RFE2VWMxWXp2dmctVUtZeExYcmpGVFdZS25kRlB2enhrdHVrWEVkTWpyTThoVjltN2QwZklhNUdXcXJtNFBDZFRzelhGazlkQlJpNENFU0E2QWFZZEVtN1FsQWhiUUY2SHhWYTRiTWRKd0d1NGJzajhkWmRfempWdEpYX1ZBTXZUUmwxZ3lDU1E4UGhKRVNJRmdJWWR0RlozLVAyM0p5TzdKczNDc0YxUXl2UDFDbUFOS1NJU3lFNWVvcEpNVGRMRUFRMTJEakZPQm5Bbi1aeDk2Ymg5MEJBYkRHcEFWMGhndGxwREJ4dzRmclJ0Vnd0VGJyUHlxZ0RYMkZEY0dpVUpWMmlXR1RJOXVnWWVZczIwVkQ3MkUzUC1qWmJUS29FeUJhZzhlUFcwYmtHamhqQk5aY2VqaTI2cEhUQk16YnZpdlVKOXhOT05QT2pCbmVvejQ4T3hR?oc=5",
+        "title": "মোংলায় আরও শিল্পকারখানা গড়ে তোলা হবে: প্রধানমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMi-gRBVV95cUxPY2NJWTF2dWtacDFLUXJCM3c0Rlh2T0ZBU0VGeUZ1aUR2RThzZklPOXpwdGMzZmlXOXNaRVR4Y180Yk9FVXBlLWdKODA1eHMxUE01ZXZBVUI2d052amw2cnU4LWRlTk9aYThmLTFoajRNNUVHa0xiSDB2WC0yMWRpTm95RXo1YUM4UUdUc0d1dXI4ZmR4T0xUajVvMkUtZnBGbXg2Qi1OMGZSbF81UWhaWXJQM28yeXpiQzIxZ0pTMVBYdk55TnF4VDQ5WXd1dGl3Q0Z0dU1UWWgyNFZwZUFsa3hpZTBJaklmMldLeU9ROEg4RmFhRDFucW5SNFNwN3RJeC03R2ozeTBTRTlrcXZrRUU2UmZJclQzbWFKLWNPVnE3Q2g5RFE2VWMxWXp2dmctVUtZeExYcmpGVFdZS25kRlB2enhrdHVrWEVkTWpyTThoVjltN2QwZklhNUdXcXJtNFBDZFRzelhGazlkQlJpNENFU0E2QWFZZEVtN1FsQWhiUUY2SHhWYTRiTWRKd0d1NGJzajhkWmRfempWdEpYX1ZBTXZUUmwxZ3lDU1E4UGhKRVNJRmdJWWR0RlozLVAyM0p5TzdKczNDc0YxUXl2UDFDbUFOS1NJU3lFNWVvcEpNVGRMRUFRMTJEakZPQm5Bbi1aeDk2Ymg5MEJBYkRHcEFWMGhndGxwREJ4dzRmclJ0Vnd0VGJyUHlxZ0RYMkZEY0dpVUpWMmlXR1RJOXVnWWVZczIwVkQ3MkUzUC1qWmJUS29FeUJhZzhlUFcwYmtHamhqQk5aY2VqaTI2cEhUQk16YnZpdlVKOXhOT05QT2pCbmVvejQ4T3hR?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 06:19:00 GMT",
+        "summary": "মোংলায় আরও শিল্পকারখানা গড়ে তোলা হবে: প্রধানমন্ত্রী &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/national/article/356968/%E0%A6%AE%E0%A7%8B%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%B0%E0%A6%93-%E0%A6%B6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%96%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%97%E0%A7%9C%E0%A7%87-%E0%A6%A4%E0%A7%8B%E0%A6%B2%E0%A6%BE-%E0%A6%B9%E0%A6%AC%E0%A7%87:-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
+        "imageAttemptedAt": "2026-11-05T08:56:32.746Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -532,19 +532,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMi7wZBVV95cUxNN010TFpMb0dNQnI0dHBTNElYSlFxcml0cjFLc0poY3pTelVxOU1sQnZ1ODRRNW1VdDM3RjlWTC1LNXU1VDUwSDNuQ2dROUxfcEtIRmtWQndwOHhDZFlIWW5tNVNMaTZ4ZUZyN1dPZ0x6czB5bUpWTlhyZ0tvUUZObmE3VVA2NnpSbmVQTDFwNXJjOHpQM0NkVGt5Z01lQ3BtQnVubkR2bkRXWjRncF9VZGp0Tzlta2ZORDlaVEc5WFVSMzlWVXMtbGNBNVhqUzR4dkJQYjNEOXJaZTBJdkxGWkxzNEYyelZIb0hmTUJsMFlGUG9vYzQzcUdpeUJtbnV3T3NiT09lSzVhWUNvNXFyM3JFeGNQSDZadzBueTYtS1FfSkdPaXFMRldDNXBWRGUwQXlNVTB6cXF4NHIzcjBraUl5SkRVVWVLUHZ3a1ZuM2pkemdOYlFLVVRZNEJSVWFPclZFMlo4amxvZ0t3WEpsRDFxSE1zazhQc0NoOUl1Q3VwWHpxel9HMXRtdnlBRm14cFRIN0J4TmU1U0lsR2dqRkZWRGhHUHlEOHRqMWZlWENtb1FzUlRXaHhtaGozOFJIUmRSMzBtMGtjcDRST0dKM3BCX21qbEhRSVpWNGt5cTJRMUFWUEhyMU9CaGNROC0tOVoyS2lHR0VkeTJHZlQzS0JSVzF1YmlNbU5NWm9BYWFkbzZEdHlQQUpieDRteXBjSDNtTUxrRDVkYnVWN3I5OUs0YVJpSVQya3FMZzhkQ2tjcG5KRlJ3dXVfMjhsdUJpWWl0RkllM1d5NkJMNENFSVN5M3ItSS05RHJhQllMZ1I1TjJPYXZid1AwUW41S3RYYTB0a3kwLWFINzlKUTJTUzQ0YkFjLXI2Uzd6UnJmVlpJV2RyeWhJX2hWei14X196QnAwTVF6R2pkUC1la0JCZTJtWGhLTXZsN0FRSFl3Wk5LdGtvY3dNMGJ2Rl8yT09jYlFESnc2VXZwVFRDS3hBaEpFNTJQQm9sTnZBaU5Penc1VHp2T2c5WGZ0QXotYWVrY1hQZnV3WW9wQmZpbW15cWk1cERDbjZxUzdQekptWG45SEJpTlhITWstUlRvVEdGTi03SVBJYTUyVGprR2lTdzk4THlXNlRKN1VjcS1PQ2lSVmthU0xGSnA5QjVHUzg?oc=5",
-        "title": "দু-এক মাসের মধ্যে শ্রমিকদের সর্বনিম্ন মজুরি নির্ধারণ করা হবে: প্রধানমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMi7wZBVV95cUxNN010TFpMb0dNQnI0dHBTNElYSlFxcml0cjFLc0poY3pTelVxOU1sQnZ1ODRRNW1VdDM3RjlWTC1LNXU1VDUwSDNuQ2dROUxfcEtIRmtWQndwOHhDZFlIWW5tNVNMaTZ4ZUZyN1dPZ0x6czB5bUpWTlhyZ0tvUUZObmE3VVA2NnpSbmVQTDFwNXJjOHpQM0NkVGt5Z01lQ3BtQnVubkR2bkRXWjRncF9VZGp0Tzlta2ZORDlaVEc5WFVSMzlWVXMtbGNBNVhqUzR4dkJQYjNEOXJaZTBJdkxGWkxzNEYyelZIb0hmTUJsMFlGUG9vYzQzcUdpeUJtbnV3T3NiT09lSzVhWUNvNXFyM3JFeGNQSDZadzBueTYtS1FfSkdPaXFMRldDNXBWRGUwQXlNVTB6cXF4NHIzcjBraUl5SkRVVWVLUHZ3a1ZuM2pkemdOYlFLVVRZNEJSVWFPclZFMlo4amxvZ0t3WEpsRDFxSE1zazhQc0NoOUl1Q3VwWHpxel9HMXRtdnlBRm14cFRIN0J4TmU1U0lsR2dqRkZWRGhHUHlEOHRqMWZlWENtb1FzUlRXaHhtaGozOFJIUmRSMzBtMGtjcDRST0dKM3BCX21qbEhRSVpWNGt5cTJRMUFWUEhyMU9CaGNROC0tOVoyS2lHR0VkeTJHZlQzS0JSVzF1YmlNbU5NWm9BYWFkbzZEdHlQQUpieDRteXBjSDNtTUxrRDVkYnVWN3I5OUs0YVJpSVQya3FMZzhkQ2tjcG5KRlJ3dXVfMjhsdUJpWWl0RkllM1d5NkJMNENFSVN5M3ItSS05RHJhQllMZ1I1TjJPYXZid1AwUW41S3RYYTB0a3kwLWFINzlKUTJTUzQ0YkFjLXI2Uzd6UnJmVlpJV2RyeWhJX2hWei14X196QnAwTVF6R2pkUC1la0JCZTJtWGhLTXZsN0FRSFl3Wk5LdGtvY3dNMGJ2Rl8yT09jYlFESnc2VXZwVFRDS3hBaEpFNTJQQm9sTnZBaU5Penc1VHp2T2c5WGZ0QXotYWVrY1hQZnV3WW9wQmZpbW15cWk1cERDbjZxUzdQekptWG45SEJpTlhITWstUlRvVEdGTi03SVBJYTUyVGprR2lTdzk4THlXNlRKN1VjcS1PQ2lSVmthU0xGSnA5QjVHUzg?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 09:38:00 GMT",
-        "summary": "দু-এক মাসের মধ্যে শ্রমিকদের সর্বনিম্ন মজুরি নির্ধারণ করা হবে: প্রধানমন্ত্রী &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/pmo-1793871528.jpg",
-        "articleUrl": "https://www.channel24bd.tv/national/article/357011/%E0%A6%A6%E0%A7%81-%E0%A6%8F%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%A8%E0%A6%BF%E0%A6%AE%E0%A7%8D%E0%A6%A8-%E0%A6%AE%E0%A6%9C%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%A3-%E0%A6%95%E0%A6%B0%E0%A6%BE-%E0%A6%B9%E0%A6%AC%E0%A7%87:-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMi_gVBVV95cUxPcTlpT0lIZENVX1pFSnlZQnlXV3ZLTTJZZnIxeGpHN0pjVGQtWHdra3B5Szg3U2xVTWh3eXJ5ZWNzaWFtS3cxNFZKM2E2UjQwUU9NS3JOUHFtdjBGQ3Nrd3lBekZjWHgwT0RYY2R4OHQtRDZ2ZmVRRUdkRGZYcDRGMWpCSkpsUmt1VmNUOGtsQmNtYTZiMEFkTWlWdkVMRFFvUGlscGRwWVVFWG1hMFR1MG1XXzVjT09NMVhMekYxMVhvbm1IaEtzeWhLSklfWjB0c1d3Rlg0LTRERVJGUW1NSHBJQU8wMkJQXzJYRm8wc29UcC1aUjQ1ZmxOM3B2M2wzU2dpTF9OSjJrSkg3d0o4c19hdEhJU0lQdmVkR2lYT3RlUmprWGFESkN0ZkFYWE1JTFZEZk0tMzEwZDZHU3pVd3RodnpVWjZIOU8wRFZJUGtZZi1qMU1iYTI2NXpHbE9NQVB2SGVHQU45ek5KUEJwT3JEMEItN3VkNFVrNU5yd0kwYW9Udk02ODk3TDg2TW82VWE1aVlRX0Qybnc2NEc4R3lFcUxHMTZ0bmR2dFBtUW9fa3V0TnNZMndidlRXal9LU3ljWjhaU0FOZGZDY1lVa3F5TmtpTzk2dVZmVXBFejZnT0dQTi0wM1BNUmVncUhmMVJJU1hUdWhqdF94SHhDLVFSYjlENWk0ZVJNWC13WWxzbmk5N2FPS3l1RVIyeTJTdWVXUjBZOGRuMGM2MzZ0TF9XMlJMMThpSkRtM21GVVU0T3RHZUZPY0dxVVN4Ums2MnRIY19nMmEyNTRYUFFDcHpfaTV3ZXpWN0J0bkpmcDNwYjJjTklVZDVBdWhaNUVUY3RQWkNkR0dKREZON2VRbXl6ZG1RT0FPcVlGNWY0TFRHRGFsUWFzRDRfQ0Y3eTFXa05Lc1hOV0tZd2Y3VXV5S1pTWjNwZ1FVN3pkTTY5QWFib2F4elhzQzhTdUIxZTNWSmJTTF9ta2pOSzVieTJrbW1oZ1VxM0h3NUdMSVZR?oc=5",
         "title": "বক্তব্য প্রত্যাহারে এনসিপি আহ্বায়ক নাহিদ ইসলামকে লিগ্যাল নোটিশ",
         "link": "https://news.google.com/rss/articles/CBMi_gVBVV95cUxPcTlpT0lIZENVX1pFSnlZQnlXV3ZLTTJZZnIxeGpHN0pjVGQtWHdra3B5Szg3U2xVTWh3eXJ5ZWNzaWFtS3cxNFZKM2E2UjQwUU9NS3JOUHFtdjBGQ3Nrd3lBekZjWHgwT0RYY2R4OHQtRDZ2ZmVRRUdkRGZYcDRGMWpCSkpsUmt1VmNUOGtsQmNtYTZiMEFkTWlWdkVMRFFvUGlscGRwWVVFWG1hMFR1MG1XXzVjT09NMVhMekYxMVhvbm1IaEtzeWhLSklfWjB0c1d3Rlg0LTRERVJGUW1NSHBJQU8wMkJQXzJYRm8wc29UcC1aUjQ1ZmxOM3B2M2wzU2dpTF9OSjJrSkg3d0o4c19hdEhJU0lQdmVkR2lYT3RlUmprWGFESkN0ZkFYWE1JTFZEZk0tMzEwZDZHU3pVd3RodnpVWjZIOU8wRFZJUGtZZi1qMU1iYTI2NXpHbE9NQVB2SGVHQU45ek5KUEJwT3JEMEItN3VkNFVrNU5yd0kwYW9Udk02ODk3TDg2TW82VWE1aVlRX0Qybnc2NEc4R3lFcUxHMTZ0bmR2dFBtUW9fa3V0TnNZMndidlRXal9LU3ljWjhaU0FOZGZDY1lVa3F5TmtpTzk2dVZmVXBFejZnT0dQTi0wM1BNUmVncUhmMVJJU1hUdWhqdF94SHhDLVFSYjlENWk0ZVJNWC13WWxzbmk5N2FPS3l1RVIyeTJTdWVXUjBZOGRuMGM2MzZ0TF9XMlJMMThpSkRtM21GVVU0T3RHZUZPY0dxVVN4Ums2MnRIY19nMmEyNTRYUFFDcHpfaTV3ZXpWN0J0bkpmcDNwYjJjTklVZDVBdWhaNUVUY3RQWkNkR0dKREZON2VRbXl6ZG1RT0FPcVlGNWY0TFRHRGFsUWFzRDRfQ0Y3eTFXa05Lc1hOV0tZd2Y3VXV5S1pTWjNwZ1FVN3pkTTY5QWFib2F4elhzQzhTdUIxZTNWSmJTTF9ta2pOSzVieTJrbW1oZ1VxM0h3NUdMSVZR?oc=5",
@@ -554,6 +541,19 @@
         "summary": "বক্তব্য প্রত্যাহারে এনসিপি আহ্বায়ক নাহিদ ইসলামকে লিগ্যাল নোটিশ &nbsp;&nbsp; Channel 24",
         "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/untitled-1477-1793864051.jpg",
         "articleUrl": "https://www.channel24bd.tv/politics/article/356989/%E0%A6%AC%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%8F%E0%A6%A8%E0%A6%B8%E0%A6%BF%E0%A6%AA%E0%A6%BF-%E0%A6%86%E0%A6%B9%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A7%9F%E0%A6%95-%E0%A6%A8%E0%A6%BE%E0%A6%B9%E0%A6%BF%E0%A6%A6-%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A6%95%E0%A7%87-%E0%A6%B2%E0%A6%BF%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2-%E0%A6%A8%E0%A7%8B%E0%A6%9F%E0%A6%BF%E0%A6%B6",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi7wZBVV95cUxNN010TFpMb0dNQnI0dHBTNElYSlFxcml0cjFLc0poY3pTelVxOU1sQnZ1ODRRNW1VdDM3RjlWTC1LNXU1VDUwSDNuQ2dROUxfcEtIRmtWQndwOHhDZFlIWW5tNVNMaTZ4ZUZyN1dPZ0x6czB5bUpWTlhyZ0tvUUZObmE3VVA2NnpSbmVQTDFwNXJjOHpQM0NkVGt5Z01lQ3BtQnVubkR2bkRXWjRncF9VZGp0Tzlta2ZORDlaVEc5WFVSMzlWVXMtbGNBNVhqUzR4dkJQYjNEOXJaZTBJdkxGWkxzNEYyelZIb0hmTUJsMFlGUG9vYzQzcUdpeUJtbnV3T3NiT09lSzVhWUNvNXFyM3JFeGNQSDZadzBueTYtS1FfSkdPaXFMRldDNXBWRGUwQXlNVTB6cXF4NHIzcjBraUl5SkRVVWVLUHZ3a1ZuM2pkemdOYlFLVVRZNEJSVWFPclZFMlo4amxvZ0t3WEpsRDFxSE1zazhQc0NoOUl1Q3VwWHpxel9HMXRtdnlBRm14cFRIN0J4TmU1U0lsR2dqRkZWRGhHUHlEOHRqMWZlWENtb1FzUlRXaHhtaGozOFJIUmRSMzBtMGtjcDRST0dKM3BCX21qbEhRSVpWNGt5cTJRMUFWUEhyMU9CaGNROC0tOVoyS2lHR0VkeTJHZlQzS0JSVzF1YmlNbU5NWm9BYWFkbzZEdHlQQUpieDRteXBjSDNtTUxrRDVkYnVWN3I5OUs0YVJpSVQya3FMZzhkQ2tjcG5KRlJ3dXVfMjhsdUJpWWl0RkllM1d5NkJMNENFSVN5M3ItSS05RHJhQllMZ1I1TjJPYXZid1AwUW41S3RYYTB0a3kwLWFINzlKUTJTUzQ0YkFjLXI2Uzd6UnJmVlpJV2RyeWhJX2hWei14X196QnAwTVF6R2pkUC1la0JCZTJtWGhLTXZsN0FRSFl3Wk5LdGtvY3dNMGJ2Rl8yT09jYlFESnc2VXZwVFRDS3hBaEpFNTJQQm9sTnZBaU5Penc1VHp2T2c5WGZ0QXotYWVrY1hQZnV3WW9wQmZpbW15cWk1cERDbjZxUzdQekptWG45SEJpTlhITWstUlRvVEdGTi03SVBJYTUyVGprR2lTdzk4THlXNlRKN1VjcS1PQ2lSVmthU0xGSnA5QjVHUzg?oc=5",
+        "title": "দু-এক মাসের মধ্যে শ্রমিকদের সর্বনিম্ন মজুরি নির্ধারণ করা হবে: প্রধানমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMi7wZBVV95cUxNN010TFpMb0dNQnI0dHBTNElYSlFxcml0cjFLc0poY3pTelVxOU1sQnZ1ODRRNW1VdDM3RjlWTC1LNXU1VDUwSDNuQ2dROUxfcEtIRmtWQndwOHhDZFlIWW5tNVNMaTZ4ZUZyN1dPZ0x6czB5bUpWTlhyZ0tvUUZObmE3VVA2NnpSbmVQTDFwNXJjOHpQM0NkVGt5Z01lQ3BtQnVubkR2bkRXWjRncF9VZGp0Tzlta2ZORDlaVEc5WFVSMzlWVXMtbGNBNVhqUzR4dkJQYjNEOXJaZTBJdkxGWkxzNEYyelZIb0hmTUJsMFlGUG9vYzQzcUdpeUJtbnV3T3NiT09lSzVhWUNvNXFyM3JFeGNQSDZadzBueTYtS1FfSkdPaXFMRldDNXBWRGUwQXlNVTB6cXF4NHIzcjBraUl5SkRVVWVLUHZ3a1ZuM2pkemdOYlFLVVRZNEJSVWFPclZFMlo4amxvZ0t3WEpsRDFxSE1zazhQc0NoOUl1Q3VwWHpxel9HMXRtdnlBRm14cFRIN0J4TmU1U0lsR2dqRkZWRGhHUHlEOHRqMWZlWENtb1FzUlRXaHhtaGozOFJIUmRSMzBtMGtjcDRST0dKM3BCX21qbEhRSVpWNGt5cTJRMUFWUEhyMU9CaGNROC0tOVoyS2lHR0VkeTJHZlQzS0JSVzF1YmlNbU5NWm9BYWFkbzZEdHlQQUpieDRteXBjSDNtTUxrRDVkYnVWN3I5OUs0YVJpSVQya3FMZzhkQ2tjcG5KRlJ3dXVfMjhsdUJpWWl0RkllM1d5NkJMNENFSVN5M3ItSS05RHJhQllMZ1I1TjJPYXZid1AwUW41S3RYYTB0a3kwLWFINzlKUTJTUzQ0YkFjLXI2Uzd6UnJmVlpJV2RyeWhJX2hWei14X196QnAwTVF6R2pkUC1la0JCZTJtWGhLTXZsN0FRSFl3Wk5LdGtvY3dNMGJ2Rl8yT09jYlFESnc2VXZwVFRDS3hBaEpFNTJQQm9sTnZBaU5Penc1VHp2T2c5WGZ0QXotYWVrY1hQZnV3WW9wQmZpbW15cWk1cERDbjZxUzdQekptWG45SEJpTlhITWstUlRvVEdGTi03SVBJYTUyVGprR2lTdzk4THlXNlRKN1VjcS1PQ2lSVmthU0xGSnA5QjVHUzg?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 09:38:00 GMT",
+        "summary": "দু-এক মাসের মধ্যে শ্রমিকদের সর্বনিম্ন মজুরি নির্ধারণ করা হবে: প্রধানমন্ত্রী &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/pmo-1793871528.jpg",
+        "articleUrl": "https://www.channel24bd.tv/national/article/357011/%E0%A6%A6%E0%A7%81-%E0%A6%8F%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%A8%E0%A6%BF%E0%A6%AE%E0%A7%8D%E0%A6%A8-%E0%A6%AE%E0%A6%9C%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%A3-%E0%A6%95%E0%A6%B0%E0%A6%BE-%E0%A6%B9%E0%A6%AC%E0%A7%87:-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
@@ -746,16 +746,16 @@
     ],
     "bangladesh": [
       {
-        "id": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNM0JoZFN4RHpLR0NQbHZhU1p0Q1oxZDlDcVZPdnotVUFNN29kU3NYdG5RQUktT0g0QnVwYThDdHhXVk1tUHh3SXBhNF9PVE9vUU52TklDb29ySm9sdmRweDZxZ1oxb0lqWThWZW1WdFpyV0h3WEdSMmowZFJROUFPUWVNb3VzRkVDTEhVZ1lHNFBRYmhnLXBrNC1Lck95ejlTblduR29LX0dzd1c4eEY1eExmbTNQX3V4OVJseThnUU11QzN6MjZqZGhMVnhrdWFJUGNJ?oc=5",
-        "title": "বিশ্বনাথের একের পর এক সুযোগ নষ্ট, গোলশূন্য প্রথমার্ধে বাংলাদেশ-ভুটান",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNM0JoZFN4RHpLR0NQbHZhU1p0Q1oxZDlDcVZPdnotVUFNN29kU3NYdG5RQUktT0g0QnVwYThDdHhXVk1tUHh3SXBhNF9PVE9vUU52TklDb29ySm9sdmRweDZxZ1oxb0lqWThWZW1WdFpyV0h3WEdSMmowZFJROUFPUWVNb3VzRkVDTEhVZ1lHNFBRYmhnLXBrNC1Lck95ejlTblduR29LX0dzd1c4eEY1eExmbTNQX3V4OVJseThnUU11QzN6MjZqZGhMVnhrdWFJUGNJ?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQS3JMWHVvS1ZoX3JwRUV6U01nbFhqSGZYcmtNZ1pCTHAwb0l0UGNOTjF3QnZpdjB0Y09qdnlWMUZjT3hFV3N4dG51Nk5rb2JMOWNTM0lvTWk0ZUlhcTVMRmh6TUxlWjhrM3BvQlN4anV5NGplNWpFUjVvbE9rU2xHUnYzSGgzazZNWEZfaDN0XzUteFJfTWNWa241VENXTHdsMlBBa1BOMkVhZFhQOUZNUnlvRFlkNmtLdGFGSG1wbEQ5dw?oc=5",
+        "title": "বাংলাদেশ ও রাশিয়ার বাণিজ্য সম্প্রসারণে সমঝোতা স্মারক স্বাক্ষর",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQS3JMWHVvS1ZoX3JwRUV6U01nbFhqSGZYcmtNZ1pCTHAwb0l0UGNOTjF3QnZpdjB0Y09qdnlWMUZjT3hFV3N4dG51Nk5rb2JMOWNTM0lvTWk0ZUlhcTVMRmh6TUxlWjhrM3BvQlN4anV5NGplNWpFUjVvbE9rU2xHUnYzSGgzazZNWEZfaDN0XzUteFJfTWNWa241VENXTHdsMlBBa1BOMkVhZFhQOUZNUnlvRFlkNmtLdGFGSG1wbEQ5dw?oc=5",
         "source": "স্টার নিউজ",
         "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 15:01:22 GMT",
-        "summary": "বিশ্বনাথের একের পর এক সুযোগ নষ্ট, গোলশূন্য প্রথমার্ধে বাংলাদেশ-ভুটান &nbsp;&nbsp; স্টার নিউজ",
+        "publishedAt": "Thu, 05 Nov 2026 15:43:26 GMT",
+        "summary": "বাংলাদেশ ও রাশিয়ার বাণিজ্য সম্প্রসারণে সমঝোতা স্মারক স্বাক্ষর &nbsp;&nbsp; স্টার নিউজ",
         "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://starnews.com.bd/sports/28331/bangladesh-and-bhutan-go-into-the-break-goalless-after-bishwanath-squanders-a-series-of-chances.html",
-        "imageAttemptedAt": "2026-11-05T15:24:58.517Z",
+        "articleUrl": "https://starnews.com.bd/economic/28334/memorandum-of-understanding-signed-to-expand-trade-between-bangladesh-and-russia.html",
+        "imageAttemptedAt": "2026-11-05T16:32:23.128Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
@@ -798,19 +798,6 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMigwRBVV95cUxONUpkaGVQaFY0Vjk1V05MQVJkZHJLaEJENzJ2SFZxbXFJWmtUWnlrZlFzRjJlQVRoMDVHYlQ1SEdGdkhJWG95NXotTGdqSVU5cVF3T1hLby1adUdOV0Z5SE1VdTY2OWJjYWVZNG85eXllS2ZaU0NPOW1VZDNHWkZ2VEp6Q0MweFVGaGw1RTBHLU50cDg4bmV3QWg3TC1oY0xUdWx5Z1o3MlpSc2hLS2haMG5WRkRYUy1Lb2RfaTJuRjB2QjlaTjUzdmtjeTFlSHA3N1k0eUhRSEUxb1JMaEtLN0NsdzBodzQ3SEk0cnRmcjRSY2hvUFBMbGNoQ3VBWGh6OEZfLWY1OVZneTNFU2hPSDRsdEdHUnVONkt1MDlkbnltRzQ5MGYyVW8xb1JzNzlEeklVR2xxX3lwdWNiQjVkY0Rqa0tRS2hYajhFaHA3dzI0MUdCVS1ZdkNfbm9EVVltb0FoaF9sWV9MNEFzVmdVU2tzY2VjRzlYcWxnVzRqRTFnb3d5ZmludTJSX1pVd1E2YVUySnNnNEgzWnd6TkRTUXhQdFNlV0RJZ1ZjWWxJZTdvdXY4Z0tvYVVNeUd2Ulgyb1BoOGJ0MFBnNWpxT1hVaExhOXE5emFob0haM2cxRldleHktR2czQmJyb3NnN3NNWFNoU1BHWHo4NEtWRzlaYlhzYw?oc=5",
-        "title": "ইব্রাহিমের গোলে জয়ে সাফ শুরু বাংলাদেশের",
-        "link": "https://news.google.com/rss/articles/CBMigwRBVV95cUxONUpkaGVQaFY0Vjk1V05MQVJkZHJLaEJENzJ2SFZxbXFJWmtUWnlrZlFzRjJlQVRoMDVHYlQ1SEdGdkhJWG95NXotTGdqSVU5cVF3T1hLby1adUdOV0Z5SE1VdTY2OWJjYWVZNG85eXllS2ZaU0NPOW1VZDNHWkZ2VEp6Q0MweFVGaGw1RTBHLU50cDg4bmV3QWg3TC1oY0xUdWx5Z1o3MlpSc2hLS2haMG5WRkRYUy1Lb2RfaTJuRjB2QjlaTjUzdmtjeTFlSHA3N1k0eUhRSEUxb1JMaEtLN0NsdzBodzQ3SEk0cnRmcjRSY2hvUFBMbGNoQ3VBWGh6OEZfLWY1OVZneTNFU2hPSDRsdEdHUnVONkt1MDlkbnltRzQ5MGYyVW8xb1JzNzlEeklVR2xxX3lwdWNiQjVkY0Rqa0tRS2hYajhFaHA3dzI0MUdCVS1ZdkNfbm9EVVltb0FoaF9sWV9MNEFzVmdVU2tzY2VjRzlYcWxnVzRqRTFnb3d5ZmludTJSX1pVd1E2YVUySnNnNEgzWnd6TkRTUXhQdFNlV0RJZ1ZjWWxJZTdvdXY4Z0tvYVVNeUd2Ulgyb1BoOGJ0MFBnNWpxT1hVaExhOXE5emFob0haM2cxRldleHktR2czQmJyb3NnN3NNWFNoU1BHWHo4NEtWRzlaYlhzYw?oc=5",
-        "source": "Bahanno News",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 16:13:00 GMT",
-        "summary": "ইব্রাহিমের গোলে জয়ে সাফ শুরু বাংলাদেশের &nbsp;&nbsp; Bahanno News",
-        "image": "https://www.bahannonews.com/uploads/5b0ecc34b4bb9e56a41b06cae5ffff94.jpg?fb=1",
-        "articleUrl": "https://www.bahannonews.com/details/article/10222662/%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B9%E0%A6%BF%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A7%8B%E0%A6%B2%E0%A7%87-%E0%A6%9C%E0%A7%9F%E0%A7%87-%E0%A6%B8%E0%A6%BE%E0%A6%AB-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbWdFSGExekhfOUkyYjhXRFY3OS10MWxPeGh5WjBxcy1YeV9oZmdJLUVZalJrR2ZVeWo3SWw1WXY0aVJPWkxlRDBqMWl6U3I3MkJhaktaZFVUUDN1WlRHeDhnNWtacERkeWlrc25aa3pGMGdyQTVhMXZBNjI2MlZtRFFaSS1ELTdoRTlwSFd1UWJ0cVNxNV9od2N0YmpJUzNLZDc3a2szeDliQjdST1Zfc1lRcTBVd2NQSW5tb2h0YkY3MFBwQ2pxUWJ4VzVqczZYOFp0eHdKVzVidnM?oc=5",
         "title": "আওয়ামী লীগ সরকারের মন্ত্রীর বিরুদ্ধে ট্রাইবুনালে মামলা শুরু",
         "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbWdFSGExekhfOUkyYjhXRFY3OS10MWxPeGh5WjBxcy1YeV9oZmdJLUVZalJrR2ZVeWo3SWw1WXY0aVJPWkxlRDBqMWl6U3I3MkJhaktaZFVUUDN1WlRHeDhnNWtacERkeWlrc25aa3pGMGdyQTVhMXZBNjI2MlZtRFFaSS1ELTdoRTlwSFd1UWJ0cVNxNV9od2N0YmpJUzNLZDc3a2szeDliQjdST1Zfc1lRcTBVd2NQSW5tb2h0YkY3MFBwQ2pxUWJ4VzVqczZYOFp0eHdKVzVidnM?oc=5",
@@ -824,16 +811,16 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQS3JMWHVvS1ZoX3JwRUV6U01nbFhqSGZYcmtNZ1pCTHAwb0l0UGNOTjF3QnZpdjB0Y09qdnlWMUZjT3hFV3N4dG51Nk5rb2JMOWNTM0lvTWk0ZUlhcTVMRmh6TUxlWjhrM3BvQlN4anV5NGplNWpFUjVvbE9rU2xHUnYzSGgzazZNWEZfaDN0XzUteFJfTWNWa241VENXTHdsMlBBa1BOMkVhZFhQOUZNUnlvRFlkNmtLdGFGSG1wbEQ5dw?oc=5",
-        "title": "বাংলাদেশ ও রাশিয়ার বাণিজ্য সম্প্রসারণে সমঝোতা স্মারক স্বাক্ষর",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQS3JMWHVvS1ZoX3JwRUV6U01nbFhqSGZYcmtNZ1pCTHAwb0l0UGNOTjF3QnZpdjB0Y09qdnlWMUZjT3hFV3N4dG51Nk5rb2JMOWNTM0lvTWk0ZUlhcTVMRmh6TUxlWjhrM3BvQlN4anV5NGplNWpFUjVvbE9rU2xHUnYzSGgzazZNWEZfaDN0XzUteFJfTWNWa241VENXTHdsMlBBa1BOMkVhZFhQOUZNUnlvRFlkNmtLdGFGSG1wbEQ5dw?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNM0JoZFN4RHpLR0NQbHZhU1p0Q1oxZDlDcVZPdnotVUFNN29kU3NYdG5RQUktT0g0QnVwYThDdHhXVk1tUHh3SXBhNF9PVE9vUU52TklDb29ySm9sdmRweDZxZ1oxb0lqWThWZW1WdFpyV0h3WEdSMmowZFJROUFPUWVNb3VzRkVDTEhVZ1lHNFBRYmhnLXBrNC1Lck95ejlTblduR29LX0dzd1c4eEY1eExmbTNQX3V4OVJseThnUU11QzN6MjZqZGhMVnhrdWFJUGNJ?oc=5",
+        "title": "বিশ্বনাথের একের পর এক সুযোগ নষ্ট, গোলশূন্য প্রথমার্ধে বাংলাদেশ-ভুটান",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNM0JoZFN4RHpLR0NQbHZhU1p0Q1oxZDlDcVZPdnotVUFNN29kU3NYdG5RQUktT0g0QnVwYThDdHhXVk1tUHh3SXBhNF9PVE9vUU52TklDb29ySm9sdmRweDZxZ1oxb0lqWThWZW1WdFpyV0h3WEdSMmowZFJROUFPUWVNb3VzRkVDTEhVZ1lHNFBRYmhnLXBrNC1Lck95ejlTblduR29LX0dzd1c4eEY1eExmbTNQX3V4OVJseThnUU11QzN6MjZqZGhMVnhrdWFJUGNJ?oc=5",
         "source": "স্টার নিউজ",
         "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 15:43:26 GMT",
-        "summary": "বাংলাদেশ ও রাশিয়ার বাণিজ্য সম্প্রসারণে সমঝোতা স্মারক স্বাক্ষর &nbsp;&nbsp; স্টার নিউজ",
+        "publishedAt": "Thu, 05 Nov 2026 15:01:22 GMT",
+        "summary": "বিশ্বনাথের একের পর এক সুযোগ নষ্ট, গোলশূন্য প্রথমার্ধে বাংলাদেশ-ভুটান &nbsp;&nbsp; স্টার নিউজ",
         "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://starnews.com.bd/economic/28334/memorandum-of-understanding-signed-to-expand-trade-between-bangladesh-and-russia.html",
-        "imageAttemptedAt": "2026-11-05T16:32:23.128Z",
+        "articleUrl": "https://starnews.com.bd/sports/28331/bangladesh-and-bhutan-go-into-the-break-goalless-after-bishwanath-squanders-a-series-of-chances.html",
+        "imageAttemptedAt": "2026-11-05T15:24:58.517Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
@@ -873,6 +860,19 @@
         "image": "news-fallbacks/bangladesh.svg",
         "articleUrl": "https://www.bbc.com/bengali/articles/c6d08xedzjm4o",
         "imageAttemptedAt": "2026-11-05T18:26:35.767Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdWlKWGhJNXFhSU9BaGdDa0FLNWttNU5hSXFkSkcwQjVZT1FsekdRbHMza3B6dmRlaU5naGxnM3JWMUZzdDU3R3ZoUW5rSlN3Q0RzTTFFcXhoa1FNU1hVR3ZkekZlTndOcUwyeTlrWDg3bjNibTRTZTNWUWJKRDBhQ3R4WG1BTzFRbHhNc1BDQmN3QXZQa0hXM3lvaDJETjJQZVUxOWtJZlIzSzdDUWxrOHY3VEJMVksxMWI0d1lBUXFNU1hTZVNNSVBJMnllVGVxQ0RXRGFmV3JXMGpzaTJfeVQwZm7SAfIBQVVfeXFMT1RIQXpSQ0RBQkFNdU05d0tRQ1lYMnJBeXZMeDgxZFE0UXg4bGhXOGd2UTRtR196VnFmb3VXTnQzTjFPMDc2ZGRnaXZIWUdLWXRuS3VPQmhpNUZkcnRlRWlkMjRJcUI1UEtaMkRGdmlwWlVoNlN3dFVSaVNRSHVoM0pIZVg0NzBjOGE2Unk1SWdKcDZIbW4wSHhXLWxFMVhnWTBkU19xQ283MFFXVjI2QjZyUnRMQndxdkJNTFRKUkNRdDNjWHJsRWVnckRORUg5VDBIX0ZMaU1kWlYxWWV0QllZWWIxOENBMW9xTjZZY2dBR0E?oc=5",
+        "title": "কাশ্মীরে ধৃত ৬০০ বাংলাদেশি, কুশমন্ডিতেও গ্রেপ্তার ২৫ জন",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdWlKWGhJNXFhSU9BaGdDa0FLNWttNU5hSXFkSkcwQjVZT1FsekdRbHMza3B6dmRlaU5naGxnM3JWMUZzdDU3R3ZoUW5rSlN3Q0RzTTFFcXhoa1FNU1hVR3ZkekZlTndOcUwyeTlrWDg3bjNibTRTZTNWUWJKRDBhQ3R4WG1BTzFRbHhNc1BDQmN3QXZQa0hXM3lvaDJETjJQZVUxOWtJZlIzSzdDUWxrOHY3VEJMVksxMWI0d1lBUXFNU1hTZVNNSVBJMnllVGVxQ0RXRGFmV3JXMGpzaTJfeVQwZm7SAfIBQVVfeXFMT1RIQXpSQ0RBQkFNdU05d0tRQ1lYMnJBeXZMeDgxZFE0UXg4bGhXOGd2UTRtR196VnFmb3VXTnQzTjFPMDc2ZGRnaXZIWUdLWXRuS3VPQmhpNUZkcnRlRWlkMjRJcUI1UEtaMkRGdmlwWlVoNlN3dFVSaVNRSHVoM0pIZVg0NzBjOGE2Unk1SWdKcDZIbW4wSHhXLWxFMVhnWTBkU19xQ283MFFXVjI2QjZyUnRMQndxdkJNTFRKUkNRdDNjWHJsRWVnckRORUg5VDBIX0ZMaU1kWlYxWWV0QllZWWIxOENBMW9xTjZZY2dBR0E?oc=5",
+        "source": "Ei Samay",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+        "summary": "কাশ্মীরে ধৃত ৬০০ বাংলাদেশি, কুশমন্ডিতেও গ্রেপ্তার ২৫ জন &nbsp;&nbsp; Ei Samay",
+        "image": "https://cf-images.assettype.com/eisamay%2F2026-10-07%2Fj9078ugw%2F20081.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+        "articleUrl": "https://eisamay.com/bangladesh-news/600-bangladeshis-arrested-in-kashmir-25-also-detained-in-kushmandi-allegation-illegally-cross-border/200552160.cms",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       }
     ],
@@ -1014,7 +1014,7 @@
     "total": 76,
     "fromRss": 0,
     "fromArticleMetadata": 18,
-    "reusedCached": 16,
+    "reusedCached": 17,
     "actualPhotos": 18,
     "fallbackIllustrations": 58,
     "withImage": 76,
