@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-05T01:19:24.474Z",
+  "generatedAt": "2026-11-05T02:29:10.275Z",
   "sponsors": {
     "somoy": [
       {
@@ -255,19 +255,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMSnFiZ0tibTFlaGhNTEZsVEtORnJzODRoejdCREZEVW5NMWJWNXBNVnpkdW4xSVZBTVZCQnRaYi11OFY5WTVFMWtET08?oc=5",
-        "title": "বাংলা কিউআরে ব্যক্তি থেকে ব্যক্তি পর্যায়ে লেনদেন সেবা চালু",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMSnFiZ0tibTFlaGhNTEZsVEtORnJzODRoejdCREZEVW5NMWJWNXBNVnpkdW4xSVZBTVZCQnRaYi11OFY5WTVFMWtET08?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 01 Nov 2026 17:13:07 GMT",
-        "summary": "বাংলা কিউআরে ব্যক্তি থেকে ব্যক্তি পর্যায়ে লেনদেন সেবা চালু &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/economy/667241",
-        "imageAttemptedAt": "2026-11-04T13:17:26.645Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Rb2lYWmowVkFyMVl6UDhmdUFCbVZzZXZ4QnFFUlJNU1BFNWROV040RE1LXzNIWk5tRzV0TDJDTjV0WFNKamt4X2RfRUZFdi1mdGx5cw?oc=5",
         "title": "পরীমনির বিরুদ্ধে গ্রেফতারি পরোয়ানা",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Rb2lYWmowVkFyMVl6UDhmdUFCbVZzZXZ4QnFFUlJNU1BFNWROV040RE1LXzNIWk5tRzV0TDJDTjV0WFNKamt4X2RfRUZFdi1mdGx5cw?oc=5",
@@ -291,6 +278,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.jamuna.tv/national/667339",
         "imageAttemptedAt": "2026-11-04T17:35:36.192Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMSnFiZ0tibTFlaGhNTEZsVEtORnJzODRoejdCREZEVW5NMWJWNXBNVnpkdW4xSVZBTVZCQnRaYi11OFY5WTVFMWtET08?oc=5",
+        "title": "বাংলা কিউআরে ব্যক্তি থেকে ব্যক্তি পর্যায়ে লেনদেন সেবা চালু",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMSnFiZ0tibTFlaGhNTEZsVEtORnJzODRoejdCREZEVW5NMWJWNXBNVnpkdW4xSVZBTVZCQnRaYi11OFY5WTVFMWtET08?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 17:13:07 GMT",
+        "summary": "বাংলা কিউআরে ব্যক্তি থেকে ব্যক্তি পর্যায়ে লেনদেন সেবা চালু &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/economy/667241",
+        "imageAttemptedAt": "2026-11-04T13:17:26.645Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -356,138 +356,6 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.jamuna.tv/sports/667417",
         "imageAttemptedAt": "2026-11-04T21:31:47.916Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      }
-    ],
-    "channel24": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE0wWEM3a1U1eDNPel9HS3pfMnROMDRaSWtNTnczNEJnZUotVVppSm9ub1BLTS1OejJPNXA0aFVXMHc?oc=5",
-        "title": "Channel 24 | News Video, Latest Bangla News & Live TV",
-        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE0wWEM3a1U1eDNPel9HS3pfMnROMDRaSWtNTnczNEJnZUotVVppSm9ub1BLTS1OejJPNXA0aFVXMHc?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 29 Aug 2018 09:33:29 GMT",
-        "summary": "Channel 24 | News Video, Latest Bangla News & Live TV &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "",
-        "imageAttemptedAt": "2026-11-04T21:31:47.916Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMixwRBVV95cUxPcHlVM0xUdjZzb240ODdHYmRQYjJxd3VSdW91bHVRTjMtRXdFd1M5WXRHS2hETERyR3NnUVllQlFMNjRWemxZY2RoekttRmE0MzBmQnJvMWFOWnBMV0hYS09OQWl1c0IyNTNJU3dkbHI3NGJOWUhWcWJKZ0ttQ2QwTjA1VllYbEdET09MU19RakJsSU9kUU5scXZlSE11R21mSm96a0hsUGxrYlBhVUMxYmpCUjBvQllJV2UtTjFXOUJDOUl3M3UtcVMzM281dXV5Q3R4NE5LZXFqa3F6aGxtZkNYT0ZpZF94ZWVJTlVvdWpkSjhteV92ODZMRFhZM2pRVVpvWEJVSW03UTNhM21tWW5MQUN3ekJGU1lNSzg5MTRUZnVTMHJYaXZBRGdCLXdldjRQMDU3UUVsVVJxTEQ4WkVGdUdmM1dKVDJxbkJ2eFA0WDFMX21oRF9xcVl2c3lCMHBEWnpnUTZWa1luYmZLMUV5RExMWURxUUJJSWx5bnZ4MlhnVnMwZTZsdDg5YjlZYVdTclpTU2JWdThMdzFVWWRBNnlYMlc0SHlrb08tQm9lb21zWVhoc2k5Z2JwQWdudHNoQVdIYlNGU0tfXzlIX2lfY2pVNVZhSW9yWGpmeXJnVzRXZGtkeFY4YmVEMkx4Y3ZGUFBsZnFUVDRfWmQ2c3FFeG1YM1dfZXpXSTJLT2ZGaHRzSWtJRU9WalBvcWhKdGQ2ZWNZTzUxdnZTb2ZmSzc0WktIaFJyTE14cy1EaHJmV3FXOUlR?oc=5",
-        "title": "ধানমন্ডিতে বহুতল ভবনে আগুন, নিয়ন্ত্রণে ৫ ইউনিট",
-        "link": "https://news.google.com/rss/articles/CBMixwRBVV95cUxPcHlVM0xUdjZzb240ODdHYmRQYjJxd3VSdW91bHVRTjMtRXdFd1M5WXRHS2hETERyR3NnUVllQlFMNjRWemxZY2RoekttRmE0MzBmQnJvMWFOWnBMV0hYS09OQWl1c0IyNTNJU3dkbHI3NGJOWUhWcWJKZ0ttQ2QwTjA1VllYbEdET09MU19RakJsSU9kUU5scXZlSE11R21mSm96a0hsUGxrYlBhVUMxYmpCUjBvQllJV2UtTjFXOUJDOUl3M3UtcVMzM281dXV5Q3R4NE5LZXFqa3F6aGxtZkNYT0ZpZF94ZWVJTlVvdWpkSjhteV92ODZMRFhZM2pRVVpvWEJVSW03UTNhM21tWW5MQUN3ekJGU1lNSzg5MTRUZnVTMHJYaXZBRGdCLXdldjRQMDU3UUVsVVJxTEQ4WkVGdUdmM1dKVDJxbkJ2eFA0WDFMX21oRF9xcVl2c3lCMHBEWnpnUTZWa1luYmZLMUV5RExMWURxUUJJSWx5bnZ4MlhnVnMwZTZsdDg5YjlZYVdTclpTU2JWdThMdzFVWWRBNnlYMlc0SHlrb08tQm9lb21zWVhoc2k5Z2JwQWdudHNoQVdIYlNGU0tfXzlIX2lfY2pVNVZhSW9yWGpmeXJnVzRXZGtkeFY4YmVEMkx4Y3ZGUFBsZnFUVDRfWmQ2c3FFeG1YM1dfZXpXSTJLT2ZGaHRzSWtJRU9WalBvcWhKdGQ2ZWNZTzUxdnZTb2ZmSzc0WktIaFJyTE14cy1EaHJmV3FXOUlR?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 03 Nov 2026 10:19:00 GMT",
-        "summary": "ধানমন্ডিতে বহুতল ভবনে আগুন, নিয়ন্ত্রণে ৫ ইউনিট &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/20-1793701727.jpg",
-        "articleUrl": "https://www.channel24bd.tv/capital/article/356618/%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%B9%E0%A7%81%E0%A6%A4%E0%A6%B2-%E0%A6%AD%E0%A6%AC%E0%A6%A8%E0%A7%87-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A3%E0%A7%87-%E0%A7%AB-%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4yRklIUkpPRlB2azBmUG01Z1VjdHdaSWxTcU1NLWJwdHEycHM2T0xqeHhfc1MwdUVUYmxOWDZqNV9TTVJ5MWJJ?oc=5",
-        "title": "ত্রয়োদশ জাতীয় সংসদ নির্বাচন ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4yRklIUkpPRlB2azBmUG01Z1VjdHdaSWxTcU1NLWJwdHEycHM2T0xqeHhfc1MwdUVUYmxOWDZqNV9TTVJ5MWJJ?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 25 Dec 2023 08:56:27 GMT",
-        "summary": "ত্রয়োদশ জাতীয় সংসদ নির্বাচন ২০২৬ &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "",
-        "imageAttemptedAt": "2026-11-04T06:31:06.213Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
-        "title": "News Video, Latest Bangla News & Live TV",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 01 Jul 2019 07:04:28 GMT",
-        "summary": "News Video, Latest Bangla News & Live TV &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.channel24bd.tv/live",
-        "imageAttemptedAt": "2026-11-04T07:58:11.658Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5MU5ROXhDWkdfbk04T2Y2MmJRNWdocFQxVEhGOWxTazQzeGxLUFFNZGI0X3lZNXBJREZncThFQ01ZNXpnVnhMVTljNEFTQQ?oc=5",
-        "title": "News Video, Latest Bangla News & Contact Us",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5MU5ROXhDWkdfbk04T2Y2MmJRNWdocFQxVEhGOWxTazQzeGxLUFFNZGI0X3lZNXBJREZncThFQ01ZNXpnVnhMVTljNEFTQQ?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 27 Jul 2026 12:34:54 GMT",
-        "summary": "News Video, Latest Bangla News & Contact Us &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.channel24bd.tv/contact-us",
-        "imageAttemptedAt": "2026-11-04T13:17:26.645Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMijgdBVV95cUxOMUR5RWxGZzBzbV9KLWdfa3dZVHRScndKd2hBeXNxWGR4OTZuUWJRbHhUTE0yZU10b09uMk1mU0lJa3RLRmwxYWpyWWktaHhOX2FhTDhmQVJTb29Jb1pzNzl5QmhQZFlyS2ZfWGJqOHNFQ1FxRDhIc0pkMnlFaS14T2JET0dMSHVxNTNrWm9lSzdzTUpQWkt1czA3bDNQb3FfRGZONVdOODFUN2ptakpiNFZHYzZWODJBdjFvM3ZfYlpma3dsV3lMNF9BRDhoWXFDTUZMbmstWEVHUlFvNXZjY2M2SnRvV2h5dm1hb3RwaWhqZHlsUnpmNEItbmxmR0VPdnNGUHFENlBNcjBKNHFodjNsZHYyNndJQ3dGN19kTXpoZ2xFc0E1dDdQMWMzR3ZJSFFNN216bjVFZXRPRWw2eGt1MEFLWEtOZlctUzlnYUdkYVFab1d2Qk1OZF84M3E0dXBkdEQwVm9FaUFzSUlYSnVXNHBIWFM0Skg0QjBwNVJad1dDMGQ1TloxVUdYb3hQcWdFbmpSRGsyTkp5YmlhZUZZUXBkNjlId0xQNENnUjZLMmlGOHkzQS03b1VLN0dJa2ZKeS1WeVhZR2I1eldTNEE0U2xoTnI2WkZNVGxFdkZPOWU3b1pJSkJhMjYyd3MyMHY4elhJaEdGZnFaLUh0NmZVUlNSS043VHBHTFpUWmJrQjN2MG1xT0JyZWMwUEs2V2c5Ynl3R3ppbDlielpVM2g4LU9CQnB6WGlLTVdtdThPZld5d3BZVklZUUh2RmVXak9kbFNLU1lUU0VtYlVwSXpic3MtbXBFR1ZsOFY3Vk05c1BFLVZxeW1uNTJpRXE5eFNmWnJMdG1GdEx3S0V6SU1tOVZBOXhQdTZWNGNYNnJNWlhoSEg0WFVJZjgtYWZxc203UVZmRTVTcXBTV29OSkJqTzZRZkpNM01YWHZwbk9iT3lzNjZLal83NW9MWEt6bnJlbWgzVDNweU4tSDRnWUpKVkNUNTYyRzZXaE5ldjZIc0h5Rlc1UzExSWVPLWxQYkIwcHQ3eDdHQy1sZjN1RHJDRmVOemxJMHFLdW1rb2lZbDd0ZWpSMlNqVzlyWTYtUmQweVRiSFdkOV9KTHVTNmhKN0k1ME1vT1RtRkR3SU93VWdvN1ltTXE3d1d2alhYTUh6S01HNEtITDRSRkxJajIyclhJajR5R0h2UEtn?oc=5",
-        "title": "‘নভেম্বরে দিল্লি যাচ্ছেন প্রধানমন্ত্রী’, শুনে হাসলেন পররাষ্ট্র প্রতিমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMijgdBVV95cUxOMUR5RWxGZzBzbV9KLWdfa3dZVHRScndKd2hBeXNxWGR4OTZuUWJRbHhUTE0yZU10b09uMk1mU0lJa3RLRmwxYWpyWWktaHhOX2FhTDhmQVJTb29Jb1pzNzl5QmhQZFlyS2ZfWGJqOHNFQ1FxRDhIc0pkMnlFaS14T2JET0dMSHVxNTNrWm9lSzdzTUpQWkt1czA3bDNQb3FfRGZONVdOODFUN2ptakpiNFZHYzZWODJBdjFvM3ZfYlpma3dsV3lMNF9BRDhoWXFDTUZMbmstWEVHUlFvNXZjY2M2SnRvV2h5dm1hb3RwaWhqZHlsUnpmNEItbmxmR0VPdnNGUHFENlBNcjBKNHFodjNsZHYyNndJQ3dGN19kTXpoZ2xFc0E1dDdQMWMzR3ZJSFFNN216bjVFZXRPRWw2eGt1MEFLWEtOZlctUzlnYUdkYVFab1d2Qk1OZF84M3E0dXBkdEQwVm9FaUFzSUlYSnVXNHBIWFM0Skg0QjBwNVJad1dDMGQ1TloxVUdYb3hQcWdFbmpSRGsyTkp5YmlhZUZZUXBkNjlId0xQNENnUjZLMmlGOHkzQS03b1VLN0dJa2ZKeS1WeVhZR2I1eldTNEE0U2xoTnI2WkZNVGxFdkZPOWU3b1pJSkJhMjYyd3MyMHY4elhJaEdGZnFaLUh0NmZVUlNSS043VHBHTFpUWmJrQjN2MG1xT0JyZWMwUEs2V2c5Ynl3R3ppbDlielpVM2g4LU9CQnB6WGlLTVdtdThPZld5d3BZVklZUUh2RmVXak9kbFNLU1lUU0VtYlVwSXpic3MtbXBFR1ZsOFY3Vk05c1BFLVZxeW1uNTJpRXE5eFNmWnJMdG1GdEx3S0V6SU1tOVZBOXhQdTZWNGNYNnJNWlhoSEg0WFVJZjgtYWZxc203UVZmRTVTcXBTV29OSkJqTzZRZkpNM01YWHZwbk9iT3lzNjZLal83NW9MWEt6bnJlbWgzVDNweU4tSDRnWUpKVkNUNTYyRzZXaE5ldjZIc0h5Rlc1UzExSWVPLWxQYkIwcHQ3eDdHQy1sZjN1RHJDRmVOemxJMHFLdW1rb2lZbDd0ZWpSMlNqVzlyWTYtUmQweVRiSFdkOV9KTHVTNmhKN0k1ME1vT1RtRkR3SU93VWdvN1ltTXE3d1d2alhYTUh6S01HNEtITDRSRkxJajIyclhJajR5R0h2UEtn?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-        "summary": "‘নভেম্বরে দিল্লি যাচ্ছেন প্রধানমন্ত্রী’, শুনে হাসলেন পররাষ্ট্র প্রতিমন্ত্রী &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/221011001-1791205665.jpg",
-        "articleUrl": "https://www.channel24bd.tv/national/article/351258/%E2%80%98%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BF-%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E2%80%99-%E0%A6%B6%E0%A7%81%E0%A6%A8%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%AA%E0%A6%B0%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMixgRBVV95cUxPMDFOUFlRRExjYUhpUTN4QURQSGV6ZnV1OU83eXZKS3kwOS13dFlHSVBOZXJGRkVfV211QmMwbnZ6a3FBX2NyMllUTGRXOVZKVk45akNlczVVWUlLSHRRMk1OR3Zub0FZZk0tdEhCZVVhbm85QjRhM3FWMWhWekNMOUpZOXlTQkxWaWpBWWtRdWJ0SU8tYnZITjNKdm1KVlBod0hGcHJwR2ltb1pNWE5OVzVhaFkwRFhOQTRnVU4tYWR6bzY0blRvTk52RDkyNXNZeEZCdzQzSUJoY2dxazhrRF8tcTI1VWZUM1NlZVhSeVdjOWhjUWlta1pnVVRDell6dmNQdi1KUDVVRVJwYXNjZEZWWUdZQ3YwUzhCNkpBM2hYc1o5ajFsOWVyaFEybG91Xzd0SFdQVjFyRHJySUl6R0tOdTNvdURaRmp2T1dLSkJBYjd2XzdoY2g5RUlvTk9xY0hUckRCODNHeGFXNGZjTjI3Y29ULUlWU0F1ZDJDaHBxS096aE8zem9wVVAyZjBSbDBldUVmS182ZTBYY1RiNHpENGo2UEZVQjR1S21zZmJFR01EMnVGMFNUUnI2eWVwZHpBRVZldlppWTlqWHRVZDFvWWpPQUxzdTJVT3o2a3VUWWVBOW5oQm5ITU9hRHZDaHRQS2hJUVBEaF9mekpGN0l5Qk5RN2NRd29TbU5pY0dGRTlET3BYNFZBSVBfcHdlLU1zNU9UWGxTcUxhZk10LVNiX05rYjJJcnhQbGMteGVRU3FUVUE?oc=5",
-        "title": "‘নিউজ প্রেজেন্টার’ নেবে চ্যানেল 24, আবেদন অনলাইনে",
-        "link": "https://news.google.com/rss/articles/CBMixgRBVV95cUxPMDFOUFlRRExjYUhpUTN4QURQSGV6ZnV1OU83eXZKS3kwOS13dFlHSVBOZXJGRkVfV211QmMwbnZ6a3FBX2NyMllUTGRXOVZKVk45akNlczVVWUlLSHRRMk1OR3Zub0FZZk0tdEhCZVVhbm85QjRhM3FWMWhWekNMOUpZOXlTQkxWaWpBWWtRdWJ0SU8tYnZITjNKdm1KVlBod0hGcHJwR2ltb1pNWE5OVzVhaFkwRFhOQTRnVU4tYWR6bzY0blRvTk52RDkyNXNZeEZCdzQzSUJoY2dxazhrRF8tcTI1VWZUM1NlZVhSeVdjOWhjUWlta1pnVVRDell6dmNQdi1KUDVVRVJwYXNjZEZWWUdZQ3YwUzhCNkpBM2hYc1o5ajFsOWVyaFEybG91Xzd0SFdQVjFyRHJySUl6R0tOdTNvdURaRmp2T1dLSkJBYjd2XzdoY2g5RUlvTk9xY0hUckRCODNHeGFXNGZjTjI3Y29ULUlWU0F1ZDJDaHBxS096aE8zem9wVVAyZjBSbDBldUVmS182ZTBYY1RiNHpENGo2UEZVQjR1S21zZmJFR01EMnVGMFNUUnI2eWVwZHpBRVZldlppWTlqWHRVZDFvWWpPQUxzdTJVT3o2a3VUWWVBOW5oQm5ITU9hRHZDaHRQS2hJUVBEaF9mekpGN0l5Qk5RN2NRd29TbU5pY0dGRTlET3BYNFZBSVBfcHdlLU1zNU9UWGxTcUxhZk10LVNiX05rYjJJcnhQbGMteGVRU3FUVUE?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
-        "summary": "‘নিউজ প্রেজেন্টার’ নেবে চ্যানেল 24, আবেদন অনলাইনে &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.channel24bd.tv/jobs/article/351616/%E2%80%98%E0%A6%A8%E0%A6%BF%E0%A6%89%E0%A6%9C-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%9C%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E2%80%99-%E0%A6%A8%E0%A7%87%E0%A6%AC%E0%A7%87-%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B2-24-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A6%85%E0%A6%A8%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%E0%A7%87",
-        "imageAttemptedAt": "2026-11-04T15:34:22.019Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiiAZBVV95cUxNT2FCc2NrTGVMODZwZ2ExeThuUHZYNVVaa1REWnRlV01FWkltSF8wV3lSX3JtS3VBMHF4dFpxRUYtRGNkeENPcmhZYlktOUQ5NUZzb2JnLXlJdXlFbWlNS0FnTzRvUlJITGhzeVUwcGdManBvMjVfSTU4SmVNSlQ2eHNxR1BKOGV4QkVud2lmd0p2VGI3a05fbVlWSFgxQlVLbzlMUU1obGxnUzdSbW5HcWFPTVVxdkxGV052SWI3b0xCcFVGQlJQUmgyeUpWcktDYUVVRFVDNi1CeUZ2YjBZZnRQT0lVWVVZU2VuZDc0d3Z4YkJJZTJzUENPWGhuSFpjZFNrVXlWWlJESUNBV3U1dllJOFFSaTFSMXFYZS1aRmljdGhha295U0VxUjI1N2FRUHhWRENoX1paVW55TFNuTWRxcE9MTG1YdkFkWW1oOUplQmRqVVVFaHJlRks2VS1KWUFQSkFmSFNJMmdoR1poeTlyc1Q2QzhhOTU4Y0djX1AwbFl2WEdscmdWWENxQW5QYVBaamppMVBpcG85NEVubUFPdjZKaTRsb01ydDFjNVVHbTRpcDd5akFFeWJRaVVjMGllUXZvazhZOHhLMm9TQ0JaRXBrQi1rd2VlTWlwNUppSTdPV2dyNUgzZjNpUkFFek5hRDBjQ3JqdEhyS3k5aE5DSVZFUDZwNmVIcmFqVEFmVTEwOW0yMFlUZDBjY1dKanJkSE1yM0xnTHd5SWY4Y2Y4aFVPLWtjdFJNblFEWVEzNkhETnVHUEw2aWNqSzJjZk0zOE5ZTm8yYVhuY1lxdXRZMXVZWXdOYUlUZ09mZkpmd3MtMHI3MlZ0LXZoSDAxYmdlRmQ5dl9JQlowTjRLdUZocHB4M0tXMnpkN3lSM0dEQkw2U2ZBSnBEVHVTR21Ia2JUU0EzR0pMbkVwZ213R05tcjh6SmFXd1VsVjJDVk42YThHUXRrUE1LcmVfUmVzdklranJUak96MU1tZ0lJTGluMkc5WkxyTXVMM2UyX3RDSnI4WFZiSw?oc=5",
-        "title": "কাইল্ল্যা পলাশ হত্যাসহ ২৭ মামলার আসামি ‘পিচ্চি আল-আমিন’ গ্রেপ্তার",
-        "link": "https://news.google.com/rss/articles/CBMiiAZBVV95cUxNT2FCc2NrTGVMODZwZ2ExeThuUHZYNVVaa1REWnRlV01FWkltSF8wV3lSX3JtS3VBMHF4dFpxRUYtRGNkeENPcmhZYlktOUQ5NUZzb2JnLXlJdXlFbWlNS0FnTzRvUlJITGhzeVUwcGdManBvMjVfSTU4SmVNSlQ2eHNxR1BKOGV4QkVud2lmd0p2VGI3a05fbVlWSFgxQlVLbzlMUU1obGxnUzdSbW5HcWFPTVVxdkxGV052SWI3b0xCcFVGQlJQUmgyeUpWcktDYUVVRFVDNi1CeUZ2YjBZZnRQT0lVWVVZU2VuZDc0d3Z4YkJJZTJzUENPWGhuSFpjZFNrVXlWWlJESUNBV3U1dllJOFFSaTFSMXFYZS1aRmljdGhha295U0VxUjI1N2FRUHhWRENoX1paVW55TFNuTWRxcE9MTG1YdkFkWW1oOUplQmRqVVVFaHJlRks2VS1KWUFQSkFmSFNJMmdoR1poeTlyc1Q2QzhhOTU4Y0djX1AwbFl2WEdscmdWWENxQW5QYVBaamppMVBpcG85NEVubUFPdjZKaTRsb01ydDFjNVVHbTRpcDd5akFFeWJRaVVjMGllUXZvazhZOHhLMm9TQ0JaRXBrQi1rd2VlTWlwNUppSTdPV2dyNUgzZjNpUkFFek5hRDBjQ3JqdEhyS3k5aE5DSVZFUDZwNmVIcmFqVEFmVTEwOW0yMFlUZDBjY1dKanJkSE1yM0xnTHd5SWY4Y2Y4aFVPLWtjdFJNblFEWVEzNkhETnVHUEw2aWNqSzJjZk0zOE5ZTm8yYVhuY1lxdXRZMXVZWXdOYUlUZ09mZkpmd3MtMHI3MlZ0LXZoSDAxYmdlRmQ5dl9JQlowTjRLdUZocHB4M0tXMnpkN3lSM0dEQkw2U2ZBSnBEVHVTR21Ia2JUU0EzR0pMbkVwZ213R05tcjh6SmFXd1VsVjJDVk42YThHUXRrUE1LcmVfUmVzdklranJUak96MU1tZ0lJTGluMkc5WkxyTXVMM2UyX3RDSnI4WFZiSw?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
-        "summary": "কাইল্ল্যা পলাশ হত্যাসহ ২৭ মামলার আসামি ‘পিচ্চি আল-আমিন’ গ্রেপ্তার &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.channel24bd.tv/crime/article/350534/%E0%A6%95%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%AA%E0%A6%B2%E0%A6%BE%E0%A6%B6-%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%B9-%E0%A7%A8%E0%A7%AD-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%BF-%E2%80%98%E0%A6%AA%E0%A6%BF%E0%A6%9A%E0%A7%8D%E0%A6%9A%E0%A6%BF-%E0%A6%86%E0%A6%B2-%E0%A6%86%E0%A6%AE%E0%A6%BF%E0%A6%A8%E2%80%99-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0",
-        "imageAttemptedAt": "2026-11-04T15:34:22.019Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0QVFKeE5pMWlwWnZGOWZjYi14aTZZbk1JcDFoN2FaVlQ5MGlJT0xFQVJFRjVlM2tSZkI1dHBZYUZHRnRhcTVzMFZ1MkFGbzMyZUJkcQ?oc=5",
-        "title": "LIVE TV - Channel 24",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0QVFKeE5pMWlwWnZGOWZjYi14aTZZbk1JcDFoN2FaVlQ5MGlJT0xFQVJFRjVlM2tSZkI1dHBZYUZHRnRhcTVzMFZ1MkFGbzMyZUJkcQ?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 12 Jun 2022 07:00:00 GMT",
-        "summary": "LIVE TV &nbsp;&nbsp; Channel 24",
-        "image": "https://img.youtube.com/vi/6eOCceaS9h0/0.jpg",
-        "articleUrl": "https://www.channel24bd.tv/video/show/1679",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNWFxTWpycFNESU9rNUIwOGkzVGVrdHloNmljenVnaFBXUi11b3pQa0xUblFQR3VVbnYwUUZkRW9lQlE0QUZyVWZCZ2syZ2dINDFJT1RXeW1lQ2FtX2tzNWVjRHZSN1AwNFFYcXd1OUt5TEViUGYwQ1NLemlIWnlscG9iZk5Kd0ZxLUdWUnZCdw?oc=5",
-        "title": "Untitled - Channel 24",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNWFxTWpycFNESU9rNUIwOGkzVGVrdHloNmljenVnaFBXUi11b3pQa0xUblFQR3VVbnYwUUZkRW9lQlE0QUZyVWZCZ2syZ2dINDFJT1RXeW1lQ2FtX2tzNWVjRHZSN1AwNFFYcXd1OUt5TEViUGYwQ1NLemlIWnlscG9iZk5Kd0ZxLUdWUnZCdw?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 14 May 2026 07:00:00 GMT",
-        "summary": "Untitled &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://backoffice.channel24bd.tv/media/imgAll/2026May/uploads/SSC-2027_1778753165.pdf",
-        "imageAttemptedAt": "2026-11-04T23:17:05.354Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -622,141 +490,141 @@
         "imageAttemptedAt": "2026-11-04T13:17:26.645Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
+    ],
+    "channel24": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE0wWEM3a1U1eDNPel9HS3pfMnROMDRaSWtNTnczNEJnZUotVVppSm9ub1BLTS1OejJPNXA0aFVXMHc?oc=5",
+        "title": "Channel 24 | News Video, Latest Bangla News & Live TV",
+        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE0wWEM3a1U1eDNPel9HS3pfMnROMDRaSWtNTnczNEJnZUotVVppSm9ub1BLTS1OejJPNXA0aFVXMHc?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 29 Aug 2018 09:33:29 GMT",
+        "summary": "Channel 24 | News Video, Latest Bangla News & Live TV &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "",
+        "imageAttemptedAt": "2026-11-04T21:31:47.916Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiiwdBVV95cUxOcGREM3pDdVBKM1F6VzRpaUpuV3FPMEZnZjFsRHZrTTlLN1Y0ampsN2NyTE9aWWN6UTZrQUVHZVByTjdBZlN2c2ZkNEdvOUVMbFp3UTVpbGxNZUEtYnBCVU82YU5wc1Z6dGVTb2JIa290X1VVN3N4dXVrMXNYOW81UU13eGdnOExUc1ZTOWt2empSeEdhRnRLcktGNnZIYUpiU2RPNTNzei0xbUpodDIzajJmZWR4U0I3YjcxSHFtSEREMW1nTEN2YWFmLV8wNEhLRmZEeGYtWUZROGZqRjZhc0lYT0ttakRLVlU3NFBnbExKWHhDVGt3WnpPdUhvVG8zUTl2dHc3cXNzMC1PM3Q5QkVjdFQwdWRNa1BDbEVVN0owenRmRF92bGFoaVpiRWRIRnJPTXFPNFp0RW1kUnA2WEZKSWtQQldrT0dmSzdrbFZ5dmVDejZHUUMyRlNNRHB1R2VWNk4xc0oyaUtGTzdmbDlOTFdySVBlRTRaS05ONU5hQ2VsUU1WSGRHSEtmN3lvVHQwWjluazU5cEJhRjU2d0I2bjNCbzFYcXBOQTNoV3hrdzM3ZXdhZ1QzU2U2UFZfTUFQZzB3WHl2Qlh4NGEwQzlfMExDM2hydEszdUdsT19hNHQ0TndnZ0VIUTFZdDhFQ3l0R05QLU5qclpJUTA0Q0h1MWthR2VzOXpGR0NSMXo2a1dRTXRfall0NlBMbm5HLWdQTzFkOE5pWm9LWHNoTlY1UFZZSTNHTFNBeW05WEVFRFZfdmVEQXNERVotVXFPOWYxeXdMUl90bFR1V2FsRDhUaGV4Sk1OazRRa0EyY2tKcldBNGp0YldMU0NnajdxejdmRE1DdDE1ampObkNCR2VneHVJOHJlLUVBTGRvdVpSUUlLNUlpbENXUEwxWkY4WWxXcjFHMzZkanU2Wk1zbERwTmVHMHJyTjU2WmtWbk1DNUk3MjdZRUFjdzlXTEJ5elQwUWtfNmxBNjg0ZHVOWDNFaDVURDlYVEZmUkU1Tl9kYzJEZ0NrcDA3WTdKT2pzamlpVndlMjQ4Q2dERmI0RU1GdHBucHJxbS16aXo3RThoU21OYlBKWWJudDlBYkNvOTFtVF92bjdad0hZNmdfNkQtVTROQkRjQmJNcDVJYUMtbng1UWlhOVpZTEVRa09kM1FPYWJ2ek5rakpDeHJQdEd4UHI4SURFWW04?oc=5",
+        "title": "স্ত্রীর ছবি ফেসবুকে পোস্টের জেরে বন্ধুকে হত্যা, কুয়েতে বাংলাদেশির মৃত্যুদণ্ড",
+        "link": "https://news.google.com/rss/articles/CBMiiwdBVV95cUxOcGREM3pDdVBKM1F6VzRpaUpuV3FPMEZnZjFsRHZrTTlLN1Y0ampsN2NyTE9aWWN6UTZrQUVHZVByTjdBZlN2c2ZkNEdvOUVMbFp3UTVpbGxNZUEtYnBCVU82YU5wc1Z6dGVTb2JIa290X1VVN3N4dXVrMXNYOW81UU13eGdnOExUc1ZTOWt2empSeEdhRnRLcktGNnZIYUpiU2RPNTNzei0xbUpodDIzajJmZWR4U0I3YjcxSHFtSEREMW1nTEN2YWFmLV8wNEhLRmZEeGYtWUZROGZqRjZhc0lYT0ttakRLVlU3NFBnbExKWHhDVGt3WnpPdUhvVG8zUTl2dHc3cXNzMC1PM3Q5QkVjdFQwdWRNa1BDbEVVN0owenRmRF92bGFoaVpiRWRIRnJPTXFPNFp0RW1kUnA2WEZKSWtQQldrT0dmSzdrbFZ5dmVDejZHUUMyRlNNRHB1R2VWNk4xc0oyaUtGTzdmbDlOTFdySVBlRTRaS05ONU5hQ2VsUU1WSGRHSEtmN3lvVHQwWjluazU5cEJhRjU2d0I2bjNCbzFYcXBOQTNoV3hrdzM3ZXdhZ1QzU2U2UFZfTUFQZzB3WHl2Qlh4NGEwQzlfMExDM2hydEszdUdsT19hNHQ0TndnZ0VIUTFZdDhFQ3l0R05QLU5qclpJUTA0Q0h1MWthR2VzOXpGR0NSMXo2a1dRTXRfall0NlBMbm5HLWdQTzFkOE5pWm9LWHNoTlY1UFZZSTNHTFNBeW05WEVFRFZfdmVEQXNERVotVXFPOWYxeXdMUl90bFR1V2FsRDhUaGV4Sk1OazRRa0EyY2tKcldBNGp0YldMU0NnajdxejdmRE1DdDE1ampObkNCR2VneHVJOHJlLUVBTGRvdVpSUUlLNUlpbENXUEwxWkY4WWxXcjFHMzZkanU2Wk1zbERwTmVHMHJyTjU2WmtWbk1DNUk3MjdZRUFjdzlXTEJ5elQwUWtfNmxBNjg0ZHVOWDNFaDVURDlYVEZmUkU1Tl9kYzJEZ0NrcDA3WTdKT2pzamlpVndlMjQ4Q2dERmI0RU1GdHBucHJxbS16aXo3RThoU21OYlBKWWJudDlBYkNvOTFtVF92bjdad0hZNmdfNkQtVTROQkRjQmJNcDVJYUMtbng1UWlhOVpZTEVRa09kM1FPYWJ2ek5rakpDeHJQdEd4UHI4SURFWW04?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 04 Nov 2026 13:20:00 GMT",
+        "summary": "স্ত্রীর ছবি ফেসবুকে পোস্টের জেরে বন্ধুকে হত্যা, কুয়েতে বাংলাদেশির মৃত্যুদণ্ড &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/38-1793798437.jpg",
+        "articleUrl": "https://www.channel24bd.tv/international/article/356869/%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%9B%E0%A6%AC%E0%A6%BF-%E0%A6%AB%E0%A7%87%E0%A6%B8%E0%A6%AC%E0%A7%81%E0%A6%95%E0%A7%87-%E0%A6%AA%E0%A7%8B%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A7%87%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%81%E0%A6%95%E0%A7%87-%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%95%E0%A7%81%E0%A7%9F%E0%A7%87%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF%E0%A6%B0-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A6%A6%E0%A6%A3%E0%A7%8D%E0%A6%A1",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMixwRBVV95cUxPcHlVM0xUdjZzb240ODdHYmRQYjJxd3VSdW91bHVRTjMtRXdFd1M5WXRHS2hETERyR3NnUVllQlFMNjRWemxZY2RoekttRmE0MzBmQnJvMWFOWnBMV0hYS09OQWl1c0IyNTNJU3dkbHI3NGJOWUhWcWJKZ0ttQ2QwTjA1VllYbEdET09MU19RakJsSU9kUU5scXZlSE11R21mSm96a0hsUGxrYlBhVUMxYmpCUjBvQllJV2UtTjFXOUJDOUl3M3UtcVMzM281dXV5Q3R4NE5LZXFqa3F6aGxtZkNYT0ZpZF94ZWVJTlVvdWpkSjhteV92ODZMRFhZM2pRVVpvWEJVSW03UTNhM21tWW5MQUN3ekJGU1lNSzg5MTRUZnVTMHJYaXZBRGdCLXdldjRQMDU3UUVsVVJxTEQ4WkVGdUdmM1dKVDJxbkJ2eFA0WDFMX21oRF9xcVl2c3lCMHBEWnpnUTZWa1luYmZLMUV5RExMWURxUUJJSWx5bnZ4MlhnVnMwZTZsdDg5YjlZYVdTclpTU2JWdThMdzFVWWRBNnlYMlc0SHlrb08tQm9lb21zWVhoc2k5Z2JwQWdudHNoQVdIYlNGU0tfXzlIX2lfY2pVNVZhSW9yWGpmeXJnVzRXZGtkeFY4YmVEMkx4Y3ZGUFBsZnFUVDRfWmQ2c3FFeG1YM1dfZXpXSTJLT2ZGaHRzSWtJRU9WalBvcWhKdGQ2ZWNZTzUxdnZTb2ZmSzc0WktIaFJyTE14cy1EaHJmV3FXOUlR?oc=5",
+        "title": "ধানমন্ডিতে বহুতল ভবনে আগুন, নিয়ন্ত্রণে ৫ ইউনিট",
+        "link": "https://news.google.com/rss/articles/CBMixwRBVV95cUxPcHlVM0xUdjZzb240ODdHYmRQYjJxd3VSdW91bHVRTjMtRXdFd1M5WXRHS2hETERyR3NnUVllQlFMNjRWemxZY2RoekttRmE0MzBmQnJvMWFOWnBMV0hYS09OQWl1c0IyNTNJU3dkbHI3NGJOWUhWcWJKZ0ttQ2QwTjA1VllYbEdET09MU19RakJsSU9kUU5scXZlSE11R21mSm96a0hsUGxrYlBhVUMxYmpCUjBvQllJV2UtTjFXOUJDOUl3M3UtcVMzM281dXV5Q3R4NE5LZXFqa3F6aGxtZkNYT0ZpZF94ZWVJTlVvdWpkSjhteV92ODZMRFhZM2pRVVpvWEJVSW03UTNhM21tWW5MQUN3ekJGU1lNSzg5MTRUZnVTMHJYaXZBRGdCLXdldjRQMDU3UUVsVVJxTEQ4WkVGdUdmM1dKVDJxbkJ2eFA0WDFMX21oRF9xcVl2c3lCMHBEWnpnUTZWa1luYmZLMUV5RExMWURxUUJJSWx5bnZ4MlhnVnMwZTZsdDg5YjlZYVdTclpTU2JWdThMdzFVWWRBNnlYMlc0SHlrb08tQm9lb21zWVhoc2k5Z2JwQWdudHNoQVdIYlNGU0tfXzlIX2lfY2pVNVZhSW9yWGpmeXJnVzRXZGtkeFY4YmVEMkx4Y3ZGUFBsZnFUVDRfWmQ2c3FFeG1YM1dfZXpXSTJLT2ZGaHRzSWtJRU9WalBvcWhKdGQ2ZWNZTzUxdnZTb2ZmSzc0WktIaFJyTE14cy1EaHJmV3FXOUlR?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 03 Nov 2026 10:19:00 GMT",
+        "summary": "ধানমন্ডিতে বহুতল ভবনে আগুন, নিয়ন্ত্রণে ৫ ইউনিট &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/20-1793701727.jpg",
+        "articleUrl": "https://www.channel24bd.tv/capital/article/356618/%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%B9%E0%A7%81%E0%A6%A4%E0%A6%B2-%E0%A6%AD%E0%A6%AC%E0%A6%A8%E0%A7%87-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A3%E0%A7%87-%E0%A7%AB-%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%9F",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4yRklIUkpPRlB2azBmUG01Z1VjdHdaSWxTcU1NLWJwdHEycHM2T0xqeHhfc1MwdUVUYmxOWDZqNV9TTVJ5MWJJ?oc=5",
+        "title": "ত্রয়োদশ জাতীয় সংসদ নির্বাচন ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4yRklIUkpPRlB2azBmUG01Z1VjdHdaSWxTcU1NLWJwdHEycHM2T0xqeHhfc1MwdUVUYmxOWDZqNV9TTVJ5MWJJ?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 25 Dec 2023 08:56:27 GMT",
+        "summary": "ত্রয়োদশ জাতীয় সংসদ নির্বাচন ২০২৬ &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "",
+        "imageAttemptedAt": "2026-11-04T06:31:06.213Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
+        "title": "News Video, Latest Bangla News & Live TV",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 01 Jul 2019 07:04:28 GMT",
+        "summary": "News Video, Latest Bangla News & Live TV &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/live",
+        "imageAttemptedAt": "2026-11-04T07:58:11.658Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5MU5ROXhDWkdfbk04T2Y2MmJRNWdocFQxVEhGOWxTazQzeGxLUFFNZGI0X3lZNXBJREZncThFQ01ZNXpnVnhMVTljNEFTQQ?oc=5",
+        "title": "News Video, Latest Bangla News & Contact Us",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5MU5ROXhDWkdfbk04T2Y2MmJRNWdocFQxVEhGOWxTazQzeGxLUFFNZGI0X3lZNXBJREZncThFQ01ZNXpnVnhMVTljNEFTQQ?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 27 Jul 2026 12:34:54 GMT",
+        "summary": "News Video, Latest Bangla News & Contact Us &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/contact-us",
+        "imageAttemptedAt": "2026-11-04T13:17:26.645Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMijgdBVV95cUxOMUR5RWxGZzBzbV9KLWdfa3dZVHRScndKd2hBeXNxWGR4OTZuUWJRbHhUTE0yZU10b09uMk1mU0lJa3RLRmwxYWpyWWktaHhOX2FhTDhmQVJTb29Jb1pzNzl5QmhQZFlyS2ZfWGJqOHNFQ1FxRDhIc0pkMnlFaS14T2JET0dMSHVxNTNrWm9lSzdzTUpQWkt1czA3bDNQb3FfRGZONVdOODFUN2ptakpiNFZHYzZWODJBdjFvM3ZfYlpma3dsV3lMNF9BRDhoWXFDTUZMbmstWEVHUlFvNXZjY2M2SnRvV2h5dm1hb3RwaWhqZHlsUnpmNEItbmxmR0VPdnNGUHFENlBNcjBKNHFodjNsZHYyNndJQ3dGN19kTXpoZ2xFc0E1dDdQMWMzR3ZJSFFNN216bjVFZXRPRWw2eGt1MEFLWEtOZlctUzlnYUdkYVFab1d2Qk1OZF84M3E0dXBkdEQwVm9FaUFzSUlYSnVXNHBIWFM0Skg0QjBwNVJad1dDMGQ1TloxVUdYb3hQcWdFbmpSRGsyTkp5YmlhZUZZUXBkNjlId0xQNENnUjZLMmlGOHkzQS03b1VLN0dJa2ZKeS1WeVhZR2I1eldTNEE0U2xoTnI2WkZNVGxFdkZPOWU3b1pJSkJhMjYyd3MyMHY4elhJaEdGZnFaLUh0NmZVUlNSS043VHBHTFpUWmJrQjN2MG1xT0JyZWMwUEs2V2c5Ynl3R3ppbDlielpVM2g4LU9CQnB6WGlLTVdtdThPZld5d3BZVklZUUh2RmVXak9kbFNLU1lUU0VtYlVwSXpic3MtbXBFR1ZsOFY3Vk05c1BFLVZxeW1uNTJpRXE5eFNmWnJMdG1GdEx3S0V6SU1tOVZBOXhQdTZWNGNYNnJNWlhoSEg0WFVJZjgtYWZxc203UVZmRTVTcXBTV29OSkJqTzZRZkpNM01YWHZwbk9iT3lzNjZLal83NW9MWEt6bnJlbWgzVDNweU4tSDRnWUpKVkNUNTYyRzZXaE5ldjZIc0h5Rlc1UzExSWVPLWxQYkIwcHQ3eDdHQy1sZjN1RHJDRmVOemxJMHFLdW1rb2lZbDd0ZWpSMlNqVzlyWTYtUmQweVRiSFdkOV9KTHVTNmhKN0k1ME1vT1RtRkR3SU93VWdvN1ltTXE3d1d2alhYTUh6S01HNEtITDRSRkxJajIyclhJajR5R0h2UEtn?oc=5",
+        "title": "‘নভেম্বরে দিল্লি যাচ্ছেন প্রধানমন্ত্রী’, শুনে হাসলেন পররাষ্ট্র প্রতিমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMijgdBVV95cUxOMUR5RWxGZzBzbV9KLWdfa3dZVHRScndKd2hBeXNxWGR4OTZuUWJRbHhUTE0yZU10b09uMk1mU0lJa3RLRmwxYWpyWWktaHhOX2FhTDhmQVJTb29Jb1pzNzl5QmhQZFlyS2ZfWGJqOHNFQ1FxRDhIc0pkMnlFaS14T2JET0dMSHVxNTNrWm9lSzdzTUpQWkt1czA3bDNQb3FfRGZONVdOODFUN2ptakpiNFZHYzZWODJBdjFvM3ZfYlpma3dsV3lMNF9BRDhoWXFDTUZMbmstWEVHUlFvNXZjY2M2SnRvV2h5dm1hb3RwaWhqZHlsUnpmNEItbmxmR0VPdnNGUHFENlBNcjBKNHFodjNsZHYyNndJQ3dGN19kTXpoZ2xFc0E1dDdQMWMzR3ZJSFFNN216bjVFZXRPRWw2eGt1MEFLWEtOZlctUzlnYUdkYVFab1d2Qk1OZF84M3E0dXBkdEQwVm9FaUFzSUlYSnVXNHBIWFM0Skg0QjBwNVJad1dDMGQ1TloxVUdYb3hQcWdFbmpSRGsyTkp5YmlhZUZZUXBkNjlId0xQNENnUjZLMmlGOHkzQS03b1VLN0dJa2ZKeS1WeVhZR2I1eldTNEE0U2xoTnI2WkZNVGxFdkZPOWU3b1pJSkJhMjYyd3MyMHY4elhJaEdGZnFaLUh0NmZVUlNSS043VHBHTFpUWmJrQjN2MG1xT0JyZWMwUEs2V2c5Ynl3R3ppbDlielpVM2g4LU9CQnB6WGlLTVdtdThPZld5d3BZVklZUUh2RmVXak9kbFNLU1lUU0VtYlVwSXpic3MtbXBFR1ZsOFY3Vk05c1BFLVZxeW1uNTJpRXE5eFNmWnJMdG1GdEx3S0V6SU1tOVZBOXhQdTZWNGNYNnJNWlhoSEg0WFVJZjgtYWZxc203UVZmRTVTcXBTV29OSkJqTzZRZkpNM01YWHZwbk9iT3lzNjZLal83NW9MWEt6bnJlbWgzVDNweU4tSDRnWUpKVkNUNTYyRzZXaE5ldjZIc0h5Rlc1UzExSWVPLWxQYkIwcHQ3eDdHQy1sZjN1RHJDRmVOemxJMHFLdW1rb2lZbDd0ZWpSMlNqVzlyWTYtUmQweVRiSFdkOV9KTHVTNmhKN0k1ME1vT1RtRkR3SU93VWdvN1ltTXE3d1d2alhYTUh6S01HNEtITDRSRkxJajIyclhJajR5R0h2UEtn?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+        "summary": "‘নভেম্বরে দিল্লি যাচ্ছেন প্রধানমন্ত্রী’, শুনে হাসলেন পররাষ্ট্র প্রতিমন্ত্রী &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/221011001-1791205665.jpg",
+        "articleUrl": "https://www.channel24bd.tv/national/article/351258/%E2%80%98%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BF-%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E2%80%99-%E0%A6%B6%E0%A7%81%E0%A6%A8%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%AA%E0%A6%B0%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMixgRBVV95cUxPMDFOUFlRRExjYUhpUTN4QURQSGV6ZnV1OU83eXZKS3kwOS13dFlHSVBOZXJGRkVfV211QmMwbnZ6a3FBX2NyMllUTGRXOVZKVk45akNlczVVWUlLSHRRMk1OR3Zub0FZZk0tdEhCZVVhbm85QjRhM3FWMWhWekNMOUpZOXlTQkxWaWpBWWtRdWJ0SU8tYnZITjNKdm1KVlBod0hGcHJwR2ltb1pNWE5OVzVhaFkwRFhOQTRnVU4tYWR6bzY0blRvTk52RDkyNXNZeEZCdzQzSUJoY2dxazhrRF8tcTI1VWZUM1NlZVhSeVdjOWhjUWlta1pnVVRDell6dmNQdi1KUDVVRVJwYXNjZEZWWUdZQ3YwUzhCNkpBM2hYc1o5ajFsOWVyaFEybG91Xzd0SFdQVjFyRHJySUl6R0tOdTNvdURaRmp2T1dLSkJBYjd2XzdoY2g5RUlvTk9xY0hUckRCODNHeGFXNGZjTjI3Y29ULUlWU0F1ZDJDaHBxS096aE8zem9wVVAyZjBSbDBldUVmS182ZTBYY1RiNHpENGo2UEZVQjR1S21zZmJFR01EMnVGMFNUUnI2eWVwZHpBRVZldlppWTlqWHRVZDFvWWpPQUxzdTJVT3o2a3VUWWVBOW5oQm5ITU9hRHZDaHRQS2hJUVBEaF9mekpGN0l5Qk5RN2NRd29TbU5pY0dGRTlET3BYNFZBSVBfcHdlLU1zNU9UWGxTcUxhZk10LVNiX05rYjJJcnhQbGMteGVRU3FUVUE?oc=5",
+        "title": "‘নিউজ প্রেজেন্টার’ নেবে চ্যানেল 24, আবেদন অনলাইনে",
+        "link": "https://news.google.com/rss/articles/CBMixgRBVV95cUxPMDFOUFlRRExjYUhpUTN4QURQSGV6ZnV1OU83eXZKS3kwOS13dFlHSVBOZXJGRkVfV211QmMwbnZ6a3FBX2NyMllUTGRXOVZKVk45akNlczVVWUlLSHRRMk1OR3Zub0FZZk0tdEhCZVVhbm85QjRhM3FWMWhWekNMOUpZOXlTQkxWaWpBWWtRdWJ0SU8tYnZITjNKdm1KVlBod0hGcHJwR2ltb1pNWE5OVzVhaFkwRFhOQTRnVU4tYWR6bzY0blRvTk52RDkyNXNZeEZCdzQzSUJoY2dxazhrRF8tcTI1VWZUM1NlZVhSeVdjOWhjUWlta1pnVVRDell6dmNQdi1KUDVVRVJwYXNjZEZWWUdZQ3YwUzhCNkpBM2hYc1o5ajFsOWVyaFEybG91Xzd0SFdQVjFyRHJySUl6R0tOdTNvdURaRmp2T1dLSkJBYjd2XzdoY2g5RUlvTk9xY0hUckRCODNHeGFXNGZjTjI3Y29ULUlWU0F1ZDJDaHBxS096aE8zem9wVVAyZjBSbDBldUVmS182ZTBYY1RiNHpENGo2UEZVQjR1S21zZmJFR01EMnVGMFNUUnI2eWVwZHpBRVZldlppWTlqWHRVZDFvWWpPQUxzdTJVT3o2a3VUWWVBOW5oQm5ITU9hRHZDaHRQS2hJUVBEaF9mekpGN0l5Qk5RN2NRd29TbU5pY0dGRTlET3BYNFZBSVBfcHdlLU1zNU9UWGxTcUxhZk10LVNiX05rYjJJcnhQbGMteGVRU3FUVUE?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
+        "summary": "‘নিউজ প্রেজেন্টার’ নেবে চ্যানেল 24, আবেদন অনলাইনে &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/jobs/article/351616/%E2%80%98%E0%A6%A8%E0%A6%BF%E0%A6%89%E0%A6%9C-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%9C%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E2%80%99-%E0%A6%A8%E0%A7%87%E0%A6%AC%E0%A7%87-%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B2-24-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A6%85%E0%A6%A8%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%E0%A7%87",
+        "imageAttemptedAt": "2026-11-04T15:34:22.019Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiiAZBVV95cUxNT2FCc2NrTGVMODZwZ2ExeThuUHZYNVVaa1REWnRlV01FWkltSF8wV3lSX3JtS3VBMHF4dFpxRUYtRGNkeENPcmhZYlktOUQ5NUZzb2JnLXlJdXlFbWlNS0FnTzRvUlJITGhzeVUwcGdManBvMjVfSTU4SmVNSlQ2eHNxR1BKOGV4QkVud2lmd0p2VGI3a05fbVlWSFgxQlVLbzlMUU1obGxnUzdSbW5HcWFPTVVxdkxGV052SWI3b0xCcFVGQlJQUmgyeUpWcktDYUVVRFVDNi1CeUZ2YjBZZnRQT0lVWVVZU2VuZDc0d3Z4YkJJZTJzUENPWGhuSFpjZFNrVXlWWlJESUNBV3U1dllJOFFSaTFSMXFYZS1aRmljdGhha295U0VxUjI1N2FRUHhWRENoX1paVW55TFNuTWRxcE9MTG1YdkFkWW1oOUplQmRqVVVFaHJlRks2VS1KWUFQSkFmSFNJMmdoR1poeTlyc1Q2QzhhOTU4Y0djX1AwbFl2WEdscmdWWENxQW5QYVBaamppMVBpcG85NEVubUFPdjZKaTRsb01ydDFjNVVHbTRpcDd5akFFeWJRaVVjMGllUXZvazhZOHhLMm9TQ0JaRXBrQi1rd2VlTWlwNUppSTdPV2dyNUgzZjNpUkFFek5hRDBjQ3JqdEhyS3k5aE5DSVZFUDZwNmVIcmFqVEFmVTEwOW0yMFlUZDBjY1dKanJkSE1yM0xnTHd5SWY4Y2Y4aFVPLWtjdFJNblFEWVEzNkhETnVHUEw2aWNqSzJjZk0zOE5ZTm8yYVhuY1lxdXRZMXVZWXdOYUlUZ09mZkpmd3MtMHI3MlZ0LXZoSDAxYmdlRmQ5dl9JQlowTjRLdUZocHB4M0tXMnpkN3lSM0dEQkw2U2ZBSnBEVHVTR21Ia2JUU0EzR0pMbkVwZ213R05tcjh6SmFXd1VsVjJDVk42YThHUXRrUE1LcmVfUmVzdklranJUak96MU1tZ0lJTGluMkc5WkxyTXVMM2UyX3RDSnI4WFZiSw?oc=5",
+        "title": "কাইল্ল্যা পলাশ হত্যাসহ ২৭ মামলার আসামি ‘পিচ্চি আল-আমিন’ গ্রেপ্তার",
+        "link": "https://news.google.com/rss/articles/CBMiiAZBVV95cUxNT2FCc2NrTGVMODZwZ2ExeThuUHZYNVVaa1REWnRlV01FWkltSF8wV3lSX3JtS3VBMHF4dFpxRUYtRGNkeENPcmhZYlktOUQ5NUZzb2JnLXlJdXlFbWlNS0FnTzRvUlJITGhzeVUwcGdManBvMjVfSTU4SmVNSlQ2eHNxR1BKOGV4QkVud2lmd0p2VGI3a05fbVlWSFgxQlVLbzlMUU1obGxnUzdSbW5HcWFPTVVxdkxGV052SWI3b0xCcFVGQlJQUmgyeUpWcktDYUVVRFVDNi1CeUZ2YjBZZnRQT0lVWVVZU2VuZDc0d3Z4YkJJZTJzUENPWGhuSFpjZFNrVXlWWlJESUNBV3U1dllJOFFSaTFSMXFYZS1aRmljdGhha295U0VxUjI1N2FRUHhWRENoX1paVW55TFNuTWRxcE9MTG1YdkFkWW1oOUplQmRqVVVFaHJlRks2VS1KWUFQSkFmSFNJMmdoR1poeTlyc1Q2QzhhOTU4Y0djX1AwbFl2WEdscmdWWENxQW5QYVBaamppMVBpcG85NEVubUFPdjZKaTRsb01ydDFjNVVHbTRpcDd5akFFeWJRaVVjMGllUXZvazhZOHhLMm9TQ0JaRXBrQi1rd2VlTWlwNUppSTdPV2dyNUgzZjNpUkFFek5hRDBjQ3JqdEhyS3k5aE5DSVZFUDZwNmVIcmFqVEFmVTEwOW0yMFlUZDBjY1dKanJkSE1yM0xnTHd5SWY4Y2Y4aFVPLWtjdFJNblFEWVEzNkhETnVHUEw2aWNqSzJjZk0zOE5ZTm8yYVhuY1lxdXRZMXVZWXdOYUlUZ09mZkpmd3MtMHI3MlZ0LXZoSDAxYmdlRmQ5dl9JQlowTjRLdUZocHB4M0tXMnpkN3lSM0dEQkw2U2ZBSnBEVHVTR21Ia2JUU0EzR0pMbkVwZ213R05tcjh6SmFXd1VsVjJDVk42YThHUXRrUE1LcmVfUmVzdklranJUak96MU1tZ0lJTGluMkc5WkxyTXVMM2UyX3RDSnI4WFZiSw?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 07:00:00 GMT",
+        "summary": "কাইল্ল্যা পলাশ হত্যাসহ ২৭ মামলার আসামি ‘পিচ্চি আল-আমিন’ গ্রেপ্তার &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/crime/article/350534/%E0%A6%95%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%AA%E0%A6%B2%E0%A6%BE%E0%A6%B6-%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%B9-%E0%A7%A8%E0%A7%AD-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%BF-%E2%80%98%E0%A6%AA%E0%A6%BF%E0%A6%9A%E0%A7%8D%E0%A6%9A%E0%A6%BF-%E0%A6%86%E0%A6%B2-%E0%A6%86%E0%A6%AE%E0%A6%BF%E0%A6%A8%E2%80%99-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0",
+        "imageAttemptedAt": "2026-11-04T15:34:22.019Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0QVFKeE5pMWlwWnZGOWZjYi14aTZZbk1JcDFoN2FaVlQ5MGlJT0xFQVJFRjVlM2tSZkI1dHBZYUZHRnRhcTVzMFZ1MkFGbzMyZUJkcQ?oc=5",
+        "title": "LIVE TV - Channel 24",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0QVFKeE5pMWlwWnZGOWZjYi14aTZZbk1JcDFoN2FaVlQ5MGlJT0xFQVJFRjVlM2tSZkI1dHBZYUZHRnRhcTVzMFZ1MkFGbzMyZUJkcQ?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 12 Jun 2022 07:00:00 GMT",
+        "summary": "LIVE TV &nbsp;&nbsp; Channel 24",
+        "image": "https://img.youtube.com/vi/6eOCceaS9h0/0.jpg",
+        "articleUrl": "https://www.channel24bd.tv/video/show/1679",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      }
     ]
   },
   "categories": {
-    "international": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vX2dnSWFwdXhQWUtGSkQwN2RPcjk4TG9jQy1qRmlOOTVlMXlPeV8wenA5MXA5dEVDOEQzcUt1WjFZWklQc01iMlRkNFNEbTNWbmdtLTRLcDFwaUk?oc=5",
-        "title": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ৪ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vX2dnSWFwdXhQWUtGSkQwN2RPcjk4TG9jQy1qRmlOOTVlMXlPeV8wenA5MXA5dEVDOEQzcUt1WjFZWklQc01iMlRkNFNEbTNWbmdtLTRLcDFwaUk?oc=5",
-        "source": "Somoy News",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 04 Nov 2026 10:18:45 GMT",
-        "summary": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
-        "image": "https://img.youtube.com/vi/_S8LUqop3mc/maxresdefault.jpg",
-        "articleUrl": "https://somoynews.com.bd/video/latest-video/282",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tVUJoZURQS0NDYkRwQXpULUdYbnUzV2lWNk85dGdINm9mTW01NjV2N3Zmek1jc09sakFYdkw2SlljMUFMYmtTNWRsbF9lRjBWUUxBT3lpY0MtZWxlYmpodENqWQ?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tVUJoZURQS0NDYkRwQXpULUdYbnUzV2lWNk85dGdINm9mTW01NjV2N3Zmek1jc09sakFYdkw2SlljMUFMYmtTNWRsbF9lRjBWUUxBT3lpY0MtZWxlYmpodENqWQ?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 02 Nov 2026 16:02:10 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1174901",
-        "imageAttemptedAt": "2026-11-05T00:07:07.838Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HLXl4VG0tOHNRNUdzeWIxQ25XSmNXeXByN2toRDBMeXE0MmtOWnNNUXhTbVJIQ3VRb2VBZXlOUXRoYklsSktIQ2JDLVlJdU80NWxlQXFpQ0lDcGxqSlhPc2hpYw?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HLXl4VG0tOHNRNUdzeWIxQ25XSmNXeXByN2toRDBMeXE0MmtOWnNNUXhTbVJIQ3VRb2VBZXlOUXRoYklsSktIQ2JDLVlJdU80NWxlQXFpQ0lDcGxqSlhPc2hpYw?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 01 Nov 2026 15:58:08 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1174525",
-        "imageAttemptedAt": "2026-11-04T17:35:36.192Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qWmhnSUVlX1ZlM1JWSTZzS2RVbjFIMk1rRFRUS185c01VQ1hCb3QwbXRvd1dkc2t4VnIyWDc0Nk4xRG0xb19HUWRJeV9zUGFVcE1uUENkVmZJODA?oc=5",
-        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৪ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qWmhnSUVlX1ZlM1JWSTZzS2RVbjFIMk1rRFRUS185c01VQ1hCb3QwbXRvd1dkc2t4VnIyWDc0Nk4xRG0xb19HUWRJeV9zUGFVcE1uUENkVmZJODA?oc=5",
-        "source": "Somoy News",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
-        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
-        "image": "https://img.youtube.com/vi/DjqZJ9aO74w/maxresdefault.jpg",
-        "articleUrl": "https://somoynews.com.bd/video/latest-video/289",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtVVgtQ1B1S2sxVURIOEgxa2ROOERLYUJRc3pkSFJBU1JZSkptMEU3NlhEQXgzdmRBNGMwVUVvdDd0SHRYSHJFNGVlTF9lWjNvMGNpTno0R3hqSXdu?oc=5",
-        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৩ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtVVgtQ1B1S2sxVURIOEgxa2ROOERLYUJRc3pkSFJBU1JZSkptMEU3NlhEQXgzdmRBNGMwVUVvdDd0SHRYSHJFNGVlTF9lWjNvMGNpTno0R3hqSXdu?oc=5",
-        "source": "Somoy News",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
-        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৩ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
-        "image": "https://img.youtube.com/vi/fufbdfr9M-A/maxresdefault.jpg",
-        "articleUrl": "https://somoynews.com.bd/video/video-gallery/263",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BY18tNFlsWjJTQ1NTdFg5OWl0VjBISnVQTEdrVGpDZ2hWRUdodzNuLWpfbll1aVJFVEdIMkJlelluU0V3SmxKV3pEa1p3UUdVVnBGSENkbHpfZHlGaVA4eFlGcw?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BY18tNFlsWjJTQ1NTdFg5OWl0VjBISnVQTEdrVGpDZ2hWRUdodzNuLWpfbll1aVJFVEdIMkJlelluU0V3SmxKV3pEa1p3UUdVVnBGSENkbHpfZHlGaVA4eFlGcw?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 20 Oct 2026 07:00:00 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1170369",
-        "imageAttemptedAt": "2026-11-04T09:54:25.924Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTdHVqbzUwSlJENFdhLUd0R3dyVi1XRmJSSy0wa0JQVUJCdFBTYU1oU3dic0dxRElsdkx2V2dQVzU3aW1LRFNHM2FHQ0F4QkVud3BKeGR5SGlsMnA5WlJ3WlkwSQ?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২৪ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTdHVqbzUwSlJENFdhLUd0R3dyVi1XRmJSSy0wa0JQVUJCdFBTYU1oU3dic0dxRElsdkx2V2dQVzU3aW1LRFNHM2FHQ0F4QkVud3BKeGR5SGlsMnA5WlJ3WlkwSQ?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 24 Oct 2026 07:00:00 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২৪ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1171572",
-        "imageAttemptedAt": "2026-11-04T15:34:22.019Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SQ1U3NmFxMVFEdUVkbk1iSjJjdGZ5UTlsbWJCUXRJOC1oWnkydXlkT09hbkpZQUhpS2xYRjJmNE5tazF2Tl9JRFktc3ozRjBacFd4dW1vQjVfY2daN0IxSDhDOA?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২২ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SQ1U3NmFxMVFEdUVkbk1iSjJjdGZ5UTlsbWJCUXRJOC1oWnkydXlkT09hbkpZQUhpS2xYRjJmNE5tazF2Tl9JRFktc3ozRjBacFd4dW1vQjVfY2daN0IxSDhDOA?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 22 Oct 2026 07:00:00 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২২ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1171027",
-        "imageAttemptedAt": "2026-11-05T00:07:07.838Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EdnRVYXJ5WHhiaUd5c0VkOEtuV1lDWUFvd0FCSFk3OTJhd1ZyV0lVQlpPQXgxNnVSa0xYYS1xeS04enhScGpkTnJkVTZ1VTRuRWJ3R181d2lVWWpwalZEMTVqdw?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২৩ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EdnRVYXJ5WHhiaUd5c0VkOEtuV1lDWUFvd0FCSFk3OTJhd1ZyV0lVQlpPQXgxNnVSa0xYYS1xeS04enhScGpkTnJkVTZ1VTRuRWJ3R181d2lVWWpwalZEMTVqdw?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 23 Oct 2026 07:00:00 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২৩ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1171247",
-        "imageAttemptedAt": "2026-11-04T16:36:30.019Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3bWZHT2lmTWJxMHF5UHIzZEZxZ04wWXZwODJUcGF2SU9sX1Z1b0ZIOXdHbUtJNTN3V0lhNGozVTRmRUtWZXFXdDdXN3FMV1pOajhKamZCZmtVd1NDbG5UVUE5aw?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৮ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3bWZHT2lmTWJxMHF5UHIzZEZxZ04wWXZwODJUcGF2SU9sX1Z1b0ZIOXdHbUtJNTN3V0lhNGozVTRmRUtWZXFXdDdXN3FMV1pOajhKamZCZmtVd1NDbG5UVUE5aw?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 18 Oct 2026 07:00:00 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৮ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1169670",
-        "imageAttemptedAt": "2026-11-05T01:19:26.301Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      }
-    ],
     "bangladesh": [
       {
         "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYnV0TWRrd0lYVXJYLVRhVW5wR29LVTI5YkRWUF9JOGVvVU9CaklLeTdZYUtIbnpxeThUQmlkSUEtY2NlN2FuNHowMjBIamhGN3A5Sng0TmRKMHhERm1jV0VjOTdmQkFCNUgwMkFsNm05SF9tNE5NbzJCZXN3LUxqc09mdTRYdWJlelgxZjdn0gGTAUFVX3lxTE1Gejl2VHdBcFFhV2lxbEVrUnI4WWMxUk9NTkw2N1N2Z1BOMXg1S2J1RTdmT0o4aUxqOVpHY1pRNUloVjJIZXZkSFBYUk1idkktc18xR3BYNVJLQ1JDZDZxWkIwa0k4eWo2TmJSUEdpWDNJcVZOV3Jjcko3eTNXMXlWd09BTDZ2Mm84Rmg1cUhoQm1hbw?oc=5",
@@ -808,19 +676,6 @@
         "image": "https://cniasia.news/admin/assets/images/background/login-register.jpg",
         "articleUrl": "https://cniasia.news/post-details/201791",
         "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE91dDZNWjJ4VlRlMHZLZEh0TEQ4Wk9tcmpQLXB3bzR5RmZNbjdyUHhyYTFQWUhpdWxZM1hJUDRkYXo?oc=5",
-        "title": "চীন-বাংলাদেশের দ্বিপাক্ষিক সম্পর্ক আরও জোরদারের আহ্বান রাষ্ট্রপতির",
-        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE91dDZNWjJ4VlRlMHZLZEh0TEQ4Wk9tcmpQLXB3bzR5RmZNbjdyUHhyYTFQWUhpdWxZM1hJUDRkYXo?oc=5",
-        "source": "Sunbd24",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 04 Nov 2026 13:02:23 GMT",
-        "summary": "চীন-বাংলাদেশের দ্বিপাক্ষিক সম্পর্ক আরও জোরদারের আহ্বান রাষ্ট্রপতির &nbsp;&nbsp; Sunbd24",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://sunbd24.com/420178/",
-        "imageAttemptedAt": "2026-11-04T14:32:01.533Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
@@ -887,6 +742,151 @@
         "articleUrl": "https://www.bbc.com/bengali/articles/c6d08xedzjm4o",
         "imageAttemptedAt": "2026-11-04T12:00:20.856Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaTlNZE1EaUdudVdoS0Jndmg0UVpDX19FZW5EZ3h3b3VjbFpXeF82SzR6ZzJXZFpvbV9iUlAyZVhmV1lVTVhNYmtUNmVnRTBaWlRlQlkwbndnR05yQzB2WU1uanhyRnRJNWs1ZXBMdFdDT1pkT0MtajJZM3BMTEdGS0Q2TWN2ZmhJRmI5Q2VOemYya2ZUZ1h3RTFDZDFLS0Q5WG1Z0gGoAUFVX3lxTE41ekdRQ2I1a0szemdORzFzQVY5aWF6cGsyTWlvTDJlakdDcGU5NGZsbmdiMEJRSzlqVmNRVndsVWNlRU5ramViUktidWpuTXg2OTZZS1FkeVJiOHhua2lnUXVSUkI2UklkNjR1WERCTU9EYmxpbUNEa0ZuaEtzZXpNOFlNcTZuOF92Q09oY1A1OUprckt1NUZfbjNIaW9HRnhLU0F0X21wbw?oc=5",
+        "title": "Bangladesh News: বাংলাদেশে এবার শ্রমিক আন্দোলন, পুলিশের সঙ্গে সংঘর্ষ। বিক্ষোভে উত্তাল ঢাকা",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaTlNZE1EaUdudVdoS0Jndmg0UVpDX19FZW5EZ3h3b3VjbFpXeF82SzR6ZzJXZFpvbV9iUlAyZVhmV1lVTVhNYmtUNmVnRTBaWlRlQlkwbndnR05yQzB2WU1uanhyRnRJNWs1ZXBMdFdDT1pkT0MtajJZM3BMTEdGS0Q2TWN2ZmhJRmI5Q2VOemYya2ZUZ1h3RTFDZDFLS0Q5WG1Z0gGoAUFVX3lxTE41ekdRQ2I1a0szemdORzFzQVY5aWF6cGsyTWlvTDJlakdDcGU5NGZsbmdiMEJRSzlqVmNRVndsVWNlRU5ramViUktidWpuTXg2OTZZS1FkeVJiOHhua2lnUXVSUkI2UklkNjR1WERCTU9EYmxpbUNEa0ZuaEtzZXpNOFlNcTZuOF92Q09oY1A1OUprckt1NUZfbjNIaW9HRnhLU0F0X21wbw?oc=5",
+        "source": "ABP Ananda",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 02 Nov 2026 04:27:31 GMT",
+        "summary": "Bangladesh News: বাংলাদেশে এবার শ্রমিক আন্দোলন, পুলিশের সঙ্গে সংঘর্ষ। বিক্ষোভে উত্তাল ঢাকা &nbsp;&nbsp; ABP Ananda",
+        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/02/e40f233521574558ea0f7fcad235397c17935935791061506_original.jpg?impolicy=abp_cdn&imwidth=1200",
+        "articleUrl": "https://bengali.abplive.com/videos/news/bangladesh-news-bangladsh-labour-movement-watch-video-1198037",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      }
+    ],
+    "international": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tVUJoZURQS0NDYkRwQXpULUdYbnUzV2lWNk85dGdINm9mTW01NjV2N3Zmek1jc09sakFYdkw2SlljMUFMYmtTNWRsbF9lRjBWUUxBT3lpY0MtZWxlYmpodENqWQ?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tVUJoZURQS0NDYkRwQXpULUdYbnUzV2lWNk85dGdINm9mTW01NjV2N3Zmek1jc09sakFYdkw2SlljMUFMYmtTNWRsbF9lRjBWUUxBT3lpY0MtZWxlYmpodENqWQ?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 02 Nov 2026 16:02:10 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1174901",
+        "imageAttemptedAt": "2026-11-05T00:07:07.838Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vX2dnSWFwdXhQWUtGSkQwN2RPcjk4TG9jQy1qRmlOOTVlMXlPeV8wenA5MXA5dEVDOEQzcUt1WjFZWklQc01iMlRkNFNEbTNWbmdtLTRLcDFwaUk?oc=5",
+        "title": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ৪ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vX2dnSWFwdXhQWUtGSkQwN2RPcjk4TG9jQy1qRmlOOTVlMXlPeV8wenA5MXA5dEVDOEQzcUt1WjFZWklQc01iMlRkNFNEbTNWbmdtLTRLcDFwaUk?oc=5",
+        "source": "Somoy News",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 04 Nov 2026 10:18:45 GMT",
+        "summary": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
+        "image": "https://img.youtube.com/vi/_S8LUqop3mc/maxresdefault.jpg",
+        "articleUrl": "https://somoynews.com.bd/video/latest-video/282",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HLXl4VG0tOHNRNUdzeWIxQ25XSmNXeXByN2toRDBMeXE0MmtOWnNNUXhTbVJIQ3VRb2VBZXlOUXRoYklsSktIQ2JDLVlJdU80NWxlQXFpQ0lDcGxqSlhPc2hpYw?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HLXl4VG0tOHNRNUdzeWIxQ25XSmNXeXByN2toRDBMeXE0MmtOWnNNUXhTbVJIQ3VRb2VBZXlOUXRoYklsSktIQ2JDLVlJdU80NWxlQXFpQ0lDcGxqSlhPc2hpYw?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 15:58:08 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1174525",
+        "imageAttemptedAt": "2026-11-04T17:35:36.192Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qWmhnSUVlX1ZlM1JWSTZzS2RVbjFIMk1rRFRUS185c01VQ1hCb3QwbXRvd1dkc2t4VnIyWDc0Nk4xRG0xb19HUWRJeV9zUGFVcE1uUENkVmZJODA?oc=5",
+        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৪ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qWmhnSUVlX1ZlM1JWSTZzS2RVbjFIMk1rRFRUS185c01VQ1hCb3QwbXRvd1dkc2t4VnIyWDc0Nk4xRG0xb19HUWRJeV9zUGFVcE1uUENkVmZJODA?oc=5",
+        "source": "Somoy News",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
+        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
+        "image": "https://img.youtube.com/vi/DjqZJ9aO74w/maxresdefault.jpg",
+        "articleUrl": "https://somoynews.com.bd/video/latest-video/289",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91VEJadWhLVzllVlpTemZ4N3Q3Q1F6TDdzcXZ2eThISVd0dEd4TEpEa2Ewc3ZUZ1NqdW5sNkttc0dkcHZjNjRJUnQ2RUhhVUQ2Z0JzSnkwRkN4bWx4eTc4Q2lvenAwUQ?oc=5",
+        "title": "🔴LIVE: আজকের টপ আন্তর্জাতিক সংবাদ | BBC World News Bangla | 10 Sep 2026 | বিশ্বজুড়ে এখন যা ঘটছে Freeview (vHhpalSIXU)",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91VEJadWhLVzllVlpTemZ4N3Q3Q1F6TDdzcXZ2eThISVd0dEd4TEpEa2Ewc3ZUZ1NqdW5sNkttc0dkcHZjNjRJUnQ2RUhhVUQ2Z0JzSnkwRkN4bWx4eTc4Q2lvenAwUQ?oc=5",
+        "source": "Unisba Media",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 04 Nov 2026 07:41:58 GMT",
+        "summary": "🔴LIVE: আজকের টপ আন্তর্জাতিক সংবাদ | BBC World News Bangla | 10 Sep 2026 | বিশ্বজুড়ে এখন যা ঘটছে Freeview (vHhpalSIXU) &nbsp;&nbsp; Unisba Media",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://media.unisba.ac.id/789cbec1/cffc979asbYXKmsmGyo",
+        "imageAttemptedAt": "2026-11-05T02:29:14.391Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtVVgtQ1B1S2sxVURIOEgxa2ROOERLYUJRc3pkSFJBU1JZSkptMEU3NlhEQXgzdmRBNGMwVUVvdDd0SHRYSHJFNGVlTF9lWjNvMGNpTno0R3hqSXdu?oc=5",
+        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৩ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtVVgtQ1B1S2sxVURIOEgxa2ROOERLYUJRc3pkSFJBU1JZSkptMEU3NlhEQXgzdmRBNGMwVUVvdDd0SHRYSHJFNGVlTF9lWjNvMGNpTno0R3hqSXdu?oc=5",
+        "source": "Somoy News",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
+        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৩ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
+        "image": "https://img.youtube.com/vi/fufbdfr9M-A/maxresdefault.jpg",
+        "articleUrl": "https://somoynews.com.bd/video/video-gallery/263",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BY18tNFlsWjJTQ1NTdFg5OWl0VjBISnVQTEdrVGpDZ2hWRUdodzNuLWpfbll1aVJFVEdIMkJlelluU0V3SmxKV3pEa1p3UUdVVnBGSENkbHpfZHlGaVA4eFlGcw?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BY18tNFlsWjJTQ1NTdFg5OWl0VjBISnVQTEdrVGpDZ2hWRUdodzNuLWpfbll1aVJFVEdIMkJlelluU0V3SmxKV3pEa1p3UUdVVnBGSENkbHpfZHlGaVA4eFlGcw?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 20 Oct 2026 07:00:00 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1170369",
+        "imageAttemptedAt": "2026-11-04T09:54:25.924Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTdHVqbzUwSlJENFdhLUd0R3dyVi1XRmJSSy0wa0JQVUJCdFBTYU1oU3dic0dxRElsdkx2V2dQVzU3aW1LRFNHM2FHQ0F4QkVud3BKeGR5SGlsMnA5WlJ3WlkwSQ?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২৪ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTdHVqbzUwSlJENFdhLUd0R3dyVi1XRmJSSy0wa0JQVUJCdFBTYU1oU3dic0dxRElsdkx2V2dQVzU3aW1LRFNHM2FHQ0F4QkVud3BKeGR5SGlsMnA5WlJ3WlkwSQ?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 24 Oct 2026 07:00:00 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২৪ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1171572",
+        "imageAttemptedAt": "2026-11-04T15:34:22.019Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SQ1U3NmFxMVFEdUVkbk1iSjJjdGZ5UTlsbWJCUXRJOC1oWnkydXlkT09hbkpZQUhpS2xYRjJmNE5tazF2Tl9JRFktc3ozRjBacFd4dW1vQjVfY2daN0IxSDhDOA?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২২ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SQ1U3NmFxMVFEdUVkbk1iSjJjdGZ5UTlsbWJCUXRJOC1oWnkydXlkT09hbkpZQUhpS2xYRjJmNE5tazF2Tl9JRFktc3ozRjBacFd4dW1vQjVfY2daN0IxSDhDOA?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২২ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1171027",
+        "imageAttemptedAt": "2026-11-05T00:07:07.838Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EdnRVYXJ5WHhiaUd5c0VkOEtuV1lDWUFvd0FCSFk3OTJhd1ZyV0lVQlpPQXgxNnVSa0xYYS1xeS04enhScGpkTnJkVTZ1VTRuRWJ3R181d2lVWWpwalZEMTVqdw?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২৩ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EdnRVYXJ5WHhiaUd5c0VkOEtuV1lDWUFvd0FCSFk3OTJhd1ZyV0lVQlpPQXgxNnVSa0xYYS1xeS04enhScGpkTnJkVTZ1VTRuRWJ3R181d2lVWWpwalZEMTVqdw?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 23 Oct 2026 07:00:00 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২৩ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1171247",
+        "imageAttemptedAt": "2026-11-04T16:36:30.019Z",
+        "imageFallback": "news-fallbacks/world.svg"
       }
     ],
     "food": [
@@ -904,6 +904,19 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxPcEZVWHlvRGUteUkxbFNoR3VDNDI3NnZnbDJFMWEwSzZ3emwyelVOeVAwcThIYnBOcVNuTUFMZmJlYnlGb1ZUOGpvYmRSQ3NEcC1hM2pkS0swSUlIOVliSVZEM1NVemNSYmVhRWxWaGR0bWlHbTdnaGw0QWJvODViajAybDVDUmRBOVA1ajBmTC14SFFjOUplM3RJaVJaYndUOFJxU0JKMDF0SUdITGtVT3VvdGtENHFlalhrbVpUYWtHUjRnT2NTNFBrbHhXWklvWEFtSzlUcjNsaDdvenI4ZmZWQzh4SHZRQnA0Ukg3T3JSX25TZi1VMDltZG1Sc3ljaUxTc2dGald1ZGtpN1VzTmpGZGhuNkgteXVJZEZRd25GcmxDNF9Ma3Yya3BkS1ZQTUpzbTgzOXdrRUdON1RHZDlTVkhKbzZQa3NzamtSNGFWTllpdFJCVFk0SllLUmJTRllkWFRrbVJnbmJZemE5NTlzSnNGdzRic2NKZFYxSUNud3QzM2JxNTl3czlGeEJ4dzZ3SF9HRTJZYWtONm1zc1RjZE5reEhXc3VTSVhmMUVHbnJHZFBhWGNRU1pVbnFpNGQ1MHRWczQyMWc2dndrNVdLdjhaU2xBdHdFbWxxTWVPMDVWbnJEQUZGMTNjNHQ1a0hKcjRKNW0yUUlBZ0N3eTZQakJ2MUFPOGluT0FVZThOVnpYcXlET1hCRklOYVVjVmVCMS1vaVBhRzdjZjlEZ0Z5NG5nakpPbmYyLW5Fd3BZbXQ4Q29zREtMWmRTeS03NVI1YzRzc0ZsWlZLY2oySDU3OVlfTXYtaGh1aGtRMWg2VWs?oc=5",
+        "title": "সিএনজি স্টেশনে দীর্ঘ লাইন গ্যাসের অভাবে রান্না বন্ধ",
+        "link": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxPcEZVWHlvRGUteUkxbFNoR3VDNDI3NnZnbDJFMWEwSzZ3emwyelVOeVAwcThIYnBOcVNuTUFMZmJlYnlGb1ZUOGpvYmRSQ3NEcC1hM2pkS0swSUlIOVliSVZEM1NVemNSYmVhRWxWaGR0bWlHbTdnaGw0QWJvODViajAybDVDUmRBOVA1ajBmTC14SFFjOUplM3RJaVJaYndUOFJxU0JKMDF0SUdITGtVT3VvdGtENHFlalhrbVpUYWtHUjRnT2NTNFBrbHhXWklvWEFtSzlUcjNsaDdvenI4ZmZWQzh4SHZRQnA0Ukg3T3JSX25TZi1VMDltZG1Sc3ljaUxTc2dGald1ZGtpN1VzTmpGZGhuNkgteXVJZEZRd25GcmxDNF9Ma3Yya3BkS1ZQTUpzbTgzOXdrRUdON1RHZDlTVkhKbzZQa3NzamtSNGFWTllpdFJCVFk0SllLUmJTRllkWFRrbVJnbmJZemE5NTlzSnNGdzRic2NKZFYxSUNud3QzM2JxNTl3czlGeEJ4dzZ3SF9HRTJZYWtONm1zc1RjZE5reEhXc3VTSVhmMUVHbnJHZFBhWGNRU1pVbnFpNGQ1MHRWczQyMWc2dndrNVdLdjhaU2xBdHdFbWxxTWVPMDVWbnJEQUZGMTNjNHQ1a0hKcjRKNW0yUUlBZ0N3eTZQakJ2MUFPOGluT0FVZThOVnpYcXlET1hCRklOYVVjVmVCMS1vaVBhRzdjZjlEZ0Z5NG5nakpPbmYyLW5Fd3BZbXQ4Q29zREtMWmRTeS03NVI1YzRzc0ZsWlZLY2oySDU3OVlfTXYtaGh1aGtRMWg2VWs?oc=5",
+        "source": "SAMAKAL",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 02:15:00 GMT",
+        "summary": "সিএনজি স্টেশনে দীর্ঘ লাইন গ্যাসের অভাবে রান্না বন্ধ &nbsp;&nbsp; SAMAKAL",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://samakal.com/bangladesh/article/381457/%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%9C%E0%A6%BF-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B6%E0%A6%A8%E0%A7%87-%E0%A6%A6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%98-%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8-%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%BE-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7",
+        "imageAttemptedAt": "2026-11-05T02:29:14.391Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwUjdMNjljdzFnQk5zQ2RoT1V6dEFiWnI1OHFTcUlPMU9id1RWcVRYbWdCRkhwMmQ1cFFBcThfV2swTUhxRDJueHFFUVpMSTBjbGVyR3d3Q3BydWxl?oc=5",
         "title": "খাদ্য অপচয় রোধে সমন্বিত জাতীয় কৌশল প্রণয়নের আহ্বান মন্ত্রীর",
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwUjdMNjljdzFnQk5zQ2RoT1V6dEFiWnI1OHFTcUlPMU9id1RWcVRYbWdCRkhwMmQ1cFFBcThfV2swTUhxRDJueHFFUVpMSTBjbGVyR3d3Q3BydWxl?oc=5",
@@ -914,19 +927,6 @@
         "image": "news-fallbacks/food.svg",
         "articleUrl": "https://www.jagonews24.com/national/news/1175723",
         "imageAttemptedAt": "2026-11-04T16:36:30.019Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiygNBVV95cUxOWHlJSDVrUHdvMjRSeDhvRFVWSGkwSEU2ZHFJLU1qY2VFUF9UbnlWNEdZSTROQTVZZWo0YV83ajFiQkFVcjhrX3ZGRTE0czJsUlJKaF9xMUJGbUg1YzQ1Tm5MNmdBRDAzSGtNTWhwckxBb3FnRktMUDVYMlJ1RHBQNkhvV3FDdmR2bkRNbFJZUTFveHB1MVpnaXBKamNzYXlsSTJjTlFHUmVSYnotb3JvcFhsQUtydC1uMnFhVS1HcVVoZGc0MEZERDYzTU5OTkI3d2dxOWwwTk9fOVExVlNILXpzd3d0N0J1T1J3VTlLTUdpN09JcUhNN2NvLUpMUTgzYTNteVVicm13bnM5MUI4NGgyQVVwc0FDZVFaRU4zTzRwVzFyVHhmc3hGalUtSGNHQmh5Q0xZclJ1UEVVN3NBS1pLQnR0VDVBdFhMb0RtZFJGOHBESzQ4RHpZdEpEczRzbTg2OWFxYkF2c2JmNzlQTlhaQk03VFU1NTBKcXd2RE1LX3JkQlFXYVBVZFpENXh6T25ub3pVQ2M0UTg4T3djWmdSaWU2TzhSdUo3cFpxRnhWSVo1clhSbC1Ic0YxQXRNMDIxRnE4YzNtUQ?oc=5",
-        "title": "শিশুর মুখে খাবার দিতে বড়রা উপোস করেন",
-        "link": "https://news.google.com/rss/articles/CBMiygNBVV95cUxOWHlJSDVrUHdvMjRSeDhvRFVWSGkwSEU2ZHFJLU1qY2VFUF9UbnlWNEdZSTROQTVZZWo0YV83ajFiQkFVcjhrX3ZGRTE0czJsUlJKaF9xMUJGbUg1YzQ1Tm5MNmdBRDAzSGtNTWhwckxBb3FnRktMUDVYMlJ1RHBQNkhvV3FDdmR2bkRNbFJZUTFveHB1MVpnaXBKamNzYXlsSTJjTlFHUmVSYnotb3JvcFhsQUtydC1uMnFhVS1HcVVoZGc0MEZERDYzTU5OTkI3d2dxOWwwTk9fOVExVlNILXpzd3d0N0J1T1J3VTlLTUdpN09JcUhNN2NvLUpMUTgzYTNteVVicm13bnM5MUI4NGgyQVVwc0FDZVFaRU4zTzRwVzFyVHhmc3hGalUtSGNHQmh5Q0xZclJ1UEVVN3NBS1pLQnR0VDVBdFhMb0RtZFJGOHBESzQ4RHpZdEpEczRzbTg2OWFxYkF2c2JmNzlQTlhaQk03VFU1NTBKcXd2RE1LX3JkQlFXYVBVZFpENXh6T25ub3pVQ2M0UTg4T3djWmdSaWU2TzhSdUo3cFpxRnhWSVo1clhSbC1Ic0YxQXRNMDIxRnE4YzNtUQ?oc=5",
-        "source": "SAMAKAL",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 04 Nov 2026 18:42:02 GMT",
-        "summary": "শিশুর মুখে খাবার দিতে বড়রা উপোস করেন &nbsp;&nbsp; SAMAKAL",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://samakal.com/bangladesh/article/381307/%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A7%9C%E0%A6%B0%E0%A6%BE-%E0%A6%89%E0%A6%AA%E0%A7%8B%E0%A6%B8-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A6%A8",
-        "imageAttemptedAt": "2026-11-04T19:41:57.378Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -943,19 +943,6 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5KOVlZUV9nQVJjQ1BqaGpQRVc3Nm00eEVoVzZKendwT0dpbW03T3JFNkJEUWI2dW4za28wODdZdXdYdXZKLURCeDdBeWp4NWNIdTBtc2hqWlVsdUhBQlRSVHhzMFZXRzU2aTlMZXJ2RkZtdms?oc=5",
-        "title": "চীনের ঐতিহ্যবাহী খাবারে ঢাকায় নতুন স্বাদের অভিজ্ঞতা",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5KOVlZUV9nQVJjQ1BqaGpQRVc3Nm00eEVoVzZKendwT0dpbW03T3JFNkJEUWI2dW4za28wODdZdXdYdXZKLURCeDdBeWp4NWNIdTBtc2hqWlVsdUhBQlRSVHhzMFZXRzU2aTlMZXJ2RkZtdms?oc=5",
-        "source": "কালের কণ্ঠ",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 04 Nov 2026 22:33:01 GMT",
-        "summary": "চীনের ঐতিহ্যবাহী খাবারে ঢাকায় নতুন স্বাদের অভিজ্ঞতা &nbsp;&nbsp; কালের কণ্ঠ",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.kalerkantho.com/multimedia/capital/2026/11/05/1763092",
-        "imageAttemptedAt": "2026-11-04T23:17:05.354Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1lMDFJY1dxQ3FleUlVdjdFYXNCUVBsMm1EZVdPSi0tWndGdU9NclFsTTNPcUxJZi1EeTlqWkJpR2ZDY1ZZaURCRlJ1Q0w5SVM3?oc=5",
         "title": "খাবারের সন্ধানে এসে পানির গর্তে দুই হাতি, পরে উদ্ধার",
         "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1lMDFJY1dxQ3FleUlVdjdFYXNCUVBsMm1EZVdPSi0tWndGdU9NclFsTTNPcUxJZi1EeTlqWkJpR2ZDY1ZZaURCRlJ1Q0w5SVM3?oc=5",
@@ -966,6 +953,19 @@
         "image": "news-fallbacks/food.svg",
         "articleUrl": "https://www.shomoyeralo.com/news/393672",
         "imageAttemptedAt": "2026-11-04T17:35:36.192Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZMmRkMXprRVNpaGRmNFh1VEpiRzdOQU9vd3M4bTZGSDRsQ1VtX0RCbndNSUtTRHNQbTREdHoxQ056WExaX1pJRlcwUy01NVEyOFFWa0VSRzlLVjhrak9HUlU4VExrOWhSUnV6X2Z3OU0?oc=5",
+        "title": "চীনের ঐতিহ্যবাহী খাবারে ঢাকায় নতুন স্বাদের অভিজ্ঞতা",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZMmRkMXprRVNpaGRmNFh1VEpiRzdOQU9vd3M4bTZGSDRsQ1VtX0RCbndNSUtTRHNQbTREdHoxQ056WExaX1pJRlcwUy01NVEyOFFWa0VSRzlLVjhrak9HUlU4VExrOWhSUnV6X2Z3OU0?oc=5",
+        "source": "কালের কণ্ঠ",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 02:17:10 GMT",
+        "summary": "চীনের ঐতিহ্যবাহী খাবারে ঢাকায় নতুন স্বাদের অভিজ্ঞতা &nbsp;&nbsp; কালের কণ্ঠ",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.kalerkantho.com/multimedia/uncut/2026/11/05/1763109",
+        "imageAttemptedAt": "2026-11-05T02:29:14.391Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -995,16 +995,16 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tQVM5X1A5Nzl6NnpRZUFQY3dDVU5adFplLTQ1UnNNQmtzQ3R6RTNyU1NnNlhWNjZfdGVIanFfWDZtMEJ6YmRXRjVBbWtqbGpUb0gzQldHWlB1MGcxdGxONThqdEtEemlFNFZ6alFCM3Y1RlU?oc=5",
-        "title": "আমেরিকানদের আয়ের অর্ধেকই চলে যাচ্ছে খাদ্য ও আবাসনে",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tQVM5X1A5Nzl6NnpRZUFQY3dDVU5adFplLTQ1UnNNQmtzQ3R6RTNyU1NnNlhWNjZfdGVIanFfWDZtMEJ6YmRXRjVBbWtqbGpUb0gzQldHWlB1MGcxdGxONThqdEtEemlFNFZ6alFCM3Y1RlU?oc=5",
-        "source": "bd-pratidin.com",
+        "id": "https://news.google.com/rss/articles/CBMipgdBVV95cUxNZWxfM0xTRUhkLXVTMUQyenh4TFZGeGR2N29PdDRtRWdDdU5OUm51cEJzRjNQTm5HZFVYTHBGeE1fb2lmVVdNbjlnS1c1cHpPeFhjUlY5cWZ4N1gxME1EYnF2SFBMZG13Mko3Yk0taV9KckJwVzdqcjhRYno4X0hjMmRTejhEZHlBVXcyTDZycVdTZzN3YzVIdjM5bVlBQXU0b0hVYXhKSi1LTzdxWXJzSlJCcnJ4VUZtLVkwcUNDT0gtdEJNUjVaNm11MTRZV2pSSGN0YURucW1jTm1QSDdjaHpqTm1kUWNXYUduaDFFYnNCUkhMUGRYZGtFd3N3aE4yZk9BNW1KNE03Z2RsNGJlb1k3LWpLamtPRG9YdTBSX1FpLVNIMWFPM1ZSUWRrc2k4Y3lPS0tjSmtVejRzaEpGTlJNVDNESklGRU1NMGo1ZzdMdURScEFZZElMRTVXYXFHSGZ4SWtBWWZaOHd5MHNBSWs2NWdBcUd6U0ZtclI0Y0tlbkN4NjJfMlpLQ0hWYWdNTWt3Y0UtTTNWOTJPVlF5YXFHbUlUZHhrMGJRYkVoeC16NkpUMHhzVTVkTTVfZV9yUFZJcFh6NnVEQVUtMjk1VkE4WW5MX2lZRW5ycUtjOVlVbC1hS25WNDFpY3Jra09ZMFIwcHI2ZjFObElGeTNJWHVHcndnb0dxSV9XVS1EME9HTWdiemlYVUNyS2lWR1pLU18tb3kxZmtMVWR1N0NVcmpYOUR3eVhTT0s2V01vdFhTQkk1U2RYN1ZVVHdTLTk2SGd1RzY4Q2JJT3BBY0wzUjRzVVk4cGNOSVp1bzhTSmhkV3cyT1BqUUV0cGlFNm5jMktQSjBjYTZTSTlBUkl5ZGRFY0xWTk9LNWpscThSd1Z0TWREWGJFT2RWaVlUU2pGSGFyZlZ5NXhfMUp3UDgzd0FsOHJRc0VjRXhIWWtfenJqZDhYMXVyX3FQdGtodFh1dXZZTk10NFhRdlNJRkJfd0duY3ExTG1hV1VwVDM5Q0tzcWE5UXNQc2FQZHpvbU9UMHNKZ1l3NVpBRThQYWkzVGotZU1obERJRkhEUXNQd1ZnVWoyckRXM01vWVZMQ25ReThPV1pTWGQ4UjYyck5aQ1BMajhYaF9rMWZzYm9VWHo2VTdJTDRnX1pPZWZFNVg5UUtJQk0zWGhtcktIYUpINzN4SHJPa1ZWcER1QVJsUUQyOEpDY0NWTW9tNUM0YmxjXzd3RzN3?oc=5",
+        "title": "হাজীপাড়ায় অস্বাস্থ্যকর পরিবেশে খাবার তৈরি, দুই প্রতিষ্ঠানকে ৪৫ হাজার টাকা জরিমানা",
+        "link": "https://news.google.com/rss/articles/CBMipgdBVV95cUxNZWxfM0xTRUhkLXVTMUQyenh4TFZGeGR2N29PdDRtRWdDdU5OUm51cEJzRjNQTm5HZFVYTHBGeE1fb2lmVVdNbjlnS1c1cHpPeFhjUlY5cWZ4N1gxME1EYnF2SFBMZG13Mko3Yk0taV9KckJwVzdqcjhRYno4X0hjMmRTejhEZHlBVXcyTDZycVdTZzN3YzVIdjM5bVlBQXU0b0hVYXhKSi1LTzdxWXJzSlJCcnJ4VUZtLVkwcUNDT0gtdEJNUjVaNm11MTRZV2pSSGN0YURucW1jTm1QSDdjaHpqTm1kUWNXYUduaDFFYnNCUkhMUGRYZGtFd3N3aE4yZk9BNW1KNE03Z2RsNGJlb1k3LWpLamtPRG9YdTBSX1FpLVNIMWFPM1ZSUWRrc2k4Y3lPS0tjSmtVejRzaEpGTlJNVDNESklGRU1NMGo1ZzdMdURScEFZZElMRTVXYXFHSGZ4SWtBWWZaOHd5MHNBSWs2NWdBcUd6U0ZtclI0Y0tlbkN4NjJfMlpLQ0hWYWdNTWt3Y0UtTTNWOTJPVlF5YXFHbUlUZHhrMGJRYkVoeC16NkpUMHhzVTVkTTVfZV9yUFZJcFh6NnVEQVUtMjk1VkE4WW5MX2lZRW5ycUtjOVlVbC1hS25WNDFpY3Jra09ZMFIwcHI2ZjFObElGeTNJWHVHcndnb0dxSV9XVS1EME9HTWdiemlYVUNyS2lWR1pLU18tb3kxZmtMVWR1N0NVcmpYOUR3eVhTT0s2V01vdFhTQkk1U2RYN1ZVVHdTLTk2SGd1RzY4Q2JJT3BBY0wzUjRzVVk4cGNOSVp1bzhTSmhkV3cyT1BqUUV0cGlFNm5jMktQSjBjYTZTSTlBUkl5ZGRFY0xWTk9LNWpscThSd1Z0TWREWGJFT2RWaVlUU2pGSGFyZlZ5NXhfMUp3UDgzd0FsOHJRc0VjRXhIWWtfenJqZDhYMXVyX3FQdGtodFh1dXZZTk10NFhRdlNJRkJfd0duY3ExTG1hV1VwVDM5Q0tzcWE5UXNQc2FQZHpvbU9UMHNKZ1l3NVpBRThQYWkzVGotZU1obERJRkhEUXNQd1ZnVWoyckRXM01vWVZMQ25ReThPV1pTWGQ4UjYyck5aQ1BMajhYaF9rMWZzYm9VWHo2VTdJTDRnX1pPZWZFNVg5UUtJQk0zWGhtcktIYUpINzN4SHJPa1ZWcER1QVJsUUQyOEpDY0NWTW9tNUM0YmxjXzd3RzN3?oc=5",
+        "source": "Dhaka Today",
         "publisherUrl": "",
-        "publishedAt": "Wed, 04 Nov 2026 18:17:07 GMT",
-        "summary": "আমেরিকানদের আয়ের অর্ধেকই চলে যাচ্ছে খাদ্য ও আবাসনে &nbsp;&nbsp; bd-pratidin.com",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.bd-pratidin.com/international-news/2026/11/05/1321804",
-        "imageAttemptedAt": "2026-11-04T18:34:42.247Z",
+        "publishedAt": "Wed, 04 Nov 2026 13:48:00 GMT",
+        "summary": "হাজীপাড়ায় অস্বাস্থ্যকর পরিবেশে খাবার তৈরি, দুই প্রতিষ্ঠানকে ৪৫ হাজার টাকা জরিমানা &nbsp;&nbsp; Dhaka Today",
+        "image": "https://www.dhakatoday.com/imagestorages/2026-11/dhakatoday1793800247mkre4.jpg",
+        "articleUrl": "https://www.dhakatoday.com/news/93073/%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A7%80%E0%A6%AA%E0%A6%BE%E0%A7%9C%E0%A6%BE%E0%A7%9F-%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A4%E0%A7%88%E0%A6%B0%E0%A6%BF,-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A7%AA%E0%A7%AB-%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%9C%E0%A6%B0%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%BE",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -1026,10 +1026,10 @@
   "imageStats": {
     "total": 77,
     "fromRss": 0,
-    "fromArticleMetadata": 12,
+    "fromArticleMetadata": 15,
     "reusedCached": 12,
-    "actualPhotos": 12,
-    "fallbackIllustrations": 65,
+    "actualPhotos": 15,
+    "fallbackIllustrations": 62,
     "withImage": 77,
     "withoutImage": 0
   }
