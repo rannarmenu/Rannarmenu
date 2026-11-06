@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-06T20:55:54.438Z",
+  "generatedAt": "2026-11-06T21:36:01.335Z",
   "sponsors": {
     "somoy": [
       {
@@ -52,7 +52,7 @@
         "summary": "বীরত্বসূচক পদক পাচ্ছে র‌্যাব ডগ স্কোয়াডের কুকুর &nbsp;&nbsp; সময় নিউজ",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.somoynews.tv/news/2023-03-19/%E0%A6%AC%E0%A7%80%E0%A6%B0%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%82%E0%A6%9A%E0%A6%95-%E0%A6%AA%E0%A6%A6%E0%A6%95-%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%B0%E2%80%8C%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%A1%E0%A6%97-%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%A1%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%81%E0%A6%95%E0%A7%81%E0%A6%B0",
-        "imageAttemptedAt": "2026-11-05T21:16:31.334Z",
+        "imageAttemptedAt": "2026-11-06T21:36:03.605Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -163,12 +163,12 @@
       },
       {
         "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1vc2Rlai04ZGpxaHIxdmxQMERxZEhOc1NHZzB4aVEyMTNWaUd1VG9zRjNLREkxeDd3QXZV?oc=5",
-        "title": "2 - Maasranga Television",
+        "title": "2 - Maasranga TV",
         "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1vc2Rlai04ZGpxaHIxdmxQMERxZEhOc1NHZzB4aVEyMTNWaUd1VG9zRjNLREkxeDd3QXZV?oc=5",
         "source": "Maasranga TV",
         "publisherUrl": "",
         "publishedAt": "Thu, 22 Oct 2026 03:05:21 GMT",
-        "summary": "2 &nbsp;&nbsp; Maasranga Television",
+        "summary": "2 &nbsp;&nbsp; Maasranga TV",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/2/",
         "imageAttemptedAt": "2026-11-05T22:17:00.970Z",
@@ -329,7 +329,7 @@
         "summary": "মন্ত্রিসভায় অনুমোদন পেলো সৌরবিদ্যুৎ স্থাপন ও পাবলিক প্রকিউরমেন্ট আইন &nbsp;&nbsp; Jamuna Television",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.jamuna.tv/national/667295",
-        "imageAttemptedAt": "2026-11-05T21:16:31.334Z",
+        "imageAttemptedAt": "2026-11-06T21:36:03.605Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -343,6 +343,138 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.jamuna.tv/latest",
         "imageAttemptedAt": "2026-11-06T04:51:51.541Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      }
+    ],
+    "ntv": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1ZZjhSQjVOTUIxTFBMV3dpRkVpMW5sQUFaUkM1OVlNY3RwM2tELS1CTEQtVGUtNDIxZ2c?oc=5",
+        "title": "NTV: Latest Bangla News, Infotainment, Online & Live TV | NTV Online",
+        "link": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1ZZjhSQjVOTUIxTFBMV3dpRkVpMW5sQUFaUkM1OVlNY3RwM2tELS1CTEQtVGUtNDIxZ2c?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 21 Apr 2017 03:02:59 GMT",
+        "summary": "NTV: Latest Bangla News, Infotainment, Online & Live TV | NTV Online &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "",
+        "imageAttemptedAt": "2026-11-06T00:54:03.196Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNFNiUG11UHNuWEUyaktoYVpoQ0RpbXhBcVZtMnVtNDdpajJqSncyWElOWWsySEJfbjdmSkNqMDgyOXVsTVZBVjNPWlF5Q0gxQ1JpRVY0QUlCWG1xbE5wUkFPRG5Uc0ppdEZobmt2bVRtbTNaaWZiMHBBYjlFOUt6Yld4TTFOcnpUdk9uWFlB?oc=5",
+        "title": "সন্ধ্যার খবর : ৬ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNFNiUG11UHNuWEUyaktoYVpoQ0RpbXhBcVZtMnVtNDdpajJqSncyWElOWWsySEJfbjdmSkNqMDgyOXVsTVZBVjNPWlF5Q0gxQ1JpRVY0QUlCWG1xbE5wUkFPRG5Uc0ppdEZobmt2bVRtbTNaaWZiMHBBYjlFOUt6Yld4TTFOcnpUdk9uWFlB?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 16:50:29 GMT",
+        "summary": "সন্ধ্যার খবর : ৬ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/shondhyar-khobor/shondhar-khobor-6-november-2026",
+        "imageAttemptedAt": "2026-11-06T17:19:39.714Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9YMFhpLThrR3NacnN3dzNUUWc2aGhRQ054bTZRYlVuVHFpd1Y2dmhaVGgzSEVIWDljMmMxb0hac2M2U3QtY3VBamM2bjBpbnV6cGJ3LVBsbENqTzRJNzBMeWhmenhYOG5vRnNnRk9lYXpEZFVIc2t1VQ?oc=5",
+        "title": "রাতের আড্ডা : পর্ব ৭০",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9YMFhpLThrR3NacnN3dzNUUWc2aGhRQ054bTZRYlVuVHFpd1Y2dmhaVGgzSEVIWDljMmMxb0hac2M2U3QtY3VBamM2bjBpbnV6cGJ3LVBsbENqTzRJNzBMeWhmenhYOG5vRnNnRk9lYXpEZFVIc2t1VQ?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 20:06:56 GMT",
+        "summary": "রাতের আড্ডা : পর্ব ৭০ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/entertainment/rater-adda/rater-adda-ep-70",
+        "imageAttemptedAt": "2026-11-06T20:55:56.757Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSkozckRNV2xMZndzcUhrU3QtYlF2UV9vU1YtQzh6TWJJMk1EWEZKWUZTaFp6X09Ed1pia3FIb05FNTBQSWY5Z1Zvc3VKUldWUlNZeFBIUmU1cjVaQjdIYTlvM0htUE9JNGxVZnVTb01sWWVsc0x0VnVrTDR1SkJ2NDAwU0Q?oc=5",
+        "title": "ইভনিং নিউজ : ৬ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSkozckRNV2xMZndzcUhrU3QtYlF2UV9vU1YtQzh6TWJJMk1EWEZKWUZTaFp6X09Ed1pia3FIb05FNTBQSWY5Z1Zvc3VKUldWUlNZeFBIUmU1cjVaQjdIYTlvM0htUE9JNGxVZnVTb01sWWVsc0x0VnVrTDR1SkJ2NDAwU0Q?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 13:38:54 GMT",
+        "summary": "ইভনিং নিউজ : ৬ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/evening-news/evening-news-6-november-2026",
+        "imageAttemptedAt": "2026-11-06T14:36:51.089Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN3JDMGxBQjNFbnVVMFZvem13S2RGeXBxR1FxQnBXekh1eDdrdVpoMGgxZnpYT0otcHBjek9ISzlxWHhTaGRrNlU3TUdSRFB1RktqeDlORmxSQVNBUm04cDBuOHBmRllPeVN4RzJ0WkdsZF9va2lfbktJaXAycVJaZWpNbURCTmZra0dvcw?oc=5",
+        "title": "সকালের খবর : ৬ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN3JDMGxBQjNFbnVVMFZvem13S2RGeXBxR1FxQnBXekh1eDdrdVpoMGgxZnpYT0otcHBjek9ISzlxWHhTaGRrNlU3TUdSRFB1RktqeDlORmxSQVNBUm04cDBuOHBmRllPeVN4RzJ0WkdsZF9va2lfbktJaXAycVJaZWpNbURCTmZra0dvcw?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 05:21:58 GMT",
+        "summary": "সকালের খবর : ৬ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/shokaler-khobor/shokaler-khobor-6-november-2026",
+        "imageAttemptedAt": "2026-11-06T05:52:09.200Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb3ZxanRkaEdWNUF3RGFCamdtei1TUlR4SFFLRDU2NVEwOWNkQ0RGNnBpUDhKNU92WHBMbFdhV3RRSER0OW0wbW1QOUhkOWNnRjk2YnRDVjZOVlRmdmlFcDhabjllVDE3SDZRN0ViRnBUMG9UUF9zU2Z5b3lMV3ItSldENDd3OUtOVFRwSUlqSHJQZ0MyLTQ0?oc=5",
+        "title": "মধ্যরাতের খবর : ৭ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb3ZxanRkaEdWNUF3RGFCamdtei1TUlR4SFFLRDU2NVEwOWNkQ0RGNnBpUDhKNU92WHBMbFdhV3RRSER0OW0wbW1QOUhkOWNnRjk2YnRDVjZOVlRmdmlFcDhabjllVDE3SDZRN0ViRnBUMG9UUF9zU2Z5b3lMV3ItSldENDd3OUtOVFRwSUlqSHJQZ0MyLTQ0?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 21:02:21 GMT",
+        "summary": "মধ্যরাতের খবর : ৭ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/moddhoraater-khobor/moddho-rater-khobor-7-november-2026",
+        "imageAttemptedAt": "2026-11-06T21:36:03.605Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMDZjOUw0cFE2UEpIMEl1dWJJYnRMSWthRzdHaU1kbGpVQXpfZ0pPa2NEOG40TzlGNi1sZk1yMFFGOGF6RW9aNzlxSmZpYUp2d1c5NWZlNFJMXzlxODAwM2ctMTVvaVNQeEUteGNSZ1RlQm44NTF1ZFl3U2Z5ay1sMEVjaWd5MkhzUkNHZWJZZVU3QQ?oc=5",
+        "title": "মধ্যাহ্নের খবর : ৬ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMDZjOUw0cFE2UEpIMEl1dWJJYnRMSWthRzdHaU1kbGpVQXpfZ0pPa2NEOG40TzlGNi1sZk1yMFFGOGF6RW9aNzlxSmZpYUp2d1c5NWZlNFJMXzlxODAwM2ctMTVvaVNQeEUteGNSZ1RlQm44NTF1ZFl3U2Z5ay1sMEVjaWd5MkhzUkNHZWJZZVU3QQ?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 07:54:06 GMT",
+        "summary": "মধ্যাহ্নের খবর : ৬ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/modhyanner-khobor/modhyanner-khobor-6-november-2026",
+        "imageAttemptedAt": "2026-11-06T09:25:28.842Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbGtjRzIwRGpscXpROFl6aEVOY3ZqOWRUNVl6R0NtZ2FUNW9NR1ZCWkVfSzFwSlNyaGZWQUxhZnR1Wk05NEVscmxzcUJVR3BzaE1kU1lBY1RxYzd4cGNvb0lFRVN4cW1DOUd6LXFNXzRMTnhxS0ZpN3p1NXhCcGxfS1N1c3didw?oc=5",
+        "title": "সংলাপ প্রতিদিন (লাইভ) : পর্ব ৭০৯",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbGtjRzIwRGpscXpROFl6aEVOY3ZqOWRUNVl6R0NtZ2FUNW9NR1ZCWkVfSzFwSlNyaGZWQUxhZnR1Wk05NEVscmxzcUJVR3BzaE1kU1lBY1RxYzd4cGNvb0lFRVN4cW1DOUd6LXFNXzRMTnhxS0ZpN3p1NXhCcGxfS1N1c3didw?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 15:06:47 GMT",
+        "summary": "সংলাপ প্রতিদিন (লাইভ) : পর্ব ৭০৯ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/discussion/songlap-protidin/songlap-protidin-ep-709",
+        "imageAttemptedAt": "2026-11-06T15:28:07.537Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVkM2V01QeXdZSUJOamNRalRua2J0T19sbW1sTHpEa0pPVHludlNhMW1zcEpQT0ZWdXBiVXF4N095dTZEZHgzYXhIZHRnZDFHVGJVcmRDNHVHXzJQWC15WHpJYzd6LURrWS1oMGotZEZwN3hsQmhfUWdyUy1JYUdJSTdqMUR5Zw?oc=5",
+        "title": "এক্সপার্ট টুডেস কিচেন : পর্ব ৩৬৮",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVkM2V01QeXdZSUJOamNRalRua2J0T19sbW1sTHpEa0pPVHludlNhMW1zcEpQT0ZWdXBiVXF4N095dTZEZHgzYXhIZHRnZDFHVGJVcmRDNHVHXzJQWC15WHpJYzd6LURrWS1oMGotZEZwN3hsQmhfUWdyUy1JYUdJSTdqMUR5Zw?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 15:10:49 GMT",
+        "summary": "এক্সপার্ট টুডেস কিচেন : পর্ব ৩৬৮ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/food/expert-todays-kitchen/xpert-todays-kitchen-368",
+        "imageAttemptedAt": "2026-11-06T17:19:39.714Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc2xMNVd3blROYldjNlpxZzk1Unc4eDBmZE9CaktSLXJSMWxDOThBM1VXN3BvMHNDNW9icnFIMlZJalFNS1VsRTBpMmZXV1B2RmVnVmRwWWhiYUZBSEhHN1pNbXBTX0UtaGpRYnRHbmVJZXdYWEhUMFhyQlVXRG1GTXlJdk90dVJTTVFB?oc=5",
+        "title": "দুপুরের খবর : ৬ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc2xMNVd3blROYldjNlpxZzk1Unc4eDBmZE9CaktSLXJSMWxDOThBM1VXN3BvMHNDNW9icnFIMlZJalFNS1VsRTBpMmZXV1B2RmVnVmRwWWhiYUZBSEhHN1pNbXBTX0UtaGpRYnRHbmVJZXdYWEhUMFhyQlVXRG1GTXlJdk90dVJTTVFB?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 09:03:27 GMT",
+        "summary": "দুপুরের খবর : ৬ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/dupurer-khobor/dupurer-khobor-06-november-2026",
+        "imageAttemptedAt": "2026-11-06T10:29:19.663Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -475,138 +607,6 @@
         "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/untitled-10-1793810105.jpg",
         "articleUrl": "https://www.channel24bd.tv/national/article/356904/%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%9F%E0%A6%BF%E0%A6%95%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%80-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%AE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A7%A9-%E0%A6%B8%E0%A6%A6%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF",
         "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      }
-    ],
-    "ntv": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1ZZjhSQjVOTUIxTFBMV3dpRkVpMW5sQUFaUkM1OVlNY3RwM2tELS1CTEQtVGUtNDIxZ2c?oc=5",
-        "title": "NTV: Latest Bangla News, Infotainment, Online & Live TV | NTV Online",
-        "link": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1ZZjhSQjVOTUIxTFBMV3dpRkVpMW5sQUFaUkM1OVlNY3RwM2tELS1CTEQtVGUtNDIxZ2c?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 21 Apr 2017 03:02:59 GMT",
-        "summary": "NTV: Latest Bangla News, Infotainment, Online & Live TV | NTV Online &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "",
-        "imageAttemptedAt": "2026-11-06T00:54:03.196Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNFNiUG11UHNuWEUyaktoYVpoQ0RpbXhBcVZtMnVtNDdpajJqSncyWElOWWsySEJfbjdmSkNqMDgyOXVsTVZBVjNPWlF5Q0gxQ1JpRVY0QUlCWG1xbE5wUkFPRG5Uc0ppdEZobmt2bVRtbTNaaWZiMHBBYjlFOUt6Yld4TTFOcnpUdk9uWFlB?oc=5",
-        "title": "সন্ধ্যার খবর : ৬ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNFNiUG11UHNuWEUyaktoYVpoQ0RpbXhBcVZtMnVtNDdpajJqSncyWElOWWsySEJfbjdmSkNqMDgyOXVsTVZBVjNPWlF5Q0gxQ1JpRVY0QUlCWG1xbE5wUkFPRG5Uc0ppdEZobmt2bVRtbTNaaWZiMHBBYjlFOUt6Yld4TTFOcnpUdk9uWFlB?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 16:50:29 GMT",
-        "summary": "সন্ধ্যার খবর : ৬ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/shondhyar-khobor/shondhar-khobor-6-november-2026",
-        "imageAttemptedAt": "2026-11-06T17:19:39.714Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9YMFhpLThrR3NacnN3dzNUUWc2aGhRQ054bTZRYlVuVHFpd1Y2dmhaVGgzSEVIWDljMmMxb0hac2M2U3QtY3VBamM2bjBpbnV6cGJ3LVBsbENqTzRJNzBMeWhmenhYOG5vRnNnRk9lYXpEZFVIc2t1VQ?oc=5",
-        "title": "রাতের আড্ডা : পর্ব ৭০",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9YMFhpLThrR3NacnN3dzNUUWc2aGhRQ054bTZRYlVuVHFpd1Y2dmhaVGgzSEVIWDljMmMxb0hac2M2U3QtY3VBamM2bjBpbnV6cGJ3LVBsbENqTzRJNzBMeWhmenhYOG5vRnNnRk9lYXpEZFVIc2t1VQ?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 20:06:56 GMT",
-        "summary": "রাতের আড্ডা : পর্ব ৭০ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/entertainment/rater-adda/rater-adda-ep-70",
-        "imageAttemptedAt": "2026-11-06T20:55:56.757Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSkozckRNV2xMZndzcUhrU3QtYlF2UV9vU1YtQzh6TWJJMk1EWEZKWUZTaFp6X09Ed1pia3FIb05FNTBQSWY5Z1Zvc3VKUldWUlNZeFBIUmU1cjVaQjdIYTlvM0htUE9JNGxVZnVTb01sWWVsc0x0VnVrTDR1SkJ2NDAwU0Q?oc=5",
-        "title": "ইভনিং নিউজ : ৬ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSkozckRNV2xMZndzcUhrU3QtYlF2UV9vU1YtQzh6TWJJMk1EWEZKWUZTaFp6X09Ed1pia3FIb05FNTBQSWY5Z1Zvc3VKUldWUlNZeFBIUmU1cjVaQjdIYTlvM0htUE9JNGxVZnVTb01sWWVsc0x0VnVrTDR1SkJ2NDAwU0Q?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 13:38:54 GMT",
-        "summary": "ইভনিং নিউজ : ৬ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/evening-news/evening-news-6-november-2026",
-        "imageAttemptedAt": "2026-11-06T14:36:51.089Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN3JDMGxBQjNFbnVVMFZvem13S2RGeXBxR1FxQnBXekh1eDdrdVpoMGgxZnpYT0otcHBjek9ISzlxWHhTaGRrNlU3TUdSRFB1RktqeDlORmxSQVNBUm04cDBuOHBmRllPeVN4RzJ0WkdsZF9va2lfbktJaXAycVJaZWpNbURCTmZra0dvcw?oc=5",
-        "title": "সকালের খবর : ৬ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN3JDMGxBQjNFbnVVMFZvem13S2RGeXBxR1FxQnBXekh1eDdrdVpoMGgxZnpYT0otcHBjek9ISzlxWHhTaGRrNlU3TUdSRFB1RktqeDlORmxSQVNBUm04cDBuOHBmRllPeVN4RzJ0WkdsZF9va2lfbktJaXAycVJaZWpNbURCTmZra0dvcw?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 05:21:58 GMT",
-        "summary": "সকালের খবর : ৬ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/shokaler-khobor/shokaler-khobor-6-november-2026",
-        "imageAttemptedAt": "2026-11-06T05:52:09.200Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMDZjOUw0cFE2UEpIMEl1dWJJYnRMSWthRzdHaU1kbGpVQXpfZ0pPa2NEOG40TzlGNi1sZk1yMFFGOGF6RW9aNzlxSmZpYUp2d1c5NWZlNFJMXzlxODAwM2ctMTVvaVNQeEUteGNSZ1RlQm44NTF1ZFl3U2Z5ay1sMEVjaWd5MkhzUkNHZWJZZVU3QQ?oc=5",
-        "title": "মধ্যাহ্নের খবর : ৬ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMDZjOUw0cFE2UEpIMEl1dWJJYnRMSWthRzdHaU1kbGpVQXpfZ0pPa2NEOG40TzlGNi1sZk1yMFFGOGF6RW9aNzlxSmZpYUp2d1c5NWZlNFJMXzlxODAwM2ctMTVvaVNQeEUteGNSZ1RlQm44NTF1ZFl3U2Z5ay1sMEVjaWd5MkhzUkNHZWJZZVU3QQ?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 07:54:06 GMT",
-        "summary": "মধ্যাহ্নের খবর : ৬ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/modhyanner-khobor/modhyanner-khobor-6-november-2026",
-        "imageAttemptedAt": "2026-11-06T09:25:28.842Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbGtjRzIwRGpscXpROFl6aEVOY3ZqOWRUNVl6R0NtZ2FUNW9NR1ZCWkVfSzFwSlNyaGZWQUxhZnR1Wk05NEVscmxzcUJVR3BzaE1kU1lBY1RxYzd4cGNvb0lFRVN4cW1DOUd6LXFNXzRMTnhxS0ZpN3p1NXhCcGxfS1N1c3didw?oc=5",
-        "title": "সংলাপ প্রতিদিন (লাইভ) : পর্ব ৭০৯",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbGtjRzIwRGpscXpROFl6aEVOY3ZqOWRUNVl6R0NtZ2FUNW9NR1ZCWkVfSzFwSlNyaGZWQUxhZnR1Wk05NEVscmxzcUJVR3BzaE1kU1lBY1RxYzd4cGNvb0lFRVN4cW1DOUd6LXFNXzRMTnhxS0ZpN3p1NXhCcGxfS1N1c3didw?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 15:06:47 GMT",
-        "summary": "সংলাপ প্রতিদিন (লাইভ) : পর্ব ৭০৯ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/discussion/songlap-protidin/songlap-protidin-ep-709",
-        "imageAttemptedAt": "2026-11-06T15:28:07.537Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVkM2V01QeXdZSUJOamNRalRua2J0T19sbW1sTHpEa0pPVHludlNhMW1zcEpQT0ZWdXBiVXF4N095dTZEZHgzYXhIZHRnZDFHVGJVcmRDNHVHXzJQWC15WHpJYzd6LURrWS1oMGotZEZwN3hsQmhfUWdyUy1JYUdJSTdqMUR5Zw?oc=5",
-        "title": "এক্সপার্ট টুডেস কিচেন : পর্ব ৩৬৮",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVkM2V01QeXdZSUJOamNRalRua2J0T19sbW1sTHpEa0pPVHludlNhMW1zcEpQT0ZWdXBiVXF4N095dTZEZHgzYXhIZHRnZDFHVGJVcmRDNHVHXzJQWC15WHpJYzd6LURrWS1oMGotZEZwN3hsQmhfUWdyUy1JYUdJSTdqMUR5Zw?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 15:10:49 GMT",
-        "summary": "এক্সপার্ট টুডেস কিচেন : পর্ব ৩৬৮ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/food/expert-todays-kitchen/xpert-todays-kitchen-368",
-        "imageAttemptedAt": "2026-11-06T17:19:39.714Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc2xMNVd3blROYldjNlpxZzk1Unc4eDBmZE9CaktSLXJSMWxDOThBM1VXN3BvMHNDNW9icnFIMlZJalFNS1VsRTBpMmZXV1B2RmVnVmRwWWhiYUZBSEhHN1pNbXBTX0UtaGpRYnRHbmVJZXdYWEhUMFhyQlVXRG1GTXlJdk90dVJTTVFB?oc=5",
-        "title": "দুপুরের খবর : ৬ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc2xMNVd3blROYldjNlpxZzk1Unc4eDBmZE9CaktSLXJSMWxDOThBM1VXN3BvMHNDNW9icnFIMlZJalFNS1VsRTBpMmZXV1B2RmVnVmRwWWhiYUZBSEhHN1pNbXBTX0UtaGpRYnRHbmVJZXdYWEhUMFhyQlVXRG1GTXlJdk90dVJTTVFB?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 09:03:27 GMT",
-        "summary": "দুপুরের খবর : ৬ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/dupurer-khobor/dupurer-khobor-06-november-2026",
-        "imageAttemptedAt": "2026-11-06T10:29:19.663Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObEZkYzAwN0t0TjBxV2luVjlka0NTa184UVBkQWRXUXd4OEV5OXhkd3U2SDM0YUZhd0dRWXRpNWNKQ2g1LW1aX2p5a3o0UzkzLVNCMk9hd2lxbHBrMXEyZXNSMndURUhFeFpwbThmWG9EdDBCcER2ZGppdHJYdXcyVHpIdHFZdw?oc=5",
-        "title": "নাটক : জংলী ফুলের ঘ্রাণ",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObEZkYzAwN0t0TjBxV2luVjlka0NTa184UVBkQWRXUXd4OEV5OXhkd3U2SDM0YUZhd0dRWXRpNWNKQ2g1LW1aX2p5a3o0UzkzLVNCMk9hd2lxbHBrMXEyZXNSMndURUhFeFpwbThmWG9EdDBCcER2ZGppdHJYdXcyVHpIdHFZdw?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 09:07:45 GMT",
-        "summary": "নাটক : জংলী ফুলের ঘ্রাণ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/drama/single-episode-drama/natok-jongli-fuler-ghran",
-        "imageAttemptedAt": "2026-11-06T12:22:16.775Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ]
@@ -904,19 +904,6 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XNVZTdGpCMHRtYl8zT2l0X0puTk90dnUxOVhHUVR2SkZlWGpFMVl4NFJGMFMxWWxYSWRBZ19XNnV0b1hCbXJ1QmFYSXZBTEIycWNvRA?oc=5",
-        "title": "জীবনসঙ্গীর মধ্যে পাঁচ গুণ চান সাই পল্লবী, রান্না জানলে বাড়তি সুবিধা",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XNVZTdGpCMHRtYl8zT2l0X0puTk90dnUxOVhHUVR2SkZlWGpFMVl4NFJGMFMxWWxYSWRBZ19XNnV0b1hCbXJ1QmFYSXZBTEIycWNvRA?oc=5",
-        "source": "Daily Bhorer Dak",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 16:57:17 GMT",
-        "summary": "জীবনসঙ্গীর মধ্যে পাঁচ গুণ চান সাই পল্লবী, রান্না জানলে বাড়তি সুবিধা &nbsp;&nbsp; Daily Bhorer Dak",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.dailybhorerdak.com/news/264629",
-        "imageAttemptedAt": "2026-11-06T11:26:52.624Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IV1ZLTEpwTHdlbVJ3YUgyNHkwdnFhWHhfd1ZvMUtoYXgyT25aOElkVEFsSzVXdDhpVkVKcjFYMmhNUkZlNVlrUHJ6dTBHYTBIYUlvcUtnZ280SUQ5UnZrUXp5NlRjajQ0QW1BcA?oc=5",
         "title": "মিরপুরে চলছে ২ দিনব্যাপী আদিবাসী খাদ্য ও শস্য মেলা",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IV1ZLTEpwTHdlbVJ3YUgyNHkwdnFhWHhfd1ZvMUtoYXgyT25aOElkVEFsSzVXdDhpVkVKcjFYMmhNUkZlNVlrUHJ6dTBHYTBIYUlvcUtnZ280SUQ5UnZrUXp5NlRjajQ0QW1BcA?oc=5",
@@ -927,6 +914,19 @@
         "image": "https://bangla.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/mirpur%20indegenous%20fair.png",
         "articleUrl": "https://bangla.thedailystar.net/news/bangladesh/news-3978321",
         "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XNVZTdGpCMHRtYl8zT2l0X0puTk90dnUxOVhHUVR2SkZlWGpFMVl4NFJGMFMxWWxYSWRBZ19XNnV0b1hCbXJ1QmFYSXZBTEIycWNvRA?oc=5",
+        "title": "জীবনসঙ্গীর মধ্যে পাঁচ গুণ চান সাই পল্লবী, রান্না জানলে বাড়তি সুবিধা",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XNVZTdGpCMHRtYl8zT2l0X0puTk90dnUxOVhHUVR2SkZlWGpFMVl4NFJGMFMxWWxYSWRBZ19XNnV0b1hCbXJ1QmFYSXZBTEIycWNvRA?oc=5",
+        "source": "Daily Bhorer Dak",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 16:57:17 GMT",
+        "summary": "জীবনসঙ্গীর মধ্যে পাঁচ গুণ চান সাই পল্লবী, রান্না জানলে বাড়তি সুবিধা &nbsp;&nbsp; Daily Bhorer Dak",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.dailybhorerdak.com/news/264629",
+        "imageAttemptedAt": "2026-11-06T11:26:52.624Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -982,19 +982,6 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHbUlld2Y0TTlsM25MVEtZdEFIQmlLN1dKZEhfTE02UEtUNmtmMjNTeWZ1cUlkYzhmTjB4cmJXMHRTajU1dWpwUjZXOEhqS2s?oc=5",
-        "title": "অ্যালুমিনিয়ামের হাঁড়ি-পাতিলে খাবারে মিশছে বিষাক্ত সিসা, শিশুদের বড় ঝুঁকি",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHbUlld2Y0TTlsM25MVEtZdEFIQmlLN1dKZEhfTE02UEtUNmtmMjNTeWZ1cUlkYzhmTjB4cmJXMHRTajU1dWpwUjZXOEhqS2s?oc=5",
-        "source": "Bd24live",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 13:50:45 GMT",
-        "summary": "অ্যালুমিনিয়ামের হাঁড়ি-পাতিলে খাবারে মিশছে বিষাক্ত সিসা, শিশুদের বড় ঝুঁকি &nbsp;&nbsp; Bd24live",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.bd24live.com/bangla/812090",
-        "imageAttemptedAt": "2026-11-06T20:55:56.757Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsaV80QUFLbXRXenNIeXI2SWE5eW1XWEIwZG40N3hlRWlOT0pfcDh5WVlQZlR3VUNOUWp0bGhJMWw4cHU2QkxNZTV3VTNsY0VGTnNUMnktVVItZm9wSVF6b1lyV3J0T1hlTVhv0gFwQVVfeXFMTmpaN1NmQ1h2X2U0VlZYX2pLMTZpT1gyR0NOSkpzN0pTRkRqVkFlREJVdTRyV0JQLVBnaldCZFhzankxZ1NIeXh2cUhZajJvdHBTd0M4Z2FiNFh3NHBDWmhCUVRQSlB3TmVYbThoX0NHZg?oc=5",
         "title": "রাজধানীতে দুই দিনব্যাপী ‘আদিবাসী খাদ্য ও শস্য মেলার’ উদ্বোধন",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsaV80QUFLbXRXenNIeXI2SWE5eW1XWEIwZG40N3hlRWlOT0pfcDh5WVlQZlR3VUNOUWp0bGhJMWw4cHU2QkxNZTV3VTNsY0VGTnNUMnktVVItZm9wSVF6b1lyV3J0T1hlTVhv0gFwQVVfeXFMTmpaN1NmQ1h2X2U0VlZYX2pLMTZpT1gyR0NOSkpzN0pTRkRqVkFlREJVdTRyV0JQLVBnaldCZFhzankxZ1NIeXh2cUhZajJvdHBTd0M4Z2FiNFh3NHBDWmhCUVRQSlB3TmVYbThoX0NHZg?oc=5",
@@ -1006,6 +993,19 @@
         "articleUrl": "https://www.ajkerpatrika.com/bangladesh/dhaka/ajp6jcswbd03t",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMitgRBVV95cUxPc2tZZkhmRGdFR0VjaHdMY1g2cVVXbDN0dHRVQTVUcjR4dUUwcEdhZXExQ2Nyemd1UnFRU2F4b2ZROGNCWWtMd2tpMHNjWmczVnVBRmJoNzVCdjFSTXBnNzN3VExWZWRXZ3pESllmbDhXd1BaWG1lbUkzdUZzU0M0Z1JjMERTLXozTVhmaWtMRGpweVc1TkJnYk9CUi1jcUlQbXdqdkZ6N0VwUkd4dDdlQnQxODV5YjdRbFdOWjgyV3p2UUoway1hTDRPdW92bjd6TVNVUkhjQkIxNEF4c0pPS2pVZ3VPcHl4WTRQTVRTa0tUU2pXQzFfNFh4SVZwM1hsTVhjR3BHd1V5SU4zQ1J3dXNfcTd0bTNEWldfMEFWVG55U2drRHJXU3U1TW9VeXBxYWF2TFd3c0xrbFNKdzZyVExjY3NnT2lSWWM1UEpnY2ZaMEVRdkU5T29DWXlVUE1XaGJZcm1SeTYzRlpleWJZRG0wYVpOZDV0RnJlX1o0QjZVOC1oQ0xFS0ZJNDNkZEVkWXVjX3p6NnJoeHk2OGk3cXRnMjV2RXZkZlBBSEYzaUprMVBNdkNiMExwMlB1ekZ2SVY4MElIbnZJZjdmakNfWU1xR0k1c0lOdUJJYnhiVXVYR1p3U2lrX01xaTZzWjYyZFZhTHlHTmtnT0c1ekZZQkFvWm5TUkZsWnpMc0V3UWdWWUFvNEt3UGZYYU1FeTJNbkVrUkY0am5aZnhETFJaS0sta0cyd9IBuwRBVV95cUxNd3J2VXU0TUYtTFJnZDFkU2pYcEVreHNPUHBORGlUSWc5cnRFNDZXWE9nREc4M3hKd2ZPSWtrRlhKOVJVRU13LUhvQjJtZXdYRWFCZTNhNVk3Y1B3ZzRnRmowbzhwTVZ0UWRKTGlfRUhtZUhfZV9MRGtYNG5XZ2tKa2JqSUJBSVN6MkY5dVhXeERVTWNpNTNCMXVRRDA1aDdHYTFHb0VVWkFFZFBCS2pFUS05aVpmUWhVUEswei16T3gyQmdlQ1k1endaQ3d3b3VaYk90ZmZMdUM2aWVoNG9NRjJMQ2tjNnNBdEZLUm1QSHUybFlhRkV5dXhlOXdxbkozYWZ2TG54YWw4SXo2V1F6V1Z2cFVIOGhvLWltQ0ROeHFMWlpITVdTVzRnMmtMTkNzUThNcTNzUHZHMmVjUVZIOEZDaXlrTWwxOGdKMkpJSWFXdGZHaGlLVTQ3eTJST1hQVDBBQ0hRY2J2TlgwQnhfOGhWNXllaEpBQ0lDNjh3TDdLTEJhbzlpcnFkQ0lpZVluVERabERxV2JlMVpIOVJMVDNUNjNtMW81TkJWZUxGZmduYTJWY0pLNjNlVkZpUHMxQldsNVZMR28yRUU4Z2hhQ0RjNHVqQVhlQ0YtQnZzQjVYWVZKUlMxMGtiYXlTMFl3VXpMTW1WQk5TZnBRMDVLX0R6TG1henlsY0stOEg1amdfMXQ3dkZWdzFUVGlUZ0ROVEM3Zm1fWDNfQUQ0VV9MR0g5dUh1VjNLb1RF?oc=5",
+        "title": "রাজধানীতে আদিবাসী খাদ্য ও শস্য মেলার উদ্বোধন",
+        "link": "https://news.google.com/rss/articles/CBMitgRBVV95cUxPc2tZZkhmRGdFR0VjaHdMY1g2cVVXbDN0dHRVQTVUcjR4dUUwcEdhZXExQ2Nyemd1UnFRU2F4b2ZROGNCWWtMd2tpMHNjWmczVnVBRmJoNzVCdjFSTXBnNzN3VExWZWRXZ3pESllmbDhXd1BaWG1lbUkzdUZzU0M0Z1JjMERTLXozTVhmaWtMRGpweVc1TkJnYk9CUi1jcUlQbXdqdkZ6N0VwUkd4dDdlQnQxODV5YjdRbFdOWjgyV3p2UUoway1hTDRPdW92bjd6TVNVUkhjQkIxNEF4c0pPS2pVZ3VPcHl4WTRQTVRTa0tUU2pXQzFfNFh4SVZwM1hsTVhjR3BHd1V5SU4zQ1J3dXNfcTd0bTNEWldfMEFWVG55U2drRHJXU3U1TW9VeXBxYWF2TFd3c0xrbFNKdzZyVExjY3NnT2lSWWM1UEpnY2ZaMEVRdkU5T29DWXlVUE1XaGJZcm1SeTYzRlpleWJZRG0wYVpOZDV0RnJlX1o0QjZVOC1oQ0xFS0ZJNDNkZEVkWXVjX3p6NnJoeHk2OGk3cXRnMjV2RXZkZlBBSEYzaUprMVBNdkNiMExwMlB1ekZ2SVY4MElIbnZJZjdmakNfWU1xR0k1c0lOdUJJYnhiVXVYR1p3U2lrX01xaTZzWjYyZFZhTHlHTmtnT0c1ekZZQkFvWm5TUkZsWnpMc0V3UWdWWUFvNEt3UGZYYU1FeTJNbkVrUkY0am5aZnhETFJaS0sta0cyd9IBuwRBVV95cUxNd3J2VXU0TUYtTFJnZDFkU2pYcEVreHNPUHBORGlUSWc5cnRFNDZXWE9nREc4M3hKd2ZPSWtrRlhKOVJVRU13LUhvQjJtZXdYRWFCZTNhNVk3Y1B3ZzRnRmowbzhwTVZ0UWRKTGlfRUhtZUhfZV9MRGtYNG5XZ2tKa2JqSUJBSVN6MkY5dVhXeERVTWNpNTNCMXVRRDA1aDdHYTFHb0VVWkFFZFBCS2pFUS05aVpmUWhVUEswei16T3gyQmdlQ1k1endaQ3d3b3VaYk90ZmZMdUM2aWVoNG9NRjJMQ2tjNnNBdEZLUm1QSHUybFlhRkV5dXhlOXdxbkozYWZ2TG54YWw4SXo2V1F6V1Z2cFVIOGhvLWltQ0ROeHFMWlpITVdTVzRnMmtMTkNzUThNcTNzUHZHMmVjUVZIOEZDaXlrTWwxOGdKMkpJSWFXdGZHaGlLVTQ3eTJST1hQVDBBQ0hRY2J2TlgwQnhfOGhWNXllaEpBQ0lDNjh3TDdLTEJhbzlpcnFkQ0lpZVluVERabERxV2JlMVpIOVJMVDNUNjNtMW81TkJWZUxGZmduYTJWY0pLNjNlVkZpUHMxQldsNVZMR28yRUU4Z2hhQ0RjNHVqQVhlQ0YtQnZzQjVYWVZKUlMxMGtiYXlTMFl3VXpMTW1WQk5TZnBRMDVLX0R6TG1henlsY0stOEg1amdfMXQ3dkZWdzFUVGlUZ0ROVEM3Zm1fWDNfQUQ0VV9MR0g5dUh1VjNLb1RF?oc=5",
+        "source": "দেশ রূপান্তর",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 10:16:34 GMT",
+        "summary": "রাজধানীতে আদিবাসী খাদ্য ও শস্য মেলার উদ্বোধন &nbsp;&nbsp; দেশ রূপান্তর",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.deshrupantor.com/733109/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%B0-%E0%A6%AE%E0%A6%BF%E0%A6%B0%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%80-%E0%A6%86%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%93",
+        "imageAttemptedAt": "2026-11-06T21:36:03.605Z",
+        "imageFallback": "news-fallbacks/food.svg"
       }
     ]
   },
@@ -1014,7 +1014,7 @@
     "total": 76,
     "fromRss": 0,
     "fromArticleMetadata": 21,
-    "reusedCached": 20,
+    "reusedCached": 21,
     "actualPhotos": 21,
     "fallbackIllustrations": 55,
     "withImage": 76,
