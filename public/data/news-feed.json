@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-06T08:17:43.822Z",
+  "generatedAt": "2026-11-06T09:25:26.132Z",
   "sponsors": {
     "somoy": [
       {
@@ -26,7 +26,7 @@
         "summary": "বিএনপি নেতা ইশরাক গ্রেফতার &nbsp;&nbsp; সময় নিউজ",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.somoynews.tv/news/2022-04-06/%E0%A6%B2%E0%A6%BF%E0%A6%AB%E0%A6%B2%E0%A7%87%E0%A6%9F-%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A6%B0%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%9F-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE-%E0%A6%87%E0%A6%B6%E0%A6%B0%E0%A6%BE%E0%A6%95-%E0%A6%86%E0%A6%9F%E0%A6%95",
-        "imageAttemptedAt": "2026-11-05T08:56:32.746Z",
+        "imageAttemptedAt": "2026-11-06T09:25:28.842Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -78,7 +78,7 @@
         "summary": "Gemini &nbsp;&nbsp; Somoy News",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://en.somoynews.tv/topic/gemini",
-        "imageAttemptedAt": "2026-11-05T08:56:32.746Z",
+        "imageAttemptedAt": "2026-11-06T09:25:28.842Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -145,7 +145,7 @@
         "summary": "মাছরাঙা টেলিভিশনে দেখুন জনপ্রিয় তুর্কি ড্রামা সিরিয়াল ‘বড়ো ভাই’ রবি থেকে বৃহস্পতিবার রাত ৯টা, ১২টা ও সকাল ১১: ২০ মিনিটে; সপ্তাহের সব পর্ব একসাথে বৃহস্পতিবার রাত ১২টায় – Maasranga Tele…",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%85%E0%A6%AF%E0%A7%8C%E0%A6%95%E0%A7%8D/",
-        "imageAttemptedAt": "2026-11-05T08:56:32.746Z",
+        "imageAttemptedAt": "2026-11-06T09:25:28.842Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -158,7 +158,7 @@
         "summary": "বিনোদন সারাদিন – Page 2 &nbsp;&nbsp; Maasranga Television",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/category/binodon-saradin/page/2/",
-        "imageAttemptedAt": "2026-11-05T08:56:32.746Z",
+        "imageAttemptedAt": "2026-11-06T09:25:28.842Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -226,6 +226,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "",
         "imageAttemptedAt": "2026-11-05T14:15:37.612Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE83TG1La0tKQmhZTDBmZzJqcjg4cDRwQlhyNG41ZEU5U3FRNUFYa1pkbHJwYzkyQWFXeTJ2RUNvMTlGQ2RTdGU2YVZFblVGdw?oc=5",
+        "title": "বাংলাদেশি ভিসা আবেদনকারীদের জন্য নথিপত্রের প্রক্রিয়া সহজ করলো ভারতীয় হাইকমিশন",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE83TG1La0tKQmhZTDBmZzJqcjg4cDRwQlhyNG41ZEU5U3FRNUFYa1pkbHJwYzkyQWFXeTJ2RUNvMTlGQ2RTdGU2YVZFblVGdw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 08:09:14 GMT",
+        "summary": "বাংলাদেশি ভিসা আবেদনকারীদের জন্য নথিপত্রের প্রক্রিয়া সহজ করলো ভারতীয় হাইকমিশন &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667511",
+        "imageAttemptedAt": "2026-11-06T09:25:28.842Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -331,19 +344,6 @@
         "articleUrl": "https://www.jamuna.tv/international/667438",
         "imageAttemptedAt": "2026-11-06T08:17:47.024Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lMm84QVQwN19weXVkRHRVeUd3TVlkQVVJNFFHWWdHNjctMHZtZXZTVEtJSnFIX0h3ZTdDMlhTVlo3MV9va0dVQnVBRk5wWE1uQjBscFRR?oc=5",
-        "title": "মানিকগঞ্জে ট্রিপল মার্ডার মামলায় ৫ জনের মৃত্যুদণ্ড, ৮ জনের যাবজ্জীবন",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lMm84QVQwN19weXVkRHRVeUd3TVlkQVVJNFFHWWdHNjctMHZtZXZTVEtJSnFIX0h3ZTdDMlhTVlo3MV9va0dVQnVBRk5wWE1uQjBscFRR?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 08:15:11 GMT",
-        "summary": "মানিকগঞ্জে ট্রিপল মার্ডার মামলায় ৫ জনের মৃত্যুদণ্ড, ৮ জনের যাবজ্জীবন &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/all-bangladesh/667466",
-        "imageAttemptedAt": "2026-11-06T08:17:47.024Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
     "ntv": [
@@ -361,19 +361,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaDZiV1pfblo0Y0lCbm42cDZpV0JvOTZxVDMtbWh0LVhpcHQ3NVF4ZXhQTDF5WjNUb1BkTDJQVXNGRzNmbkFINE1CNWQtc3F5bjI1STF1YXNaV3RHU09MZFp0RkdaU205NERnM2VxdFBRR2EyeTJSNzg4YTVnQWlDdk1fYW9GQQ?oc=5",
-        "title": "সংলাপ প্রতিদিন (লাইভ) : পর্ব ৭০৮",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaDZiV1pfblo0Y0lCbm42cDZpV0JvOTZxVDMtbWh0LVhpcHQ3NVF4ZXhQTDF5WjNUb1BkTDJQVXNGRzNmbkFINE1CNWQtc3F5bjI1STF1YXNaV3RHU09MZFp0RkdaU205NERnM2VxdFBRR2EyeTJSNzg4YTVnQWlDdk1fYW9GQQ?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 13:55:39 GMT",
-        "summary": "সংলাপ প্রতিদিন (লাইভ) : পর্ব ৭০৮ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/discussion/songlap-protidin/songlap-protidin-ep-708",
-        "imageAttemptedAt": "2026-11-06T00:54:03.196Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN3JDMGxBQjNFbnVVMFZvem13S2RGeXBxR1FxQnBXekh1eDdrdVpoMGgxZnpYT0otcHBjek9ISzlxWHhTaGRrNlU3TUdSRFB1RktqeDlORmxSQVNBUm04cDBuOHBmRllPeVN4RzJ0WkdsZF9va2lfbktJaXAycVJaZWpNbURCTmZra0dvcw?oc=5",
         "title": "সকালের খবর : ৬ নভেম্বর ২০২৬",
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN3JDMGxBQjNFbnVVMFZvem13S2RGeXBxR1FxQnBXekh1eDdrdVpoMGgxZnpYT0otcHBjek9ISzlxWHhTaGRrNlU3TUdSRFB1RktqeDlORmxSQVNBUm04cDBuOHBmRllPeVN4RzJ0WkdsZF9va2lfbktJaXAycVJaZWpNbURCTmZra0dvcw?oc=5",
@@ -384,6 +371,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.ntvbd.com/video/ntv-news/shokaler-khobor/shokaler-khobor-6-november-2026",
         "imageAttemptedAt": "2026-11-06T05:52:09.200Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMDZjOUw0cFE2UEpIMEl1dWJJYnRMSWthRzdHaU1kbGpVQXpfZ0pPa2NEOG40TzlGNi1sZk1yMFFGOGF6RW9aNzlxSmZpYUp2d1c5NWZlNFJMXzlxODAwM2ctMTVvaVNQeEUteGNSZ1RlQm44NTF1ZFl3U2Z5ay1sMEVjaWd5MkhzUkNHZWJZZVU3QQ?oc=5",
+        "title": "মধ্যাহ্নের খবর : ৬ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMDZjOUw0cFE2UEpIMEl1dWJJYnRMSWthRzdHaU1kbGpVQXpfZ0pPa2NEOG40TzlGNi1sZk1yMFFGOGF6RW9aNzlxSmZpYUp2d1c5NWZlNFJMXzlxODAwM2ctMTVvaVNQeEUteGNSZ1RlQm44NTF1ZFl3U2Z5ay1sMEVjaWd5MkhzUkNHZWJZZVU3QQ?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 07:54:06 GMT",
+        "summary": "মধ্যাহ্নের খবর : ৬ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/modhyanner-khobor/modhyanner-khobor-6-november-2026",
+        "imageAttemptedAt": "2026-11-06T09:25:28.842Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -465,15 +465,15 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV1VPYTNkdlBVR0R5WmFRdm0zT05wWW5OQ0tWQUdobFhTV3R6TFdjLXlWelZQYmJDaVFzaWdKcEZIa3JfTXBnX0xhekVZTFdvb3Bya25FZkM2LUlxZ2lfMFk0em44QXU5STV4Q3U1MW1XMW5IeG1QRnlNRjYwb213c181Sk50VjZi?oc=5",
-        "title": "দেশের খবর : ৫ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV1VPYTNkdlBVR0R5WmFRdm0zT05wWW5OQ0tWQUdobFhTV3R6TFdjLXlWelZQYmJDaVFzaWdKcEZIa3JfTXBnX0xhekVZTFdvb3Bya25FZkM2LUlxZ2lfMFk0em44QXU5STV4Q3U1MW1XMW5IeG1QRnlNRjYwb213c181Sk50VjZi?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaDZiV1pfblo0Y0lCbm42cDZpV0JvOTZxVDMtbWh0LVhpcHQ3NVF4ZXhQTDF5WjNUb1BkTDJQVXNGRzNmbkFINE1CNWQtc3F5bjI1STF1YXNaV3RHU09MZFp0RkdaU205NERnM2VxdFBRR2EyeTJSNzg4YTVnQWlDdk1fYW9GQQ?oc=5",
+        "title": "সংলাপ প্রতিদিন (লাইভ) : পর্ব ৭০৮",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaDZiV1pfblo0Y0lCbm42cDZpV0JvOTZxVDMtbWh0LVhpcHQ3NVF4ZXhQTDF5WjNUb1BkTDJQVXNGRzNmbkFINE1CNWQtc3F5bjI1STF1YXNaV3RHU09MZFp0RkdaU205NERnM2VxdFBRR2EyeTJSNzg4YTVnQWlDdk1fYW9GQQ?oc=5",
         "source": "NTV",
         "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 12:44:15 GMT",
-        "summary": "দেশের খবর : ৫ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "publishedAt": "Thu, 05 Nov 2026 13:55:39 GMT",
+        "summary": "সংলাপ প্রতিদিন (লাইভ) : পর্ব ৭০৮ &nbsp;&nbsp; Ntvbd",
         "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/desher-khobor/desher-khobor-05-november-2026",
+        "articleUrl": "https://www.ntvbd.com/video/discussion/songlap-protidin/songlap-protidin-ep-708",
         "imageAttemptedAt": "2026-11-06T00:54:03.196Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
@@ -529,19 +529,6 @@
         "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/pmo-1793871528.jpg",
         "articleUrl": "https://www.channel24bd.tv/national/article/357011/%E0%A6%A6%E0%A7%81-%E0%A6%8F%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%A8%E0%A6%BF%E0%A6%AE%E0%A7%8D%E0%A6%A8-%E0%A6%AE%E0%A6%9C%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%A3-%E0%A6%95%E0%A6%B0%E0%A6%BE-%E0%A6%B9%E0%A6%AC%E0%A7%87:-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
         "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi-gRBVV95cUxPY2NJWTF2dWtacDFLUXJCM3c0Rlh2T0ZBU0VGeUZ1aUR2RThzZklPOXpwdGMzZmlXOXNaRVR4Y180Yk9FVXBlLWdKODA1eHMxUE01ZXZBVUI2d052amw2cnU4LWRlTk9aYThmLTFoajRNNUVHa0xiSDB2WC0yMWRpTm95RXo1YUM4UUdUc0d1dXI4ZmR4T0xUajVvMkUtZnBGbXg2Qi1OMGZSbF81UWhaWXJQM28yeXpiQzIxZ0pTMVBYdk55TnF4VDQ5WXd1dGl3Q0Z0dU1UWWgyNFZwZUFsa3hpZTBJaklmMldLeU9ROEg4RmFhRDFucW5SNFNwN3RJeC03R2ozeTBTRTlrcXZrRUU2UmZJclQzbWFKLWNPVnE3Q2g5RFE2VWMxWXp2dmctVUtZeExYcmpGVFdZS25kRlB2enhrdHVrWEVkTWpyTThoVjltN2QwZklhNUdXcXJtNFBDZFRzelhGazlkQlJpNENFU0E2QWFZZEVtN1FsQWhiUUY2SHhWYTRiTWRKd0d1NGJzajhkWmRfempWdEpYX1ZBTXZUUmwxZ3lDU1E4UGhKRVNJRmdJWWR0RlozLVAyM0p5TzdKczNDc0YxUXl2UDFDbUFOS1NJU3lFNWVvcEpNVGRMRUFRMTJEakZPQm5Bbi1aeDk2Ymg5MEJBYkRHcEFWMGhndGxwREJ4dzRmclJ0Vnd0VGJyUHlxZ0RYMkZEY0dpVUpWMmlXR1RJOXVnWWVZczIwVkQ3MkUzUC1qWmJUS29FeUJhZzhlUFcwYmtHamhqQk5aY2VqaTI2cEhUQk16YnZpdlVKOXhOT05QT2pCbmVvejQ4T3hR?oc=5",
-        "title": "মোংলায় আরও শিল্পকারখানা গড়ে তোলা হবে: প্রধানমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMi-gRBVV95cUxPY2NJWTF2dWtacDFLUXJCM3c0Rlh2T0ZBU0VGeUZ1aUR2RThzZklPOXpwdGMzZmlXOXNaRVR4Y180Yk9FVXBlLWdKODA1eHMxUE01ZXZBVUI2d052amw2cnU4LWRlTk9aYThmLTFoajRNNUVHa0xiSDB2WC0yMWRpTm95RXo1YUM4UUdUc0d1dXI4ZmR4T0xUajVvMkUtZnBGbXg2Qi1OMGZSbF81UWhaWXJQM28yeXpiQzIxZ0pTMVBYdk55TnF4VDQ5WXd1dGl3Q0Z0dU1UWWgyNFZwZUFsa3hpZTBJaklmMldLeU9ROEg4RmFhRDFucW5SNFNwN3RJeC03R2ozeTBTRTlrcXZrRUU2UmZJclQzbWFKLWNPVnE3Q2g5RFE2VWMxWXp2dmctVUtZeExYcmpGVFdZS25kRlB2enhrdHVrWEVkTWpyTThoVjltN2QwZklhNUdXcXJtNFBDZFRzelhGazlkQlJpNENFU0E2QWFZZEVtN1FsQWhiUUY2SHhWYTRiTWRKd0d1NGJzajhkWmRfempWdEpYX1ZBTXZUUmwxZ3lDU1E4UGhKRVNJRmdJWWR0RlozLVAyM0p5TzdKczNDc0YxUXl2UDFDbUFOS1NJU3lFNWVvcEpNVGRMRUFRMTJEakZPQm5Bbi1aeDk2Ymg5MEJBYkRHcEFWMGhndGxwREJ4dzRmclJ0Vnd0VGJyUHlxZ0RYMkZEY0dpVUpWMmlXR1RJOXVnWWVZczIwVkQ3MkUzUC1qWmJUS29FeUJhZzhlUFcwYmtHamhqQk5aY2VqaTI2cEhUQk16YnZpdlVKOXhOT05QT2pCbmVvejQ4T3hR?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 06:19:00 GMT",
-        "summary": "মোংলায় আরও শিল্পকারখানা গড়ে তোলা হবে: প্রধানমন্ত্রী &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.channel24bd.tv/national/article/356968/%E0%A6%AE%E0%A7%8B%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%B0%E0%A6%93-%E0%A6%B6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%96%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%97%E0%A7%9C%E0%A7%87-%E0%A6%A4%E0%A7%8B%E0%A6%B2%E0%A6%BE-%E0%A6%B9%E0%A6%AC%E0%A7%87:-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
-        "imageAttemptedAt": "2026-11-05T08:56:32.746Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -606,6 +593,19 @@
         "summary": "হামের টিকা নিয়ে অনিয়ম তদন্তে তিন সদস্যের কমিশন গঠন &nbsp;&nbsp; Channel 24",
         "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/untitled-10-1793810105.jpg",
         "articleUrl": "https://www.channel24bd.tv/national/article/356904/%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%9F%E0%A6%BF%E0%A6%95%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%80-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%AE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A7%A9-%E0%A6%B8%E0%A6%A6%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi-gRBVV95cUxPY2NJWTF2dWtacDFLUXJCM3c0Rlh2T0ZBU0VGeUZ1aUR2RThzZklPOXpwdGMzZmlXOXNaRVR4Y180Yk9FVXBlLWdKODA1eHMxUE01ZXZBVUI2d052amw2cnU4LWRlTk9aYThmLTFoajRNNUVHa0xiSDB2WC0yMWRpTm95RXo1YUM4UUdUc0d1dXI4ZmR4T0xUajVvMkUtZnBGbXg2Qi1OMGZSbF81UWhaWXJQM28yeXpiQzIxZ0pTMVBYdk55TnF4VDQ5WXd1dGl3Q0Z0dU1UWWgyNFZwZUFsa3hpZTBJaklmMldLeU9ROEg4RmFhRDFucW5SNFNwN3RJeC03R2ozeTBTRTlrcXZrRUU2UmZJclQzbWFKLWNPVnE3Q2g5RFE2VWMxWXp2dmctVUtZeExYcmpGVFdZS25kRlB2enhrdHVrWEVkTWpyTThoVjltN2QwZklhNUdXcXJtNFBDZFRzelhGazlkQlJpNENFU0E2QWFZZEVtN1FsQWhiUUY2SHhWYTRiTWRKd0d1NGJzajhkWmRfempWdEpYX1ZBTXZUUmwxZ3lDU1E4UGhKRVNJRmdJWWR0RlozLVAyM0p5TzdKczNDc0YxUXl2UDFDbUFOS1NJU3lFNWVvcEpNVGRMRUFRMTJEakZPQm5Bbi1aeDk2Ymg5MEJBYkRHcEFWMGhndGxwREJ4dzRmclJ0Vnd0VGJyUHlxZ0RYMkZEY0dpVUpWMmlXR1RJOXVnWWVZczIwVkQ3MkUzUC1qWmJUS29FeUJhZzhlUFcwYmtHamhqQk5aY2VqaTI2cEhUQk16YnZpdlVKOXhOT05QT2pCbmVvejQ4T3hR?oc=5",
+        "title": "মোংলায় আরও শিল্পকারখানা গড়ে তোলা হবে: প্রধানমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMi-gRBVV95cUxPY2NJWTF2dWtacDFLUXJCM3c0Rlh2T0ZBU0VGeUZ1aUR2RThzZklPOXpwdGMzZmlXOXNaRVR4Y180Yk9FVXBlLWdKODA1eHMxUE01ZXZBVUI2d052amw2cnU4LWRlTk9aYThmLTFoajRNNUVHa0xiSDB2WC0yMWRpTm95RXo1YUM4UUdUc0d1dXI4ZmR4T0xUajVvMkUtZnBGbXg2Qi1OMGZSbF81UWhaWXJQM28yeXpiQzIxZ0pTMVBYdk55TnF4VDQ5WXd1dGl3Q0Z0dU1UWWgyNFZwZUFsa3hpZTBJaklmMldLeU9ROEg4RmFhRDFucW5SNFNwN3RJeC03R2ozeTBTRTlrcXZrRUU2UmZJclQzbWFKLWNPVnE3Q2g5RFE2VWMxWXp2dmctVUtZeExYcmpGVFdZS25kRlB2enhrdHVrWEVkTWpyTThoVjltN2QwZklhNUdXcXJtNFBDZFRzelhGazlkQlJpNENFU0E2QWFZZEVtN1FsQWhiUUY2SHhWYTRiTWRKd0d1NGJzajhkWmRfempWdEpYX1ZBTXZUUmwxZ3lDU1E4UGhKRVNJRmdJWWR0RlozLVAyM0p5TzdKczNDc0YxUXl2UDFDbUFOS1NJU3lFNWVvcEpNVGRMRUFRMTJEakZPQm5Bbi1aeDk2Ymg5MEJBYkRHcEFWMGhndGxwREJ4dzRmclJ0Vnd0VGJyUHlxZ0RYMkZEY0dpVUpWMmlXR1RJOXVnWWVZczIwVkQ3MkUzUC1qWmJUS29FeUJhZzhlUFcwYmtHamhqQk5aY2VqaTI2cEhUQk16YnZpdlVKOXhOT05QT2pCbmVvejQ4T3hR?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 06:19:00 GMT",
+        "summary": "মোংলায় আরও শিল্পকারখানা গড়ে তোলা হবে: প্রধানমন্ত্রী &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/pm1-1793859567.jpg",
+        "articleUrl": "https://www.channel24bd.tv/national/article/356968/%E0%A6%AE%E0%A7%8B%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%B0%E0%A6%93-%E0%A6%B6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%96%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%97%E0%A7%9C%E0%A7%87-%E0%A6%A4%E0%A7%8B%E0%A6%B2%E0%A6%BE-%E0%A6%B9%E0%A6%AC%E0%A7%87:-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
@@ -930,16 +930,16 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KekVBYlhLMXJQNHM3dmRiUFB4bHpYeXFDSlJjYXlqcGlzcndrTzhYVHpEWWoyQ0dIUGVZeDlrMXhlOUdjV0JSTV8xMktkVDVlTm5fUWU2NzFmcjA?oc=5",
-        "title": "অ্যালুমিনিয়ামের রান্নার পাত্র থেকে খাবারে মিশছে বিষাক্ত সিসা: গবেষণা",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KekVBYlhLMXJQNHM3dmRiUFB4bHpYeXFDSlJjYXlqcGlzcndrTzhYVHpEWWoyQ0dIUGVZeDlrMXhlOUdjV0JSTV8xMktkVDVlTm5fUWU2NzFmcjA?oc=5",
-        "source": "সুনামগঞ্জের খবর",
+        "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJblBBZGhxOUk0V01tLXM4LTdDaTNWbG9zOGlLTEIzenlyZHVGcWN1bFVWN0dkVGllNXJVSF9hcjA0cHdFZXNSY2ZEczZkYnRkYkZocnZ6OHJXUERlX1BlVnE0cUxFTm03bzB3?oc=5",
+        "title": "ঢাকায় ২ দিনব্যাপী আদিবাসী খাদ্য ও শস্য মেলা শুরু",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJblBBZGhxOUk0V01tLXM4LTdDaTNWbG9zOGlLTEIzenlyZHVGcWN1bFVWN0dkVGllNXJVSF9hcjA0cHdFZXNSY2ZEczZkYnRkYkZocnZ6OHJXUERlX1BlVnE0cUxFTm03bzB3?oc=5",
+        "source": "কালের কণ্ঠ",
         "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 05:10:00 GMT",
-        "summary": "অ্যালুমিনিয়ামের রান্নার পাত্র থেকে খাবারে মিশছে বিষাক্ত সিসা: গবেষণা &nbsp;&nbsp; সুনামগঞ্জের খবর",
-        "image": "https://www.sunamganjerkhobor.com/images/news/53/52654.png?newst=1793941800",
-        "articleUrl": "https://www.sunamganjerkhobor.com/details/52654",
-        "imageAttemptedAt": "",
+        "publishedAt": "Fri, 06 Nov 2026 07:32:46 GMT",
+        "summary": "ঢাকায় ২ দিনব্যাপী আদিবাসী খাদ্য ও শস্য মেলা শুরু &nbsp;&nbsp; কালের কণ্ঠ",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.kalerkantho.com/online/dhaka/2026/11/06/1763670",
+        "imageAttemptedAt": "2026-11-06T09:25:28.842Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -956,16 +956,16 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52b1FFT2wySW5KUVV3LVJGdm55ZlFQeG5GaXlFdWdLSDZuQjJWRkpBMFdSZng3NTMzM3ctMF9UY3RhRE5LT1NpTmQ0MzNHakRPcHROd0dMRnBLNUhhUnNLbk1LQdIBUkFVX3lxTFA4WS15blNZYk83d2dYNkhDczBiZjB4bklkWVVVczZ2SkRGeVl3My1hdzdHT0pIZ3NMQmlXUzZkQnNCeGZyOHpsNk9ZV0hmeXRIOEE?oc=5",
-        "title": "এলপিজির বাড়তি দামে রান্নাঘরে কমেছে খাবারের পদ",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52b1FFT2wySW5KUVV3LVJGdm55ZlFQeG5GaXlFdWdLSDZuQjJWRkpBMFdSZng3NTMzM3ctMF9UY3RhRE5LT1NpTmQ0MzNHakRPcHROd0dMRnBLNUhhUnNLbk1LQdIBUkFVX3lxTFA4WS15blNZYk83d2dYNkhDczBiZjB4bklkWVVVczZ2SkRGeVl3My1hdzdHT0pIZ3NMQmlXUzZkQnNCeGZyOHpsNk9ZV0hmeXRIOEE?oc=5",
-        "source": "Risingbd.com",
+        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAtQVBmZ1lVNXA1dlNOTmNldGNkeU5ja1RNWlV3b1E5RTFHcHdIRHk1UlpqektXSTlJbTdSSnRidE53ZjZFSlc5ekVHNA?oc=5",
+        "title": "অ্যালুমিনিয়ামের রান্নার পাত্র থেকে খাবারে মিশছে বিষাক্ত সিসা: গবেষণা",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAtQVBmZ1lVNXA1dlNOTmNldGNkeU5ja1RNWlV3b1E5RTFHcHdIRHk1UlpqektXSTlJbTdSSnRidE53ZjZFSlc5ekVHNA?oc=5",
+        "source": "RTV News",
         "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 04:59:00 GMT",
-        "summary": "এলপিজির বাড়তি দামে রান্নাঘরে কমেছে খাবারের পদ &nbsp;&nbsp; Risingbd.com",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.risingbd.com/risingbd-special/news/669717",
-        "imageAttemptedAt": "2026-11-06T08:17:47.024Z",
+        "publishedAt": "Fri, 06 Nov 2026 04:01:50 GMT",
+        "summary": "অ্যালুমিনিয়ামের রান্নার পাত্র থেকে খাবারে মিশছে বিষাক্ত সিসা: গবেষণা &nbsp;&nbsp; RTV News",
+        "image": "https://img.rtvonline.com/resize?w=600&h=315&q=100&cmp=RM&img=/media/images/2026/11/06/alnm-1793937691-414102_1793937710.jpg",
+        "articleUrl": "https://rtvonline.com/health/414102",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -982,6 +982,19 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52b1FFT2wySW5KUVV3LVJGdm55ZlFQeG5GaXlFdWdLSDZuQjJWRkpBMFdSZng3NTMzM3ctMF9UY3RhRE5LT1NpTmQ0MzNHakRPcHROd0dMRnBLNUhhUnNLbk1LQdIBUkFVX3lxTFA4WS15blNZYk83d2dYNkhDczBiZjB4bklkWVVVczZ2SkRGeVl3My1hdzdHT0pIZ3NMQmlXUzZkQnNCeGZyOHpsNk9ZV0hmeXRIOEE?oc=5",
+        "title": "এলপিজির বাড়তি দামে রান্নাঘরে কমেছে খাবারের পদ",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52b1FFT2wySW5KUVV3LVJGdm55ZlFQeG5GaXlFdWdLSDZuQjJWRkpBMFdSZng3NTMzM3ctMF9UY3RhRE5LT1NpTmQ0MzNHakRPcHROd0dMRnBLNUhhUnNLbk1LQdIBUkFVX3lxTFA4WS15blNZYk83d2dYNkhDczBiZjB4bklkWVVVczZ2SkRGeVl3My1hdzdHT0pIZ3NMQmlXUzZkQnNCeGZyOHpsNk9ZV0hmeXRIOEE?oc=5",
+        "source": "Risingbd.com",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 04:59:00 GMT",
+        "summary": "এলপিজির বাড়তি দামে রান্নাঘরে কমেছে খাবারের পদ &nbsp;&nbsp; Risingbd.com",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.risingbd.com/risingbd-special/news/669717",
+        "imageAttemptedAt": "2026-11-06T08:17:47.024Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBTTmFPamRfTFJwbDRUTjFsOFRCazZ3Q1dGNF9NdUlwcGRPcDZpV1NiSGpERjNqTXl4WW1tQTh5RnNfQnFITXpoWktQQQ?oc=5",
         "title": "সাতক্ষীরায় খাবারে চেতনানাশক মিশিয়ে স্বর্ণালঙ্কার ও নগদ টাকা লুট",
         "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBTTmFPamRfTFJwbDRUTjFsOFRCazZ3Q1dGNF9NdUlwcGRPcDZpV1NiSGpERjNqTXl4WW1tQTh5RnNfQnFITXpoWktQQQ?oc=5",
@@ -993,19 +1006,6 @@
         "articleUrl": "https://kholakagojbd.com/news/53742",
         "imageAttemptedAt": "2026-11-06T07:00:04.603Z",
         "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jeW9tTDhncFZMXzZXVG0yNmw2MlZwa3E3XzFWaU8zc1VBRTlUcjJ3dXZUb3Q3b0U5bnRtQTZJeExIYjgzTXkzRXJMeGRmcHcyemhONElHdE8wLTZtMVI5QXBnUE5JT19qNVNfQ1dn?oc=5",
-        "title": "দেশীয় অ্যালুমিনিয়ামের হাঁড়ি-পাতিলে রান্না খাবারে মিশছে সিসা, গবেষণায় উদ্বেগ",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jeW9tTDhncFZMXzZXVG0yNmw2MlZwa3E3XzFWaU8zc1VBRTlUcjJ3dXZUb3Q3b0U5bnRtQTZJeExIYjgzTXkzRXJMeGRmcHcyemhONElHdE8wLTZtMVI5QXBnUE5JT19qNVNfQ1dn?oc=5",
-        "source": "Boishakhi Online",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 04:46:00 GMT",
-        "summary": "দেশীয় অ্যালুমিনিয়ামের হাঁড়ি-পাতিলে রান্না খাবারে মিশছে সিসা, গবেষণায় উদ্বেগ &nbsp;&nbsp; Boishakhi Online",
-        "image": "https://www.boishakhionline.com/cache-images/news_photos/2026/11/06/resize-600x315x1x0-image_173846_1793940409.jpeg",
-        "articleUrl": "https://www.boishakhionline.com/information-technology/173846",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
       }
     ]
   },
@@ -1014,7 +1014,7 @@
     "total": 76,
     "fromRss": 0,
     "fromArticleMetadata": 17,
-    "reusedCached": 14,
+    "reusedCached": 15,
     "actualPhotos": 17,
     "fallbackIllustrations": 59,
     "withImage": 76,
