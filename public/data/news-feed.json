@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-06T16:22:53.256Z",
+  "generatedAt": "2026-11-06T17:19:36.853Z",
   "sponsors": {
     "somoy": [
       {
@@ -97,19 +97,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPUU9wU3RONi1jeG8tUjBybnhfQ21fNVpGX3M0dGowNzdTQzhYdnJ5am5OSGlNUTFPOTk5SGstdTU4SDBtRjFFY3plNWZXZXBQSS01Zl9CdGMyOEw1TV9aLWFla3lNbzVYUE9nNlZOc0JsNzdDZGFWRTliMzEwdU5tSzFTd2hGTjhxSGh0ZUJ4YUpieFU1SnU1QWJIMzRaWTY1cHl3YmFUSk1fQlFGR2ZGSXNBZjI3UmxDREtPZzVDVXR5LVlZYTZPemQ0UnZOYmJaWldlZkxrNmRCV0JHVEhwSU5UaTBnLS1yWWJKY3ZmaHFfamRCdG84U2o5V1g3NzNFUTg2Tl92MkFfZEZTZXdhV0lEakQxZ0I1R2NTNWVfalYyX0ZQRGxmVVI2Y19qQkZVNjdKcXltbTRGZw?oc=5",
-        "title": "জনপ্রিয় তুর্কি সিরিয়াল ‘বড়ো ভাই’",
-        "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPUU9wU3RONi1jeG8tUjBybnhfQ21fNVpGX3M0dGowNzdTQzhYdnJ5am5OSGlNUTFPOTk5SGstdTU4SDBtRjFFY3plNWZXZXBQSS01Zl9CdGMyOEw1TV9aLWFla3lNbzVYUE9nNlZOc0JsNzdDZGFWRTliMzEwdU5tSzFTd2hGTjhxSGh0ZUJ4YUpieFU1SnU1QWJIMzRaWTY1cHl3YmFUSk1fQlFGR2ZGSXNBZjI3UmxDREtPZzVDVXR5LVlZYTZPemQ0UnZOYmJaWldlZkxrNmRCV0JHVEhwSU5UaTBnLS1yWWJKY3ZmaHFfamRCdG84U2o5V1g3NzNFUTg2Tl92MkFfZEZTZXdhV0lEakQxZ0I1R2NTNWVfalYyX0ZQRGxmVVI2Y19qQkZVNjdKcXltbTRGZw?oc=5",
-        "source": "Maasranga TV",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 02 Feb 2025 11:14:59 GMT",
-        "summary": "জনপ্রিয় তুর্কি সিরিয়াল ‘বড়ো ভাই’ &nbsp;&nbsp; Maasranga Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://maasranga.tv/%E0%A6%A4%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF-%E0%A6%B8%E0%A6%BF%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B2-%E0%A6%AC%E0%A6%A1%E0%A6%BC%E0%A7%8B-%E0%A6%AD%E0%A6%BE%E0%A6%87/",
-        "imageAttemptedAt": "2026-11-06T04:51:51.541Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rS3RLNEUzZVhYVU5EdUVDeHJ4djVtMXhaaS1jTWZBR20zZ01PUjhEM1JhbG1zcDh4elNMLXFQbnBNT3lxc0tPZWhMVk5QR2s?oc=5",
         "title": "Category: অনুষ্ঠান - Maasranga Television",
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rS3RLNEUzZVhYVU5EdUVDeHJ4djVtMXhaaS1jTWZBR20zZ01PUjhEM1JhbG1zcDh4elNMLXFQbnBNT3lxc0tPZWhMVk5QR2s?oc=5",
@@ -136,13 +123,26 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPUU9wU3RONi1jeG8tUjBybnhfQ21fNVpGX3M0dGowNzdTQzhYdnJ5am5OSGlNUTFPOTk5SGstdTU4SDBtRjFFY3plNWZXZXBQSS01Zl9CdGMyOEw1TV9aLWFla3lNbzVYUE9nNlZOc0JsNzdDZGFWRTliMzEwdU5tSzFTd2hGTjhxSGh0ZUJ4YUpieFU1SnU1QWJIMzRaWTY1cHl3YmFUSk1fQlFGR2ZGSXNBZjI3UmxDREtPZzVDVXR5LVlZYTZPemQ0UnZOYmJaWldlZkxrNmRCV0JHVEhwSU5UaTBnLS1yWWJKY3ZmaHFfamRCdG84U2o5V1g3NzNFUTg2Tl92MkFfZEZTZXdhV0lEakQxZ0I1R2NTNWVfalYyX0ZQRGxmVVI2Y19qQkZVNjdKcXltbTRGZw?oc=5",
+        "title": "জনপ্রিয় তুর্কি সিরিয়াল ‘বড়ো ভাই’",
+        "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPUU9wU3RONi1jeG8tUjBybnhfQ21fNVpGX3M0dGowNzdTQzhYdnJ5am5OSGlNUTFPOTk5SGstdTU4SDBtRjFFY3plNWZXZXBQSS01Zl9CdGMyOEw1TV9aLWFla3lNbzVYUE9nNlZOc0JsNzdDZGFWRTliMzEwdU5tSzFTd2hGTjhxSGh0ZUJ4YUpieFU1SnU1QWJIMzRaWTY1cHl3YmFUSk1fQlFGR2ZGSXNBZjI3UmxDREtPZzVDVXR5LVlZYTZPemQ0UnZOYmJaWldlZkxrNmRCV0JHVEhwSU5UaTBnLS1yWWJKY3ZmaHFfamRCdG84U2o5V1g3NzNFUTg2Tl92MkFfZEZTZXdhV0lEakQxZ0I1R2NTNWVfalYyX0ZQRGxmVVI2Y19qQkZVNjdKcXltbTRGZw?oc=5",
+        "source": "Maasranga TV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 02 Feb 2025 11:14:59 GMT",
+        "summary": "জনপ্রিয় তুর্কি সিরিয়াল ‘বড়ো ভাই’ &nbsp;&nbsp; Maasranga Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://maasranga.tv/%E0%A6%A4%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF-%E0%A6%B8%E0%A6%BF%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B2-%E0%A6%AC%E0%A6%A1%E0%A6%BC%E0%A7%8B-%E0%A6%AD%E0%A6%BE%E0%A6%87/",
+        "imageAttemptedAt": "2026-11-06T04:51:51.541Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1vc2Rlai04ZGpxaHIxdmxQMERxZEhOc1NHZzB4aVEyMTNWaUd1VG9zRjNLREkxeDd3QXZV?oc=5",
-        "title": "2 - Maasranga Television",
+        "title": "2 - Maasranga TV",
         "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1vc2Rlai04ZGpxaHIxdmxQMERxZEhOc1NHZzB4aVEyMTNWaUd1VG9zRjNLREkxeDd3QXZV?oc=5",
         "source": "Maasranga TV",
         "publisherUrl": "",
         "publishedAt": "Thu, 22 Oct 2026 03:05:21 GMT",
-        "summary": "2 &nbsp;&nbsp; Maasranga Television",
+        "summary": "2 &nbsp;&nbsp; Maasranga TV",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/2/",
         "imageAttemptedAt": "2026-11-05T22:17:00.970Z",
@@ -150,12 +150,12 @@
       },
       {
         "id": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNWkxwV3FZS3ZzTWFHeG1oNjJiSGdmVk95eXFsUFB6RGVuNnpSMjNIVVl4bENjTFZaUGVYVXRNWThmTlBCc0l1X3I5dkpRemFsbkIwMTR4cU52VGpjbkNGZU9sUjRuVTd5bndDNld2YXhLQkJ3SzgtM2FnNTZZWWJ2MGVEY2RyOEs3UWJ1di1vTURJbk9YdEpvNS0xNVRPMUVHNFlWVEVtNk1ES1d2MVJyamxRWnBTVmFlMm4ybXA4WmVGSTFiWlB6dzhHSU5JcmNLVWxDZDZ1Qk9FeFFBenR0ZzVPMU96enhfeDBMREdYdTNzU0RPeEUxZl9MaU13WEVGTTczOEVYZi1wMHJpUTF2MHdJWGtSQnpjLTQ2dERaVUJrMkttOVBUX1l6dV9uUUxIRmgtdnpKcUI1THlTWm9aRFV6a0w?oc=5",
-        "title": "মাছরাঙা টেলিভিশনে দেখুন জনপ্রিয় তুর্কি ড্রামা সিরিয়াল ‘বড়ো ভাই’ রবি থেকে বৃহস্পতিবার রাত ৯টা, ১২টা ও সকাল ১১",
+        "title": "মাছরাঙা টেলিভিশনে দেখুন জনপ্রিয় তুর্কি ড্রামা সিরিয়াল ‘বড়ো ভাই’ রবি থেকে বৃহস্পতিবার রাত ৯টা, ১২টা ও সকাল ১১: ২০ মিনিটে; সপ্তাহের সব পর্ব একসাথে বৃহস্পতিবার রাত ১২টায় – Maasranga Television",
         "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNWkxwV3FZS3ZzTWFHeG1oNjJiSGdmVk95eXFsUFB6RGVuNnpSMjNIVVl4bENjTFZaUGVYVXRNWThmTlBCc0l1X3I5dkpRemFsbkIwMTR4cU52VGpjbkNGZU9sUjRuVTd5bndDNld2YXhLQkJ3SzgtM2FnNTZZWWJ2MGVEY2RyOEs3UWJ1di1vTURJbk9YdEpvNS0xNVRPMUVHNFlWVEVtNk1ES1d2MVJyamxRWnBTVmFlMm4ybXA4WmVGSTFiWlB6dzhHSU5JcmNLVWxDZDZ1Qk9FeFFBenR0ZzVPMU96enhfeDBMREdYdTNzU0RPeEUxZl9MaU13WEVGTTczOEVYZi1wMHJpUTF2MHdJWGtSQnpjLTQ2dERaVUJrMkttOVBUX1l6dV9uUUxIRmgtdnpKcUI1THlTWm9aRFV6a0w?oc=5",
         "source": "Maasranga TV",
         "publisherUrl": "",
         "publishedAt": "Sun, 01 Sep 2024 06:39:12 GMT",
-        "summary": "মাছরাঙা টেলিভিশনে দেখুন জনপ্রিয় তুর্কি ড্রামা সিরিয়াল ‘বড়ো ভাই’ রবি থেকে বৃহস্পতিবার রাত ৯টা, ১২টা ও সকাল ১১ &nbsp;&nbsp; Maasranga Television",
+        "summary": "মাছরাঙা টেলিভিশনে দেখুন জনপ্রিয় তুর্কি ড্রামা সিরিয়াল ‘বড়ো ভাই’ রবি থেকে বৃহস্পতিবার রাত ৯টা, ১২টা ও সকাল ১১: ২০ মিনিটে; সপ্তাহের সব পর্ব একসাথে বৃহস্পতিবার রাত ১২টায় – Maasranga Tele…",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%85%E0%A6%AF%E0%A7%8C%E0%A6%95%E0%A7%8D/",
         "imageAttemptedAt": "2026-11-06T09:25:28.842Z",
@@ -184,7 +184,7 @@
         "summary": "Category: মাছরাঙা নাটক/টেলিফিল্ম &nbsp;&nbsp; Maasranga Television",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/category/maasranga-drama-telefilm/",
-        "imageAttemptedAt": "2026-11-05T16:32:23.128Z",
+        "imageAttemptedAt": "2026-11-06T17:19:39.714Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -197,7 +197,7 @@
         "summary": "Masud Alam | Interview | Talk Show | Maasranga Ranga Shokal &nbsp;&nbsp; Maasranga Television",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/masud-alam-interview-talk-show-maasranga-ranga-shokal/",
-        "imageAttemptedAt": "2026-11-05T16:32:23.128Z",
+        "imageAttemptedAt": "2026-11-06T17:19:39.714Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -229,19 +229,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE83TG1La0tKQmhZTDBmZzJqcjg4cDRwQlhyNG41ZEU5U3FRNUFYa1pkbHJwYzkyQWFXeTJ2RUNvMTlGQ2RTdGU2YVZFblVGdw?oc=5",
-        "title": "বাংলাদেশি ভিসা আবেদনকারীদের জন্য নথিপত্রের প্রক্রিয়া সহজ করলো ভারতীয় হাইকমিশন",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE83TG1La0tKQmhZTDBmZzJqcjg4cDRwQlhyNG41ZEU5U3FRNUFYa1pkbHJwYzkyQWFXeTJ2RUNvMTlGQ2RTdGU2YVZFblVGdw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 08:09:14 GMT",
-        "summary": "বাংলাদেশি ভিসা আবেদনকারীদের জন্য নথিপত্রের প্রক্রিয়া সহজ করলো ভারতীয় হাইকমিশন &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667511",
-        "imageAttemptedAt": "2026-11-06T09:25:28.842Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9GOGhNV0NpSnpyalptRjRhSldmMWYzYUVQdkJwVjFpTU5MblhMQXViMFlqd1pWaEg4WkVDN0RCNWFZYWZLMVRLZTJ5cw?oc=5",
         "title": "শীতের ভ্রমণে জনপ্রিয় দেশের ১০ দর্শনীয় স্থান",
         "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9GOGhNV0NpSnpyalptRjRhSldmMWYzYUVQdkJwVjFpTU5MblhMQXViMFlqd1pWaEg4WkVDN0RCNWFZYWZLMVRLZTJ5cw?oc=5",
@@ -252,6 +239,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.jamuna.tv/travel/667515",
         "imageAttemptedAt": "2026-11-06T13:40:44.288Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE83TG1La0tKQmhZTDBmZzJqcjg4cDRwQlhyNG41ZEU5U3FRNUFYa1pkbHJwYzkyQWFXeTJ2RUNvMTlGQ2RTdGU2YVZFblVGdw?oc=5",
+        "title": "বাংলাদেশি ভিসা আবেদনকারীদের জন্য নথিপত্রের প্রক্রিয়া সহজ করলো ভারতীয় হাইকমিশন",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE83TG1La0tKQmhZTDBmZzJqcjg4cDRwQlhyNG41ZEU5U3FRNUFYa1pkbHJwYzkyQWFXeTJ2RUNvMTlGQ2RTdGU2YVZFblVGdw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 08:09:14 GMT",
+        "summary": "বাংলাদেশি ভিসা আবেদনকারীদের জন্য নথিপত্রের প্রক্রিয়া সহজ করলো ভারতীয় হাইকমিশন &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667511",
+        "imageAttemptedAt": "2026-11-06T09:25:28.842Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -294,6 +294,19 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9fUDZoc2tCMlljUG9kU2dIdzkzZV8wWldFSF9WaDlqS1pTVFE4aVduWnQwOHRqV0UxVFV4RUItSklub3VUMllOQlZpd1pLZw?oc=5",
+        "title": "সরকারিভাবে শূন্য অভিবাসন ব্যয়ে মালয়েশিয়ায় ১১২ কর্মী নিয়োগ, আবেদন শুরু ৬ নভেম্বর",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9fUDZoc2tCMlljUG9kU2dIdzkzZV8wWldFSF9WaDlqS1pTVFE4aVduWnQwOHRqV0UxVFV4RUItSklub3VUMllOQlZpd1pLZw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 16:58:38 GMT",
+        "summary": "সরকারিভাবে শূন্য অভিবাসন ব্যয়ে মালয়েশিয়ায় ১১২ কর্মী নিয়োগ, আবেদন শুরু ৬ নভেম্বর &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667490",
+        "imageAttemptedAt": "2026-11-06T17:19:39.714Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8zd0VCczJhbTdMUDhfYUtSQW1ETzI0WkpiMlZ3a2VraTM2ME9HOF82NlBWYjJaSkRzR2JROUVYUGNtRGZ6Y1NZUUlmS29VcVhTWlZuQ1h3?oc=5",
         "title": "গাজীপুর সাফারি পার্কে বিলুপ্তপ্রায় নীলগাই পরিবারে চার শাবকের জন্ম",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8zd0VCczJhbTdMUDhfYUtSQW1ETzI0WkpiMlZ3a2VraTM2ME9HOF82NlBWYjJaSkRzR2JROUVYUGNtRGZ6Y1NZUUlmS29VcVhTWlZuQ1h3?oc=5",
@@ -303,7 +316,7 @@
         "summary": "গাজীপুর সাফারি পার্কে বিলুপ্তপ্রায় নীলগাই পরিবারে চার শাবকের জন্ম &nbsp;&nbsp; Jamuna Television",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.jamuna.tv/all-bangladesh/667469",
-        "imageAttemptedAt": "2026-11-05T16:32:23.128Z",
+        "imageAttemptedAt": "2026-11-06T17:19:39.714Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -331,19 +344,6 @@
         "articleUrl": "https://www.jamuna.tv/latest",
         "imageAttemptedAt": "2026-11-06T04:51:51.541Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5BUDAwMGw0bkRaYlNPT0d4eGh2VDE5MXpCT1pxLTctUHEtRF9mSzUzUXlYeHdkSlRPbE9PQXd1U2NnVkMwendOVkQ2S0RCUQ?oc=5",
-        "title": "তরুণদের ওপর ভর দিয়ে বিজেপি পদ্ধতিতে দেশকে উগ্রবাদী রাষ্ট্রে পরিণত করতে চায় জামায়াত",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5BUDAwMGw0bkRaYlNPT0d4eGh2VDE5MXpCT1pxLTctUHEtRF9mSzUzUXlYeHdkSlRPbE9PQXd1U2NnVkMwendOVkQ2S0RCUQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 12:13:16 GMT",
-        "summary": "তরুণদের ওপর ভর দিয়ে বিজেপি পদ্ধতিতে দেশকে উগ্রবাদী রাষ্ট্রে পরিণত করতে চায় জামায়াত &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667524",
-        "imageAttemptedAt": "2026-11-06T16:22:56.088Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
     "ntv": [
@@ -358,6 +358,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "",
         "imageAttemptedAt": "2026-11-06T00:54:03.196Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNFNiUG11UHNuWEUyaktoYVpoQ0RpbXhBcVZtMnVtNDdpajJqSncyWElOWWsySEJfbjdmSkNqMDgyOXVsTVZBVjNPWlF5Q0gxQ1JpRVY0QUlCWG1xbE5wUkFPRG5Uc0ppdEZobmt2bVRtbTNaaWZiMHBBYjlFOUt6Yld4TTFOcnpUdk9uWFlB?oc=5",
+        "title": "সন্ধ্যার খবর : ৬ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNFNiUG11UHNuWEUyaktoYVpoQ0RpbXhBcVZtMnVtNDdpajJqSncyWElOWWsySEJfbjdmSkNqMDgyOXVsTVZBVjNPWlF5Q0gxQ1JpRVY0QUlCWG1xbE5wUkFPRG5Uc0ppdEZobmt2bVRtbTNaaWZiMHBBYjlFOUt6Yld4TTFOcnpUdk9uWFlB?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 16:50:29 GMT",
+        "summary": "সন্ধ্যার খবর : ৬ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/shondhyar-khobor/shondhar-khobor-6-november-2026",
+        "imageAttemptedAt": "2026-11-06T17:19:39.714Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -426,6 +439,19 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVkM2V01QeXdZSUJOamNRalRua2J0T19sbW1sTHpEa0pPVHludlNhMW1zcEpQT0ZWdXBiVXF4N095dTZEZHgzYXhIZHRnZDFHVGJVcmRDNHVHXzJQWC15WHpJYzd6LURrWS1oMGotZEZwN3hsQmhfUWdyUy1JYUdJSTdqMUR5Zw?oc=5",
+        "title": "এক্সপার্ট টুডেস কিচেন : পর্ব ৩৬৮",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVkM2V01QeXdZSUJOamNRalRua2J0T19sbW1sTHpEa0pPVHludlNhMW1zcEpQT0ZWdXBiVXF4N095dTZEZHgzYXhIZHRnZDFHVGJVcmRDNHVHXzJQWC15WHpJYzd6LURrWS1oMGotZEZwN3hsQmhfUWdyUy1JYUdJSTdqMUR5Zw?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 15:10:49 GMT",
+        "summary": "এক্সপার্ট টুডেস কিচেন : পর্ব ৩৬৮ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/food/expert-todays-kitchen/xpert-todays-kitchen-368",
+        "imageAttemptedAt": "2026-11-06T17:19:39.714Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc2xMNVd3blROYldjNlpxZzk1Unc4eDBmZE9CaktSLXJSMWxDOThBM1VXN3BvMHNDNW9icnFIMlZJalFNS1VsRTBpMmZXV1B2RmVnVmRwWWhiYUZBSEhHN1pNbXBTX0UtaGpRYnRHbmVJZXdYWEhUMFhyQlVXRG1GTXlJdk90dVJTTVFB?oc=5",
         "title": "দুপুরের খবর : ৬ নভেম্বর ২০২৬",
         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc2xMNVd3blROYldjNlpxZzk1Unc4eDBmZE9CaktSLXJSMWxDOThBM1VXN3BvMHNDNW9icnFIMlZJalFNS1VsRTBpMmZXV1B2RmVnVmRwWWhiYUZBSEhHN1pNbXBTX0UtaGpRYnRHbmVJZXdYWEhUMFhyQlVXRG1GTXlJdk90dVJTTVFB?oc=5",
@@ -450,32 +476,6 @@
         "articleUrl": "https://www.ntvbd.com/video/drama/single-episode-drama/natok-jongli-fuler-ghran",
         "imageAttemptedAt": "2026-11-06T12:22:16.775Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQnhTbkdvZF9GUlhVTUhMXzd1XzItNGs3UjYtejhQeW1mcVVyWDN6dHAxcGhNQVpTeFRWZWFyWUs3RVlQZzhwR2V4YnY0RTJuR2JwQ0YyME9HNUxVY0o1WWlaR2xzQVRKZDU0NUs5SlhlOE5oclhFNHUwbUJrUjhxVFNxZnhod1E?oc=5",
-        "title": "দেশের খবর : ৬ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQnhTbkdvZF9GUlhVTUhMXzd1XzItNGs3UjYtejhQeW1mcVVyWDN6dHAxcGhNQVpTeFRWZWFyWUs3RVlQZzhwR2V4YnY0RTJuR2JwQ0YyME9HNUxVY0o1WWlaR2xzQVRKZDU0NUs5SlhlOE5oclhFNHUwbUJrUjhxVFNxZnhod1E?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 13:36:21 GMT",
-        "summary": "দেশের খবর : ৬ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/desher-khobor/desher-khobor-6-november-2026",
-        "imageAttemptedAt": "2026-11-06T14:36:51.089Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSmo0blNDRDhHUFY3OWRQVGpnTlNVUjZkci1SZUo2NkdaZnZxWnQ1emZWb2lDek5faFR6MjBqRENDMzlWdTd1VGFiMkFyMTVZZGNNd3hPS2NlNmtDdGdWSk9QbENmUGV2OWgxMzNYNUsxRmtQYkFqLWZHTW10Qm00MVdNVQ?oc=5",
-        "title": "স্বাস্থ্য প্রতিদিন : পর্ব ৬০২৮",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSmo0blNDRDhHUFY3OWRQVGpnTlNVUjZkci1SZUo2NkdaZnZxWnQ1emZWb2lDek5faFR6MjBqRENDMzlWdTd1VGFiMkFyMTVZZGNNd3hPS2NlNmtDdGdWSk9QbENmUGV2OWgxMzNYNUsxRmtQYkFqLWZHTW10Qm00MVdNVQ?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 11:16:08 GMT",
-        "summary": "স্বাস্থ্য প্রতিদিন : পর্ব ৬০২৮ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/health/swasthyo-protidin/shastho-protidin-ep-6028",
-        "imageAttemptedAt": "2026-11-06T16:22:56.088Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
     "channel24": [
@@ -490,6 +490,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "",
         "imageAttemptedAt": "2026-11-05T22:17:00.970Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiggRBVV95cUxQZGRnYjJqV2dOd1NKNGZ2Y3dQblI5V3kyWXVSdDBQRHRRUUV5eWhUSm80VU9oY2tmYzdRTHhrLVpkRVQwV2FRZWduc2NKcTlRREpOTWlncE1CSGdNb1JhdlA5MVh4TmFYc1RuNzFUVW0wTWlrWUdrelJ6UldjTlFaajVXWENEem9XZ1NPTno2cUdMcmVQTjF1Z3FLcnpIcTVsYktXYTQ3aHdFLUxkQmhxWGUtVEpzdXlKMy04SjREYlNtTU1xZV9KTlBFcnQtT0FlWk5COFpPYldlVk12LUQtaVI2YUc2OVI4R3ZaMVBJamJKWnAxT294SHgwVGtfa0puSW5aWElVOXctYU5vdHhUc05fNU1EMnBXdE1SM0tQTmU5ZkdUMVdhR2JhcDZwVHFKWTUxVk5KU1MwdmtETnkwTzJ0N2hDaWhRT1pYTTVEVlEzbVNYWm1ET3o1a2JOWWZZdHpNMXF4ZE01TDk3cUtJdlRvTWFfVUhieWxEUlNJUWtlTG4yOGlQRGpqdmo3X251UFlKWDR1NW1NbEtqaWRLeGU3WEZwRVFjVjJLSWZlbnZhRExvcnVBbDN3X0syVTQzcVNXWHg3dVF3Yk9PaV8xNzBBR1RWdHdralpsc2hUTXhGMkRUTXp4cE1BdjRrdHNmRk9DX3hMWDZDWnRUNDF2ZEFB?oc=5",
+        "title": "রিলস দেখেই টাকা আয়ের সুযোগ, আবেদন যেভাবে",
+        "link": "https://news.google.com/rss/articles/CBMiggRBVV95cUxQZGRnYjJqV2dOd1NKNGZ2Y3dQblI5V3kyWXVSdDBQRHRRUUV5eWhUSm80VU9oY2tmYzdRTHhrLVpkRVQwV2FRZWduc2NKcTlRREpOTWlncE1CSGdNb1JhdlA5MVh4TmFYc1RuNzFUVW0wTWlrWUdrelJ6UldjTlFaajVXWENEem9XZ1NPTno2cUdMcmVQTjF1Z3FLcnpIcTVsYktXYTQ3aHdFLUxkQmhxWGUtVEpzdXlKMy04SjREYlNtTU1xZV9KTlBFcnQtT0FlWk5COFpPYldlVk12LUQtaVI2YUc2OVI4R3ZaMVBJamJKWnAxT294SHgwVGtfa0puSW5aWElVOXctYU5vdHhUc05fNU1EMnBXdE1SM0tQTmU5ZkdUMVdhR2JhcDZwVHFKWTUxVk5KU1MwdmtETnkwTzJ0N2hDaWhRT1pYTTVEVlEzbVNYWm1ET3o1a2JOWWZZdHpNMXF4ZE01TDk3cUtJdlRvTWFfVUhieWxEUlNJUWtlTG4yOGlQRGpqdmo3X251UFlKWDR1NW1NbEtqaWRLeGU3WEZwRVFjVjJLSWZlbnZhRExvcnVBbDN3X0syVTQzcVNXWHg3dVF3Yk9PaV8xNzBBR1RWdHdralpsc2hUTXhGMkRUTXp4cE1BdjRrdHNmRk9DX3hMWDZDWnRUNDF2ZEFB?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 09:48:00 GMT",
+        "summary": "রিলস দেখেই টাকা আয়ের সুযোগ, আবেদন যেভাবে &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/aipiel-1793958531.jpg",
+        "articleUrl": "https://www.channel24bd.tv/science-technology/article/357208/%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%B8-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A7%87%E0%A6%87-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%86%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%81%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A6%AF%E0%A7%87%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -571,19 +584,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4yRklIUkpPRlB2azBmUG01Z1VjdHdaSWxTcU1NLWJwdHEycHM2T0xqeHhfc1MwdUVUYmxOWDZqNV9TTVJ5MWJJ?oc=5",
-        "title": "ত্রয়োদশ জাতীয় সংসদ নির্বাচন ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4yRklIUkpPRlB2azBmUG01Z1VjdHdaSWxTcU1NLWJwdHEycHM2T0xqeHhfc1MwdUVUYmxOWDZqNV9TTVJ5MWJJ?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 25 Dec 2023 08:56:27 GMT",
-        "summary": "ত্রয়োদশ জাতীয় সংসদ নির্বাচন ২০২৬ &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "",
-        "imageAttemptedAt": "2026-11-06T15:28:07.537Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMilwRBVV95cUxNWWRqbWVVTENvdHdHMXVaaTY0WXFxMTh1ZEFFMWZRN0FUeVktdmRBT1ZqT2JNS1BLSXV0SkxJQ0NTR0xXeGw1a2s3Q3VpMTBiUDRzdURjZmhMMUJITDgtV1BfNWxmQldFZGxIdG9uLW5mYnVLNEZ1VGtHVGZQcm9EV3FHLTRta0NXMlYzRS0taG1UZ0p3WEYzeFFETE9wOXhVWnk5MVZSSjdnRTlQTFh0ZG1lOThJeGFZTzFQaHJ0VThDRWxNWUd1MmVVcEluaWVlclZHOVZIZGp3al9qN1hXR0c1dUFNdDRBR1RrQXpXUzRIOTdQN2lGQlNfZU5HcS0wRS1nb3dyekdzN1JjZFdDZTFNa2luMzlBb01lTHpuWm1KWllYVF9CamtJM1BpNkRKeTQ4WG5ZeEVULTVJVUh4cE5pdXdsR0JVODYwclZBekVRemhJT2lYV0kxd0N2b1RlLWZpdC1hWmhKMDhFbWRMR0F4Mk1oRFFTaGRvRVBoZXlCT2I5SEtValZJQTJ0T3BDcV9Ta1dTRkd6cmpLSHJSRDRLeVlieEpSeUhsV3VfZ2IzY01qOWpIN1loZVVwQy0wVXRHZVcxZHh2V2pEbVN1RF9fcG9WVnVHYTVIbFpyLWFJanlBd01rODlQbVg4cXpKdkFnbEtIU0M2NkY4NUZqTlp3bW4zMWVVNm9xTm5UdzBqZHNjNFVv?oc=5",
         "title": "এনসিপি থেকে পদত্যাগ করলেন সামান্তা শারমিন",
         "link": "https://news.google.com/rss/articles/CBMilwRBVV95cUxNWWRqbWVVTENvdHdHMXVaaTY0WXFxMTh1ZEFFMWZRN0FUeVktdmRBT1ZqT2JNS1BLSXV0SkxJQ0NTR0xXeGw1a2s3Q3VpMTBiUDRzdURjZmhMMUJITDgtV1BfNWxmQldFZGxIdG9uLW5mYnVLNEZ1VGtHVGZQcm9EV3FHLTRta0NXMlYzRS0taG1UZ0p3WEYzeFFETE9wOXhVWnk5MVZSSjdnRTlQTFh0ZG1lOThJeGFZTzFQaHJ0VThDRWxNWUd1MmVVcEluaWVlclZHOVZIZGp3al9qN1hXR0c1dUFNdDRBR1RrQXpXUzRIOTdQN2lGQlNfZU5HcS0wRS1nb3dyekdzN1JjZFdDZTFNa2luMzlBb01lTHpuWm1KWllYVF9CamtJM1BpNkRKeTQ4WG5ZeEVULTVJVUh4cE5pdXdsR0JVODYwclZBekVRemhJT2lYV0kxd0N2b1RlLWZpdC1hWmhKMDhFbWRMR0F4Mk1oRFFTaGRvRVBoZXlCT2I5SEtValZJQTJ0T3BDcV9Ta1dTRkd6cmpLSHJSRDRLeVlieEpSeUhsV3VfZ2IzY01qOWpIN1loZVVwQy0wVXRHZVcxZHh2V2pEbVN1RF9fcG9WVnVHYTVIbFpyLWFJanlBd01rODlQbVg4cXpKdkFnbEtIU0M2NkY4NUZqTlp3bW4zMWVVNm9xTm5UdzBqZHNjNFVv?oc=5",
@@ -623,7 +623,7 @@
         "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৫ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
         "image": "news-fallbacks/world.svg",
         "articleUrl": "https://www.jagonews24.com/international/news/1176152",
-        "imageAttemptedAt": "2026-11-05T16:32:23.128Z",
+        "imageAttemptedAt": "2026-11-06T17:19:39.714Z",
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
@@ -744,138 +744,6 @@
         "imageFallback": "news-fallbacks/world.svg"
       }
     ],
-    "food": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2aWhUdkVFODg4UnNmT252TWJYWlRxOHAwREItcGVIQkZNd08xYXVBRHBQdGk5TWtNTjVaNW9hZmV0MXV1RkgwbWhZYkU1bF9YY1BBbGoxdkNzRkw4aG9hVTk1akjSAXJBVV95cUxObF9HaUUxS0s0a2hwZDN2c1FDazhzdFo5TWtaSExaNzJSYlFiMEFOdUp6LTlUTWt1cmlJRjRCbkV0cklNSlZIQkh0YzA5QkczeUJlT1JqeGtKVTBlQ096aXNDbnQxaXNYZmcwYmZqLW5lM3c?oc=5",
-        "title": "ঢাকায় আদিবাসীদের খাদ্য ও শস্য মেলা",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2aWhUdkVFODg4UnNmT252TWJYWlRxOHAwREItcGVIQkZNd08xYXVBRHBQdGk5TWtNTjVaNW9hZmV0MXV1RkgwbWhZYkU1bF9YY1BBbGoxdkNzRkw4aG9hVTk1akjSAXJBVV95cUxObF9HaUUxS0s0a2hwZDN2c1FDazhzdFo5TWtaSExaNzJSYlFiMEFOdUp6LTlUTWt1cmlJRjRCbkV0cklNSlZIQkh0YzA5QkczeUJlT1JqeGtKVTBlQ096aXNDbnQxaXNYZmcwYmZqLW5lM3c?oc=5",
-        "source": "প্রথম আলো",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 14:38:52 GMT",
-        "summary": "ঢাকায় আদিবাসীদের খাদ্য ও শস্য মেলা &nbsp;&nbsp; প্রথম আলো",
-        "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-06%2Flhd9wa65%2FEthnic-MainoritiesFair06112607.jpg?rect=0%2C317%2C6079%2C3419&w=1200&ar=16%3A9&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F18c58c05-9e66-46f3-8946-4437460f8f90%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
-        "articleUrl": "https://www.prothomalo.com/photo/bangladesh/y0ikq05eq6",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9yN1UtRS1lNFNQbFVqdWFkUmVFdERWemJyWDNPQmlwbTdJZkVSUzJUMGEzNmtBVDZpMnlfc0swbExZVkJ6R2ZUR25sRFdTU183bFhjWG41Mi1IZnYxMmc?oc=5",
-        "title": "আদিবাসী খাদ্য ও শস্য মেলায় জুমিয়া ফসলসহ ঐতিহ্যবাহী খাবারের পসরা",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9yN1UtRS1lNFNQbFVqdWFkUmVFdERWemJyWDNPQmlwbTdJZkVSUzJUMGEzNmtBVDZpMnlfc0swbExZVkJ6R2ZUR25sRFdTU183bFhjWG41Mi1IZnYxMmc?oc=5",
-        "source": "bdnews24.com",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 13:24:00 GMT",
-        "summary": "আদিবাসী খাদ্য ও শস্য মেলায় জুমিয়া ফসলসহ ঐতিহ্যবাহী খাবারের পসরা &nbsp;&nbsp; bdnews24.com",
-        "image": "https://media.assettype.com/bdnews24/2026-11-06/v968yekf/Indigenous-fair-061126-01.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=https%3A%2F%2Fmedia.assettype.com%2Fbdnews24%2F2026-06-27%2Fm5wwkbzf%2F1024-bdnews-1725269350-1730989838.jpg&overlay_position=bottom&overlay_width=100",
-        "articleUrl": "https://bangla.bdnews24.com/bangladesh/9aunpdt7y4",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IV1ZLTEpwTHdlbVJ3YUgyNHkwdnFhWHhfd1ZvMUtoYXgyT25aOElkVEFsSzVXdDhpVkVKcjFYMmhNUkZlNVlrUHJ6dTBHYTBIYUlvcUtnZ280SUQ5UnZrUXp5NlRjajQ0QW1BcA?oc=5",
-        "title": "মিরপুরে চলছে ২ দিনব্যাপী আদিবাসী খাদ্য ও শস্য মেলা",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IV1ZLTEpwTHdlbVJ3YUgyNHkwdnFhWHhfd1ZvMUtoYXgyT25aOElkVEFsSzVXdDhpVkVKcjFYMmhNUkZlNVlrUHJ6dTBHYTBIYUlvcUtnZ280SUQ5UnZrUXp5NlRjajQ0QW1BcA?oc=5",
-        "source": "দ্য ডেইলি স্টার বাংলা",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 15:32:38 GMT",
-        "summary": "মিরপুরে চলছে ২ দিনব্যাপী আদিবাসী খাদ্য ও শস্য মেলা &nbsp;&nbsp; দ্য ডেইলি স্টার বাংলা",
-        "image": "https://bangla.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/mirpur%20indegenous%20fair.png",
-        "articleUrl": "https://bangla.thedailystar.net/news/bangladesh/news-3978321",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WWHlBQTkxTXB0czBub3hhNzNfUlNCNmRsU21KOVFvdjhpZHJRSFp5SllBSUhjMEFDMDVRU285M25QS0t0NkZobE16UHdDQW1aSmtiSjl6NGVTR3ZKYjJyRU56NA?oc=5",
-        "title": "বিদ্যুৎ ছাড়াই সূর্যের আলোতে রান্না করা যাবে এই চুলায়",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WWHlBQTkxTXB0czBub3hhNzNfUlNCNmRsU21KOVFvdjhpZHJRSFp5SllBSUhjMEFDMDVRU285M25QS0t0NkZobE16UHdDQW1aSmtiSjl6NGVTR3ZKYjJyRU56NA?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 11:32:20 GMT",
-        "summary": "বিদ্যুৎ ছাড়াই সূর্যের আলোতে রান্না করা যাবে এই চুলায় &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.jagonews24.com/technology/article/1176354",
-        "imageAttemptedAt": "2026-11-06T12:22:16.775Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObTV6aXc3cy1EODBxU3h2X1FGZVljeUdUVDNtTG5mSWFNT0FqbTJ2eVJuQnJlVk1MMF9pNWRRUmZ4VTlQOGVOY2didVhZalhJdW01WVRhWWpDQW9jMmgwcUVuaGRRRGdyaUtGNHBwSE81eExUQldLaFlrQzZQMFNyYkRCcnJMLWdfZFJPU3VjVFRKeUFraFJaTnAzYVZHdHBFNU43OHRnUzNJZzlrMmdyOFZ0ZWHSAboBQVVfeXFMTlBXaWtSem14VXdjVlRidzlVNUZObUxJODlWYmw4YTh2TmJhelFQQ3JOR3RzZ3NPVV90RWNRY3p2NnMydUowX2Q1cmNhYzM1MThLSGFZNDhPdXV5c2xRb1oxenBMNzZmR2lrNEs4cWl0MktLenlmUUNpblFoclJHamowOFJCTkprZWl3S0RHdDA2YjdJVDYzY2lfbkxOQld4RnA0LTN0MEN5Zks2MGZTcWhncWFpemRmb25n?oc=5",
-        "title": "Food Safety: ফের খাদ্য সুরক্ষা দফতরের অভিযান Durgapur-এ, হোটেল-রেস্তোরাঁ থেকে মিলল পচা খাবার",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObTV6aXc3cy1EODBxU3h2X1FGZVljeUdUVDNtTG5mSWFNT0FqbTJ2eVJuQnJlVk1MMF9pNWRRUmZ4VTlQOGVOY2didVhZalhJdW01WVRhWWpDQW9jMmgwcUVuaGRRRGdyaUtGNHBwSE81eExUQldLaFlrQzZQMFNyYkRCcnJMLWdfZFJPU3VjVFRKeUFraFJaTnAzYVZHdHBFNU43OHRnUzNJZzlrMmdyOFZ0ZWHSAboBQVVfeXFMTlBXaWtSem14VXdjVlRidzlVNUZObUxJODlWYmw4YTh2TmJhelFQQ3JOR3RzZ3NPVV90RWNRY3p2NnMydUowX2Q1cmNhYzM1MThLSGFZNDhPdXV5c2xRb1oxenBMNzZmR2lrNEs4cWl0MktLenlmUUNpblFoclJHamowOFJCTkprZWl3S0RHdDA2YjdJVDYzY2lfbkxOQld4RnA0LTN0MEN5Zks2MGZTcWhncWFpemRmb25n?oc=5",
-        "source": "ABP Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 13:13:13 GMT",
-        "summary": "Food Safety: ফের খাদ্য সুরক্ষা দফতরের অভিযান Durgapur-এ, হোটেল-রেস্তোরাঁ থেকে মিলল পচা খাবার &nbsp;&nbsp; ABP Ananda",
-        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/06/a8fc2d74f46a73201cd549d8185f61821793970721423535_original.jpg?impolicy=abp_cdn&imwidth=1200",
-        "articleUrl": "https://bengali.abplive.com/videos/district/food-safety-department-inspection-before-kali-puja-watch-video-1198527",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi-ARBVV95cUxNZ3BrUnY4UjhOendWYm5YX1hsNUctS29rc3dTX2tGc3paQmlWdVNuVTBtWV85ZVd3Z21Ybl9NRERWbHlobV84WlBqQkdXWi1QUWpiemluWENFNUJ0d1I1TEx0eTk4VkZ4WVNudzMxWm1rRVJTUXByTGM0MThhZTlFRFBRVjlxdkZZNDU1eExkdmNYZkRETk91VzA4Q0FGeHdGbVJ5V0lydGx2Ui1oUGZTY0l0NVVXejhBUUVWTU5BaVkxMzZGbzBpUjM3OFpLTjREVk9rU0xPVVU1T0pSRUhMc3FiNjhjWkVMdEZVUVVGd0xySzZtN2lJVmpRSXJEVXYtZ1dDdVl4NUxpd2JjcEpxZHNZd3I3ZVJsWlNxV05vazJUbmMyV3RYSGM3REk0Uk90WEJRdllCODU2bGZFS1I2TDBSMk55SE1pVjNscnpobWlqV3BWNEo4UzFrTUhHMlJidlRCQ09UekxnemhmQWRLaFdqTGtjZzVSSDBuNzJuUEFDR085NFRSQjNVZE1MNkVreGdUcWRPaHFVTmY5OVpxRTQwZm5QM2U0cGRzbzh6djA4aTRhYUpKWk9jSXJhQkp5QXE2a2paOW9QZjhNTG9talRFZm94MjdpNklXaEJ0eGdTUmtWMjVoTkFQVHJLeTQ1STFCWWhjRUxSdTFLblFWSkxjRURBRl9GcGd3a2JiYXJWSFc5T0tpdks1Tk5XcFFtT3NVUWlZMzhHbWcwaGhjdVZNYnE0TmxaSk15ZllvdU9scGRKTzdDOV9hc1hxX29vWnM3ZFlwM1FldGpHc2w4SERtZDlxODlidHAtdVItQlZvVlk1SjlnNw?oc=5",
-        "title": "মিরপুরে দুই দিনব্যাপী আদিবাসী খাদ্য ও শস্য মেলা শুরু",
-        "link": "https://news.google.com/rss/articles/CBMi-ARBVV95cUxNZ3BrUnY4UjhOendWYm5YX1hsNUctS29rc3dTX2tGc3paQmlWdVNuVTBtWV85ZVd3Z21Ybl9NRERWbHlobV84WlBqQkdXWi1QUWpiemluWENFNUJ0d1I1TEx0eTk4VkZ4WVNudzMxWm1rRVJTUXByTGM0MThhZTlFRFBRVjlxdkZZNDU1eExkdmNYZkRETk91VzA4Q0FGeHdGbVJ5V0lydGx2Ui1oUGZTY0l0NVVXejhBUUVWTU5BaVkxMzZGbzBpUjM3OFpLTjREVk9rU0xPVVU1T0pSRUhMc3FiNjhjWkVMdEZVUVVGd0xySzZtN2lJVmpRSXJEVXYtZ1dDdVl4NUxpd2JjcEpxZHNZd3I3ZVJsWlNxV05vazJUbmMyV3RYSGM3REk0Uk90WEJRdllCODU2bGZFS1I2TDBSMk55SE1pVjNscnpobWlqV3BWNEo4UzFrTUhHMlJidlRCQ09UekxnemhmQWRLaFdqTGtjZzVSSDBuNzJuUEFDR085NFRSQjNVZE1MNkVreGdUcWRPaHFVTmY5OVpxRTQwZm5QM2U0cGRzbzh6djA4aTRhYUpKWk9jSXJhQkp5QXE2a2paOW9QZjhNTG9talRFZm94MjdpNklXaEJ0eGdTUmtWMjVoTkFQVHJLeTQ1STFCWWhjRUxSdTFLblFWSkxjRURBRl9GcGd3a2JiYXJWSFc5T0tpdks1Tk5XcFFtT3NVUWlZMzhHbWcwaGhjdVZNYnE0TmxaSk15ZllvdU9scGRKTzdDOV9hc1hxX29vWnM3ZFlwM1FldGpHc2w4SERtZDlxODlidHAtdVItQlZvVlk1SjlnNw?oc=5",
-        "source": "Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 10:35:00 GMT",
-        "summary": "মিরপুরে দুই দিনব্যাপী আদিবাসী খাদ্য ও শস্য মেলা শুরু &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/untitled-17-1793961309.jpg",
-        "articleUrl": "https://www.channel24bd.tv/capital/article/357218/%E0%A6%AE%E0%A6%BF%E0%A6%B0%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%80-%E0%A6%86%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%93-%E0%A6%B6%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi8ARBVV95cUxQbmRBaTIyaXpQbkE1S0pGVnpPSUJlT3UxbnItX0tGNG9vdmhLZlY0eElsSWlBRzYzY0RVUkFlT1g1bGRxeHlSQ3RETFNrN3pFdWtPcnlUSkNjR1dGemN1NXY2aEplS2c3RXl5dnM5cjRDTHFuYjVGcnFPZlctdmFwSDM4MkZkN2FnWlozU0ltcUhwWU1QcEhYc0ZPSDkzTVBicEFMMGx1cUlIUkJIelRRUVI2NmJIWDU4YVJBM2FKajEzcVdMOXh4T0lqbXlmSWdMT0tYam1tQm10U3pvQThJVkI2OTRZci1vSUZOaHBnbU1wOTZrbnU1Z3E0ZnBVTHpodWJQczZId2h5ZF9mbFVBS2pPT1ZNeERZdmhURkc4SlZHTlhxdWMzXzdIZVZnc21CNEt1SFQxcGpjRG9wLWtUN3BEM3pWMFRQM1NyZmswN1pwWDB5VGkxelVWR2txeDNMLWh6bEYxUlZZa1d2eUZPbVJJLUFPYlpBQWxfNUpHTmY0RjJKV1dKb3MzZkRabWwwY2REamMwT3N4RDhHaXFPRkg1S3ZQNTFNaldsdmxNWG5lT1VVdGZZUE5JOUhlb1BuTDVsMHdkYnFXQUZmdWpOUHRtcllzRXVVX3RlbFBlNVNFNTl1elpaRG1MaDZYY2pVWWFoZXRHM1lHby1PYmhvNWdJSEMzX2lJQ2VpRE9hOFNMaG1UaFpSb0V3c2s2SGtTaWk4a2tHNnZrTk5Na24wLUVudV9IUHExWUtkY0pJYWNDOHoxT2VVZGRObEFoUVJzZ2VObmRWVnFGMXJ1Y2FXZHMyZUZxdC1rRFJxb3NjcFI?oc=5",
-        "title": "মিরপুরে দুই দিনব্যাপী আদিবাসী খাদ্য ও শস্য মেলা শুরু",
-        "link": "https://news.google.com/rss/articles/CBMi8ARBVV95cUxQbmRBaTIyaXpQbkE1S0pGVnpPSUJlT3UxbnItX0tGNG9vdmhLZlY0eElsSWlBRzYzY0RVUkFlT1g1bGRxeHlSQ3RETFNrN3pFdWtPcnlUSkNjR1dGemN1NXY2aEplS2c3RXl5dnM5cjRDTHFuYjVGcnFPZlctdmFwSDM4MkZkN2FnWlozU0ltcUhwWU1QcEhYc0ZPSDkzTVBicEFMMGx1cUlIUkJIelRRUVI2NmJIWDU4YVJBM2FKajEzcVdMOXh4T0lqbXlmSWdMT0tYam1tQm10U3pvQThJVkI2OTRZci1vSUZOaHBnbU1wOTZrbnU1Z3E0ZnBVTHpodWJQczZId2h5ZF9mbFVBS2pPT1ZNeERZdmhURkc4SlZHTlhxdWMzXzdIZVZnc21CNEt1SFQxcGpjRG9wLWtUN3BEM3pWMFRQM1NyZmswN1pwWDB5VGkxelVWR2txeDNMLWh6bEYxUlZZa1d2eUZPbVJJLUFPYlpBQWxfNUpHTmY0RjJKV1dKb3MzZkRabWwwY2REamMwT3N4RDhHaXFPRkg1S3ZQNTFNaldsdmxNWG5lT1VVdGZZUE5JOUhlb1BuTDVsMHdkYnFXQUZmdWpOUHRtcllzRXVVX3RlbFBlNVNFNTl1elpaRG1MaDZYY2pVWWFoZXRHM1lHby1PYmhvNWdJSEMzX2lJQ2VpRE9hOFNMaG1UaFpSb0V3c2s2SGtTaWk4a2tHNnZrTk5Na24wLUVudV9IUHExWUtkY0pJYWNDOHoxT2VVZGRObEFoUVJzZ2VObmRWVnFGMXJ1Y2FXZHMyZUZxdC1rRFJxb3NjcFI?oc=5",
-        "source": "SAMAKAL",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 09:57:48 GMT",
-        "summary": "মিরপুরে দুই দিনব্যাপী আদিবাসী খাদ্য ও শস্য মেলা শুরু &nbsp;&nbsp; SAMAKAL",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://samakal.com/capital/article/381702/%E0%A6%AE%E0%A6%BF%E0%A6%B0%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%80-%E0%A6%86%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%93-%E0%A6%B6%E0%A6%B8%E0%A7%8D%E0%A6%AF-%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81",
-        "imageAttemptedAt": "2026-11-06T11:26:52.624Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XNVZTdGpCMHRtYl8zT2l0X0puTk90dnUxOVhHUVR2SkZlWGpFMVl4NFJGMFMxWWxYSWRBZ19XNnV0b1hCbXJ1QmFYSXZBTEIycWNvRA?oc=5",
-        "title": "জীবনসঙ্গীর মধ্যে পাঁচ গুণ চান সাই পল্লবী, রান্না জানলে বাড়তি সুবিধা",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XNVZTdGpCMHRtYl8zT2l0X0puTk90dnUxOVhHUVR2SkZlWGpFMVl4NFJGMFMxWWxYSWRBZ19XNnV0b1hCbXJ1QmFYSXZBTEIycWNvRA?oc=5",
-        "source": "Daily Bhorer Dak",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 10:59:28 GMT",
-        "summary": "জীবনসঙ্গীর মধ্যে পাঁচ গুণ চান সাই পল্লবী, রান্না জানলে বাড়তি সুবিধা &nbsp;&nbsp; Daily Bhorer Dak",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.dailybhorerdak.com/news/264629",
-        "imageAttemptedAt": "2026-11-06T11:26:52.624Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGMk84TWkxQ05XRENaZXdOMHF6UkpPVDh3d1AybEU2R3VnY2lRZGFjNHRtZjdIWXNpWTZjalZwV2FfQXdWZUhucGRWSnhCRzdyeklsZWdMOURxMTZHcGVTeUJQMHl5X1RXc2pN0gFwQVVfeXFMTVlnZnpsTGdLRUZkZDRzbGZ0QXMyd0s4VGpMbTgtckRQV3VNRmplaTU1TktMcXBMUGtqTEFaYVo2RFRQZ3NZUndhbGhOUk9pdjNxbGx0RmdfdWlBLWlDTzF3NHE0bDVrT1U0SEdiOWctOQ?oc=5",
-        "title": "মোকামতলায় খাদ্য বান্ধব নতুন কার্ড দিয়েও মিলল না চাল",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGMk84TWkxQ05XRENaZXdOMHF6UkpPVDh3d1AybEU2R3VnY2lRZGFjNHRtZjdIWXNpWTZjalZwV2FfQXdWZUhucGRWSnhCRzdyeklsZWdMOURxMTZHcGVTeUJQMHl5X1RXc2pN0gFwQVVfeXFMTVlnZnpsTGdLRUZkZDRzbGZ0QXMyd0s4VGpMbTgtckRQV3VNRmplaTU1TktMcXBMUGtqTEFaYVo2RFRQZ3NZUndhbGhOUk9pdjNxbGx0RmdfdWlBLWlDTzF3NHE0bDVrT1U0SEdiOWctOQ?oc=5",
-        "source": "Ajker Patrika",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 14:29:15 GMT",
-        "summary": "মোকামতলায় খাদ্য বান্ধব নতুন কার্ড দিয়েও মিলল না চাল &nbsp;&nbsp; Ajker Patrika",
-        "image": "https://images.ajkerpatrika.com/og-images/%E0%A6%B0%E0%A6%93%E0%A6%B6%E0%A6%A8-%E0%A6%86%E0%A6%B0%E0%A6%BE-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%93-%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%AE%E0%A6%A8-%E0%A6%AC%E0%A7%87%E0%A6%97%E0%A6%AE-9102fe.og-image-overlay-886b33.jpg",
-        "articleUrl": "https://www.ajkerpatrika.com/bangladesh/bogra/ajpy35snayoog",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMitgRBVV95cUxPc2tZZkhmRGdFR0VjaHdMY1g2cVVXbDN0dHRVQTVUcjR4dUUwcEdhZXExQ2Nyemd1UnFRU2F4b2ZROGNCWWtMd2tpMHNjWmczVnVBRmJoNzVCdjFSTXBnNzN3VExWZWRXZ3pESllmbDhXd1BaWG1lbUkzdUZzU0M0Z1JjMERTLXozTVhmaWtMRGpweVc1TkJnYk9CUi1jcUlQbXdqdkZ6N0VwUkd4dDdlQnQxODV5YjdRbFdOWjgyV3p2UUoway1hTDRPdW92bjd6TVNVUkhjQkIxNEF4c0pPS2pVZ3VPcHl4WTRQTVRTa0tUU2pXQzFfNFh4SVZwM1hsTVhjR3BHd1V5SU4zQ1J3dXNfcTd0bTNEWldfMEFWVG55U2drRHJXU3U1TW9VeXBxYWF2TFd3c0xrbFNKdzZyVExjY3NnT2lSWWM1UEpnY2ZaMEVRdkU5T29DWXlVUE1XaGJZcm1SeTYzRlpleWJZRG0wYVpOZDV0RnJlX1o0QjZVOC1oQ0xFS0ZJNDNkZEVkWXVjX3p6NnJoeHk2OGk3cXRnMjV2RXZkZlBBSEYzaUprMVBNdkNiMExwMlB1ekZ2SVY4MElIbnZJZjdmakNfWU1xR0k1c0lOdUJJYnhiVXVYR1p3U2lrX01xaTZzWjYyZFZhTHlHTmtnT0c1ekZZQkFvWm5TUkZsWnpMc0V3UWdWWUFvNEt3UGZYYU1FeTJNbkVrUkY0am5aZnhETFJaS0sta0cyd9IBuwRBVV95cUxNd3J2VXU0TUYtTFJnZDFkU2pYcEVreHNPUHBORGlUSWc5cnRFNDZXWE9nREc4M3hKd2ZPSWtrRlhKOVJVRU13LUhvQjJtZXdYRWFCZTNhNVk3Y1B3ZzRnRmowbzhwTVZ0UWRKTGlfRUhtZUhfZV9MRGtYNG5XZ2tKa2JqSUJBSVN6MkY5dVhXeERVTWNpNTNCMXVRRDA1aDdHYTFHb0VVWkFFZFBCS2pFUS05aVpmUWhVUEswei16T3gyQmdlQ1k1endaQ3d3b3VaYk90ZmZMdUM2aWVoNG9NRjJMQ2tjNnNBdEZLUm1QSHUybFlhRkV5dXhlOXdxbkozYWZ2TG54YWw4SXo2V1F6V1Z2cFVIOGhvLWltQ0ROeHFMWlpITVdTVzRnMmtMTkNzUThNcTNzUHZHMmVjUVZIOEZDaXlrTWwxOGdKMkpJSWFXdGZHaGlLVTQ3eTJST1hQVDBBQ0hRY2J2TlgwQnhfOGhWNXllaEpBQ0lDNjh3TDdLTEJhbzlpcnFkQ0lpZVluVERabERxV2JlMVpIOVJMVDNUNjNtMW81TkJWZUxGZmduYTJWY0pLNjNlVkZpUHMxQldsNVZMR28yRUU4Z2hhQ0RjNHVqQVhlQ0YtQnZzQjVYWVZKUlMxMGtiYXlTMFl3VXpMTW1WQk5TZnBRMDVLX0R6TG1henlsY0stOEg1amdfMXQ3dkZWdzFUVGlUZ0ROVEM3Zm1fWDNfQUQ0VV9MR0g5dUh1VjNLb1RF?oc=5",
-        "title": "রাজধানীতে আদিবাসী খাদ্য ও শস্য মেলার উদ্বোধন",
-        "link": "https://news.google.com/rss/articles/CBMitgRBVV95cUxPc2tZZkhmRGdFR0VjaHdMY1g2cVVXbDN0dHRVQTVUcjR4dUUwcEdhZXExQ2Nyemd1UnFRU2F4b2ZROGNCWWtMd2tpMHNjWmczVnVBRmJoNzVCdjFSTXBnNzN3VExWZWRXZ3pESllmbDhXd1BaWG1lbUkzdUZzU0M0Z1JjMERTLXozTVhmaWtMRGpweVc1TkJnYk9CUi1jcUlQbXdqdkZ6N0VwUkd4dDdlQnQxODV5YjdRbFdOWjgyV3p2UUoway1hTDRPdW92bjd6TVNVUkhjQkIxNEF4c0pPS2pVZ3VPcHl4WTRQTVRTa0tUU2pXQzFfNFh4SVZwM1hsTVhjR3BHd1V5SU4zQ1J3dXNfcTd0bTNEWldfMEFWVG55U2drRHJXU3U1TW9VeXBxYWF2TFd3c0xrbFNKdzZyVExjY3NnT2lSWWM1UEpnY2ZaMEVRdkU5T29DWXlVUE1XaGJZcm1SeTYzRlpleWJZRG0wYVpOZDV0RnJlX1o0QjZVOC1oQ0xFS0ZJNDNkZEVkWXVjX3p6NnJoeHk2OGk3cXRnMjV2RXZkZlBBSEYzaUprMVBNdkNiMExwMlB1ekZ2SVY4MElIbnZJZjdmakNfWU1xR0k1c0lOdUJJYnhiVXVYR1p3U2lrX01xaTZzWjYyZFZhTHlHTmtnT0c1ekZZQkFvWm5TUkZsWnpMc0V3UWdWWUFvNEt3UGZYYU1FeTJNbkVrUkY0am5aZnhETFJaS0sta0cyd9IBuwRBVV95cUxNd3J2VXU0TUYtTFJnZDFkU2pYcEVreHNPUHBORGlUSWc5cnRFNDZXWE9nREc4M3hKd2ZPSWtrRlhKOVJVRU13LUhvQjJtZXdYRWFCZTNhNVk3Y1B3ZzRnRmowbzhwTVZ0UWRKTGlfRUhtZUhfZV9MRGtYNG5XZ2tKa2JqSUJBSVN6MkY5dVhXeERVTWNpNTNCMXVRRDA1aDdHYTFHb0VVWkFFZFBCS2pFUS05aVpmUWhVUEswei16T3gyQmdlQ1k1endaQ3d3b3VaYk90ZmZMdUM2aWVoNG9NRjJMQ2tjNnNBdEZLUm1QSHUybFlhRkV5dXhlOXdxbkozYWZ2TG54YWw4SXo2V1F6V1Z2cFVIOGhvLWltQ0ROeHFMWlpITVdTVzRnMmtMTkNzUThNcTNzUHZHMmVjUVZIOEZDaXlrTWwxOGdKMkpJSWFXdGZHaGlLVTQ3eTJST1hQVDBBQ0hRY2J2TlgwQnhfOGhWNXllaEpBQ0lDNjh3TDdLTEJhbzlpcnFkQ0lpZVluVERabERxV2JlMVpIOVJMVDNUNjNtMW81TkJWZUxGZmduYTJWY0pLNjNlVkZpUHMxQldsNVZMR28yRUU4Z2hhQ0RjNHVqQVhlQ0YtQnZzQjVYWVZKUlMxMGtiYXlTMFl3VXpMTW1WQk5TZnBRMDVLX0R6TG1henlsY0stOEg1amdfMXQ3dkZWdzFUVGlUZ0ROVEM3Zm1fWDNfQUQ0VV9MR0g5dUh1VjNLb1RF?oc=5",
-        "source": "দেশ রূপান্তর",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 10:16:34 GMT",
-        "summary": "রাজধানীতে আদিবাসী খাদ্য ও শস্য মেলার উদ্বোধন &nbsp;&nbsp; দেশ রূপান্তর",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.deshrupantor.com/733109/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%B0-%E0%A6%AE%E0%A6%BF%E0%A6%B0%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%80-%E0%A6%86%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%93",
-        "imageAttemptedAt": "2026-11-06T11:26:52.624Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      }
-    ],
     "bangladesh": [
       {
         "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14Qm5uMGpXQVJWaE5DcTkzN0NkUFAyVTJlUVprLUNBaHJ2anNRWmFJSHZJYjIwRzMyTkJPbW9IbnF6S2lRVW9uOEE0UzlHTl9DWVpuODVJT21kZE5ncHpZ0gFkQVVfeXFMTU5Mc1NiTUxYSmV3Q3MwT0c2VGhpOWtFMGFubWpla3NlYlh1cm5yZXZkZi1xbFpjUkl3cF9xNWhzT0xReENqQ3IybVBlQUU0amd4Qi1fSnFQdktUaHVUaFNJaVFhbw?oc=5",
@@ -888,6 +756,19 @@
         "image": "news-fallbacks/bangladesh.svg",
         "articleUrl": "https://www.bbc.com/bengali/articles/cxj0ll2m5meqo",
         "imageAttemptedAt": "2026-11-06T07:00:04.603Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYkJkaUpvSDVBODEzRzJtY1FjY2hERXNUaTdJVGNwYThubnhQdjNNa2g0V2czVFJlVzEzVW5aVlhDWlhHcTZCTDdTYUxQSjlXUHZXZDhBd3dXc2dpVjRORXE5bUtmZUZLTmlucjhLYnhfN01kclBkdEFkdWlDMjhRRGpJQU4zNWNjMW5jSVY2U2p3eGtScW9qa1RTYm1LQkxLQzBCUlU2d3M3cGdmWHhQMkhGZFduWG05WUUw?oc=5",
+        "title": "সিলেট টেস্টের দ্বিতীয় দিনে ওয়েস্ট ইন্ডিজের বিপক্ষে ২৬৮ রানে পিছিয়ে বাংলাদেশ",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYkJkaUpvSDVBODEzRzJtY1FjY2hERXNUaTdJVGNwYThubnhQdjNNa2g0V2czVFJlVzEzVW5aVlhDWlhHcTZCTDdTYUxQSjlXUHZXZDhBd3dXc2dpVjRORXE5bUtmZUZLTmlucjhLYnhfN01kclBkdEFkdWlDMjhRRGpJQU4zNWNjMW5jSVY2U2p3eGtScW9qa1RTYm1LQkxLQzBCUlU2d3M3cGdmWHhQMkhGZFduWG05WUUw?oc=5",
+        "source": "স্টার নিউজ",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 10:48:31 GMT",
+        "summary": "সিলেট টেস্টের দ্বিতীয় দিনে ওয়েস্ট ইন্ডিজের বিপক্ষে ২৬৮ রানে পিছিয়ে বাংলাদেশ &nbsp;&nbsp; স্টার নিউজ",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://starnews.com.bd/sports/28374/bangladesh-trail-west-indies-by-268-runs-on-the-second-day-of-the-sylhet-test.html",
+        "imageAttemptedAt": "2026-11-06T17:19:39.714Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
@@ -969,19 +850,6 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUnFiRGtRa2FKTTFabl91UEJlcGsyMzdXZDI2eDVfbVhqak81UnV2ZHF6eGV0bDBuZFNpMGtjNWt2aTZ3djZXRTVoUk12ZnlNT1Aya1NaR2xOcnJBWlQtTm5FMmxRSndxVVlManY3Tk9oTlFDekhHd19GeE92d1l6RGFHMl9rZE1mdUN5alNjY3RvQQ?oc=5",
-        "title": "Bangladesh News | বাংলাদেশে জুলাই অভুত্থানের পর গ্রেফতার চিন্ময়কৃষ্ণের এবার মুক্তি?| Bangla News",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUnFiRGtRa2FKTTFabl91UEJlcGsyMzdXZDI2eDVfbVhqak81UnV2ZHF6eGV0bDBuZFNpMGtjNWt2aTZ3djZXRTVoUk12ZnlNT1Aya1NaR2xOcnJBWlQtTm5FMmxRSndxVVlManY3Tk9oTlFDekhHd19GeE92d1l6RGFHMl9rZE1mdUN5alNjY3RvQQ?oc=5",
-        "source": "News18 Bengali",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 10 Sep 2026 07:00:00 GMT",
-        "summary": "Bangladesh News | বাংলাদেশে জুলাই অভুত্থানের পর গ্রেফতার চিন্ময়কৃষ্ণের এবার মুক্তি?| Bangla News &nbsp;&nbsp; News18 Bengali",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://bengali.news18.com/videos/international/bangladesh-news-bangla-news-2888984.html",
-        "imageAttemptedAt": "2026-11-06T16:22:56.088Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rTng3ekZGWHRqMVYwZ29zUThsNl9vcUdqZm5wRXZzaTY2OFZCNzUwdWNOZkxORklKYTNXWl9WeTFXLU5LUXd0SF9HX1dTcHpJMnZEeVNYb3RBZ0ZDdjAw0gFkQVVfeXFMT0Z3ZkJ4bmpxTUZHaUFXR0xTUGJMbGEzWEJycjkzbXAyZXJRcUpucFBIMFNqMW1TaEVJT3poMzBQV0ZwaXNqNnMyNTZSZnlrdTFpTWQzQjRGQ19DQ2I0M25zbWpwTg?oc=5",
         "title": "যুক্তরাষ্ট্রের বোয়িং থেকে আরও ১১টি বিমান কেনার চুক্তি করেছে বাংলাদেশ",
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rTng3ekZGWHRqMVYwZ29zUThsNl9vcUdqZm5wRXZzaTY2OFZCNzUwdWNOZkxORklKYTNXWl9WeTFXLU5LUXd0SF9HX1dTcHpJMnZEeVNYb3RBZ0ZDdjAw0gFkQVVfeXFMT0Z3ZkJ4bmpxTUZHaUFXR0xTUGJMbGEzWEJycjkzbXAyZXJRcUpucFBIMFNqMW1TaEVJT3poMzBQV0ZwaXNqNnMyNTZSZnlrdTFpTWQzQjRGQ19DQ2I0M25zbWpwTg?oc=5",
@@ -1007,16 +875,148 @@
         "imageAttemptedAt": "2026-11-06T16:22:56.088Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       }
+    ],
+    "food": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2aWhUdkVFODg4UnNmT252TWJYWlRxOHAwREItcGVIQkZNd08xYXVBRHBQdGk5TWtNTjVaNW9hZmV0MXV1RkgwbWhZYkU1bF9YY1BBbGoxdkNzRkw4aG9hVTk1akjSAXJBVV95cUxObF9HaUUxS0s0a2hwZDN2c1FDazhzdFo5TWtaSExaNzJSYlFiMEFOdUp6LTlUTWt1cmlJRjRCbkV0cklNSlZIQkh0YzA5QkczeUJlT1JqeGtKVTBlQ096aXNDbnQxaXNYZmcwYmZqLW5lM3c?oc=5",
+        "title": "ঢাকায় আদিবাসীদের খাদ্য ও শস্য মেলা",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2aWhUdkVFODg4UnNmT252TWJYWlRxOHAwREItcGVIQkZNd08xYXVBRHBQdGk5TWtNTjVaNW9hZmV0MXV1RkgwbWhZYkU1bF9YY1BBbGoxdkNzRkw4aG9hVTk1akjSAXJBVV95cUxObF9HaUUxS0s0a2hwZDN2c1FDazhzdFo5TWtaSExaNzJSYlFiMEFOdUp6LTlUTWt1cmlJRjRCbkV0cklNSlZIQkh0YzA5QkczeUJlT1JqeGtKVTBlQ096aXNDbnQxaXNYZmcwYmZqLW5lM3c?oc=5",
+        "source": "প্রথম আলো",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 14:38:52 GMT",
+        "summary": "ঢাকায় আদিবাসীদের খাদ্য ও শস্য মেলা &nbsp;&nbsp; প্রথম আলো",
+        "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-06%2Flhd9wa65%2FEthnic-MainoritiesFair06112607.jpg?rect=0%2C317%2C6079%2C3419&w=1200&ar=16%3A9&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F18c58c05-9e66-46f3-8946-4437460f8f90%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+        "articleUrl": "https://www.prothomalo.com/photo/bangladesh/y0ikq05eq6",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IV1ZLTEpwTHdlbVJ3YUgyNHkwdnFhWHhfd1ZvMUtoYXgyT25aOElkVEFsSzVXdDhpVkVKcjFYMmhNUkZlNVlrUHJ6dTBHYTBIYUlvcUtnZ280SUQ5UnZrUXp5NlRjajQ0QW1BcA?oc=5",
+        "title": "মিরপুরে চলছে ২ দিনব্যাপী আদিবাসী খাদ্য ও শস্য মেলা",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IV1ZLTEpwTHdlbVJ3YUgyNHkwdnFhWHhfd1ZvMUtoYXgyT25aOElkVEFsSzVXdDhpVkVKcjFYMmhNUkZlNVlrUHJ6dTBHYTBIYUlvcUtnZ280SUQ5UnZrUXp5NlRjajQ0QW1BcA?oc=5",
+        "source": "দ্য ডেইলি স্টার বাংলা",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 15:32:38 GMT",
+        "summary": "মিরপুরে চলছে ২ দিনব্যাপী আদিবাসী খাদ্য ও শস্য মেলা &nbsp;&nbsp; দ্য ডেইলি স্টার বাংলা",
+        "image": "https://bangla.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/mirpur%20indegenous%20fair.png",
+        "articleUrl": "https://bangla.thedailystar.net/news/bangladesh/news-3978321",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XNVZTdGpCMHRtYl8zT2l0X0puTk90dnUxOVhHUVR2SkZlWGpFMVl4NFJGMFMxWWxYSWRBZ19XNnV0b1hCbXJ1QmFYSXZBTEIycWNvRA?oc=5",
+        "title": "জীবনসঙ্গীর মধ্যে পাঁচ গুণ চান সাই পল্লবী, রান্না জানলে বাড়তি সুবিধা",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XNVZTdGpCMHRtYl8zT2l0X0puTk90dnUxOVhHUVR2SkZlWGpFMVl4NFJGMFMxWWxYSWRBZ19XNnV0b1hCbXJ1QmFYSXZBTEIycWNvRA?oc=5",
+        "source": "Daily Bhorer Dak",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 16:57:17 GMT",
+        "summary": "জীবনসঙ্গীর মধ্যে পাঁচ গুণ চান সাই পল্লবী, রান্না জানলে বাড়তি সুবিধা &nbsp;&nbsp; Daily Bhorer Dak",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.dailybhorerdak.com/news/264629",
+        "imageAttemptedAt": "2026-11-06T11:26:52.624Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9yN1UtRS1lNFNQbFVqdWFkUmVFdERWemJyWDNPQmlwbTdJZkVSUzJUMGEzNmtBVDZpMnlfc0swbExZVkJ6R2ZUR25sRFdTU183bFhjWG41Mi1IZnYxMmc?oc=5",
+        "title": "আদিবাসী খাদ্য ও শস্য মেলায় জুমিয়া ফসলসহ ঐতিহ্যবাহী খাবারের পসরা",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9yN1UtRS1lNFNQbFVqdWFkUmVFdERWemJyWDNPQmlwbTdJZkVSUzJUMGEzNmtBVDZpMnlfc0swbExZVkJ6R2ZUR25sRFdTU183bFhjWG41Mi1IZnYxMmc?oc=5",
+        "source": "bdnews24.com",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 13:24:00 GMT",
+        "summary": "আদিবাসী খাদ্য ও শস্য মেলায় জুমিয়া ফসলসহ ঐতিহ্যবাহী খাবারের পসরা &nbsp;&nbsp; bdnews24.com",
+        "image": "https://media.assettype.com/bdnews24/2026-11-06/v968yekf/Indigenous-fair-061126-01.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=https%3A%2F%2Fmedia.assettype.com%2Fbdnews24%2F2026-06-27%2Fm5wwkbzf%2F1024-bdnews-1725269350-1730989838.jpg&overlay_position=bottom&overlay_width=100",
+        "articleUrl": "https://bangla.bdnews24.com/bangladesh/9aunpdt7y4",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WWHlBQTkxTXB0czBub3hhNzNfUlNCNmRsU21KOVFvdjhpZHJRSFp5SllBSUhjMEFDMDVRU285M25QS0t0NkZobE16UHdDQW1aSmtiSjl6NGVTR3ZKYjJyRU56NA?oc=5",
+        "title": "বিদ্যুৎ ছাড়াই সূর্যের আলোতে রান্না করা যাবে এই চুলায়",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WWHlBQTkxTXB0czBub3hhNzNfUlNCNmRsU21KOVFvdjhpZHJRSFp5SllBSUhjMEFDMDVRU285M25QS0t0NkZobE16UHdDQW1aSmtiSjl6NGVTR3ZKYjJyRU56NA?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 11:32:20 GMT",
+        "summary": "বিদ্যুৎ ছাড়াই সূর্যের আলোতে রান্না করা যাবে এই চুলায় &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.jagonews24.com/technology/article/1176354",
+        "imageAttemptedAt": "2026-11-06T12:22:16.775Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObTV6aXc3cy1EODBxU3h2X1FGZVljeUdUVDNtTG5mSWFNT0FqbTJ2eVJuQnJlVk1MMF9pNWRRUmZ4VTlQOGVOY2didVhZalhJdW01WVRhWWpDQW9jMmgwcUVuaGRRRGdyaUtGNHBwSE81eExUQldLaFlrQzZQMFNyYkRCcnJMLWdfZFJPU3VjVFRKeUFraFJaTnAzYVZHdHBFNU43OHRnUzNJZzlrMmdyOFZ0ZWHSAboBQVVfeXFMTlBXaWtSem14VXdjVlRidzlVNUZObUxJODlWYmw4YTh2TmJhelFQQ3JOR3RzZ3NPVV90RWNRY3p2NnMydUowX2Q1cmNhYzM1MThLSGFZNDhPdXV5c2xRb1oxenBMNzZmR2lrNEs4cWl0MktLenlmUUNpblFoclJHamowOFJCTkprZWl3S0RHdDA2YjdJVDYzY2lfbkxOQld4RnA0LTN0MEN5Zks2MGZTcWhncWFpemRmb25n?oc=5",
+        "title": "Food Safety: ফের খাদ্য সুরক্ষা দফতরের অভিযান Durgapur-এ, হোটেল-রেস্তোরাঁ থেকে মিলল পচা খাবার",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObTV6aXc3cy1EODBxU3h2X1FGZVljeUdUVDNtTG5mSWFNT0FqbTJ2eVJuQnJlVk1MMF9pNWRRUmZ4VTlQOGVOY2didVhZalhJdW01WVRhWWpDQW9jMmgwcUVuaGRRRGdyaUtGNHBwSE81eExUQldLaFlrQzZQMFNyYkRCcnJMLWdfZFJPU3VjVFRKeUFraFJaTnAzYVZHdHBFNU43OHRnUzNJZzlrMmdyOFZ0ZWHSAboBQVVfeXFMTlBXaWtSem14VXdjVlRidzlVNUZObUxJODlWYmw4YTh2TmJhelFQQ3JOR3RzZ3NPVV90RWNRY3p2NnMydUowX2Q1cmNhYzM1MThLSGFZNDhPdXV5c2xRb1oxenBMNzZmR2lrNEs4cWl0MktLenlmUUNpblFoclJHamowOFJCTkprZWl3S0RHdDA2YjdJVDYzY2lfbkxOQld4RnA0LTN0MEN5Zks2MGZTcWhncWFpemRmb25n?oc=5",
+        "source": "ABP Ananda",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 13:13:13 GMT",
+        "summary": "Food Safety: ফের খাদ্য সুরক্ষা দফতরের অভিযান Durgapur-এ, হোটেল-রেস্তোরাঁ থেকে মিলল পচা খাবার &nbsp;&nbsp; ABP Ananda",
+        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/06/a8fc2d74f46a73201cd549d8185f61821793970721423535_original.jpg?impolicy=abp_cdn&imwidth=1200",
+        "articleUrl": "https://bengali.abplive.com/videos/district/food-safety-department-inspection-before-kali-puja-watch-video-1198527",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi-ARBVV95cUxNZ3BrUnY4UjhOendWYm5YX1hsNUctS29rc3dTX2tGc3paQmlWdVNuVTBtWV85ZVd3Z21Ybl9NRERWbHlobV84WlBqQkdXWi1QUWpiemluWENFNUJ0d1I1TEx0eTk4VkZ4WVNudzMxWm1rRVJTUXByTGM0MThhZTlFRFBRVjlxdkZZNDU1eExkdmNYZkRETk91VzA4Q0FGeHdGbVJ5V0lydGx2Ui1oUGZTY0l0NVVXejhBUUVWTU5BaVkxMzZGbzBpUjM3OFpLTjREVk9rU0xPVVU1T0pSRUhMc3FiNjhjWkVMdEZVUVVGd0xySzZtN2lJVmpRSXJEVXYtZ1dDdVl4NUxpd2JjcEpxZHNZd3I3ZVJsWlNxV05vazJUbmMyV3RYSGM3REk0Uk90WEJRdllCODU2bGZFS1I2TDBSMk55SE1pVjNscnpobWlqV3BWNEo4UzFrTUhHMlJidlRCQ09UekxnemhmQWRLaFdqTGtjZzVSSDBuNzJuUEFDR085NFRSQjNVZE1MNkVreGdUcWRPaHFVTmY5OVpxRTQwZm5QM2U0cGRzbzh6djA4aTRhYUpKWk9jSXJhQkp5QXE2a2paOW9QZjhNTG9talRFZm94MjdpNklXaEJ0eGdTUmtWMjVoTkFQVHJLeTQ1STFCWWhjRUxSdTFLblFWSkxjRURBRl9GcGd3a2JiYXJWSFc5T0tpdks1Tk5XcFFtT3NVUWlZMzhHbWcwaGhjdVZNYnE0TmxaSk15ZllvdU9scGRKTzdDOV9hc1hxX29vWnM3ZFlwM1FldGpHc2w4SERtZDlxODlidHAtdVItQlZvVlk1SjlnNw?oc=5",
+        "title": "মিরপুরে দুই দিনব্যাপী আদিবাসী খাদ্য ও শস্য মেলা শুরু",
+        "link": "https://news.google.com/rss/articles/CBMi-ARBVV95cUxNZ3BrUnY4UjhOendWYm5YX1hsNUctS29rc3dTX2tGc3paQmlWdVNuVTBtWV85ZVd3Z21Ybl9NRERWbHlobV84WlBqQkdXWi1QUWpiemluWENFNUJ0d1I1TEx0eTk4VkZ4WVNudzMxWm1rRVJTUXByTGM0MThhZTlFRFBRVjlxdkZZNDU1eExkdmNYZkRETk91VzA4Q0FGeHdGbVJ5V0lydGx2Ui1oUGZTY0l0NVVXejhBUUVWTU5BaVkxMzZGbzBpUjM3OFpLTjREVk9rU0xPVVU1T0pSRUhMc3FiNjhjWkVMdEZVUVVGd0xySzZtN2lJVmpRSXJEVXYtZ1dDdVl4NUxpd2JjcEpxZHNZd3I3ZVJsWlNxV05vazJUbmMyV3RYSGM3REk0Uk90WEJRdllCODU2bGZFS1I2TDBSMk55SE1pVjNscnpobWlqV3BWNEo4UzFrTUhHMlJidlRCQ09UekxnemhmQWRLaFdqTGtjZzVSSDBuNzJuUEFDR085NFRSQjNVZE1MNkVreGdUcWRPaHFVTmY5OVpxRTQwZm5QM2U0cGRzbzh6djA4aTRhYUpKWk9jSXJhQkp5QXE2a2paOW9QZjhNTG9talRFZm94MjdpNklXaEJ0eGdTUmtWMjVoTkFQVHJLeTQ1STFCWWhjRUxSdTFLblFWSkxjRURBRl9GcGd3a2JiYXJWSFc5T0tpdks1Tk5XcFFtT3NVUWlZMzhHbWcwaGhjdVZNYnE0TmxaSk15ZllvdU9scGRKTzdDOV9hc1hxX29vWnM3ZFlwM1FldGpHc2w4SERtZDlxODlidHAtdVItQlZvVlk1SjlnNw?oc=5",
+        "source": "Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 10:35:00 GMT",
+        "summary": "মিরপুরে দুই দিনব্যাপী আদিবাসী খাদ্য ও শস্য মেলা শুরু &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/untitled-17-1793961309.jpg",
+        "articleUrl": "https://www.channel24bd.tv/capital/article/357218/%E0%A6%AE%E0%A6%BF%E0%A6%B0%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%80-%E0%A6%86%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%93-%E0%A6%B6%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi8ARBVV95cUxQbmRBaTIyaXpQbkE1S0pGVnpPSUJlT3UxbnItX0tGNG9vdmhLZlY0eElsSWlBRzYzY0RVUkFlT1g1bGRxeHlSQ3RETFNrN3pFdWtPcnlUSkNjR1dGemN1NXY2aEplS2c3RXl5dnM5cjRDTHFuYjVGcnFPZlctdmFwSDM4MkZkN2FnWlozU0ltcUhwWU1QcEhYc0ZPSDkzTVBicEFMMGx1cUlIUkJIelRRUVI2NmJIWDU4YVJBM2FKajEzcVdMOXh4T0lqbXlmSWdMT0tYam1tQm10U3pvQThJVkI2OTRZci1vSUZOaHBnbU1wOTZrbnU1Z3E0ZnBVTHpodWJQczZId2h5ZF9mbFVBS2pPT1ZNeERZdmhURkc4SlZHTlhxdWMzXzdIZVZnc21CNEt1SFQxcGpjRG9wLWtUN3BEM3pWMFRQM1NyZmswN1pwWDB5VGkxelVWR2txeDNMLWh6bEYxUlZZa1d2eUZPbVJJLUFPYlpBQWxfNUpHTmY0RjJKV1dKb3MzZkRabWwwY2REamMwT3N4RDhHaXFPRkg1S3ZQNTFNaldsdmxNWG5lT1VVdGZZUE5JOUhlb1BuTDVsMHdkYnFXQUZmdWpOUHRtcllzRXVVX3RlbFBlNVNFNTl1elpaRG1MaDZYY2pVWWFoZXRHM1lHby1PYmhvNWdJSEMzX2lJQ2VpRE9hOFNMaG1UaFpSb0V3c2s2SGtTaWk4a2tHNnZrTk5Na24wLUVudV9IUHExWUtkY0pJYWNDOHoxT2VVZGRObEFoUVJzZ2VObmRWVnFGMXJ1Y2FXZHMyZUZxdC1rRFJxb3NjcFI?oc=5",
+        "title": "মিরপুরে দুই দিনব্যাপী আদিবাসী খাদ্য ও শস্য মেলা শুরু",
+        "link": "https://news.google.com/rss/articles/CBMi8ARBVV95cUxQbmRBaTIyaXpQbkE1S0pGVnpPSUJlT3UxbnItX0tGNG9vdmhLZlY0eElsSWlBRzYzY0RVUkFlT1g1bGRxeHlSQ3RETFNrN3pFdWtPcnlUSkNjR1dGemN1NXY2aEplS2c3RXl5dnM5cjRDTHFuYjVGcnFPZlctdmFwSDM4MkZkN2FnWlozU0ltcUhwWU1QcEhYc0ZPSDkzTVBicEFMMGx1cUlIUkJIelRRUVI2NmJIWDU4YVJBM2FKajEzcVdMOXh4T0lqbXlmSWdMT0tYam1tQm10U3pvQThJVkI2OTRZci1vSUZOaHBnbU1wOTZrbnU1Z3E0ZnBVTHpodWJQczZId2h5ZF9mbFVBS2pPT1ZNeERZdmhURkc4SlZHTlhxdWMzXzdIZVZnc21CNEt1SFQxcGpjRG9wLWtUN3BEM3pWMFRQM1NyZmswN1pwWDB5VGkxelVWR2txeDNMLWh6bEYxUlZZa1d2eUZPbVJJLUFPYlpBQWxfNUpHTmY0RjJKV1dKb3MzZkRabWwwY2REamMwT3N4RDhHaXFPRkg1S3ZQNTFNaldsdmxNWG5lT1VVdGZZUE5JOUhlb1BuTDVsMHdkYnFXQUZmdWpOUHRtcllzRXVVX3RlbFBlNVNFNTl1elpaRG1MaDZYY2pVWWFoZXRHM1lHby1PYmhvNWdJSEMzX2lJQ2VpRE9hOFNMaG1UaFpSb0V3c2s2SGtTaWk4a2tHNnZrTk5Na24wLUVudV9IUHExWUtkY0pJYWNDOHoxT2VVZGRObEFoUVJzZ2VObmRWVnFGMXJ1Y2FXZHMyZUZxdC1rRFJxb3NjcFI?oc=5",
+        "source": "SAMAKAL",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 09:57:48 GMT",
+        "summary": "মিরপুরে দুই দিনব্যাপী আদিবাসী খাদ্য ও শস্য মেলা শুরু &nbsp;&nbsp; SAMAKAL",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://samakal.com/capital/article/381702/%E0%A6%AE%E0%A6%BF%E0%A6%B0%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%80-%E0%A6%86%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%93-%E0%A6%B6%E0%A6%B8%E0%A7%8D%E0%A6%AF-%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81",
+        "imageAttemptedAt": "2026-11-06T11:26:52.624Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGMk84TWkxQ05XRENaZXdOMHF6UkpPVDh3d1AybEU2R3VnY2lRZGFjNHRtZjdIWXNpWTZjalZwV2FfQXdWZUhucGRWSnhCRzdyeklsZWdMOURxMTZHcGVTeUJQMHl5X1RXc2pN0gFwQVVfeXFMTVlnZnpsTGdLRUZkZDRzbGZ0QXMyd0s4VGpMbTgtckRQV3VNRmplaTU1TktMcXBMUGtqTEFaYVo2RFRQZ3NZUndhbGhOUk9pdjNxbGx0RmdfdWlBLWlDTzF3NHE0bDVrT1U0SEdiOWctOQ?oc=5",
+        "title": "মোকামতলায় খাদ্য বান্ধব নতুন কার্ড দিয়েও মিলল না চাল",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGMk84TWkxQ05XRENaZXdOMHF6UkpPVDh3d1AybEU2R3VnY2lRZGFjNHRtZjdIWXNpWTZjalZwV2FfQXdWZUhucGRWSnhCRzdyeklsZWdMOURxMTZHcGVTeUJQMHl5X1RXc2pN0gFwQVVfeXFMTVlnZnpsTGdLRUZkZDRzbGZ0QXMyd0s4VGpMbTgtckRQV3VNRmplaTU1TktMcXBMUGtqTEFaYVo2RFRQZ3NZUndhbGhOUk9pdjNxbGx0RmdfdWlBLWlDTzF3NHE0bDVrT1U0SEdiOWctOQ?oc=5",
+        "source": "Ajker Patrika",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 14:29:15 GMT",
+        "summary": "মোকামতলায় খাদ্য বান্ধব নতুন কার্ড দিয়েও মিলল না চাল &nbsp;&nbsp; Ajker Patrika",
+        "image": "https://images.ajkerpatrika.com/og-images/%E0%A6%B0%E0%A6%93%E0%A6%B6%E0%A6%A8-%E0%A6%86%E0%A6%B0%E0%A6%BE-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%93-%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%AE%E0%A6%A8-%E0%A6%AC%E0%A7%87%E0%A6%97%E0%A6%AE-9102fe.og-image-overlay-886b33.jpg",
+        "articleUrl": "https://www.ajkerpatrika.com/bangladesh/bogra/ajpy35snayoog",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMitgRBVV95cUxPc2tZZkhmRGdFR0VjaHdMY1g2cVVXbDN0dHRVQTVUcjR4dUUwcEdhZXExQ2Nyemd1UnFRU2F4b2ZROGNCWWtMd2tpMHNjWmczVnVBRmJoNzVCdjFSTXBnNzN3VExWZWRXZ3pESllmbDhXd1BaWG1lbUkzdUZzU0M0Z1JjMERTLXozTVhmaWtMRGpweVc1TkJnYk9CUi1jcUlQbXdqdkZ6N0VwUkd4dDdlQnQxODV5YjdRbFdOWjgyV3p2UUoway1hTDRPdW92bjd6TVNVUkhjQkIxNEF4c0pPS2pVZ3VPcHl4WTRQTVRTa0tUU2pXQzFfNFh4SVZwM1hsTVhjR3BHd1V5SU4zQ1J3dXNfcTd0bTNEWldfMEFWVG55U2drRHJXU3U1TW9VeXBxYWF2TFd3c0xrbFNKdzZyVExjY3NnT2lSWWM1UEpnY2ZaMEVRdkU5T29DWXlVUE1XaGJZcm1SeTYzRlpleWJZRG0wYVpOZDV0RnJlX1o0QjZVOC1oQ0xFS0ZJNDNkZEVkWXVjX3p6NnJoeHk2OGk3cXRnMjV2RXZkZlBBSEYzaUprMVBNdkNiMExwMlB1ekZ2SVY4MElIbnZJZjdmakNfWU1xR0k1c0lOdUJJYnhiVXVYR1p3U2lrX01xaTZzWjYyZFZhTHlHTmtnT0c1ekZZQkFvWm5TUkZsWnpMc0V3UWdWWUFvNEt3UGZYYU1FeTJNbkVrUkY0am5aZnhETFJaS0sta0cyd9IBuwRBVV95cUxNd3J2VXU0TUYtTFJnZDFkU2pYcEVreHNPUHBORGlUSWc5cnRFNDZXWE9nREc4M3hKd2ZPSWtrRlhKOVJVRU13LUhvQjJtZXdYRWFCZTNhNVk3Y1B3ZzRnRmowbzhwTVZ0UWRKTGlfRUhtZUhfZV9MRGtYNG5XZ2tKa2JqSUJBSVN6MkY5dVhXeERVTWNpNTNCMXVRRDA1aDdHYTFHb0VVWkFFZFBCS2pFUS05aVpmUWhVUEswei16T3gyQmdlQ1k1endaQ3d3b3VaYk90ZmZMdUM2aWVoNG9NRjJMQ2tjNnNBdEZLUm1QSHUybFlhRkV5dXhlOXdxbkozYWZ2TG54YWw4SXo2V1F6V1Z2cFVIOGhvLWltQ0ROeHFMWlpITVdTVzRnMmtMTkNzUThNcTNzUHZHMmVjUVZIOEZDaXlrTWwxOGdKMkpJSWFXdGZHaGlLVTQ3eTJST1hQVDBBQ0hRY2J2TlgwQnhfOGhWNXllaEpBQ0lDNjh3TDdLTEJhbzlpcnFkQ0lpZVluVERabERxV2JlMVpIOVJMVDNUNjNtMW81TkJWZUxGZmduYTJWY0pLNjNlVkZpUHMxQldsNVZMR28yRUU4Z2hhQ0RjNHVqQVhlQ0YtQnZzQjVYWVZKUlMxMGtiYXlTMFl3VXpMTW1WQk5TZnBRMDVLX0R6TG1henlsY0stOEg1amdfMXQ3dkZWdzFUVGlUZ0ROVEM3Zm1fWDNfQUQ0VV9MR0g5dUh1VjNLb1RF?oc=5",
+        "title": "রাজধানীতে আদিবাসী খাদ্য ও শস্য মেলার উদ্বোধন",
+        "link": "https://news.google.com/rss/articles/CBMitgRBVV95cUxPc2tZZkhmRGdFR0VjaHdMY1g2cVVXbDN0dHRVQTVUcjR4dUUwcEdhZXExQ2Nyemd1UnFRU2F4b2ZROGNCWWtMd2tpMHNjWmczVnVBRmJoNzVCdjFSTXBnNzN3VExWZWRXZ3pESllmbDhXd1BaWG1lbUkzdUZzU0M0Z1JjMERTLXozTVhmaWtMRGpweVc1TkJnYk9CUi1jcUlQbXdqdkZ6N0VwUkd4dDdlQnQxODV5YjdRbFdOWjgyV3p2UUoway1hTDRPdW92bjd6TVNVUkhjQkIxNEF4c0pPS2pVZ3VPcHl4WTRQTVRTa0tUU2pXQzFfNFh4SVZwM1hsTVhjR3BHd1V5SU4zQ1J3dXNfcTd0bTNEWldfMEFWVG55U2drRHJXU3U1TW9VeXBxYWF2TFd3c0xrbFNKdzZyVExjY3NnT2lSWWM1UEpnY2ZaMEVRdkU5T29DWXlVUE1XaGJZcm1SeTYzRlpleWJZRG0wYVpOZDV0RnJlX1o0QjZVOC1oQ0xFS0ZJNDNkZEVkWXVjX3p6NnJoeHk2OGk3cXRnMjV2RXZkZlBBSEYzaUprMVBNdkNiMExwMlB1ekZ2SVY4MElIbnZJZjdmakNfWU1xR0k1c0lOdUJJYnhiVXVYR1p3U2lrX01xaTZzWjYyZFZhTHlHTmtnT0c1ekZZQkFvWm5TUkZsWnpMc0V3UWdWWUFvNEt3UGZYYU1FeTJNbkVrUkY0am5aZnhETFJaS0sta0cyd9IBuwRBVV95cUxNd3J2VXU0TUYtTFJnZDFkU2pYcEVreHNPUHBORGlUSWc5cnRFNDZXWE9nREc4M3hKd2ZPSWtrRlhKOVJVRU13LUhvQjJtZXdYRWFCZTNhNVk3Y1B3ZzRnRmowbzhwTVZ0UWRKTGlfRUhtZUhfZV9MRGtYNG5XZ2tKa2JqSUJBSVN6MkY5dVhXeERVTWNpNTNCMXVRRDA1aDdHYTFHb0VVWkFFZFBCS2pFUS05aVpmUWhVUEswei16T3gyQmdlQ1k1endaQ3d3b3VaYk90ZmZMdUM2aWVoNG9NRjJMQ2tjNnNBdEZLUm1QSHUybFlhRkV5dXhlOXdxbkozYWZ2TG54YWw4SXo2V1F6V1Z2cFVIOGhvLWltQ0ROeHFMWlpITVdTVzRnMmtMTkNzUThNcTNzUHZHMmVjUVZIOEZDaXlrTWwxOGdKMkpJSWFXdGZHaGlLVTQ3eTJST1hQVDBBQ0hRY2J2TlgwQnhfOGhWNXllaEpBQ0lDNjh3TDdLTEJhbzlpcnFkQ0lpZVluVERabERxV2JlMVpIOVJMVDNUNjNtMW81TkJWZUxGZmduYTJWY0pLNjNlVkZpUHMxQldsNVZMR28yRUU4Z2hhQ0RjNHVqQVhlQ0YtQnZzQjVYWVZKUlMxMGtiYXlTMFl3VXpMTW1WQk5TZnBRMDVLX0R6TG1henlsY0stOEg1amdfMXQ3dkZWdzFUVGlUZ0ROVEM3Zm1fWDNfQUQ0VV9MR0g5dUh1VjNLb1RF?oc=5",
+        "source": "দেশ রূপান্তর",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 10:16:34 GMT",
+        "summary": "রাজধানীতে আদিবাসী খাদ্য ও শস্য মেলার উদ্বোধন &nbsp;&nbsp; দেশ রূপান্তর",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.deshrupantor.com/733109/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%B0-%E0%A6%AE%E0%A6%BF%E0%A6%B0%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%80-%E0%A6%86%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%93",
+        "imageAttemptedAt": "2026-11-06T11:26:52.624Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      }
     ]
   },
   "sourceErrors": [],
   "imageStats": {
     "total": 76,
     "fromRss": 0,
-    "fromArticleMetadata": 19,
-    "reusedCached": 17,
-    "actualPhotos": 19,
-    "fallbackIllustrations": 57,
+    "fromArticleMetadata": 20,
+    "reusedCached": 19,
+    "actualPhotos": 20,
+    "fallbackIllustrations": 56,
     "withImage": 76,
     "withoutImage": 0
   }
