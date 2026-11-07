@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-07T21:29:35.206Z",
+  "generatedAt": "2026-11-07T22:11:16.046Z",
   "sponsors": {
     "somoy": [
       {
@@ -26,7 +26,7 @@
         "summary": "বীরত্বসূচক পদক পাচ্ছে র‌্যাব ডগ স্কোয়াডের কুকুর &nbsp;&nbsp; সময় নিউজ",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.somoynews.tv/news/2023-03-19/%E0%A6%AC%E0%A7%80%E0%A6%B0%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%82%E0%A6%9A%E0%A6%95-%E0%A6%AA%E0%A6%A6%E0%A6%95-%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%B0%E2%80%8C%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%A1%E0%A6%97-%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%A1%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%81%E0%A6%95%E0%A7%81%E0%A6%B0",
-        "imageAttemptedAt": "2026-11-06T21:36:03.605Z",
+        "imageAttemptedAt": "2026-11-07T22:11:17.874Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -185,6 +185,138 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/category/maasranga-kids/",
         "imageAttemptedAt": "2026-11-07T07:24:53.064Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      }
+    ],
+    "channel24": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE0wWEM3a1U1eDNPel9HS3pfMnROMDRaSWtNTnczNEJnZUotVVppSm9ub1BLTS1OejJPNXA0aFVXMHc?oc=5",
+        "title": "Channel 24 | News Video, Latest Bangla News & Live TV",
+        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE0wWEM3a1U1eDNPel9HS3pfMnROMDRaSWtNTnczNEJnZUotVVppSm9ub1BLTS1OejJPNXA0aFVXMHc?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 29 Aug 2018 09:33:29 GMT",
+        "summary": "Channel 24 | News Video, Latest Bangla News & Live TV &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "",
+        "imageAttemptedAt": "2026-11-06T22:22:48.051Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiggRBVV95cUxQZGRnYjJqV2dOd1NKNGZ2Y3dQblI5V3kyWXVSdDBQRHRRUUV5eWhUSm80VU9oY2tmYzdRTHhrLVpkRVQwV2FRZWduc2NKcTlRREpOTWlncE1CSGdNb1JhdlA5MVh4TmFYc1RuNzFUVW0wTWlrWUdrelJ6UldjTlFaajVXWENEem9XZ1NPTno2cUdMcmVQTjF1Z3FLcnpIcTVsYktXYTQ3aHdFLUxkQmhxWGUtVEpzdXlKMy04SjREYlNtTU1xZV9KTlBFcnQtT0FlWk5COFpPYldlVk12LUQtaVI2YUc2OVI4R3ZaMVBJamJKWnAxT294SHgwVGtfa0puSW5aWElVOXctYU5vdHhUc05fNU1EMnBXdE1SM0tQTmU5ZkdUMVdhR2JhcDZwVHFKWTUxVk5KU1MwdmtETnkwTzJ0N2hDaWhRT1pYTTVEVlEzbVNYWm1ET3o1a2JOWWZZdHpNMXF4ZE01TDk3cUtJdlRvTWFfVUhieWxEUlNJUWtlTG4yOGlQRGpqdmo3X251UFlKWDR1NW1NbEtqaWRLeGU3WEZwRVFjVjJLSWZlbnZhRExvcnVBbDN3X0syVTQzcVNXWHg3dVF3Yk9PaV8xNzBBR1RWdHdralpsc2hUTXhGMkRUTXp4cE1BdjRrdHNmRk9DX3hMWDZDWnRUNDF2ZEFB?oc=5",
+        "title": "রিলস দেখেই টাকা আয়ের সুযোগ, আবেদন যেভাবে",
+        "link": "https://news.google.com/rss/articles/CBMiggRBVV95cUxQZGRnYjJqV2dOd1NKNGZ2Y3dQblI5V3kyWXVSdDBQRHRRUUV5eWhUSm80VU9oY2tmYzdRTHhrLVpkRVQwV2FRZWduc2NKcTlRREpOTWlncE1CSGdNb1JhdlA5MVh4TmFYc1RuNzFUVW0wTWlrWUdrelJ6UldjTlFaajVXWENEem9XZ1NPTno2cUdMcmVQTjF1Z3FLcnpIcTVsYktXYTQ3aHdFLUxkQmhxWGUtVEpzdXlKMy04SjREYlNtTU1xZV9KTlBFcnQtT0FlWk5COFpPYldlVk12LUQtaVI2YUc2OVI4R3ZaMVBJamJKWnAxT294SHgwVGtfa0puSW5aWElVOXctYU5vdHhUc05fNU1EMnBXdE1SM0tQTmU5ZkdUMVdhR2JhcDZwVHFKWTUxVk5KU1MwdmtETnkwTzJ0N2hDaWhRT1pYTTVEVlEzbVNYWm1ET3o1a2JOWWZZdHpNMXF4ZE01TDk3cUtJdlRvTWFfVUhieWxEUlNJUWtlTG4yOGlQRGpqdmo3X251UFlKWDR1NW1NbEtqaWRLeGU3WEZwRVFjVjJLSWZlbnZhRExvcnVBbDN3X0syVTQzcVNXWHg3dVF3Yk9PaV8xNzBBR1RWdHdralpsc2hUTXhGMkRUTXp4cE1BdjRrdHNmRk9DX3hMWDZDWnRUNDF2ZEFB?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 09:48:00 GMT",
+        "summary": "রিলস দেখেই টাকা আয়ের সুযোগ, আবেদন যেভাবে &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/aipiel-1793958531.jpg",
+        "articleUrl": "https://www.channel24bd.tv/science-technology/article/357208/%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%B8-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A7%87%E0%A6%87-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%86%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%81%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A6%AF%E0%A7%87%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBmbDRkYm5qZFM1WUdLdWlySFZYQ2tYclNsa0JYT3kwc28zMjZRZW8wVFlXc1dmWFRKUTQ5ZHRjU2s4WmxUTUlkelpuVVI?oc=5",
+        "title": "সারাদেশ - Channel 24",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBmbDRkYm5qZFM1WUdLdWlySFZYQ2tYclNsa0JYT3kwc28zMjZRZW8wVFlXc1dmWFRKUTQ5ZHRjU2s4WmxUTUlkelpuVVI?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 07 Jan 2022 16:31:33 GMT",
+        "summary": "সারাদেশ &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/countries",
+        "imageAttemptedAt": "2026-11-07T17:07:55.997Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi6AVBVV95cUxNX19Iemw0cmgwT3IzTVJ3am9pdnEtUVIxNEpxUzFVTV9KZUdFYnd0RUdScGtNYjQ4bWVXWEdTc05FZ3F6NXc4WXEyd3BpaC1uSW50WUhWbUNHZFYxOGYxWVBmMHY3V2E2WnYxYmhNdWh0eFhHaXc1TWVJSmRtS2xpSXl2YU5JT0VNT2VST0FNZTVaMTR5bmhYZUhvaFdIam9pSVVnQ3pienV1bUh6OVRUdTZBMkl5ZXZ4NUxVaGVBMkVUWGdEMlhHMUZ2Xzd1TW1XX1VNS1ZBbmVFREVKZFdBOFVKTUNwVWVkR05uZk5USGpiUEd5WmdlLVRmdTVucjRhTlV5ZWRnaWFMYnFtZjdZY2NDM1Z4UDB4Y3cwUzYyU3dSYUxzNnNNaTRtM3BXdXEyVzVpb1pVcUZyRDVKRm5rZVRORTdwQTBDb3RYNE11NWpKNTZoNHUwcWd2QmRYbnU5WkhMOVFNeGx4SmNSQVlnTVk0Yl9JeW81eDV6dThLb1AyakIxYTVHWExYNTBhTXVvYkxMVzdibXFXaE13bjNBejFrdXdxNUQta1p0bm43cE84ZU4wLUFPTEdaVkxrbHdJcHJGeW9PNVBOekhMNGdiVnNlSE0wR0RuczU0Uk5sRWo5NmtRakpHb2pJV25fU1JnWnhLNWNUWXNIb2dFeTRjUkVCRGxnT3B4RFJMUWR3NjNXUnIybVVLc1MxSjhWUjFuOUJDT200T2JoaXlnOFVhdlNjRnQ3U0hMR2JfNzRfM0U0UzFNWTBwOTBxT0NSdTR4dTZPa2ZOZWtpTEJxWXdac3FLOWloeG9mMTUxdmh2LUR5bDloLXo0RUtodXZhN1ZVS2E1aWFaTUxESThuUjk5aEwyS0hTdzRHbkpZVVZ2VFAzbjVyRDFFUWFYbEc3aEc1eXZKbTZJbUFMSFFyTHJzQ0JjMHBEclJxNnB5TVVJaUM4dHd1eXpGaDhFbFJyeUF5TGpYbnA0alk?oc=5",
+        "title": "টেকনাফের পাহাড়ে মানবপাচারকারীদের সেই আস্তানায় পড়ে আছে ৩ মরদেহ",
+        "link": "https://news.google.com/rss/articles/CBMi6AVBVV95cUxNX19Iemw0cmgwT3IzTVJ3am9pdnEtUVIxNEpxUzFVTV9KZUdFYnd0RUdScGtNYjQ4bWVXWEdTc05FZ3F6NXc4WXEyd3BpaC1uSW50WUhWbUNHZFYxOGYxWVBmMHY3V2E2WnYxYmhNdWh0eFhHaXc1TWVJSmRtS2xpSXl2YU5JT0VNT2VST0FNZTVaMTR5bmhYZUhvaFdIam9pSVVnQ3pienV1bUh6OVRUdTZBMkl5ZXZ4NUxVaGVBMkVUWGdEMlhHMUZ2Xzd1TW1XX1VNS1ZBbmVFREVKZFdBOFVKTUNwVWVkR05uZk5USGpiUEd5WmdlLVRmdTVucjRhTlV5ZWRnaWFMYnFtZjdZY2NDM1Z4UDB4Y3cwUzYyU3dSYUxzNnNNaTRtM3BXdXEyVzVpb1pVcUZyRDVKRm5rZVRORTdwQTBDb3RYNE11NWpKNTZoNHUwcWd2QmRYbnU5WkhMOVFNeGx4SmNSQVlnTVk0Yl9JeW81eDV6dThLb1AyakIxYTVHWExYNTBhTXVvYkxMVzdibXFXaE13bjNBejFrdXdxNUQta1p0bm43cE84ZU4wLUFPTEdaVkxrbHdJcHJGeW9PNVBOekhMNGdiVnNlSE0wR0RuczU0Uk5sRWo5NmtRakpHb2pJV25fU1JnWnhLNWNUWXNIb2dFeTRjUkVCRGxnT3B4RFJMUWR3NjNXUnIybVVLc1MxSjhWUjFuOUJDT200T2JoaXlnOFVhdlNjRnQ3U0hMR2JfNzRfM0U0UzFNWTBwOTBxT0NSdTR4dTZPa2ZOZWtpTEJxWXdac3FLOWloeG9mMTUxdmh2LUR5bDloLXo0RUtodXZhN1ZVS2E1aWFaTUxESThuUjk5aEwyS0hTdzRHbkpZVVZ2VFAzbjVyRDFFUWFYbEc3aEc1eXZKbTZJbUFMSFFyTHJzQ0JjMHBEclJxNnB5TVVJaUM4dHd1eXpGaDhFbFJyeUF5TGpYbnA0alk?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 13:11:00 GMT",
+        "summary": "টেকনাফের পাহাড়ে মানবপাচারকারীদের সেই আস্তানায় পড়ে আছে ৩ মরদেহ &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/0214551-1793971056.jpg",
+        "articleUrl": "https://www.channel24bd.tv/countries/article/357248/%E0%A6%9F%E0%A7%87%E0%A6%95%E0%A6%A8%E0%A6%BE%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A7%9C%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%AC%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%87-%E0%A6%86%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%9C%E0%A7%87-%E0%A6%86%E0%A6%9B%E0%A7%87-%E0%A7%A9-%E0%A6%AE%E0%A6%B0%E0%A6%A6%E0%A7%87%E0%A6%B9",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMigARBVV95cUxPemk1UWRjckJqWWluVWdZSlZTS1ZZcFNnb3p6N2xkNUp5aHVyUlcxcjF2R2gxOUptQUUzZV9UbENqckg4aXh2RUEzNEp0cGNFMDhPV2ZQM2dxTkdOLUlFeW9DVUN3OHNaX3hRajh1TDZaOTF2Y0R4YnN0Mlh6VmhqckR0ejhHN3ZBQUZ6YVo1WW5nc2xMNUdOTXZwZnFzWGdkaWN6VEJFdnFDeVE4V0c0eGR0RGtuVENzLXZyQVJ1cGlxLXlERGtQby11UDhTQjI2QmFNRncxRjAtT2EwRkswX2tvOU5wZS1BM0hRaDVBaHdZZnpNU2c1NVdsWWdmTElyYlVGNE9qWHhjeU5GMXNoVTR3WTl3WVNhUlRYRDdZZXR4b3g0V2JpZHo0c0xxbklhMU9xVGpRZmpCLUlfRUdMNUk1ZFFCT0Ita3NLQVpqQWNVOF9FdWN6VDNLMnhPYl9QNWU2TERSNzZ3VlFaNjkyN181emxaa2VuYTlENUJCV3pGWEUyRnI1R2xrZnN5ZGhiRXJNTnJUSDdaQUQyN25JYWhNSUZ4a0JGNFF1YldmekdEZVVMZzEwZHNyeDBMUFBqRkF1THRGaU9TWVdmWVRxS0lDOTJSMmw5TVp1WDh3blZVWF9POVc1MXpIMmVwOV9TOHdZQU83a0w2cU42ZXltSg?oc=5",
+        "title": "টানা তৃতীয় দফায় ১২০৭২ টাকা বাড়ল স্বর্ণের দাম",
+        "link": "https://news.google.com/rss/articles/CBMigARBVV95cUxPemk1UWRjckJqWWluVWdZSlZTS1ZZcFNnb3p6N2xkNUp5aHVyUlcxcjF2R2gxOUptQUUzZV9UbENqckg4aXh2RUEzNEp0cGNFMDhPV2ZQM2dxTkdOLUlFeW9DVUN3OHNaX3hRajh1TDZaOTF2Y0R4YnN0Mlh6VmhqckR0ejhHN3ZBQUZ6YVo1WW5nc2xMNUdOTXZwZnFzWGdkaWN6VEJFdnFDeVE4V0c0eGR0RGtuVENzLXZyQVJ1cGlxLXlERGtQby11UDhTQjI2QmFNRncxRjAtT2EwRkswX2tvOU5wZS1BM0hRaDVBaHdZZnpNU2c1NVdsWWdmTElyYlVGNE9qWHhjeU5GMXNoVTR3WTl3WVNhUlRYRDdZZXR4b3g0V2JpZHo0c0xxbklhMU9xVGpRZmpCLUlfRUdMNUk1ZFFCT0Ita3NLQVpqQWNVOF9FdWN6VDNLMnhPYl9QNWU2TERSNzZ3VlFaNjkyN181emxaa2VuYTlENUJCV3pGWEUyRnI1R2xrZnN5ZGhiRXJNTnJUSDdaQUQyN25JYWhNSUZ4a0JGNFF1YldmekdEZVVMZzEwZHNyeDBMUFBqRkF1THRGaU9TWVdmWVRxS0lDOTJSMmw5TVp1WDh3blZVWF9POVc1MXpIMmVwOV9TOHdZQU83a0w2cU42ZXltSg?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 04:48:00 GMT",
+        "summary": "টানা তৃতীয় দফায় ১২০৭২ টাকা বাড়ল স্বর্ণের দাম &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/gold-1793854125.jpg",
+        "articleUrl": "https://www.channel24bd.tv/economy/article/356952/%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A7%A9%E0%A7%9F-%E0%A6%A6%E0%A6%AB%E0%A6%BE%E0%A7%9F-%E0%A7%A7%E0%A7%A8%E0%A7%A6%E0%A7%AD%E0%A7%A8-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%B2-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AE",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMikwVBVV95cUxQQTR0ZnZwWEYwdjZtQ0VlM1UwbnA1WTlBWEl5YlhhN0wzUlU1bjZiZ0F6LVBnQVR5aEFkNUlPdEQ2OUVzSzZhTnZGV040Qk1XV0hiLXRES3ZrTUk5V254TWhlLXZuMVZ4ZE1mTGp2Z0Z1M2l6ejN5UGNoMFlsMWMwVHgyZ2E0a1hNWkp0Y1pqbzM0aXZuLUxnNlVyMkN2alBuWDk3VmZKYVN0VkhBTktEYVA2UHQxUWZNanJURU14S280anRDRm13UEdRTXp1dGJNVVBwRlF0WWg5ZkZ5MmpGcTQxeW9TdVI2bHg5VlVCUEN2cHNCbzRMcl9vTl9BLWJaalJ5UFhHXzFrUWwxcHdfMnRsc3Z4dzl6Ujlhb3VKOTJTSUhNRHk3T0ZlaDUzSzlQQzAtUG9hZFBnbWI0ZWVCdi0zdW0xSzh4TkE2YlQ3M3dkWUVERnBHeUtvVXpJeThzS3VVdWZGeUEzZ2JiSnBIWDhORmN1My05TWh0VTUtbVhfdEphOVBrMmVxdlMyLVVLcC1sR05FaTZEbklQU01BSUlfbjhBeVFfSUlVR2lwZFRaQTBJTDZBWG5VVi1Kcl9yNTFHcGhMUEJYSDdQSTFBX2JXRm9VWmp2SVVfZVJ1UEozTEVocncxQ0tnV05sVkYwQW95cEI5Z2xpc2JITFpwWXN6c2pxWWo3ZVZZT2ZnaExuaWdzMkVTZnlqb0xsVnlwaXR2X05RVGkxa21FelpxT1JmNF9XbzVWTlFGZ3ViNVJtUU4teFRYMWpNbmdJTENFV1MtUU1yUzhuaU55VGZmYlRTeE1ONVBOU3RlelZuWW5hTWhJSjk2VkszdVp2SVpxN0F6YmJwYnZUR2Q1ZTdwM2JZNA?oc=5",
+        "title": "৭ নভেম্বর সব পোশাক কারখানায় সাধারণ ছুটি ঘোষণা: বিজিএমইএ",
+        "link": "https://news.google.com/rss/articles/CBMikwVBVV95cUxQQTR0ZnZwWEYwdjZtQ0VlM1UwbnA1WTlBWEl5YlhhN0wzUlU1bjZiZ0F6LVBnQVR5aEFkNUlPdEQ2OUVzSzZhTnZGV040Qk1XV0hiLXRES3ZrTUk5V254TWhlLXZuMVZ4ZE1mTGp2Z0Z1M2l6ejN5UGNoMFlsMWMwVHgyZ2E0a1hNWkp0Y1pqbzM0aXZuLUxnNlVyMkN2alBuWDk3VmZKYVN0VkhBTktEYVA2UHQxUWZNanJURU14S280anRDRm13UEdRTXp1dGJNVVBwRlF0WWg5ZkZ5MmpGcTQxeW9TdVI2bHg5VlVCUEN2cHNCbzRMcl9vTl9BLWJaalJ5UFhHXzFrUWwxcHdfMnRsc3Z4dzl6Ujlhb3VKOTJTSUhNRHk3T0ZlaDUzSzlQQzAtUG9hZFBnbWI0ZWVCdi0zdW0xSzh4TkE2YlQ3M3dkWUVERnBHeUtvVXpJeThzS3VVdWZGeUEzZ2JiSnBIWDhORmN1My05TWh0VTUtbVhfdEphOVBrMmVxdlMyLVVLcC1sR05FaTZEbklQU01BSUlfbjhBeVFfSUlVR2lwZFRaQTBJTDZBWG5VVi1Kcl9yNTFHcGhMUEJYSDdQSTFBX2JXRm9VWmp2SVVfZVJ1UEozTEVocncxQ0tnV05sVkYwQW95cEI5Z2xpc2JITFpwWXN6c2pxWWo3ZVZZT2ZnaExuaWdzMkVTZnlqb0xsVnlwaXR2X05RVGkxa21FelpxT1JmNF9XbzVWTlFGZ3ViNVJtUU4teFRYMWpNbmdJTENFV1MtUU1yUzhuaU55VGZmYlRTeE1ONVBOU3RlelZuWW5hTWhJSjk2VkszdVp2SVpxN0F6YmJwYnZUR2Q1ZTdwM2JZNA?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 12:37:00 GMT",
+        "summary": "৭ নভেম্বর সব পোশাক কারখানায় সাধারণ ছুটি ঘোষণা: বিজিএমইএ &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/bgmea-1793882236.jpg",
+        "articleUrl": "https://www.channel24bd.tv/economy/article/357059/%E0%A7%AD-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%B8%E0%A6%AC-%E0%A6%AA%E0%A7%8B%E0%A6%B6%E0%A6%BE%E0%A6%95-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%96%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%B8%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%A3-%E0%A6%9B%E0%A7%81%E0%A6%9F%E0%A6%BF-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%BE:-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A6%8F%E0%A6%AE%E0%A6%87%E0%A6%8F",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi7wZBVV95cUxNN010TFpMb0dNQnI0dHBTNElYSlFxcml0cjFLc0poY3pTelVxOU1sQnZ1ODRRNW1VdDM3RjlWTC1LNXU1VDUwSDNuQ2dROUxfcEtIRmtWQndwOHhDZFlIWW5tNVNMaTZ4ZUZyN1dPZ0x6czB5bUpWTlhyZ0tvUUZObmE3VVA2NnpSbmVQTDFwNXJjOHpQM0NkVGt5Z01lQ3BtQnVubkR2bkRXWjRncF9VZGp0Tzlta2ZORDlaVEc5WFVSMzlWVXMtbGNBNVhqUzR4dkJQYjNEOXJaZTBJdkxGWkxzNEYyelZIb0hmTUJsMFlGUG9vYzQzcUdpeUJtbnV3T3NiT09lSzVhWUNvNXFyM3JFeGNQSDZadzBueTYtS1FfSkdPaXFMRldDNXBWRGUwQXlNVTB6cXF4NHIzcjBraUl5SkRVVWVLUHZ3a1ZuM2pkemdOYlFLVVRZNEJSVWFPclZFMlo4amxvZ0t3WEpsRDFxSE1zazhQc0NoOUl1Q3VwWHpxel9HMXRtdnlBRm14cFRIN0J4TmU1U0lsR2dqRkZWRGhHUHlEOHRqMWZlWENtb1FzUlRXaHhtaGozOFJIUmRSMzBtMGtjcDRST0dKM3BCX21qbEhRSVpWNGt5cTJRMUFWUEhyMU9CaGNROC0tOVoyS2lHR0VkeTJHZlQzS0JSVzF1YmlNbU5NWm9BYWFkbzZEdHlQQUpieDRteXBjSDNtTUxrRDVkYnVWN3I5OUs0YVJpSVQya3FMZzhkQ2tjcG5KRlJ3dXVfMjhsdUJpWWl0RkllM1d5NkJMNENFSVN5M3ItSS05RHJhQllMZ1I1TjJPYXZid1AwUW41S3RYYTB0a3kwLWFINzlKUTJTUzQ0YkFjLXI2Uzd6UnJmVlpJV2RyeWhJX2hWei14X196QnAwTVF6R2pkUC1la0JCZTJtWGhLTXZsN0FRSFl3Wk5LdGtvY3dNMGJ2Rl8yT09jYlFESnc2VXZwVFRDS3hBaEpFNTJQQm9sTnZBaU5Penc1VHp2T2c5WGZ0QXotYWVrY1hQZnV3WW9wQmZpbW15cWk1cERDbjZxUzdQekptWG45SEJpTlhITWstUlRvVEdGTi03SVBJYTUyVGprR2lTdzk4THlXNlRKN1VjcS1PQ2lSVmthU0xGSnA5QjVHUzg?oc=5",
+        "title": "দু-এক মাসের মধ্যে শ্রমিকদের সর্বনিম্ন মজুরি নির্ধারণ করা হবে: প্রধানমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMi7wZBVV95cUxNN010TFpMb0dNQnI0dHBTNElYSlFxcml0cjFLc0poY3pTelVxOU1sQnZ1ODRRNW1VdDM3RjlWTC1LNXU1VDUwSDNuQ2dROUxfcEtIRmtWQndwOHhDZFlIWW5tNVNMaTZ4ZUZyN1dPZ0x6czB5bUpWTlhyZ0tvUUZObmE3VVA2NnpSbmVQTDFwNXJjOHpQM0NkVGt5Z01lQ3BtQnVubkR2bkRXWjRncF9VZGp0Tzlta2ZORDlaVEc5WFVSMzlWVXMtbGNBNVhqUzR4dkJQYjNEOXJaZTBJdkxGWkxzNEYyelZIb0hmTUJsMFlGUG9vYzQzcUdpeUJtbnV3T3NiT09lSzVhWUNvNXFyM3JFeGNQSDZadzBueTYtS1FfSkdPaXFMRldDNXBWRGUwQXlNVTB6cXF4NHIzcjBraUl5SkRVVWVLUHZ3a1ZuM2pkemdOYlFLVVRZNEJSVWFPclZFMlo4amxvZ0t3WEpsRDFxSE1zazhQc0NoOUl1Q3VwWHpxel9HMXRtdnlBRm14cFRIN0J4TmU1U0lsR2dqRkZWRGhHUHlEOHRqMWZlWENtb1FzUlRXaHhtaGozOFJIUmRSMzBtMGtjcDRST0dKM3BCX21qbEhRSVpWNGt5cTJRMUFWUEhyMU9CaGNROC0tOVoyS2lHR0VkeTJHZlQzS0JSVzF1YmlNbU5NWm9BYWFkbzZEdHlQQUpieDRteXBjSDNtTUxrRDVkYnVWN3I5OUs0YVJpSVQya3FMZzhkQ2tjcG5KRlJ3dXVfMjhsdUJpWWl0RkllM1d5NkJMNENFSVN5M3ItSS05RHJhQllMZ1I1TjJPYXZid1AwUW41S3RYYTB0a3kwLWFINzlKUTJTUzQ0YkFjLXI2Uzd6UnJmVlpJV2RyeWhJX2hWei14X196QnAwTVF6R2pkUC1la0JCZTJtWGhLTXZsN0FRSFl3Wk5LdGtvY3dNMGJ2Rl8yT09jYlFESnc2VXZwVFRDS3hBaEpFNTJQQm9sTnZBaU5Penc1VHp2T2c5WGZ0QXotYWVrY1hQZnV3WW9wQmZpbW15cWk1cERDbjZxUzdQekptWG45SEJpTlhITWstUlRvVEdGTi03SVBJYTUyVGprR2lTdzk4THlXNlRKN1VjcS1PQ2lSVmthU0xGSnA5QjVHUzg?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 09:38:00 GMT",
+        "summary": "দু-এক মাসের মধ্যে শ্রমিকদের সর্বনিম্ন মজুরি নির্ধারণ করা হবে: প্রধানমন্ত্রী &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/pmo-1793871528.jpg",
+        "articleUrl": "https://www.channel24bd.tv/national/article/357011/%E0%A6%A6%E0%A7%81-%E0%A6%8F%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%A8%E0%A6%BF%E0%A6%AE%E0%A7%8D%E0%A6%A8-%E0%A6%AE%E0%A6%9C%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%A3-%E0%A6%95%E0%A6%B0%E0%A6%BE-%E0%A6%B9%E0%A6%AC%E0%A7%87:-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi7wVBVV95cUxOSUNxWEVjbHI4Q0hxZk40bDNUeVZOTkM4YmlraHZLMTJLQ2hBQWtFX1BkU2R5WmtmVFJrUnR5enJ4UHBiVGhJa25jQWdnRkJUX21qMnZkd1N4VW55Q3htNjdIb2dJOTBUZXN6d0JOMG5TbGVZVWRPUGkwbm55cGkwOFM5M2s4Q05IYjhJRHJ5VHNmd201RE5ZT2tBWkxnRWxSenFPaGttam9fZGJnenJSR1B2TmFITDlSNndsQlF1Vzd4d3ZUS3FwSWp3ZmxNSmdWdW03VGxrR25rOVBMa1hsczFjcGJrQTVlNXRnaUlIWTFfb2ltbGI1UUp5ZTBhUklSbng5U3VwcHZNNmczbEdZUUNMVFFlX2xfTmpRaDJkVnYtZ2NTM2lWQ1EwLWJOWlJiZXJtWlJqeEFCOW9zVjhoYVlzTjhzQjhrY2RCYzdMMV9ZXzRRakpEMWJzUDlTVVNVQThxRmZkNzVEUGEzWWFyRXVoSzBkRUIwNHVnZVltV0FzWkJPbS1IQ09PUU1rbFFqMC03MUpQTVhJbU1WalluMWV6b3o1RU5zV1poRkNDMHhLOTdocEZjVkNPdl9uNzNLdXp6c0p0andqbjlfTzRoR2xhYmFiLTgwMXdza1B6U2VRSFdlTUI4WldjT3owNkx5WjdtblJLRW5JMjBwdGIyaW1INWRsU1VtWHJsTjJvX09qSXEzMTktbW9QWDc3UFd1TmwtbmY2UWhETC1KYlN3V0l4cWpQZGVZVTQ2blAyZkpXT2ZfUFgxc0JNWWEwRGw5NnRYd0J0Z2s4NlMxNnYyU2tIMUNyX1gtV1FmU2NtSjlsQjRDdEl3WlNfYVIwZUU4SWFPdUpRRFkwUW5Bc014ejVXT3pPd3BMTmQ0TGFMMFFCcFplSXhqUVFlSlEyZmY0c1Bub0V3RFhSZEtReW5hMi1PNHcxMUVwd3RDMnpqTGg2RXRLM0xOSkRDTVd2ejU2Y2dsZFhJZTA3dlI5Y1Fv?oc=5",
+        "title": "চোয়ালের সুরক্ষায় কার্বন ফাইবারের মাস্ক পরে অনুশীলনে মার্তিনেজ",
+        "link": "https://news.google.com/rss/articles/CBMi7wVBVV95cUxOSUNxWEVjbHI4Q0hxZk40bDNUeVZOTkM4YmlraHZLMTJLQ2hBQWtFX1BkU2R5WmtmVFJrUnR5enJ4UHBiVGhJa25jQWdnRkJUX21qMnZkd1N4VW55Q3htNjdIb2dJOTBUZXN6d0JOMG5TbGVZVWRPUGkwbm55cGkwOFM5M2s4Q05IYjhJRHJ5VHNmd201RE5ZT2tBWkxnRWxSenFPaGttam9fZGJnenJSR1B2TmFITDlSNndsQlF1Vzd4d3ZUS3FwSWp3ZmxNSmdWdW03VGxrR25rOVBMa1hsczFjcGJrQTVlNXRnaUlIWTFfb2ltbGI1UUp5ZTBhUklSbng5U3VwcHZNNmczbEdZUUNMVFFlX2xfTmpRaDJkVnYtZ2NTM2lWQ1EwLWJOWlJiZXJtWlJqeEFCOW9zVjhoYVlzTjhzQjhrY2RCYzdMMV9ZXzRRakpEMWJzUDlTVVNVQThxRmZkNzVEUGEzWWFyRXVoSzBkRUIwNHVnZVltV0FzWkJPbS1IQ09PUU1rbFFqMC03MUpQTVhJbU1WalluMWV6b3o1RU5zV1poRkNDMHhLOTdocEZjVkNPdl9uNzNLdXp6c0p0andqbjlfTzRoR2xhYmFiLTgwMXdza1B6U2VRSFdlTUI4WldjT3owNkx5WjdtblJLRW5JMjBwdGIyaW1INWRsU1VtWHJsTjJvX09qSXEzMTktbW9QWDc3UFd1TmwtbmY2UWhETC1KYlN3V0l4cWpQZGVZVTQ2blAyZkpXT2ZfUFgxc0JNWWEwRGw5NnRYd0J0Z2s4NlMxNnYyU2tIMUNyX1gtV1FmU2NtSjlsQjRDdEl3WlNfYVIwZUU4SWFPdUpRRFkwUW5Bc014ejVXT3pPd3BMTmQ0TGFMMFFCcFplSXhqUVFlSlEyZmY0c1Bub0V3RFhSZEtReW5hMi1PNHcxMUVwd3RDMnpqTGg2RXRLM0xOSkRDTVd2ejU2Y2dsZFhJZTA3dlI5Y1Fv?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 18:08:00 GMT",
+        "summary": "চোয়ালের সুরক্ষায় কার্বন ফাইবারের মাস্ক পরে অনুশীলনে মার্তিনেজ &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/1-1793902081.jpg",
+        "articleUrl": "https://www.channel24bd.tv/sports/article/357128/%E0%A6%9A%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%81%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A7%9F-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%A8-%E0%A6%AB%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%95-%E0%A6%AA%E0%A6%B0%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B6%E0%A7%80%E0%A6%B2%E0%A6%A8%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%9C",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
+        "title": "News Video, Latest Bangla News & Live TV",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 01 Jul 2019 07:04:28 GMT",
+        "summary": "News Video, Latest Bangla News & Live TV &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/live",
+        "imageAttemptedAt": "2026-11-07T12:20:41.016Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5MU5ROXhDWkdfbk04T2Y2MmJRNWdocFQxVEhGOWxTazQzeGxLUFFNZGI0X3lZNXBJREZncThFQ01ZNXpnVnhMVTljNEFTQQ?oc=5",
+        "title": "News Video, Latest Bangla News & Contact Us",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5MU5ROXhDWkdfbk04T2Y2MmJRNWdocFQxVEhGOWxTazQzeGxLUFFNZGI0X3lZNXBJREZncThFQ01ZNXpnVnhMVTljNEFTQQ?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 27 Jul 2026 12:34:54 GMT",
+        "summary": "News Video, Latest Bangla News & Contact Us &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/contact-us",
+        "imageAttemptedAt": "2026-11-07T14:14:36.472Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -451,138 +583,6 @@
         "imageAttemptedAt": "2026-11-07T20:03:52.403Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
-    ],
-    "channel24": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE0wWEM3a1U1eDNPel9HS3pfMnROMDRaSWtNTnczNEJnZUotVVppSm9ub1BLTS1OejJPNXA0aFVXMHc?oc=5",
-        "title": "Channel 24 | News Video, Latest Bangla News & Live TV",
-        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE0wWEM3a1U1eDNPel9HS3pfMnROMDRaSWtNTnczNEJnZUotVVppSm9ub1BLTS1OejJPNXA0aFVXMHc?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 29 Aug 2018 09:33:29 GMT",
-        "summary": "Channel 24 | News Video, Latest Bangla News & Live TV &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "",
-        "imageAttemptedAt": "2026-11-06T22:22:48.051Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiggRBVV95cUxQZGRnYjJqV2dOd1NKNGZ2Y3dQblI5V3kyWXVSdDBQRHRRUUV5eWhUSm80VU9oY2tmYzdRTHhrLVpkRVQwV2FRZWduc2NKcTlRREpOTWlncE1CSGdNb1JhdlA5MVh4TmFYc1RuNzFUVW0wTWlrWUdrelJ6UldjTlFaajVXWENEem9XZ1NPTno2cUdMcmVQTjF1Z3FLcnpIcTVsYktXYTQ3aHdFLUxkQmhxWGUtVEpzdXlKMy04SjREYlNtTU1xZV9KTlBFcnQtT0FlWk5COFpPYldlVk12LUQtaVI2YUc2OVI4R3ZaMVBJamJKWnAxT294SHgwVGtfa0puSW5aWElVOXctYU5vdHhUc05fNU1EMnBXdE1SM0tQTmU5ZkdUMVdhR2JhcDZwVHFKWTUxVk5KU1MwdmtETnkwTzJ0N2hDaWhRT1pYTTVEVlEzbVNYWm1ET3o1a2JOWWZZdHpNMXF4ZE01TDk3cUtJdlRvTWFfVUhieWxEUlNJUWtlTG4yOGlQRGpqdmo3X251UFlKWDR1NW1NbEtqaWRLeGU3WEZwRVFjVjJLSWZlbnZhRExvcnVBbDN3X0syVTQzcVNXWHg3dVF3Yk9PaV8xNzBBR1RWdHdralpsc2hUTXhGMkRUTXp4cE1BdjRrdHNmRk9DX3hMWDZDWnRUNDF2ZEFB?oc=5",
-        "title": "রিলস দেখেই টাকা আয়ের সুযোগ, আবেদন যেভাবে",
-        "link": "https://news.google.com/rss/articles/CBMiggRBVV95cUxQZGRnYjJqV2dOd1NKNGZ2Y3dQblI5V3kyWXVSdDBQRHRRUUV5eWhUSm80VU9oY2tmYzdRTHhrLVpkRVQwV2FRZWduc2NKcTlRREpOTWlncE1CSGdNb1JhdlA5MVh4TmFYc1RuNzFUVW0wTWlrWUdrelJ6UldjTlFaajVXWENEem9XZ1NPTno2cUdMcmVQTjF1Z3FLcnpIcTVsYktXYTQ3aHdFLUxkQmhxWGUtVEpzdXlKMy04SjREYlNtTU1xZV9KTlBFcnQtT0FlWk5COFpPYldlVk12LUQtaVI2YUc2OVI4R3ZaMVBJamJKWnAxT294SHgwVGtfa0puSW5aWElVOXctYU5vdHhUc05fNU1EMnBXdE1SM0tQTmU5ZkdUMVdhR2JhcDZwVHFKWTUxVk5KU1MwdmtETnkwTzJ0N2hDaWhRT1pYTTVEVlEzbVNYWm1ET3o1a2JOWWZZdHpNMXF4ZE01TDk3cUtJdlRvTWFfVUhieWxEUlNJUWtlTG4yOGlQRGpqdmo3X251UFlKWDR1NW1NbEtqaWRLeGU3WEZwRVFjVjJLSWZlbnZhRExvcnVBbDN3X0syVTQzcVNXWHg3dVF3Yk9PaV8xNzBBR1RWdHdralpsc2hUTXhGMkRUTXp4cE1BdjRrdHNmRk9DX3hMWDZDWnRUNDF2ZEFB?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 09:48:00 GMT",
-        "summary": "রিলস দেখেই টাকা আয়ের সুযোগ, আবেদন যেভাবে &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/aipiel-1793958531.jpg",
-        "articleUrl": "https://www.channel24bd.tv/science-technology/article/357208/%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%B8-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A7%87%E0%A6%87-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%86%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%81%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A6%AF%E0%A7%87%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBmbDRkYm5qZFM1WUdLdWlySFZYQ2tYclNsa0JYT3kwc28zMjZRZW8wVFlXc1dmWFRKUTQ5ZHRjU2s4WmxUTUlkelpuVVI?oc=5",
-        "title": "সারাদেশ - Channel 24",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBmbDRkYm5qZFM1WUdLdWlySFZYQ2tYclNsa0JYT3kwc28zMjZRZW8wVFlXc1dmWFRKUTQ5ZHRjU2s4WmxUTUlkelpuVVI?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 07 Jan 2022 16:31:33 GMT",
-        "summary": "সারাদেশ &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.channel24bd.tv/countries",
-        "imageAttemptedAt": "2026-11-07T17:07:55.997Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi6AVBVV95cUxNX19Iemw0cmgwT3IzTVJ3am9pdnEtUVIxNEpxUzFVTV9KZUdFYnd0RUdScGtNYjQ4bWVXWEdTc05FZ3F6NXc4WXEyd3BpaC1uSW50WUhWbUNHZFYxOGYxWVBmMHY3V2E2WnYxYmhNdWh0eFhHaXc1TWVJSmRtS2xpSXl2YU5JT0VNT2VST0FNZTVaMTR5bmhYZUhvaFdIam9pSVVnQ3pienV1bUh6OVRUdTZBMkl5ZXZ4NUxVaGVBMkVUWGdEMlhHMUZ2Xzd1TW1XX1VNS1ZBbmVFREVKZFdBOFVKTUNwVWVkR05uZk5USGpiUEd5WmdlLVRmdTVucjRhTlV5ZWRnaWFMYnFtZjdZY2NDM1Z4UDB4Y3cwUzYyU3dSYUxzNnNNaTRtM3BXdXEyVzVpb1pVcUZyRDVKRm5rZVRORTdwQTBDb3RYNE11NWpKNTZoNHUwcWd2QmRYbnU5WkhMOVFNeGx4SmNSQVlnTVk0Yl9JeW81eDV6dThLb1AyakIxYTVHWExYNTBhTXVvYkxMVzdibXFXaE13bjNBejFrdXdxNUQta1p0bm43cE84ZU4wLUFPTEdaVkxrbHdJcHJGeW9PNVBOekhMNGdiVnNlSE0wR0RuczU0Uk5sRWo5NmtRakpHb2pJV25fU1JnWnhLNWNUWXNIb2dFeTRjUkVCRGxnT3B4RFJMUWR3NjNXUnIybVVLc1MxSjhWUjFuOUJDT200T2JoaXlnOFVhdlNjRnQ3U0hMR2JfNzRfM0U0UzFNWTBwOTBxT0NSdTR4dTZPa2ZOZWtpTEJxWXdac3FLOWloeG9mMTUxdmh2LUR5bDloLXo0RUtodXZhN1ZVS2E1aWFaTUxESThuUjk5aEwyS0hTdzRHbkpZVVZ2VFAzbjVyRDFFUWFYbEc3aEc1eXZKbTZJbUFMSFFyTHJzQ0JjMHBEclJxNnB5TVVJaUM4dHd1eXpGaDhFbFJyeUF5TGpYbnA0alk?oc=5",
-        "title": "টেকনাফের পাহাড়ে মানবপাচারকারীদের সেই আস্তানায় পড়ে আছে ৩ মরদেহ",
-        "link": "https://news.google.com/rss/articles/CBMi6AVBVV95cUxNX19Iemw0cmgwT3IzTVJ3am9pdnEtUVIxNEpxUzFVTV9KZUdFYnd0RUdScGtNYjQ4bWVXWEdTc05FZ3F6NXc4WXEyd3BpaC1uSW50WUhWbUNHZFYxOGYxWVBmMHY3V2E2WnYxYmhNdWh0eFhHaXc1TWVJSmRtS2xpSXl2YU5JT0VNT2VST0FNZTVaMTR5bmhYZUhvaFdIam9pSVVnQ3pienV1bUh6OVRUdTZBMkl5ZXZ4NUxVaGVBMkVUWGdEMlhHMUZ2Xzd1TW1XX1VNS1ZBbmVFREVKZFdBOFVKTUNwVWVkR05uZk5USGpiUEd5WmdlLVRmdTVucjRhTlV5ZWRnaWFMYnFtZjdZY2NDM1Z4UDB4Y3cwUzYyU3dSYUxzNnNNaTRtM3BXdXEyVzVpb1pVcUZyRDVKRm5rZVRORTdwQTBDb3RYNE11NWpKNTZoNHUwcWd2QmRYbnU5WkhMOVFNeGx4SmNSQVlnTVk0Yl9JeW81eDV6dThLb1AyakIxYTVHWExYNTBhTXVvYkxMVzdibXFXaE13bjNBejFrdXdxNUQta1p0bm43cE84ZU4wLUFPTEdaVkxrbHdJcHJGeW9PNVBOekhMNGdiVnNlSE0wR0RuczU0Uk5sRWo5NmtRakpHb2pJV25fU1JnWnhLNWNUWXNIb2dFeTRjUkVCRGxnT3B4RFJMUWR3NjNXUnIybVVLc1MxSjhWUjFuOUJDT200T2JoaXlnOFVhdlNjRnQ3U0hMR2JfNzRfM0U0UzFNWTBwOTBxT0NSdTR4dTZPa2ZOZWtpTEJxWXdac3FLOWloeG9mMTUxdmh2LUR5bDloLXo0RUtodXZhN1ZVS2E1aWFaTUxESThuUjk5aEwyS0hTdzRHbkpZVVZ2VFAzbjVyRDFFUWFYbEc3aEc1eXZKbTZJbUFMSFFyTHJzQ0JjMHBEclJxNnB5TVVJaUM4dHd1eXpGaDhFbFJyeUF5TGpYbnA0alk?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 13:11:00 GMT",
-        "summary": "টেকনাফের পাহাড়ে মানবপাচারকারীদের সেই আস্তানায় পড়ে আছে ৩ মরদেহ &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/0214551-1793971056.jpg",
-        "articleUrl": "https://www.channel24bd.tv/countries/article/357248/%E0%A6%9F%E0%A7%87%E0%A6%95%E0%A6%A8%E0%A6%BE%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A7%9C%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%AC%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%87-%E0%A6%86%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%9C%E0%A7%87-%E0%A6%86%E0%A6%9B%E0%A7%87-%E0%A7%A9-%E0%A6%AE%E0%A6%B0%E0%A6%A6%E0%A7%87%E0%A6%B9",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMikwVBVV95cUxQQTR0ZnZwWEYwdjZtQ0VlM1UwbnA1WTlBWEl5YlhhN0wzUlU1bjZiZ0F6LVBnQVR5aEFkNUlPdEQ2OUVzSzZhTnZGV040Qk1XV0hiLXRES3ZrTUk5V254TWhlLXZuMVZ4ZE1mTGp2Z0Z1M2l6ejN5UGNoMFlsMWMwVHgyZ2E0a1hNWkp0Y1pqbzM0aXZuLUxnNlVyMkN2alBuWDk3VmZKYVN0VkhBTktEYVA2UHQxUWZNanJURU14S280anRDRm13UEdRTXp1dGJNVVBwRlF0WWg5ZkZ5MmpGcTQxeW9TdVI2bHg5VlVCUEN2cHNCbzRMcl9vTl9BLWJaalJ5UFhHXzFrUWwxcHdfMnRsc3Z4dzl6Ujlhb3VKOTJTSUhNRHk3T0ZlaDUzSzlQQzAtUG9hZFBnbWI0ZWVCdi0zdW0xSzh4TkE2YlQ3M3dkWUVERnBHeUtvVXpJeThzS3VVdWZGeUEzZ2JiSnBIWDhORmN1My05TWh0VTUtbVhfdEphOVBrMmVxdlMyLVVLcC1sR05FaTZEbklQU01BSUlfbjhBeVFfSUlVR2lwZFRaQTBJTDZBWG5VVi1Kcl9yNTFHcGhMUEJYSDdQSTFBX2JXRm9VWmp2SVVfZVJ1UEozTEVocncxQ0tnV05sVkYwQW95cEI5Z2xpc2JITFpwWXN6c2pxWWo3ZVZZT2ZnaExuaWdzMkVTZnlqb0xsVnlwaXR2X05RVGkxa21FelpxT1JmNF9XbzVWTlFGZ3ViNVJtUU4teFRYMWpNbmdJTENFV1MtUU1yUzhuaU55VGZmYlRTeE1ONVBOU3RlelZuWW5hTWhJSjk2VkszdVp2SVpxN0F6YmJwYnZUR2Q1ZTdwM2JZNA?oc=5",
-        "title": "৭ নভেম্বর সব পোশাক কারখানায় সাধারণ ছুটি ঘোষণা: বিজিএমইএ",
-        "link": "https://news.google.com/rss/articles/CBMikwVBVV95cUxQQTR0ZnZwWEYwdjZtQ0VlM1UwbnA1WTlBWEl5YlhhN0wzUlU1bjZiZ0F6LVBnQVR5aEFkNUlPdEQ2OUVzSzZhTnZGV040Qk1XV0hiLXRES3ZrTUk5V254TWhlLXZuMVZ4ZE1mTGp2Z0Z1M2l6ejN5UGNoMFlsMWMwVHgyZ2E0a1hNWkp0Y1pqbzM0aXZuLUxnNlVyMkN2alBuWDk3VmZKYVN0VkhBTktEYVA2UHQxUWZNanJURU14S280anRDRm13UEdRTXp1dGJNVVBwRlF0WWg5ZkZ5MmpGcTQxeW9TdVI2bHg5VlVCUEN2cHNCbzRMcl9vTl9BLWJaalJ5UFhHXzFrUWwxcHdfMnRsc3Z4dzl6Ujlhb3VKOTJTSUhNRHk3T0ZlaDUzSzlQQzAtUG9hZFBnbWI0ZWVCdi0zdW0xSzh4TkE2YlQ3M3dkWUVERnBHeUtvVXpJeThzS3VVdWZGeUEzZ2JiSnBIWDhORmN1My05TWh0VTUtbVhfdEphOVBrMmVxdlMyLVVLcC1sR05FaTZEbklQU01BSUlfbjhBeVFfSUlVR2lwZFRaQTBJTDZBWG5VVi1Kcl9yNTFHcGhMUEJYSDdQSTFBX2JXRm9VWmp2SVVfZVJ1UEozTEVocncxQ0tnV05sVkYwQW95cEI5Z2xpc2JITFpwWXN6c2pxWWo3ZVZZT2ZnaExuaWdzMkVTZnlqb0xsVnlwaXR2X05RVGkxa21FelpxT1JmNF9XbzVWTlFGZ3ViNVJtUU4teFRYMWpNbmdJTENFV1MtUU1yUzhuaU55VGZmYlRTeE1ONVBOU3RlelZuWW5hTWhJSjk2VkszdVp2SVpxN0F6YmJwYnZUR2Q1ZTdwM2JZNA?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 12:37:00 GMT",
-        "summary": "৭ নভেম্বর সব পোশাক কারখানায় সাধারণ ছুটি ঘোষণা: বিজিএমইএ &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/bgmea-1793882236.jpg",
-        "articleUrl": "https://www.channel24bd.tv/economy/article/357059/%E0%A7%AD-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%B8%E0%A6%AC-%E0%A6%AA%E0%A7%8B%E0%A6%B6%E0%A6%BE%E0%A6%95-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%96%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%B8%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%A3-%E0%A6%9B%E0%A7%81%E0%A6%9F%E0%A6%BF-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%BE:-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A6%8F%E0%A6%AE%E0%A6%87%E0%A6%8F",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi7wZBVV95cUxNN010TFpMb0dNQnI0dHBTNElYSlFxcml0cjFLc0poY3pTelVxOU1sQnZ1ODRRNW1VdDM3RjlWTC1LNXU1VDUwSDNuQ2dROUxfcEtIRmtWQndwOHhDZFlIWW5tNVNMaTZ4ZUZyN1dPZ0x6czB5bUpWTlhyZ0tvUUZObmE3VVA2NnpSbmVQTDFwNXJjOHpQM0NkVGt5Z01lQ3BtQnVubkR2bkRXWjRncF9VZGp0Tzlta2ZORDlaVEc5WFVSMzlWVXMtbGNBNVhqUzR4dkJQYjNEOXJaZTBJdkxGWkxzNEYyelZIb0hmTUJsMFlGUG9vYzQzcUdpeUJtbnV3T3NiT09lSzVhWUNvNXFyM3JFeGNQSDZadzBueTYtS1FfSkdPaXFMRldDNXBWRGUwQXlNVTB6cXF4NHIzcjBraUl5SkRVVWVLUHZ3a1ZuM2pkemdOYlFLVVRZNEJSVWFPclZFMlo4amxvZ0t3WEpsRDFxSE1zazhQc0NoOUl1Q3VwWHpxel9HMXRtdnlBRm14cFRIN0J4TmU1U0lsR2dqRkZWRGhHUHlEOHRqMWZlWENtb1FzUlRXaHhtaGozOFJIUmRSMzBtMGtjcDRST0dKM3BCX21qbEhRSVpWNGt5cTJRMUFWUEhyMU9CaGNROC0tOVoyS2lHR0VkeTJHZlQzS0JSVzF1YmlNbU5NWm9BYWFkbzZEdHlQQUpieDRteXBjSDNtTUxrRDVkYnVWN3I5OUs0YVJpSVQya3FMZzhkQ2tjcG5KRlJ3dXVfMjhsdUJpWWl0RkllM1d5NkJMNENFSVN5M3ItSS05RHJhQllMZ1I1TjJPYXZid1AwUW41S3RYYTB0a3kwLWFINzlKUTJTUzQ0YkFjLXI2Uzd6UnJmVlpJV2RyeWhJX2hWei14X196QnAwTVF6R2pkUC1la0JCZTJtWGhLTXZsN0FRSFl3Wk5LdGtvY3dNMGJ2Rl8yT09jYlFESnc2VXZwVFRDS3hBaEpFNTJQQm9sTnZBaU5Penc1VHp2T2c5WGZ0QXotYWVrY1hQZnV3WW9wQmZpbW15cWk1cERDbjZxUzdQekptWG45SEJpTlhITWstUlRvVEdGTi03SVBJYTUyVGprR2lTdzk4THlXNlRKN1VjcS1PQ2lSVmthU0xGSnA5QjVHUzg?oc=5",
-        "title": "দু-এক মাসের মধ্যে শ্রমিকদের সর্বনিম্ন মজুরি নির্ধারণ করা হবে: প্রধানমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMi7wZBVV95cUxNN010TFpMb0dNQnI0dHBTNElYSlFxcml0cjFLc0poY3pTelVxOU1sQnZ1ODRRNW1VdDM3RjlWTC1LNXU1VDUwSDNuQ2dROUxfcEtIRmtWQndwOHhDZFlIWW5tNVNMaTZ4ZUZyN1dPZ0x6czB5bUpWTlhyZ0tvUUZObmE3VVA2NnpSbmVQTDFwNXJjOHpQM0NkVGt5Z01lQ3BtQnVubkR2bkRXWjRncF9VZGp0Tzlta2ZORDlaVEc5WFVSMzlWVXMtbGNBNVhqUzR4dkJQYjNEOXJaZTBJdkxGWkxzNEYyelZIb0hmTUJsMFlGUG9vYzQzcUdpeUJtbnV3T3NiT09lSzVhWUNvNXFyM3JFeGNQSDZadzBueTYtS1FfSkdPaXFMRldDNXBWRGUwQXlNVTB6cXF4NHIzcjBraUl5SkRVVWVLUHZ3a1ZuM2pkemdOYlFLVVRZNEJSVWFPclZFMlo4amxvZ0t3WEpsRDFxSE1zazhQc0NoOUl1Q3VwWHpxel9HMXRtdnlBRm14cFRIN0J4TmU1U0lsR2dqRkZWRGhHUHlEOHRqMWZlWENtb1FzUlRXaHhtaGozOFJIUmRSMzBtMGtjcDRST0dKM3BCX21qbEhRSVpWNGt5cTJRMUFWUEhyMU9CaGNROC0tOVoyS2lHR0VkeTJHZlQzS0JSVzF1YmlNbU5NWm9BYWFkbzZEdHlQQUpieDRteXBjSDNtTUxrRDVkYnVWN3I5OUs0YVJpSVQya3FMZzhkQ2tjcG5KRlJ3dXVfMjhsdUJpWWl0RkllM1d5NkJMNENFSVN5M3ItSS05RHJhQllMZ1I1TjJPYXZid1AwUW41S3RYYTB0a3kwLWFINzlKUTJTUzQ0YkFjLXI2Uzd6UnJmVlpJV2RyeWhJX2hWei14X196QnAwTVF6R2pkUC1la0JCZTJtWGhLTXZsN0FRSFl3Wk5LdGtvY3dNMGJ2Rl8yT09jYlFESnc2VXZwVFRDS3hBaEpFNTJQQm9sTnZBaU5Penc1VHp2T2c5WGZ0QXotYWVrY1hQZnV3WW9wQmZpbW15cWk1cERDbjZxUzdQekptWG45SEJpTlhITWstUlRvVEdGTi03SVBJYTUyVGprR2lTdzk4THlXNlRKN1VjcS1PQ2lSVmthU0xGSnA5QjVHUzg?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 09:38:00 GMT",
-        "summary": "দু-এক মাসের মধ্যে শ্রমিকদের সর্বনিম্ন মজুরি নির্ধারণ করা হবে: প্রধানমন্ত্রী &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/pmo-1793871528.jpg",
-        "articleUrl": "https://www.channel24bd.tv/national/article/357011/%E0%A6%A6%E0%A7%81-%E0%A6%8F%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%A8%E0%A6%BF%E0%A6%AE%E0%A7%8D%E0%A6%A8-%E0%A6%AE%E0%A6%9C%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%A3-%E0%A6%95%E0%A6%B0%E0%A6%BE-%E0%A6%B9%E0%A6%AC%E0%A7%87:-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi7wVBVV95cUxOSUNxWEVjbHI4Q0hxZk40bDNUeVZOTkM4YmlraHZLMTJLQ2hBQWtFX1BkU2R5WmtmVFJrUnR5enJ4UHBiVGhJa25jQWdnRkJUX21qMnZkd1N4VW55Q3htNjdIb2dJOTBUZXN6d0JOMG5TbGVZVWRPUGkwbm55cGkwOFM5M2s4Q05IYjhJRHJ5VHNmd201RE5ZT2tBWkxnRWxSenFPaGttam9fZGJnenJSR1B2TmFITDlSNndsQlF1Vzd4d3ZUS3FwSWp3ZmxNSmdWdW03VGxrR25rOVBMa1hsczFjcGJrQTVlNXRnaUlIWTFfb2ltbGI1UUp5ZTBhUklSbng5U3VwcHZNNmczbEdZUUNMVFFlX2xfTmpRaDJkVnYtZ2NTM2lWQ1EwLWJOWlJiZXJtWlJqeEFCOW9zVjhoYVlzTjhzQjhrY2RCYzdMMV9ZXzRRakpEMWJzUDlTVVNVQThxRmZkNzVEUGEzWWFyRXVoSzBkRUIwNHVnZVltV0FzWkJPbS1IQ09PUU1rbFFqMC03MUpQTVhJbU1WalluMWV6b3o1RU5zV1poRkNDMHhLOTdocEZjVkNPdl9uNzNLdXp6c0p0andqbjlfTzRoR2xhYmFiLTgwMXdza1B6U2VRSFdlTUI4WldjT3owNkx5WjdtblJLRW5JMjBwdGIyaW1INWRsU1VtWHJsTjJvX09qSXEzMTktbW9QWDc3UFd1TmwtbmY2UWhETC1KYlN3V0l4cWpQZGVZVTQ2blAyZkpXT2ZfUFgxc0JNWWEwRGw5NnRYd0J0Z2s4NlMxNnYyU2tIMUNyX1gtV1FmU2NtSjlsQjRDdEl3WlNfYVIwZUU4SWFPdUpRRFkwUW5Bc014ejVXT3pPd3BMTmQ0TGFMMFFCcFplSXhqUVFlSlEyZmY0c1Bub0V3RFhSZEtReW5hMi1PNHcxMUVwd3RDMnpqTGg2RXRLM0xOSkRDTVd2ejU2Y2dsZFhJZTA3dlI5Y1Fv?oc=5",
-        "title": "চোয়ালের সুরক্ষায় কার্বন ফাইবারের মাস্ক পরে অনুশীলনে মার্তিনেজ",
-        "link": "https://news.google.com/rss/articles/CBMi7wVBVV95cUxOSUNxWEVjbHI4Q0hxZk40bDNUeVZOTkM4YmlraHZLMTJLQ2hBQWtFX1BkU2R5WmtmVFJrUnR5enJ4UHBiVGhJa25jQWdnRkJUX21qMnZkd1N4VW55Q3htNjdIb2dJOTBUZXN6d0JOMG5TbGVZVWRPUGkwbm55cGkwOFM5M2s4Q05IYjhJRHJ5VHNmd201RE5ZT2tBWkxnRWxSenFPaGttam9fZGJnenJSR1B2TmFITDlSNndsQlF1Vzd4d3ZUS3FwSWp3ZmxNSmdWdW03VGxrR25rOVBMa1hsczFjcGJrQTVlNXRnaUlIWTFfb2ltbGI1UUp5ZTBhUklSbng5U3VwcHZNNmczbEdZUUNMVFFlX2xfTmpRaDJkVnYtZ2NTM2lWQ1EwLWJOWlJiZXJtWlJqeEFCOW9zVjhoYVlzTjhzQjhrY2RCYzdMMV9ZXzRRakpEMWJzUDlTVVNVQThxRmZkNzVEUGEzWWFyRXVoSzBkRUIwNHVnZVltV0FzWkJPbS1IQ09PUU1rbFFqMC03MUpQTVhJbU1WalluMWV6b3o1RU5zV1poRkNDMHhLOTdocEZjVkNPdl9uNzNLdXp6c0p0andqbjlfTzRoR2xhYmFiLTgwMXdza1B6U2VRSFdlTUI4WldjT3owNkx5WjdtblJLRW5JMjBwdGIyaW1INWRsU1VtWHJsTjJvX09qSXEzMTktbW9QWDc3UFd1TmwtbmY2UWhETC1KYlN3V0l4cWpQZGVZVTQ2blAyZkpXT2ZfUFgxc0JNWWEwRGw5NnRYd0J0Z2s4NlMxNnYyU2tIMUNyX1gtV1FmU2NtSjlsQjRDdEl3WlNfYVIwZUU4SWFPdUpRRFkwUW5Bc014ejVXT3pPd3BMTmQ0TGFMMFFCcFplSXhqUVFlSlEyZmY0c1Bub0V3RFhSZEtReW5hMi1PNHcxMUVwd3RDMnpqTGg2RXRLM0xOSkRDTVd2ejU2Y2dsZFhJZTA3dlI5Y1Fv?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 18:08:00 GMT",
-        "summary": "চোয়ালের সুরক্ষায় কার্বন ফাইবারের মাস্ক পরে অনুশীলনে মার্তিনেজ &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/1-1793902081.jpg",
-        "articleUrl": "https://www.channel24bd.tv/sports/article/357128/%E0%A6%9A%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%81%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A7%9F-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%A8-%E0%A6%AB%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%95-%E0%A6%AA%E0%A6%B0%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B6%E0%A7%80%E0%A6%B2%E0%A6%A8%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%9C",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
-        "title": "News Video, Latest Bangla News & Live TV",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 01 Jul 2019 07:04:28 GMT",
-        "summary": "News Video, Latest Bangla News & Live TV &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.channel24bd.tv/live",
-        "imageAttemptedAt": "2026-11-07T12:20:41.016Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5MU5ROXhDWkdfbk04T2Y2MmJRNWdocFQxVEhGOWxTazQzeGxLUFFNZGI0X3lZNXBJREZncThFQ01ZNXpnVnhMVTljNEFTQQ?oc=5",
-        "title": "News Video, Latest Bangla News & Contact Us",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5MU5ROXhDWkdfbk04T2Y2MmJRNWdocFQxVEhGOWxTazQzeGxLUFFNZGI0X3lZNXBJREZncThFQ01ZNXpnVnhMVTljNEFTQQ?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 27 Jul 2026 12:34:54 GMT",
-        "summary": "News Video, Latest Bangla News & Contact Us &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.channel24bd.tv/contact-us",
-        "imageAttemptedAt": "2026-11-07T14:14:36.472Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMivwZBVV95cUxNY1hXVHVZMVVWd0p0ZVN6MzFjWlMybDhNbnkwWEVSVUtNdjMzVy1OSmNWV3JvZkJoVjFPSHdqazhSTm9MVzhCdEt2WTV3OEFwYW00ZWIzV1c0Vnh0VTJnVU1CS1ZMOUsxa3JsZURxRGc3V25ZSXZqTjRNRm9tbF9QT3JrWkdQb3dHakJmYllxbXRXalBMZVhKUThTV2pKemo1eGU2SjBvbXpKV1lXRmt0VGxUWEh6cVlCc2ZyTEhOdW90V3AxaXVpV1Y5bnZnUWk0NXU5UEc1dEd4MGd0UVJfOHFrUnJZc3RzQ25BaXhubldkS1hvNnpRaThMbVpiR2lRNEw3OF9LZDhidnl0T0VVMVRvNWJsSzVxaHVHeExKcjNzWVlMak9hTHBYaUhJVE56VUVKZnk3NmpGUnZuTzVSbmdXV2dfTkw1TnRUVFZqNGcyeHkzaDNKaUtHX3otdVhOR3g2MVo5eEp6aGRDM3JtQXdPNmtySzB1VS1vQTRQa0RJSkxEa1FUa0FMSWh0TjBiMmJNMGpWeWZ4N29XSW5FaDVsUDZqajZKdHllanlCNFF0djV1SlhiMFI4OHpGUzg5Vk1Fb2tZZnBFQkNhTTZTb3o4Y3J5V3ZOR3pWZ044N2l6Q3ZldW5PbDR2VTQxMTJQTWhyTzF5UzRWZFJReks1SnZsNWd4UzY5ZzM2SXJ4WnNaVXFjYmZSSzJKOWtjbUpsR2ZCN2VxQTBKVTdtMVhhbEZjQjdOZ2V6WEYzMFo2SDFwa3V4amZ2S3NNdV8xWnpBcFpWNEhDUHU1Nmt1WVJGaU5uOTZiazBfai0yYVAyUkowcnZJR3lmamtlQUdKckNiOXoyYWlDb2M1TWhvSjVEZVludXprQmRVa2pmNzItUWJSaHhTY0lTc3Z5YV9uM3JHY1VPUzNfM2R1MnhwMGNqclRmdzNHblNtcEhtNzMzS2pKYkNVcmw1aUlDUDlZTDI5WnVCSERlRlI4OGpNdTExMnhNY0hGVF9ud2ZFNVY1Tm10WkE5WkhlTnZOSkt4U294WlljbHR0d0xTZlBBSExUeWd6SzBSenB4cVhrYVFqUmhyd0Q1NnN0ZGNpQlluNlk?oc=5",
-        "title": "জুলাই সনদ পাশ কাটিয়ে গণতান্ত্রিক রাষ্ট্র প্রতিষ্ঠা সম্ভব নয়: ড. আলী রীয়াজ",
-        "link": "https://news.google.com/rss/articles/CBMivwZBVV95cUxNY1hXVHVZMVVWd0p0ZVN6MzFjWlMybDhNbnkwWEVSVUtNdjMzVy1OSmNWV3JvZkJoVjFPSHdqazhSTm9MVzhCdEt2WTV3OEFwYW00ZWIzV1c0Vnh0VTJnVU1CS1ZMOUsxa3JsZURxRGc3V25ZSXZqTjRNRm9tbF9QT3JrWkdQb3dHakJmYllxbXRXalBMZVhKUThTV2pKemo1eGU2SjBvbXpKV1lXRmt0VGxUWEh6cVlCc2ZyTEhOdW90V3AxaXVpV1Y5bnZnUWk0NXU5UEc1dEd4MGd0UVJfOHFrUnJZc3RzQ25BaXhubldkS1hvNnpRaThMbVpiR2lRNEw3OF9LZDhidnl0T0VVMVRvNWJsSzVxaHVHeExKcjNzWVlMak9hTHBYaUhJVE56VUVKZnk3NmpGUnZuTzVSbmdXV2dfTkw1TnRUVFZqNGcyeHkzaDNKaUtHX3otdVhOR3g2MVo5eEp6aGRDM3JtQXdPNmtySzB1VS1vQTRQa0RJSkxEa1FUa0FMSWh0TjBiMmJNMGpWeWZ4N29XSW5FaDVsUDZqajZKdHllanlCNFF0djV1SlhiMFI4OHpGUzg5Vk1Fb2tZZnBFQkNhTTZTb3o4Y3J5V3ZOR3pWZ044N2l6Q3ZldW5PbDR2VTQxMTJQTWhyTzF5UzRWZFJReks1SnZsNWd4UzY5ZzM2SXJ4WnNaVXFjYmZSSzJKOWtjbUpsR2ZCN2VxQTBKVTdtMVhhbEZjQjdOZ2V6WEYzMFo2SDFwa3V4amZ2S3NNdV8xWnpBcFpWNEhDUHU1Nmt1WVJGaU5uOTZiazBfai0yYVAyUkowcnZJR3lmamtlQUdKckNiOXoyYWlDb2M1TWhvSjVEZVludXprQmRVa2pmNzItUWJSaHhTY0lTc3Z5YV9uM3JHY1VPUzNfM2R1MnhwMGNqclRmdzNHblNtcEhtNzMzS2pKYkNVcmw1aUlDUDlZTDI5WnVCSERlRlI4OGpNdTExMnhNY0hGVF9ud2ZFNVY1Tm10WkE5WkhlTnZOSkt4U294WlljbHR0d0xTZlBBSExUeWd6SzBSenB4cVhrYVFqUmhyd0Q1NnN0ZGNpQlluNlk?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 17 Oct 2026 07:00:00 GMT",
-        "summary": "জুলাই সনদ পাশ কাটিয়ে গণতান্ত্রিক রাষ্ট্র প্রতিষ্ঠা সম্ভব নয়: ড. আলী রীয়াজ &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/ali-reaz-1792206059.jpg",
-        "articleUrl": "https://www.channel24bd.tv/channel24-special/article/353425/%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%87-%E0%A6%B8%E0%A6%A8%E0%A6%A6-%E0%A6%AA%E0%A6%BE%E0%A6%B6-%E0%A6%95%E0%A6%BE%E0%A6%9F%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%97%E0%A6%A3%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%95-%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AD%E0%A6%AC-%E0%A6%A8%E0%A7%9F:-%E0%A6%86%E0%A6%B2%E0%A7%80-%E0%A6%B0%E0%A7%80%E0%A7%9F%E0%A6%BE%E0%A6%9C",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      }
     ]
   },
   "categories": {
@@ -837,16 +837,16 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOalRvQTFMeVN4b3BNdGxJck5xX21rWlYxZ2tUSzlwMU5IVm54ZExubjFtTTFvOTREQ01yRUJqMUUwYmhSM1V4b2hyV195MFQ0YkJtRnI2R1F6Vzd6UkM1WjVGUmNUMTIydWo2Y1pBZ29rNzJUS2tiaksxckRKZjlpR0x4N0RNamNrRHNDMnFKcHlqQUg5TTd2aS1neUtCTkxDenZoc0pURmhLTDU2ZU9ydDhYMnJGeUlIeTJLVWNvMGNNdmhwbHg4UURtWUtpX3ljUlVEZjVkZXh3UHdZUV94WlU2WXpPWl9aRUFvNFM5dWxMYi1IRmhIdmxNNDdTYlp5OW9GYkZWXzNtYUIyY0c5NmRFcld4SFNHWEVYXzgta0tzVFBDcEV3dFJta1hDMTlGS1FqcnpSempQZUJwWXZzZ0JrcXM?oc=5",
-        "title": "হৃদয়ের অপরাজিত ২৪২ রান, ৩০ রানের লিড বাংলাদেশের",
-        "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOalRvQTFMeVN4b3BNdGxJck5xX21rWlYxZ2tUSzlwMU5IVm54ZExubjFtTTFvOTREQ01yRUJqMUUwYmhSM1V4b2hyV195MFQ0YkJtRnI2R1F6Vzd6UkM1WjVGUmNUMTIydWo2Y1pBZ29rNzJUS2tiaksxckRKZjlpR0x4N0RNamNrRHNDMnFKcHlqQUg5TTd2aS1neUtCTkxDenZoc0pURmhLTDU2ZU9ydDhYMnJGeUlIeTJLVWNvMGNNdmhwbHg4UURtWUtpX3ljUlVEZjVkZXh3UHdZUV94WlU2WXpPWl9aRUFvNFM5dWxMYi1IRmhIdmxNNDdTYlp5OW9GYkZWXzNtYUIyY0c5NmRFcld4SFNHWEVYXzgta0tzVFBDcEV3dFJta1hDMTlGS1FqcnpSempQZUJwWXZzZ0JrcXM?oc=5",
-        "source": "Dhaka News 24",
+        "id": "https://news.google.com/rss/articles/CBMiowVBVV95cUxPQTVxbVhmaEF0SmJ5NGx2Z01iUlNBLWhEUWxGeXdDdUFqdVViVE5tMlhFXzVjeXdaOWRXcFA0TkQyck80VnhQX05NdVBEQXFUY216VkFFM0pSaWlCRWppeVpia0ZMSEd1OHVLeVJUOGJDZVN5U05BTE9UaVppbVJmU2R5QVdtZXJnaU1aZ1FIaFZuRVBOSkFwcHhrcm5OZTQxc2xkd2JHQ19XWm9yQlhlQUxJN244Tm9RX3BoWVR4bnlKa0xaMXVDdF9SbEJmQWxVTk9SdzVqT3Y0bjEtWEhpQ091MzJsaUVLeW4yc1JLcWNXak9SVzJTS3dSLW9MTGpDeHlNZlhYb1ZLWkhta0FVMWR0ZGoxcUdyRVZiTkJWaGtDN1JCN05remsxOVJwdFdDdXJ0SnhjOTVya29uS2c4RDBUckpxOS1JejBSSVBlQk5MaWo0TUZHX3ZWVHVwRWFsbUxnNkNJU05RVGxKbjlPMDNtUzZ1SXRBbFdhR3o1cGx2ZVpTUl95M3p3aGJ5MzBQemthb1hRUjV5NHYxdU95OUJYa1d6ZU8zVmJpWDFNNkhfV1h0TzNxcXA2ZmYySkFaM2JnRjRib19tekpOZGlrOURFRWNDdXdtb0VNM2RibWRveXVqYzF6aGhENnIxaHJFWFJKd2Zick1RUXV6UnFhWXJ5SFBEUjFSaUFqMEJhbzl2N1hmY3MwZ1Q5MjVOZm9mQ0k0YjlGV0NEUXFRNktveVI0bEZMV2QxM3JZQnl5bS1Uc0tra1FzcVc3MTQyMU9nS2xrYnRMQS1jTEl3dU1WTnJoaHJ6VHVSaEZ1V1Y5Q2hIekw1NGhUMDZMWldyQzhZUUpTc0NTUnFONjBkX2pnN0ZPNm52eEVZQjNTWFUtc2tmMm8?oc=5",
+        "title": "Bangladesh News | পুজোর মুখে ফের বাংলাদেশে তাণ্ডব! ভাঙল দুর্গামূর্তি! #shorts #zee24ghanta #bangladesh #durgapuja2026",
+        "link": "https://news.google.com/rss/articles/CBMiowVBVV95cUxPQTVxbVhmaEF0SmJ5NGx2Z01iUlNBLWhEUWxGeXdDdUFqdVViVE5tMlhFXzVjeXdaOWRXcFA0TkQyck80VnhQX05NdVBEQXFUY216VkFFM0pSaWlCRWppeVpia0ZMSEd1OHVLeVJUOGJDZVN5U05BTE9UaVppbVJmU2R5QVdtZXJnaU1aZ1FIaFZuRVBOSkFwcHhrcm5OZTQxc2xkd2JHQ19XWm9yQlhlQUxJN244Tm9RX3BoWVR4bnlKa0xaMXVDdF9SbEJmQWxVTk9SdzVqT3Y0bjEtWEhpQ091MzJsaUVLeW4yc1JLcWNXak9SVzJTS3dSLW9MTGpDeHlNZlhYb1ZLWkhta0FVMWR0ZGoxcUdyRVZiTkJWaGtDN1JCN05remsxOVJwdFdDdXJ0SnhjOTVya29uS2c4RDBUckpxOS1JejBSSVBlQk5MaWo0TUZHX3ZWVHVwRWFsbUxnNkNJU05RVGxKbjlPMDNtUzZ1SXRBbFdhR3o1cGx2ZVpTUl95M3p3aGJ5MzBQemthb1hRUjV5NHYxdU95OUJYa1d6ZU8zVmJpWDFNNkhfV1h0TzNxcXA2ZmYySkFaM2JnRjRib19tekpOZGlrOURFRWNDdXdtb0VNM2RibWRveXVqYzF6aGhENnIxaHJFWFJKd2Zick1RUXV6UnFhWXJ5SFBEUjFSaUFqMEJhbzl2N1hmY3MwZ1Q5MjVOZm9mQ0k0YjlGV0NEUXFRNktveVI0bEZMV2QxM3JZQnl5bS1Uc0tra1FzcVc3MTQyMU9nS2xrYnRMQS1jTEl3dU1WTnJoaHJ6VHVSaEZ1V1Y5Q2hIekw1NGhUMDZMWldyQzhZUUpTc0NTUnFONjBkX2pnN0ZPNm52eEVZQjNTWFUtc2tmMm8?oc=5",
+        "source": "Facebook",
         "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 12:41:01 GMT",
-        "summary": "হৃদয়ের অপরাজিত ২৪২ রান, ৩০ রানের লিড বাংলাদেশের &nbsp;&nbsp; Dhaka News 24",
-        "image": "https://www.dhakanews24.com/wp-content/uploads/2026/11/towhid-redoy-pic.webp",
-        "articleUrl": "https://www.dhakanews24.com/%E0%A6%B9%E0%A7%83%E0%A6%A6%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A4-%E0%A7%A8%E0%A7%AA%E0%A7%A8-%E0%A6%B0%E0%A6%BE%E0%A6%A8-%E0%A7%A9/",
-        "imageAttemptedAt": "",
+        "publishedAt": "Sun, 11 Oct 2026 07:00:00 GMT",
+        "summary": "Bangladesh News | পুজোর মুখে ফের বাংলাদেশে তাণ্ডব! ভাঙল দুর্গামূর্তি! #shorts #zee24ghanta #bangladesh #durgapuja2026 &nbsp;&nbsp; Facebook",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.facebook.com/Zee24Ghanta/posts/bangladesh-news-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%87-%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%A4%E0%A6%BE%E0%A6%A3%E0%A7%8D%E0%A6%A1%E0%A6%AC-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A6%B2-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-shorts-zee24gh/1643834584440616/",
+        "imageAttemptedAt": "2026-11-07T22:11:17.874Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       }
     ],
@@ -987,10 +987,10 @@
   "imageStats": {
     "total": 74,
     "fromRss": 0,
-    "fromArticleMetadata": 20,
+    "fromArticleMetadata": 19,
     "reusedCached": 18,
-    "actualPhotos": 20,
-    "fallbackIllustrations": 54,
+    "actualPhotos": 19,
+    "fallbackIllustrations": 55,
     "withImage": 74,
     "withoutImage": 0
   }
