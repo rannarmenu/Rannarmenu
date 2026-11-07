@@ -1,21 +1,8 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-07T08:20:35.888Z",
+  "generatedAt": "2026-11-07T09:16:07.480Z",
   "sponsors": {
     "somoy": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5EdU5FdTVHOTE1VXJGYXFwT2RwbDJIYnpVbzBIN3VJak9HUW5GOElfcGNBRXVRZWhfX29Va3FPOUxGcElLWG0yRnhaOFU0N1c3?oc=5",
-        "title": "ভোট কাস্ট - Somoy news",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5EdU5FdTVHOTE1VXJGYXFwT2RwbDJIYnpVbzBIN3VJak9HUW5GOElfcGNBRXVRZWhfX29Va3FPOUxGcElLWG0yRnhaOFU0N1c3?oc=5",
-        "source": "সময় টিভি",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Feb 2026 17:00:32 GMT",
-        "summary": "ভোট কাস্ট &nbsp;&nbsp; Somoy news",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://election.somoynews.tv/vote-cast",
-        "imageAttemptedAt": "2026-11-07T07:24:53.064Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
       {
         "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KUGYxS0M3ZDN5SUxRZTEtVFhwQ3drNS1sVUpBR3BKTlBHbW55c3gwaG9BTGJUbGZ4WURPcXh6QzU4MGNWekpEVjVoVXBHT2F0d21oTGZOLXlycDU5MHc?oc=5",
         "title": "মাধ্যমিক বিদ্যালয়ে ২০২৫ সালে ছুটি কতদিন?",
@@ -320,16 +307,16 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE44c1k4azlTNVZnRFhOOHIxMlBCYnBGeUFFV0RpZVJVR3QxcHNLVmh1ZDdSMTJVUFpnVlJNak05ejZWMkxJX2FnYk9tR1FxZw?oc=5",
-        "title": "বিপ্লব ও সংহতি দিবসে জিয়াউর রহমান ও খালেদা জিয়ার সমাধিতে প্রধানমন্ত্রীর শ্রদ্ধা",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE44c1k4azlTNVZnRFhOOHIxMlBCYnBGeUFFV0RpZVJVR3QxcHNLVmh1ZDdSMTJVUFpnVlJNak05ejZWMkxJX2FnYk9tR1FxZw?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA0WHNTaFdkMnIzbno5S2lmZU5KbGx5WjRRb3VEcnE1SEZmODczM3VWSkhvRkZYNkc1bzYybTJjVjB6ek82NVhzZ19GR041dw?oc=5",
+        "title": "সিপাহি-জনতার বিপ্লব বাংলাদেশের পথ নির্ধারণ করেছিল: প্রধানমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA0WHNTaFdkMnIzbno5S2lmZU5KbGx5WjRRb3VEcnE1SEZmODczM3VWSkhvRkZYNkc1bzYybTJjVjB6ek82NVhzZ19GR041dw?oc=5",
         "source": "Jamuna TV",
         "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 02:49:03 GMT",
-        "summary": "বিপ্লব ও সংহতি দিবসে জিয়াউর রহমান ও খালেদা জিয়ার সমাধিতে প্রধানমন্ত্রীর শ্রদ্ধা &nbsp;&nbsp; Jamuna Television",
+        "publishedAt": "Fri, 06 Nov 2026 13:55:59 GMT",
+        "summary": "সিপাহি-জনতার বিপ্লব বাংলাদেশের পথ নির্ধারণ করেছিল: প্রধানমন্ত্রী &nbsp;&nbsp; Jamuna Television",
         "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667537",
-        "imageAttemptedAt": "2026-11-07T07:24:53.064Z",
+        "articleUrl": "https://www.jamuna.tv/national/667528",
+        "imageAttemptedAt": "2026-11-07T09:16:10.074Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -480,19 +467,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMingVBVV95cUxQQ1ZBM2w5em9hUnlNazJITWcyd2xxNy1xYXhjMmFCeFFBUUxqamdDM3ZMczZMTjFzMGRoeHlpczA3WjU5RTJpN2h3ZmpvWjVqNHh2SzZRY1d5aHlYOUNlZm5pVUc2dWM4a0ItSnJBVVkzc1pSTUxDeGpBLW45R0ZYRHk2TXZXdE9xWExIYnRjb09fN3UxZHloQnBXYmxHd0JKVmV4dk1RWFRZRndMdHM3UC1jbVo2QW1zSUJ5NWg4Mm1tQXhtYUlHQXJzbExRMzdNT0gtS1RVTWRQbUR0TkFwcVhiOWxpZHJMckJTT3l6MVlVMkR6aUU5LWFSb29VZEZpbFVXMklJQWtlUjlKNWNsUHk3dlV4ajV5Nlg4RE5JNzdrUkFWOEpsdkczOUdzQWF0RlNEZWRRMWlWXzd0VXlBaGpLOWxwcWlSWEpXRkM5VHVJNWJpOTJvVW5ydFlVTVdRelc5djRPQW1jRzJjdTcxUjlOeFNILUxzN2NVOWdWTE1TdDU4UW5Mb1hMVEd0RlBQRTZLU2kyeDVTMFpiWWlfQnZYYnVIQTRRTUN6N0J6bkZvUU9OUm1rMHpjdk15MW1rdzhnSWdUbTU3SjJMZnpheG1ZMGNid1lCbGNvOFc0MFBkd2lxR21jcUN5bjZxVXNCeXppaUtiaHlaUmpQOWZNU2RKcXlqcDNrZk1wR3FCd3ZUQkJhMU5YeHllcEZMWGk3empYSHItcW1RSDFiUlJkbzNsVi1hUVBram94Y25SMktSLWtnN0RIS3l5cGxGR09oN1UweGdaeDVWZ0pXTTlRdEEzdURwd2ktTlo5cVRUaGQwVUpRWnp3NWlGWHFEa2s5TEhnR0VZZWh6UHBoU0o4Z2c0ZDJ1ajY3MFh2Zkx3?oc=5",
-        "title": "বিনামূল্যে মালয়েশিয়ায় কর্মী নিয়োগ, আবেদন শুরু ৬ নভেম্বর",
-        "link": "https://news.google.com/rss/articles/CBMingVBVV95cUxQQ1ZBM2w5em9hUnlNazJITWcyd2xxNy1xYXhjMmFCeFFBUUxqamdDM3ZMczZMTjFzMGRoeHlpczA3WjU5RTJpN2h3ZmpvWjVqNHh2SzZRY1d5aHlYOUNlZm5pVUc2dWM4a0ItSnJBVVkzc1pSTUxDeGpBLW45R0ZYRHk2TXZXdE9xWExIYnRjb09fN3UxZHloQnBXYmxHd0JKVmV4dk1RWFRZRndMdHM3UC1jbVo2QW1zSUJ5NWg4Mm1tQXhtYUlHQXJzbExRMzdNT0gtS1RVTWRQbUR0TkFwcVhiOWxpZHJMckJTT3l6MVlVMkR6aUU5LWFSb29VZEZpbFVXMklJQWtlUjlKNWNsUHk3dlV4ajV5Nlg4RE5JNzdrUkFWOEpsdkczOUdzQWF0RlNEZWRRMWlWXzd0VXlBaGpLOWxwcWlSWEpXRkM5VHVJNWJpOTJvVW5ydFlVTVdRelc5djRPQW1jRzJjdTcxUjlOeFNILUxzN2NVOWdWTE1TdDU4UW5Mb1hMVEd0RlBQRTZLU2kyeDVTMFpiWWlfQnZYYnVIQTRRTUN6N0J6bkZvUU9OUm1rMHpjdk15MW1rdzhnSWdUbTU3SjJMZnpheG1ZMGNid1lCbGNvOFc0MFBkd2lxR21jcUN5bjZxVXNCeXppaUtiaHlaUmpQOWZNU2RKcXlqcDNrZk1wR3FCd3ZUQkJhMU5YeHllcEZMWGk3empYSHItcW1RSDFiUlJkbzNsVi1hUVBram94Y25SMktSLWtnN0RIS3l5cGxGR09oN1UweGdaeDVWZ0pXTTlRdEEzdURwd2ktTlo5cVRUaGQwVUpRWnp3NWlGWHFEa2s5TEhnR0VZZWh6UHBoU0o4Z2c0ZDJ1ajY3MFh2Zkx3?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 02:33:33 GMT",
-        "summary": "বিনামূল্যে মালয়েশিয়ায় কর্মী নিয়োগ, আবেদন শুরু ৬ নভেম্বর &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/1444-1793932452.jpg",
-        "articleUrl": "https://www.channel24bd.tv/national/article/357142/%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%AE%E0%A7%82%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A7%9F-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81-%E0%A7%AC-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiggRBVV95cUxQZGRnYjJqV2dOd1NKNGZ2Y3dQblI5V3kyWXVSdDBQRHRRUUV5eWhUSm80VU9oY2tmYzdRTHhrLVpkRVQwV2FRZWduc2NKcTlRREpOTWlncE1CSGdNb1JhdlA5MVh4TmFYc1RuNzFUVW0wTWlrWUdrelJ6UldjTlFaajVXWENEem9XZ1NPTno2cUdMcmVQTjF1Z3FLcnpIcTVsYktXYTQ3aHdFLUxkQmhxWGUtVEpzdXlKMy04SjREYlNtTU1xZV9KTlBFcnQtT0FlWk5COFpPYldlVk12LUQtaVI2YUc2OVI4R3ZaMVBJamJKWnAxT294SHgwVGtfa0puSW5aWElVOXctYU5vdHhUc05fNU1EMnBXdE1SM0tQTmU5ZkdUMVdhR2JhcDZwVHFKWTUxVk5KU1MwdmtETnkwTzJ0N2hDaWhRT1pYTTVEVlEzbVNYWm1ET3o1a2JOWWZZdHpNMXF4ZE01TDk3cUtJdlRvTWFfVUhieWxEUlNJUWtlTG4yOGlQRGpqdmo3X251UFlKWDR1NW1NbEtqaWRLeGU3WEZwRVFjVjJLSWZlbnZhRExvcnVBbDN3X0syVTQzcVNXWHg3dVF3Yk9PaV8xNzBBR1RWdHdralpsc2hUTXhGMkRUTXp4cE1BdjRrdHNmRk9DX3hMWDZDWnRUNDF2ZEFB?oc=5",
         "title": "রিলস দেখেই টাকা আয়ের সুযোগ, আবেদন যেভাবে",
         "link": "https://news.google.com/rss/articles/CBMiggRBVV95cUxQZGRnYjJqV2dOd1NKNGZ2Y3dQblI5V3kyWXVSdDBQRHRRUUV5eWhUSm80VU9oY2tmYzdRTHhrLVpkRVQwV2FRZWduc2NKcTlRREpOTWlncE1CSGdNb1JhdlA5MVh4TmFYc1RuNzFUVW0wTWlrWUdrelJ6UldjTlFaajVXWENEem9XZ1NPTno2cUdMcmVQTjF1Z3FLcnpIcTVsYktXYTQ3aHdFLUxkQmhxWGUtVEpzdXlKMy04SjREYlNtTU1xZV9KTlBFcnQtT0FlWk5COFpPYldlVk12LUQtaVI2YUc2OVI4R3ZaMVBJamJKWnAxT294SHgwVGtfa0puSW5aWElVOXctYU5vdHhUc05fNU1EMnBXdE1SM0tQTmU5ZkdUMVdhR2JhcDZwVHFKWTUxVk5KU1MwdmtETnkwTzJ0N2hDaWhRT1pYTTVEVlEzbVNYWm1ET3o1a2JOWWZZdHpNMXF4ZE01TDk3cUtJdlRvTWFfVUhieWxEUlNJUWtlTG4yOGlQRGpqdmo3X251UFlKWDR1NW1NbEtqaWRLeGU3WEZwRVFjVjJLSWZlbnZhRExvcnVBbDN3X0syVTQzcVNXWHg3dVF3Yk9PaV8xNzBBR1RWdHdralpsc2hUTXhGMkRUTXp4cE1BdjRrdHNmRk9DX3hMWDZDWnRUNDF2ZEFB?oc=5",
@@ -595,11 +569,37 @@
         "articleUrl": "https://www.channel24bd.tv/national/article/356904/%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%9F%E0%A6%BF%E0%A6%95%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%80-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%AE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A7%A9-%E0%A6%B8%E0%A6%A6%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi7wVBVV95cUxOSUNxWEVjbHI4Q0hxZk40bDNUeVZOTkM4YmlraHZLMTJLQ2hBQWtFX1BkU2R5WmtmVFJrUnR5enJ4UHBiVGhJa25jQWdnRkJUX21qMnZkd1N4VW55Q3htNjdIb2dJOTBUZXN6d0JOMG5TbGVZVWRPUGkwbm55cGkwOFM5M2s4Q05IYjhJRHJ5VHNmd201RE5ZT2tBWkxnRWxSenFPaGttam9fZGJnenJSR1B2TmFITDlSNndsQlF1Vzd4d3ZUS3FwSWp3ZmxNSmdWdW03VGxrR25rOVBMa1hsczFjcGJrQTVlNXRnaUlIWTFfb2ltbGI1UUp5ZTBhUklSbng5U3VwcHZNNmczbEdZUUNMVFFlX2xfTmpRaDJkVnYtZ2NTM2lWQ1EwLWJOWlJiZXJtWlJqeEFCOW9zVjhoYVlzTjhzQjhrY2RCYzdMMV9ZXzRRakpEMWJzUDlTVVNVQThxRmZkNzVEUGEzWWFyRXVoSzBkRUIwNHVnZVltV0FzWkJPbS1IQ09PUU1rbFFqMC03MUpQTVhJbU1WalluMWV6b3o1RU5zV1poRkNDMHhLOTdocEZjVkNPdl9uNzNLdXp6c0p0andqbjlfTzRoR2xhYmFiLTgwMXdza1B6U2VRSFdlTUI4WldjT3owNkx5WjdtblJLRW5JMjBwdGIyaW1INWRsU1VtWHJsTjJvX09qSXEzMTktbW9QWDc3UFd1TmwtbmY2UWhETC1KYlN3V0l4cWpQZGVZVTQ2blAyZkpXT2ZfUFgxc0JNWWEwRGw5NnRYd0J0Z2s4NlMxNnYyU2tIMUNyX1gtV1FmU2NtSjlsQjRDdEl3WlNfYVIwZUU4SWFPdUpRRFkwUW5Bc014ejVXT3pPd3BMTmQ0TGFMMFFCcFplSXhqUVFlSlEyZmY0c1Bub0V3RFhSZEtReW5hMi1PNHcxMUVwd3RDMnpqTGg2RXRLM0xOSkRDTVd2ejU2Y2dsZFhJZTA3dlI5Y1Fv?oc=5",
+        "title": "চোয়ালের সুরক্ষায় কার্বন ফাইবারের মাস্ক পরে অনুশীলনে মার্তিনেজ",
+        "link": "https://news.google.com/rss/articles/CBMi7wVBVV95cUxOSUNxWEVjbHI4Q0hxZk40bDNUeVZOTkM4YmlraHZLMTJLQ2hBQWtFX1BkU2R5WmtmVFJrUnR5enJ4UHBiVGhJa25jQWdnRkJUX21qMnZkd1N4VW55Q3htNjdIb2dJOTBUZXN6d0JOMG5TbGVZVWRPUGkwbm55cGkwOFM5M2s4Q05IYjhJRHJ5VHNmd201RE5ZT2tBWkxnRWxSenFPaGttam9fZGJnenJSR1B2TmFITDlSNndsQlF1Vzd4d3ZUS3FwSWp3ZmxNSmdWdW03VGxrR25rOVBMa1hsczFjcGJrQTVlNXRnaUlIWTFfb2ltbGI1UUp5ZTBhUklSbng5U3VwcHZNNmczbEdZUUNMVFFlX2xfTmpRaDJkVnYtZ2NTM2lWQ1EwLWJOWlJiZXJtWlJqeEFCOW9zVjhoYVlzTjhzQjhrY2RCYzdMMV9ZXzRRakpEMWJzUDlTVVNVQThxRmZkNzVEUGEzWWFyRXVoSzBkRUIwNHVnZVltV0FzWkJPbS1IQ09PUU1rbFFqMC03MUpQTVhJbU1WalluMWV6b3o1RU5zV1poRkNDMHhLOTdocEZjVkNPdl9uNzNLdXp6c0p0andqbjlfTzRoR2xhYmFiLTgwMXdza1B6U2VRSFdlTUI4WldjT3owNkx5WjdtblJLRW5JMjBwdGIyaW1INWRsU1VtWHJsTjJvX09qSXEzMTktbW9QWDc3UFd1TmwtbmY2UWhETC1KYlN3V0l4cWpQZGVZVTQ2blAyZkpXT2ZfUFgxc0JNWWEwRGw5NnRYd0J0Z2s4NlMxNnYyU2tIMUNyX1gtV1FmU2NtSjlsQjRDdEl3WlNfYVIwZUU4SWFPdUpRRFkwUW5Bc014ejVXT3pPd3BMTmQ0TGFMMFFCcFplSXhqUVFlSlEyZmY0c1Bub0V3RFhSZEtReW5hMi1PNHcxMUVwd3RDMnpqTGg2RXRLM0xOSkRDTVd2ejU2Y2dsZFhJZTA3dlI5Y1Fv?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 18:08:00 GMT",
+        "summary": "চোয়ালের সুরক্ষায় কার্বন ফাইবারের মাস্ক পরে অনুশীলনে মার্তিনেজ &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/1-1793902081.jpg",
+        "articleUrl": "https://www.channel24bd.tv/sports/article/357128/%E0%A6%9A%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%81%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A7%9F-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%A8-%E0%A6%AB%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%95-%E0%A6%AA%E0%A6%B0%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B6%E0%A7%80%E0%A6%B2%E0%A6%A8%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%9C",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ]
   },
   "categories": {
     "bangladesh": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMigwZBVV95cUxORno2V3VkUHowdkQ0akVNWGVHTnhncmNhSkQ2dWx0TTlseUM5cGIwYmt6LVJ2bVh0ckVkZmxadTBFSjJLVWFNZEJZbDZoV0xwY010bXRQWXBUNTJMbWFlSWdWdzJZRzA1d1hoWDV5TXJhVDFLcjBsN0xXZ2l6LUhUa1dOUndOVGxxNldMUVpqUmlBQ09rN29Yb1NjUlZpYXllb0NxR05Qai1TOW5qOTFyY2RJa1hROGtOUmZnMGRScUMxRWg1UmJEWGFQTW1pY2RXUlJSZlNfWUlYYzA4NV85MzRjenNMZ0dOa2x5Q3hQZzhtbEdUcDBQWnhkNV9wWU5FYlo0aFhGbE5XdGtfNTVnR0FpYjJSeFVkdzR6b0hNemZyWWNCdTlqYWlsRG5XaUVhVk9FWEdPWFkwd0RESGtoNW9iUENia3NNMWNNUkwxNnMxWGdwQzhSQ0U1QUE5Q09tN0kyMFl0Vy1meHF4NkFmcUNiMlZYN0Jsc1UwdVBKbm9GVlNVbmR2T2tiOXl5eW9JNW1IdVktWU1SZ2EwX0hCLTFTSno5QmlOUHZDNE1vS0ptTDdNNTFubFhVSUI2VWJhTzZ6RnM3YXhCWVpNV2JsTUZMY0ExRXpiT0lod0RtY1E3LWx0eEVxQmpyYUpiWXNzQ0ZKYXc3bFZRNXZ6YmlHejBEMUlaWEF6UU9jU2xtZERrRUxrT003bHl2MWVVeHdZTHNXRGJ6LTlIYnFvdkZQU3B0cnFhNUV3dVJqM29fMmoySWhSQWh3QXhTSllwdnZBdlNJUm1HYURlbFpMSEo0T0N2QjFPZUNBZUJJdVAwekRZUmxTcU81OGVCcklOOGRwQmhPZDFqakxkNTFmQzNsZm04Sk13LTA3OUcyV0R5RUp1MTRKMTZpM3hHb05VT09DODJEVy1HcWJDMU1RNmdGS3d5ZzQzVTRrRkF2YmNiUVg0ajhKcXNrY1Y0VUVnZHpnUjFrU3kxZVRHcEhzWGtpV0VuNkY3blhXSnRfS2tqU0FyT00?oc=5",
+        "title": "৭ নভেম্বর বাংলাদেশের শত্রু-মিত্র চিহ্নিত করার দিন: প্রধানমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMigwZBVV95cUxORno2V3VkUHowdkQ0akVNWGVHTnhncmNhSkQ2dWx0TTlseUM5cGIwYmt6LVJ2bVh0ckVkZmxadTBFSjJLVWFNZEJZbDZoV0xwY010bXRQWXBUNTJMbWFlSWdWdzJZRzA1d1hoWDV5TXJhVDFLcjBsN0xXZ2l6LUhUa1dOUndOVGxxNldMUVpqUmlBQ09rN29Yb1NjUlZpYXllb0NxR05Qai1TOW5qOTFyY2RJa1hROGtOUmZnMGRScUMxRWg1UmJEWGFQTW1pY2RXUlJSZlNfWUlYYzA4NV85MzRjenNMZ0dOa2x5Q3hQZzhtbEdUcDBQWnhkNV9wWU5FYlo0aFhGbE5XdGtfNTVnR0FpYjJSeFVkdzR6b0hNemZyWWNCdTlqYWlsRG5XaUVhVk9FWEdPWFkwd0RESGtoNW9iUENia3NNMWNNUkwxNnMxWGdwQzhSQ0U1QUE5Q09tN0kyMFl0Vy1meHF4NkFmcUNiMlZYN0Jsc1UwdVBKbm9GVlNVbmR2T2tiOXl5eW9JNW1IdVktWU1SZ2EwX0hCLTFTSno5QmlOUHZDNE1vS0ptTDdNNTFubFhVSUI2VWJhTzZ6RnM3YXhCWVpNV2JsTUZMY0ExRXpiT0lod0RtY1E3LWx0eEVxQmpyYUpiWXNzQ0ZKYXc3bFZRNXZ6YmlHejBEMUlaWEF6UU9jU2xtZERrRUxrT003bHl2MWVVeHdZTHNXRGJ6LTlIYnFvdkZQU3B0cnFhNUV3dVJqM29fMmoySWhSQWh3QXhTSllwdnZBdlNJUm1HYURlbFpMSEo0T0N2QjFPZUNBZUJJdVAwekRZUmxTcU81OGVCcklOOGRwQmhPZDFqakxkNTFmQzNsZm04Sk13LTA3OUcyV0R5RUp1MTRKMTZpM3hHb05VT09DODJEVy1HcWJDMU1RNmdGS3d5ZzQzVTRrRkF2YmNiUVg0ajhKcXNrY1Y0VUVnZHpnUjFrU3kxZVRHcEhzWGtpV0VuNkY3blhXSnRfS2tqU0FyT00?oc=5",
+        "source": "Bahanno News",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 08:20:00 GMT",
+        "summary": "৭ নভেম্বর বাংলাদেশের শত্রু-মিত্র চিহ্নিত করার দিন: প্রধানমন্ত্রী &nbsp;&nbsp; Bahanno News",
+        "image": "https://www.bahannonews.com/uploads/d32a2ed1d140565369bd07dd1ad9abe3.jpg?fb=1",
+        "articleUrl": "https://www.bahannonews.com/details/article/10222795/%E0%A7%AD-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%81-%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%9A%E0%A6%BF%E0%A6%B9%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
       {
         "id": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa0xDbTZYZkRxTzFKRlBtQUhUMUhoOE5waHRieXJKNU1NbnM3TTh6QzU2bFdkLWRyczQ4Z3VIUTE0U2ZJVTdfMnF6c2ZhbEVWbl9TdWF5NkF2aFdDUk9CQUNQSXIxdFFyMGtOUlJHWGR5SmljcG9DdW9vTU05T1NYNW4tTHFqRlpLeTJCYkhROU51bmpWYV83bW5WVWUtTFFoRHdEXzFGVklBalJIb2fSAbMBQVVfeXFMUF9qeWw2bmlzX1RaVEFOSEZ0aFlqeW1PZC1ZY2hhR0FiaXFWV3NTUjZkTzZta093aTd1MHloMXNadkliMGFLU1hkNWJTbGp4eHB1NnN5bjNJaTBJUFFXUDdwX0ktWVFsSXFMVXVRMjNiRDZCcnpMTXpDUFkzOS1fWUlaS3RveTAxcGtaQlNHdUNGa2U1WlRtRTVUMk9FbXNYSjZNbTNtT05tUEZVclRLNG1oYzQ?oc=5",
         "title": "Bangladesh News : ফের অশান্ত বাংলাদেশ, পথে নামলেন লাখ লাখ শ্রমিক, পুলিশ আটকাতেই বাড়ল প্রতিবাদ",
@@ -692,19 +692,6 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdWlKWGhJNXFhSU9BaGdDa0FLNWttNU5hSXFkSkcwQjVZT1FsekdRbHMza3B6dmRlaU5naGxnM3JWMUZzdDU3R3ZoUW5rSlN3Q0RzTTFFcXhoa1FNU1hVR3ZkekZlTndOcUwyeTlrWDg3bjNibTRTZTNWUWJKRDBhQ3R4WG1BTzFRbHhNc1BDQmN3QXZQa0hXM3lvaDJETjJQZVUxOWtJZlIzSzdDUWxrOHY3VEJMVksxMWI0d1lBUXFNU1hTZVNNSVBJMnllVGVxQ0RXRGFmV3JXMGpzaTJfeVQwZm7SAfIBQVVfeXFMT1RIQXpSQ0RBQkFNdU05d0tRQ1lYMnJBeXZMeDgxZFE0UXg4bGhXOGd2UTRtR196VnFmb3VXTnQzTjFPMDc2ZGRnaXZIWUdLWXRuS3VPQmhpNUZkcnRlRWlkMjRJcUI1UEtaMkRGdmlwWlVoNlN3dFVSaVNRSHVoM0pIZVg0NzBjOGE2Unk1SWdKcDZIbW4wSHhXLWxFMVhnWTBkU19xQ283MFFXVjI2QjZyUnRMQndxdkJNTFRKUkNRdDNjWHJsRWVnckRORUg5VDBIX0ZMaU1kWlYxWWV0QllZWWIxOENBMW9xTjZZY2dBR0E?oc=5",
-        "title": "কাশ্মীরে ধৃত ৬০০ বাংলাদেশি, কুশমন্ডিতেও গ্রেপ্তার ২৫ জন",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdWlKWGhJNXFhSU9BaGdDa0FLNWttNU5hSXFkSkcwQjVZT1FsekdRbHMza3B6dmRlaU5naGxnM3JWMUZzdDU3R3ZoUW5rSlN3Q0RzTTFFcXhoa1FNU1hVR3ZkekZlTndOcUwyeTlrWDg3bjNibTRTZTNWUWJKRDBhQ3R4WG1BTzFRbHhNc1BDQmN3QXZQa0hXM3lvaDJETjJQZVUxOWtJZlIzSzdDUWxrOHY3VEJMVksxMWI0d1lBUXFNU1hTZVNNSVBJMnllVGVxQ0RXRGFmV3JXMGpzaTJfeVQwZm7SAfIBQVVfeXFMT1RIQXpSQ0RBQkFNdU05d0tRQ1lYMnJBeXZMeDgxZFE0UXg4bGhXOGd2UTRtR196VnFmb3VXTnQzTjFPMDc2ZGRnaXZIWUdLWXRuS3VPQmhpNUZkcnRlRWlkMjRJcUI1UEtaMkRGdmlwWlVoNlN3dFVSaVNRSHVoM0pIZVg0NzBjOGE2Unk1SWdKcDZIbW4wSHhXLWxFMVhnWTBkU19xQ283MFFXVjI2QjZyUnRMQndxdkJNTFRKUkNRdDNjWHJsRWVnckRORUg5VDBIX0ZMaU1kWlYxWWV0QllZWWIxOENBMW9xTjZZY2dBR0E?oc=5",
-        "source": "Ei Samay",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-        "summary": "কাশ্মীরে ধৃত ৬০০ বাংলাদেশি, কুশমন্ডিতেও গ্রেপ্তার ২৫ জন &nbsp;&nbsp; Ei Samay",
-        "image": "https://cf-images.assettype.com/eisamay%2F2026-10-07%2Fj9078ugw%2F20081.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-        "articleUrl": "https://eisamay.com/bangladesh-news/600-bangladeshis-arrested-in-kashmir-25-also-detained-in-kushmandi-allegation-illegally-cross-border/200552160.cms",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLXh3T2FUYy03NHJ4WFpkTERsM3hMWEpnSk1MM2EwR3d3RTlCVEsxZDBjS1dfNFowaTFpOFhNWGZGdHV4dEJ1Y2lvNkdnN3VPTG1mWUhweXIzQVVpQ3BoS3V3bGo5c0V1OGJVMW9hZ1hibVpWOGRORy14RDFzVl9rZEQ0RzFZVzNuM0MyOVJrdGFJODhHVTVqTm9YUXd5dFN1Sm5YMjYwcHdRd0tNWlhwUEFXRnViQ2VxeFlJb3NfeWvSAcYBQVVfeXFMT0s3THA4LVNScnFCVDJCcTQ2UmVhaFNneGhoNmZhNXBMUTNoTS1kSmpzS1puOGo2QVlXYUpDZFliSk41eVJOMy1Vc1RQb3ZoRGVXUGhBU0p1LVFZWHdOYXpjU1UxbjRiamNGS1RxZFhaSkNfS1RCRWUzV1F4OUQ0ZkQzQ3NyUHZTRFJBRFNiSHJTUFVwTUhFdFBpTWhMekc4SVk1Rmd6Y2pxSUp1cEZYVlE0a09LUF9VZlNJd1pEX3hhRjNTSnRR?oc=5",
         "title": "Bangladesh News: ভারত, আমেরিকা, না চিন, কাকে বেশি গুরুত্ব? বাংলাদেশ বলল, ‘এটা বউ আর সতীনের",
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLXh3T2FUYy03NHJ4WFpkTERsM3hMWEpnSk1MM2EwR3d3RTlCVEsxZDBjS1dfNFowaTFpOFhNWGZGdHV4dEJ1Y2lvNkdnN3VPTG1mWUhweXIzQVVpQ3BoS3V3bGo5c0V1OGJVMW9hZ1hibVpWOGRORy14RDFzVl9rZEQ0RzFZVzNuM0MyOVJrdGFJODhHVTVqTm9YUXd5dFN1Sm5YMjYwcHdRd0tNWlhwUEFXRnViQ2VxeFlJb3NfeWvSAcYBQVVfeXFMT0s3THA4LVNScnFCVDJCcTQ2UmVhaFNneGhoNmZhNXBMUTNoTS1kSmpzS1puOGo2QVlXYUpDZFliSk41eVJOMy1Vc1RQb3ZoRGVXUGhBU0p1LVFZWHdOYXpjU1UxbjRiamNGS1RxZFhaSkNfS1RCRWUzV1F4OUQ0ZkQzQ3NyUHZTRFJBRFNiSHJTUFVwTUhFdFBpTWhMekc4SVk1Rmd6Y2pxSUp1cEZYVlE0a09LUF9VZlNJd1pEX3hhRjNTSnRR?oc=5",
@@ -729,138 +716,6 @@
         "articleUrl": "https://www.bbc.com/bengali/articles/c6d08xedzjm4o",
         "imageAttemptedAt": "2026-11-07T06:14:38.376Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
-      }
-    ],
-    "food": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PdTB6aWJaYmpwTllXQ2NMSlB4NVFEWmFHdGVWUmw2dkcxcTQyYW9hblNXLW1Kcl8xNl9zMVQ0T1RQbTRKZmgwRlNaU0FjQnZ0YjhvX2t0YzY1ZWVy0gFqQVVfeXFMUEZYYlRZSmRDMTlrTWowdkx1c255TGg5dmxlT2QyTjltZWFMRlduRjZWWFlVaV9jX2xyWjBlOW1xNTdnMnF2LURaZ3NBOHBxenNlTVBmQk4ycHluVUZqS1lxSVQyUGwtbGtUUQ?oc=5",
-        "title": "অ্যালুমিনিয়ামের রান্নার পাত্র থেকে বিষাক্ত সিসা ঢুকছে ভাত–খিচুড়িতে, মান দেখবে কে",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PdTB6aWJaYmpwTllXQ2NMSlB4NVFEWmFHdGVWUmw2dkcxcTQyYW9hblNXLW1Kcl8xNl9zMVQ0T1RQbTRKZmgwRlNaU0FjQnZ0YjhvX2t0YzY1ZWVy0gFqQVVfeXFMUEZYYlRZSmRDMTlrTWowdkx1c255TGg5dmxlT2QyTjltZWFMRlduRjZWWFlVaV9jX2xyWjBlOW1xNTdnMnF2LURaZ3NBOHBxenNlTVBmQk4ycHluVUZqS1lxSVQyUGwtbGtUUQ?oc=5",
-        "source": "প্রথম আলো",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 05:26:59 GMT",
-        "summary": "অ্যালুমিনিয়ামের রান্নার পাত্র থেকে বিষাক্ত সিসা ঢুকছে ভাত–খিচুড়িতে, মান দেখবে কে &nbsp;&nbsp; প্রথম আলো",
-        "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-06%2F7yq54rj7%2FUntitled-1.jpg?rect=0%2C138%2C1344%2C756&w=1200&ar=16%3A9&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
-        "articleUrl": "https://www.prothomalo.com/bangladesh/usc0l03ho7",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMivAVBVV95cUxQSjhIQklqUmMxRzRqZ0F3ZXFZallXVy1zd01OUWZHQWtNamh4VDJjTU54RTVTSzN2UEZaYjE2cEZ0M0JEV2VIRGoySEkwUkZoTTlJdEthck1WMkttTGtPSm9vMl90YjFPTm05eUk4cklob3hNNE03eUpvTEtIdGpKVVVhSm5iZEwtZThCM19EZEtRcVpiTWowdmdfTEY3MmxFNTFaZFdjU1c5U3BGVUdKWDdCYUJmTkxaR0szbDhib0oxclE3eUpKR0k2aGpLOC04Mm1RTGNtbmZsakZHeVFlNUtXWEhzZ1dRRENIaGYxRENjeWE1Z0dhTnBySWhmOVhqVFNZeC1icElrc0lGYUVPTzlwdGtMRFh1cTNxdnMyMVhMZ3FiVjF0LVVweHhUSWVfTzFSdDk3VGdlQXlsTnhHYzFOWmV6Y2E5T0lnNldObGhMYnRQa2pKXzVqZE5LdTJScU1DVkx5REl1OGdHZ1ExVEFLRm9zZWJkS1ZUaUotN0NwYmRQbzVzWVJXU0ZmblF0eEFjbzhieU9FUFFGWms2SUZxQUJiMFQ0WHVseV9ET000MWlucXNwNHhLNXBhbnVWRk5FWnRDWFZaS0tXNlN4a2ZCZHhVdUVmNUpvZ2JPRklaXzJ1NklwbG82cnhqTGNOWGNxWlFQampYb1JGQS1saERGSHh1VW1xeUJTX2k3S2VXS2JpXzFpVXRrZ2tPb1dKb2FSV1AxMzNqT3VNbGpXUnJnYUxGX3F1bDMzems1UmN3a2tPUER3Wk5hVUZjWV9uR0htU21xa0pIM0plMVlacVhIRERqS0N1VzFaWEV6UkJhM0syV0ZJcElRRW9NS2YtQWVYaWFJNjduODhTTHFBV09IY2d6eGtSMHRWdkFid0JVeXdteHBPVkpPX3M1T0FOdXlId2ZQZVZTUzRa?oc=5",
-        "title": "অ্যালুমিনিয়ামের হাঁড়ি-পাতিল থেকে খাবারে মিশছে বিষাক্ত সিসা",
-        "link": "https://news.google.com/rss/articles/CBMivAVBVV95cUxQSjhIQklqUmMxRzRqZ0F3ZXFZallXVy1zd01OUWZHQWtNamh4VDJjTU54RTVTSzN2UEZaYjE2cEZ0M0JEV2VIRGoySEkwUkZoTTlJdEthck1WMkttTGtPSm9vMl90YjFPTm05eUk4cklob3hNNE03eUpvTEtIdGpKVVVhSm5iZEwtZThCM19EZEtRcVpiTWowdmdfTEY3MmxFNTFaZFdjU1c5U3BGVUdKWDdCYUJmTkxaR0szbDhib0oxclE3eUpKR0k2aGpLOC04Mm1RTGNtbmZsakZHeVFlNUtXWEhzZ1dRRENIaGYxRENjeWE1Z0dhTnBySWhmOVhqVFNZeC1icElrc0lGYUVPTzlwdGtMRFh1cTNxdnMyMVhMZ3FiVjF0LVVweHhUSWVfTzFSdDk3VGdlQXlsTnhHYzFOWmV6Y2E5T0lnNldObGhMYnRQa2pKXzVqZE5LdTJScU1DVkx5REl1OGdHZ1ExVEFLRm9zZWJkS1ZUaUotN0NwYmRQbzVzWVJXU0ZmblF0eEFjbzhieU9FUFFGWms2SUZxQUJiMFQ0WHVseV9ET000MWlucXNwNHhLNXBhbnVWRk5FWnRDWFZaS0tXNlN4a2ZCZHhVdUVmNUpvZ2JPRklaXzJ1NklwbG82cnhqTGNOWGNxWlFQampYb1JGQS1saERGSHh1VW1xeUJTX2k3S2VXS2JpXzFpVXRrZ2tPb1dKb2FSV1AxMzNqT3VNbGpXUnJnYUxGX3F1bDMzems1UmN3a2tPUER3Wk5hVUZjWV9uR0htU21xa0pIM0plMVlacVhIRERqS0N1VzFaWEV6UkJhM0syV0ZJcElRRW9NS2YtQWVYaWFJNjduODhTTHFBV09IY2d6eGtSMHRWdkFid0JVeXdteHBPVkpPX3M1T0FOdXlId2ZQZVZTUzRa?oc=5",
-        "source": "medivoicebd.com",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 05:44:00 GMT",
-        "summary": "অ্যালুমিনিয়ামের হাঁড়ি-পাতিল থেকে খাবারে মিশছে বিষাক্ত সিসা &nbsp;&nbsp; medivoicebd.com",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://medivoicebd.com/article/36636/%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%81%E0%A7%9C%E0%A6%BF-%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%AE%E0%A6%BF%E0%A6%B6%E0%A6%9B%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%B7%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A6%BE",
-        "imageAttemptedAt": "2026-11-07T06:14:38.376Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxPZHN6bmU2TmVnRkVPUGlGVmhfdTJ1ekotYTBKNEFOZ25MT3p5WnNLbWZmN2RqamZoWWhIMVgtWFlGc3F2QUdJa3RiR3ZtQVhrTE9TYXB2T0xDNFZNM0lFOUF5MXo4bkVTOGpMS21VMU5qQzRnNENFbVFKOGRxU0d3bnU0WWgweXZtOXJ0dVlpZmhRZEpiRVBkQTVYVmFZVG9RNVppMlhhMnF0eHN4X21NR0lTTU8ybjQ2a0VUTEFVSVdvekFDQW5GVWhOeV9ydFhUZjE5LVRiVVE0cXo0R2JwWU1XV0xZTUVTR1ZWYktOMWRQOWh3Z2V5LXE0UzVvZlkzc05VQ3A2TFg2dlJhOUtlZzh0Q1phaHVQYTFKNHY4RTk0UzR3YlZRenZjX0cwTTFXLVByYnY1d2Vyc0EtWDB5SjJkY3dJZGFsUWJTZU1XN1piX21wUlZ0T0hERFRRMFozYzcyeDhSQXEzbnFMaDNQUXpKTUhuYmh5VENqdndHdHM2dmFtTVoxZjR2WlFMX2JxOFVlcHNMM2lRMU1pdFl3WDlNYnIxS1VpTUVlaV81aFNxbHNxRm02SnlEamx1WkpReUMwUkttbFNXR2hBQVFwU3Fhb0Qycmo3Vmo5MEJZNThRWUNZeHRNcUlpVktIS3duLVRIbkFaNVhhTUNQSmJCUG1CeHVUYjRGbXJEUzhWUVNZc3p1ZzMxbzNybl9VUEpFdzRmSTRGWVBZeGRLUGQzZG8yX215MWhEYWthWkxOOENLTVFlTHlSbmpBbmJZQWV1U00zTlA4QUxscC1md3VYWGhxNGRlXzVCY1lFeVc0YTRYQVQtTWdQRXdxblBzVFk?oc=5",
-        "title": "আদিবাসী খাদ্য ও শস্য মেলায় ঐতিহ্যবাহী খাবারের সমাহার",
-        "link": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxPZHN6bmU2TmVnRkVPUGlGVmhfdTJ1ekotYTBKNEFOZ25MT3p5WnNLbWZmN2RqamZoWWhIMVgtWFlGc3F2QUdJa3RiR3ZtQVhrTE9TYXB2T0xDNFZNM0lFOUF5MXo4bkVTOGpMS21VMU5qQzRnNENFbVFKOGRxU0d3bnU0WWgweXZtOXJ0dVlpZmhRZEpiRVBkQTVYVmFZVG9RNVppMlhhMnF0eHN4X21NR0lTTU8ybjQ2a0VUTEFVSVdvekFDQW5GVWhOeV9ydFhUZjE5LVRiVVE0cXo0R2JwWU1XV0xZTUVTR1ZWYktOMWRQOWh3Z2V5LXE0UzVvZlkzc05VQ3A2TFg2dlJhOUtlZzh0Q1phaHVQYTFKNHY4RTk0UzR3YlZRenZjX0cwTTFXLVByYnY1d2Vyc0EtWDB5SjJkY3dJZGFsUWJTZU1XN1piX21wUlZ0T0hERFRRMFozYzcyeDhSQXEzbnFMaDNQUXpKTUhuYmh5VENqdndHdHM2dmFtTVoxZjR2WlFMX2JxOFVlcHNMM2lRMU1pdFl3WDlNYnIxS1VpTUVlaV81aFNxbHNxRm02SnlEamx1WkpReUMwUkttbFNXR2hBQVFwU3Fhb0Qycmo3Vmo5MEJZNThRWUNZeHRNcUlpVktIS3duLVRIbkFaNVhhTUNQSmJCUG1CeHVUYjRGbXJEUzhWUVNZc3p1ZzMxbzNybl9VUEpFdzRmSTRGWVBZeGRLUGQzZG8yX215MWhEYWthWkxOOENLTVFlTHlSbmpBbmJZQWV1U00zTlA4QUxscC1md3VYWGhxNGRlXzVCY1lFeVc0YTRYQVQtTWdQRXdxblBzVFk?oc=5",
-        "source": "SAMAKAL",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 02:02:45 GMT",
-        "summary": "আদিবাসী খাদ্য ও শস্য মেলায় ঐতিহ্যবাহী খাবারের সমাহার &nbsp;&nbsp; SAMAKAL",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://samakal.com/bangladesh/article/381784/%E0%A6%86%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%93-%E0%A6%B6%E0%A6%B8%E0%A7%8D%E0%A6%AF-%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%90%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A7%80-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B0",
-        "imageAttemptedAt": "2026-11-07T02:41:52.103Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15OGZ2NFdQM2cxRXpWcUxpdzhrdDlkaTd3UWI2S3pneWdlYzRzQ250c0I4UkI1eXNsTlFpb21JdjBmbnlkVlFINzdQSXZHT3RSVmpsRzhRdW4wamlX0gFiQVVfeXFMT1ZMY0pZMGlMME1ZaHRmcTg1RHFhSWFqSTFZOUh6Rl9TV2s4Qk1ieWlhVnVCRzROSzFWZlBPdnpmNU9IT0IwMjI0VFRvNUswd0NKRTBGVnV4Y0xvWGQxbldtM1E?oc=5",
-        "title": "খাবার শেষে পড়ার দোয়া",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15OGZ2NFdQM2cxRXpWcUxpdzhrdDlkaTd3UWI2S3pneWdlYzRzQ250c0I4UkI1eXNsTlFpb21JdjBmbnlkVlFINzdQSXZHT3RSVmpsRzhRdW4wamlX0gFiQVVfeXFMT1ZMY0pZMGlMME1ZaHRmcTg1RHFhSWFqSTFZOUh6Rl9TV2s4Qk1ieWlhVnVCRzROSzFWZlBPdnpmNU9IT0IwMjI0VFRvNUswd0NKRTBGVnV4Y0xvWGQxbldtM1E?oc=5",
-        "source": "Ajker Patrika",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 08:00:02 GMT",
-        "summary": "খাবার শেষে পড়ার দোয়া &nbsp;&nbsp; Ajker Patrika",
-        "image": "https://images.ajkerpatrika.com/original_images/sunna-of-eating.jpg",
-        "articleUrl": "https://www.ajkerpatrika.com/islam/ajpr4donx2km3",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUDRZeEkxNF9MQmpHT3otVElDamJHdDlZaDltcDZ0LXRrY0dTSnVlSURIQ21IUnhENHpCN2h6dmM1MGN3NzVWbDdnVDQ1eUJmRzVyazFaRGhnQ1JOSEtSbWlJdEhtZmNSeER4czkxdS1lMnRfX3FScmxmTndJMFFUcVlrMWVJazJtZlppMmhGR19fYURRVXE3ZXRMb1RUTTFBYThfV0tVOWVtNk5ZQmJVMVJMblVWY2h3bjFDY3JvSDBhdmZ0UXlmU2lfS1A5U3JaWHNQNDdZT1hNXzlkVS1aMXRwbFp6ZDNScHduemNR?oc=5",
-        "title": "food safety-খাদ্য সুরক্ষা দপ্তরের অভিযানে ফ্রিজে বাসি পরোটা,মেয়াদ উত্তীর্ণ সস উদ্ধার",
-        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUDRZeEkxNF9MQmpHT3otVElDamJHdDlZaDltcDZ0LXRrY0dTSnVlSURIQ21IUnhENHpCN2h6dmM1MGN3NzVWbDdnVDQ1eUJmRzVyazFaRGhnQ1JOSEtSbWlJdEhtZmNSeER4czkxdS1lMnRfX3FScmxmTndJMFFUcVlrMWVJazJtZlppMmhGR19fYURRVXE3ZXRMb1RUTTFBYThfV0tVOWVtNk5ZQmJVMVJMblVWY2h3bjFDY3JvSDBhdmZ0UXlmU2lfS1A5U3JaWHNQNDdZT1hNXzlkVS1aMXRwbFp6ZDNScHduemNR?oc=5",
-        "source": "Ei Samay",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 05:30:35 GMT",
-        "summary": "food safety-খাদ্য সুরক্ষা দপ্তরের অভিযানে ফ্রিজে বাসি পরোটা,মেয়াদ উত্তীর্ণ সস উদ্ধার &nbsp;&nbsp; Ei Samay",
-        "image": "https://cf-images.assettype.com/eisamay%2F2026-11-07%2F6630mhdv%2Fimage20261107105359.webp?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-        "articleUrl": "https://eisamay.com/west-bengal-news/north-bengal-news/expired-roti-ketchup-and-many-more-thing-recorved-by-food-safety-department-in-balurghat/200563514.cms",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi4AdBVV95cUxOUDBMQUVxekpxd2twcVlZODlfZGRxcExSRE1SUzdqeG5jRWh6Zzc4LUg4b1VGRS1PMk5pTjZXVzYxQUdUaGR5VFZ3SnZwXy1MSWphZ0d5LVV3Y19nOWVNZXJjTW9sOUpHNllpNFRPWEowcVFXWFNoQWIzZllLY0R3YVlxLU1FV1o5VHdETXc3bUFpN1dMM0hLZnJ0WHpPQUNUR000dm1USDhrWjFjdkJod1lIT3R0azhiVEJxU3B4TTNhbnN1cXJpS0JPSW1zT0hfc3U3MFN6enhOa284cGljR0F5NmZOTEdseG1tdEJQWmFOS3p4U1BqajZQd0FwRXBjQk43ZWVtRHladmtlRWVHRjdSR2lQNEdpSUcyU0w2QVMwNnEtVTZZYXNHZ0taSnFfaGhYLXQ2N2pqUkpsRVdTUktmdW9TbDM4VFpuOXFyVTI1c3lCTVQzS0RXdHBYYkR6WFpPc3o3TFZCay1CRmp6WG42akNhdmJJbnBTWE5tLVVCbTNkc1lHZzZ5ZnFpVE1jTlBKSlNjZ29OaDdrWHFVTmdjNjQzdUlzaE5VcFlOLUtyS1lfVzY4bU94SV8tOXp6aW5IQlM0UUdTTDh3MnVURFdiQ0Q1S0JxaURwM2Y0N2tuN3RCY2k0bjRXVGxxV25LaVNLSlJncUJyZmlJdUdDUlhLc2NMT3hGb2xJaWtKYWx1SkxnNGxrdXJSZTBiNzJDVDlWbW1jdFdhNnNPaU9QMTgxV3VNMGJTeUs2dkhNSUhoSzNycG9kN2Jqd2poVnFPMlRzZ1NHUTNpVTJobGZoWDJnS1QyMm50aHl4b3FKTjNmckxVYkphRXMtZXRlNmpkTFZXdHBobFRZakE1X05QVDlmaWFoY1Fwd2d2Zi1Jd2hGMzdVQVZHbldMS2RoSGl3ZE9mcy1ZOFJTaENSVHBORXhMOVlIX25zSzRER2dENnJVZ3lBQUhPMDBqcG5zWUJnX0dZNGJBcVl5a01fTy1wQ0RSVW96bkJwUGdzSXhlVzlfaDBLWnlmQzI4WjFhalNlNkFMdXdxZUhDRHhsRkdOOERpT2hTRTBEekpzQXNaMUZxd1RVQWV3THprNUlIdGd2ZUFYTXl3MVl2REFjS28xVk5JTEZVNi1sUlVJZW9oVmdmYkhaRDloSkNEbGwxYUV1UTl0RUVjRnRYeV9nTXJOTEREMHNhbl9sT3hQeG05ZEpxbWU0MUJVaDZBT01HRnhSMWJRb2UzdDVSem85Vm9Nb1ZLd0tyS3FyWnlRQ1AwSUM2ZDU5WUs1M0ZhaEFmWFpGS0JNeEJFb3VIZjlWRTVOdQ?oc=5",
-        "title": "সিসার বিষে বিপন্ন জনস্বাস্থ্য, অ্যালুমিনিয়ামের রান্নার পাত্র নিয়ে চাঞ্চল্যকর গবেষণা",
-        "link": "https://news.google.com/rss/articles/CBMi4AdBVV95cUxOUDBMQUVxekpxd2twcVlZODlfZGRxcExSRE1SUzdqeG5jRWh6Zzc4LUg4b1VGRS1PMk5pTjZXVzYxQUdUaGR5VFZ3SnZwXy1MSWphZ0d5LVV3Y19nOWVNZXJjTW9sOUpHNllpNFRPWEowcVFXWFNoQWIzZllLY0R3YVlxLU1FV1o5VHdETXc3bUFpN1dMM0hLZnJ0WHpPQUNUR000dm1USDhrWjFjdkJod1lIT3R0azhiVEJxU3B4TTNhbnN1cXJpS0JPSW1zT0hfc3U3MFN6enhOa284cGljR0F5NmZOTEdseG1tdEJQWmFOS3p4U1BqajZQd0FwRXBjQk43ZWVtRHladmtlRWVHRjdSR2lQNEdpSUcyU0w2QVMwNnEtVTZZYXNHZ0taSnFfaGhYLXQ2N2pqUkpsRVdTUktmdW9TbDM4VFpuOXFyVTI1c3lCTVQzS0RXdHBYYkR6WFpPc3o3TFZCay1CRmp6WG42akNhdmJJbnBTWE5tLVVCbTNkc1lHZzZ5ZnFpVE1jTlBKSlNjZ29OaDdrWHFVTmdjNjQzdUlzaE5VcFlOLUtyS1lfVzY4bU94SV8tOXp6aW5IQlM0UUdTTDh3MnVURFdiQ0Q1S0JxaURwM2Y0N2tuN3RCY2k0bjRXVGxxV25LaVNLSlJncUJyZmlJdUdDUlhLc2NMT3hGb2xJaWtKYWx1SkxnNGxrdXJSZTBiNzJDVDlWbW1jdFdhNnNPaU9QMTgxV3VNMGJTeUs2dkhNSUhoSzNycG9kN2Jqd2poVnFPMlRzZ1NHUTNpVTJobGZoWDJnS1QyMm50aHl4b3FKTjNmckxVYkphRXMtZXRlNmpkTFZXdHBobFRZakE1X05QVDlmaWFoY1Fwd2d2Zi1Jd2hGMzdVQVZHbldMS2RoSGl3ZE9mcy1ZOFJTaENSVHBORXhMOVlIX25zSzRER2dENnJVZ3lBQUhPMDBqcG5zWUJnX0dZNGJBcVl5a01fTy1wQ0RSVW96bkJwUGdzSXhlVzlfaDBLWnlmQzI4WjFhalNlNkFMdXdxZUhDRHhsRkdOOERpT2hTRTBEekpzQXNaMUZxd1RVQWV3THprNUlIdGd2ZUFYTXl3MVl2REFjS28xVk5JTEZVNi1sUlVJZW9oVmdmYkhaRDloSkNEbGwxYUV1UTl0RUVjRnRYeV9nTXJOTEREMHNhbl9sT3hQeG05ZEpxbWU0MUJVaDZBT01HRnhSMWJRb2UzdDVSem85Vm9Nb1ZLd0tyS3FyWnlRQ1AwSUM2ZDU5WUs1M0ZhaEFmWFpGS0JNeEJFb3VIZjlWRTVOdQ?oc=5",
-        "source": "Dhaka Today",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 06:13:00 GMT",
-        "summary": "সিসার বিষে বিপন্ন জনস্বাস্থ্য, অ্যালুমিনিয়ামের রান্নার পাত্র নিয়ে চাঞ্চল্যকর গবেষণা &nbsp;&nbsp; Dhaka Today",
-        "image": "https://www.dhakatoday.com/imagestorages/2026-11/dhakatoday1794032448%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0%20%E0%A6%B9%E0%A6%BE%E0%A6%81%E0%A7%9C%E0%A6%BF%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2.jpg",
-        "articleUrl": "https://www.dhakatoday.com/news/93305/%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B7%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%AA%E0%A6%A8%E0%A7%8D%E0%A6%A8-%E0%A6%9C%E0%A6%A8%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF,-%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A6%B0-%E0%A6%97%E0%A6%AC%E0%A7%87%E0%A6%B7%E0%A6%A3%E0%A6%BE",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaMUlsY1ByMUdjWEhYdzFGeDJ1NFNIaFdkaVJqX0xocklSRkEyc1UyZXlrN0NrckhWTGJid1pfckJ4TFBsM2lIUmNHNDhPQVJMYjNrRF9lRk1BWjlYcWc?oc=5",
-        "title": "সেন্টমার্টিন যেতে জাহাজভাড়া ৪২০০ টাকা, হোটেল ও খাবার মিলিয়ে মোট খরচ কত?",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaMUlsY1ByMUdjWEhYdzFGeDJ1NFNIaFdkaVJqX0xocklSRkEyc1UyZXlrN0NrckhWTGJid1pfckJ4TFBsM2lIUmNHNDhPQVJMYjNrRF9lRk1BWjlYcWc?oc=5",
-        "source": "শেয়ার বিজ",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 05:53:00 GMT",
-        "summary": "সেন্টমার্টিন যেতে জাহাজভাড়া ৪২০০ টাকা, হোটেল ও খাবার মিলিয়ে মোট খরচ কত? &nbsp;&nbsp; শেয়ার বিজ",
-        "image": "https://www.sharebiz.net/media/imgAll/2026October/Images-10000-01-2611070553.png",
-        "articleUrl": "https://www.sharebiz.net/tour-travels/news/179854",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNalB4dkI5LVlRZkk1cEdnODdTRktZaVF0VUZaNHdRblNBa0JBbmo0M0NRWF82T1RTWU5rcGg4WlB0a2lLS3lxbTk5SnA0Y3lPMXVzM1Fuc2V1Zi1kdnB5YlRHTmhpNjF5MFNEWmVXdy1RWTBTaU1Va0tVOWs2azQzQnhsQVNJM2VNd2hGaDlwMmlNdC1FWVlnel9lcERwSG0ybTBfZDdTckVaMnJHTEF0UEJFOER6TV9NcVJEOGFUTWlZU2ZXbjRCTW9Cbk9ZZTNITkwzc09lck9wSm1rdFlvRlBkTHBIbHk1SEx1VkItdWhKdVlBR0JIVGJjQXp4VlV4SWJqQ3RaQm9OZElCYm51T3ZHZXRYQWhEOGdTNDNUMjVCT3IybWlvSVdxeFdKcmdON1NpMm1FVnA0akRuY2c?oc=5",
-        "title": "খাবারের অপচয় এড়াতে সচেতনতার বিকল্প নেই",
-        "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNalB4dkI5LVlRZkk1cEdnODdTRktZaVF0VUZaNHdRblNBa0JBbmo0M0NRWF82T1RTWU5rcGg4WlB0a2lLS3lxbTk5SnA0Y3lPMXVzM1Fuc2V1Zi1kdnB5YlRHTmhpNjF5MFNEWmVXdy1RWTBTaU1Va0tVOWs2azQzQnhsQVNJM2VNd2hGaDlwMmlNdC1FWVlnel9lcERwSG0ybTBfZDdTckVaMnJHTEF0UEJFOER6TV9NcVJEOGFUTWlZU2ZXbjRCTW9Cbk9ZZTNITkwzc09lck9wSm1rdFlvRlBkTHBIbHk1SEx1VkItdWhKdVlBR0JIVGJjQXp4VlV4SWJqQ3RaQm9OZElCYm51T3ZHZXRYQWhEOGdTNDNUMjVCT3IybWlvSVdxeFdKcmdON1NpMm1FVnA0akRuY2c?oc=5",
-        "source": "দৈনিক আজাদী",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 23:48:00 GMT",
-        "summary": "খাবারের অপচয় এড়াতে সচেতনতার বিকল্প নেই &nbsp;&nbsp; দৈনিক আজাদী",
-        "image": "https://dainikazadi.net/wp-content/uploads/2022/06/sompadona.jpg",
-        "articleUrl": "https://dainikazadi.net/%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AA%E0%A6%9A%E0%A7%9F-%E0%A6%8F%E0%A7%9C%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%B8%E0%A6%9A%E0%A7%87%E0%A6%A4%E0%A6%A8/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vZzVid2hLSlNSOGd2S3JENldJSkxOWTBvWGNqOXExWWxPNHNVaE93U01JZmNHSmx6djRYM1RQaU5kTlI4QTh2ZkZGWVQ0Q2k4MUU3ak9FUS1xVWtSWDJVSjFmaTNpbExQZDJGeTlfOEs?oc=5",
-        "title": "ক্ষুধা হ্রাসে অগ্রগতি, নিরাপদ খাদ্যের চ্যালেঞ্জে বাংলাদেশ",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vZzVid2hLSlNSOGd2S3JENldJSkxOWTBvWGNqOXExWWxPNHNVaE93U01JZmNHSmx6djRYM1RQaU5kTlI4QTh2ZkZGWVQ0Q2k4MUU3ak9FUS1xVWtSWDJVSjFmaTNpbExQZDJGeTlfOEs?oc=5",
-        "source": "bd-pratidin.com",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 06:32:50 GMT",
-        "summary": "ক্ষুধা হ্রাসে অগ্রগতি, নিরাপদ খাদ্যের চ্যালেঞ্জে বাংলাদেশ &nbsp;&nbsp; bd-pratidin.com",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.bd-pratidin.com/open-air-theater/2026/11/07/1322736",
-        "imageAttemptedAt": "2026-11-07T07:24:53.064Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjcEdrWmtIcTlkYVlhaVFZWkx2OWVwRE95QlU1aFVQX0VSNUxrblhvRUVxS2tIWXc5Z0VpU3RwZnBnNkV0RXBDVGNlZUphaG5yZWJsQjdNS3RQQQ?oc=5",
-        "title": "কোরিয়ায় আন্তর্জাতিক উৎসবে খাবার ক্যাটাগরিতে প্রথম বাংলাদেশ",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjcEdrWmtIcTlkYVlhaVFZWkx2OWVwRE95QlU1aFVQX0VSNUxrblhvRUVxS2tIWXc5Z0VpU3RwZnBnNkV0RXBDVGNlZUphaG5yZWJsQjdNS3RQQQ?oc=5",
-        "source": "bdnews24.com",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 19:29:00 GMT",
-        "summary": "কোরিয়ায় আন্তর্জাতিক উৎসবে খাবার ক্যাটাগরিতে প্রথম বাংলাদেশ &nbsp;&nbsp; bdnews24.com",
-        "image": "https://media.assettype.com/bdnews24/2026-11-06/ttrmesae/korea-071126-01.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=https%3A%2F%2Fmedia.assettype.com%2Fbdnews24%2F2026-06-27%2Fm5wwkbzf%2F1024-bdnews-1725269350-1730989838.jpg&overlay_position=bottom&overlay_width=100",
-        "articleUrl": "https://bangla.bdnews24.com/probash/ln516182nk",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
       }
     ],
     "international": [
@@ -994,17 +849,149 @@
         "imageAttemptedAt": "2026-11-07T03:29:30.683Z",
         "imageFallback": "news-fallbacks/world.svg"
       }
+    ],
+    "food": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PdTB6aWJaYmpwTllXQ2NMSlB4NVFEWmFHdGVWUmw2dkcxcTQyYW9hblNXLW1Kcl8xNl9zMVQ0T1RQbTRKZmgwRlNaU0FjQnZ0YjhvX2t0YzY1ZWVy0gFqQVVfeXFMUEZYYlRZSmRDMTlrTWowdkx1c255TGg5dmxlT2QyTjltZWFMRlduRjZWWFlVaV9jX2xyWjBlOW1xNTdnMnF2LURaZ3NBOHBxenNlTVBmQk4ycHluVUZqS1lxSVQyUGwtbGtUUQ?oc=5",
+        "title": "অ্যালুমিনিয়ামের রান্নার পাত্র থেকে বিষাক্ত সিসা ঢুকছে ভাত–খিচুড়িতে, মান দেখবে কে",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PdTB6aWJaYmpwTllXQ2NMSlB4NVFEWmFHdGVWUmw2dkcxcTQyYW9hblNXLW1Kcl8xNl9zMVQ0T1RQbTRKZmgwRlNaU0FjQnZ0YjhvX2t0YzY1ZWVy0gFqQVVfeXFMUEZYYlRZSmRDMTlrTWowdkx1c255TGg5dmxlT2QyTjltZWFMRlduRjZWWFlVaV9jX2xyWjBlOW1xNTdnMnF2LURaZ3NBOHBxenNlTVBmQk4ycHluVUZqS1lxSVQyUGwtbGtUUQ?oc=5",
+        "source": "প্রথম আলো",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 05:26:59 GMT",
+        "summary": "অ্যালুমিনিয়ামের রান্নার পাত্র থেকে বিষাক্ত সিসা ঢুকছে ভাত–খিচুড়িতে, মান দেখবে কে &nbsp;&nbsp; প্রথম আলো",
+        "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-06%2F7yq54rj7%2FUntitled-1.jpg?rect=0%2C138%2C1344%2C756&w=1200&ar=16%3A9&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+        "articleUrl": "https://www.prothomalo.com/bangladesh/usc0l03ho7",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMivAVBVV95cUxQSjhIQklqUmMxRzRqZ0F3ZXFZallXVy1zd01OUWZHQWtNamh4VDJjTU54RTVTSzN2UEZaYjE2cEZ0M0JEV2VIRGoySEkwUkZoTTlJdEthck1WMkttTGtPSm9vMl90YjFPTm05eUk4cklob3hNNE03eUpvTEtIdGpKVVVhSm5iZEwtZThCM19EZEtRcVpiTWowdmdfTEY3MmxFNTFaZFdjU1c5U3BGVUdKWDdCYUJmTkxaR0szbDhib0oxclE3eUpKR0k2aGpLOC04Mm1RTGNtbmZsakZHeVFlNUtXWEhzZ1dRRENIaGYxRENjeWE1Z0dhTnBySWhmOVhqVFNZeC1icElrc0lGYUVPTzlwdGtMRFh1cTNxdnMyMVhMZ3FiVjF0LVVweHhUSWVfTzFSdDk3VGdlQXlsTnhHYzFOWmV6Y2E5T0lnNldObGhMYnRQa2pKXzVqZE5LdTJScU1DVkx5REl1OGdHZ1ExVEFLRm9zZWJkS1ZUaUotN0NwYmRQbzVzWVJXU0ZmblF0eEFjbzhieU9FUFFGWms2SUZxQUJiMFQ0WHVseV9ET000MWlucXNwNHhLNXBhbnVWRk5FWnRDWFZaS0tXNlN4a2ZCZHhVdUVmNUpvZ2JPRklaXzJ1NklwbG82cnhqTGNOWGNxWlFQampYb1JGQS1saERGSHh1VW1xeUJTX2k3S2VXS2JpXzFpVXRrZ2tPb1dKb2FSV1AxMzNqT3VNbGpXUnJnYUxGX3F1bDMzems1UmN3a2tPUER3Wk5hVUZjWV9uR0htU21xa0pIM0plMVlacVhIRERqS0N1VzFaWEV6UkJhM0syV0ZJcElRRW9NS2YtQWVYaWFJNjduODhTTHFBV09IY2d6eGtSMHRWdkFid0JVeXdteHBPVkpPX3M1T0FOdXlId2ZQZVZTUzRa?oc=5",
+        "title": "অ্যালুমিনিয়ামের হাঁড়ি-পাতিল থেকে খাবারে মিশছে বিষাক্ত সিসা",
+        "link": "https://news.google.com/rss/articles/CBMivAVBVV95cUxQSjhIQklqUmMxRzRqZ0F3ZXFZallXVy1zd01OUWZHQWtNamh4VDJjTU54RTVTSzN2UEZaYjE2cEZ0M0JEV2VIRGoySEkwUkZoTTlJdEthck1WMkttTGtPSm9vMl90YjFPTm05eUk4cklob3hNNE03eUpvTEtIdGpKVVVhSm5iZEwtZThCM19EZEtRcVpiTWowdmdfTEY3MmxFNTFaZFdjU1c5U3BGVUdKWDdCYUJmTkxaR0szbDhib0oxclE3eUpKR0k2aGpLOC04Mm1RTGNtbmZsakZHeVFlNUtXWEhzZ1dRRENIaGYxRENjeWE1Z0dhTnBySWhmOVhqVFNZeC1icElrc0lGYUVPTzlwdGtMRFh1cTNxdnMyMVhMZ3FiVjF0LVVweHhUSWVfTzFSdDk3VGdlQXlsTnhHYzFOWmV6Y2E5T0lnNldObGhMYnRQa2pKXzVqZE5LdTJScU1DVkx5REl1OGdHZ1ExVEFLRm9zZWJkS1ZUaUotN0NwYmRQbzVzWVJXU0ZmblF0eEFjbzhieU9FUFFGWms2SUZxQUJiMFQ0WHVseV9ET000MWlucXNwNHhLNXBhbnVWRk5FWnRDWFZaS0tXNlN4a2ZCZHhVdUVmNUpvZ2JPRklaXzJ1NklwbG82cnhqTGNOWGNxWlFQampYb1JGQS1saERGSHh1VW1xeUJTX2k3S2VXS2JpXzFpVXRrZ2tPb1dKb2FSV1AxMzNqT3VNbGpXUnJnYUxGX3F1bDMzems1UmN3a2tPUER3Wk5hVUZjWV9uR0htU21xa0pIM0plMVlacVhIRERqS0N1VzFaWEV6UkJhM0syV0ZJcElRRW9NS2YtQWVYaWFJNjduODhTTHFBV09IY2d6eGtSMHRWdkFid0JVeXdteHBPVkpPX3M1T0FOdXlId2ZQZVZTUzRa?oc=5",
+        "source": "medivoicebd.com",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 05:44:00 GMT",
+        "summary": "অ্যালুমিনিয়ামের হাঁড়ি-পাতিল থেকে খাবারে মিশছে বিষাক্ত সিসা &nbsp;&nbsp; medivoicebd.com",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://medivoicebd.com/article/36636/%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%81%E0%A7%9C%E0%A6%BF-%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%AE%E0%A6%BF%E0%A6%B6%E0%A6%9B%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%B7%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A6%BE",
+        "imageAttemptedAt": "2026-11-07T06:14:38.376Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxPZHN6bmU2TmVnRkVPUGlGVmhfdTJ1ekotYTBKNEFOZ25MT3p5WnNLbWZmN2RqamZoWWhIMVgtWFlGc3F2QUdJa3RiR3ZtQVhrTE9TYXB2T0xDNFZNM0lFOUF5MXo4bkVTOGpMS21VMU5qQzRnNENFbVFKOGRxU0d3bnU0WWgweXZtOXJ0dVlpZmhRZEpiRVBkQTVYVmFZVG9RNVppMlhhMnF0eHN4X21NR0lTTU8ybjQ2a0VUTEFVSVdvekFDQW5GVWhOeV9ydFhUZjE5LVRiVVE0cXo0R2JwWU1XV0xZTUVTR1ZWYktOMWRQOWh3Z2V5LXE0UzVvZlkzc05VQ3A2TFg2dlJhOUtlZzh0Q1phaHVQYTFKNHY4RTk0UzR3YlZRenZjX0cwTTFXLVByYnY1d2Vyc0EtWDB5SjJkY3dJZGFsUWJTZU1XN1piX21wUlZ0T0hERFRRMFozYzcyeDhSQXEzbnFMaDNQUXpKTUhuYmh5VENqdndHdHM2dmFtTVoxZjR2WlFMX2JxOFVlcHNMM2lRMU1pdFl3WDlNYnIxS1VpTUVlaV81aFNxbHNxRm02SnlEamx1WkpReUMwUkttbFNXR2hBQVFwU3Fhb0Qycmo3Vmo5MEJZNThRWUNZeHRNcUlpVktIS3duLVRIbkFaNVhhTUNQSmJCUG1CeHVUYjRGbXJEUzhWUVNZc3p1ZzMxbzNybl9VUEpFdzRmSTRGWVBZeGRLUGQzZG8yX215MWhEYWthWkxOOENLTVFlTHlSbmpBbmJZQWV1U00zTlA4QUxscC1md3VYWGhxNGRlXzVCY1lFeVc0YTRYQVQtTWdQRXdxblBzVFk?oc=5",
+        "title": "আদিবাসী খাদ্য ও শস্য মেলায় ঐতিহ্যবাহী খাবারের সমাহার",
+        "link": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxPZHN6bmU2TmVnRkVPUGlGVmhfdTJ1ekotYTBKNEFOZ25MT3p5WnNLbWZmN2RqamZoWWhIMVgtWFlGc3F2QUdJa3RiR3ZtQVhrTE9TYXB2T0xDNFZNM0lFOUF5MXo4bkVTOGpMS21VMU5qQzRnNENFbVFKOGRxU0d3bnU0WWgweXZtOXJ0dVlpZmhRZEpiRVBkQTVYVmFZVG9RNVppMlhhMnF0eHN4X21NR0lTTU8ybjQ2a0VUTEFVSVdvekFDQW5GVWhOeV9ydFhUZjE5LVRiVVE0cXo0R2JwWU1XV0xZTUVTR1ZWYktOMWRQOWh3Z2V5LXE0UzVvZlkzc05VQ3A2TFg2dlJhOUtlZzh0Q1phaHVQYTFKNHY4RTk0UzR3YlZRenZjX0cwTTFXLVByYnY1d2Vyc0EtWDB5SjJkY3dJZGFsUWJTZU1XN1piX21wUlZ0T0hERFRRMFozYzcyeDhSQXEzbnFMaDNQUXpKTUhuYmh5VENqdndHdHM2dmFtTVoxZjR2WlFMX2JxOFVlcHNMM2lRMU1pdFl3WDlNYnIxS1VpTUVlaV81aFNxbHNxRm02SnlEamx1WkpReUMwUkttbFNXR2hBQVFwU3Fhb0Qycmo3Vmo5MEJZNThRWUNZeHRNcUlpVktIS3duLVRIbkFaNVhhTUNQSmJCUG1CeHVUYjRGbXJEUzhWUVNZc3p1ZzMxbzNybl9VUEpFdzRmSTRGWVBZeGRLUGQzZG8yX215MWhEYWthWkxOOENLTVFlTHlSbmpBbmJZQWV1U00zTlA4QUxscC1md3VYWGhxNGRlXzVCY1lFeVc0YTRYQVQtTWdQRXdxblBzVFk?oc=5",
+        "source": "SAMAKAL",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 02:02:45 GMT",
+        "summary": "আদিবাসী খাদ্য ও শস্য মেলায় ঐতিহ্যবাহী খাবারের সমাহার &nbsp;&nbsp; SAMAKAL",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://samakal.com/bangladesh/article/381784/%E0%A6%86%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%93-%E0%A6%B6%E0%A6%B8%E0%A7%8D%E0%A6%AF-%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%90%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A7%80-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B0",
+        "imageAttemptedAt": "2026-11-07T02:41:52.103Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15OGZ2NFdQM2cxRXpWcUxpdzhrdDlkaTd3UWI2S3pneWdlYzRzQ250c0I4UkI1eXNsTlFpb21JdjBmbnlkVlFINzdQSXZHT3RSVmpsRzhRdW4wamlX0gFiQVVfeXFMT1ZMY0pZMGlMME1ZaHRmcTg1RHFhSWFqSTFZOUh6Rl9TV2s4Qk1ieWlhVnVCRzROSzFWZlBPdnpmNU9IT0IwMjI0VFRvNUswd0NKRTBGVnV4Y0xvWGQxbldtM1E?oc=5",
+        "title": "খাবার শেষে পড়ার দোয়া",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15OGZ2NFdQM2cxRXpWcUxpdzhrdDlkaTd3UWI2S3pneWdlYzRzQ250c0I4UkI1eXNsTlFpb21JdjBmbnlkVlFINzdQSXZHT3RSVmpsRzhRdW4wamlX0gFiQVVfeXFMT1ZMY0pZMGlMME1ZaHRmcTg1RHFhSWFqSTFZOUh6Rl9TV2s4Qk1ieWlhVnVCRzROSzFWZlBPdnpmNU9IT0IwMjI0VFRvNUswd0NKRTBGVnV4Y0xvWGQxbldtM1E?oc=5",
+        "source": "Ajker Patrika",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 08:00:02 GMT",
+        "summary": "খাবার শেষে পড়ার দোয়া &nbsp;&nbsp; Ajker Patrika",
+        "image": "https://images.ajkerpatrika.com/original_images/sunna-of-eating.jpg",
+        "articleUrl": "https://www.ajkerpatrika.com/islam/ajpr4donx2km3",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUDRZeEkxNF9MQmpHT3otVElDamJHdDlZaDltcDZ0LXRrY0dTSnVlSURIQ21IUnhENHpCN2h6dmM1MGN3NzVWbDdnVDQ1eUJmRzVyazFaRGhnQ1JOSEtSbWlJdEhtZmNSeER4czkxdS1lMnRfX3FScmxmTndJMFFUcVlrMWVJazJtZlppMmhGR19fYURRVXE3ZXRMb1RUTTFBYThfV0tVOWVtNk5ZQmJVMVJMblVWY2h3bjFDY3JvSDBhdmZ0UXlmU2lfS1A5U3JaWHNQNDdZT1hNXzlkVS1aMXRwbFp6ZDNScHduemNR?oc=5",
+        "title": "food safety-খাদ্য সুরক্ষা দপ্তরের অভিযানে ফ্রিজে বাসি পরোটা,মেয়াদ উত্তীর্ণ সস উদ্ধার",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUDRZeEkxNF9MQmpHT3otVElDamJHdDlZaDltcDZ0LXRrY0dTSnVlSURIQ21IUnhENHpCN2h6dmM1MGN3NzVWbDdnVDQ1eUJmRzVyazFaRGhnQ1JOSEtSbWlJdEhtZmNSeER4czkxdS1lMnRfX3FScmxmTndJMFFUcVlrMWVJazJtZlppMmhGR19fYURRVXE3ZXRMb1RUTTFBYThfV0tVOWVtNk5ZQmJVMVJMblVWY2h3bjFDY3JvSDBhdmZ0UXlmU2lfS1A5U3JaWHNQNDdZT1hNXzlkVS1aMXRwbFp6ZDNScHduemNR?oc=5",
+        "source": "Ei Samay",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 05:30:35 GMT",
+        "summary": "food safety-খাদ্য সুরক্ষা দপ্তরের অভিযানে ফ্রিজে বাসি পরোটা,মেয়াদ উত্তীর্ণ সস উদ্ধার &nbsp;&nbsp; Ei Samay",
+        "image": "https://cf-images.assettype.com/eisamay%2F2026-11-07%2F6630mhdv%2Fimage20261107105359.webp?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+        "articleUrl": "https://eisamay.com/west-bengal-news/north-bengal-news/expired-roti-ketchup-and-many-more-thing-recorved-by-food-safety-department-in-balurghat/200563514.cms",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMizgRBVV95cUxOZmhwVlFzbmZNZGJHZGRWdTlQT01XMWxlOXJFS2R6bUdrd2NxUzZOUkZibWZHV0xHaWl1SkxlNVBNXzhRQmFPWjVTS1lZbHl5RnJiUVF5UUpielk1WmltMHE4WlAxRUpwWF8xc0d4djVLRkFZNlF1TVpRS3N5SjF0aFRiWnFNTG9XczNOOGlhYUxheTVzd0syVkZDbk91Y3RYOE9kMGhkWjBjc0lScTVrQkVyOU5vTUI3ZHBfWVlrV21NVkNEVEN0MFBKdEh3cWxteUlXSzh2OEd4SktuWmt0bm5DNjZueUc3UW9pWmNJUFR4WmdjdU8wdTVtVTZMWHlIWkxTZi1PeU5JQ2thbmZtNUQ0eHF3RjJlSlN4SC1CZ0wwSzZWYkVhdkU0Q2dVaGVxSFVZeXowZHJ4TkNvM1BEOENhMFR1V2U0aUFMNzdQQmRnZHRqVTA2SHdPWU1qelZmRXdYcVdQM0tuVjczWGpBemdjRHJsekZFdFZSRFRWVUlqX0FuY0ZJMFBjUkVjUnJrNVc4TnB0N3RjM0Z0Y2I3b19faEZTcm40RkVzZl9sQ1k0M0w4ZlY3QkVpUHBuYXNUbXlwQ1dfYWRtNDJSVzBZUnktdE9QbUJiSTNjOFluZDhqYlVla1BEQ1JsZ0pOVGhJRzR6cFotRjlBbHlUZE92VFRGM1VkX3dKQmcteEM5VVd0bVl2YmxMN0N1VjZkWjJEamlXR1pWcFJxMHd0UkVTZWVlN0YzNGVzU1U2Wi1pbl9lVGYxQzdaUWpzbE9MQQ?oc=5",
+        "title": "সিসার বিষে বিপন্ন জনস্বাস্থ্য, অ্যালুমিনিয়ামের রান্নার পাত্র নিয়ে চাঞ্চল্যকর গবেষণা",
+        "link": "https://news.google.com/rss/articles/CBMizgRBVV95cUxOZmhwVlFzbmZNZGJHZGRWdTlQT01XMWxlOXJFS2R6bUdrd2NxUzZOUkZibWZHV0xHaWl1SkxlNVBNXzhRQmFPWjVTS1lZbHl5RnJiUVF5UUpielk1WmltMHE4WlAxRUpwWF8xc0d4djVLRkFZNlF1TVpRS3N5SjF0aFRiWnFNTG9XczNOOGlhYUxheTVzd0syVkZDbk91Y3RYOE9kMGhkWjBjc0lScTVrQkVyOU5vTUI3ZHBfWVlrV21NVkNEVEN0MFBKdEh3cWxteUlXSzh2OEd4SktuWmt0bm5DNjZueUc3UW9pWmNJUFR4WmdjdU8wdTVtVTZMWHlIWkxTZi1PeU5JQ2thbmZtNUQ0eHF3RjJlSlN4SC1CZ0wwSzZWYkVhdkU0Q2dVaGVxSFVZeXowZHJ4TkNvM1BEOENhMFR1V2U0aUFMNzdQQmRnZHRqVTA2SHdPWU1qelZmRXdYcVdQM0tuVjczWGpBemdjRHJsekZFdFZSRFRWVUlqX0FuY0ZJMFBjUkVjUnJrNVc4TnB0N3RjM0Z0Y2I3b19faEZTcm40RkVzZl9sQ1k0M0w4ZlY3QkVpUHBuYXNUbXlwQ1dfYWRtNDJSVzBZUnktdE9QbUJiSTNjOFluZDhqYlVla1BEQ1JsZ0pOVGhJRzR6cFotRjlBbHlUZE92VFRGM1VkX3dKQmcteEM5VVd0bVl2YmxMN0N1VjZkWjJEamlXR1pWcFJxMHd0UkVTZWVlN0YzNGVzU1U2Wi1pbl9lVGYxQzdaUWpzbE9MQQ?oc=5",
+        "source": "Dhaka Today",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 06:13:00 GMT",
+        "summary": "সিসার বিষে বিপন্ন জনস্বাস্থ্য, অ্যালুমিনিয়ামের রান্নার পাত্র নিয়ে চাঞ্চল্যকর গবেষণা &nbsp;&nbsp; Dhaka Today",
+        "image": "https://www.dhakatoday.com/imagestorages/2026-11/dhakatoday1794032448%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0%20%E0%A6%B9%E0%A6%BE%E0%A6%81%E0%A7%9C%E0%A6%BF%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2.jpg",
+        "articleUrl": "https://www.dhakatoday.com/news/93305/%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A6%9A%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%85%E0%A6%9F%E0%A7%8B%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%B6%E0%A6%BE%E0%A6%B0-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%A8%E0%A6%BF%E0%A6%B9%E0%A6%A4",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaMUlsY1ByMUdjWEhYdzFGeDJ1NFNIaFdkaVJqX0xocklSRkEyc1UyZXlrN0NrckhWTGJid1pfckJ4TFBsM2lIUmNHNDhPQVJMYjNrRF9lRk1BWjlYcWc?oc=5",
+        "title": "সেন্টমার্টিন যেতে জাহাজভাড়া ৪২০০ টাকা, হোটেল ও খাবার মিলিয়ে মোট খরচ কত?",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaMUlsY1ByMUdjWEhYdzFGeDJ1NFNIaFdkaVJqX0xocklSRkEyc1UyZXlrN0NrckhWTGJid1pfckJ4TFBsM2lIUmNHNDhPQVJMYjNrRF9lRk1BWjlYcWc?oc=5",
+        "source": "শেয়ার বিজ",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 05:53:00 GMT",
+        "summary": "সেন্টমার্টিন যেতে জাহাজভাড়া ৪২০০ টাকা, হোটেল ও খাবার মিলিয়ে মোট খরচ কত? &nbsp;&nbsp; শেয়ার বিজ",
+        "image": "https://www.sharebiz.net/media/imgAll/2026October/Images-10000-01-2611070553.png",
+        "articleUrl": "https://www.sharebiz.net/tour-travels/news/179854",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5HaTVnYkFJSHpWNUZpZ1oxQ3NYUDZ3cHpmSld4Mi0yVlRXMkFXUEVPTXpmQVRtSkwtNHNqNUFxak9iSmtpVE52bXZyajg4cTcwWTdxUVJpUQ?oc=5",
+        "title": "ঘুমাতে যাওয়ার আগে হালকা খাবার খাওয়ার লোভ হয়? কারণ ও প্রতিকার জানুন",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5HaTVnYkFJSHpWNUZpZ1oxQ3NYUDZ3cHpmSld4Mi0yVlRXMkFXUEVPTXpmQVRtSkwtNHNqNUFxak9iSmtpVE52bXZyajg4cTcwWTdxUVJpUQ?oc=5",
+        "source": "কালবেলা",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 08:54:09 GMT",
+        "summary": "ঘুমাতে যাওয়ার আগে হালকা খাবার খাওয়ার লোভ হয়? কারণ ও প্রতিকার জানুন &nbsp;&nbsp; কালবেলা",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.kalbela.com/health/others/347267",
+        "imageAttemptedAt": "2026-11-07T09:16:10.074Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNalB4dkI5LVlRZkk1cEdnODdTRktZaVF0VUZaNHdRblNBa0JBbmo0M0NRWF82T1RTWU5rcGg4WlB0a2lLS3lxbTk5SnA0Y3lPMXVzM1Fuc2V1Zi1kdnB5YlRHTmhpNjF5MFNEWmVXdy1RWTBTaU1Va0tVOWs2azQzQnhsQVNJM2VNd2hGaDlwMmlNdC1FWVlnel9lcERwSG0ybTBfZDdTckVaMnJHTEF0UEJFOER6TV9NcVJEOGFUTWlZU2ZXbjRCTW9Cbk9ZZTNITkwzc09lck9wSm1rdFlvRlBkTHBIbHk1SEx1VkItdWhKdVlBR0JIVGJjQXp4VlV4SWJqQ3RaQm9OZElCYm51T3ZHZXRYQWhEOGdTNDNUMjVCT3IybWlvSVdxeFdKcmdON1NpMm1FVnA0akRuY2c?oc=5",
+        "title": "খাবারের অপচয় এড়াতে সচেতনতার বিকল্প নেই",
+        "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNalB4dkI5LVlRZkk1cEdnODdTRktZaVF0VUZaNHdRblNBa0JBbmo0M0NRWF82T1RTWU5rcGg4WlB0a2lLS3lxbTk5SnA0Y3lPMXVzM1Fuc2V1Zi1kdnB5YlRHTmhpNjF5MFNEWmVXdy1RWTBTaU1Va0tVOWs2azQzQnhsQVNJM2VNd2hGaDlwMmlNdC1FWVlnel9lcERwSG0ybTBfZDdTckVaMnJHTEF0UEJFOER6TV9NcVJEOGFUTWlZU2ZXbjRCTW9Cbk9ZZTNITkwzc09lck9wSm1rdFlvRlBkTHBIbHk1SEx1VkItdWhKdVlBR0JIVGJjQXp4VlV4SWJqQ3RaQm9OZElCYm51T3ZHZXRYQWhEOGdTNDNUMjVCT3IybWlvSVdxeFdKcmdON1NpMm1FVnA0akRuY2c?oc=5",
+        "source": "দৈনিক আজাদী",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 23:48:00 GMT",
+        "summary": "খাবারের অপচয় এড়াতে সচেতনতার বিকল্প নেই &nbsp;&nbsp; দৈনিক আজাদী",
+        "image": "https://dainikazadi.net/wp-content/uploads/2022/06/sompadona.jpg",
+        "articleUrl": "https://dainikazadi.net/%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AA%E0%A6%9A%E0%A7%9F-%E0%A6%8F%E0%A7%9C%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%B8%E0%A6%9A%E0%A7%87%E0%A6%A4%E0%A6%A8/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vZzVid2hLSlNSOGd2S3JENldJSkxOWTBvWGNqOXExWWxPNHNVaE93U01JZmNHSmx6djRYM1RQaU5kTlI4QTh2ZkZGWVQ0Q2k4MUU3ak9FUS1xVWtSWDJVSjFmaTNpbExQZDJGeTlfOEs?oc=5",
+        "title": "ক্ষুধা হ্রাসে অগ্রগতি, নিরাপদ খাদ্যের চ্যালেঞ্জে বাংলাদেশ",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vZzVid2hLSlNSOGd2S3JENldJSkxOWTBvWGNqOXExWWxPNHNVaE93U01JZmNHSmx6djRYM1RQaU5kTlI4QTh2ZkZGWVQ0Q2k4MUU3ak9FUS1xVWtSWDJVSjFmaTNpbExQZDJGeTlfOEs?oc=5",
+        "source": "bd-pratidin.com",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 06:32:50 GMT",
+        "summary": "ক্ষুধা হ্রাসে অগ্রগতি, নিরাপদ খাদ্যের চ্যালেঞ্জে বাংলাদেশ &nbsp;&nbsp; bd-pratidin.com",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.bd-pratidin.com/open-air-theater/2026/11/07/1322736",
+        "imageAttemptedAt": "2026-11-07T07:24:53.064Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      }
     ]
   },
   "sourceErrors": [],
   "imageStats": {
-    "total": 75,
+    "total": 74,
     "fromRss": 0,
-    "fromArticleMetadata": 23,
-    "reusedCached": 21,
-    "actualPhotos": 23,
+    "fromArticleMetadata": 22,
+    "reusedCached": 19,
+    "actualPhotos": 22,
     "fallbackIllustrations": 52,
-    "withImage": 75,
+    "withImage": 74,
     "withoutImage": 0
   }
 }
