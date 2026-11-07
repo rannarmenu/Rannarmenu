@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-07T16:18:58.058Z",
+  "generatedAt": "2026-11-07T17:07:47.413Z",
   "sponsors": {
     "somoy": [
       {
@@ -52,6 +52,138 @@
         "summary": "Gemini &nbsp;&nbsp; Somoy News",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://en.somoynews.tv/topic/gemini",
+        "imageAttemptedAt": "2026-11-07T10:15:05.450Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      }
+    ],
+    "jamuna": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
+        "title": "Most Popular Television in Bangladesh",
+        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 13 Apr 2023 17:30:30 GMT",
+        "summary": "Most Popular Television in Bangladesh &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "",
+        "imageAttemptedAt": "2026-11-07T14:57:16.246Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9GOGhNV0NpSnpyalptRjRhSldmMWYzYUVQdkJwVjFpTU5MblhMQXViMFlqd1pWaEg4WkVDN0RCNWFZYWZLMVRLZTJ5cw?oc=5",
+        "title": "শীতের ভ্রমণে জনপ্রিয় দেশের ১০ দর্শনীয় স্থান",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9GOGhNV0NpSnpyalptRjRhSldmMWYzYUVQdkJwVjFpTU5MblhMQXViMFlqd1pWaEg4WkVDN0RCNWFZYWZLMVRLZTJ5cw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 09:22:13 GMT",
+        "summary": "শীতের ভ্রমণে জনপ্রিয় দেশের ১০ দর্শনীয় স্থান &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/travel/667515",
+        "imageAttemptedAt": "2026-11-07T14:14:36.472Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE83TG1La0tKQmhZTDBmZzJqcjg4cDRwQlhyNG41ZEU5U3FRNUFYa1pkbHJwYzkyQWFXeTJ2RUNvMTlGQ2RTdGU2YVZFblVGdw?oc=5",
+        "title": "বাংলাদেশি ভিসা আবেদনকারীদের জন্য নথিপত্রের প্রক্রিয়া সহজ করলো ভারতীয় হাইকমিশন",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE83TG1La0tKQmhZTDBmZzJqcjg4cDRwQlhyNG41ZEU5U3FRNUFYa1pkbHJwYzkyQWFXeTJ2RUNvMTlGQ2RTdGU2YVZFblVGdw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 08:09:14 GMT",
+        "summary": "বাংলাদেশি ভিসা আবেদনকারীদের জন্য নথিপত্রের প্রক্রিয়া সহজ করলো ভারতীয় হাইকমিশন &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667511",
+        "imageAttemptedAt": "2026-11-07T10:15:05.450Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5YUHYwVDZpd3VoekllNGFCVk1MdDhRZTFIa2xmY1dGVHZncExldWYwMFdPQTRRdUE0MllVQ0ozTzdmTEgyZm45c2h4WFladw?oc=5",
+        "title": "মাদরাসায় হামলা-ভাঙচুর: সেই শাহজালাল রুমিকে আত্মসমর্পণের নির্দেশ",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5YUHYwVDZpd3VoekllNGFCVk1MdDhRZTFIa2xmY1dGVHZncExldWYwMFdPQTRRdUE0MllVQ0ozTzdmTEgyZm45c2h4WFladw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 03 Nov 2026 10:19:45 GMT",
+        "summary": "মাদরাসায় হামলা-ভাঙচুর: সেই শাহজালাল রুমিকে আত্মসমর্পণের নির্দেশ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667339",
+        "imageAttemptedAt": "2026-11-07T15:35:02.330Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMSnFiZ0tibTFlaGhNTEZsVEtORnJzODRoejdCREZEVW5NMWJWNXBNVnpkdW4xSVZBTVZCQnRaYi11OFY5WTVFMWtET08?oc=5",
+        "title": "বাংলা কিউআরে ব্যক্তি থেকে ব্যক্তি পর্যায়ে লেনদেন সেবা চালু",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMSnFiZ0tibTFlaGhNTEZsVEtORnJzODRoejdCREZEVW5NMWJWNXBNVnpkdW4xSVZBTVZCQnRaYi11OFY5WTVFMWtET08?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 01 Nov 2026 17:13:07 GMT",
+        "summary": "বাংলা কিউআরে ব্যক্তি থেকে ব্যক্তি পর্যায়ে লেনদেন সেবা চালু &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/economy/667241",
+        "imageAttemptedAt": "2026-11-07T14:57:16.246Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCanJSMU5TM1RTR3lCZUV0b0N1X1BiSHJlMXZUWGw0Vko2bTloY0NJbm1Rd1ZMTHV1d19Xd2JvODBKb3NTMHJ6UTlzNA?oc=5",
+        "title": "এইচএসসিতে পাসের হার ৫২.১২ শতাংশ",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCanJSMU5TM1RTR3lCZUV0b0N1X1BiSHJlMXZUWGw0Vko2bTloY0NJbm1Rd1ZMTHV1d19Xd2JvODBKb3NTMHJ6UTlzNA?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 31 Oct 2026 06:52:47 GMT",
+        "summary": "এইচএসসিতে পাসের হার ৫২.১২ শতাংশ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/campus/667127",
+        "imageAttemptedAt": "2026-11-07T10:59:23.368Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qR0stOEc4ckJ4TGdpOGpjWEN6M0IyTTctYmZJZlRhcFNIQ05jUXBjTDQtN1RhQVdESzRhOEdRcm9HX2UxTi14NUVidw?oc=5",
+        "title": "এক ভীতু তরুণের গহীন পাহাড় জয়ের গল্প (শেষ কিস্তি)",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qR0stOEc4ckJ4TGdpOGpjWEN6M0IyTTctYmZJZlRhcFNIQ05jUXBjTDQtN1RhQVdESzRhOEdRcm9HX2UxTi14NUVidw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 14 Sep 2026 07:00:00 GMT",
+        "summary": "এক ভীতু তরুণের গহীন পাহাড় জয়ের গল্প (শেষ কিস্তি) &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/travel/664124",
+        "imageAttemptedAt": "2026-11-07T02:41:52.103Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9QUTVha2ZFa2dUMXU3bDZ4YU52RWhDZmxOTEFqVXRXeG5Wc19yLVBucWNRc29GYWRZTVhwQkVhWXNjUQ?oc=5",
+        "title": "সর্বশেষ - Jamuna Television",
+        "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9QUTVha2ZFa2dUMXU3bDZ4YU52RWhDZmxOTEFqVXRXeG5Wc19yLVBucWNRc29GYWRZTVhwQkVhWXNjUQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 25 Apr 2026 06:28:04 GMT",
+        "summary": "সর্বশেষ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/latest",
+        "imageAttemptedAt": "2026-11-07T05:18:37.258Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9faWV2cklLN19PcGFoTFBVeWJOZEpwNEEzQ3I2S0p6MHEyWC1QSmpLdVdnYTNEeEFjZHhnYjVoaDF4M3E3LVJtc1FHclZwdw?oc=5",
+        "title": "মন্ত্রিসভায় অনুমোদন পেলো সৌরবিদ্যুৎ স্থাপন ও পাবলিক প্রকিউরমেন্ট আইন",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9faWV2cklLN19PcGFoTFBVeWJOZEpwNEEzQ3I2S0p6MHEyWC1QSmpLdVdnYTNEeEFjZHhnYjVoaDF4M3E3LVJtc1FHclZwdw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 02 Nov 2026 15:30:37 GMT",
+        "summary": "মন্ত্রিসভায় অনুমোদন পেলো সৌরবিদ্যুৎ স্থাপন ও পাবলিক প্রকিউরমেন্ট আইন &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667295",
+        "imageAttemptedAt": "2026-11-07T04:26:16.261Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15blUyLUJ1U0E4SVY3ZHhMSHZJUW1zdVk4WVpOZERzMmZxT08wTzgyMElpdVBLVFBIUlQ5cDBlaVd1bDJrc1J4LUhGMGItdw?oc=5",
+        "title": "ঐক্যবদ্ধ থাকলে আর পথ হারাবে না বাংলাদেশ: প্রধানমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15blUyLUJ1U0E4SVY3ZHhMSHZJUW1zdVk4WVpOZERzMmZxT08wTzgyMElpdVBLVFBIUlQ5cDBlaVd1bDJrc1J4LUhGMGItdw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 05:02:19 GMT",
+        "summary": "ঐক্যবদ্ধ থাকলে আর পথ হারাবে না বাংলাদেশ: প্রধানমন্ত্রী &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667540",
         "imageAttemptedAt": "2026-11-07T10:15:05.450Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
@@ -185,138 +317,6 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/category/maasranga-kids/",
         "imageAttemptedAt": "2026-11-07T07:24:53.064Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      }
-    ],
-    "jamuna": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
-        "title": "Most Popular Television in Bangladesh",
-        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 13 Apr 2023 17:30:30 GMT",
-        "summary": "Most Popular Television in Bangladesh &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "",
-        "imageAttemptedAt": "2026-11-07T14:57:16.246Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9GOGhNV0NpSnpyalptRjRhSldmMWYzYUVQdkJwVjFpTU5MblhMQXViMFlqd1pWaEg4WkVDN0RCNWFZYWZLMVRLZTJ5cw?oc=5",
-        "title": "শীতের ভ্রমণে জনপ্রিয় দেশের ১০ দর্শনীয় স্থান",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9GOGhNV0NpSnpyalptRjRhSldmMWYzYUVQdkJwVjFpTU5MblhMQXViMFlqd1pWaEg4WkVDN0RCNWFZYWZLMVRLZTJ5cw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 09:22:13 GMT",
-        "summary": "শীতের ভ্রমণে জনপ্রিয় দেশের ১০ দর্শনীয় স্থান &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/travel/667515",
-        "imageAttemptedAt": "2026-11-07T14:14:36.472Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE83TG1La0tKQmhZTDBmZzJqcjg4cDRwQlhyNG41ZEU5U3FRNUFYa1pkbHJwYzkyQWFXeTJ2RUNvMTlGQ2RTdGU2YVZFblVGdw?oc=5",
-        "title": "বাংলাদেশি ভিসা আবেদনকারীদের জন্য নথিপত্রের প্রক্রিয়া সহজ করলো ভারতীয় হাইকমিশন",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE83TG1La0tKQmhZTDBmZzJqcjg4cDRwQlhyNG41ZEU5U3FRNUFYa1pkbHJwYzkyQWFXeTJ2RUNvMTlGQ2RTdGU2YVZFblVGdw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 08:09:14 GMT",
-        "summary": "বাংলাদেশি ভিসা আবেদনকারীদের জন্য নথিপত্রের প্রক্রিয়া সহজ করলো ভারতীয় হাইকমিশন &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667511",
-        "imageAttemptedAt": "2026-11-07T10:15:05.450Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5YUHYwVDZpd3VoekllNGFCVk1MdDhRZTFIa2xmY1dGVHZncExldWYwMFdPQTRRdUE0MllVQ0ozTzdmTEgyZm45c2h4WFladw?oc=5",
-        "title": "মাদরাসায় হামলা-ভাঙচুর: সেই শাহজালাল রুমিকে আত্মসমর্পণের নির্দেশ",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5YUHYwVDZpd3VoekllNGFCVk1MdDhRZTFIa2xmY1dGVHZncExldWYwMFdPQTRRdUE0MllVQ0ozTzdmTEgyZm45c2h4WFladw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 03 Nov 2026 10:19:45 GMT",
-        "summary": "মাদরাসায় হামলা-ভাঙচুর: সেই শাহজালাল রুমিকে আত্মসমর্পণের নির্দেশ &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667339",
-        "imageAttemptedAt": "2026-11-07T15:35:02.330Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMSnFiZ0tibTFlaGhNTEZsVEtORnJzODRoejdCREZEVW5NMWJWNXBNVnpkdW4xSVZBTVZCQnRaYi11OFY5WTVFMWtET08?oc=5",
-        "title": "বাংলা কিউআরে ব্যক্তি থেকে ব্যক্তি পর্যায়ে লেনদেন সেবা চালু",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMSnFiZ0tibTFlaGhNTEZsVEtORnJzODRoejdCREZEVW5NMWJWNXBNVnpkdW4xSVZBTVZCQnRaYi11OFY5WTVFMWtET08?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 01 Nov 2026 17:13:07 GMT",
-        "summary": "বাংলা কিউআরে ব্যক্তি থেকে ব্যক্তি পর্যায়ে লেনদেন সেবা চালু &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/economy/667241",
-        "imageAttemptedAt": "2026-11-07T14:57:16.246Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCanJSMU5TM1RTR3lCZUV0b0N1X1BiSHJlMXZUWGw0Vko2bTloY0NJbm1Rd1ZMTHV1d19Xd2JvODBKb3NTMHJ6UTlzNA?oc=5",
-        "title": "এইচএসসিতে পাসের হার ৫২.১২ শতাংশ",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCanJSMU5TM1RTR3lCZUV0b0N1X1BiSHJlMXZUWGw0Vko2bTloY0NJbm1Rd1ZMTHV1d19Xd2JvODBKb3NTMHJ6UTlzNA?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 06:52:47 GMT",
-        "summary": "এইচএসসিতে পাসের হার ৫২.১২ শতাংশ &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/campus/667127",
-        "imageAttemptedAt": "2026-11-07T10:59:23.368Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qR0stOEc4ckJ4TGdpOGpjWEN6M0IyTTctYmZJZlRhcFNIQ05jUXBjTDQtN1RhQVdESzRhOEdRcm9HX2UxTi14NUVidw?oc=5",
-        "title": "এক ভীতু তরুণের গহীন পাহাড় জয়ের গল্প (শেষ কিস্তি)",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qR0stOEc4ckJ4TGdpOGpjWEN6M0IyTTctYmZJZlRhcFNIQ05jUXBjTDQtN1RhQVdESzRhOEdRcm9HX2UxTi14NUVidw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 14 Sep 2026 07:00:00 GMT",
-        "summary": "এক ভীতু তরুণের গহীন পাহাড় জয়ের গল্প (শেষ কিস্তি) &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/travel/664124",
-        "imageAttemptedAt": "2026-11-07T02:41:52.103Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9QUTVha2ZFa2dUMXU3bDZ4YU52RWhDZmxOTEFqVXRXeG5Wc19yLVBucWNRc29GYWRZTVhwQkVhWXNjUQ?oc=5",
-        "title": "সর্বশেষ - Jamuna Television",
-        "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9QUTVha2ZFa2dUMXU3bDZ4YU52RWhDZmxOTEFqVXRXeG5Wc19yLVBucWNRc29GYWRZTVhwQkVhWXNjUQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 25 Apr 2026 06:28:04 GMT",
-        "summary": "সর্বশেষ &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/latest",
-        "imageAttemptedAt": "2026-11-07T05:18:37.258Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9faWV2cklLN19PcGFoTFBVeWJOZEpwNEEzQ3I2S0p6MHEyWC1QSmpLdVdnYTNEeEFjZHhnYjVoaDF4M3E3LVJtc1FHclZwdw?oc=5",
-        "title": "মন্ত্রিসভায় অনুমোদন পেলো সৌরবিদ্যুৎ স্থাপন ও পাবলিক প্রকিউরমেন্ট আইন",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9faWV2cklLN19PcGFoTFBVeWJOZEpwNEEzQ3I2S0p6MHEyWC1QSmpLdVdnYTNEeEFjZHhnYjVoaDF4M3E3LVJtc1FHclZwdw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 02 Nov 2026 15:30:37 GMT",
-        "summary": "মন্ত্রিসভায় অনুমোদন পেলো সৌরবিদ্যুৎ স্থাপন ও পাবলিক প্রকিউরমেন্ট আইন &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667295",
-        "imageAttemptedAt": "2026-11-07T04:26:16.261Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15blUyLUJ1U0E4SVY3ZHhMSHZJUW1zdVk4WVpOZERzMmZxT08wTzgyMElpdVBLVFBIUlQ5cDBlaVd1bDJrc1J4LUhGMGItdw?oc=5",
-        "title": "ঐক্যবদ্ধ থাকলে আর পথ হারাবে না বাংলাদেশ: প্রধানমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15blUyLUJ1U0E4SVY3ZHhMSHZJUW1zdVk4WVpOZERzMmZxT08wTzgyMElpdVBLVFBIUlQ5cDBlaVd1bDJrc1J4LUhGMGItdw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 05:02:19 GMT",
-        "summary": "ঐক্যবদ্ধ থাকলে আর পথ হারাবে না বাংলাদেশ: প্রধানমন্ত্রী &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667540",
-        "imageAttemptedAt": "2026-11-07T10:15:05.450Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -489,7 +489,7 @@
         "summary": "সারাদেশ &nbsp;&nbsp; Channel 24",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.channel24bd.tv/countries",
-        "imageAttemptedAt": "2026-11-06T16:22:56.088Z",
+        "imageAttemptedAt": "2026-11-07T17:07:55.997Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -502,19 +502,6 @@
         "summary": "টেকনাফের পাহাড়ে মানবপাচারকারীদের সেই আস্তানায় পড়ে আছে ৩ মরদেহ &nbsp;&nbsp; Channel 24",
         "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/0214551-1793971056.jpg",
         "articleUrl": "https://www.channel24bd.tv/countries/article/357248/%E0%A6%9F%E0%A7%87%E0%A6%95%E0%A6%A8%E0%A6%BE%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A7%9C%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%AC%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%87-%E0%A6%86%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%9C%E0%A7%87-%E0%A6%86%E0%A6%9B%E0%A7%87-%E0%A7%A9-%E0%A6%AE%E0%A6%B0%E0%A6%A6%E0%A7%87%E0%A6%B9",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMigARBVV95cUxPemk1UWRjckJqWWluVWdZSlZTS1ZZcFNnb3p6N2xkNUp5aHVyUlcxcjF2R2gxOUptQUUzZV9UbENqckg4aXh2RUEzNEp0cGNFMDhPV2ZQM2dxTkdOLUlFeW9DVUN3OHNaX3hRajh1TDZaOTF2Y0R4YnN0Mlh6VmhqckR0ejhHN3ZBQUZ6YVo1WW5nc2xMNUdOTXZwZnFzWGdkaWN6VEJFdnFDeVE4V0c0eGR0RGtuVENzLXZyQVJ1cGlxLXlERGtQby11UDhTQjI2QmFNRncxRjAtT2EwRkswX2tvOU5wZS1BM0hRaDVBaHdZZnpNU2c1NVdsWWdmTElyYlVGNE9qWHhjeU5GMXNoVTR3WTl3WVNhUlRYRDdZZXR4b3g0V2JpZHo0c0xxbklhMU9xVGpRZmpCLUlfRUdMNUk1ZFFCT0Ita3NLQVpqQWNVOF9FdWN6VDNLMnhPYl9QNWU2TERSNzZ3VlFaNjkyN181emxaa2VuYTlENUJCV3pGWEUyRnI1R2xrZnN5ZGhiRXJNTnJUSDdaQUQyN25JYWhNSUZ4a0JGNFF1YldmekdEZVVMZzEwZHNyeDBMUFBqRkF1THRGaU9TWVdmWVRxS0lDOTJSMmw5TVp1WDh3blZVWF9POVc1MXpIMmVwOV9TOHdZQU83a0w2cU42ZXltSg?oc=5",
-        "title": "টানা তৃতীয় দফায় ১২০৭২ টাকা বাড়ল স্বর্ণের দাম",
-        "link": "https://news.google.com/rss/articles/CBMigARBVV95cUxPemk1UWRjckJqWWluVWdZSlZTS1ZZcFNnb3p6N2xkNUp5aHVyUlcxcjF2R2gxOUptQUUzZV9UbENqckg4aXh2RUEzNEp0cGNFMDhPV2ZQM2dxTkdOLUlFeW9DVUN3OHNaX3hRajh1TDZaOTF2Y0R4YnN0Mlh6VmhqckR0ejhHN3ZBQUZ6YVo1WW5nc2xMNUdOTXZwZnFzWGdkaWN6VEJFdnFDeVE4V0c0eGR0RGtuVENzLXZyQVJ1cGlxLXlERGtQby11UDhTQjI2QmFNRncxRjAtT2EwRkswX2tvOU5wZS1BM0hRaDVBaHdZZnpNU2c1NVdsWWdmTElyYlVGNE9qWHhjeU5GMXNoVTR3WTl3WVNhUlRYRDdZZXR4b3g0V2JpZHo0c0xxbklhMU9xVGpRZmpCLUlfRUdMNUk1ZFFCT0Ita3NLQVpqQWNVOF9FdWN6VDNLMnhPYl9QNWU2TERSNzZ3VlFaNjkyN181emxaa2VuYTlENUJCV3pGWEUyRnI1R2xrZnN5ZGhiRXJNTnJUSDdaQUQyN25JYWhNSUZ4a0JGNFF1YldmekdEZVVMZzEwZHNyeDBMUFBqRkF1THRGaU9TWVdmWVRxS0lDOTJSMmw5TVp1WDh3blZVWF9POVc1MXpIMmVwOV9TOHdZQU83a0w2cU42ZXltSg?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 04:48:00 GMT",
-        "summary": "টানা তৃতীয় দফায় ১২০৭২ টাকা বাড়ল স্বর্ণের দাম &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/gold-1793854125.jpg",
-        "articleUrl": "https://www.channel24bd.tv/economy/article/356952/%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A7%A9%E0%A7%9F-%E0%A6%A6%E0%A6%AB%E0%A6%BE%E0%A7%9F-%E0%A7%A7%E0%A7%A8%E0%A7%A6%E0%A7%AD%E0%A7%A8-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%B2-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AE",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
@@ -581,6 +568,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.channel24bd.tv/contact-us",
         "imageAttemptedAt": "2026-11-07T14:14:36.472Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMivwZBVV95cUxNY1hXVHVZMVVWd0p0ZVN6MzFjWlMybDhNbnkwWEVSVUtNdjMzVy1OSmNWV3JvZkJoVjFPSHdqazhSTm9MVzhCdEt2WTV3OEFwYW00ZWIzV1c0Vnh0VTJnVU1CS1ZMOUsxa3JsZURxRGc3V25ZSXZqTjRNRm9tbF9QT3JrWkdQb3dHakJmYllxbXRXalBMZVhKUThTV2pKemo1eGU2SjBvbXpKV1lXRmt0VGxUWEh6cVlCc2ZyTEhOdW90V3AxaXVpV1Y5bnZnUWk0NXU5UEc1dEd4MGd0UVJfOHFrUnJZc3RzQ25BaXhubldkS1hvNnpRaThMbVpiR2lRNEw3OF9LZDhidnl0T0VVMVRvNWJsSzVxaHVHeExKcjNzWVlMak9hTHBYaUhJVE56VUVKZnk3NmpGUnZuTzVSbmdXV2dfTkw1TnRUVFZqNGcyeHkzaDNKaUtHX3otdVhOR3g2MVo5eEp6aGRDM3JtQXdPNmtySzB1VS1vQTRQa0RJSkxEa1FUa0FMSWh0TjBiMmJNMGpWeWZ4N29XSW5FaDVsUDZqajZKdHllanlCNFF0djV1SlhiMFI4OHpGUzg5Vk1Fb2tZZnBFQkNhTTZTb3o4Y3J5V3ZOR3pWZ044N2l6Q3ZldW5PbDR2VTQxMTJQTWhyTzF5UzRWZFJReks1SnZsNWd4UzY5ZzM2SXJ4WnNaVXFjYmZSSzJKOWtjbUpsR2ZCN2VxQTBKVTdtMVhhbEZjQjdOZ2V6WEYzMFo2SDFwa3V4amZ2S3NNdV8xWnpBcFpWNEhDUHU1Nmt1WVJGaU5uOTZiazBfai0yYVAyUkowcnZJR3lmamtlQUdKckNiOXoyYWlDb2M1TWhvSjVEZVludXprQmRVa2pmNzItUWJSaHhTY0lTc3Z5YV9uM3JHY1VPUzNfM2R1MnhwMGNqclRmdzNHblNtcEhtNzMzS2pKYkNVcmw1aUlDUDlZTDI5WnVCSERlRlI4OGpNdTExMnhNY0hGVF9ud2ZFNVY1Tm10WkE5WkhlTnZOSkt4U294WlljbHR0d0xTZlBBSExUeWd6SzBSenB4cVhrYVFqUmhyd0Q1NnN0ZGNpQlluNlk?oc=5",
+        "title": "জুলাই সনদ পাশ কাটিয়ে গণতান্ত্রিক রাষ্ট্র প্রতিষ্ঠা সম্ভব নয়: ড. আলী রীয়াজ",
+        "link": "https://news.google.com/rss/articles/CBMivwZBVV95cUxNY1hXVHVZMVVWd0p0ZVN6MzFjWlMybDhNbnkwWEVSVUtNdjMzVy1OSmNWV3JvZkJoVjFPSHdqazhSTm9MVzhCdEt2WTV3OEFwYW00ZWIzV1c0Vnh0VTJnVU1CS1ZMOUsxa3JsZURxRGc3V25ZSXZqTjRNRm9tbF9QT3JrWkdQb3dHakJmYllxbXRXalBMZVhKUThTV2pKemo1eGU2SjBvbXpKV1lXRmt0VGxUWEh6cVlCc2ZyTEhOdW90V3AxaXVpV1Y5bnZnUWk0NXU5UEc1dEd4MGd0UVJfOHFrUnJZc3RzQ25BaXhubldkS1hvNnpRaThMbVpiR2lRNEw3OF9LZDhidnl0T0VVMVRvNWJsSzVxaHVHeExKcjNzWVlMak9hTHBYaUhJVE56VUVKZnk3NmpGUnZuTzVSbmdXV2dfTkw1TnRUVFZqNGcyeHkzaDNKaUtHX3otdVhOR3g2MVo5eEp6aGRDM3JtQXdPNmtySzB1VS1vQTRQa0RJSkxEa1FUa0FMSWh0TjBiMmJNMGpWeWZ4N29XSW5FaDVsUDZqajZKdHllanlCNFF0djV1SlhiMFI4OHpGUzg5Vk1Fb2tZZnBFQkNhTTZTb3o4Y3J5V3ZOR3pWZ044N2l6Q3ZldW5PbDR2VTQxMTJQTWhyTzF5UzRWZFJReks1SnZsNWd4UzY5ZzM2SXJ4WnNaVXFjYmZSSzJKOWtjbUpsR2ZCN2VxQTBKVTdtMVhhbEZjQjdOZ2V6WEYzMFo2SDFwa3V4amZ2S3NNdV8xWnpBcFpWNEhDUHU1Nmt1WVJGaU5uOTZiazBfai0yYVAyUkowcnZJR3lmamtlQUdKckNiOXoyYWlDb2M1TWhvSjVEZVludXprQmRVa2pmNzItUWJSaHhTY0lTc3Z5YV9uM3JHY1VPUzNfM2R1MnhwMGNqclRmdzNHblNtcEhtNzMzS2pKYkNVcmw1aUlDUDlZTDI5WnVCSERlRlI4OGpNdTExMnhNY0hGVF9ud2ZFNVY1Tm10WkE5WkhlTnZOSkt4U294WlljbHR0d0xTZlBBSExUeWd6SzBSenB4cVhrYVFqUmhyd0Q1NnN0ZGNpQlluNlk?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 17 Oct 2026 07:00:00 GMT",
+        "summary": "জুলাই সনদ পাশ কাটিয়ে গণতান্ত্রিক রাষ্ট্র প্রতিষ্ঠা সম্ভব নয়: ড. আলী রীয়াজ &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/ali-reaz-1792206059.jpg",
+        "articleUrl": "https://www.channel24bd.tv/channel24-special/article/353425/%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%87-%E0%A6%B8%E0%A6%A8%E0%A6%A6-%E0%A6%AA%E0%A6%BE%E0%A6%B6-%E0%A6%95%E0%A6%BE%E0%A6%9F%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%97%E0%A6%A3%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%95-%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AD%E0%A6%AC-%E0%A6%A8%E0%A7%9F:-%E0%A6%86%E0%A6%B2%E0%A7%80-%E0%A6%B0%E0%A7%80%E0%A7%9F%E0%A6%BE%E0%A6%9C",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ]
@@ -653,6 +653,19 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRU1ZeDltMUZ4bmZDZklVal9tYWpfVVZ5R0RIMnE3Wnh1bklVekhsaVRybUpSQ3JCSlN1Z2lWSVdUX2VMWEZUX3dZc0lxV1BncUR1OVh1ZkQ0NFdzTktIa0Y5OVd6S3VjeGJxTkhGRzdPaGNLRWZPZG13VGl2cXh2VDRoMVZmaEE5N1ZDbkRmSHlLQU5vcHpReHJYdW1yNDFsRmI3VjQ0cEl2WF9HaTZr?oc=5",
+        "title": "বিশ্ব নেতৃত্ব ধরে রাখতে ট্রাম্পের নতুন বাহিনী গঠন, নাম ‘এসআইএফ’",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRU1ZeDltMUZ4bmZDZklVal9tYWpfVVZ5R0RIMnE3Wnh1bklVekhsaVRybUpSQ3JCSlN1Z2lWSVdUX2VMWEZUX3dZc0lxV1BncUR1OVh1ZkQ0NFdzTktIa0Y5OVd6S3VjeGJxTkhGRzdPaGNLRWZPZG13VGl2cXh2VDRoMVZmaEE5N1ZDbkRmSHlLQU5vcHpReHJYdW1yNDFsRmI3VjQ0cEl2WF9HaTZr?oc=5",
+        "source": "স্টার নিউজ",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 04 Oct 2026 07:00:00 GMT",
+        "summary": "বিশ্ব নেতৃত্ব ধরে রাখতে ট্রাম্পের নতুন বাহিনী গঠন, নাম ‘এসআইএফ’ &nbsp;&nbsp; স্টার নিউজ",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://starnews.com.bd/international/25348/trump-forms-new-force-named-sif-to-maintain-global-leadership.html",
+        "imageAttemptedAt": "2026-11-07T17:07:55.997Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HLXl4VG0tOHNRNUdzeWIxQ25XSmNXeXByN2toRDBMeXE0MmtOWnNNUXhTbVJIQ3VRb2VBZXlOUXRoYklsSktIQ2JDLVlJdU80NWxlQXFpQ0lDcGxqSlhPc2hpYw?oc=5",
         "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১ নভেম্বর ২০২৬",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HLXl4VG0tOHNRNUdzeWIxQ25XSmNXeXByN2toRDBMeXE0MmtOWnNNUXhTbVJIQ3VRb2VBZXlOUXRoYklsSktIQ2JDLVlJdU80NWxlQXFpQ0lDcGxqSlhPc2hpYw?oc=5",
@@ -675,7 +688,7 @@
         "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৩১ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
         "image": "news-fallbacks/world.svg",
         "articleUrl": "https://www.jagonews24.com/international/news/1174151",
-        "imageAttemptedAt": "2026-11-06T16:22:56.088Z",
+        "imageAttemptedAt": "2026-11-07T17:07:55.997Z",
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
@@ -703,19 +716,6 @@
         "articleUrl": "https://www.jagonews24.com/international/news/1171027",
         "imageAttemptedAt": "2026-11-07T03:29:30.683Z",
         "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96YU9oZHRtSTdKdGE3dlp3S04tM3haODROTFpPQTV1WktsUkpGUmo1YlhxR1RjU1E0a2dwNHQxSk1iRGNjc1FFY3ZyNkJUbS1PbkNiNUpETFdfc29SRkk4Vjk4NA?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৩০ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96YU9oZHRtSTdKdGE3dlp3S04tM3haODROTFpPQTV1WktsUkpGUmo1YlhxR1RjU1E0a2dwNHQxSk1iRGNjc1FFY3ZyNkJUbS1PbkNiNUpETFdfc29SRkk4Vjk4NA?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 30 Oct 2026 16:08:14 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৩০ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1173763",
-        "imageAttemptedAt": "2026-11-07T03:29:30.683Z",
-        "imageFallback": "news-fallbacks/world.svg"
       }
     ],
     "bangladesh": [
@@ -733,13 +733,13 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRzlZSVZwbFM4cjVGMjVRYzhXUWhSajBFNEktdWZvTXh3OHB3ZVpENjdaS0JKY1ZkZVVDdC03MXVKZ1k1STh0UjNuemRHQ1BudjhHbXVYYTBET2FZOV9HbXpDN0VPeV9oY0xqVlp3ejVtOWpVQUJkcW1Kak11blB5TmhvWVhyMFk2UnFpdnJlSnBVYlpEZTQ5NDRB0gGfAUFVX3lxTFBqYXZoWjY1MXZQc3hMN3BCX0VaWDR6Vy1HeUNid1BoZGlyTW9rUmE4clNUclBUMHNLU0R2U2tkdTJna3FhRThoSnJRUjBwblNsTDd5bEVVLU5CUThSUE5MckdkMTBlNHhPb0hsNUJDTnk0eE00c3lhU0JuN1lCaS0waTJ5VndpN1J5Mlo4cTJHLW8yWi1mQmdMeTRHdDlGWQ?oc=5",
-        "title": "দেশে হাসিনার নিরাপত্তা নিশ্চিত করার দাবি",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRzlZSVZwbFM4cjVGMjVRYzhXUWhSajBFNEktdWZvTXh3OHB3ZVpENjdaS0JKY1ZkZVVDdC03MXVKZ1k1STh0UjNuemRHQ1BudjhHbXVYYTBET2FZOV9HbXpDN0VPeV9oY0xqVlp3ejVtOWpVQUJkcW1Kak11blB5TmhvWVhyMFk2UnFpdnJlSnBVYlpEZTQ5NDRB0gGfAUFVX3lxTFBqYXZoWjY1MXZQc3hMN3BCX0VaWDR6Vy1HeUNid1BoZGlyTW9rUmE4clNUclBUMHNLU0R2U2tkdTJna3FhRThoSnJRUjBwblNsTDd5bEVVLU5CUThSUE5MckdkMTBlNHhPb0hsNUJDTnk0eE00c3lhU0JuN1lCaS0waTJ5VndpN1J5Mlo4cTJHLW8yWi1mQmdMeTRHdDlGWQ?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRzlZSVZwbFM4cjVGMjVRYzhXUWhSajBFNEktdWZvTXh3OHB3ZVpENjdaS0JKY1ZkZVVDdC03MXVKZ1k1STh0UjNuemRHQ1BudjhHbXVYYTBET2FZOV9HbXpDN0VPeV9oY0xqVlp3ejVtOWpVQUJkcW1Kak11blB5TmhvWVhyMFk2UnFpdnJlSnBVYlpEZTQ5NDRB?oc=5",
+        "title": "দেশে হাসিনার নিরাপত্তা নিশ্চিত করার দাবি - Demand to ensure Hasina's security in the country",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRzlZSVZwbFM4cjVGMjVRYzhXUWhSajBFNEktdWZvTXh3OHB3ZVpENjdaS0JKY1ZkZVVDdC03MXVKZ1k1STh0UjNuemRHQ1BudjhHbXVYYTBET2FZOV9HbXpDN0VPeV9oY0xqVlp3ejVtOWpVQUJkcW1Kak11blB5TmhvWVhyMFk2UnFpdnJlSnBVYlpEZTQ5NDRB?oc=5",
         "source": "TheWall",
         "publisherUrl": "",
         "publishedAt": "Sat, 07 Nov 2026 14:12:08 GMT",
-        "summary": "দেশে হাসিনার নিরাপত্তা নিশ্চিত করার দাবি &nbsp;&nbsp; TheWall",
+        "summary": "দেশে হাসিনার নিরাপত্তা নিশ্চিত করার দাবি - Demand to ensure Hasina's security in the country &nbsp;&nbsp; TheWall",
         "image": "https://s3.ap-south-1.amazonaws.com/statics.thewall.in/sites/default/files/styles/medium/public/2026-11/Sheikh%20Hasina%20Tarique%20Rahman.jpeg.webp",
         "articleUrl": "https://www.thewall.in/video-story/demand-to-ensure-hasinas-security-in-the-country/tid/208879",
         "imageAttemptedAt": "",
@@ -756,19 +756,6 @@
         "image": "news-fallbacks/bangladesh.svg",
         "articleUrl": "https://www.aaroananda.com/story/latest-news/breaking-news/rabindranath-tagore-portrait-vandalized-in-bangladesh-railway-station/11027443",
         "imageAttemptedAt": "2026-11-07T13:25:35.288Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMVV5Qmo3TnJNRnBLSUV4bFlXTVBWbXFQV0ZxdWcxbGFQc1RCdVpkNm9ybjhfUDY2elY4ekFTd0Y5N09vZEtoOUowSzNFYTFMZEV5VEo4UFY0enR4MTdCNHhSQzctX0s2T2JkbnhtLWNBS0JJbnU2OVRHRkd3d2NoTkYtT056SHJXejdiUV9YWmhwQ1hnX2dkVVgzTlBTeUpBdDdWeUF6Q29NWlJqNTFiV1BwVXJuZw?oc=5",
-        "title": "চতুর্থ বাংলাদেশি ক্রিকেটার হিসেবে হৃদয়ের ডাবল সেঞ্চুরি",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMVV5Qmo3TnJNRnBLSUV4bFlXTVBWbXFQV0ZxdWcxbGFQc1RCdVpkNm9ybjhfUDY2elY4ekFTd0Y5N09vZEtoOUowSzNFYTFMZEV5VEo4UFY0enR4MTdCNHhSQzctX0s2T2JkbnhtLWNBS0JJbnU2OVRHRkd3d2NoTkYtT056SHJXejdiUV9YWmhwQ1hnX2dkVVgzTlBTeUpBdDdWeUF6Q29NWlJqNTFiV1BwVXJuZw?oc=5",
-        "source": "স্টার নিউজ",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 10:38:54 GMT",
-        "summary": "চতুর্থ বাংলাদেশি ক্রিকেটার হিসেবে হৃদয়ের ডাবল সেঞ্চুরি &nbsp;&nbsp; স্টার নিউজ",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://starnews.com.bd/sports/28427/hridoy-becomes-the-fourth-bangladeshi-cricketer-to-score-a-double-century.html",
-        "imageAttemptedAt": "2026-11-07T14:57:16.246Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
@@ -794,6 +781,19 @@
         "summary": "হৃদয়ের অপরাজিত ২৪২ রান, ৩০ রানের লিড বাংলাদেশের &nbsp;&nbsp; Dhaka News 24",
         "image": "https://www.dhakanews24.com/wp-content/uploads/2026/11/towhid-redoy-pic.webp",
         "articleUrl": "https://www.dhakanews24.com/%E0%A6%B9%E0%A7%83%E0%A6%A6%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A4-%E0%A7%A8%E0%A7%AA%E0%A7%A8-%E0%A6%B0%E0%A6%BE%E0%A6%A8-%E0%A7%A9/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMioAVBVV95cUxOOU16ZjQ2U2phZ2lMazdmc3l5UGlLRmRCd2lheVRGdHM4eXZicGJkUU1kelNqMjlXcnc5Qng1bW9oODJqaUd0S1RlaXJuZUZtU3VuRDlwcUc2Y0pqVE5ZVjlacVhqdzdsaGtfc1NJWjVoZ2F2eHUtYjZxWmpYQUFyS2VOV3QxNHdOX0E1S18wR0RscnBOcjA1N0EyMHFXOFNPSUFWZkVBeGRDYnpEZkdkckF6aGhlU1Y4eUNFUkhIeFZnVlZUdGJpQ1BNZVdqWl9rbmcxQ0VSMnc2anh4aFJkbXFlT25nNWlPVi1NZWtTOGZ5OUZ2R3JsV1BOdjRYQnFvR01xNHRnM3Btd2tjVFpmLTVQRGg1cC16Q1JFd0FWV0hzREk4UFFEc0pPVDdLYUpCUEhGVF81bml2aXlLeW1XWWRVOFlsV1BJc21HZlVOQnh2TUhTQlZfWmlIOEMwOWQ2VUpJNWVBcGpST1pPdnhCZXlKYVFWRWNrc1VSUk1JVkoyYV9yMkVIZ2puZVZKcHZuTElDajNqZlpJTWUyd0VoenN6SkFfcmdyUGY2NHc4UlhReVJUVy1Dc3NGQkQ1bHBaU0hBRjYwQXB6MTBsVlRkQnh5SVl6WWJvMkhxOWJqbndUZXVWd3pRSGxadC1Pa0hQYW4wQnlJNTBwdklBcXI2bGZaTkEtalg4WlRsZ3MwcVloQ2tNdEV5eGpCREp6eTlxdU8zaGI0TnplNkd2Y1pWVUhVb2d0SHE0aURheW5UUk82RFFueFZaazdITFpqQmx0WkEwbmxaYmR1eDRmb3ZBbjVfMzVVMzhuMFh1ZEkwOENwUWdqbWQ0N3loaFFUX2NkYUpqMV90Y0xTaEQzanBpOW1UcWJxZUl3Y3dnNnJSS00?oc=5",
+        "title": "৭ নভেম্বরের চেতনা আগামীর বাংলাদেশ বিনির্মাণের প্রেরণা",
+        "link": "https://news.google.com/rss/articles/CBMioAVBVV95cUxOOU16ZjQ2U2phZ2lMazdmc3l5UGlLRmRCd2lheVRGdHM4eXZicGJkUU1kelNqMjlXcnc5Qng1bW9oODJqaUd0S1RlaXJuZUZtU3VuRDlwcUc2Y0pqVE5ZVjlacVhqdzdsaGtfc1NJWjVoZ2F2eHUtYjZxWmpYQUFyS2VOV3QxNHdOX0E1S18wR0RscnBOcjA1N0EyMHFXOFNPSUFWZkVBeGRDYnpEZkdkckF6aGhlU1Y4eUNFUkhIeFZnVlZUdGJpQ1BNZVdqWl9rbmcxQ0VSMnc2anh4aFJkbXFlT25nNWlPVi1NZWtTOGZ5OUZ2R3JsV1BOdjRYQnFvR01xNHRnM3Btd2tjVFpmLTVQRGg1cC16Q1JFd0FWV0hzREk4UFFEc0pPVDdLYUpCUEhGVF81bml2aXlLeW1XWWRVOFlsV1BJc21HZlVOQnh2TUhTQlZfWmlIOEMwOWQ2VUpJNWVBcGpST1pPdnhCZXlKYVFWRWNrc1VSUk1JVkoyYV9yMkVIZ2puZVZKcHZuTElDajNqZlpJTWUyd0VoenN6SkFfcmdyUGY2NHc4UlhReVJUVy1Dc3NGQkQ1bHBaU0hBRjYwQXB6MTBsVlRkQnh5SVl6WWJvMkhxOWJqbndUZXVWd3pRSGxadC1Pa0hQYW4wQnlJNTBwdklBcXI2bGZaTkEtalg4WlRsZ3MwcVloQ2tNdEV5eGpCREp6eTlxdU8zaGI0TnplNkd2Y1pWVUhVb2d0SHE0aURheW5UUk82RFFueFZaazdITFpqQmx0WkEwbmxaYmR1eDRmb3ZBbjVfMzVVMzhuMFh1ZEkwOENwUWdqbWQ0N3loaFFUX2NkYUpqMV90Y0xTaEQzanBpOW1UcWJxZUl3Y3dnNnJSS00?oc=5",
+        "source": "Bahanno News",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 16:10:00 GMT",
+        "summary": "৭ নভেম্বরের চেতনা আগামীর বাংলাদেশ বিনির্মাণের প্রেরণা &nbsp;&nbsp; Bahanno News",
+        "image": "https://www.bahannonews.com/uploads/cbc708554bb7d5b3c57e983617137af6.jpg?fb=1",
+        "articleUrl": "https://www.bahannonews.com/details/article/10222856/%E0%A7%AD-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%9A%E0%A7%87%E0%A6%A4%E0%A6%A8%E0%A6%BE-%E0%A6%86%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%80%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A6%A3%E0%A6%BE/",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
@@ -891,19 +891,6 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15OGZ2NFdQM2cxRXpWcUxpdzhrdDlkaTd3UWI2S3pneWdlYzRzQ250c0I4UkI1eXNsTlFpb21JdjBmbnlkVlFINzdQSXZHT3RSVmpsRzhRdW4wamlX0gFiQVVfeXFMT1ZMY0pZMGlMME1ZaHRmcTg1RHFhSWFqSTFZOUh6Rl9TV2s4Qk1ieWlhVnVCRzROSzFWZlBPdnpmNU9IT0IwMjI0VFRvNUswd0NKRTBGVnV4Y0xvWGQxbldtM1E?oc=5",
-        "title": "খাবার শেষে পড়ার দোয়া",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15OGZ2NFdQM2cxRXpWcUxpdzhrdDlkaTd3UWI2S3pneWdlYzRzQ250c0I4UkI1eXNsTlFpb21JdjBmbnlkVlFINzdQSXZHT3RSVmpsRzhRdW4wamlX0gFiQVVfeXFMT1ZMY0pZMGlMME1ZaHRmcTg1RHFhSWFqSTFZOUh6Rl9TV2s4Qk1ieWlhVnVCRzROSzFWZlBPdnpmNU9IT0IwMjI0VFRvNUswd0NKRTBGVnV4Y0xvWGQxbldtM1E?oc=5",
-        "source": "Ajker Patrika",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 08:00:02 GMT",
-        "summary": "খাবার শেষে পড়ার দোয়া &nbsp;&nbsp; Ajker Patrika",
-        "image": "https://images.ajkerpatrika.com/original_images/sunna-of-eating.jpg",
-        "articleUrl": "https://www.ajkerpatrika.com/islam/ajpr4donx2km3",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qNmloMHV4Ym02d0RSVVBxNXFrZVB2dUthS3hKc0dLeUdNQ2pUNW9QeVdYa2w0NnFDUklCRFd3YWRoR1I4OEx4cEd2T0R4M29ZaEkxbVp2Z2l4dFU?oc=5",
         "title": "খাবার হোটেলকে ‘গুদাম’ দেখিয়ে সারের ডিলার পেয়েছেন কৃষকদল নেতা!",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qNmloMHV4Ym02d0RSVVBxNXFrZVB2dUthS3hKc0dLeUdNQ2pUNW9QeVdYa2w0NnFDUklCRFd3YWRoR1I4OEx4cEd2T0R4M29ZaEkxbVp2Z2l4dFU?oc=5",
@@ -914,6 +901,19 @@
         "image": "news-fallbacks/food.svg",
         "articleUrl": "https://www.jagonews24.com/country/news/1176808",
         "imageAttemptedAt": "2026-11-07T15:35:02.330Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15OGZ2NFdQM2cxRXpWcUxpdzhrdDlkaTd3UWI2S3pneWdlYzRzQ250c0I4UkI1eXNsTlFpb21JdjBmbnlkVlFINzdQSXZHT3RSVmpsRzhRdW4wamlX0gFiQVVfeXFMT1ZMY0pZMGlMME1ZaHRmcTg1RHFhSWFqSTFZOUh6Rl9TV2s4Qk1ieWlhVnVCRzROSzFWZlBPdnpmNU9IT0IwMjI0VFRvNUswd0NKRTBGVnV4Y0xvWGQxbldtM1E?oc=5",
+        "title": "খাবার শেষে পড়ার দোয়া",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15OGZ2NFdQM2cxRXpWcUxpdzhrdDlkaTd3UWI2S3pneWdlYzRzQ250c0I4UkI1eXNsTlFpb21JdjBmbnlkVlFINzdQSXZHT3RSVmpsRzhRdW4wamlX0gFiQVVfeXFMT1ZMY0pZMGlMME1ZaHRmcTg1RHFhSWFqSTFZOUh6Rl9TV2s4Qk1ieWlhVnVCRzROSzFWZlBPdnpmNU9IT0IwMjI0VFRvNUswd0NKRTBGVnV4Y0xvWGQxbldtM1E?oc=5",
+        "source": "Ajker Patrika",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 08:00:02 GMT",
+        "summary": "খাবার শেষে পড়ার দোয়া &nbsp;&nbsp; Ajker Patrika",
+        "image": "https://images.ajkerpatrika.com/original_images/sunna-of-eating.jpg",
+        "articleUrl": "https://www.ajkerpatrika.com/islam/ajpr4donx2km3",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -969,16 +969,16 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNWdPckdxYTg2SXFpbnRHcEpwZ1N3MFktTjBBYzZLOV9IcGFIZW1PTnBnSElhNmFaTV80NnNONlU3Uy1nWVFKZzVLQmdaVjZiM0loaUV6S0hyTjdYc212RGR1bW9kSlVyd0tUOFVlUmdseHdTb0wwSUNWWWd5NWk1djFRMUl3OWpRbHZxSkZOblE1Nl94TDU5M3hqUkt2cS05YTk3V21LWWzSAagBQVVfeXFMUDVnT3JHcWE4NklxaW50R3BKcGdTdzBZLU4wQWM2SzlfSHBhSGVtT05wZ0hJYTZhWk1fNDZzTjZVN1MtZ1lRSmc1S0JnWlY2YjNJaGlFektIck43WHNtdkRkdW1vZEpVcndLVDhVZVJnbHh3U29MMElDVllneTVpNXYxUTFJdzlqUWx2cUpGTm5RNTZfeEw1OTN4alJLdnEtOWE5N1dtS1ls?oc=5",
-        "title": "কাজু নয়, এ বার দীপাবলিতে লাউয়ের বরফি বানিয়ে চমকে দিন অতিথিদের, মিলবে সব্জির পুষ্টিগুণও",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNWdPckdxYTg2SXFpbnRHcEpwZ1N3MFktTjBBYzZLOV9IcGFIZW1PTnBnSElhNmFaTV80NnNONlU3Uy1nWVFKZzVLQmdaVjZiM0loaUV6S0hyTjdYc212RGR1bW9kSlVyd0tUOFVlUmdseHdTb0wwSUNWWWd5NWk1djFRMUl3OWpRbHZxSkZOblE1Nl94TDU5M3hqUkt2cS05YTk3V21LWWzSAagBQVVfeXFMUDVnT3JHcWE4NklxaW50R3BKcGdTdzBZLU4wQWM2SzlfSHBhSGVtT05wZ0hJYTZhWk1fNDZzTjZVN1MtZ1lRSmc1S0JnWlY2YjNJaGlFektIck43WHNtdkRkdW1vZEpVcndLVDhVZVJnbHh3U29MMElDVllneTVpNXYxUTFJdzlqUWx2cUpGTm5RNTZfeEw1OTN4alJLdnEtOWE5N1dtS1ls?oc=5",
-        "source": "Anandabazar Patrika",
+        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBMUMwa0w3and0SzVDZ1VNMVpqOXhXcU95Um5nUHY5NE9ZYm92ZEZJTG5sM2lFN1RSajg1THQwZ0F5NDVpYnRDSUItY2JjWkNOLVFRNm5UcjBCNkk?oc=5",
+        "title": "ফিলিপাইন ভ্রমণে প্রকৃতির সৌন্দর্যের সঙ্গে মিলবে ঐতিহ্যবাহী খাবারের স্বাদ",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBMUMwa0w3and0SzVDZ1VNMVpqOXhXcU95Um5nUHY5NE9ZYm92ZEZJTG5sM2lFN1RSajg1THQwZ0F5NDVpYnRDSUItY2JjWkNOLVFRNm5UcjBCNkk?oc=5",
+        "source": "কালবেলা",
         "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 15:31:59 GMT",
-        "summary": "কাজু নয়, এ বার দীপাবলিতে লাউয়ের বরফি বানিয়ে চমকে দিন অতিথিদের, মিলবে সব্জির পুষ্টিগুণও &nbsp;&nbsp; Anandabazar Patrika",
+        "publishedAt": "Sat, 07 Nov 2026 15:41:23 GMT",
+        "summary": "ফিলিপাইন ভ্রমণে প্রকৃতির সৌন্দর্যের সঙ্গে মিলবে ঐতিহ্যবাহী খাবারের স্বাদ &nbsp;&nbsp; কালবেলা",
         "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.anandabazar.com/amp/recipes/the-easy-recipe-of-lauki-barfi-with-bottle-gourd-dgtl/cid/1724867",
-        "imageAttemptedAt": "2026-11-07T16:19:00.369Z",
+        "articleUrl": "https://www.kalbela.com/lifestyle/others/347386",
+        "imageAttemptedAt": "2026-11-07T17:07:55.997Z",
         "imageFallback": "news-fallbacks/food.svg"
       }
     ]
@@ -987,10 +987,10 @@
   "imageStats": {
     "total": 74,
     "fromRss": 0,
-    "fromArticleMetadata": 19,
-    "reusedCached": 18,
-    "actualPhotos": 19,
-    "fallbackIllustrations": 55,
+    "fromArticleMetadata": 20,
+    "reusedCached": 17,
+    "actualPhotos": 20,
+    "fallbackIllustrations": 54,
     "withImage": 74,
     "withoutImage": 0
   }
