@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-08T15:08:17.816Z",
+  "generatedAt": "2026-11-08T15:48:21.568Z",
   "sponsors": {
     "somoy": [
       {
@@ -413,19 +413,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGJwQmxySzRwZ2lZZ0tudVpaT014cmpfZlNHSlRzRnVTYXlmenM1elByR2ZEM20tcmxMb1NNTzBVMWxFWm8wSUhIVzFFVHVlQlFWbTgwNUpQSDN4U3J2VEdkZUIxZU8xYXhlcFFfSWwzbF92Nmt2Zzc2LXNGZ0pjTVBlSXNCSzdoQ2pfWFlBcjRzNXhqMl80?oc=5",
-        "title": "মধ্যরাতের খবর : ৮ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGJwQmxySzRwZ2lZZ0tudVpaT014cmpfZlNHSlRzRnVTYXlmenM1elByR2ZEM20tcmxMb1NNTzBVMWxFWm8wSUhIVzFFVHVlQlFWbTgwNUpQSDN4U3J2VEdkZUIxZU8xYXhlcFFfSWwzbF92Nmt2Zzc2LXNGZ0pjTVBlSXNCSzdoQ2pfWFlBcjRzNXhqMl80?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 21:14:23 GMT",
-        "summary": "মধ্যরাতের খবর : ৮ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/moddhoraater-khobor/moddho-rater-khobor-8-november-2026",
-        "imageAttemptedAt": "2026-11-07T21:29:44.800Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdHM1THNXYlU3UjliMHphc1FqQkUwUEthMVlabEdLaFU4NUlQMWMwdnl4RE5DR1htamRmSnlHQ2NRZi1mSXNrTTI3blNWUjFYWHU4ZXBUUmQ5S3c4NVUydzlaUkZrOEwwcm1fSjJ1ZHQ0TEVsMjRJaDNac0dTN0JKR0pxbDlfUQ?oc=5",
         "title": "ইভনিং নিউজ : ৮ নভেম্বর ২০২৬",
         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdHM1THNXYlU3UjliMHphc1FqQkUwUEthMVlabEdLaFU4NUlQMWMwdnl4RE5DR1htamRmSnlHQ2NRZi1mSXNrTTI3blNWUjFYWHU4ZXBUUmQ5S3c4NVUydzlaUkZrOEwwcm1fSjJ1ZHQ0TEVsMjRJaDNac0dTN0JKR0pxbDlfUQ?oc=5",
@@ -450,6 +437,19 @@
         "articleUrl": "https://www.ntvbd.com/video/ntv-news/shondhyar-khobor/shondhar-khobor-07-november-2026",
         "imageAttemptedAt": "2026-11-07T16:19:00.369Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMklhT0tqUlpUMVJMdUszWE9DWTZlaHlnck4wM0Jja29pRzdKUnJYTGdaQU5uY2YtckZUU3JaaE1WM1BoSjM5ODFqdWx1SEpncUFESWhnZjZodmNVMnRzekZwVkhya0dBM0cyTUg1bTNXbElONmptbV8xc3NvX2VERThfMGpOdw?oc=5",
+        "title": "ইভনিং নিউজ : ৭ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMklhT0tqUlpUMVJMdUszWE9DWTZlaHlnck4wM0Jja29pRzdKUnJYTGdaQU5uY2YtckZUU3JaaE1WM1BoSjM5ODFqdWx1SEpncUFESWhnZjZodmNVMnRzekZwVkhya0dBM0cyTUg1bTNXbElONmptbV8xc3NvX2VERThfMGpOdw?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 13:57:23 GMT",
+        "summary": "ইভনিং নিউজ : ৭ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/evening-news/evening-news-07-november-2026",
+        "imageAttemptedAt": "2026-11-08T15:48:23.377Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
     "channel24": [
@@ -467,19 +467,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiggRBVV95cUxQZGRnYjJqV2dOd1NKNGZ2Y3dQblI5V3kyWXVSdDBQRHRRUUV5eWhUSm80VU9oY2tmYzdRTHhrLVpkRVQwV2FRZWduc2NKcTlRREpOTWlncE1CSGdNb1JhdlA5MVh4TmFYc1RuNzFUVW0wTWlrWUdrelJ6UldjTlFaajVXWENEem9XZ1NPTno2cUdMcmVQTjF1Z3FLcnpIcTVsYktXYTQ3aHdFLUxkQmhxWGUtVEpzdXlKMy04SjREYlNtTU1xZV9KTlBFcnQtT0FlWk5COFpPYldlVk12LUQtaVI2YUc2OVI4R3ZaMVBJamJKWnAxT294SHgwVGtfa0puSW5aWElVOXctYU5vdHhUc05fNU1EMnBXdE1SM0tQTmU5ZkdUMVdhR2JhcDZwVHFKWTUxVk5KU1MwdmtETnkwTzJ0N2hDaWhRT1pYTTVEVlEzbVNYWm1ET3o1a2JOWWZZdHpNMXF4ZE01TDk3cUtJdlRvTWFfVUhieWxEUlNJUWtlTG4yOGlQRGpqdmo3X251UFlKWDR1NW1NbEtqaWRLeGU3WEZwRVFjVjJLSWZlbnZhRExvcnVBbDN3X0syVTQzcVNXWHg3dVF3Yk9PaV8xNzBBR1RWdHdralpsc2hUTXhGMkRUTXp4cE1BdjRrdHNmRk9DX3hMWDZDWnRUNDF2ZEFB?oc=5",
-        "title": "রিলস দেখেই টাকা আয়ের সুযোগ, আবেদন যেভাবে",
-        "link": "https://news.google.com/rss/articles/CBMiggRBVV95cUxQZGRnYjJqV2dOd1NKNGZ2Y3dQblI5V3kyWXVSdDBQRHRRUUV5eWhUSm80VU9oY2tmYzdRTHhrLVpkRVQwV2FRZWduc2NKcTlRREpOTWlncE1CSGdNb1JhdlA5MVh4TmFYc1RuNzFUVW0wTWlrWUdrelJ6UldjTlFaajVXWENEem9XZ1NPTno2cUdMcmVQTjF1Z3FLcnpIcTVsYktXYTQ3aHdFLUxkQmhxWGUtVEpzdXlKMy04SjREYlNtTU1xZV9KTlBFcnQtT0FlWk5COFpPYldlVk12LUQtaVI2YUc2OVI4R3ZaMVBJamJKWnAxT294SHgwVGtfa0puSW5aWElVOXctYU5vdHhUc05fNU1EMnBXdE1SM0tQTmU5ZkdUMVdhR2JhcDZwVHFKWTUxVk5KU1MwdmtETnkwTzJ0N2hDaWhRT1pYTTVEVlEzbVNYWm1ET3o1a2JOWWZZdHpNMXF4ZE01TDk3cUtJdlRvTWFfVUhieWxEUlNJUWtlTG4yOGlQRGpqdmo3X251UFlKWDR1NW1NbEtqaWRLeGU3WEZwRVFjVjJLSWZlbnZhRExvcnVBbDN3X0syVTQzcVNXWHg3dVF3Yk9PaV8xNzBBR1RWdHdralpsc2hUTXhGMkRUTXp4cE1BdjRrdHNmRk9DX3hMWDZDWnRUNDF2ZEFB?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 09:48:00 GMT",
-        "summary": "রিলস দেখেই টাকা আয়ের সুযোগ, আবেদন যেভাবে &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/aipiel-1793958531.jpg",
-        "articleUrl": "https://www.channel24bd.tv/science-technology/article/357208/%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%B8-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A7%87%E0%A6%87-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%86%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%81%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A6%AF%E0%A7%87%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBmbDRkYm5qZFM1WUdLdWlySFZYQ2tYclNsa0JYT3kwc28zMjZRZW8wVFlXc1dmWFRKUTQ5ZHRjU2s4WmxUTUlkelpuVVI?oc=5",
         "title": "সারাদেশ - Channel 24",
         "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBmbDRkYm5qZFM1WUdLdWlySFZYQ2tYclNsa0JYT3kwc28zMjZRZW8wVFlXc1dmWFRKUTQ5ZHRjU2s4WmxUTUlkelpuVVI?oc=5",
@@ -490,6 +477,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.channel24bd.tv/countries",
         "imageAttemptedAt": "2026-11-07T17:07:55.997Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMisgVBVV95cUxPamNQUm8zR0I1cFczd2VyUXh6T3RvSjRWQXhpSzZDd20tUGE3Sk9QU2IzMTZidDk5dGVwaEU2ekx1SEVqaFc4UEFrZHhwRGNOc21HWS02YzRQOWtyRHR0YkpYVFFwSlpJWklsS0JCc21pTTdzUnBmOGJObHpZb1UxcnEwdFdFQnVLeHgyZ0hvZ19fekRsMTFHdkxISWRkMllKVDZNNGxPOVJfLTdxa3VsX01DY2ZvQ09QQ2swMndzS0JQcmxmaERqejFMUUtEUWZwMEJZbjItV1BVYXJHajJBdGJoaDlfSGV0T1BOcmxEcVVaSEk3b3Q5VllJZ0JFOXZmdXhTeGxUQnlqb1Vld3JjRkFuc0RwZGQ0N2pKbTViZW1aRXZmdjJhZzBJRXR1OGJXTWJWRGdpR0VubTQ1RkRHOUdLbko0Y3Jkcmc3c1NqMmZGT0J1cldZbGlGMFpuczB1NU5pRUxSM0pNVUZEZFh4dVJ4QnRvZVdpaDZHUVBjcU1NdnN1T0lvcUJpbWFoSjB4cVVJbmdBQVlJSDM1QTZBTWpzVnFYYXZaQkdOSkdxWlVYQm5XYUlTY2JmRTJUZ1BQT3cyQW9VeFhXdUVUdUJqTjNqM3RDMXYtQU1sVTgzN3RiOVV0WVg0cktFT3dYZEEtTGZMMlBtU3FLMU1mS1MtU2RaT0w0bHp2UDdIUHFNbE85MXpSSkw0VEJxRmxNZUdQem1EVDlDdHl0R3ZkSXJZcDN1MFZqcXd0WU1xNXN2eE9CV3dld0hjeTl3enlmdzVNV3RId2JoSVkxTlBPYjNVRlFMdmhyaE1qX0NlbzZYcnFOSEVSTkVQdXlXY05pWWZVUlpTbi1OeFNpUTFCaGVBTzV1TW1Jam13VzZiZGhpNDJDWDF4WnFmS1BlQjRwTWZkS2c?oc=5",
+        "title": "ভয়াবহ বিস্ফোরণে উড়ে গেল সৌদি আরামকো টাওয়ারের দরজা-জানালা",
+        "link": "https://news.google.com/rss/articles/CBMisgVBVV95cUxPamNQUm8zR0I1cFczd2VyUXh6T3RvSjRWQXhpSzZDd20tUGE3Sk9QU2IzMTZidDk5dGVwaEU2ekx1SEVqaFc4UEFrZHhwRGNOc21HWS02YzRQOWtyRHR0YkpYVFFwSlpJWklsS0JCc21pTTdzUnBmOGJObHpZb1UxcnEwdFdFQnVLeHgyZ0hvZ19fekRsMTFHdkxISWRkMllKVDZNNGxPOVJfLTdxa3VsX01DY2ZvQ09QQ2swMndzS0JQcmxmaERqejFMUUtEUWZwMEJZbjItV1BVYXJHajJBdGJoaDlfSGV0T1BOcmxEcVVaSEk3b3Q5VllJZ0JFOXZmdXhTeGxUQnlqb1Vld3JjRkFuc0RwZGQ0N2pKbTViZW1aRXZmdjJhZzBJRXR1OGJXTWJWRGdpR0VubTQ1RkRHOUdLbko0Y3Jkcmc3c1NqMmZGT0J1cldZbGlGMFpuczB1NU5pRUxSM0pNVUZEZFh4dVJ4QnRvZVdpaDZHUVBjcU1NdnN1T0lvcUJpbWFoSjB4cVVJbmdBQVlJSDM1QTZBTWpzVnFYYXZaQkdOSkdxWlVYQm5XYUlTY2JmRTJUZ1BQT3cyQW9VeFhXdUVUdUJqTjNqM3RDMXYtQU1sVTgzN3RiOVV0WVg0cktFT3dYZEEtTGZMMlBtU3FLMU1mS1MtU2RaT0w0bHp2UDdIUHFNbE85MXpSSkw0VEJxRmxNZUdQem1EVDlDdHl0R3ZkSXJZcDN1MFZqcXd0WU1xNXN2eE9CV3dld0hjeTl3enlmdzVNV3RId2JoSVkxTlBPYjNVRlFMdmhyaE1qX0NlbzZYcnFOSEVSTkVQdXlXY05pWWZVUlpTbi1OeFNpUTFCaGVBTzV1TW1Jam13VzZiZGhpNDJDWDF4WnFmS1BlQjRwTWZkS2c?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 10:53:00 GMT",
+        "summary": "ভয়াবহ বিস্ফোরণে উড়ে গেল সৌদি আরামকো টাওয়ারের দরজা-জানালা &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/saudi-aramco-1794135221.jpg",
+        "articleUrl": "https://www.channel24bd.tv/international/article/357596/%E0%A6%AD%E0%A7%9F%E0%A6%BE%E0%A6%AC%E0%A6%B9-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%AB%E0%A7%8B%E0%A6%B0%E0%A6%A3%E0%A7%87-%E0%A6%89%E0%A7%9C%E0%A7%87-%E0%A6%97%E0%A7%87%E0%A6%B2-%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF-%E0%A6%86%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%95%E0%A7%8B-%E0%A6%9F%E0%A6%BE%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%B0%E0%A6%9C%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A6%BE",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -571,15 +571,15 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiiAZBVV95cUxNT2FCc2NrTGVMODZwZ2ExeThuUHZYNVVaa1REWnRlV01FWkltSF8wV3lSX3JtS3VBMHF4dFpxRUYtRGNkeENPcmhZYlktOUQ5NUZzb2JnLXlJdXlFbWlNS0FnTzRvUlJITGhzeVUwcGdManBvMjVfSTU4SmVNSlQ2eHNxR1BKOGV4QkVud2lmd0p2VGI3a05fbVlWSFgxQlVLbzlMUU1obGxnUzdSbW5HcWFPTVVxdkxGV052SWI3b0xCcFVGQlJQUmgyeUpWcktDYUVVRFVDNi1CeUZ2YjBZZnRQT0lVWVVZU2VuZDc0d3Z4YkJJZTJzUENPWGhuSFpjZFNrVXlWWlJESUNBV3U1dllJOFFSaTFSMXFYZS1aRmljdGhha295U0VxUjI1N2FRUHhWRENoX1paVW55TFNuTWRxcE9MTG1YdkFkWW1oOUplQmRqVVVFaHJlRks2VS1KWUFQSkFmSFNJMmdoR1poeTlyc1Q2QzhhOTU4Y0djX1AwbFl2WEdscmdWWENxQW5QYVBaamppMVBpcG85NEVubUFPdjZKaTRsb01ydDFjNVVHbTRpcDd5akFFeWJRaVVjMGllUXZvazhZOHhLMm9TQ0JaRXBrQi1rd2VlTWlwNUppSTdPV2dyNUgzZjNpUkFFek5hRDBjQ3JqdEhyS3k5aE5DSVZFUDZwNmVIcmFqVEFmVTEwOW0yMFlUZDBjY1dKanJkSE1yM0xnTHd5SWY4Y2Y4aFVPLWtjdFJNblFEWVEzNkhETnVHUEw2aWNqSzJjZk0zOE5ZTm8yYVhuY1lxdXRZMXVZWXdOYUlUZ09mZkpmd3MtMHI3MlZ0LXZoSDAxYmdlRmQ5dl9JQlowTjRLdUZocHB4M0tXMnpkN3lSM0dEQkw2U2ZBSnBEVHVTR21Ia2JUU0EzR0pMbkVwZ213R05tcjh6SmFXd1VsVjJDVk42YThHUXRrUE1LcmVfUmVzdklranJUak96MU1tZ0lJTGluMkc5WkxyTXVMM2UyX3RDSnI4WFZiSw?oc=5",
-        "title": "কাইল্ল্যা পলাশ হত্যাসহ ২৭ মামলার আসামি ‘পিচ্চি আল-আমিন’ গ্রেপ্তার",
-        "link": "https://news.google.com/rss/articles/CBMiiAZBVV95cUxNT2FCc2NrTGVMODZwZ2ExeThuUHZYNVVaa1REWnRlV01FWkltSF8wV3lSX3JtS3VBMHF4dFpxRUYtRGNkeENPcmhZYlktOUQ5NUZzb2JnLXlJdXlFbWlNS0FnTzRvUlJITGhzeVUwcGdManBvMjVfSTU4SmVNSlQ2eHNxR1BKOGV4QkVud2lmd0p2VGI3a05fbVlWSFgxQlVLbzlMUU1obGxnUzdSbW5HcWFPTVVxdkxGV052SWI3b0xCcFVGQlJQUmgyeUpWcktDYUVVRFVDNi1CeUZ2YjBZZnRQT0lVWVVZU2VuZDc0d3Z4YkJJZTJzUENPWGhuSFpjZFNrVXlWWlJESUNBV3U1dllJOFFSaTFSMXFYZS1aRmljdGhha295U0VxUjI1N2FRUHhWRENoX1paVW55TFNuTWRxcE9MTG1YdkFkWW1oOUplQmRqVVVFaHJlRks2VS1KWUFQSkFmSFNJMmdoR1poeTlyc1Q2QzhhOTU4Y0djX1AwbFl2WEdscmdWWENxQW5QYVBaamppMVBpcG85NEVubUFPdjZKaTRsb01ydDFjNVVHbTRpcDd5akFFeWJRaVVjMGllUXZvazhZOHhLMm9TQ0JaRXBrQi1rd2VlTWlwNUppSTdPV2dyNUgzZjNpUkFFek5hRDBjQ3JqdEhyS3k5aE5DSVZFUDZwNmVIcmFqVEFmVTEwOW0yMFlUZDBjY1dKanJkSE1yM0xnTHd5SWY4Y2Y4aFVPLWtjdFJNblFEWVEzNkhETnVHUEw2aWNqSzJjZk0zOE5ZTm8yYVhuY1lxdXRZMXVZWXdOYUlUZ09mZkpmd3MtMHI3MlZ0LXZoSDAxYmdlRmQ5dl9JQlowTjRLdUZocHB4M0tXMnpkN3lSM0dEQkw2U2ZBSnBEVHVTR21Ia2JUU0EzR0pMbkVwZ213R05tcjh6SmFXd1VsVjJDVk42YThHUXRrUE1LcmVfUmVzdklranJUak96MU1tZ0lJTGluMkc5WkxyTXVMM2UyX3RDSnI4WFZiSw?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMixgRBVV95cUxPMDFOUFlRRExjYUhpUTN4QURQSGV6ZnV1OU83eXZKS3kwOS13dFlHSVBOZXJGRkVfV211QmMwbnZ6a3FBX2NyMllUTGRXOVZKVk45akNlczVVWUlLSHRRMk1OR3Zub0FZZk0tdEhCZVVhbm85QjRhM3FWMWhWekNMOUpZOXlTQkxWaWpBWWtRdWJ0SU8tYnZITjNKdm1KVlBod0hGcHJwR2ltb1pNWE5OVzVhaFkwRFhOQTRnVU4tYWR6bzY0blRvTk52RDkyNXNZeEZCdzQzSUJoY2dxazhrRF8tcTI1VWZUM1NlZVhSeVdjOWhjUWlta1pnVVRDell6dmNQdi1KUDVVRVJwYXNjZEZWWUdZQ3YwUzhCNkpBM2hYc1o5ajFsOWVyaFEybG91Xzd0SFdQVjFyRHJySUl6R0tOdTNvdURaRmp2T1dLSkJBYjd2XzdoY2g5RUlvTk9xY0hUckRCODNHeGFXNGZjTjI3Y29ULUlWU0F1ZDJDaHBxS096aE8zem9wVVAyZjBSbDBldUVmS182ZTBYY1RiNHpENGo2UEZVQjR1S21zZmJFR01EMnVGMFNUUnI2eWVwZHpBRVZldlppWTlqWHRVZDFvWWpPQUxzdTJVT3o2a3VUWWVBOW5oQm5ITU9hRHZDaHRQS2hJUVBEaF9mekpGN0l5Qk5RN2NRd29TbU5pY0dGRTlET3BYNFZBSVBfcHdlLU1zNU9UWGxTcUxhZk10LVNiX05rYjJJcnhQbGMteGVRU3FUVUE?oc=5",
+        "title": "‘নিউজ প্রেজেন্টার’ নেবে চ্যানেল 24, আবেদন অনলাইনে",
+        "link": "https://news.google.com/rss/articles/CBMixgRBVV95cUxPMDFOUFlRRExjYUhpUTN4QURQSGV6ZnV1OU83eXZKS3kwOS13dFlHSVBOZXJGRkVfV211QmMwbnZ6a3FBX2NyMllUTGRXOVZKVk45akNlczVVWUlLSHRRMk1OR3Zub0FZZk0tdEhCZVVhbm85QjRhM3FWMWhWekNMOUpZOXlTQkxWaWpBWWtRdWJ0SU8tYnZITjNKdm1KVlBod0hGcHJwR2ltb1pNWE5OVzVhaFkwRFhOQTRnVU4tYWR6bzY0blRvTk52RDkyNXNZeEZCdzQzSUJoY2dxazhrRF8tcTI1VWZUM1NlZVhSeVdjOWhjUWlta1pnVVRDell6dmNQdi1KUDVVRVJwYXNjZEZWWUdZQ3YwUzhCNkpBM2hYc1o5ajFsOWVyaFEybG91Xzd0SFdQVjFyRHJySUl6R0tOdTNvdURaRmp2T1dLSkJBYjd2XzdoY2g5RUlvTk9xY0hUckRCODNHeGFXNGZjTjI3Y29ULUlWU0F1ZDJDaHBxS096aE8zem9wVVAyZjBSbDBldUVmS182ZTBYY1RiNHpENGo2UEZVQjR1S21zZmJFR01EMnVGMFNUUnI2eWVwZHpBRVZldlppWTlqWHRVZDFvWWpPQUxzdTJVT3o2a3VUWWVBOW5oQm5ITU9hRHZDaHRQS2hJUVBEaF9mekpGN0l5Qk5RN2NRd29TbU5pY0dGRTlET3BYNFZBSVBfcHdlLU1zNU9UWGxTcUxhZk10LVNiX05rYjJJcnhQbGMteGVRU3FUVUE?oc=5",
         "source": "News24 / Channel 24",
         "publisherUrl": "",
-        "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
-        "summary": "কাইল্ল্যা পলাশ হত্যাসহ ২৭ মামলার আসামি ‘পিচ্চি আল-আমিন’ গ্রেপ্তার &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/alamin-1790869469.jpg",
-        "articleUrl": "https://www.channel24bd.tv/crime/article/350534/%E0%A6%95%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%AA%E0%A6%B2%E0%A6%BE%E0%A6%B6-%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%B9-%E0%A7%A8%E0%A7%AD-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%BF-%E2%80%98%E0%A6%AA%E0%A6%BF%E0%A6%9A%E0%A7%8D%E0%A6%9A%E0%A6%BF-%E0%A6%86%E0%A6%B2-%E0%A6%86%E0%A6%AE%E0%A6%BF%E0%A6%A8%E2%80%99-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0",
+        "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
+        "summary": "‘নিউজ প্রেজেন্টার’ নেবে চ্যানেল 24, আবেদন অনলাইনে &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/presenter-1791365216.jpg",
+        "articleUrl": "https://www.channel24bd.tv/jobs/article/351616/%E2%80%98%E0%A6%A8%E0%A6%BF%E0%A6%89%E0%A6%9C-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%9C%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E2%80%99-%E0%A6%A8%E0%A7%87%E0%A6%AC%E0%A7%87-%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B2-24-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A6%85%E0%A6%A8%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%E0%A7%87",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
@@ -865,29 +865,16 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1YTFzQmp0YnNuV3NyMmR4b2RIbEZack5Uc3J1OHJIRlhYQWdhMUh5VWlVakFJUnIxbTc5d0RsYWhOam1FbHpmck9LRHhvQmpEcF9XY3VTU0p4NTg?oc=5",
-        "title": "ঢাকায় শেষ হলো ‘আদিবাসী খাদ্য ও শস্যমেলা’, কী কী ছিল সেখানে",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1YTFzQmp0YnNuV3NyMmR4b2RIbEZack5Uc3J1OHJIRlhYQWdhMUh5VWlVakFJUnIxbTc5d0RsYWhOam1FbHpmck9LRHhvQmpEcF9XY3VTU0p4NTg?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1YTFzQmp0YnNuV3NyMmR4b2RIbEZack5Uc3J1OHJIRlhYQWdhMUh5VWlVakFJUnIxbTc5d0RsYWhOam1FbHpmck9LRHhvQmpEcF9XY3VTU0p4NTjSAWhBVV95cUxNU1BBalE3TGR6RFYycFhRc2wtNWhPcUZ5eTgzNDh5d3pqMGtEcEhaVjBZbUd5cHNYZ01zLTU4THhic1JMZllLaW9kYnp1R1JHRjA2MXNHSjRJQ1A5d1VoQm5YN1B1ZkNaNw?oc=5",
+        "title": "ঢাকায় শেষ হলো ‘আদিবাসী খাদ্য ও শস্যমেলা’, কী কী ছিল সেখানে",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1YTFzQmp0YnNuV3NyMmR4b2RIbEZack5Uc3J1OHJIRlhYQWdhMUh5VWlVakFJUnIxbTc5d0RsYWhOam1FbHpmck9LRHhvQmpEcF9XY3VTU0p4NTjSAWhBVV95cUxNU1BBalE3TGR6RFYycFhRc2wtNWhPcUZ5eTgzNDh5d3pqMGtEcEhaVjBZbUd5cHNYZ01zLTU4THhic1JMZllLaW9kYnp1R1JHRjA2MXNHSjRJQ1A5d1VoQm5YN1B1ZkNaNw?oc=5",
         "source": "প্রথম আলো",
         "publisherUrl": "",
         "publishedAt": "Sun, 08 Nov 2026 04:00:00 GMT",
-        "summary": "ঢাকায় শেষ হলো ‘আদিবাসী খাদ্য ও শস্যমেলা’, কী কী ছিল সেখানে &nbsp;&nbsp; প্রথম আলো",
+        "summary": "ঢাকায় শেষ হলো ‘আদিবাসী খাদ্য ও শস্যমেলা’, কী কী ছিল সেখানে &nbsp;&nbsp; প্রথম আলো",
         "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-07%2Fesxks7wu%2F32.jpeg?rect=0%2C87%2C1600%2C900&w=1200&ar=16%3A9&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
         "articleUrl": "https://www.prothomalo.com/lifestyle/27h63082gt",
         "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMijgRBVV95cUxPYkxyVTM3blUwRlg0cUp6S0dTVG1ZSHJNSVhhMlBZOEg5aEJSNzVOOTZvYmZ1OU9ieEpUQVktNEk2Z1dzSkFrR1BkekxKT2hVcnQ3bnRMeG1GQW94RUQ4aC1Nc3RoQWpMYVBUc2VGNzB2TDBaZndqX2V1Y0JOSmVWSWRJcFo3ODBiTFctbDBfZGd0SDZmS1ZHZGFDdGg5Z1FxWl9ZVW1ZWmdTTVJYUmp3RjRyOHlfbF9HSE9BUk5PZ1hSN3Z1SDFXa0FDdGlSVW9tYW5zTmNPdnhNdG92VkdJQ1ZwNWtTblpRb1Z6U1BVTjZZNHdLQmtqYjlYRWsxaWZZenZ0TlN0cnVLZlU0cnlOUDIySkhDZzZPVkt3dXNZTlVHYk15OTlwVkpNdkR3Z2kwYUM1X0xJYnZ6VGl0cnFqaDl1VEZfdWxkYjRJUzFiVnBwaGwwU1lDMFVvZU5MM0dEX2p3alpuSW5DeHJ3ZFlJZGw5eTRKdjg3M2w1X081dTl2aGNBWmJxd05QejhyQW5NMm5RbmpDdTZzcl9nc0xDWkNWZ1ZqWjlXR3RpRkJXQlhSSFd1dUdvOU9Hc2RHTDBhQy1KdGxtNVlOSmU1V0tKNGxoWVNxZWV6RVZoUHBtWFlsY1VBWkN6VFN0dFFqN3h1bWlINUFoSy1ORjFWVHZoX09wVThSc3NraFRwWHdn0gGTBEFVX3lxTE9TRmROb25xQlUzblV2SmJYQXZ5NGZpUW1WZGstUDVybWNmZmpfRUV3dHdjelZYLU1UdUpoR3pPR19rWV8zZk43UzlBUHRIcHdOcnpxeEdxWGtpM3paNk9HVFlseWw1Vm93NlJES3lfUmlxUTVNM2FsUFo0U3hNXzdNbGtwZmFaQUxwbVh3aGhQdFBGRmIwVWZkWTlqNEphUmFFb0FUNkFHcGF6OGNaNWtRQjVkVGZaYURIUWtlQ2h4S2J6alNMaEtYWF9XcWxGaUstY0paY2RRdjBUUkQzY0ZzRlNGeF8tZDlVc1pIbzdkcUpqU0VlZnVGMXktX0ZKMm04UTFXLXRzUDFMczdlREM5RVgyc2dzbHp2T2RIbG5Qelg1Wl9ERFFfMVFsZmh0elhpR2F3b2hMNXhsaEtaOVZKLU9NUlFYQlJMbVh1cWhIbVBWNGV4eHJ1d2hBc3FpbV9Jd1dSSktSbV9qYWFxMTFEMlF1VlpLRk43d2hEbS1lTU80U0dJVm5OUGZMMk52S3RDbzVGVFNrLU5Ub3hLLUlKZUcxcnlQYVJhT1pXVjZYWmh4N09YbHJNM0hkaW9YX3FUVmJMNWZSMmEyMWtzWWdmQVpDQm12OFNiV204cEVIWnNTd2ZqMzNqRDAyMTlnNWdQYVA1bW1LN0hqY0NXM2lJN2F6b3BGeEY0QThmd3M3eFl6TQ?oc=5",
-        "title": "করাচির রেস্তোরাঁয় খাবার পরিবেশনে রোবট",
-        "link": "https://news.google.com/rss/articles/CBMijgRBVV95cUxPYkxyVTM3blUwRlg0cUp6S0dTVG1ZSHJNSVhhMlBZOEg5aEJSNzVOOTZvYmZ1OU9ieEpUQVktNEk2Z1dzSkFrR1BkekxKT2hVcnQ3bnRMeG1GQW94RUQ4aC1Nc3RoQWpMYVBUc2VGNzB2TDBaZndqX2V1Y0JOSmVWSWRJcFo3ODBiTFctbDBfZGd0SDZmS1ZHZGFDdGg5Z1FxWl9ZVW1ZWmdTTVJYUmp3RjRyOHlfbF9HSE9BUk5PZ1hSN3Z1SDFXa0FDdGlSVW9tYW5zTmNPdnhNdG92VkdJQ1ZwNWtTblpRb1Z6U1BVTjZZNHdLQmtqYjlYRWsxaWZZenZ0TlN0cnVLZlU0cnlOUDIySkhDZzZPVkt3dXNZTlVHYk15OTlwVkpNdkR3Z2kwYUM1X0xJYnZ6VGl0cnFqaDl1VEZfdWxkYjRJUzFiVnBwaGwwU1lDMFVvZU5MM0dEX2p3alpuSW5DeHJ3ZFlJZGw5eTRKdjg3M2w1X081dTl2aGNBWmJxd05QejhyQW5NMm5RbmpDdTZzcl9nc0xDWkNWZ1ZqWjlXR3RpRkJXQlhSSFd1dUdvOU9Hc2RHTDBhQy1KdGxtNVlOSmU1V0tKNGxoWVNxZWV6RVZoUHBtWFlsY1VBWkN6VFN0dFFqN3h1bWlINUFoSy1ORjFWVHZoX09wVThSc3NraFRwWHdn0gGTBEFVX3lxTE9TRmROb25xQlUzblV2SmJYQXZ5NGZpUW1WZGstUDVybWNmZmpfRUV3dHdjelZYLU1UdUpoR3pPR19rWV8zZk43UzlBUHRIcHdOcnpxeEdxWGtpM3paNk9HVFlseWw1Vm93NlJES3lfUmlxUTVNM2FsUFo0U3hNXzdNbGtwZmFaQUxwbVh3aGhQdFBGRmIwVWZkWTlqNEphUmFFb0FUNkFHcGF6OGNaNWtRQjVkVGZaYURIUWtlQ2h4S2J6alNMaEtYWF9XcWxGaUstY0paY2RRdjBUUkQzY0ZzRlNGeF8tZDlVc1pIbzdkcUpqU0VlZnVGMXktX0ZKMm04UTFXLXRzUDFMczdlREM5RVgyc2dzbHp2T2RIbG5Qelg1Wl9ERFFfMVFsZmh0elhpR2F3b2hMNXhsaEtaOVZKLU9NUlFYQlJMbVh1cWhIbVBWNGV4eHJ1d2hBc3FpbV9Jd1dSSktSbV9qYWFxMTFEMlF1VlpLRk43d2hEbS1lTU80U0dJVm5OUGZMMk52S3RDbzVGVFNrLU5Ub3hLLUlKZUcxcnlQYVJhT1pXVjZYWmh4N09YbHJNM0hkaW9YX3FUVmJMNWZSMmEyMWtzWWdmQVpDQm12OFNiV204cEVIWnNTd2ZqMzNqRDAyMTlnNWdQYVA1bW1LN0hqY0NXM2lJN2F6b3BGeEY0QThmd3M3eFl6TQ?oc=5",
-        "source": "Bangla Tribune",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 11:05:31 GMT",
-        "summary": "করাচির রেস্তোরাঁয় খাবার পরিবেশনে রোবট &nbsp;&nbsp; Bangla Tribune",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.banglatribune.com/tech-and-gadget/tech-news/979591/%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%9A%E0%A6%BF%E0%A6%B0-%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8B%E0%A6%B0%E0%A6%BE%E0%A6%81%E0%A6%AF%E0%A6%BC-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%A8%E0%A7%87-%E0%A6%B0%E0%A7%8B%E0%A6%AC%E0%A6%9F",
-        "imageAttemptedAt": "2026-11-08T11:50:01.567Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -927,6 +914,19 @@
         "image": "https://images.ekhon.tv/Ovijan-9-1200x630.webp",
         "articleUrl": "https://ekhon.tv/country/6af06b03c178ce3c3b74a934",
         "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiwgRBVV95cUxQUUdOWUtoZHlha1BfaHRqMG04Wmw3OG9hQkk1QjR1SHV6TlpUbEhjZ2VVb1lISnlweVUyOW5FUU9MWkJpTUNBS1lMNlh5TjJCN2pkdzhzWlZhVDBYeDlJSm1abFN1Wk9OaDJhR2hsUGRNMVdzVldpdGJYR1h1djl1cVVjWGpYby1VZEwtMDFoQ2dycUs4SEMydFVRN1VYRW45U0J3RjlFLUtRQldsMUlMczVZS1lKTXdrUVk5TGFjWktSRGxMZEV2eUd3cktaVU9McUxKWVQ4WnJybV9IQ05mV2NLX0tVT2FNZFREZGRPbWZWQjVDY2l1VlhKUlhPTnNfRnpTSmhFQ1pSWW9RajM3Uk4zNUNpZnFoYWp6RkU5a3QzWHYzcVdIWW1Mc1VQUVd2X1pYSDIzdjg2SjV2UkJxSHMzMWNmSFE5X2l4RFg5dkp2QU1DTEJuVFJuU243RWx0V214b2pJSzVWcmItTmMyVnA5SHY1U005bnpuVFBkYktsN2kwN2pmQ1RDOXEzYkc1U2NZdUVxbWVYOFdUN2tGTlVqcEp2X3hvRi1wVVFpQzZ0UVVyRXhOd0dwa1pleTkxYXdLM2oxd1dyWlpkUW9saXE0ZlZHU2d5ei1sVHVYeDlHRWFwQTl5ZHIxSUpaVmVyUzlubHE3aE1ldHhiTDFsNDFtVHZ5RlE2akhFa2VGSzdtQVFjRTV0dW5CTTlmZHNyMmJwQlc0ZXlwdnNNVTk5bmk2YXRpUWZVM1M2VkV6akd0QdIBxwRBVV95cUxQYmV0M2p1cGRPa2VybXhPczhGem04UFNuS3kxRjJoTGlNSVRZVURjQXhnVjVjM202aDBsa2V1b1huOGltcUVERnJNNGhqUHl4S01yazhpOHl6N20yYXQxMmRpMmp5dkhKZ1dMaFQ2aUJsd0Z3ZUdfWm5ENmdLRURGblYxWW1rRWJPV0FVSkVMUklVYXgzdXdMdGQ0QmlKbElfMWlGZE9JVndNcjhMQ2t0N2lRb1d6aktrWU5IV1UzTXZjejVobUU0b3djNFNoTXI0Qkt3YkJYZ0N5VmExNnl0dDdkS3dJdTBLWk5KUjdrWUNNWWZjRlFQMEhXU01WZTdGSEhPVmExODRNWGxUX2tGeVJIREwwcUFHUHNOMjg0Y2NNZ1JYelJXT2pHYWh3WGIzekZPVWdLaGxLMDdmSEpvT1QwVXVqeUFZcGtZbWNVX1hrV19icEpCVDM1SHZmZUprR25nQzBNN3FoQ3BtUkp2ckVaWnlEbmdUYjZqdXJodXpvVkN3ZldMQldyZFZZV1RfeDlqeTBTNlJEMWd2Z0t0ZlBtS0hyYUstR25HRkh0WTRkRzUyaHJCTDRzREluT2N5SjB4NVotZnJmckFoMnFyZGo0MjU2Z0JCaWoydGFpc3lZWFpPeXlXMkNpbkVkdDdscjZHanhjY0FBZEczQzEzNG9EbEtzZmpwNFJEV3JxMzVmRVRjYWJpR1JfcGFyUkxkQXVUUjI2NGpibmxJV3NtbEQ0R1RqaXJSemdCVnp6SHZaX3ZNbGJz?oc=5",
+        "title": "রেস্টুরেন্টে খাবার আগে দেওয়া নিয়ে বিএনপির দুই পক্ষের সংঘর্ষ, সড়ক অবরোধ",
+        "link": "https://news.google.com/rss/articles/CBMiwgRBVV95cUxQUUdOWUtoZHlha1BfaHRqMG04Wmw3OG9hQkk1QjR1SHV6TlpUbEhjZ2VVb1lISnlweVUyOW5FUU9MWkJpTUNBS1lMNlh5TjJCN2pkdzhzWlZhVDBYeDlJSm1abFN1Wk9OaDJhR2hsUGRNMVdzVldpdGJYR1h1djl1cVVjWGpYby1VZEwtMDFoQ2dycUs4SEMydFVRN1VYRW45U0J3RjlFLUtRQldsMUlMczVZS1lKTXdrUVk5TGFjWktSRGxMZEV2eUd3cktaVU9McUxKWVQ4WnJybV9IQ05mV2NLX0tVT2FNZFREZGRPbWZWQjVDY2l1VlhKUlhPTnNfRnpTSmhFQ1pSWW9RajM3Uk4zNUNpZnFoYWp6RkU5a3QzWHYzcVdIWW1Mc1VQUVd2X1pYSDIzdjg2SjV2UkJxSHMzMWNmSFE5X2l4RFg5dkp2QU1DTEJuVFJuU243RWx0V214b2pJSzVWcmItTmMyVnA5SHY1U005bnpuVFBkYktsN2kwN2pmQ1RDOXEzYkc1U2NZdUVxbWVYOFdUN2tGTlVqcEp2X3hvRi1wVVFpQzZ0UVVyRXhOd0dwa1pleTkxYXdLM2oxd1dyWlpkUW9saXE0ZlZHU2d5ei1sVHVYeDlHRWFwQTl5ZHIxSUpaVmVyUzlubHE3aE1ldHhiTDFsNDFtVHZ5RlE2akhFa2VGSzdtQVFjRTV0dW5CTTlmZHNyMmJwQlc0ZXlwdnNNVTk5bmk2YXRpUWZVM1M2VkV6akd0QdIBxwRBVV95cUxQYmV0M2p1cGRPa2VybXhPczhGem04UFNuS3kxRjJoTGlNSVRZVURjQXhnVjVjM202aDBsa2V1b1huOGltcUVERnJNNGhqUHl4S01yazhpOHl6N20yYXQxMmRpMmp5dkhKZ1dMaFQ2aUJsd0Z3ZUdfWm5ENmdLRURGblYxWW1rRWJPV0FVSkVMUklVYXgzdXdMdGQ0QmlKbElfMWlGZE9JVndNcjhMQ2t0N2lRb1d6aktrWU5IV1UzTXZjejVobUU0b3djNFNoTXI0Qkt3YkJYZ0N5VmExNnl0dDdkS3dJdTBLWk5KUjdrWUNNWWZjRlFQMEhXU01WZTdGSEhPVmExODRNWGxUX2tGeVJIREwwcUFHUHNOMjg0Y2NNZ1JYelJXT2pHYWh3WGIzekZPVWdLaGxLMDdmSEpvT1QwVXVqeUFZcGtZbWNVX1hrV19icEpCVDM1SHZmZUprR25nQzBNN3FoQ3BtUkp2ckVaWnlEbmdUYjZqdXJodXpvVkN3ZldMQldyZFZZV1RfeDlqeTBTNlJEMWd2Z0t0ZlBtS0hyYUstR25HRkh0WTRkRzUyaHJCTDRzREluT2N5SjB4NVotZnJmckFoMnFyZGo0MjU2Z0JCaWoydGFpc3lZWFpPeXlXMkNpbkVkdDdscjZHanhjY0FBZEczQzEzNG9EbEtzZmpwNFJEV3JxMzVmRVRjYWJpR1JfcGFyUkxkQXVUUjI2NGpibmxJV3NtbEQ0R1RqaXJSemdCVnp6SHZaX3ZNbGJz?oc=5",
+        "source": "Bangla Tribune",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 11:12:30 GMT",
+        "summary": "রেস্টুরেন্টে খাবার আগে দেওয়া নিয়ে বিএনপির দুই পক্ষের সংঘর্ষ, সড়ক অবরোধ &nbsp;&nbsp; Bangla Tribune",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.banglatribune.com/country/chitagong/979597/%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%87",
+        "imageAttemptedAt": "2026-11-08T15:48:23.377Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -988,7 +988,7 @@
     "total": 74,
     "fromRss": 0,
     "fromArticleMetadata": 20,
-    "reusedCached": 18,
+    "reusedCached": 17,
     "actualPhotos": 20,
     "fallbackIllustrations": 54,
     "withImage": 74,
