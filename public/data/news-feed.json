@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-08T22:10:35.726Z",
+  "generatedAt": "2026-11-08T22:49:07.730Z",
   "sponsors": {
     "somoy": [
       {
@@ -26,7 +26,7 @@
         "summary": "বীরত্বসূচক পদক পাচ্ছে র‌্যাব ডগ স্কোয়াডের কুকুর &nbsp;&nbsp; সময় নিউজ",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.somoynews.tv/news/2023-03-19/%E0%A6%AC%E0%A7%80%E0%A6%B0%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%82%E0%A6%9A%E0%A6%95-%E0%A6%AA%E0%A6%A6%E0%A6%95-%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%B0%E2%80%8C%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%A1%E0%A6%97-%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%A1%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%81%E0%A6%95%E0%A7%81%E0%A6%B0",
-        "imageAttemptedAt": "2026-11-07T22:11:17.874Z",
+        "imageAttemptedAt": "2026-11-08T22:49:08.712Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -229,6 +229,19 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4tVG83WWRRUk9QOWVQeXBnelB2a3p0YXhSSm1jQkppZXVENTRqNEJ2N3lONmRTN2ZhblUzaHZKUHBvV3c4UUVGSTNzTThydw?oc=5",
+        "title": "এসআরবির মহাপরিচালকের দায়িত্ব নিলেন অতিরিক্ত আইজিপি ফারুক আহমেদ",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4tVG83WWRRUk9QOWVQeXBnelB2a3p0YXhSSm1jQkppZXVENTRqNEJ2N3lONmRTN2ZhblUzaHZKUHBvV3c4UUVGSTNzTThydw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 07:47:59 GMT",
+        "summary": "এসআরবির মহাপরিচালকের দায়িত্ব নিলেন অতিরিক্ত আইজিপি ফারুক আহমেদ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667617",
+        "imageAttemptedAt": "2026-11-08T22:49:08.712Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAzX3dvei1IUUNNVmNtSGF5Y3c1SzVlcmdNbnY5QVNXa3FIMjdGbzRKQTdNS1JLVmxKSnhwVk1oMkM5dldFSThvSnpYMDNMQQ?oc=5",
         "title": "তারেক রহমানের নেতৃত্বে শোভাযাত্রা পল্টন থেকে মানিক মিয়ার পথে",
         "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAzX3dvei1IUUNNVmNtSGF5Y3c1SzVlcmdNbnY5QVNXa3FIMjdGbzRKQTdNS1JLVmxKSnhwVk1oMkM5dldFSThvSnpYMDNMQQ?oc=5",
@@ -304,19 +317,6 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.jamuna.tv/international/667576",
         "imageAttemptedAt": "2026-11-08T08:29:09.617Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPdnBqNXdEamRFNzBrYUlQQ0NQVTJfMlFxQlhYd3lZYVlPcUdBSGx2SlVHdlk5TXFsU2pwTjVvQ0QtYkZIb2F5NVlFVldMQQ?oc=5",
-        "title": "দ্রব্যমূল্য বৃদ্ধির প্রতিবাদে রাজধানীতে জামায়াতের বিক্ষোভ",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPdnBqNXdEamRFNzBrYUlQQ0NQVTJfMlFxQlhYd3lZYVlPcUdBSGx2SlVHdlk5TXFsU2pwTjVvQ0QtYkZIb2F5NVlFVldMQQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 12:46:54 GMT",
-        "summary": "দ্রব্যমূল্য বৃদ্ধির প্রতিবাদে রাজধানীতে জামায়াতের বিক্ষোভ &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667635",
-        "imageAttemptedAt": "2026-11-08T15:08:19.571Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -798,19 +798,6 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdDNVem9IT0g3djROY3ZNczR3WVhuWVFpRWY5WUFwZU9lZmplSTJGemt4Tlp0RXJnWTA2ZXlZci01UTV4SFJ0eXJkNnpGdnlLWDByWEJScWVLOC1BR3luR0U2NF80N3Y3eWF6d1F5RUt6VmcwZEZJWU82dzl5NUVFaThjTlN6aGpMcTRYZWZ3aDBfbUNUU2JmcjZ5Uy0yaFdSTmx0QUh3cndpTjlXN0ZlOGVreGVyQVBsSjdIUWZycVhuUkV3T3FoWGhfMEk?oc=5",
-        "title": "হাসিনার দেশ ছাড়ার ভিডিয়ো ফাঁসের শাস্তি? পাইলটের রহস্যমৃত্যুতে তোলপাড় বাংলাদেশ",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdDNVem9IT0g3djROY3ZNczR3WVhuWVFpRWY5WUFwZU9lZmplSTJGemt4Tlp0RXJnWTA2ZXlZci01UTV4SFJ0eXJkNnpGdnlLWDByWEJScWVLOC1BR3luR0U2NF80N3Y3eWF6d1F5RUt6VmcwZEZJWU82dzl5NUVFaThjTlN6aGpMcTRYZWZ3aDBfbUNUU2JmcjZ5Uy0yaFdSTmx0QUh3cndpTjlXN0ZlOGVreGVyQVBsSjdIUWZycVhuUkV3T3FoWGhfMEk?oc=5",
-        "source": "Anandabazar Patrika",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 17:04:00 GMT",
-        "summary": "হাসিনার দেশ ছাড়ার ভিডিয়ো ফাঁসের শাস্তি? পাইলটের রহস্যমৃত্যুতে তোলপাড় বাংলাদেশ &nbsp;&nbsp; Anandabazar Patrika",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.anandabazar.com/video/former-bangladesh-air-force-pilot-km-tahsif-souri-found-dead-amid-political-storm-dgtl/cid/1723217",
-        "imageAttemptedAt": "2026-11-08T20:09:08.361Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRzlZSVZwbFM4cjVGMjVRYzhXUWhSajBFNEktdWZvTXh3OHB3ZVpENjdaS0JKY1ZkZVVDdC03MXVKZ1k1STh0UjNuemRHQ1BudjhHbXVYYTBET2FZOV9HbXpDN0VPeV9oY0xqVlp3ejVtOWpVQUJkcW1Kak11blB5TmhvWVhyMFk2UnFpdnJlSnBVYlpEZTQ5NDRB?oc=5",
         "title": "দেশে হাসিনার নিরাপত্তা নিশ্চিত করার দাবি - Demand to ensure Hasina's security in the country",
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRzlZSVZwbFM4cjVGMjVRYzhXUWhSajBFNEktdWZvTXh3OHB3ZVpENjdaS0JKY1ZkZVVDdC03MXVKZ1k1STh0UjNuemRHQ1BudjhHbXVYYTBET2FZOV9HbXpDN0VPeV9oY0xqVlp3ejVtOWpVQUJkcW1Kak11blB5TmhvWVhyMFk2UnFpdnJlSnBVYlpEZTQ5NDRB?oc=5",
@@ -837,16 +824,29 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMipAVBVV95cUxNYlhBLUo2b3lNbkZuSXEzbi1wSWhhemo5VGpvVEctZUhGM1ptRzRZMXZnQmkyZ0pJU0FnZ0pkU2c3SVJ5b09nZ3dVM3l5MFoxcHJxYkZrTGpSS2drWkJCck80YjhnQlRHT2tjZ3UtMTRFWW1zdE5ub29lOVdSMjY5WTRXenFhTUtNV2dVdUk3VUVPYUJsT0hHUWdqMzVhaTRKV0dQcjVPWUxMdmlBVV9PVFowVEwwZDdtQVZRbzg1N1FySkhDWXlmNmRrcHM2SFVCSFV4Xzc4ZzBOMGJqRG9sVjhjTDIzdUdxS0VraWNQWGVXbnNoTTVpMVVNQXFfU0RVNE5nb1hVcTNONUZpdzd6TVZuM1l2blZDX0tGNHdIeGtYbzJLNS0yNUpJQTI1ejlFY3lWNXlUWGh5cjViS0NTeEhNTDFqa01YMmFsclh3U2hVa2Rpak5DU29kWkZjeVZtMkZGR01BQjNMZ25Db1RhVlhfaUpWSzVvcktodExHV1Bad0g4aFZvdTgwUGcyUkhNUGFoNkp6V0l3ejU5OWtJcmRBeHVhUWU3WGluc19CUnR6R3ZfLUhQam9IRXpva0pyc21IRktfOXp0OU93a3B6aXdMNEVVZXdsR2VJc0QyMXN1UzlKWTFCZWZ6VXNLSGpOMmFTSkMwUV9MUHF1REp3RVJXVno2azFYdk5ndDYya2laUnpVSlQzaXVwZmxTMEkyRWhYOWpyeERmWDc2bmdyZFk4OE1NZ2FaNUhhS2dnME81RUROelRVTFY3RDRGajUyWF94MGhYcXQzUHM0Q0xTX2I0NXJEOE03ZmUyeXR4THBJWGZpb1RHVGN4eFdTZkM5dERjOEhXVVhRaXJEa25rZ2Jqb3c1ajRmdjNwcEZRS2hEYy05?oc=5",
-        "title": "Bangladesh News | পুজোর মুখে ফের বাংলাদেশে তাণ্ডব! ভাঙল দুর্গামূর্তি! #shorts #zee24ghanta #bangladesh #durgapuja2026",
-        "link": "https://news.google.com/rss/articles/CBMipAVBVV95cUxNYlhBLUo2b3lNbkZuSXEzbi1wSWhhemo5VGpvVEctZUhGM1ptRzRZMXZnQmkyZ0pJU0FnZ0pkU2c3SVJ5b09nZ3dVM3l5MFoxcHJxYkZrTGpSS2drWkJCck80YjhnQlRHT2tjZ3UtMTRFWW1zdE5ub29lOVdSMjY5WTRXenFhTUtNV2dVdUk3VUVPYUJsT0hHUWdqMzVhaTRKV0dQcjVPWUxMdmlBVV9PVFowVEwwZDdtQVZRbzg1N1FySkhDWXlmNmRrcHM2SFVCSFV4Xzc4ZzBOMGJqRG9sVjhjTDIzdUdxS0VraWNQWGVXbnNoTTVpMVVNQXFfU0RVNE5nb1hVcTNONUZpdzd6TVZuM1l2blZDX0tGNHdIeGtYbzJLNS0yNUpJQTI1ejlFY3lWNXlUWGh5cjViS0NTeEhNTDFqa01YMmFsclh3U2hVa2Rpak5DU29kWkZjeVZtMkZGR01BQjNMZ25Db1RhVlhfaUpWSzVvcktodExHV1Bad0g4aFZvdTgwUGcyUkhNUGFoNkp6V0l3ejU5OWtJcmRBeHVhUWU3WGluc19CUnR6R3ZfLUhQam9IRXpva0pyc21IRktfOXp0OU93a3B6aXdMNEVVZXdsR2VJc0QyMXN1UzlKWTFCZWZ6VXNLSGpOMmFTSkMwUV9MUHF1REp3RVJXVno2azFYdk5ndDYya2laUnpVSlQzaXVwZmxTMEkyRWhYOWpyeERmWDc2bmdyZFk4OE1NZ2FaNUhhS2dnME81RUROelRVTFY3RDRGajUyWF94MGhYcXQzUHM0Q0xTX2I0NXJEOE03ZmUyeXR4THBJWGZpb1RHVGN4eFdTZkM5dERjOEhXVVhRaXJEa25rZ2Jqb3c1ajRmdjNwcEZRS2hEYy05?oc=5",
-        "source": "Facebook",
+        "id": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdDNVem9IT0g3djROY3ZNczR3WVhuWVFpRWY5WUFwZU9lZmplSTJGemt4Tlp0RXJnWTA2ZXlZci01UTV4SFJ0eXJkNnpGdnlLWDByWEJScWVLOC1BR3luR0U2NF80N3Y3eWF6d1F5RUt6VmcwZEZJWU82dzl5NUVFaThjTlN6aGpMcTRYZWZ3aDBfbUNUU2JmcjZ5Uy0yaFdSTmx0QUh3cndpTjlXN0ZlOGVreGVyQVBsSjdIUWZycVhuUkV3T3FoWGhfMEk?oc=5",
+        "title": "হাসিনার দেশ ছাড়ার ভিডিয়ো ফাঁসের শাস্তি? পাইলটের রহস্যমৃত্যুতে তোলপাড় বাংলাদেশ",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdDNVem9IT0g3djROY3ZNczR3WVhuWVFpRWY5WUFwZU9lZmplSTJGemt4Tlp0RXJnWTA2ZXlZci01UTV4SFJ0eXJkNnpGdnlLWDByWEJScWVLOC1BR3luR0U2NF80N3Y3eWF6d1F5RUt6VmcwZEZJWU82dzl5NUVFaThjTlN6aGpMcTRYZWZ3aDBfbUNUU2JmcjZ5Uy0yaFdSTmx0QUh3cndpTjlXN0ZlOGVreGVyQVBsSjdIUWZycVhuUkV3T3FoWGhfMEk?oc=5",
+        "source": "Anandabazar Patrika",
         "publisherUrl": "",
-        "publishedAt": "Sun, 11 Oct 2026 07:00:00 GMT",
-        "summary": "Bangladesh News | পুজোর মুখে ফের বাংলাদেশে তাণ্ডব! ভাঙল দুর্গামূর্তি! #shorts #zee24ghanta #bangladesh #durgapuja2026 &nbsp;&nbsp; Facebook",
-        "image": "https://scontent-sea5-1.xx.fbcdn.net/v/t15.5256-10/843300609_1081460438208458_4922845900342597803_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=596eb7&_nc_ohc=GvXq_5KEEt8Q7kNvwGydzHB&_nc_oc=AdpVR-5VZ98DZuSyhx3RPWXEPzD4BL9Hap3xBuz1E-JTkc0_HoyKA_opssAogF4fWC4&_nc_zt=23&_nc_ht=scontent-sea5-1.xx&_nc_gid=YsloMV94KgYJCoULa9xjAQ&_nc_ss=70289&oh=00_AQQGmYgkWdEW0wMnLTeaDND41goMDDuzn8cmST-BUc-cvA&oe=6AF63BD2",
-        "articleUrl": "https://www.facebook.com/Zee24Ghanta/videos/bangladesh-news-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%87-%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%A4%E0%A6%BE%E0%A6%A3%E0%A7%8D%E0%A6%A1%E0%A6%AC-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A6%B2-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-shorts-zee24gh/2220502735200387/",
-        "imageAttemptedAt": "",
+        "publishedAt": "Sat, 31 Oct 2026 17:04:00 GMT",
+        "summary": "হাসিনার দেশ ছাড়ার ভিডিয়ো ফাঁসের শাস্তি? পাইলটের রহস্যমৃত্যুতে তোলপাড় বাংলাদেশ &nbsp;&nbsp; Anandabazar Patrika",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.anandabazar.com/video/former-bangladesh-air-force-pilot-km-tahsif-souri-found-dead-amid-political-storm-dgtl/cid/1723217",
+        "imageAttemptedAt": "2026-11-08T20:09:08.361Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMDVmSWxXTFdqZFM5R2gxdHNmc3N6aEpqSVdKRVN5QXg3TXVJNXY5YzVDczhJQ1dwRTlGZWNELTV1bnJmM1d3eTYxdkJ5cWt6bmpNbEtCZ2JhejIwMUZJUjR6aFFPU1hGMy1JUC0yaVFET0sxQlJKcm9USUN3WV8tTWhablhCbThiRE1YeVVLZzRuS3Y4WjFmdnhZMEptSEtrcEZ3cGZ2ak15b2Rxa1JIb1RFQ1lrN3VveXpVdUl3SjNyLWEyYXBxcGQ2X3Y0UDdCeVhF?oc=5",
+        "title": "বাংলাদেশে রবীন্দ্রনাথের প্রতিকৃতিতে ফের কালি",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMDVmSWxXTFdqZFM5R2gxdHNmc3N6aEpqSVdKRVN5QXg3TXVJNXY5YzVDczhJQ1dwRTlGZWNELTV1bnJmM1d3eTYxdkJ5cWt6bmpNbEtCZ2JhejIwMUZJUjR6aFFPU1hGMy1JUC0yaVFET0sxQlJKcm9USUN3WV8tTWhablhCbThiRE1YeVVLZzRuS3Y4WjFmdnhZMEptSEtrcEZ3cGZ2ak15b2Rxa1JIb1RFQ1lrN3VveXpVdUl3SjNyLWEyYXBxcGQ2X3Y0UDdCeVhF?oc=5",
+        "source": "Aaro Ananda",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 12:15:00 GMT",
+        "summary": "বাংলাদেশে রবীন্দ্রনাথের প্রতিকৃতিতে ফের কালি &nbsp;&nbsp; Aaro Ananda",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.aaroananda.com/story/latest-news/breaking-news/rabindranath-tagore-portrait-vandalized-in-bangladesh-railway-station/11027443",
+        "imageAttemptedAt": "2026-11-08T22:49:08.712Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       }
     ],
@@ -943,19 +943,6 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsQUpTWUpBaFlYSGw4T0tVdGdZcEg3ekR6YUV3WjVuMjYzYzZaYkxNVjA2XzZUUGlVUGNfaDJvREJiTVAzSU1DUDc2Z0V0eXFtSzBTWFNIdHNKcjEtSlE?oc=5",
-        "title": "অস্বাস্থ্যকর পরিবেশে খাদ্য উৎপাদন; দুই প্রতিষ্ঠানকে জরিমানা",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsQUpTWUpBaFlYSGw4T0tVdGdZcEg3ekR6YUV3WjVuMjYzYzZaYkxNVjA2XzZUUGlVUGNfaDJvREJiTVAzSU1DUDc2Z0V0eXFtSzBTWFNIdHNKcjEtSlE?oc=5",
-        "source": "এখন টিভি",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 12:31:54 GMT",
-        "summary": "অস্বাস্থ্যকর পরিবেশে খাদ্য উৎপাদন; দুই প্রতিষ্ঠানকে জরিমানা &nbsp;&nbsp; এখন টিভি",
-        "image": "https://images.ekhon.tv/Ovijan-9-1200x630.webp",
-        "articleUrl": "https://ekhon.tv/country/6af06b03c178ce3c3b74a934",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZcVNVRXpZVU5rYmlha2xXOGFhYmo4Y0E2UzNxMENFYnh5aUxFamVmV3pSNThaT3FLX2dTNGdWX19FRVIzOW1Id1paNnlRTGNMSHJENzJ1R3VWb0RnMG440gFkQVVfeXFMTWRCTlZyd3h1eGFUMUI1S1hJbVlLYmZvRE50Q0Nid1I4cFAwLU9QWVl4VzdZRHJ6WmkwMmZVYjZwc3NFdEdYVDluWFk1bF9QQmxXTndyUFlBYWNQVFVfSG9sWkFYYg?oc=5",
         "title": "রান্নার হাঁড়ি পাতিলে বিষাক্ত সিসা, 'খোঁজখবর নেওয়ারও কেউ নেই'",
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZcVNVRXpZVU5rYmlha2xXOGFhYmo4Y0E2UzNxMENFYnh5aUxFamVmV3pSNThaT3FLX2dTNGdWX19FRVIzOW1Id1paNnlRTGNMSHJENzJ1R3VWb0RnMG440gFkQVVfeXFMTWRCTlZyd3h1eGFUMUI1S1hJbVlLYmZvRE50Q0Nid1I4cFAwLU9QWVl4VzdZRHJ6WmkwMmZVYjZwc3NFdEdYVDluWFk1bF9QQmxXTndyUFlBYWNQVFVfSG9sWkFYYg?oc=5",
@@ -966,6 +953,19 @@
         "image": "news-fallbacks/food.svg",
         "articleUrl": "https://www.bbc.com/bengali/articles/c3qjn5l7jv4do",
         "imageAttemptedAt": "2026-11-08T18:42:04.371Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsQUpTWUpBaFlYSGw4T0tVdGdZcEg3ekR6YUV3WjVuMjYzYzZaYkxNVjA2XzZUUGlVUGNfaDJvREJiTVAzSU1DUDc2Z0V0eXFtSzBTWFNIdHNKcjEtSlE?oc=5",
+        "title": "অস্বাস্থ্যকর পরিবেশে খাদ্য উৎপাদন; দুই প্রতিষ্ঠানকে জরিমানা",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsQUpTWUpBaFlYSGw4T0tVdGdZcEg3ekR6YUV3WjVuMjYzYzZaYkxNVjA2XzZUUGlVUGNfaDJvREJiTVAzSU1DUDc2Z0V0eXFtSzBTWFNIdHNKcjEtSlE?oc=5",
+        "source": "এখন টিভি",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 12:31:54 GMT",
+        "summary": "অস্বাস্থ্যকর পরিবেশে খাদ্য উৎপাদন; দুই প্রতিষ্ঠানকে জরিমানা &nbsp;&nbsp; এখন টিভি",
+        "image": "https://images.ekhon.tv/Ovijan-9-1200x630.webp",
+        "articleUrl": "https://ekhon.tv/country/6af06b03c178ce3c3b74a934",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -987,10 +987,10 @@
   "imageStats": {
     "total": 74,
     "fromRss": 0,
-    "fromArticleMetadata": 19,
-    "reusedCached": 19,
-    "actualPhotos": 19,
-    "fallbackIllustrations": 55,
+    "fromArticleMetadata": 18,
+    "reusedCached": 18,
+    "actualPhotos": 18,
+    "fallbackIllustrations": 56,
     "withImage": 74,
     "withoutImage": 0
   }
