@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-08T18:42:02.308Z",
+  "generatedAt": "2026-11-08T19:25:41.441Z",
   "sponsors": {
     "somoy": [
       {
@@ -57,6 +57,19 @@
       }
     ],
     "maasranga": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiOEFVX3lxTE1SQWZlV1NjdWMxdjU1R1JsWFJybEszeVBHcUJfeHBweFhnSjhKUW1mLWMyNkdhSC1V?oc=5",
+        "title": "Maasranga Television – A Concern of Square Group",
+        "link": "https://news.google.com/rss/articles/CBMiOEFVX3lxTE1SQWZlV1NjdWMxdjU1R1JsWFJybEszeVBHcUJfeHBweFhnSjhKUW1mLWMyNkdhSC1V?oc=5",
+        "source": "Maasranga TV",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 19 Jun 2018 07:09:07 GMT",
+        "summary": "Maasranga Television – A Concern of Square Group &nbsp;&nbsp; Maasranga Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "",
+        "imageAttemptedAt": "2026-11-08T19:25:42.512Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
       {
         "id": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zNHNxQXJyQkVOOHdWVk5fNHBpVWZZdmNoWVFBWWdBdHU5OXZZNnlQTDBVR29DYUxqUmUwQk5vQ1VmM1BmT3BEZ1BPWEtTNVIzdE02ODdkTzlTdDFELUEwT19Kaks3V3Y0MGwtNUpYNA?oc=5",
         "title": "মাছরাঙা নাটক/টেলিফিল্ম – Page 2",
@@ -172,151 +185,6 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/category/maasranga-islamic-shows/",
         "imageAttemptedAt": "2026-11-08T05:19:52.541Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE00SnF6bVZmUlhlcFZuNkNLREpvb0NNOE9yZkJ3UldBZTlDZnE1a2FlemdQQ1ZwSnVubW5tOFJEQlFpNU9YejBxMWpqc25qSVc0TU9aWXppNTE?oc=5",
-        "title": "Category: মাছরাঙা কিডস",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE00SnF6bVZmUlhlcFZuNkNLREpvb0NNOE9yZkJ3UldBZTlDZnE1a2FlemdQQ1ZwSnVubW5tOFJEQlFpNU9YejBxMWpqc25qSVc0TU9aWXppNTE?oc=5",
-        "source": "Maasranga TV",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 16 Jan 2024 10:46:52 GMT",
-        "summary": "Category: মাছরাঙা কিডস &nbsp;&nbsp; Maasranga Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://maasranga.tv/category/maasranga-kids/",
-        "imageAttemptedAt": "2026-11-08T07:34:04.885Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      }
-    ],
-    "jamuna": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
-        "title": "Most Popular Television in Bangladesh",
-        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 13 Apr 2023 17:30:30 GMT",
-        "summary": "Most Popular Television in Bangladesh &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "",
-        "imageAttemptedAt": "2026-11-08T15:08:19.571Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1QYTlyb3B6bkQwQzhMWHRNRmlXUXBpZ2NvOW91SXI2MzVVbDRyY3JWd0ZDTzRnSjBvTXhiam9vRS1zR1NJcWhtMXNRRUxiZw?oc=5",
-        "title": "সংসদের কার্য উপদেষ্টা কমিটির বৈঠক শুরু, যোগ দিয়েছেন প্রধানমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1QYTlyb3B6bkQwQzhMWHRNRmlXUXBpZ2NvOW91SXI2MzVVbDRyY3JWd0ZDTzRnSjBvTXhiam9vRS1zR1NJcWhtMXNRRUxiZw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 10:51:24 GMT",
-        "summary": "সংসদের কার্য উপদেষ্টা কমিটির বৈঠক শুরু, যোগ দিয়েছেন প্রধানমন্ত্রী &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667630",
-        "imageAttemptedAt": "2026-11-08T13:33:24.113Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5RLUpnd21jZjUyTzNyTERUcDN3V040YU5hOW91SndTRFVSTkh6V2x6cDc3eHBMTmVwbThqMVJ3LVJNYUpyVmp6YmZONzJqUQ?oc=5",
-        "title": "সোমবার বিকেলে বসছে সংসদের চতুর্থ অধিবেশন",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5RLUpnd21jZjUyTzNyTERUcDN3V040YU5hOW91SndTRFVSTkh6V2x6cDc3eHBMTmVwbThqMVJ3LVJNYUpyVmp6YmZONzJqUQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 11:52:53 GMT",
-        "summary": "সোমবার বিকেলে বসছে সংসদের চতুর্থ অধিবেশন &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667631",
-        "imageAttemptedAt": "2026-11-08T14:23:23.804Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12U0FsN3p1MkxuWFNKZlhRV0NZN09oT0Y0MWJ2UFZVcnVlZ3NmYkdFdDYyRjIyMzBzbVRxU05SeTItX3FMLTNabldhMWJjdw?oc=5",
-        "title": "নিঃশর্ত ক্ষমা চাইতে পরীমনিকে আইনি নোটিশ",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12U0FsN3p1MkxuWFNKZlhRV0NZN09oT0Y0MWJ2UFZVcnVlZ3NmYkdFdDYyRjIyMzBzbVRxU05SeTItX3FMLTNabldhMWJjdw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 04:41:45 GMT",
-        "summary": "নিঃশর্ত ক্ষমা চাইতে পরীমনিকে আইনি নোটিশ &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667596",
-        "imageAttemptedAt": "2026-11-08T07:34:04.885Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LTHdwbDh4QTNuZ21XNjhpaDhYcFdKSkc4ekRvWG5mOVNXVTl1YXdGM1JILWt0R0pyZDlfU2lrOWVvTHN0Vl9uTWZpZ1VnZw?oc=5",
-        "title": "বিচার বিভাগকে সবচেয়ে বেশি ক্ষতি করেছে বুদ্ধিবৃত্তিক দুর্নীতি: আইনমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LTHdwbDh4QTNuZ21XNjhpaDhYcFdKSkc4ekRvWG5mOVNXVTl1YXdGM1JILWt0R0pyZDlfU2lrOWVvTHN0Vl9uTWZpZ1VnZw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 04:51:30 GMT",
-        "summary": "বিচার বিভাগকে সবচেয়ে বেশি ক্ষতি করেছে বুদ্ধিবৃত্তিক দুর্নীতি: আইনমন্ত্রী &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667597",
-        "imageAttemptedAt": "2026-11-08T14:23:23.804Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vMXRzdEpSbXZXU1FLQmhQLWQyRVNKM2V0MHJtdm9kS2hVWFdMa3ZQWTV2VGcwLXZTcU1FQkpJX3F2MVlhbGhNZlpnMG4yaHp4R3RjZw?oc=5",
-        "title": "'বিশ্বযুদ্ধে ইহুদিদের ওপর সংঘটিত গণহত্যার দায় অস্বীকার করলে মুসলিম অভিবাসীদের ছাড়তে হবে জার্মানি'",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vMXRzdEpSbXZXU1FLQmhQLWQyRVNKM2V0MHJtdm9kS2hVWFdMa3ZQWTV2VGcwLXZTcU1FQkpJX3F2MVlhbGhNZlpnMG4yaHp4R3RjZw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 13:14:55 GMT",
-        "summary": "'বিশ্বযুদ্ধে ইহুদিদের ওপর সংঘটিত গণহত্যার দায় অস্বীকার করলে মুসলিম অভিবাসীদের ছাড়তে হবে জার্মানি' &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/international/667576",
-        "imageAttemptedAt": "2026-11-08T08:29:09.617Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPdnBqNXdEamRFNzBrYUlQQ0NQVTJfMlFxQlhYd3lZYVlPcUdBSGx2SlVHdlk5TXFsU2pwTjVvQ0QtYkZIb2F5NVlFVldMQQ?oc=5",
-        "title": "দ্রব্যমূল্য বৃদ্ধির প্রতিবাদে রাজধানীতে জামায়াতের বিক্ষোভ",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPdnBqNXdEamRFNzBrYUlQQ0NQVTJfMlFxQlhYd3lZYVlPcUdBSGx2SlVHdlk5TXFsU2pwTjVvQ0QtYkZIb2F5NVlFVldMQQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 12:46:54 GMT",
-        "summary": "দ্রব্যমূল্য বৃদ্ধির প্রতিবাদে রাজধানীতে জামায়াতের বিক্ষোভ &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667635",
-        "imageAttemptedAt": "2026-11-08T15:08:19.571Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9GOGhNV0NpSnpyalptRjRhSldmMWYzYUVQdkJwVjFpTU5MblhMQXViMFlqd1pWaEg4WkVDN0RCNWFZYWZLMVRLZTJ5cw?oc=5",
-        "title": "শীতের ভ্রমণে জনপ্রিয় দেশের ১০ দর্শনীয় স্থান",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9GOGhNV0NpSnpyalptRjRhSldmMWYzYUVQdkJwVjFpTU5MblhMQXViMFlqd1pWaEg4WkVDN0RCNWFZYWZLMVRLZTJ5cw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 09:22:13 GMT",
-        "summary": "শীতের ভ্রমণে জনপ্রিয় দেশের ১০ দর্শনীয় স্থান &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/travel/667515",
-        "imageAttemptedAt": "2026-11-08T14:23:23.804Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4tVG83WWRRUk9QOWVQeXBnelB2a3p0YXhSSm1jQkppZXVENTRqNEJ2N3lONmRTN2ZhblUzaHZKUHBvV3c4UUVGSTNzTThydw?oc=5",
-        "title": "এসআরবির মহাপরিচালকের দায়িত্ব নিলেন অতিরিক্ত আইজিপি ফারুক আহমেদ",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4tVG83WWRRUk9QOWVQeXBnelB2a3p0YXhSSm1jQkppZXVENTRqNEJ2N3lONmRTN2ZhblUzaHZKUHBvV3c4UUVGSTNzTThydw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 07:47:59 GMT",
-        "summary": "এসআরবির মহাপরিচালকের দায়িত্ব নিলেন অতিরিক্ত আইজিপি ফারুক আহমেদ &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667617",
-        "imageAttemptedAt": "2026-11-08T14:23:23.804Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43UGNHVVVxa1BMbHlHNVVuRDRlOE53S1ZtajR4bTRVT21EOExxWF9RWFhRZjBpS09MblNEaC1qemRoNG56VnZxbjdGVzl4YU1JV21KWg?oc=5",
-        "title": "যুদ্ধ আবার শুরু করলে ভয়াবহ জবাব পাবে যুক্তরাষ্ট্র: রেজাই",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43UGNHVVVxa1BMbHlHNVVuRDRlOE53S1ZtajR4bTRVT21EOExxWF9RWFhRZjBpS09MblNEaC1qemRoNG56VnZxbjdGVzl4YU1JV21KWg?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 07:04:55 GMT",
-        "summary": "যুদ্ধ আবার শুরু করলে ভয়াবহ জবাব পাবে যুক্তরাষ্ট্র: রেজাই &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/international/667613",
-        "imageAttemptedAt": "2026-11-08T18:42:04.371Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -449,6 +317,138 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.ntvbd.com/video/ntv-news/evening-news/evening-news-08-november-2026",
         "imageAttemptedAt": "2026-11-08T18:42:04.371Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      }
+    ],
+    "jamuna": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
+        "title": "Most Popular Television in Bangladesh",
+        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 13 Apr 2023 17:30:30 GMT",
+        "summary": "Most Popular Television in Bangladesh &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "",
+        "imageAttemptedAt": "2026-11-08T15:08:19.571Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9jMXh6X0tPZi1qRWdhZ2JCcTluUS1sMHNnaFQ4Z3Z5T0xmS3NFVktOWGxVdWI5Q3BLU00ycGFOdmZLYjRxeml5Q292bWtFdw?oc=5",
+        "title": "ঢাকা মহানগর উত্তর যুবদলের দুই সদস্যের আংশিক আহ্বায়ক কমিটি ঘোষণা",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9jMXh6X0tPZi1qRWdhZ2JCcTluUS1sMHNnaFQ4Z3Z5T0xmS3NFVktOWGxVdWI5Q3BLU00ycGFOdmZLYjRxeml5Q292bWtFdw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 06:45:51 GMT",
+        "summary": "ঢাকা মহানগর উত্তর যুবদলের দুই সদস্যের আংশিক আহ্বায়ক কমিটি ঘোষণা &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/politics/667609",
+        "imageAttemptedAt": "2026-11-08T19:25:42.512Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1QYTlyb3B6bkQwQzhMWHRNRmlXUXBpZ2NvOW91SXI2MzVVbDRyY3JWd0ZDTzRnSjBvTXhiam9vRS1zR1NJcWhtMXNRRUxiZw?oc=5",
+        "title": "সংসদের কার্য উপদেষ্টা কমিটির বৈঠক শুরু, যোগ দিয়েছেন প্রধানমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1QYTlyb3B6bkQwQzhMWHRNRmlXUXBpZ2NvOW91SXI2MzVVbDRyY3JWd0ZDTzRnSjBvTXhiam9vRS1zR1NJcWhtMXNRRUxiZw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 10:51:24 GMT",
+        "summary": "সংসদের কার্য উপদেষ্টা কমিটির বৈঠক শুরু, যোগ দিয়েছেন প্রধানমন্ত্রী &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667630",
+        "imageAttemptedAt": "2026-11-08T13:33:24.113Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5RLUpnd21jZjUyTzNyTERUcDN3V040YU5hOW91SndTRFVSTkh6V2x6cDc3eHBMTmVwbThqMVJ3LVJNYUpyVmp6YmZONzJqUQ?oc=5",
+        "title": "সোমবার বিকেলে বসছে সংসদের চতুর্থ অধিবেশন",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5RLUpnd21jZjUyTzNyTERUcDN3V040YU5hOW91SndTRFVSTkh6V2x6cDc3eHBMTmVwbThqMVJ3LVJNYUpyVmp6YmZONzJqUQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 11:52:53 GMT",
+        "summary": "সোমবার বিকেলে বসছে সংসদের চতুর্থ অধিবেশন &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667631",
+        "imageAttemptedAt": "2026-11-08T14:23:23.804Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12U0FsN3p1MkxuWFNKZlhRV0NZN09oT0Y0MWJ2UFZVcnVlZ3NmYkdFdDYyRjIyMzBzbVRxU05SeTItX3FMLTNabldhMWJjdw?oc=5",
+        "title": "নিঃশর্ত ক্ষমা চাইতে পরীমনিকে আইনি নোটিশ",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12U0FsN3p1MkxuWFNKZlhRV0NZN09oT0Y0MWJ2UFZVcnVlZ3NmYkdFdDYyRjIyMzBzbVRxU05SeTItX3FMLTNabldhMWJjdw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 04:41:45 GMT",
+        "summary": "নিঃশর্ত ক্ষমা চাইতে পরীমনিকে আইনি নোটিশ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667596",
+        "imageAttemptedAt": "2026-11-08T07:34:04.885Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LTHdwbDh4QTNuZ21XNjhpaDhYcFdKSkc4ekRvWG5mOVNXVTl1YXdGM1JILWt0R0pyZDlfU2lrOWVvTHN0Vl9uTWZpZ1VnZw?oc=5",
+        "title": "বিচার বিভাগকে সবচেয়ে বেশি ক্ষতি করেছে বুদ্ধিবৃত্তিক দুর্নীতি: আইনমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LTHdwbDh4QTNuZ21XNjhpaDhYcFdKSkc4ekRvWG5mOVNXVTl1YXdGM1JILWt0R0pyZDlfU2lrOWVvTHN0Vl9uTWZpZ1VnZw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 04:51:30 GMT",
+        "summary": "বিচার বিভাগকে সবচেয়ে বেশি ক্ষতি করেছে বুদ্ধিবৃত্তিক দুর্নীতি: আইনমন্ত্রী &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667597",
+        "imageAttemptedAt": "2026-11-08T14:23:23.804Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vMXRzdEpSbXZXU1FLQmhQLWQyRVNKM2V0MHJtdm9kS2hVWFdMa3ZQWTV2VGcwLXZTcU1FQkpJX3F2MVlhbGhNZlpnMG4yaHp4R3RjZw?oc=5",
+        "title": "'বিশ্বযুদ্ধে ইহুদিদের ওপর সংঘটিত গণহত্যার দায় অস্বীকার করলে মুসলিম অভিবাসীদের ছাড়তে হবে জার্মানি'",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vMXRzdEpSbXZXU1FLQmhQLWQyRVNKM2V0MHJtdm9kS2hVWFdMa3ZQWTV2VGcwLXZTcU1FQkpJX3F2MVlhbGhNZlpnMG4yaHp4R3RjZw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 13:14:55 GMT",
+        "summary": "'বিশ্বযুদ্ধে ইহুদিদের ওপর সংঘটিত গণহত্যার দায় অস্বীকার করলে মুসলিম অভিবাসীদের ছাড়তে হবে জার্মানি' &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/international/667576",
+        "imageAttemptedAt": "2026-11-08T08:29:09.617Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPdnBqNXdEamRFNzBrYUlQQ0NQVTJfMlFxQlhYd3lZYVlPcUdBSGx2SlVHdlk5TXFsU2pwTjVvQ0QtYkZIb2F5NVlFVldMQQ?oc=5",
+        "title": "দ্রব্যমূল্য বৃদ্ধির প্রতিবাদে রাজধানীতে জামায়াতের বিক্ষোভ",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPdnBqNXdEamRFNzBrYUlQQ0NQVTJfMlFxQlhYd3lZYVlPcUdBSGx2SlVHdlk5TXFsU2pwTjVvQ0QtYkZIb2F5NVlFVldMQQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 12:46:54 GMT",
+        "summary": "দ্রব্যমূল্য বৃদ্ধির প্রতিবাদে রাজধানীতে জামায়াতের বিক্ষোভ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667635",
+        "imageAttemptedAt": "2026-11-08T15:08:19.571Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9GOGhNV0NpSnpyalptRjRhSldmMWYzYUVQdkJwVjFpTU5MblhMQXViMFlqd1pWaEg4WkVDN0RCNWFZYWZLMVRLZTJ5cw?oc=5",
+        "title": "শীতের ভ্রমণে জনপ্রিয় দেশের ১০ দর্শনীয় স্থান",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9GOGhNV0NpSnpyalptRjRhSldmMWYzYUVQdkJwVjFpTU5MblhMQXViMFlqd1pWaEg4WkVDN0RCNWFZYWZLMVRLZTJ5cw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 06 Nov 2026 09:22:13 GMT",
+        "summary": "শীতের ভ্রমণে জনপ্রিয় দেশের ১০ দর্শনীয় স্থান &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/travel/667515",
+        "imageAttemptedAt": "2026-11-08T14:23:23.804Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4tVG83WWRRUk9QOWVQeXBnelB2a3p0YXhSSm1jQkppZXVENTRqNEJ2N3lONmRTN2ZhblUzaHZKUHBvV3c4UUVGSTNzTThydw?oc=5",
+        "title": "এসআরবির মহাপরিচালকের দায়িত্ব নিলেন অতিরিক্ত আইজিপি ফারুক আহমেদ",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4tVG83WWRRUk9QOWVQeXBnelB2a3p0YXhSSm1jQkppZXVENTRqNEJ2N3lONmRTN2ZhblUzaHZKUHBvV3c4UUVGSTNzTThydw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 07:47:59 GMT",
+        "summary": "এসআরবির মহাপরিচালকের দায়িত্ব নিলেন অতিরিক্ত আইজিপি ফারুক আহমেদ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667617",
+        "imageAttemptedAt": "2026-11-08T14:23:23.804Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -891,19 +891,6 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ydXc4U1pRN19xbVJ1b0NPWTZFZGM4eUx6OHlacU1QMVpKLWlmbm80RlgwNVpDbkZseXlKWWZ3cjNicmk1dkswX0FkQWY5eVpjUjFucXRYOHVOYjdiVXpIZVlXcFljeTg?oc=5",
-        "title": "খুলনায় মেয়ের খাবার কিনতে গিয়ে শিক্ষা কার্যালয়ের হিসাবরক্ষক গুলিবিদ্ধ",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ydXc4U1pRN19xbVJ1b0NPWTZFZGM4eUx6OHlacU1QMVpKLWlmbm80RlgwNVpDbkZseXlKWWZ3cjNicmk1dkswX0FkQWY5eVpjUjFucXRYOHVOYjdiVXpIZVlXcFljeTg?oc=5",
-        "source": "bdnews24.com",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 16:57:00 GMT",
-        "summary": "খুলনায় মেয়ের খাবার কিনতে গিয়ে শিক্ষা কার্যালয়ের হিসাবরক্ষক গুলিবিদ্ধ &nbsp;&nbsp; bdnews24.com",
-        "image": "https://media.assettype.com/bdnews24/2026-11-08/h08p07zo/khulna-shoot-mosiur-081126-01.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=https%3A%2F%2Fmedia.assettype.com%2Fbdnews24%2F2024-03%2Fbd25ee42-9003-4385-9b0a-c68a56ac9b0a%2Fbdnews24_1200_temp_12032024.jpg&overlay_position=bottom&overlay_width=100",
-        "articleUrl": "https://bangla.bdnews24.com/samagrabangladesh/g1cym8xnwa",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xbVhMalV3cjdFR0E5UWt0cVo5MmNHZkRxNlQtYlprZXZ4V19RVFAxdndhYVduamRSUlRvbkN4QjExRFdVSlJEZm9OTTBtYjJTUDRvWGtpV2VXVUk?oc=5",
         "title": "খুলনায় মেয়ের জন্য খাবার কিনতে গিয়ে শিক্ষা অফিসের কর্মকর্তা গুলিবিদ্ধ",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xbVhMalV3cjdFR0E5UWt0cVo5MmNHZkRxNlQtYlprZXZ4V19RVFAxdndhYVduamRSUlRvbkN4QjExRFdVSlJEZm9OTTBtYjJTUDRvWGtpV2VXVUk?oc=5",
@@ -914,6 +901,19 @@
         "image": "news-fallbacks/food.svg",
         "articleUrl": "https://www.jagonews24.com/country/news/1177223",
         "imageAttemptedAt": "2026-11-08T17:16:43.029Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ydXc4U1pRN19xbVJ1b0NPWTZFZGM4eUx6OHlacU1QMVpKLWlmbm80RlgwNVpDbkZseXlKWWZ3cjNicmk1dkswX0FkQWY5eVpjUjFucXRYOHVOYjdiVXpIZVlXcFljeTg?oc=5",
+        "title": "খুলনায় মেয়ের খাবার কিনতে গিয়ে শিক্ষা কার্যালয়ের হিসাবরক্ষক গুলিবিদ্ধ",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ydXc4U1pRN19xbVJ1b0NPWTZFZGM4eUx6OHlacU1QMVpKLWlmbm80RlgwNVpDbkZseXlKWWZ3cjNicmk1dkswX0FkQWY5eVpjUjFucXRYOHVOYjdiVXpIZVlXcFljeTg?oc=5",
+        "source": "bdnews24.com",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 16:57:00 GMT",
+        "summary": "খুলনায় মেয়ের খাবার কিনতে গিয়ে শিক্ষা কার্যালয়ের হিসাবরক্ষক গুলিবিদ্ধ &nbsp;&nbsp; bdnews24.com",
+        "image": "https://media.assettype.com/bdnews24/2026-11-08/h08p07zo/khulna-shoot-mosiur-081126-01.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=https%3A%2F%2Fmedia.assettype.com%2Fbdnews24%2F2024-03%2Fbd25ee42-9003-4385-9b0a-c68a56ac9b0a%2Fbdnews24_1200_temp_12032024.jpg&overlay_position=bottom&overlay_width=100",
+        "articleUrl": "https://bangla.bdnews24.com/samagrabangladesh/g1cym8xnwa",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -943,19 +943,6 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LRlhUUEUzMkJtUWQzYWFmLTBycmVtUEdVVXNZTFJJTTJDN0h4Rnl5eDNCXzNWckp1MnVyNTNBRnZGZjRKcE1JLUVRN0FWTnNSakstVg?oc=5",
-        "title": "টেস্টোস্টেরনের স্বাভাবিক মাত্রা বজায় রাখতে সহায়ক যেসব খাবার",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LRlhUUEUzMkJtUWQzYWFmLTBycmVtUEdVVXNZTFJJTTJDN0h4Rnl5eDNCXzNWckp1MnVyNTNBRnZGZjRKcE1JLUVRN0FWTnNSakstVg?oc=5",
-        "source": "Jugantor",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 13:02:16 GMT",
-        "summary": "টেস্টোস্টেরনের স্বাভাবিক মাত্রা বজায় রাখতে সহায়ক যেসব খাবার &nbsp;&nbsp; Jugantor",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.jugantor.com/lifestyle/1181057",
-        "imageAttemptedAt": "2026-11-08T17:16:43.029Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZcVNVRXpZVU5rYmlha2xXOGFhYmo4Y0E2UzNxMENFYnh5aUxFamVmV3pSNThaT3FLX2dTNGdWX19FRVIzOW1Id1paNnlRTGNMSHJENzJ1R3VWb0RnMG440gFkQVVfeXFMTWRCTlZyd3h1eGFUMUI1S1hJbVlLYmZvRE50Q0Nid1I4cFAwLU9QWVl4VzdZRHJ6WmkwMmZVYjZwc3NFdEdYVDluWFk1bF9QQmxXTndyUFlBYWNQVFVfSG9sWkFYYg?oc=5",
         "title": "রান্নার হাঁড়ি পাতিলে বিষাক্ত সিসা, 'খোঁজখবর নেওয়ারও কেউ নেই'",
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZcVNVRXpZVU5rYmlha2xXOGFhYmo4Y0E2UzNxMENFYnh5aUxFamVmV3pSNThaT3FLX2dTNGdWX19FRVIzOW1Id1paNnlRTGNMSHJENzJ1R3VWb0RnMG440gFkQVVfeXFMTWRCTlZyd3h1eGFUMUI1S1hJbVlLYmZvRE50Q0Nid1I4cFAwLU9QWVl4VzdZRHJ6WmkwMmZVYjZwc3NFdEdYVDluWFk1bF9QQmxXTndyUFlBYWNQVFVfSG9sWkFYYg?oc=5",
@@ -969,16 +956,29 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV2ZnOFlaYUlYQnlzd0w1SWpmX2YzXzdnZkRITWVJLTRRbG9TRWZUelEwTUIwTUVDT2hWdWRrcG9rLWdqVGlMVWtwS2JzQmhSc2RoNDZocXE3cGFGeTFYdEZwSUVpTk83empqZ213S3NwWVBKN3VMOXl1aGkwenkwRmRieTB5QUFPdWhiZG5xLXBsRmRoLXNzbjZlX0lvc3BtUHRtdDVuX1dGRG8?oc=5",
-        "title": "কাঁড়ি কাঁড়ি টাকা খরচ না করেই বাড়িতেই বানান সিফুড বয়েল! কীভাবে? রইল সহজ রেসিপি",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV2ZnOFlaYUlYQnlzd0w1SWpmX2YzXzdnZkRITWVJLTRRbG9TRWZUelEwTUIwTUVDT2hWdWRrcG9rLWdqVGlMVWtwS2JzQmhSc2RoNDZocXE3cGFGeTFYdEZwSUVpTk83empqZ213S3NwWVBKN3VMOXl1aGkwenkwRmRieTB5QUFPdWhiZG5xLXBsRmRoLXNzbjZlX0lvc3BtUHRtdDVuX1dGRG8?oc=5",
-        "source": "Aajkaal",
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LRlhUUEUzMkJtUWQzYWFmLTBycmVtUEdVVXNZTFJJTTJDN0h4Rnl5eDNCXzNWckp1MnVyNTNBRnZGZjRKcE1JLUVRN0FWTnNSakstVg?oc=5",
+        "title": "টেস্টোস্টেরনের স্বাভাবিক মাত্রা বজায় রাখতে সহায়ক যেসব খাবার",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LRlhUUEUzMkJtUWQzYWFmLTBycmVtUEdVVXNZTFJJTTJDN0h4Rnl5eDNCXzNWckp1MnVyNTNBRnZGZjRKcE1JLUVRN0FWTnNSakstVg?oc=5",
+        "source": "Jugantor",
         "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 11:15:00 GMT",
-        "summary": "কাঁড়ি কাঁড়ি টাকা খরচ না করেই বাড়িতেই বানান সিফুড বয়েল! কীভাবে? রইল সহজ রেসিপি &nbsp;&nbsp; Aajkaal",
-        "image": "https://cdn.aajkaal.in/uploads/images/2026/11/08/d0a88894-d67f-41a2-b547-8f5b1a6d29ac.webp",
-        "articleUrl": "https://www.aajkaal.in/gallery/viral-seafood-boil-recipe-know-how-to-cook-this-in-easy-steps-at-home-519869",
-        "imageAttemptedAt": "",
+        "publishedAt": "Sun, 08 Nov 2026 13:02:16 GMT",
+        "summary": "টেস্টোস্টেরনের স্বাভাবিক মাত্রা বজায় রাখতে সহায়ক যেসব খাবার &nbsp;&nbsp; Jugantor",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.jugantor.com/lifestyle/1181057",
+        "imageAttemptedAt": "2026-11-08T17:16:43.029Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB2d1JXd1lTTUkwVkNUMHRGVHpxbWpydXFQR24xeVpXc0hRN1VXblpUSF9aVUFtTm5xRFoxc3czNzNhUlI1c0ZzQXVOb2zSAVJBVV95cUxOaGxRZVUxWnVYTURYaURISlFlMXNYNG5YdC0weGU0M0g3a2NBUDdoQkxXZXIzWmVXRzh0Ml9XejdrN29QNU1MazRyYi1OR3FyMUJR?oc=5",
+        "title": "খুলনায় মেয়ের জন্য খাবার কিনতে গিয়ে হিসাবরক্ষক গুলিবিদ্ধ",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB2d1JXd1lTTUkwVkNUMHRGVHpxbWpydXFQR24xeVpXc0hRN1VXblpUSF9aVUFtTm5xRFoxc3czNzNhUlI1c0ZzQXVOb2zSAVJBVV95cUxOaGxRZVUxWnVYTURYaURISlFlMXNYNG5YdC0weGU0M0g3a2NBUDdoQkxXZXIzWmVXRzh0Ml9XejdrN29QNU1MazRyYi1OR3FyMUJR?oc=5",
+        "source": "Dhaka Mail",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 16:09:35 GMT",
+        "summary": "খুলনায় মেয়ের জন্য খাবার কিনতে গিয়ে হিসাবরক্ষক গুলিবিদ্ধ &nbsp;&nbsp; Dhaka Mail",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://dhakamail.com/country/341793",
+        "imageAttemptedAt": "2026-11-08T19:25:42.512Z",
         "imageFallback": "news-fallbacks/food.svg"
       }
     ]
@@ -987,10 +987,10 @@
   "imageStats": {
     "total": 74,
     "fromRss": 0,
-    "fromArticleMetadata": 19,
+    "fromArticleMetadata": 18,
     "reusedCached": 18,
-    "actualPhotos": 19,
-    "fallbackIllustrations": 55,
+    "actualPhotos": 18,
+    "fallbackIllustrations": 56,
     "withImage": 74,
     "withoutImage": 0
   }
