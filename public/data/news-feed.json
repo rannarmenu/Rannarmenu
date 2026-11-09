@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-08T23:29:30.690Z",
+  "generatedAt": "2026-11-09T00:08:36.454Z",
   "sponsors": {
     "somoy": [
       {
@@ -586,6 +586,138 @@
     ]
   },
   "categories": {
+    "international": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfR1JTLUFRNHlPUzl6dUpvcVZhOW5YbHlXRkFFN1JpUGo2RUZkQXBTa2t4djU1VWpVT0U1OEtJUnRhZEJZamNRY0pyT0RaaXVqOU1laFJLeVBOb25Ra3V2czNIYw?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৮ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfR1JTLUFRNHlPUzl6dUpvcVZhOW5YbHlXRkFFN1JpUGo2RUZkQXBTa2t4djU1VWpVT0U1OEtJUnRhZEJZamNRY0pyT0RaaXVqOU1laFJLeVBOb25Ra3V2czNIYw?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 15:58:01 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৮ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1177218",
+        "imageAttemptedAt": "2026-11-08T17:16:43.029Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KRl8ybEJ1c3Q5dmo0N2tEX1dGZVJ6aHljWU1COUJzNzA3MmU0ckk4ZG05eHExdGRlNi1rSXJSVnpsNmxwQVRqTnIzLUNUdG91ZDAtSHBTdlRCMVk?oc=5",
+        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৮ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KRl8ybEJ1c3Q5dmo0N2tEX1dGZVJ6aHljWU1COUJzNzA3MmU0ckk4ZG05eHExdGRlNi1rSXJSVnpsNmxwQVRqTnIzLUNUdG91ZDAtSHBTdlRCMVk?oc=5",
+        "source": "Somoy News",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 08:00:00 GMT",
+        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৮ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
+        "image": "https://img.youtube.com/vi/tbcu1JfrZGg/maxresdefault.jpg",
+        "articleUrl": "https://somoynews.com.bd/video/latest-video/340",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRQklOY3Z1bUNwSTQweC00R2l0Skg2aGJ5S29ZVC1KLUYzcFptZ2ExQ0psOTNwY1J0V1diZDcySXVEeFg2ZnBQTUEyYjNzb1hpbzMtUHk5V1g1VU9VM2YweGlsVQ?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৭ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRQklOY3Z1bUNwSTQweC00R2l0Skg2aGJ5S29ZVC1KLUYzcFptZ2ExQ0psOTNwY1J0V1diZDcySXVEeFg2ZnBQTUEyYjNzb1hpbzMtUHk5V1g1VU9VM2YweGlsVQ?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 16:00:54 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৭ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1176824",
+        "imageAttemptedAt": "2026-11-08T03:19:52.099Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qWmhnSUVlX1ZlM1JWSTZzS2RVbjFIMk1rRFRUS185c01VQ1hCb3QwbXRvd1dkc2t4VnIyWDc0Nk4xRG0xb19HUWRJeV9zUGFVcE1uUENkVmZJODA?oc=5",
+        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৪ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qWmhnSUVlX1ZlM1JWSTZzS2RVbjFIMk1rRFRUS185c01VQ1hCb3QwbXRvd1dkc2t4VnIyWDc0Nk4xRG0xb19HUWRJeV9zUGFVcE1uUENkVmZJODA?oc=5",
+        "source": "Somoy News",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 04 Nov 2026 18:21:51 GMT",
+        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
+        "image": "https://img.youtube.com/vi/DjqZJ9aO74w/maxresdefault.jpg",
+        "articleUrl": "https://somoynews.com.bd/video/latest-video/289",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91VEJadWhLVzllVlpTemZ4N3Q3Q1F6TDdzcXZ2eThISVd0dEd4TEpEa2Ewc3ZUZ1NqdW5sNkttc0dkcHZjNjRJUnQ2RUhhVUQ2Z0JzSnkwRkN4bWx4eTc4Q2lvenAwUQ?oc=5",
+        "title": "🔴LIVE: আজকের টপ আন্তর্জাতিক সংবাদ | BBC World News Bangla | 10 Sep 2026 | বিশ্বজুড়ে এখন যা ঘটছে Freeview (vHhpalSIXU)",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91VEJadWhLVzllVlpTemZ4N3Q3Q1F6TDdzcXZ2eThISVd0dEd4TEpEa2Ewc3ZUZ1NqdW5sNkttc0dkcHZjNjRJUnQ2RUhhVUQ2Z0JzSnkwRkN4bWx4eTc4Q2lvenAwUQ?oc=5",
+        "source": "Unisba Media",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 06:43:38 GMT",
+        "summary": "🔴LIVE: আজকের টপ আন্তর্জাতিক সংবাদ | BBC World News Bangla | 10 Sep 2026 | বিশ্বজুড়ে এখন যা ঘটছে Freeview (vHhpalSIXU) &nbsp;&nbsp; Unisba Media",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://media.unisba.ac.id/789cbec1/cffc979asbYXKmsmGyo",
+        "imageAttemptedAt": "2026-11-08T11:00:44.234Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1maVVKeTd5RTQ2OURWaUNRS0g0MG1vQXExdnFFSzZ0WkJqVGVzNUpWS2RrQ1FESl9wMG0zSnZ5VTdIRjZPblYwaVNVTHJWSTJjblh6Y0VoUTRBUHFCM2R4NE5nMA?oc=5",
+        "title": "ইরানে সরকারবিরোধী বিক্ষোভ: ৩ জনের মৃত্যুদণ্ড কার্যকর",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1maVVKeTd5RTQ2OURWaUNRS0g0MG1vQXExdnFFSzZ0WkJqVGVzNUpWS2RrQ1FESl9wMG0zSnZ5VTdIRjZPblYwaVNVTHJWSTJjblh6Y0VoUTRBUHFCM2R4NE5nMA?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 09:32:47 GMT",
+        "summary": "ইরানে সরকারবিরোধী বিক্ষোভ: ৩ জনের মৃত্যুদণ্ড কার্যকর &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1177036",
+        "imageAttemptedAt": "2026-11-08T22:10:37.392Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRU1ZeDltMUZ4bmZDZklVal9tYWpfVVZ5R0RIMnE3Wnh1bklVekhsaVRybUpSQ3JCSlN1Z2lWSVdUX2VMWEZUX3dZc0lxV1BncUR1OVh1ZkQ0NFdzTktIa0Y5OVd6S3VjeGJxTkhGRzdPaGNLRWZPZG13VGl2cXh2VDRoMVZmaEE5N1ZDbkRmSHlLQU5vcHpReHJYdW1yNDFsRmI3VjQ0cEl2WF9HaTZr?oc=5",
+        "title": "বিশ্ব নেতৃত্ব ধরে রাখতে ট্রাম্পের নতুন বাহিনী গঠন, নাম ‘এসআইএফ’",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRU1ZeDltMUZ4bmZDZklVal9tYWpfVVZ5R0RIMnE3Wnh1bklVekhsaVRybUpSQ3JCSlN1Z2lWSVdUX2VMWEZUX3dZc0lxV1BncUR1OVh1ZkQ0NFdzTktIa0Y5OVd6S3VjeGJxTkhGRzdPaGNLRWZPZG13VGl2cXh2VDRoMVZmaEE5N1ZDbkRmSHlLQU5vcHpReHJYdW1yNDFsRmI3VjQ0cEl2WF9HaTZr?oc=5",
+        "source": "স্টার নিউজ",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 04 Oct 2026 07:00:00 GMT",
+        "summary": "বিশ্ব নেতৃত্ব ধরে রাখতে ট্রাম্পের নতুন বাহিনী গঠন, নাম ‘এসআইএফ’ &nbsp;&nbsp; স্টার নিউজ",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://starnews.com.bd/international/25348/trump-forms-new-force-named-sif-to-maintain-global-leadership.html",
+        "imageAttemptedAt": "2026-11-09T00:08:37.172Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ha0d0Wm11aGVUdy1EX0JVREJkb1JjLUhCWE9tLVJCanc1Y0IxdkFsWXZrZi1lamFRZ2d0b0tNd1FFUk5nRkF2S0c1X09ENXFwNW5tbzBNMGdXaGJx?oc=5",
+        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ২ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ha0d0Wm11aGVUdy1EX0JVREJkb1JjLUhCWE9tLVJCanc1Y0IxdkFsWXZrZi1lamFRZ2d0b0tNd1FFUk5nRkF2S0c1X09ENXFwNW5tbzBNMGdXaGJx?oc=5",
+        "source": "Somoy News",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 02 Nov 2026 17:47:26 GMT",
+        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ২ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
+        "image": "https://img.youtube.com/vi/fW_JbicJT2I/maxresdefault.jpg",
+        "articleUrl": "https://somoynews.com.bd/video/video-gallery/249",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BY18tNFlsWjJTQ1NTdFg5OWl0VjBISnVQTEdrVGpDZ2hWRUdodzNuLWpfbll1aVJFVEdIMkJlelluU0V3SmxKV3pEa1p3UUdVVnBGSENkbHpfZHlGaVA4eFlGcw?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BY18tNFlsWjJTQ1NTdFg5OWl0VjBISnVQTEdrVGpDZ2hWRUdodzNuLWpfbll1aVJFVEdIMkJlelluU0V3SmxKV3pEa1p3UUdVVnBGSENkbHpfZHlGaVA4eFlGcw?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 20 Oct 2026 07:00:00 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1170369",
+        "imageAttemptedAt": "2026-11-08T03:19:52.099Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SQ1U3NmFxMVFEdUVkbk1iSjJjdGZ5UTlsbWJCUXRJOC1oWnkydXlkT09hbkpZQUhpS2xYRjJmNE5tazF2Tl9JRFktc3ozRjBacFd4dW1vQjVfY2daN0IxSDhDOA?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২২ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SQ1U3NmFxMVFEdUVkbk1iSjJjdGZ5UTlsbWJCUXRJOC1oWnkydXlkT09hbkpZQUhpS2xYRjJmNE5tazF2Tl9JRFktc3ozRjBacFd4dW1vQjVfY2daN0IxSDhDOA?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২২ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1171027",
+        "imageAttemptedAt": "2026-11-08T03:19:52.099Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      }
+    ],
     "bangladesh": [
       {
         "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLS1FQ05ST3RJbUZ5MklENFotRzVhVXoyTWRITVhyWEVxUUxLRUFQOC1sbG9kWk1mUzU2RlUyZnliblJ6ZmZIMXZnaVBCUVZlZnhyMTRpbFBtWHduWENLXzVuZFotVEtKRGhDTDZGZmpaQ2VSazRvLXd0VUQxQU5FNS1aTlgwVTBOR1YwOTcxbWs1Qk1HaUtHV1Z5aTFuLTJ1UXY3LVByanE3ZVp6c0pCZ3U3bnZhUdIBuwFBVV95cUxOODllb25XNW5qLV9xQ3k2bHdLd1N0TXpDRE1fcTl6T1Btajc5WnByMmVLeTJrSlJXRlpWV240NjZCSlNJWmpSU1ZjVEZtYzRBN2c0ZUNqQmltSWJObnNhNEZnb2FadW0wLTdaZ0RGdTNEa0V1ZlZ5RHBicWVUZjNwRXlaRGNIQ3V6amVLamdGU2RpaWdmSzB5YlFtYVI2cVlrVXlMR1QtUTB3YjhvV21iVVRkLXZKR2sySExN?oc=5",
@@ -718,138 +850,6 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       }
     ],
-    "international": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfR1JTLUFRNHlPUzl6dUpvcVZhOW5YbHlXRkFFN1JpUGo2RUZkQXBTa2t4djU1VWpVT0U1OEtJUnRhZEJZamNRY0pyT0RaaXVqOU1laFJLeVBOb25Ra3V2czNIYw?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৮ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfR1JTLUFRNHlPUzl6dUpvcVZhOW5YbHlXRkFFN1JpUGo2RUZkQXBTa2t4djU1VWpVT0U1OEtJUnRhZEJZamNRY0pyT0RaaXVqOU1laFJLeVBOb25Ra3V2czNIYw?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 15:58:01 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৮ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1177218",
-        "imageAttemptedAt": "2026-11-08T17:16:43.029Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KRl8ybEJ1c3Q5dmo0N2tEX1dGZVJ6aHljWU1COUJzNzA3MmU0ckk4ZG05eHExdGRlNi1rSXJSVnpsNmxwQVRqTnIzLUNUdG91ZDAtSHBTdlRCMVk?oc=5",
-        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৮ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KRl8ybEJ1c3Q5dmo0N2tEX1dGZVJ6aHljWU1COUJzNzA3MmU0ckk4ZG05eHExdGRlNi1rSXJSVnpsNmxwQVRqTnIzLUNUdG91ZDAtSHBTdlRCMVk?oc=5",
-        "source": "Somoy News",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 08:00:00 GMT",
-        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৮ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
-        "image": "https://img.youtube.com/vi/tbcu1JfrZGg/maxresdefault.jpg",
-        "articleUrl": "https://somoynews.com.bd/video/latest-video/340",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRQklOY3Z1bUNwSTQweC00R2l0Skg2aGJ5S29ZVC1KLUYzcFptZ2ExQ0psOTNwY1J0V1diZDcySXVEeFg2ZnBQTUEyYjNzb1hpbzMtUHk5V1g1VU9VM2YweGlsVQ?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৭ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRQklOY3Z1bUNwSTQweC00R2l0Skg2aGJ5S29ZVC1KLUYzcFptZ2ExQ0psOTNwY1J0V1diZDcySXVEeFg2ZnBQTUEyYjNzb1hpbzMtUHk5V1g1VU9VM2YweGlsVQ?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 16:00:54 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৭ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1176824",
-        "imageAttemptedAt": "2026-11-08T03:19:52.099Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fdENURjlQcXVndWJtR0ZHNVVFYncxTzdFWHBGdUhUSXNRdy00ZG9uS200UzNndzNnaWVZZE5UZnNRVndQa0hOU2s5ZHZWRVkxX2hxRzhGRjlKLUE?oc=5",
-        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৭ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fdENURjlQcXVndWJtR0ZHNVVFYncxTzdFWHBGdUhUSXNRdy00ZG9uS200UzNndzNnaWVZZE5UZnNRVndQa0hOU2s5ZHZWRVkxX2hxRzhGRjlKLUE?oc=5",
-        "source": "Somoy News",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 06 Nov 2026 08:00:00 GMT",
-        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৭ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
-        "image": "https://img.youtube.com/vi/G5fV-nMBu9o/maxresdefault.jpg",
-        "articleUrl": "https://somoynews.com.bd/video/latest-video/326",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91VEJadWhLVzllVlpTemZ4N3Q3Q1F6TDdzcXZ2eThISVd0dEd4TEpEa2Ewc3ZUZ1NqdW5sNkttc0dkcHZjNjRJUnQ2RUhhVUQ2Z0JzSnkwRkN4bWx4eTc4Q2lvenAwUQ?oc=5",
-        "title": "🔴LIVE: আজকের টপ আন্তর্জাতিক সংবাদ | BBC World News Bangla | 10 Sep 2026 | বিশ্বজুড়ে এখন যা ঘটছে Freeview (vHhpalSIXU)",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91VEJadWhLVzllVlpTemZ4N3Q3Q1F6TDdzcXZ2eThISVd0dEd4TEpEa2Ewc3ZUZ1NqdW5sNkttc0dkcHZjNjRJUnQ2RUhhVUQ2Z0JzSnkwRkN4bWx4eTc4Q2lvenAwUQ?oc=5",
-        "source": "Unisba Media",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 06:43:38 GMT",
-        "summary": "🔴LIVE: আজকের টপ আন্তর্জাতিক সংবাদ | BBC World News Bangla | 10 Sep 2026 | বিশ্বজুড়ে এখন যা ঘটছে Freeview (vHhpalSIXU) &nbsp;&nbsp; Unisba Media",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://media.unisba.ac.id/789cbec1/cffc979asbYXKmsmGyo",
-        "imageAttemptedAt": "2026-11-08T11:00:44.234Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1maVVKeTd5RTQ2OURWaUNRS0g0MG1vQXExdnFFSzZ0WkJqVGVzNUpWS2RrQ1FESl9wMG0zSnZ5VTdIRjZPblYwaVNVTHJWSTJjblh6Y0VoUTRBUHFCM2R4NE5nMA?oc=5",
-        "title": "ইরানে সরকারবিরোধী বিক্ষোভ: ৩ জনের মৃত্যুদণ্ড কার্যকর",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1maVVKeTd5RTQ2OURWaUNRS0g0MG1vQXExdnFFSzZ0WkJqVGVzNUpWS2RrQ1FESl9wMG0zSnZ5VTdIRjZPblYwaVNVTHJWSTJjblh6Y0VoUTRBUHFCM2R4NE5nMA?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 09:32:47 GMT",
-        "summary": "ইরানে সরকারবিরোধী বিক্ষোভ: ৩ জনের মৃত্যুদণ্ড কার্যকর &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1177036",
-        "imageAttemptedAt": "2026-11-08T22:10:37.392Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qWmhnSUVlX1ZlM1JWSTZzS2RVbjFIMk1rRFRUS185c01VQ1hCb3QwbXRvd1dkc2t4VnIyWDc0Nk4xRG0xb19HUWRJeV9zUGFVcE1uUENkVmZJODA?oc=5",
-        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৪ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qWmhnSUVlX1ZlM1JWSTZzS2RVbjFIMk1rRFRUS185c01VQ1hCb3QwbXRvd1dkc2t4VnIyWDc0Nk4xRG0xb19HUWRJeV9zUGFVcE1uUENkVmZJODA?oc=5",
-        "source": "Somoy News",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 04 Nov 2026 18:21:51 GMT",
-        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
-        "image": "https://img.youtube.com/vi/DjqZJ9aO74w/maxresdefault.jpg",
-        "articleUrl": "https://somoynews.com.bd/video/latest-video/289",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BY18tNFlsWjJTQ1NTdFg5OWl0VjBISnVQTEdrVGpDZ2hWRUdodzNuLWpfbll1aVJFVEdIMkJlelluU0V3SmxKV3pEa1p3UUdVVnBGSENkbHpfZHlGaVA4eFlGcw?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BY18tNFlsWjJTQ1NTdFg5OWl0VjBISnVQTEdrVGpDZ2hWRUdodzNuLWpfbll1aVJFVEdIMkJlelluU0V3SmxKV3pEa1p3UUdVVnBGSENkbHpfZHlGaVA4eFlGcw?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 20 Oct 2026 07:00:00 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1170369",
-        "imageAttemptedAt": "2026-11-08T03:19:52.099Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ha0d0Wm11aGVUdy1EX0JVREJkb1JjLUhCWE9tLVJCanc1Y0IxdkFsWXZrZi1lamFRZ2d0b0tNd1FFUk5nRkF2S0c1X09ENXFwNW5tbzBNMGdXaGJx?oc=5",
-        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ২ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ha0d0Wm11aGVUdy1EX0JVREJkb1JjLUhCWE9tLVJCanc1Y0IxdkFsWXZrZi1lamFRZ2d0b0tNd1FFUk5nRkF2S0c1X09ENXFwNW5tbzBNMGdXaGJx?oc=5",
-        "source": "Somoy News",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 02 Nov 2026 17:47:26 GMT",
-        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ২ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
-        "image": "https://img.youtube.com/vi/fW_JbicJT2I/maxresdefault.jpg",
-        "articleUrl": "https://somoynews.com.bd/video/video-gallery/249",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SQ1U3NmFxMVFEdUVkbk1iSjJjdGZ5UTlsbWJCUXRJOC1oWnkydXlkT09hbkpZQUhpS2xYRjJmNE5tazF2Tl9JRFktc3ozRjBacFd4dW1vQjVfY2daN0IxSDhDOA?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২২ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SQ1U3NmFxMVFEdUVkbk1iSjJjdGZ5UTlsbWJCUXRJOC1oWnkydXlkT09hbkpZQUhpS2xYRjJmNE5tazF2Tl9JRFktc3ozRjBacFd4dW1vQjVfY2daN0IxSDhDOA?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 22 Oct 2026 07:00:00 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২২ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1171027",
-        "imageAttemptedAt": "2026-11-08T03:19:52.099Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      }
-    ],
     "food": [
       {
         "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52T2ZMRHVkVUpOSTl2UTZuSXBpV0lWOXJjYlhQcDdmdjc0dTFlN19Zd1hPQVRLR2NZRldRMF80dXJwS2lPRUJvX3RUQTdiU0I4bTRIdEhuZmxMVy1YV25QWlV0cWpIUS1X0gF2QVVfeXFMTXpBWERDSmE0cTQxSm5EcHViV1pRRWNMNGM2Y0lMUXFmYklDdnUyS1hrMXdmaWw0aHUxN3VXUFpzaFRSOVp6azduQ3RLdFhNMFl4RjgwSjduVk5fYllVbDR6ZzRTREh3OTRZN1NqYUFsekxOR1FQdw?oc=5",
@@ -969,16 +969,16 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBURmprTWZteFZlWXNLeDRyZVRlMTVrbXRLQXc4cXlmcFhiLU9VSGdwQUI1MFFTVlhUYXVya3lhSG4zM05qUlI2MWVVYUdPUDA2eVFldWNWRQ?oc=5",
-        "title": "মেয়ের খাবার কিনতে গিয়ে গুলিবিদ্ধ শিক্ষা অফিসের হিসাবরক্ষক",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBURmprTWZteFZlWXNLeDRyZVRlMTVrbXRLQXc4cXlmcFhiLU9VSGdwQUI1MFFTVlhUYXVya3lhSG4zM05qUlI2MWVVYUdPUDA2eVFldWNWRQ?oc=5",
-        "source": "thenews24.com",
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LRlhUUEUzMkJtUWQzYWFmLTBycmVtUEdVVXNZTFJJTTJDN0h4Rnl5eDNCXzNWckp1MnVyNTNBRnZGZjRKcE1JLUVRN0FWTnNSakstVg?oc=5",
+        "title": "টেস্টোস্টেরনের স্বাভাবিক মাত্রা বজায় রাখতে সহায়ক যেসব খাবার",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LRlhUUEUzMkJtUWQzYWFmLTBycmVtUEdVVXNZTFJJTTJDN0h4Rnl5eDNCXzNWckp1MnVyNTNBRnZGZjRKcE1JLUVRN0FWTnNSakstVg?oc=5",
+        "source": "Jugantor",
         "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 17:06:22 GMT",
-        "summary": "মেয়ের খাবার কিনতে গিয়ে গুলিবিদ্ধ শিক্ষা অফিসের হিসাবরক্ষক &nbsp;&nbsp; thenews24.com",
-        "image": "https://sgp1.digitaloceanspaces.com/tn24.s3/media/imgAll/2026November/cropped-1794154824-ynl6xuaa-1794157582.jpg",
-        "articleUrl": "https://www.thenews24.com/country/news/93964",
-        "imageAttemptedAt": "",
+        "publishedAt": "Sun, 08 Nov 2026 13:02:16 GMT",
+        "summary": "টেস্টোস্টেরনের স্বাভাবিক মাত্রা বজায় রাখতে সহায়ক যেসব খাবার &nbsp;&nbsp; Jugantor",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.jugantor.com/lifestyle/1181057",
+        "imageAttemptedAt": "2026-11-09T00:08:37.172Z",
         "imageFallback": "news-fallbacks/food.svg"
       }
     ]
@@ -987,10 +987,10 @@
   "imageStats": {
     "total": 74,
     "fromRss": 0,
-    "fromArticleMetadata": 20,
+    "fromArticleMetadata": 18,
     "reusedCached": 18,
-    "actualPhotos": 20,
-    "fallbackIllustrations": 54,
+    "actualPhotos": 18,
+    "fallbackIllustrations": 56,
     "withImage": 74,
     "withoutImage": 0
   }
