@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-09T04:32:19.942Z",
+  "generatedAt": "2026-11-09T05:41:57.928Z",
   "sponsors": {
     "somoy": [
       {
@@ -106,7 +106,7 @@
         "summary": "জনপ্রিয় তুর্কি সিরিয়াল ‘বড়ো ভাই’ &nbsp;&nbsp; Maasranga Television",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/%E0%A6%A4%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF-%E0%A6%B8%E0%A6%BF%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B2-%E0%A6%AC%E0%A6%A1%E0%A6%BC%E0%A7%8B-%E0%A6%AD%E0%A6%BE%E0%A6%87/",
-        "imageAttemptedAt": "2026-11-08T05:19:52.541Z",
+        "imageAttemptedAt": "2026-11-09T05:42:01.077Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -119,7 +119,7 @@
         "summary": "2 &nbsp;&nbsp; Maasranga Television",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/2/",
-        "imageAttemptedAt": "2026-11-08T05:19:52.541Z",
+        "imageAttemptedAt": "2026-11-09T05:42:01.077Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -132,7 +132,7 @@
         "summary": "বিনোদন সারাদিন – Page 2 &nbsp;&nbsp; Maasranga Television",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/category/binodon-saradin/page/2/",
-        "imageAttemptedAt": "2026-11-08T05:19:52.541Z",
+        "imageAttemptedAt": "2026-11-09T05:42:01.077Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -158,7 +158,7 @@
         "summary": "Masud Alam | Interview | Talk Show | Maasranga Ranga Shokal &nbsp;&nbsp; Maasranga Television",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/masud-alam-interview-talk-show-maasranga-ranga-shokal/",
-        "imageAttemptedAt": "2026-11-08T05:19:52.541Z",
+        "imageAttemptedAt": "2026-11-09T05:42:01.077Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -171,7 +171,7 @@
         "summary": "মাছরাঙা নাটক/টেলিফিল্ম – Page 6 &nbsp;&nbsp; Maasranga Television",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/category/maasranga-drama-telefilm/page/6/",
-        "imageAttemptedAt": "2026-11-08T05:19:52.541Z",
+        "imageAttemptedAt": "2026-11-09T05:42:01.077Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -184,7 +184,7 @@
         "summary": "Category: মাছরাঙা ইসলামিক শো &nbsp;&nbsp; Maasranga Television",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/category/maasranga-islamic-shows/",
-        "imageAttemptedAt": "2026-11-08T05:19:52.541Z",
+        "imageAttemptedAt": "2026-11-09T05:42:01.077Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -200,6 +200,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "",
         "imageAttemptedAt": "2026-11-08T15:08:19.571Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE81aXRSTWExS0ljUGNHUVV2UUNVM3pjT1NLSjMxUFl5LWFSdGxJSGNjVHBBZkFrXzYwdHNLV1Y5X0c3Z0Jxd0dFVENRcEEtUQ?oc=5",
+        "title": "ত্রয়োদশ জাতীয় সংসদের চতুর্থ অধিবেশন শুরু হচ্ছে আজ",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE81aXRSTWExS0ljUGNHUVV2UUNVM3pjT1NLSjMxUFl5LWFSdGxJSGNjVHBBZkFrXzYwdHNLV1Y5X0c3Z0Jxd0dFVENRcEEtUQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 09 Nov 2026 02:35:04 GMT",
+        "summary": "ত্রয়োদশ জাতীয় সংসদের চতুর্থ অধিবেশন শুরু হচ্ছে আজ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667652",
+        "imageAttemptedAt": "2026-11-09T05:42:01.077Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -305,19 +318,6 @@
         "articleUrl": "https://www.jamuna.tv/international/667578",
         "imageAttemptedAt": "2026-11-09T01:22:09.011Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1QYTlyb3B6bkQwQzhMWHRNRmlXUXBpZ2NvOW91SXI2MzVVbDRyY3JWd0ZDTzRnSjBvTXhiam9vRS1zR1NJcWhtMXNRRUxiZw?oc=5",
-        "title": "সংসদের কার্য উপদেষ্টা কমিটির বৈঠক শুরু, যোগ দিয়েছেন প্রধানমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1QYTlyb3B6bkQwQzhMWHRNRmlXUXBpZ2NvOW91SXI2MzVVbDRyY3JWd0ZDTzRnSjBvTXhiam9vRS1zR1NJcWhtMXNRRUxiZw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 10:51:24 GMT",
-        "summary": "সংসদের কার্য উপদেষ্টা কমিটির বৈঠক শুরু, যোগ দিয়েছেন প্রধানমন্ত্রী &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667630",
-        "imageAttemptedAt": "2026-11-08T13:33:24.113Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
     "channel24": [
@@ -332,19 +332,6 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "",
         "imageAttemptedAt": "2026-11-08T23:29:33.296Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMivwVBVV95cUxPeTRVWDNfM3RreDJ0VGpBOE9TRkwza2lJXzRxMUNXcm03emdBM2tWNnY0bF9fdS1BVG1wRklUeno0UjBlM2Qtal82V2lJT0lGN2hidHBSSHRSUS1RSDZMVi1teGZ1WXhGNzVwY0toNm9GaEgtbi1jWm9VWW5rNXRSY1MxVTE4RWVQV1FnbEZlZzVfeVBUU0cyZ1Q4NlFNaEM1eS1mOUg4c1BnNTRkUFQ4MlBvSms3dHBKMEVxSDFTb1pnSWVJY28zU19BSjYtRDBTOWVPd2t4VjdjcnJqejlKX3lLalVfN2lfalI4bEY5WUx2NjNybTVpTHNUUjU0NTgxQXJpbURiVTVfSnFaR1NMSW90ZHEwY05NYkx1alUtbENmN01ZWGVJS0pwZDR1cTlweVJsLTZBV1NLQ1ZsRGZLUE5EakVGN2RSRkkyRUwyWnBpS2kyVmRZdXU0bGNRUlkwUE5USDY0ZEIzXzFZaDFQSU9XdTI4SUYtSDZQX2tGa0duSENtT0pGSGZ5OS1Xd2lqeHh5X0YtR1A3TUdUanpQYjNabWI1VnRNcEY4M0xENkRkTUl6ODlreEstemxBVi1QUUVKZDRJVktfTHV0WG9nWkJlM0VwUlBLa0xENHFwUUhRYWFfejQyaWNKVkxxc185S2NSck9sRnpsMlJhZzNVUGItNktpak9yN09rNlhRWXZId3I5Wm1XRFE0VVhGQlNTTV9MT2JoNFZCX1JfalhaUXdJYTN2OFlvMGNsTi1aZzFlSTdSYW1VWkdRazVVVFl4WG9FUGhIZGxSRTZOaE1Pbm9taFdhMld5dmRBR203dGhlVENSLU1fQXNDNWxrMzNheDhOY1l4cjJ3UGJ0SWJpSC03RHRMWEFHZF9RNjJQT3lZd2dUMUNYcHJuVnpKbjlsbWt0aVNWeVVuOW0wajRr?oc=5",
-        "title": "ফ্রি বিমান টিকিটসহ বিনা খরচে ওমরাহর সুযোগ, যেভাবে অংশ নেবেন",
-        "link": "https://news.google.com/rss/articles/CBMivwVBVV95cUxPeTRVWDNfM3RreDJ0VGpBOE9TRkwza2lJXzRxMUNXcm03emdBM2tWNnY0bF9fdS1BVG1wRklUeno0UjBlM2Qtal82V2lJT0lGN2hidHBSSHRSUS1RSDZMVi1teGZ1WXhGNzVwY0toNm9GaEgtbi1jWm9VWW5rNXRSY1MxVTE4RWVQV1FnbEZlZzVfeVBUU0cyZ1Q4NlFNaEM1eS1mOUg4c1BnNTRkUFQ4MlBvSms3dHBKMEVxSDFTb1pnSWVJY28zU19BSjYtRDBTOWVPd2t4VjdjcnJqejlKX3lLalVfN2lfalI4bEY5WUx2NjNybTVpTHNUUjU0NTgxQXJpbURiVTVfSnFaR1NMSW90ZHEwY05NYkx1alUtbENmN01ZWGVJS0pwZDR1cTlweVJsLTZBV1NLQ1ZsRGZLUE5EakVGN2RSRkkyRUwyWnBpS2kyVmRZdXU0bGNRUlkwUE5USDY0ZEIzXzFZaDFQSU9XdTI4SUYtSDZQX2tGa0duSENtT0pGSGZ5OS1Xd2lqeHh5X0YtR1A3TUdUanpQYjNabWI1VnRNcEY4M0xENkRkTUl6ODlreEstemxBVi1QUUVKZDRJVktfTHV0WG9nWkJlM0VwUlBLa0xENHFwUUhRYWFfejQyaWNKVkxxc185S2NSck9sRnpsMlJhZzNVUGItNktpak9yN09rNlhRWXZId3I5Wm1XRFE0VVhGQlNTTV9MT2JoNFZCX1JfalhaUXdJYTN2OFlvMGNsTi1aZzFlSTdSYW1VWkdRazVVVFl4WG9FUGhIZGxSRTZOaE1Pbm9taFdhMld5dmRBR203dGhlVENSLU1fQXNDNWxrMzNheDhOY1l4cjJ3UGJ0SWJpSC03RHRMWEFHZF9RNjJQT3lZd2dUMUNYcHJuVnpKbjlsbWt0aVNWeVVuOW0wajRr?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 12:14:00 GMT",
-        "summary": "ফ্রি বিমান টিকিটসহ বিনা খরচে ওমরাহর সুযোগ, যেভাবে অংশ নেবেন &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026November/PLATE/omrah-1794053694.jpg",
-        "articleUrl": "https://www.channel24bd.tv/international/article/357427/%E0%A6%AB%E0%A7%8D%E0%A6%B0%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%9F%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A6%9F%E0%A6%B8%E0%A6%B9-%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BE-%E0%A6%96%E0%A6%B0%E0%A6%9A%E0%A7%87-%E0%A6%93%E0%A6%AE%E0%A6%B0%E0%A6%BE%E0%A6%B9%E0%A6%B0-%E0%A6%B8%E0%A7%81%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%AF%E0%A7%87%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%85%E0%A6%82%E0%A6%B6-%E0%A6%A8%E0%A7%87%E0%A6%AC%E0%A7%87%E0%A6%A8",
-        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -450,6 +437,19 @@
         "articleUrl": "https://www.channel24bd.tv/crime/article/350534/%E0%A6%95%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%AA%E0%A6%B2%E0%A6%BE%E0%A6%B6-%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%B9-%E0%A7%A8%E0%A7%AD-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%BF-%E2%80%98%E0%A6%AA%E0%A6%BF%E0%A6%9A%E0%A7%8D%E0%A6%9A%E0%A6%BF-%E0%A6%86%E0%A6%B2-%E0%A6%86%E0%A6%AE%E0%A6%BF%E0%A6%A8%E2%80%99-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0QVFKeE5pMWlwWnZGOWZjYi14aTZZbk1JcDFoN2FaVlQ5MGlJT0xFQVJFRjVlM2tSZkI1dHBZYUZHRnRhcTVzMFZ1MkFGbzMyZUJkcQ?oc=5",
+        "title": "LIVE TV - Channel 24",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0QVFKeE5pMWlwWnZGOWZjYi14aTZZbk1JcDFoN2FaVlQ5MGlJT0xFQVJFRjVlM2tSZkI1dHBZYUZHRnRhcTVzMFZ1MkFGbzMyZUJkcQ?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 12 Jun 2022 07:00:00 GMT",
+        "summary": "LIVE TV &nbsp;&nbsp; Channel 24",
+        "image": "https://img.youtube.com/vi/6eOCceaS9h0/0.jpg",
+        "articleUrl": "https://www.channel24bd.tv/video/show/1679",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
     "ntv": [
@@ -464,19 +464,6 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "",
         "imageAttemptedAt": "2026-11-09T02:27:56.545Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNk92Q2VhMkZUNWxjRmZjc293a3l4RmVFMlNfbWJWMkhTdVc2RnN6Q0FWODNVcE5uUTBYeU5lZC1tZHNfWDdwRHJ6ZXdPeWRFZzVheUFGUC1vMHdyc0hISlExbEJkUzl6b2VOVHpDcjd4UlBpQ2RVMUlKTlZnV1dGTmYyWQ?oc=5",
-        "title": "স্বাস্থ্য প্রতিদিন : পর্ব ৬০২৯",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNk92Q2VhMkZUNWxjRmZjc293a3l4RmVFMlNfbWJWMkhTdVc2RnN6Q0FWODNVcE5uUTBYeU5lZC1tZHNfWDdwRHJ6ZXdPeWRFZzVheUFGUC1vMHdyc0hISlExbEJkUzl6b2VOVHpDcjd4UlBpQ2RVMUlKTlZnV1dGTmYyWQ?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 10:53:15 GMT",
-        "summary": "স্বাস্থ্য প্রতিদিন : পর্ব ৬০২৯ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/health/swasthyo-protidin/shastho-protidin-ep-6029",
-        "imageAttemptedAt": "2026-11-08T11:00:44.234Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -582,6 +569,19 @@
         "articleUrl": "https://www.ntvbd.com/video/ntv-news/shondhyar-khobor/shondhar-khobor-08-november-2026",
         "imageAttemptedAt": "2026-11-09T04:32:31.627Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1iejg5dTF5ZUVhNFo1S2VDVmJkMXFmQk5zVlVCS3UxUklQekJLaDFMNVZLQWNKR0llZm93ZGtmNGlqUEUtZHpXMWpfY3JiR0VOeEZZb1FOc1g0YUVVT29pMVJmS2xWeThwdE1IbV9xYlJhaFRBMkE?oc=5",
+        "title": "কাজিন্স : পর্ব ২০০ - Ntvbd",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1iejg5dTF5ZUVhNFo1S2VDVmJkMXFmQk5zVlVCS3UxUklQekJLaDFMNVZLQWNKR0llZm93ZGtmNGlqUEUtZHpXMWpfY3JiR0VOeEZZb1FOc1g0YUVVT29pMVJmS2xWeThwdE1IbV9xYlJhaFRBMkE?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 16:18:00 GMT",
+        "summary": "কাজিন্স : পর্ব ২০০ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/drama/drama-serial/kajins/kajins-ep-200",
+        "imageAttemptedAt": "2026-11-09T05:42:01.077Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ]
   },
@@ -597,6 +597,32 @@
         "summary": "হাসিনার ফেরা ঠেকাতে মরিয়া তারেক &nbsp;&nbsp; TheWall",
         "image": "https://s3.ap-south-1.amazonaws.com/statics.thewall.in/sites/default/files/styles/medium/public/2026-11/Sheikh%20Hasina%20Bangladesh%20news%20today.jpeg.webp",
         "articleUrl": "https://www.thewall.in/video-story/tarique-rahmans-strategy-to-block-sheikh-hasinas-return-to-bangladesh/tid/208949",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOGw4Y3U1LU5iMkVBZmx6S1NvWUhVUE9oZU5lNnh6U3hWbHIwbmk3MTZ5MDB5RWJ5a0d3eGNMcF9wblFybjd0VWJuWE16ZkN2OHd3MjdpV25nUVBtTjZWZkN6MVpyazV6Y1BHQkU5TFVJOWItWGNrc2NUdDg1ZnNOLXBRZEN3a1Rvamk2YnNDNm5HbVE?oc=5",
+        "title": "বাংলাদেশকে ৩৬৯ রানের টার্গেট দিল ওয়েস্ট ইন্ডিজ",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOGw4Y3U1LU5iMkVBZmx6S1NvWUhVUE9oZU5lNnh6U3hWbHIwbmk3MTZ5MDB5RWJ5a0d3eGNMcF9wblFybjd0VWJuWE16ZkN2OHd3MjdpV25nUVBtTjZWZkN6MVpyazV6Y1BHQkU5TFVJOWItWGNrc2NUdDg1ZnNOLXBRZEN3a1Rvamk2YnNDNm5HbVE?oc=5",
+        "source": "স্টার নিউজ",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 09 Nov 2026 04:36:52 GMT",
+        "summary": "বাংলাদেশকে ৩৬৯ রানের টার্গেট দিল ওয়েস্ট ইন্ডিজ &nbsp;&nbsp; স্টার নিউজ",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://starnews.com.bd/sports/28554/west-indies-set-bangladesh-a-target-of-369-runs.html",
+        "imageAttemptedAt": "2026-11-09T05:42:01.077Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qcmd0c280ZjRJTUdwX1RBNGxxY19fN1FiX1F5a04xOHpvWjdmRGdTdTV2QUN4RHNZNDhzX19aZXdOTkhFUTBKSkw0cHdqREFy?oc=5",
+        "title": "শেষ দিনে বাংলাদেশের দুর্দান্ত শুরু, ২২ রানে ৩ উইকেটের পতন :: এটিএন নিউজ",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qcmd0c280ZjRJTUdwX1RBNGxxY19fN1FiX1F5a04xOHpvWjdmRGdTdTV2QUN4RHNZNDhzX19aZXdOTkhFUTBKSkw0cHdqREFy?oc=5",
+        "source": "ATN News",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 09 Nov 2026 04:48:24 GMT",
+        "summary": "শেষ দিনে বাংলাদেশের দুর্দান্ত শুরু, ২২ রানে ৩ উইকেটের পতন :: এটিএন নিউজ &nbsp;&nbsp; ATN News",
+        "image": "https://www.atnnewstv.com/assets/img/full/33685.webp",
+        "articleUrl": "https://www.atnnewstv.com/details/33070",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
@@ -640,16 +666,16 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeHRORmVHOTY3YkVpSFFHUHIzZS1NcHFyMkpIcGdGVW1GbHJ0Njk1U1hvMGVEN3dVMWVqeUhYRjR3Qk9OM21xVk5mUDdiTGc1OGRlVXRkaHVwNy1IT1ZMYlNER1puVkcxT25NYnZGaGFXb19kMTJJS2NDbVlSdmJWRV9yWU1CajN3VFJhSUNOSm90Zw?oc=5",
-        "title": "মাহির মাথায় মিস ইউনিভার্স বাংলাদেশের মুকুট",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeHRORmVHOTY3YkVpSFFHUHIzZS1NcHFyMkpIcGdGVW1GbHJ0Njk1U1hvMGVEN3dVMWVqeUhYRjR3Qk9OM21xVk5mUDdiTGc1OGRlVXRkaHVwNy1IT1ZMYlNER1puVkcxT25NYnZGaGFXb19kMTJJS2NDbVlSdmJWRV9yWU1CajN3VFJhSUNOSm90Zw?oc=5",
-        "source": "স্টার নিউজ",
+        "id": "https://news.google.com/rss/articles/CBMihAZBVV95cUxQMEluSkVTVnpqWGZnSzgyUFltNHB0dHF1cGwzSUp6bzhHVkRldGtwalQzOWxXeVF2VkxaSklzbThyOG5XQ1l6ZzMwdVhHQU5iR3JSUzQ2QThGSUZOektKMmoyYVFsTmFHRzRaWXk5NnFfM3RBQVRhaE45TGVhbGdSNGtPWjJiY1FiNWFlWmg1ZjJFcGpwUHhxRTZodkc0eEN0Q3RuVENrMnNkQXE4Q0NCQV9qS2c3dkVQV0d0WEJpMHIxRExnc3BCTmV5NmJnS2dib2Z2QmxxQW96TTFubmxVUTBaY1NOQkt6NVVtekhDMXJlSUIxa1NJYUl0RHN6R1Vuald4MnB4NzgtUXlvV21reWJPSkJMUG42b2JnNlYydE1XQW5iQUI1dnVIQnEzcjVrQUJNNjBFVGFKcTBQRWRHLUN0Q0JFZk5rM3BMSExMN2tyMzZWYnBKOWN5WDREcnp5bXF0LVlrUkpyc1hqWFE3akhGMzNBcjVaRDRvRWRzeTctaWllOWd0RHYxMmgxR0QzdjZHNGNhV1gyTFFrOE9MYXpZUjBVNFg4dGYxbUI0VGxTaGJEb19iSjBFdlhhQ242RWF4UmlzZ3lyTTVxbzNmUUJET1BFX3FLZllBWE1rS05GajhZU3AwOElvNGl2anBIRlJ4Y3JmLThUaHQtZGFtRXQ5X0t0V1M5TW5XdEtpYkhWX0drbUhlYk1tM2F0bGY1N2ZBVlpQNzViRXp4dlczX2tEc2Z1M0dFNV9IVEppMHRCUFVqLUNtSTRGeElSMDAtRkFzWDd2dXpFd25WZkJTbkZFS0ZJb25tNnNPRGxIaUhRZ19Pck9MelB0NkZlbjRyTUhfSUtval9CLUg1OC1nWDRJeWtjZlFHUzVBckVMWVVuUUJNbUpUSGtRNi1kUW9jUVYxeEtORHF5SUdiSWZpV2Jhb0VPR05iaEtZYVBJWjBVQVVUd3F1NnU1bFpwMmdlMW9Fa21BaW1nMHNhQy1wRGlwRWdPdFZJSVVYQlI1c1I1Rlpn?oc=5",
+        "title": "চারশর আগেই ইনিংস ঘোষণা ওয়েস্ট ইন্ডিজের, বাংলাদেশের লক্ষ্য ৩৬৯ রান",
+        "link": "https://news.google.com/rss/articles/CBMihAZBVV95cUxQMEluSkVTVnpqWGZnSzgyUFltNHB0dHF1cGwzSUp6bzhHVkRldGtwalQzOWxXeVF2VkxaSklzbThyOG5XQ1l6ZzMwdVhHQU5iR3JSUzQ2QThGSUZOektKMmoyYVFsTmFHRzRaWXk5NnFfM3RBQVRhaE45TGVhbGdSNGtPWjJiY1FiNWFlWmg1ZjJFcGpwUHhxRTZodkc0eEN0Q3RuVENrMnNkQXE4Q0NCQV9qS2c3dkVQV0d0WEJpMHIxRExnc3BCTmV5NmJnS2dib2Z2QmxxQW96TTFubmxVUTBaY1NOQkt6NVVtekhDMXJlSUIxa1NJYUl0RHN6R1Vuald4MnB4NzgtUXlvV21reWJPSkJMUG42b2JnNlYydE1XQW5iQUI1dnVIQnEzcjVrQUJNNjBFVGFKcTBQRWRHLUN0Q0JFZk5rM3BMSExMN2tyMzZWYnBKOWN5WDREcnp5bXF0LVlrUkpyc1hqWFE3akhGMzNBcjVaRDRvRWRzeTctaWllOWd0RHYxMmgxR0QzdjZHNGNhV1gyTFFrOE9MYXpZUjBVNFg4dGYxbUI0VGxTaGJEb19iSjBFdlhhQ242RWF4UmlzZ3lyTTVxbzNmUUJET1BFX3FLZllBWE1rS05GajhZU3AwOElvNGl2anBIRlJ4Y3JmLThUaHQtZGFtRXQ5X0t0V1M5TW5XdEtpYkhWX0drbUhlYk1tM2F0bGY1N2ZBVlpQNzViRXp4dlczX2tEc2Z1M0dFNV9IVEppMHRCUFVqLUNtSTRGeElSMDAtRkFzWDd2dXpFd25WZkJTbkZFS0ZJb25tNnNPRGxIaUhRZ19Pck9MelB0NkZlbjRyTUhfSUtval9CLUg1OC1nWDRJeWtjZlFHUzVBckVMWVVuUUJNbUpUSGtRNi1kUW9jUVYxeEtORHF5SUdiSWZpV2Jhb0VPR05iaEtZYVBJWjBVQVVUd3F1NnU1bFpwMmdlMW9Fa21BaW1nMHNhQy1wRGlwRWdPdFZJSVVYQlI1c1I1Rlpn?oc=5",
+        "source": "Bahanno News",
         "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 05:32:56 GMT",
-        "summary": "মাহির মাথায় মিস ইউনিভার্স বাংলাদেশের মুকুট &nbsp;&nbsp; স্টার নিউজ",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://starnews.com.bd/entertainment/28476/mahira-crowned-miss-universe-bangladesh.html",
-        "imageAttemptedAt": "2026-11-08T06:16:52.250Z",
+        "publishedAt": "Mon, 09 Nov 2026 04:40:00 GMT",
+        "summary": "চারশর আগেই ইনিংস ঘোষণা ওয়েস্ট ইন্ডিজের, বাংলাদেশের লক্ষ্য ৩৬৯ রান &nbsp;&nbsp; Bahanno News",
+        "image": "https://www.bahannonews.com/uploads/dddeed5242ac08597e318356762b77da.jpg?fb=1",
+        "articleUrl": "https://www.bahannonews.com/details/article/10223000/%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A6%B6%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%87%E0%A6%87-%E0%A6%87%E0%A6%A8%E0%A6%BF%E0%A6%82%E0%A6%B8-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%BE-%E0%A6%93%E0%A7%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%9C%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%B2%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8D%E0%A6%AF-%E0%A7%A9%E0%A7%AC%E0%A7%AF-%E0%A6%B0%E0%A6%BE%E0%A6%A8/",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
@@ -689,32 +715,6 @@
         "image": "https://s3.ap-south-1.amazonaws.com/statics.thewall.in/sites/default/files/styles/medium/public/2026-11/Sheikh%20Hasina%20Tarique%20Rahman.jpeg.webp",
         "articleUrl": "https://www.thewall.in/video-story/demand-to-ensure-hasinas-security-in-the-country/tid/208879",
         "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdDNVem9IT0g3djROY3ZNczR3WVhuWVFpRWY5WUFwZU9lZmplSTJGemt4Tlp0RXJnWTA2ZXlZci01UTV4SFJ0eXJkNnpGdnlLWDByWEJScWVLOC1BR3luR0U2NF80N3Y3eWF6d1F5RUt6VmcwZEZJWU82dzl5NUVFaThjTlN6aGpMcTRYZWZ3aDBfbUNUU2JmcjZ5Uy0yaFdSTmx0QUh3cndpTjlXN0ZlOGVreGVyQVBsSjdIUWZycVhuUkV3T3FoWGhfMEk?oc=5",
-        "title": "হাসিনার দেশ ছাড়ার ভিডিয়ো ফাঁসের শাস্তি? পাইলটের রহস্যমৃত্যুতে তোলপাড় বাংলাদেশ",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdDNVem9IT0g3djROY3ZNczR3WVhuWVFpRWY5WUFwZU9lZmplSTJGemt4Tlp0RXJnWTA2ZXlZci01UTV4SFJ0eXJkNnpGdnlLWDByWEJScWVLOC1BR3luR0U2NF80N3Y3eWF6d1F5RUt6VmcwZEZJWU82dzl5NUVFaThjTlN6aGpMcTRYZWZ3aDBfbUNUU2JmcjZ5Uy0yaFdSTmx0QUh3cndpTjlXN0ZlOGVreGVyQVBsSjdIUWZycVhuUkV3T3FoWGhfMEk?oc=5",
-        "source": "Anandabazar Patrika",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 07:00:00 GMT",
-        "summary": "হাসিনার দেশ ছাড়ার ভিডিয়ো ফাঁসের শাস্তি? পাইলটের রহস্যমৃত্যুতে তোলপাড় বাংলাদেশ &nbsp;&nbsp; Anandabazar Patrika",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.anandabazar.com/video/former-bangladesh-air-force-pilot-km-tahsif-souri-found-dead-amid-political-storm-dgtl/cid/1723217",
-        "imageAttemptedAt": "2026-11-08T20:09:08.361Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMDVmSWxXTFdqZFM5R2gxdHNmc3N6aEpqSVdKRVN5QXg3TXVJNXY5YzVDczhJQ1dwRTlGZWNELTV1bnJmM1d3eTYxdkJ5cWt6bmpNbEtCZ2JhejIwMUZJUjR6aFFPU1hGMy1JUC0yaVFET0sxQlJKcm9USUN3WV8tTWhablhCbThiRE1YeVVLZzRuS3Y4WjFmdnhZMEptSEtrcEZ3cGZ2ak15b2Rxa1JIb1RFQ1lrN3VveXpVdUl3SjNyLWEyYXBxcGQ2X3Y0UDdCeVhF?oc=5",
-        "title": "বাংলাদেশে রবীন্দ্রনাথের প্রতিকৃতিতে ফের কালি",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMDVmSWxXTFdqZFM5R2gxdHNmc3N6aEpqSVdKRVN5QXg3TXVJNXY5YzVDczhJQ1dwRTlGZWNELTV1bnJmM1d3eTYxdkJ5cWt6bmpNbEtCZ2JhejIwMUZJUjR6aFFPU1hGMy1JUC0yaVFET0sxQlJKcm9USUN3WV8tTWhablhCbThiRE1YeVVLZzRuS3Y4WjFmdnhZMEptSEtrcEZ3cGZ2ak15b2Rxa1JIb1RFQ1lrN3VveXpVdUl3SjNyLWEyYXBxcGQ2X3Y0UDdCeVhF?oc=5",
-        "source": "Aaro Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 12:15:00 GMT",
-        "summary": "বাংলাদেশে রবীন্দ্রনাথের প্রতিকৃতিতে ফের কালি &nbsp;&nbsp; Aaro Ananda",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.aaroananda.com/story/latest-news/breaking-news/rabindranath-tagore-portrait-vandalized-in-bangladesh-railway-station/11027443",
-        "imageAttemptedAt": "2026-11-09T04:32:31.627Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       }
     ],
@@ -837,16 +837,16 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HLXl4VG0tOHNRNUdzeWIxQ25XSmNXeXByN2toRDBMeXE0MmtOWnNNUXhTbVJIQ3VRb2VBZXlOUXRoYklsSktIQ2JDLVlJdU80NWxlQXFpQ0lDcGxqSlhPc2hpYw?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HLXl4VG0tOHNRNUdzeWIxQ25XSmNXeXByN2toRDBMeXE0MmtOWnNNUXhTbVJIQ3VRb2VBZXlOUXRoYklsSktIQ2JDLVlJdU80NWxlQXFpQ0lDcGxqSlhPc2hpYw?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96YU9oZHRtSTdKdGE3dlp3S04tM3haODROTFpPQTV1WktsUkpGUmo1YlhxR1RjU1E0a2dwNHQxSk1iRGNjc1FFY3ZyNkJUbS1PbkNiNUpETFdfc29SRkk4Vjk4NA?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৩০ অক্টোবর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96YU9oZHRtSTdKdGE3dlp3S04tM3haODROTFpPQTV1WktsUkpGUmo1YlhxR1RjU1E0a2dwNHQxSk1iRGNjc1FFY3ZyNkJUbS1PbkNiNUpETFdfc29SRkk4Vjk4NA?oc=5",
         "source": "Jagonews24",
         "publisherUrl": "",
-        "publishedAt": "Sun, 01 Nov 2026 15:58:08 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "publishedAt": "Fri, 30 Oct 2026 16:08:14 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৩০ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
         "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1174525",
-        "imageAttemptedAt": "2026-11-09T03:20:42.238Z",
+        "articleUrl": "https://www.jagonews24.com/international/news/1173763",
+        "imageAttemptedAt": "2026-11-09T05:42:01.077Z",
         "imageFallback": "news-fallbacks/world.svg"
       }
     ],
@@ -917,19 +917,6 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ydXc4U1pRN19xbVJ1b0NPWTZFZGM4eUx6OHlacU1QMVpKLWlmbm80RlgwNVpDbkZseXlKWWZ3cjNicmk1dkswX0FkQWY5eVpjUjFucXRYOHVOYjdiVXpIZVlXcFljeTg?oc=5",
-        "title": "খুলনায় মেয়ের খাবার কিনতে গিয়ে শিক্ষা কার্যালয়ের হিসাবরক্ষক গুলিবিদ্ধ",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ydXc4U1pRN19xbVJ1b0NPWTZFZGM4eUx6OHlacU1QMVpKLWlmbm80RlgwNVpDbkZseXlKWWZ3cjNicmk1dkswX0FkQWY5eVpjUjFucXRYOHVOYjdiVXpIZVlXcFljeTg?oc=5",
-        "source": "bdnews24.com",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 16:57:00 GMT",
-        "summary": "খুলনায় মেয়ের খাবার কিনতে গিয়ে শিক্ষা কার্যালয়ের হিসাবরক্ষক গুলিবিদ্ধ &nbsp;&nbsp; bdnews24.com",
-        "image": "https://media.assettype.com/bdnews24/2026-11-08/h08p07zo/khulna-shoot-mosiur-081126-01.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=https%3A%2F%2Fmedia.assettype.com%2Fbdnews24%2F2024-03%2Fbd25ee42-9003-4385-9b0a-c68a56ac9b0a%2Fbdnews24_1200_temp_12032024.jpg&overlay_position=bottom&overlay_width=100",
-        "articleUrl": "https://bangla.bdnews24.com/samagrabangladesh/g1cym8xnwa",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZcVNVRXpZVU5rYmlha2xXOGFhYmo4Y0E2UzNxMENFYnh5aUxFamVmV3pSNThaT3FLX2dTNGdWX19FRVIzOW1Id1paNnlRTGNMSHJENzJ1R3VWb0RnMG440gFkQVVfeXFMTWRCTlZyd3h1eGFUMUI1S1hJbVlLYmZvRE50Q0Nid1I4cFAwLU9QWVl4VzdZRHJ6WmkwMmZVYjZwc3NFdEdYVDluWFk1bF9QQmxXTndyUFlBYWNQVFVfSG9sWkFYYg?oc=5",
         "title": "রান্নার হাঁড়ি পাতিলে বিষাক্ত সিসা, 'খোঁজখবর নেওয়ারও কেউ নেই'",
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZcVNVRXpZVU5rYmlha2xXOGFhYmo4Y0E2UzNxMENFYnh5aUxFamVmV3pSNThaT3FLX2dTNGdWX19FRVIzOW1Id1paNnlRTGNMSHJENzJ1R3VWb0RnMG440gFkQVVfeXFMTWRCTlZyd3h1eGFUMUI1S1hJbVlLYmZvRE50Q0Nid1I4cFAwLU9QWVl4VzdZRHJ6WmkwMmZVYjZwc3NFdEdYVDluWFk1bF9QQmxXTndyUFlBYWNQVFVfSG9sWkFYYg?oc=5",
@@ -943,19 +930,6 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xbVhMalV3cjdFR0E5UWt0cVo5MmNHZkRxNlQtYlprZXZ4V19RVFAxdndhYVduamRSUlRvbkN4QjExRFdVSlJEZm9OTTBtYjJTUDRvWGtpV2VXVUk?oc=5",
-        "title": "খুলনায় মেয়ের জন্য খাবার কিনতে গিয়ে শিক্ষা অফিসের কর্মকর্তা গুলিবিদ্ধ",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xbVhMalV3cjdFR0E5UWt0cVo5MmNHZkRxNlQtYlprZXZ4V19RVFAxdndhYVduamRSUlRvbkN4QjExRFdVSlJEZm9OTTBtYjJTUDRvWGtpV2VXVUk?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 16:50:59 GMT",
-        "summary": "খুলনায় মেয়ের জন্য খাবার কিনতে গিয়ে শিক্ষা অফিসের কর্মকর্তা গুলিবিদ্ধ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.jagonews24.com/country/news/1177223",
-        "imageAttemptedAt": "2026-11-08T17:16:43.029Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1HN0F0RnRJejF2Y2dwdTFfV1h3aEI3eV9jWW9UWFJEdExCNjBUX2I3aGpLWHlzQU04YlQ2MDJaekdxV21XdURZaWtR?oc=5",
         "title": "মেয়ের জন্য খাবার আনতে গিয়ে গুলিবিদ্ধ শিক্ষা অফিসের হিসাবরক্ষক",
         "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1HN0F0RnRJejF2Y2dwdTFfV1h3aEI3eV9jWW9UWFJEdExCNjBUX2I3aGpLWHlzQU04YlQ2MDJaekdxV21XdURZaWtR?oc=5",
@@ -966,6 +940,32 @@
         "image": "news-fallbacks/food.svg",
         "articleUrl": "https://pkagoj.com/articles/638011",
         "imageAttemptedAt": "2026-11-09T04:32:31.627Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ydXc4U1pRN19xbVJ1b0NPWTZFZGM4eUx6OHlacU1QMVpKLWlmbm80RlgwNVpDbkZseXlKWWZ3cjNicmk1dkswX0FkQWY5eVpjUjFucXRYOHVOYjdiVXpIZVlXcFljeTg?oc=5",
+        "title": "খুলনায় মেয়ের খাবার কিনতে গিয়ে শিক্ষা কার্যালয়ের হিসাবরক্ষক গুলিবিদ্ধ",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ydXc4U1pRN19xbVJ1b0NPWTZFZGM4eUx6OHlacU1QMVpKLWlmbm80RlgwNVpDbkZseXlKWWZ3cjNicmk1dkswX0FkQWY5eVpjUjFucXRYOHVOYjdiVXpIZVlXcFljeTg?oc=5",
+        "source": "bdnews24.com",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 16:57:00 GMT",
+        "summary": "খুলনায় মেয়ের খাবার কিনতে গিয়ে শিক্ষা কার্যালয়ের হিসাবরক্ষক গুলিবিদ্ধ &nbsp;&nbsp; bdnews24.com",
+        "image": "https://media.assettype.com/bdnews24/2026-11-08/h08p07zo/khulna-shoot-mosiur-081126-01.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=https%3A%2F%2Fmedia.assettype.com%2Fbdnews24%2F2024-03%2Fbd25ee42-9003-4385-9b0a-c68a56ac9b0a%2Fbdnews24_1200_temp_12032024.jpg&overlay_position=bottom&overlay_width=100",
+        "articleUrl": "https://bangla.bdnews24.com/samagrabangladesh/g1cym8xnwa",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xbVhMalV3cjdFR0E5UWt0cVo5MmNHZkRxNlQtYlprZXZ4V19RVFAxdndhYVduamRSUlRvbkN4QjExRFdVSlJEZm9OTTBtYjJTUDRvWGtpV2VXVUk?oc=5",
+        "title": "খুলনায় মেয়ের জন্য খাবার কিনতে গিয়ে শিক্ষা অফিসের কর্মকর্তা গুলিবিদ্ধ",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xbVhMalV3cjdFR0E5UWt0cVo5MmNHZkRxNlQtYlprZXZ4V19RVFAxdndhYVduamRSUlRvbkN4QjExRFdVSlJEZm9OTTBtYjJTUDRvWGtpV2VXVUk?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 16:50:59 GMT",
+        "summary": "খুলনায় মেয়ের জন্য খাবার কিনতে গিয়ে শিক্ষা অফিসের কর্মকর্তা গুলিবিদ্ধ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.jagonews24.com/country/news/1177223",
+        "imageAttemptedAt": "2026-11-08T17:16:43.029Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -987,10 +987,10 @@
   "imageStats": {
     "total": 74,
     "fromRss": 0,
-    "fromArticleMetadata": 17,
-    "reusedCached": 14,
-    "actualPhotos": 17,
-    "fallbackIllustrations": 57,
+    "fromArticleMetadata": 19,
+    "reusedCached": 16,
+    "actualPhotos": 19,
+    "fallbackIllustrations": 55,
     "withImage": 74,
     "withoutImage": 0
   }
