@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-10T01:15:05.989Z",
+  "generatedAt": "2026-11-10T02:18:05.152Z",
   "sponsors": {
     "somoy": [
       {
@@ -39,7 +39,7 @@
         "summary": "চাঁদপুরে ঘুমন্ত মা-মেয়ের ওপর দুর্বৃত্তের এসিড নিক্ষেপ, আটক ১ | বাংলাদেশ &nbsp;&nbsp; সময় নিউজ",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.somoynews.tv/news/2024-02-26/svzBZSQv",
-        "imageAttemptedAt": "2026-11-09T01:22:09.011Z",
+        "imageAttemptedAt": "2026-11-10T02:18:05.943Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -601,19 +601,6 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oTXJORjN6QmNXem5MZEk0Nmw2U3M2TGRUUFR3ZUJjYlFvQnd4WFpQdVluWldSbE54b080NkhIbXFlVG5pWDYtS194VkZTVE5YcV9yTkdiYko5aGs?oc=5",
-        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৯ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oTXJORjN6QmNXem5MZEk0Nmw2U3M2TGRUUFR3ZUJjYlFvQnd4WFpQdVluWldSbE54b080NkhIbXFlVG5pWDYtS194VkZTVE5YcV9yTkdiYko5aGs?oc=5",
-        "source": "Somoy News",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 08 Nov 2026 08:00:00 GMT",
-        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৯ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
-        "image": "https://img.youtube.com/vi/F-JlQgibVgw/maxresdefault.jpg",
-        "articleUrl": "https://somoynews.com.bd/video/latest-video/354",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tYmttNVVXMmFVX19ncXhsTUVNMlpqZ3J0UkdsamVmR1RDVUZiSWdhaGItMFQyTW93N0NKdWZhSWF4aDFHVkgwRVNTSzJab24wNWc?oc=5",
         "title": "নেতৃত্ব ও বৈশ্বিক কূটনীতি বিকাশে কুমিল্লায় ‘মডেল জাতিসংঘ’ সম্মেলন",
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tYmttNVVXMmFVX19ncXhsTUVNMlpqZ3J0UkdsamVmR1RDVUZiSWdhaGItMFQyTW93N0NKdWZhSWF4aDFHVkgwRVNTSzJab24wNWc?oc=5",
@@ -623,6 +610,19 @@
         "summary": "নেতৃত্ব ও বৈশ্বিক কূটনীতি বিকাশে কুমিল্লায় ‘মডেল জাতিসংঘ’ সম্মেলন &nbsp;&nbsp; CNI | CREATIVE NEWS INTERNATIONAL",
         "image": "https://cniasia.news/admin/assets/images/background/login-register.jpg",
         "articleUrl": "https://cniasia.news/post-details/202350",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oTXJORjN6QmNXem5MZEk0Nmw2U3M2TGRUUFR3ZUJjYlFvQnd4WFpQdVluWldSbE54b080NkhIbXFlVG5pWDYtS194VkZTVE5YcV9yTkdiYko5aGs?oc=5",
+        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৯ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oTXJORjN6QmNXem5MZEk0Nmw2U3M2TGRUUFR3ZUJjYlFvQnd4WFpQdVluWldSbE54b080NkhIbXFlVG5pWDYtS194VkZTVE5YcV9yTkdiYko5aGs?oc=5",
+        "source": "Somoy News",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 08 Nov 2026 08:00:00 GMT",
+        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ৯ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
+        "image": "https://img.youtube.com/vi/F-JlQgibVgw/maxresdefault.jpg",
+        "articleUrl": "https://somoynews.com.bd/video/latest-video/354",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/world.svg"
       },
@@ -798,16 +798,16 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qcmd0c280ZjRJTUdwX1RBNGxxY19fN1FiX1F5a04xOHpvWjdmRGdTdTV2QUN4RHNZNDhzX19aZXdOTkhFUTBKSkw0cHdqREFy?oc=5",
-        "title": "শেষ দিনে বাংলাদেশের দুর্দান্ত শুরু, ২২ রানে ৩ উইকেটের পতন :: এটিএন নিউজ",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qcmd0c280ZjRJTUdwX1RBNGxxY19fN1FiX1F5a04xOHpvWjdmRGdTdTV2QUN4RHNZNDhzX19aZXdOTkhFUTBKSkw0cHdqREFy?oc=5",
-        "source": "ATN News",
+        "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQWTV2Zy1MYXowVVUyUkw1aTF4RFRIdGdCelhpTHpqb2NZZHhXNFJaY0VaSXZrU01lRkJiWHJyTjFaMXBsVTV1LTJ5Mmx3VmpwMDB5clZiS2NoUThy?oc=5",
+        "title": "হজ চুক্তি সই, বাংলাদেশের কোটা বাড়লো ৫ হাজার",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQWTV2Zy1MYXowVVUyUkw1aTF4RFRIdGdCelhpTHpqb2NZZHhXNFJaY0VaSXZrU01lRkJiWHJyTjFaMXBsVTV1LTJ5Mmx3VmpwMDB5clZiS2NoUThy?oc=5",
+        "source": "Jagonews24",
         "publisherUrl": "",
-        "publishedAt": "Mon, 09 Nov 2026 04:48:24 GMT",
-        "summary": "শেষ দিনে বাংলাদেশের দুর্দান্ত শুরু, ২২ রানে ৩ উইকেটের পতন :: এটিএন নিউজ &nbsp;&nbsp; ATN News",
-        "image": "https://www.atnnewstv.com/assets/img/full/33685.webp",
-        "articleUrl": "https://www.atnnewstv.com/details/33070",
-        "imageAttemptedAt": "",
+        "publishedAt": "Mon, 09 Nov 2026 10:49:00 GMT",
+        "summary": "হজ চুক্তি সই, বাংলাদেশের কোটা বাড়লো ৫ হাজার &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.jagonews24.com/national/news/1177636",
+        "imageAttemptedAt": "2026-11-10T02:18:05.943Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
@@ -824,6 +824,19 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qcmd0c280ZjRJTUdwX1RBNGxxY19fN1FiX1F5a04xOHpvWjdmRGdTdTV2QUN4RHNZNDhzX19aZXdOTkhFUTBKSkw0cHdqREFy?oc=5",
+        "title": "শেষ দিনে বাংলাদেশের দুর্দান্ত শুরু, ২২ রানে ৩ উইকেটের পতন :: এটিএন নিউজ",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qcmd0c280ZjRJTUdwX1RBNGxxY19fN1FiX1F5a04xOHpvWjdmRGdTdTV2QUN4RHNZNDhzX19aZXdOTkhFUTBKSkw0cHdqREFy?oc=5",
+        "source": "ATN News",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 09 Nov 2026 04:48:24 GMT",
+        "summary": "শেষ দিনে বাংলাদেশের দুর্দান্ত শুরু, ২২ রানে ৩ উইকেটের পতন :: এটিএন নিউজ &nbsp;&nbsp; ATN News",
+        "image": "https://www.atnnewstv.com/assets/img/full/33685.webp",
+        "articleUrl": "https://www.atnnewstv.com/details/33070",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9FQjl5RVJ1Z0ROMmFJNGhkQjFNWEQ2RGtjcXlNc1gycFNuSlZNSkFsd3h6R0Z2V3V2TDNHTXV6SXQ?oc=5",
         "title": "সিলেট টেস্ট ড্র, সিরিজ হারল বাংলাদেশ",
         "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9FQjl5RVJ1Z0ROMmFJNGhkQjFNWEQ2RGtjcXlNc1gycFNuSlZNSkFsd3h6R0Z2V3V2TDNHTXV6SXQ?oc=5",
@@ -834,19 +847,6 @@
         "image": "news-fallbacks/bangladesh.svg",
         "articleUrl": "https://sunbd24.com/420814/",
         "imageAttemptedAt": "2026-11-09T16:57:44.645Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMDVmSWxXTFdqZFM5R2gxdHNmc3N6aEpqSVdKRVN5QXg3TXVJNXY5YzVDczhJQ1dwRTlGZWNELTV1bnJmM1d3eTYxdkJ5cWt6bmpNbEtCZ2JhejIwMUZJUjR6aFFPU1hGMy1JUC0yaVFET0sxQlJKcm9USUN3WV8tTWhablhCbThiRE1YeVVLZzRuS3Y4WjFmdnhZMEptSEtrcEZ3cGZ2ak15b2Rxa1JIb1RFQ1lrN3VveXpVdUl3SjNyLWEyYXBxcGQ2X3Y0UDdCeVhF?oc=5",
-        "title": "বাংলাদেশে রবীন্দ্রনাথের প্রতিকৃতিতে ফের কালি",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMDVmSWxXTFdqZFM5R2gxdHNmc3N6aEpqSVdKRVN5QXg3TXVJNXY5YzVDczhJQ1dwRTlGZWNELTV1bnJmM1d3eTYxdkJ5cWt6bmpNbEtCZ2JhejIwMUZJUjR6aFFPU1hGMy1JUC0yaVFET0sxQlJKcm9USUN3WV8tTWhablhCbThiRE1YeVVLZzRuS3Y4WjFmdnhZMEptSEtrcEZ3cGZ2ak15b2Rxa1JIb1RFQ1lrN3VveXpVdUl3SjNyLWEyYXBxcGQ2X3Y0UDdCeVhF?oc=5",
-        "source": "Aaro Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 12:15:00 GMT",
-        "summary": "বাংলাদেশে রবীন্দ্রনাথের প্রতিকৃতিতে ফের কালি &nbsp;&nbsp; Aaro Ananda",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.aaroananda.com/story/latest-news/breaking-news/rabindranath-tagore-portrait-vandalized-in-bangladesh-railway-station/11027443",
-        "imageAttemptedAt": "2026-11-09T08:21:00.869Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       }
     ],
@@ -891,19 +891,6 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZ0tVdGN5MjFyRmhaM182UHlfRDJqck5oRHl5ZmVwZ0hBZWZvN2UzeWxYdldFWmhKY0FsUkpleEZIWkpyUWlyY19ZbTlVRVY5QXpmejFVNTYtM0tuSXp4VHZqbEE5MzdmY3FSRVc2bS1ZRVR0dWZMTUZoRWo3U29TMmxiamQ3VEdSSGdSUmQtd0t5ME42aUFyZnRlc1RxMUwyZDVvQVM0Z1M5ZTJPV1FvS1lrTUV6dGhXTlBvb1d6dEJVcHdBUmF2TFdldjFxSUI1bTU3QzE0VjE1ejN0QkctaHAyYWYzR3Jt0gHuAUFVX3lxTE1IQTREZHRiUE1Zd1pHUjEta0pHb1RWWWcwaEs4bnZqYnEwaWpTTXAtVjBreDhjcFk2MWV5TDM0VEgxYmN4NXZOMWhabUNkMjhMZjdGdHJMRjVCc2FnaS02emlWSUQ0dWx5cUtidTZMb2tGNWY4elpoX1FKSk1xcE1KRDE5ck9kWUFSWFRoTi1xZDR4WUdXVXoxdnc1V1QyQTgzQXFRUjUtWTA0WXpsQmpuYk5hVkx2aUoxV00zWHRaWjF3QmhKRmNaUktuLUNkX2VjWTI1cXUyR0tSYWEzWEdZdGhKMVNCSnZLR3VfRnc?oc=5",
-        "title": "কোল্ড প্রেস তেল না কি পরিশোধিত তেল, পুষ্টিগুণে এগিয়ে কে? কোন রান্নার জন্য কোনটা ভাল",
-        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZ0tVdGN5MjFyRmhaM182UHlfRDJqck5oRHl5ZmVwZ0hBZWZvN2UzeWxYdldFWmhKY0FsUkpleEZIWkpyUWlyY19ZbTlVRVY5QXpmejFVNTYtM0tuSXp4VHZqbEE5MzdmY3FSRVc2bS1ZRVR0dWZMTUZoRWo3U29TMmxiamQ3VEdSSGdSUmQtd0t5ME42aUFyZnRlc1RxMUwyZDVvQVM0Z1M5ZTJPV1FvS1lrTUV6dGhXTlBvb1d6dEJVcHdBUmF2TFdldjFxSUI1bTU3QzE0VjE1ejN0QkctaHAyYWYzR3Jt0gHuAUFVX3lxTE1IQTREZHRiUE1Zd1pHUjEta0pHb1RWWWcwaEs4bnZqYnEwaWpTTXAtVjBreDhjcFk2MWV5TDM0VEgxYmN4NXZOMWhabUNkMjhMZjdGdHJMRjVCc2FnaS02emlWSUQ0dWx5cUtidTZMb2tGNWY4elpoX1FKSk1xcE1KRDE5ck9kWUFSWFRoTi1xZDR4WUdXVXoxdnc1V1QyQTgzQXFRUjUtWTA0WXpsQmpuYk5hVkx2aUoxV00zWHRaWjF3QmhKRmNaUktuLUNkX2VjWTI1cXUyR0tSYWEzWEdZdGhKMVNCSnZLR3VfRnc?oc=5",
-        "source": "Anandabazar Patrika",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 09 Nov 2026 08:30:26 GMT",
-        "summary": "কোল্ড প্রেস তেল না কি পরিশোধিত তেল, পুষ্টিগুণে এগিয়ে কে? কোন রান্নার জন্য কোনটা ভাল &nbsp;&nbsp; Anandabazar Patrika",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.anandabazar.com/health-and-wellness/cold-pressed-vs-refined-oil-which-one-wins-on-nutrition-and-which-one-suits-your-cooking-dgtl/cid/1725168",
-        "imageAttemptedAt": "2026-11-09T10:33:36.398Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE50OUNENzJLMkM2S2c1UXRtelNFSkJZOGU0WGxDajNSNTFJT0RMSlNTQWNSVkR0RU9TMnpQUXdUSWxnc1IxZkg2QXlDbUs4SC1X?oc=5",
         "title": "অনেক হাসপাতালের খাবার আমার বউয়ের রান্নার থেকেও ভালো: স্বাস্থ্যমন্ত্রী",
         "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE50OUNENzJLMkM2S2c1UXRtelNFSkJZOGU0WGxDajNSNTFJT0RMSlNTQWNSVkR0RU9TMnpQUXdUSWxnc1IxZkg2QXlDbUs4SC1X?oc=5",
@@ -914,6 +901,32 @@
         "image": "news-fallbacks/food.svg",
         "articleUrl": "https://www.kalbela.com/national/348029",
         "imageAttemptedAt": "2026-11-09T13:57:30.176Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1KdWxtRElHZ3I3dldXTE5sS3VrY2o4OTVTRU9INEgxRWVqaEhHcVJSU2tBYlE4TXdneWlWZ0lKZTgxRFJ0NDJyM2VZV2FBRXFBNEp2Ymx6cXFBVjliWHh4U1JuWQ?oc=5",
+        "title": "মেয়ের বিয়েতে চার লাখ লোকের খাবারের আয়োজন, বিধায়ক বললেন ‘সবাই আমন্ত্রিত’",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1KdWxtRElHZ3I3dldXTE5sS3VrY2o4OTVTRU9INEgxRWVqaEhHcVJSU2tBYlE4TXdneWlWZ0lKZTgxRFJ0NDJyM2VZV2FBRXFBNEp2Ymx6cXFBVjliWHh4U1JuWQ?oc=5",
+        "source": "bd-pratidin.com",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 09 Nov 2026 15:56:46 GMT",
+        "summary": "মেয়ের বিয়েতে চার লাখ লোকের খাবারের আয়োজন, বিধায়ক বললেন ‘সবাই আমন্ত্রিত’ &nbsp;&nbsp; bd-pratidin.com",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.bd-pratidin.com/mixter/2026/11/09/1323884",
+        "imageAttemptedAt": "2026-11-10T02:18:05.943Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZ0tVdGN5MjFyRmhaM182UHlfRDJqck5oRHl5ZmVwZ0hBZWZvN2UzeWxYdldFWmhKY0FsUkpleEZIWkpyUWlyY19ZbTlVRVY5QXpmejFVNTYtM0tuSXp4VHZqbEE5MzdmY3FSRVc2bS1ZRVR0dWZMTUZoRWo3U29TMmxiamQ3VEdSSGdSUmQtd0t5ME42aUFyZnRlc1RxMUwyZDVvQVM0Z1M5ZTJPV1FvS1lrTUV6dGhXTlBvb1d6dEJVcHdBUmF2TFdldjFxSUI1bTU3QzE0VjE1ejN0QkctaHAyYWYzR3Jt0gHuAUFVX3lxTE1IQTREZHRiUE1Zd1pHUjEta0pHb1RWWWcwaEs4bnZqYnEwaWpTTXAtVjBreDhjcFk2MWV5TDM0VEgxYmN4NXZOMWhabUNkMjhMZjdGdHJMRjVCc2FnaS02emlWSUQ0dWx5cUtidTZMb2tGNWY4elpoX1FKSk1xcE1KRDE5ck9kWUFSWFRoTi1xZDR4WUdXVXoxdnc1V1QyQTgzQXFRUjUtWTA0WXpsQmpuYk5hVkx2aUoxV00zWHRaWjF3QmhKRmNaUktuLUNkX2VjWTI1cXUyR0tSYWEzWEdZdGhKMVNCSnZLR3VfRnc?oc=5",
+        "title": "কোল্ড প্রেস তেল না কি পরিশোধিত তেল, পুষ্টিগুণে এগিয়ে কে? কোন রান্নার জন্য কোনটা ভাল",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZ0tVdGN5MjFyRmhaM182UHlfRDJqck5oRHl5ZmVwZ0hBZWZvN2UzeWxYdldFWmhKY0FsUkpleEZIWkpyUWlyY19ZbTlVRVY5QXpmejFVNTYtM0tuSXp4VHZqbEE5MzdmY3FSRVc2bS1ZRVR0dWZMTUZoRWo3U29TMmxiamQ3VEdSSGdSUmQtd0t5ME42aUFyZnRlc1RxMUwyZDVvQVM0Z1M5ZTJPV1FvS1lrTUV6dGhXTlBvb1d6dEJVcHdBUmF2TFdldjFxSUI1bTU3QzE0VjE1ejN0QkctaHAyYWYzR3Jt0gHuAUFVX3lxTE1IQTREZHRiUE1Zd1pHUjEta0pHb1RWWWcwaEs4bnZqYnEwaWpTTXAtVjBreDhjcFk2MWV5TDM0VEgxYmN4NXZOMWhabUNkMjhMZjdGdHJMRjVCc2FnaS02emlWSUQ0dWx5cUtidTZMb2tGNWY4elpoX1FKSk1xcE1KRDE5ck9kWUFSWFRoTi1xZDR4WUdXVXoxdnc1V1QyQTgzQXFRUjUtWTA0WXpsQmpuYk5hVkx2aUoxV00zWHRaWjF3QmhKRmNaUktuLUNkX2VjWTI1cXUyR0tSYWEzWEdZdGhKMVNCSnZLR3VfRnc?oc=5",
+        "source": "Anandabazar Patrika",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 09 Nov 2026 08:30:26 GMT",
+        "summary": "কোল্ড প্রেস তেল না কি পরিশোধিত তেল, পুষ্টিগুণে এগিয়ে কে? কোন রান্নার জন্য কোনটা ভাল &nbsp;&nbsp; Anandabazar Patrika",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.anandabazar.com/health-and-wellness/cold-pressed-vs-refined-oil-which-one-wins-on-nutrition-and-which-one-suits-your-cooking-dgtl/cid/1725168",
+        "imageAttemptedAt": "2026-11-09T10:33:36.398Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -930,16 +943,16 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YdEMzZ01EX1VlQjJGM1pzYkQwZEZRMW1mbUhTVXF4cU1hR2Y2aXRlU3lVY0FqaHpmMjFFYUtkODRSbTdLTk1rT19ndUo1UEJCc2FVcUFaQVNUeVBCd3FFOA?oc=5",
-        "title": "অ্যালুমিনিয়ামের বাসনে বিষাক্ত সিসা, কীভাবে এলো, করণীয় কী",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YdEMzZ01EX1VlQjJGM1pzYkQwZEZRMW1mbUhTVXF4cU1hR2Y2aXRlU3lVY0FqaHpmMjFFYUtkODRSbTdLTk1rT19ndUo1UEJCc2FVcUFaQVNUeVBCd3FFOA?oc=5",
-        "source": "দ্য ডেইলি স্টার বাংলা",
+        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZcVNVRXpZVU5rYmlha2xXOGFhYmo4Y0E2UzNxMENFYnh5aUxFamVmV3pSNThaT3FLX2dTNGdWX19FRVIzOW1Id1paNnlRTGNMSHJENzJ1R3VWb0RnMG440gFkQVVfeXFMTWRCTlZyd3h1eGFUMUI1S1hJbVlLYmZvRE50Q0Nid1I4cFAwLU9QWVl4VzdZRHJ6WmkwMmZVYjZwc3NFdEdYVDluWFk1bF9QQmxXTndyUFlBYWNQVFVfSG9sWkFYYg?oc=5",
+        "title": "রান্নার হাঁড়ি পাতিলে বিষাক্ত সিসা, 'খোঁজখবর নেওয়ারও কেউ নেই'",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZcVNVRXpZVU5rYmlha2xXOGFhYmo4Y0E2UzNxMENFYnh5aUxFamVmV3pSNThaT3FLX2dTNGdWX19FRVIzOW1Id1paNnlRTGNMSHJENzJ1R3VWb0RnMG440gFkQVVfeXFMTWRCTlZyd3h1eGFUMUI1S1hJbVlLYmZvRE50Q0Nid1I4cFAwLU9QWVl4VzdZRHJ6WmkwMmZVYjZwc3NFdEdYVDluWFk1bF9QQmxXTndyUFlBYWNQVFVfSG9sWkFYYg?oc=5",
+        "source": "BBC",
         "publisherUrl": "",
-        "publishedAt": "Mon, 09 Nov 2026 16:41:10 GMT",
-        "summary": "অ্যালুমিনিয়ামের বাসনে বিষাক্ত সিসা, কীভাবে এলো, করণীয় কী &nbsp;&nbsp; দ্য ডেইলি স্টার বাংলা",
-        "image": "https://bangla.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/aluminium_pots_at_rangpur_bscic_workshop.jpeg",
-        "articleUrl": "https://bangla.thedailystar.net/health/news-3979321",
-        "imageAttemptedAt": "",
+        "publishedAt": "Sat, 07 Nov 2026 11:31:18 GMT",
+        "summary": "রান্নার হাঁড়ি পাতিলে বিষাক্ত সিসা, 'খোঁজখবর নেওয়ারও কেউ নেই' &nbsp;&nbsp; BBC",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.bbc.com/bengali/articles/c3qjn5l7jv4do",
+        "imageAttemptedAt": "2026-11-10T00:02:48.609Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -956,29 +969,16 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMi9wNBVV95cUxOZ3VuSmw1Z2tkNFFPckRCMHFIeWRZaGRTYndwMHdvNVROZGZ2ZlFOYVJKdGVyZWZXUzNGb3NBSHpDRXJFVVNzQ2pDNEJqUzItVHNZSjdpR0lNcUpMLTZiWXJmRVJXNXVpWFJTbTVYYmZtdFZMcWQ0S09EdmI4aVhvUkNJcWhvTGtldGNwSW9RbGg0OWxCejJkTVMwQVFYZEZEUjZYQ1ZEdFdza1dVZEU2N2I4UzI4alVZbW52NnJkY0lDVi02R2sweEl4Uzd1bDBvSHFxQVRQcFNlVlZqOU1WdmNnQW1uTi15Z2dNMkozOEx3SkRQNFFFSy05Q2ZVel93UFJFVloxbGVPTlVveFI0MWdMbHM4a0RXVUNGeTJWUlBaczFyaUhDUmM4MElMa3AydjFuWFpsUVhTd0xIVGFQUmVPMHprdzFxUXhtREdlekM1QVc1R0hqWk1UWmpuLXZVenVScWhZLXl6dGRFeU90Q1AtdDJHaHhGVUNwcGFGbUJUVzFocnhzZGh1R3BlaWl5MEhPMGdiZEppa3V2cjM3MGdNWXNBZEdRcTc4ZE9DRXVZbEoyZl9FWGFaTTFuM3U3dnlPMmJlR0daRkMtMnpEVGR6TW9ZOVZwbWJkOWVlLTBFWXJJY20wZTlNZWZmSE5fWUo1Q2xtUdIB_ANBVV95cUxQb2NXTnkyTGRyN1c0dDJEUGlONXNNUkVZX00teVZsQWVOaDkzSnI1RUJDSGpDeGVnU1cyYWFVRE1vQXhyNGdOTk5lMUo5RkJ5VzZWSjlaV1V4WFdVaHpzT05WTUJ3dk9wYmtYTDZoeVVDYlQyaGE0Nll3a0dUUXFibExHcjJPSVFiUTJ2MmxTdTJXNFJuZlFTb3lNa1ZzbGU1eVRaRXJoQ0IzWkdWamI0aklKWmU4NTBvSUliSEZJNV9TRkZ3eVhZdkZrM2NuYkM5NFFHVUFVM25RY0YzdnVBc0xQRGR2eDByaXFoMW9pOUk0Zm9md2VTY0hjVUxmdlF2cTNCdVJBQTF3dHUwamR4eEgzVHltS2tvejEzdWQ0N2tTNndHdm9KYVM2bEhQQy00b3d1dWEtbEo3OXpZRVNPRWhYNmJHd2hoY0JYMDJlWlR2WS1jR0RpblBhRHJuUmRLdklXLWgwc2Y2YXBmaldqc3hCLXNSX3ZBVkw1YVpBVjljMHB5bWhKZ3BsX3RxaXN4UnJ4MEpIRE5seWExQkM3Nk11RThqS3I3WnBlaXJWQ19OOWVud1pZTDdlbW1Ca3JKX2tkc3ByaVNMS1RLVE1POE9lN2phazh3UzZzanc0NXZNdmFqemhxclpFTUdNR3NKZzdfbVY2R0haSU5G?oc=5",
-        "title": "অস্বাস্থ্যকর পরিবেশে খাবার তৈরি, বগুড়ায় ৪ প্রতিষ্ঠানে জরিমানা",
-        "link": "https://news.google.com/rss/articles/CBMi9wNBVV95cUxOZ3VuSmw1Z2tkNFFPckRCMHFIeWRZaGRTYndwMHdvNVROZGZ2ZlFOYVJKdGVyZWZXUzNGb3NBSHpDRXJFVVNzQ2pDNEJqUzItVHNZSjdpR0lNcUpMLTZiWXJmRVJXNXVpWFJTbTVYYmZtdFZMcWQ0S09EdmI4aVhvUkNJcWhvTGtldGNwSW9RbGg0OWxCejJkTVMwQVFYZEZEUjZYQ1ZEdFdza1dVZEU2N2I4UzI4alVZbW52NnJkY0lDVi02R2sweEl4Uzd1bDBvSHFxQVRQcFNlVlZqOU1WdmNnQW1uTi15Z2dNMkozOEx3SkRQNFFFSy05Q2ZVel93UFJFVloxbGVPTlVveFI0MWdMbHM4a0RXVUNGeTJWUlBaczFyaUhDUmM4MElMa3AydjFuWFpsUVhTd0xIVGFQUmVPMHprdzFxUXhtREdlekM1QVc1R0hqWk1UWmpuLXZVenVScWhZLXl6dGRFeU90Q1AtdDJHaHhGVUNwcGFGbUJUVzFocnhzZGh1R3BlaWl5MEhPMGdiZEppa3V2cjM3MGdNWXNBZEdRcTc4ZE9DRXVZbEoyZl9FWGFaTTFuM3U3dnlPMmJlR0daRkMtMnpEVGR6TW9ZOVZwbWJkOWVlLTBFWXJJY20wZTlNZWZmSE5fWUo1Q2xtUdIB_ANBVV95cUxQb2NXTnkyTGRyN1c0dDJEUGlONXNNUkVZX00teVZsQWVOaDkzSnI1RUJDSGpDeGVnU1cyYWFVRE1vQXhyNGdOTk5lMUo5RkJ5VzZWSjlaV1V4WFdVaHpzT05WTUJ3dk9wYmtYTDZoeVVDYlQyaGE0Nll3a0dUUXFibExHcjJPSVFiUTJ2MmxTdTJXNFJuZlFTb3lNa1ZzbGU1eVRaRXJoQ0IzWkdWamI0aklKWmU4NTBvSUliSEZJNV9TRkZ3eVhZdkZrM2NuYkM5NFFHVUFVM25RY0YzdnVBc0xQRGR2eDByaXFoMW9pOUk0Zm9md2VTY0hjVUxmdlF2cTNCdVJBQTF3dHUwamR4eEgzVHltS2tvejEzdWQ0N2tTNndHdm9KYVM2bEhQQy00b3d1dWEtbEo3OXpZRVNPRWhYNmJHd2hoY0JYMDJlWlR2WS1jR0RpblBhRHJuUmRLdklXLWgwc2Y2YXBmaldqc3hCLXNSX3ZBVkw1YVpBVjljMHB5bWhKZ3BsX3RxaXN4UnJ4MEpIRE5seWExQkM3Nk11RThqS3I3WnBlaXJWQ19OOWVud1pZTDdlbW1Ca3JKX2tkc3ByaVNMS1RLVE1POE9lN2phazh3UzZzanc0NXZNdmFqemhxclpFTUdNR3NKZzdfbVY2R0haSU5G?oc=5",
-        "source": "দেশ রূপান্তর",
+        "id": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YdEMzZ01EX1VlQjJGM1pzYkQwZEZRMW1mbUhTVXF4cU1hR2Y2aXRlU3lVY0FqaHpmMjFFYUtkODRSbTdLTk1rT19ndUo1UEJCc2FVcUFaQVNUeVBCd3FFOA?oc=5",
+        "title": "অ্যালুমিনিয়ামের বাসনে বিষাক্ত সিসা, কীভাবে এলো, করণীয় কী",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YdEMzZ01EX1VlQjJGM1pzYkQwZEZRMW1mbUhTVXF4cU1hR2Y2aXRlU3lVY0FqaHpmMjFFYUtkODRSbTdLTk1rT19ndUo1UEJCc2FVcUFaQVNUeVBCd3FFOA?oc=5",
+        "source": "দ্য ডেইলি স্টার বাংলা",
         "publisherUrl": "",
-        "publishedAt": "Mon, 09 Nov 2026 14:33:17 GMT",
-        "summary": "অস্বাস্থ্যকর পরিবেশে খাবার তৈরি, বগুড়ায় ৪ প্রতিষ্ঠানে জরিমানা &nbsp;&nbsp; দেশ রূপান্তর",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.deshrupantor.com/733911/%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A4%E0%A7%88%E0%A6%B0%E0%A6%BF-%E0%A6%AC%E0%A6%97%E0%A7%81%E0%A7%9C%E0%A6%BE%E0%A7%9F-%E0%A7%AA",
-        "imageAttemptedAt": "2026-11-09T21:42:47.407Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZcVNVRXpZVU5rYmlha2xXOGFhYmo4Y0E2UzNxMENFYnh5aUxFamVmV3pSNThaT3FLX2dTNGdWX19FRVIzOW1Id1paNnlRTGNMSHJENzJ1R3VWb0RnMG440gFkQVVfeXFMTWRCTlZyd3h1eGFUMUI1S1hJbVlLYmZvRE50Q0Nid1I4cFAwLU9QWVl4VzdZRHJ6WmkwMmZVYjZwc3NFdEdYVDluWFk1bF9QQmxXTndyUFlBYWNQVFVfSG9sWkFYYg?oc=5",
-        "title": "রান্নার হাঁড়ি পাতিলে বিষাক্ত সিসা, 'খোঁজখবর নেওয়ারও কেউ নেই'",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZcVNVRXpZVU5rYmlha2xXOGFhYmo4Y0E2UzNxMENFYnh5aUxFamVmV3pSNThaT3FLX2dTNGdWX19FRVIzOW1Id1paNnlRTGNMSHJENzJ1R3VWb0RnMG440gFkQVVfeXFMTWRCTlZyd3h1eGFUMUI1S1hJbVlLYmZvRE50Q0Nid1I4cFAwLU9QWVl4VzdZRHJ6WmkwMmZVYjZwc3NFdEdYVDluWFk1bF9QQmxXTndyUFlBYWNQVFVfSG9sWkFYYg?oc=5",
-        "source": "BBC",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 11:31:18 GMT",
-        "summary": "রান্নার হাঁড়ি পাতিলে বিষাক্ত সিসা, 'খোঁজখবর নেওয়ারও কেউ নেই' &nbsp;&nbsp; BBC",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.bbc.com/bengali/articles/c3qjn5l7jv4do",
-        "imageAttemptedAt": "2026-11-10T00:02:48.609Z",
+        "publishedAt": "Mon, 09 Nov 2026 16:41:10 GMT",
+        "summary": "অ্যালুমিনিয়ামের বাসনে বিষাক্ত সিসা, কীভাবে এলো, করণীয় কী &nbsp;&nbsp; দ্য ডেইলি স্টার বাংলা",
+        "image": "https://bangla.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/aluminium_pots_at_rangpur_bscic_workshop.jpeg",
+        "articleUrl": "https://bangla.thedailystar.net/health/news-3979321",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/food.svg"
       }
     ]
@@ -988,7 +988,7 @@
     "total": 74,
     "fromRss": 0,
     "fromArticleMetadata": 21,
-    "reusedCached": 19,
+    "reusedCached": 21,
     "actualPhotos": 21,
     "fallbackIllustrations": 53,
     "withImage": 74,
