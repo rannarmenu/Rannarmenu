@@ -1,61 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-10T19:27:26.269Z",
+  "generatedAt": "2026-11-10T20:19:18.476Z",
   "sponsors": {
-    "somoy": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KUGYxS0M3ZDN5SUxRZTEtVFhwQ3drNS1sVUpBR3BKTlBHbW55c3gwaG9BTGJUbGZ4WURPcXh6QzU4MGNWekpEVjVoVXBHT2F0d21oTGZOLXlycDU5MHc?oc=5",
-        "title": "মাধ্যমিক বিদ্যালয়ে ২০২৫ সালে ছুটি কতদিন?",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KUGYxS0M3ZDN5SUxRZTEtVFhwQ3drNS1sVUpBR3BKTlBHbW55c3gwaG9BTGJUbGZ4WURPcXh6QzU4MGNWekpEVjVoVXBHT2F0d21oTGZOLXlycDU5MHc?oc=5",
-        "source": "সময় টিভি",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 17 Nov 2024 08:00:00 GMT",
-        "summary": "মাধ্যমিক বিদ্যালয়ে ২০২৫ সালে ছুটি কতদিন? &nbsp;&nbsp; সময় নিউজ",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.somoynews.tv/news/2024-11-18/PZ9tKuYQ",
-        "imageAttemptedAt": "2026-11-10T03:15:57.097Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxOVTFSZkZfdVhNNHAwNGozQXJBVDd5MkhPOVd5MFRrQzliZzVHLUMwZ2dUbEdwTVphLW9XOXgzR0I1YW51SEdBZEVkR0UwMHMxV1FrS0N6RmVxR0V4MUhVX3Q4VnlhZ2FqTWxvNzgwV3lFNnFneFpJbVBsc212TjdJVmJjTVlTdHB3SlN4aV95WVVhblRtSmw2SlNhZ1d6UktBRWgyb3FzN2NodVFobi1kSzdYdXVMMUVUZGdld1c0Y2FXU2RiakEtNFp0TjdYdlNVOS1nUjhPOGdCR0hNR1VaMWNvWHl3MnhNNXVsTFk5bV9xNEc3cHRmM1YzU3V4WHh1ai1KSG94REZXOXllRjJoT1JMWThBRHRjcE1HS3JYXzloUkNDY096VHE4Z2VjOXFBemlLMzJjWmJWQUg3NDFBb2NLYnkyak9MdFhYM1ktWEUtVGNHMzhPY0o4UnM3ZURSZTNsWUphTzBRWjdSakZoc2ZyV0RYUVQ1MUxDSENDY2I5V0VwM2Y5a1pTY3RGTjZpcG5FNWVmeXhBclp0RE5GRHgyN0xtZzVpbjdTWVFNOERjMml1OUJ4R3NIbjJjZnlVM1V3dXQwSDFHQ2x1eVlCTk9zNy1aRmxGUTU1TER5WHk5a3o2NmpaNTBsQTFZbXFxbWRJbDNVdG5oUV9OUVZSU1pBOFlaMENybmRob1YtRS1hNmVEaHA0ZVZlano3UHV2OEp6SGNiaXd6d1JNUVpMNXhjZ041SU80QWZUNC0zSWhJUkdDU0hMN2h4SUp5Y2syU0d3S0k2OG8yT3dnclU0?oc=5",
-        "title": "বীরত্বসূচক পদক পাচ্ছে র‌্যাব ডগ স্কোয়াডের কুকুর",
-        "link": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxOVTFSZkZfdVhNNHAwNGozQXJBVDd5MkhPOVd5MFRrQzliZzVHLUMwZ2dUbEdwTVphLW9XOXgzR0I1YW51SEdBZEVkR0UwMHMxV1FrS0N6RmVxR0V4MUhVX3Q4VnlhZ2FqTWxvNzgwV3lFNnFneFpJbVBsc212TjdJVmJjTVlTdHB3SlN4aV95WVVhblRtSmw2SlNhZ1d6UktBRWgyb3FzN2NodVFobi1kSzdYdXVMMUVUZGdld1c0Y2FXU2RiakEtNFp0TjdYdlNVOS1nUjhPOGdCR0hNR1VaMWNvWHl3MnhNNXVsTFk5bV9xNEc3cHRmM1YzU3V4WHh1ai1KSG94REZXOXllRjJoT1JMWThBRHRjcE1HS3JYXzloUkNDY096VHE4Z2VjOXFBemlLMzJjWmJWQUg3NDFBb2NLYnkyak9MdFhYM1ktWEUtVGNHMzhPY0o4UnM3ZURSZTNsWUphTzBRWjdSakZoc2ZyV0RYUVQ1MUxDSENDY2I5V0VwM2Y5a1pTY3RGTjZpcG5FNWVmeXhBclp0RE5GRHgyN0xtZzVpbjdTWVFNOERjMml1OUJ4R3NIbjJjZnlVM1V3dXQwSDFHQ2x1eVlCTk9zNy1aRmxGUTU1TER5WHk5a3o2NmpaNTBsQTFZbXFxbWRJbDNVdG5oUV9OUVZSU1pBOFlaMENybmRob1YtRS1hNmVEaHA0ZVZlano3UHV2OEp6SGNiaXd6d1JNUVpMNXhjZ041SU80QWZUNC0zSWhJUkdDU0hMN2h4SUp5Y2syU0d3S0k2OG8yT3dnclU0?oc=5",
-        "source": "সময় টিভি",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 19 Mar 2023 07:00:00 GMT",
-        "summary": "বীরত্বসূচক পদক পাচ্ছে র‌্যাব ডগ স্কোয়াডের কুকুর &nbsp;&nbsp; সময় নিউজ",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.somoynews.tv/news/2023-03-19/%E0%A6%AC%E0%A7%80%E0%A6%B0%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%82%E0%A6%9A%E0%A6%95-%E0%A6%AA%E0%A6%A6%E0%A6%95-%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%B0%E2%80%8C%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%A1%E0%A6%97-%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%A1%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%81%E0%A6%95%E0%A7%81%E0%A6%B0",
-        "imageAttemptedAt": "2026-11-09T23:16:10.028Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zdHE2SlY5ajNBVEhlSFgtVmljVjNoNHZ0MTFZLV9Sc1cyUUFkOHJzM1hTa0N2SjVPZXNHSVJJVVczOE9TVk1IbnctRVRjUUg3SG1VNXhtV1Q3MnRKZ1E?oc=5",
-        "title": "চাঁদপুরে ঘুমন্ত মা-মেয়ের ওপর দুর্বৃত্তের এসিড নিক্ষেপ, আটক ১ | বাংলাদেশ",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zdHE2SlY5ajNBVEhlSFgtVmljVjNoNHZ0MTFZLV9Sc1cyUUFkOHJzM1hTa0N2SjVPZXNHSVJJVVczOE9TVk1IbnctRVRjUUg3SG1VNXhtV1Q3MnRKZ1E?oc=5",
-        "source": "সময় টিভি",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 26 Feb 2024 08:00:00 GMT",
-        "summary": "চাঁদপুরে ঘুমন্ত মা-মেয়ের ওপর দুর্বৃত্তের এসিড নিক্ষেপ, আটক ১ | বাংলাদেশ &nbsp;&nbsp; Somoy News",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.somoynews.tv/news/2024-02-26/svzBZSQv",
-        "imageAttemptedAt": "2026-11-10T17:30:29.196Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1PU2tZYVFVSk9nT2Fua2pZUzZmaDQtbDZFamVZUTRkYzlXcDdaTlVQVnV5Q1oxV2loZ0JGTTM2ZVVtd1F5S1dBQmlremk?oc=5",
-        "title": "Gemini - Somoy News",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1PU2tZYVFVSk9nT2Fua2pZUzZmaDQtbDZFamVZUTRkYzlXcDdaTlVQVnV5Q1oxV2loZ0JGTTM2ZVVtd1F5S1dBQmlremk?oc=5",
-        "source": "সময় টিভি",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 07 Dec 2023 03:02:08 GMT",
-        "summary": "Gemini &nbsp;&nbsp; Somoy News",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://en.somoynews.tv/topic/gemini",
-        "imageAttemptedAt": "2026-11-10T12:36:33.372Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      }
-    ],
     "maasranga": [
       {
         "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kTnNEM2NtSjVxSnRleUg3SjJwNGd6NVNsTENWU2ZteW9LYVk4WlVHTzJsNjNFYm8zcTYxa0x4dHV5cGlJcWVQd0x2V3R6MjA?oc=5",
@@ -185,6 +131,60 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/category/business-report/",
         "imageAttemptedAt": "2026-11-10T18:24:22.947Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      }
+    ],
+    "somoy": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KUGYxS0M3ZDN5SUxRZTEtVFhwQ3drNS1sVUpBR3BKTlBHbW55c3gwaG9BTGJUbGZ4WURPcXh6QzU4MGNWekpEVjVoVXBHT2F0d21oTGZOLXlycDU5MHc?oc=5",
+        "title": "মাধ্যমিক বিদ্যালয়ে ২০২৫ সালে ছুটি কতদিন?",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KUGYxS0M3ZDN5SUxRZTEtVFhwQ3drNS1sVUpBR3BKTlBHbW55c3gwaG9BTGJUbGZ4WURPcXh6QzU4MGNWekpEVjVoVXBHT2F0d21oTGZOLXlycDU5MHc?oc=5",
+        "source": "সময় টিভি",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 17 Nov 2024 08:00:00 GMT",
+        "summary": "মাধ্যমিক বিদ্যালয়ে ২০২৫ সালে ছুটি কতদিন? &nbsp;&nbsp; সময় নিউজ",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.somoynews.tv/news/2024-11-18/PZ9tKuYQ",
+        "imageAttemptedAt": "2026-11-10T03:15:57.097Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxOVTFSZkZfdVhNNHAwNGozQXJBVDd5MkhPOVd5MFRrQzliZzVHLUMwZ2dUbEdwTVphLW9XOXgzR0I1YW51SEdBZEVkR0UwMHMxV1FrS0N6RmVxR0V4MUhVX3Q4VnlhZ2FqTWxvNzgwV3lFNnFneFpJbVBsc212TjdJVmJjTVlTdHB3SlN4aV95WVVhblRtSmw2SlNhZ1d6UktBRWgyb3FzN2NodVFobi1kSzdYdXVMMUVUZGdld1c0Y2FXU2RiakEtNFp0TjdYdlNVOS1nUjhPOGdCR0hNR1VaMWNvWHl3MnhNNXVsTFk5bV9xNEc3cHRmM1YzU3V4WHh1ai1KSG94REZXOXllRjJoT1JMWThBRHRjcE1HS3JYXzloUkNDY096VHE4Z2VjOXFBemlLMzJjWmJWQUg3NDFBb2NLYnkyak9MdFhYM1ktWEUtVGNHMzhPY0o4UnM3ZURSZTNsWUphTzBRWjdSakZoc2ZyV0RYUVQ1MUxDSENDY2I5V0VwM2Y5a1pTY3RGTjZpcG5FNWVmeXhBclp0RE5GRHgyN0xtZzVpbjdTWVFNOERjMml1OUJ4R3NIbjJjZnlVM1V3dXQwSDFHQ2x1eVlCTk9zNy1aRmxGUTU1TER5WHk5a3o2NmpaNTBsQTFZbXFxbWRJbDNVdG5oUV9OUVZSU1pBOFlaMENybmRob1YtRS1hNmVEaHA0ZVZlano3UHV2OEp6SGNiaXd6d1JNUVpMNXhjZ041SU80QWZUNC0zSWhJUkdDU0hMN2h4SUp5Y2syU0d3S0k2OG8yT3dnclU0?oc=5",
+        "title": "বীরত্বসূচক পদক পাচ্ছে র‌্যাব ডগ স্কোয়াডের কুকুর",
+        "link": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxOVTFSZkZfdVhNNHAwNGozQXJBVDd5MkhPOVd5MFRrQzliZzVHLUMwZ2dUbEdwTVphLW9XOXgzR0I1YW51SEdBZEVkR0UwMHMxV1FrS0N6RmVxR0V4MUhVX3Q4VnlhZ2FqTWxvNzgwV3lFNnFneFpJbVBsc212TjdJVmJjTVlTdHB3SlN4aV95WVVhblRtSmw2SlNhZ1d6UktBRWgyb3FzN2NodVFobi1kSzdYdXVMMUVUZGdld1c0Y2FXU2RiakEtNFp0TjdYdlNVOS1nUjhPOGdCR0hNR1VaMWNvWHl3MnhNNXVsTFk5bV9xNEc3cHRmM1YzU3V4WHh1ai1KSG94REZXOXllRjJoT1JMWThBRHRjcE1HS3JYXzloUkNDY096VHE4Z2VjOXFBemlLMzJjWmJWQUg3NDFBb2NLYnkyak9MdFhYM1ktWEUtVGNHMzhPY0o4UnM3ZURSZTNsWUphTzBRWjdSakZoc2ZyV0RYUVQ1MUxDSENDY2I5V0VwM2Y5a1pTY3RGTjZpcG5FNWVmeXhBclp0RE5GRHgyN0xtZzVpbjdTWVFNOERjMml1OUJ4R3NIbjJjZnlVM1V3dXQwSDFHQ2x1eVlCTk9zNy1aRmxGUTU1TER5WHk5a3o2NmpaNTBsQTFZbXFxbWRJbDNVdG5oUV9OUVZSU1pBOFlaMENybmRob1YtRS1hNmVEaHA0ZVZlano3UHV2OEp6SGNiaXd6d1JNUVpMNXhjZ041SU80QWZUNC0zSWhJUkdDU0hMN2h4SUp5Y2syU0d3S0k2OG8yT3dnclU0?oc=5",
+        "source": "সময় টিভি",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 19 Mar 2023 07:00:00 GMT",
+        "summary": "বীরত্বসূচক পদক পাচ্ছে র‌্যাব ডগ স্কোয়াডের কুকুর &nbsp;&nbsp; সময় নিউজ",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.somoynews.tv/news/2023-03-19/%E0%A6%AC%E0%A7%80%E0%A6%B0%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%82%E0%A6%9A%E0%A6%95-%E0%A6%AA%E0%A6%A6%E0%A6%95-%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%B0%E2%80%8C%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%A1%E0%A6%97-%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%A1%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%81%E0%A6%95%E0%A7%81%E0%A6%B0",
+        "imageAttemptedAt": "2026-11-09T23:16:10.028Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zdHE2SlY5ajNBVEhlSFgtVmljVjNoNHZ0MTFZLV9Sc1cyUUFkOHJzM1hTa0N2SjVPZXNHSVJJVVczOE9TVk1IbnctRVRjUUg3SG1VNXhtV1Q3MnRKZ1E?oc=5",
+        "title": "চাঁদপুরে ঘুমন্ত মা-মেয়ের ওপর দুর্বৃত্তের এসিড নিক্ষেপ, আটক ১ | বাংলাদেশ",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zdHE2SlY5ajNBVEhlSFgtVmljVjNoNHZ0MTFZLV9Sc1cyUUFkOHJzM1hTa0N2SjVPZXNHSVJJVVczOE9TVk1IbnctRVRjUUg3SG1VNXhtV1Q3MnRKZ1E?oc=5",
+        "source": "সময় টিভি",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 26 Feb 2024 08:00:00 GMT",
+        "summary": "চাঁদপুরে ঘুমন্ত মা-মেয়ের ওপর দুর্বৃত্তের এসিড নিক্ষেপ, আটক ১ | বাংলাদেশ &nbsp;&nbsp; সময় নিউজ",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.somoynews.tv/news/2024-02-26/svzBZSQv",
+        "imageAttemptedAt": "2026-11-10T17:30:29.196Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1PU2tZYVFVSk9nT2Fua2pZUzZmaDQtbDZFamVZUTRkYzlXcDdaTlVQVnV5Q1oxV2loZ0JGTTM2ZVVtd1F5S1dBQmlremk?oc=5",
+        "title": "Gemini - Somoy News",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1PU2tZYVFVSk9nT2Fua2pZUzZmaDQtbDZFamVZUTRkYzlXcDdaTlVQVnV5Q1oxV2loZ0JGTTM2ZVVtd1F5S1dBQmlremk?oc=5",
+        "source": "সময় টিভি",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 07 Dec 2023 03:02:08 GMT",
+        "summary": "Gemini &nbsp;&nbsp; Somoy News",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://en.somoynews.tv/topic/gemini",
+        "imageAttemptedAt": "2026-11-10T12:36:33.372Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -413,15 +413,15 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0QVFKeE5pMWlwWnZGOWZjYi14aTZZbk1JcDFoN2FaVlQ5MGlJT0xFQVJFRjVlM2tSZkI1dHBZYUZHRnRhcTVzMFZ1MkFGbzMyZUJkcQ?oc=5",
-        "title": "LIVE TV - Channel 24",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0QVFKeE5pMWlwWnZGOWZjYi14aTZZbk1JcDFoN2FaVlQ5MGlJT0xFQVJFRjVlM2tSZkI1dHBZYUZHRnRhcTVzMFZ1MkFGbzMyZUJkcQ?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMijgdBVV95cUxOMUR5RWxGZzBzbV9KLWdfa3dZVHRScndKd2hBeXNxWGR4OTZuUWJRbHhUTE0yZU10b09uMk1mU0lJa3RLRmwxYWpyWWktaHhOX2FhTDhmQVJTb29Jb1pzNzl5QmhQZFlyS2ZfWGJqOHNFQ1FxRDhIc0pkMnlFaS14T2JET0dMSHVxNTNrWm9lSzdzTUpQWkt1czA3bDNQb3FfRGZONVdOODFUN2ptakpiNFZHYzZWODJBdjFvM3ZfYlpma3dsV3lMNF9BRDhoWXFDTUZMbmstWEVHUlFvNXZjY2M2SnRvV2h5dm1hb3RwaWhqZHlsUnpmNEItbmxmR0VPdnNGUHFENlBNcjBKNHFodjNsZHYyNndJQ3dGN19kTXpoZ2xFc0E1dDdQMWMzR3ZJSFFNN216bjVFZXRPRWw2eGt1MEFLWEtOZlctUzlnYUdkYVFab1d2Qk1OZF84M3E0dXBkdEQwVm9FaUFzSUlYSnVXNHBIWFM0Skg0QjBwNVJad1dDMGQ1TloxVUdYb3hQcWdFbmpSRGsyTkp5YmlhZUZZUXBkNjlId0xQNENnUjZLMmlGOHkzQS03b1VLN0dJa2ZKeS1WeVhZR2I1eldTNEE0U2xoTnI2WkZNVGxFdkZPOWU3b1pJSkJhMjYyd3MyMHY4elhJaEdGZnFaLUh0NmZVUlNSS043VHBHTFpUWmJrQjN2MG1xT0JyZWMwUEs2V2c5Ynl3R3ppbDlielpVM2g4LU9CQnB6WGlLTVdtdThPZld5d3BZVklZUUh2RmVXak9kbFNLU1lUU0VtYlVwSXpic3MtbXBFR1ZsOFY3Vk05c1BFLVZxeW1uNTJpRXE5eFNmWnJMdG1GdEx3S0V6SU1tOVZBOXhQdTZWNGNYNnJNWlhoSEg0WFVJZjgtYWZxc203UVZmRTVTcXBTV29OSkJqTzZRZkpNM01YWHZwbk9iT3lzNjZLal83NW9MWEt6bnJlbWgzVDNweU4tSDRnWUpKVkNUNTYyRzZXaE5ldjZIc0h5Rlc1UzExSWVPLWxQYkIwcHQ3eDdHQy1sZjN1RHJDRmVOemxJMHFLdW1rb2lZbDd0ZWpSMlNqVzlyWTYtUmQweVRiSFdkOV9KTHVTNmhKN0k1ME1vT1RtRkR3SU93VWdvN1ltTXE3d1d2alhYTUh6S01HNEtITDRSRkxJajIyclhJajR5R0h2UEtn?oc=5",
+        "title": "‘নভেম্বরে দিল্লি যাচ্ছেন প্রধানমন্ত্রী’, শুনে হাসলেন পররাষ্ট্র প্রতিমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMijgdBVV95cUxOMUR5RWxGZzBzbV9KLWdfa3dZVHRScndKd2hBeXNxWGR4OTZuUWJRbHhUTE0yZU10b09uMk1mU0lJa3RLRmwxYWpyWWktaHhOX2FhTDhmQVJTb29Jb1pzNzl5QmhQZFlyS2ZfWGJqOHNFQ1FxRDhIc0pkMnlFaS14T2JET0dMSHVxNTNrWm9lSzdzTUpQWkt1czA3bDNQb3FfRGZONVdOODFUN2ptakpiNFZHYzZWODJBdjFvM3ZfYlpma3dsV3lMNF9BRDhoWXFDTUZMbmstWEVHUlFvNXZjY2M2SnRvV2h5dm1hb3RwaWhqZHlsUnpmNEItbmxmR0VPdnNGUHFENlBNcjBKNHFodjNsZHYyNndJQ3dGN19kTXpoZ2xFc0E1dDdQMWMzR3ZJSFFNN216bjVFZXRPRWw2eGt1MEFLWEtOZlctUzlnYUdkYVFab1d2Qk1OZF84M3E0dXBkdEQwVm9FaUFzSUlYSnVXNHBIWFM0Skg0QjBwNVJad1dDMGQ1TloxVUdYb3hQcWdFbmpSRGsyTkp5YmlhZUZZUXBkNjlId0xQNENnUjZLMmlGOHkzQS03b1VLN0dJa2ZKeS1WeVhZR2I1eldTNEE0U2xoTnI2WkZNVGxFdkZPOWU3b1pJSkJhMjYyd3MyMHY4elhJaEdGZnFaLUh0NmZVUlNSS043VHBHTFpUWmJrQjN2MG1xT0JyZWMwUEs2V2c5Ynl3R3ppbDlielpVM2g4LU9CQnB6WGlLTVdtdThPZld5d3BZVklZUUh2RmVXak9kbFNLU1lUU0VtYlVwSXpic3MtbXBFR1ZsOFY3Vk05c1BFLVZxeW1uNTJpRXE5eFNmWnJMdG1GdEx3S0V6SU1tOVZBOXhQdTZWNGNYNnJNWlhoSEg0WFVJZjgtYWZxc203UVZmRTVTcXBTV29OSkJqTzZRZkpNM01YWHZwbk9iT3lzNjZLal83NW9MWEt6bnJlbWgzVDNweU4tSDRnWUpKVkNUNTYyRzZXaE5ldjZIc0h5Rlc1UzExSWVPLWxQYkIwcHQ3eDdHQy1sZjN1RHJDRmVOemxJMHFLdW1rb2lZbDd0ZWpSMlNqVzlyWTYtUmQweVRiSFdkOV9KTHVTNmhKN0k1ME1vT1RtRkR3SU93VWdvN1ltTXE3d1d2alhYTUh6S01HNEtITDRSRkxJajIyclhJajR5R0h2UEtn?oc=5",
         "source": "News24 / Channel 24",
         "publisherUrl": "",
-        "publishedAt": "Sun, 12 Jun 2022 07:00:00 GMT",
-        "summary": "LIVE TV &nbsp;&nbsp; Channel 24",
-        "image": "https://img.youtube.com/vi/6eOCceaS9h0/0.jpg",
-        "articleUrl": "https://www.channel24bd.tv/video/show/1679",
+        "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+        "summary": "‘নভেম্বরে দিল্লি যাচ্ছেন প্রধানমন্ত্রী’, শুনে হাসলেন পররাষ্ট্র প্রতিমন্ত্রী &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/221011001-1791205665.jpg",
+        "articleUrl": "https://www.channel24bd.tv/national/article/351258/%E2%80%98%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BF-%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E2%80%99-%E0%A6%B6%E0%A7%81%E0%A6%A8%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%AA%E0%A6%B0%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
@@ -439,15 +439,15 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMijgdBVV95cUxOMUR5RWxGZzBzbV9KLWdfa3dZVHRScndKd2hBeXNxWGR4OTZuUWJRbHhUTE0yZU10b09uMk1mU0lJa3RLRmwxYWpyWWktaHhOX2FhTDhmQVJTb29Jb1pzNzl5QmhQZFlyS2ZfWGJqOHNFQ1FxRDhIc0pkMnlFaS14T2JET0dMSHVxNTNrWm9lSzdzTUpQWkt1czA3bDNQb3FfRGZONVdOODFUN2ptakpiNFZHYzZWODJBdjFvM3ZfYlpma3dsV3lMNF9BRDhoWXFDTUZMbmstWEVHUlFvNXZjY2M2SnRvV2h5dm1hb3RwaWhqZHlsUnpmNEItbmxmR0VPdnNGUHFENlBNcjBKNHFodjNsZHYyNndJQ3dGN19kTXpoZ2xFc0E1dDdQMWMzR3ZJSFFNN216bjVFZXRPRWw2eGt1MEFLWEtOZlctUzlnYUdkYVFab1d2Qk1OZF84M3E0dXBkdEQwVm9FaUFzSUlYSnVXNHBIWFM0Skg0QjBwNVJad1dDMGQ1TloxVUdYb3hQcWdFbmpSRGsyTkp5YmlhZUZZUXBkNjlId0xQNENnUjZLMmlGOHkzQS03b1VLN0dJa2ZKeS1WeVhZR2I1eldTNEE0U2xoTnI2WkZNVGxFdkZPOWU3b1pJSkJhMjYyd3MyMHY4elhJaEdGZnFaLUh0NmZVUlNSS043VHBHTFpUWmJrQjN2MG1xT0JyZWMwUEs2V2c5Ynl3R3ppbDlielpVM2g4LU9CQnB6WGlLTVdtdThPZld5d3BZVklZUUh2RmVXak9kbFNLU1lUU0VtYlVwSXpic3MtbXBFR1ZsOFY3Vk05c1BFLVZxeW1uNTJpRXE5eFNmWnJMdG1GdEx3S0V6SU1tOVZBOXhQdTZWNGNYNnJNWlhoSEg0WFVJZjgtYWZxc203UVZmRTVTcXBTV29OSkJqTzZRZkpNM01YWHZwbk9iT3lzNjZLal83NW9MWEt6bnJlbWgzVDNweU4tSDRnWUpKVkNUNTYyRzZXaE5ldjZIc0h5Rlc1UzExSWVPLWxQYkIwcHQ3eDdHQy1sZjN1RHJDRmVOemxJMHFLdW1rb2lZbDd0ZWpSMlNqVzlyWTYtUmQweVRiSFdkOV9KTHVTNmhKN0k1ME1vT1RtRkR3SU93VWdvN1ltTXE3d1d2alhYTUh6S01HNEtITDRSRkxJajIyclhJajR5R0h2UEtn?oc=5",
-        "title": "‘নভেম্বরে দিল্লি যাচ্ছেন প্রধানমন্ত্রী’, শুনে হাসলেন পররাষ্ট্র প্রতিমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMijgdBVV95cUxOMUR5RWxGZzBzbV9KLWdfa3dZVHRScndKd2hBeXNxWGR4OTZuUWJRbHhUTE0yZU10b09uMk1mU0lJa3RLRmwxYWpyWWktaHhOX2FhTDhmQVJTb29Jb1pzNzl5QmhQZFlyS2ZfWGJqOHNFQ1FxRDhIc0pkMnlFaS14T2JET0dMSHVxNTNrWm9lSzdzTUpQWkt1czA3bDNQb3FfRGZONVdOODFUN2ptakpiNFZHYzZWODJBdjFvM3ZfYlpma3dsV3lMNF9BRDhoWXFDTUZMbmstWEVHUlFvNXZjY2M2SnRvV2h5dm1hb3RwaWhqZHlsUnpmNEItbmxmR0VPdnNGUHFENlBNcjBKNHFodjNsZHYyNndJQ3dGN19kTXpoZ2xFc0E1dDdQMWMzR3ZJSFFNN216bjVFZXRPRWw2eGt1MEFLWEtOZlctUzlnYUdkYVFab1d2Qk1OZF84M3E0dXBkdEQwVm9FaUFzSUlYSnVXNHBIWFM0Skg0QjBwNVJad1dDMGQ1TloxVUdYb3hQcWdFbmpSRGsyTkp5YmlhZUZZUXBkNjlId0xQNENnUjZLMmlGOHkzQS03b1VLN0dJa2ZKeS1WeVhZR2I1eldTNEE0U2xoTnI2WkZNVGxFdkZPOWU3b1pJSkJhMjYyd3MyMHY4elhJaEdGZnFaLUh0NmZVUlNSS043VHBHTFpUWmJrQjN2MG1xT0JyZWMwUEs2V2c5Ynl3R3ppbDlielpVM2g4LU9CQnB6WGlLTVdtdThPZld5d3BZVklZUUh2RmVXak9kbFNLU1lUU0VtYlVwSXpic3MtbXBFR1ZsOFY3Vk05c1BFLVZxeW1uNTJpRXE5eFNmWnJMdG1GdEx3S0V6SU1tOVZBOXhQdTZWNGNYNnJNWlhoSEg0WFVJZjgtYWZxc203UVZmRTVTcXBTV29OSkJqTzZRZkpNM01YWHZwbk9iT3lzNjZLal83NW9MWEt6bnJlbWgzVDNweU4tSDRnWUpKVkNUNTYyRzZXaE5ldjZIc0h5Rlc1UzExSWVPLWxQYkIwcHQ3eDdHQy1sZjN1RHJDRmVOemxJMHFLdW1rb2lZbDd0ZWpSMlNqVzlyWTYtUmQweVRiSFdkOV9KTHVTNmhKN0k1ME1vT1RtRkR3SU93VWdvN1ltTXE3d1d2alhYTUh6S01HNEtITDRSRkxJajIyclhJajR5R0h2UEtn?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMiiAZBVV95cUxNT2FCc2NrTGVMODZwZ2ExeThuUHZYNVVaa1REWnRlV01FWkltSF8wV3lSX3JtS3VBMHF4dFpxRUYtRGNkeENPcmhZYlktOUQ5NUZzb2JnLXlJdXlFbWlNS0FnTzRvUlJITGhzeVUwcGdManBvMjVfSTU4SmVNSlQ2eHNxR1BKOGV4QkVud2lmd0p2VGI3a05fbVlWSFgxQlVLbzlMUU1obGxnUzdSbW5HcWFPTVVxdkxGV052SWI3b0xCcFVGQlJQUmgyeUpWcktDYUVVRFVDNi1CeUZ2YjBZZnRQT0lVWVVZU2VuZDc0d3Z4YkJJZTJzUENPWGhuSFpjZFNrVXlWWlJESUNBV3U1dllJOFFSaTFSMXFYZS1aRmljdGhha295U0VxUjI1N2FRUHhWRENoX1paVW55TFNuTWRxcE9MTG1YdkFkWW1oOUplQmRqVVVFaHJlRks2VS1KWUFQSkFmSFNJMmdoR1poeTlyc1Q2QzhhOTU4Y0djX1AwbFl2WEdscmdWWENxQW5QYVBaamppMVBpcG85NEVubUFPdjZKaTRsb01ydDFjNVVHbTRpcDd5akFFeWJRaVVjMGllUXZvazhZOHhLMm9TQ0JaRXBrQi1rd2VlTWlwNUppSTdPV2dyNUgzZjNpUkFFek5hRDBjQ3JqdEhyS3k5aE5DSVZFUDZwNmVIcmFqVEFmVTEwOW0yMFlUZDBjY1dKanJkSE1yM0xnTHd5SWY4Y2Y4aFVPLWtjdFJNblFEWVEzNkhETnVHUEw2aWNqSzJjZk0zOE5ZTm8yYVhuY1lxdXRZMXVZWXdOYUlUZ09mZkpmd3MtMHI3MlZ0LXZoSDAxYmdlRmQ5dl9JQlowTjRLdUZocHB4M0tXMnpkN3lSM0dEQkw2U2ZBSnBEVHVTR21Ia2JUU0EzR0pMbkVwZ213R05tcjh6SmFXd1VsVjJDVk42YThHUXRrUE1LcmVfUmVzdklranJUak96MU1tZ0lJTGluMkc5WkxyTXVMM2UyX3RDSnI4WFZiSw?oc=5",
+        "title": "কাইল্ল্যা পলাশ হত্যাসহ ২৭ মামলার আসামি ‘পিচ্চি আল-আমিন’ গ্রেপ্তার",
+        "link": "https://news.google.com/rss/articles/CBMiiAZBVV95cUxNT2FCc2NrTGVMODZwZ2ExeThuUHZYNVVaa1REWnRlV01FWkltSF8wV3lSX3JtS3VBMHF4dFpxRUYtRGNkeENPcmhZYlktOUQ5NUZzb2JnLXlJdXlFbWlNS0FnTzRvUlJITGhzeVUwcGdManBvMjVfSTU4SmVNSlQ2eHNxR1BKOGV4QkVud2lmd0p2VGI3a05fbVlWSFgxQlVLbzlMUU1obGxnUzdSbW5HcWFPTVVxdkxGV052SWI3b0xCcFVGQlJQUmgyeUpWcktDYUVVRFVDNi1CeUZ2YjBZZnRQT0lVWVVZU2VuZDc0d3Z4YkJJZTJzUENPWGhuSFpjZFNrVXlWWlJESUNBV3U1dllJOFFSaTFSMXFYZS1aRmljdGhha295U0VxUjI1N2FRUHhWRENoX1paVW55TFNuTWRxcE9MTG1YdkFkWW1oOUplQmRqVVVFaHJlRks2VS1KWUFQSkFmSFNJMmdoR1poeTlyc1Q2QzhhOTU4Y0djX1AwbFl2WEdscmdWWENxQW5QYVBaamppMVBpcG85NEVubUFPdjZKaTRsb01ydDFjNVVHbTRpcDd5akFFeWJRaVVjMGllUXZvazhZOHhLMm9TQ0JaRXBrQi1rd2VlTWlwNUppSTdPV2dyNUgzZjNpUkFFek5hRDBjQ3JqdEhyS3k5aE5DSVZFUDZwNmVIcmFqVEFmVTEwOW0yMFlUZDBjY1dKanJkSE1yM0xnTHd5SWY4Y2Y4aFVPLWtjdFJNblFEWVEzNkhETnVHUEw2aWNqSzJjZk0zOE5ZTm8yYVhuY1lxdXRZMXVZWXdOYUlUZ09mZkpmd3MtMHI3MlZ0LXZoSDAxYmdlRmQ5dl9JQlowTjRLdUZocHB4M0tXMnpkN3lSM0dEQkw2U2ZBSnBEVHVTR21Ia2JUU0EzR0pMbkVwZ213R05tcjh6SmFXd1VsVjJDVk42YThHUXRrUE1LcmVfUmVzdklranJUak96MU1tZ0lJTGluMkc5WkxyTXVMM2UyX3RDSnI4WFZiSw?oc=5",
         "source": "News24 / Channel 24",
         "publisherUrl": "",
-        "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-        "summary": "‘নভেম্বরে দিল্লি যাচ্ছেন প্রধানমন্ত্রী’, শুনে হাসলেন পররাষ্ট্র প্রতিমন্ত্রী &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/221011001-1791205665.jpg",
-        "articleUrl": "https://www.channel24bd.tv/national/article/351258/%E2%80%98%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BF-%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E2%80%99-%E0%A6%B6%E0%A7%81%E0%A6%A8%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%AA%E0%A6%B0%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
+        "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
+        "summary": "কাইল্ল্যা পলাশ হত্যাসহ ২৭ মামলার আসামি ‘পিচ্চি আল-আমিন’ গ্রেপ্তার &nbsp;&nbsp; Channel 24",
+        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/alamin-1790869469.jpg",
+        "articleUrl": "https://www.channel24bd.tv/crime/article/350534/%E0%A6%95%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%AA%E0%A6%B2%E0%A6%BE%E0%A6%B6-%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%B9-%E0%A7%A8%E0%A7%AD-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%BF-%E2%80%98%E0%A6%AA%E0%A6%BF%E0%A6%9A%E0%A7%8D%E0%A6%9A%E0%A6%BF-%E0%A6%86%E0%A6%B2-%E0%A6%86%E0%A6%AE%E0%A6%BF%E0%A6%A8%E2%80%99-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
@@ -558,19 +558,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE85MkdyVk5XbXNPeGh2ZjBOUlkxNWtJUHNwRkx5X1BseVREXzlVelJnWEY1dUpJenRCY1BXeUlCVEFYYVp6RXE0SVRldw?oc=5",
-        "title": "দ. আফ্রিকার বিপক্ষে বাংলাদেশের টেস্ট দল ঘোষণা, প্রথমবার ডাক পেলেন মাহফিজুল",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE85MkdyVk5XbXNPeGh2ZjBOUlkxNWtJUHNwRkx5X1BseVREXzlVelJnWEY1dUpJenRCY1BXeUlCVEFYYVp6RXE0SVRldw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 09 Nov 2026 05:57:49 GMT",
-        "summary": "দ. আফ্রিকার বিপক্ষে বাংলাদেশের টেস্ট দল ঘোষণা, প্রথমবার ডাক পেলেন মাহফিজুল &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/sports/667665",
-        "imageAttemptedAt": "2026-11-10T10:37:58.352Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ieDB5LU55RksyQWEyQ2xuYW8wMXByTk1uT3AzTVY0UHB4amZ2NHA4RkhNdkFqeVoycGdiY1M1TU1yUm4yLXJtRUxqY0ZKb0hIaVByX3JB?oc=5",
         "title": "নারায়ণগঞ্জে মাদরাসায় অগ্নিকাণ্ড: ৬৩ শিক্ষার্থী বার্ন ইনস্টিটিউটে, ৪ জন আইসিইউতে",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ieDB5LU55RksyQWEyQ2xuYW8wMXByTk1uT3AzTVY0UHB4amZ2NHA4RkhNdkFqeVoycGdiY1M1TU1yUm4yLXJtRUxqY0ZKb0hIaVByX3JB?oc=5",
@@ -581,6 +568,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.jamuna.tv/all-bangladesh/667721",
         "imageAttemptedAt": "2026-11-10T07:43:28.714Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE85MkdyVk5XbXNPeGh2ZjBOUlkxNWtJUHNwRkx5X1BseVREXzlVelJnWEY1dUpJenRCY1BXeUlCVEFYYVp6RXE0SVRldw?oc=5",
+        "title": "দ. আফ্রিকার বিপক্ষে বাংলাদেশের টেস্ট দল ঘোষণা, প্রথমবার ডাক পেলেন মাহফিজুল",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE85MkdyVk5XbXNPeGh2ZjBOUlkxNWtJUHNwRkx5X1BseVREXzlVelJnWEY1dUpJenRCY1BXeUlCVEFYYVp6RXE0SVRldw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 09 Nov 2026 05:57:49 GMT",
+        "summary": "দ. আফ্রিকার বিপক্ষে বাংলাদেশের টেস্ট দল ঘোষণা, প্রথমবার ডাক পেলেন মাহফিজুল &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/sports/667665",
+        "imageAttemptedAt": "2026-11-10T10:37:58.352Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ]
@@ -842,7 +842,7 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tWk5jZ3g4RVJHVTVtNjRTVWJIMkVPN0hCOVJGZndtSmVNNE04aWQyemVuS2tvTUxoZ2t5cXVDMzNNcURKMEZGMGRzY2N0MG5XdkE3T3RBeHUxcFFSQ0lGODBVNERxbEJlTWx5Nw?oc=5",
         "source": "দ্য ডেইলি স্টার বাংলা",
         "publisherUrl": "",
-        "publishedAt": "Mon, 09 Nov 2026 12:27:52 GMT",
+        "publishedAt": "Mon, 09 Nov 2026 12:30:49 GMT",
         "summary": "বাটলারের ক্যান্সারের খবরে বিষণ্ন বাংলাদেশের মেয়েরা &nbsp;&nbsp; দ্য ডেইলি স্টার বাংলা",
         "image": "https://bangla.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/photo-collage.png%285%29.png",
         "articleUrl": "https://bangla.thedailystar.net/sports/football/news-3979221",
@@ -988,7 +988,7 @@
     "total": 74,
     "fromRss": 0,
     "fromArticleMetadata": 23,
-    "reusedCached": 20,
+    "reusedCached": 22,
     "actualPhotos": 23,
     "fallbackIllustrations": 51,
     "withImage": 74,
