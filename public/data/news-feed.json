@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-10T21:14:54.627Z",
+  "generatedAt": "2026-11-10T21:58:39.179Z",
   "sponsors": {
     "somoy": [
       {
@@ -58,19 +58,6 @@
     ],
     "maasranga": [
       {
-        "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kTnNEM2NtSjVxSnRleUg3SjJwNGd6NVNsTENWU2ZteW9LYVk4WlVHTzJsNjNFYm8zcTYxa0x4dHV5cGlJcWVQd0x2V3R6MjA?oc=5",
-        "title": "মাছরাঙা টেলিভিশনের ভিডিও সমূহ",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kTnNEM2NtSjVxSnRleUg3SjJwNGd6NVNsTENWU2ZteW9LYVk4WlVHTzJsNjNFYm8zcTYxa0x4dHV5cGlJcWVQd0x2V3R6MjA?oc=5",
-        "source": "Maasranga TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 28 Dec 2023 19:24:45 GMT",
-        "summary": "মাছরাঙা টেলিভিশনের ভিডিও সমূহ &nbsp;&nbsp; Maasranga Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://maasranga.tv/maasranga-videos/",
-        "imageAttemptedAt": "2026-11-10T18:24:22.947Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9GZGVtRmZ4UDhMSmxoeGNsSnR5aHppT2tYajAzU0w0TXJaczJ3Xy1kOEJkNHhKTm9RM193ZVFzX0E3dkVvb2FMSW5nTGlNWldlZ1h5SnJwVTBVRUtKcUlhMHpUUkRuQQ?oc=5",
         "title": "Category: মাছরাঙা নাটক/টেলিফিল্ম",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9GZGVtRmZ4UDhMSmxoeGNsSnR5aHppT2tYajAzU0w0TXJaczJ3Xy1kOEJkNHhKTm9RM193ZVFzX0E3dkVvb2FMSW5nTGlNWldlZ1h5SnJwVTBVRUtKcUlhMHpUUkRuQQ?oc=5",
@@ -107,6 +94,19 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/full-width/program-time-schedule/",
         "imageAttemptedAt": "2026-11-10T19:27:28.587Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1vc2Rlai04ZGpxaHIxdmxQMERxZEhOc1NHZzB4aVEyMTNWaUd1VG9zRjNLREkxeDd3QXZV?oc=5",
+        "title": "2 - Maasranga Television",
+        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1vc2Rlai04ZGpxaHIxdmxQMERxZEhOc1NHZzB4aVEyMTNWaUd1VG9zRjNLREkxeDd3QXZV?oc=5",
+        "source": "Maasranga TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 22 Oct 2026 03:05:21 GMT",
+        "summary": "2 &nbsp;&nbsp; Maasranga Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://maasranga.tv/2/",
+        "imageAttemptedAt": "2026-11-10T21:58:40.853Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -149,6 +149,19 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9RaU5OQlVQMjVzTFF1NWVNU2lSeFBzZmU0RldrVWZWVkt5SnRrRFNod1QybXNLMkctQWNPbVRKQlJNd2NkVndBOF9RRlFaam5LWHdMWjNHYXROMUlkM3N3TjZicXU?oc=5",
+        "title": "Category: মাছরাঙা ইসলামিক শো",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9RaU5OQlVQMjVzTFF1NWVNU2lSeFBzZmU0RldrVWZWVkt5SnRrRFNod1QybXNLMkctQWNPbVRKQlJNd2NkVndBOF9RRlFaam5LWHdMWjNHYXROMUlkM3N3TjZicXU?oc=5",
+        "source": "Maasranga TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 13 Jul 2024 13:12:15 GMT",
+        "summary": "Category: মাছরাঙা ইসলামিক শো &nbsp;&nbsp; Maasranga Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://maasranga.tv/category/maasranga-islamic-shows/",
+        "imageAttemptedAt": "2026-11-10T21:58:40.853Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE00SnF6bVZmUlhlcFZuNkNLREpvb0NNOE9yZkJ3UldBZTlDZnE1a2FlemdQQ1ZwSnVubW5tOFJEQlFpNU9YejBxMWpqc25qSVc0TU9aWXppNTE?oc=5",
         "title": "Category: মাছরাঙা কিডস",
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE00SnF6bVZmUlhlcFZuNkNLREpvb0NNOE9yZkJ3UldBZTlDZnE1a2FlemdQQ1ZwSnVubW5tOFJEQlFpNU9YejBxMWpqc25qSVc0TU9aWXppNTE?oc=5",
@@ -172,19 +185,6 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://maasranga.tv/tag/drama/",
         "imageAttemptedAt": "2026-11-10T17:30:29.196Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBZelpLWkhSYzVrVDNrYk1LOEZKOEVxTHROY1dJdXFhU2RZWGptXzRLeER6U2NQUFRyX3lTNGZLa2xGWE9USXAxRmpvWWotVkNFRFBvQVM3LUJZUQ?oc=5",
-        "title": "Category: বিজনেস রিপোর্ট",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBZelpLWkhSYzVrVDNrYk1LOEZKOEVxTHROY1dJdXFhU2RZWGptXzRLeER6U2NQUFRyX3lTNGZLa2xGWE9USXAxRmpvWWotVkNFRFBvQVM3LUJZUQ?oc=5",
-        "source": "Maasranga TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 28 Oct 2023 23:48:11 GMT",
-        "summary": "Category: বিজনেস রিপোর্ট &nbsp;&nbsp; Maasranga Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://maasranga.tv/category/business-report/",
-        "imageAttemptedAt": "2026-11-10T18:24:22.947Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -281,19 +281,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBuVUV2ZnlCZHhVcXBlNHQyRE1QRkdLM01QWnNnWWlHeHZmb0FGVEdCaGd0V1Y4Vk1tME43OHhaY2hnNkQ4ZGRoVlVsdlg1Zw?oc=5",
-        "title": "পালিয়ে যাওয়া সাবেক প্রধানমন্ত্রী শেখ হাসিনা পাসপোর্টের আবেদন করেছেন: রয়টার্স",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBuVUV2ZnlCZHhVcXBlNHQyRE1QRkdLM01QWnNnWWlHeHZmb0FGVEdCaGd0V1Y4Vk1tME43OHhaY2hnNkQ4ZGRoVlVsdlg1Zw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 09 Nov 2026 05:55:21 GMT",
-        "summary": "পালিয়ে যাওয়া সাবেক প্রধানমন্ত্রী শেখ হাসিনা পাসপোর্টের আবেদন করেছেন: রয়টার্স &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667664",
-        "imageAttemptedAt": "2026-11-10T08:40:29.607Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ieDB5LU55RksyQWEyQ2xuYW8wMXByTk1uT3AzTVY0UHB4amZ2NHA4RkhNdkFqeVoycGdiY1M1TU1yUm4yLXJtRUxqY0ZKb0hIaVByX3JB?oc=5",
         "title": "নারায়ণগঞ্জে মাদরাসায় অগ্নিকাণ্ড: ৬৩ শিক্ষার্থী বার্ন ইনস্টিটিউটে, ৪ জন আইসিইউতে",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ieDB5LU55RksyQWEyQ2xuYW8wMXByTk1uT3AzTVY0UHB4amZ2NHA4RkhNdkFqeVoycGdiY1M1TU1yUm4yLXJtRUxqY0ZKb0hIaVByX3JB?oc=5",
@@ -307,16 +294,29 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE85MkdyVk5XbXNPeGh2ZjBOUlkxNWtJUHNwRkx5X1BseVREXzlVelJnWEY1dUpJenRCY1BXeUlCVEFYYVp6RXE0SVRldw?oc=5",
-        "title": "দ. আফ্রিকার বিপক্ষে বাংলাদেশের টেস্ট দল ঘোষণা, প্রথমবার ডাক পেলেন মাহফিজুল",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE85MkdyVk5XbXNPeGh2ZjBOUlkxNWtJUHNwRkx5X1BseVREXzlVelJnWEY1dUpJenRCY1BXeUlCVEFYYVp6RXE0SVRldw?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBuVUV2ZnlCZHhVcXBlNHQyRE1QRkdLM01QWnNnWWlHeHZmb0FGVEdCaGd0V1Y4Vk1tME43OHhaY2hnNkQ4ZGRoVlVsdlg1Zw?oc=5",
+        "title": "পালিয়ে যাওয়া সাবেক প্রধানমন্ত্রী শেখ হাসিনা পাসপোর্টের আবেদন করেছেন: রয়টার্স",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBuVUV2ZnlCZHhVcXBlNHQyRE1QRkdLM01QWnNnWWlHeHZmb0FGVEdCaGd0V1Y4Vk1tME43OHhaY2hnNkQ4ZGRoVlVsdlg1Zw?oc=5",
         "source": "Jamuna TV",
         "publisherUrl": "",
-        "publishedAt": "Mon, 09 Nov 2026 05:57:49 GMT",
-        "summary": "দ. আফ্রিকার বিপক্ষে বাংলাদেশের টেস্ট দল ঘোষণা, প্রথমবার ডাক পেলেন মাহফিজুল &nbsp;&nbsp; Jamuna Television",
+        "publishedAt": "Mon, 09 Nov 2026 05:55:21 GMT",
+        "summary": "পালিয়ে যাওয়া সাবেক প্রধানমন্ত্রী শেখ হাসিনা পাসপোর্টের আবেদন করেছেন: রয়টার্স &nbsp;&nbsp; Jamuna Television",
         "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/sports/667665",
-        "imageAttemptedAt": "2026-11-10T10:37:58.352Z",
+        "articleUrl": "https://www.jamuna.tv/national/667664",
+        "imageAttemptedAt": "2026-11-10T08:40:29.607Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DeEc0N2pSdnJKOHdpN2dWVk9reUQzeXVuYVdocm9ra1d2SG91am1HenBSZEpSeUpuWm1LVkJIYmFleGo1RlYtSW4wU1BKM3pJR0ljcjNR?oc=5",
+        "title": "পদ্মা সেতুর টোলপ্লাজায় নিষিদ্ধ আওয়ামী-ছাত্রলীগের সড়ক অবরোধ-গাড়ি ভাঙচুর, ককটেল বিস্ফোরণ",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DeEc0N2pSdnJKOHdpN2dWVk9reUQzeXVuYVdocm9ra1d2SG91am1HenBSZEpSeUpuWm1LVkJIYmFleGo1RlYtSW4wU1BKM3pJR0ljcjNR?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 10 Nov 2026 06:01:01 GMT",
+        "summary": "পদ্মা সেতুর টোলপ্লাজায় নিষিদ্ধ আওয়ামী-ছাত্রলীগের সড়ক অবরোধ-গাড়ি ভাঙচুর, ককটেল বিস্ফোরণ &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/all-bangladesh/667729",
+        "imageAttemptedAt": "2026-11-10T21:58:40.853Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -545,19 +545,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBmbDRkYm5qZFM1WUdLdWlySFZYQ2tYclNsa0JYT3kwc28zMjZRZW8wVFlXc1dmWFRKUTQ5ZHRjU2s4WmxUTUlkelpuVVI?oc=5",
-        "title": "সারাদেশ - Channel 24",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBmbDRkYm5qZFM1WUdLdWlySFZYQ2tYclNsa0JYT3kwc28zMjZRZW8wVFlXc1dmWFRKUTQ5ZHRjU2s4WmxUTUlkelpuVVI?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 07 Jan 2022 16:31:33 GMT",
-        "summary": "সারাদেশ &nbsp;&nbsp; Channel 24",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.channel24bd.tv/countries",
-        "imageAttemptedAt": "2026-11-10T08:40:29.607Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMijgdBVV95cUxOMUR5RWxGZzBzbV9KLWdfa3dZVHRScndKd2hBeXNxWGR4OTZuUWJRbHhUTE0yZU10b09uMk1mU0lJa3RLRmwxYWpyWWktaHhOX2FhTDhmQVJTb29Jb1pzNzl5QmhQZFlyS2ZfWGJqOHNFQ1FxRDhIc0pkMnlFaS14T2JET0dMSHVxNTNrWm9lSzdzTUpQWkt1czA3bDNQb3FfRGZONVdOODFUN2ptakpiNFZHYzZWODJBdjFvM3ZfYlpma3dsV3lMNF9BRDhoWXFDTUZMbmstWEVHUlFvNXZjY2M2SnRvV2h5dm1hb3RwaWhqZHlsUnpmNEItbmxmR0VPdnNGUHFENlBNcjBKNHFodjNsZHYyNndJQ3dGN19kTXpoZ2xFc0E1dDdQMWMzR3ZJSFFNN216bjVFZXRPRWw2eGt1MEFLWEtOZlctUzlnYUdkYVFab1d2Qk1OZF84M3E0dXBkdEQwVm9FaUFzSUlYSnVXNHBIWFM0Skg0QjBwNVJad1dDMGQ1TloxVUdYb3hQcWdFbmpSRGsyTkp5YmlhZUZZUXBkNjlId0xQNENnUjZLMmlGOHkzQS03b1VLN0dJa2ZKeS1WeVhZR2I1eldTNEE0U2xoTnI2WkZNVGxFdkZPOWU3b1pJSkJhMjYyd3MyMHY4elhJaEdGZnFaLUh0NmZVUlNSS043VHBHTFpUWmJrQjN2MG1xT0JyZWMwUEs2V2c5Ynl3R3ppbDlielpVM2g4LU9CQnB6WGlLTVdtdThPZld5d3BZVklZUUh2RmVXak9kbFNLU1lUU0VtYlVwSXpic3MtbXBFR1ZsOFY3Vk05c1BFLVZxeW1uNTJpRXE5eFNmWnJMdG1GdEx3S0V6SU1tOVZBOXhQdTZWNGNYNnJNWlhoSEg0WFVJZjgtYWZxc203UVZmRTVTcXBTV29OSkJqTzZRZkpNM01YWHZwbk9iT3lzNjZLal83NW9MWEt6bnJlbWgzVDNweU4tSDRnWUpKVkNUNTYyRzZXaE5ldjZIc0h5Rlc1UzExSWVPLWxQYkIwcHQ3eDdHQy1sZjN1RHJDRmVOemxJMHFLdW1rb2lZbDd0ZWpSMlNqVzlyWTYtUmQweVRiSFdkOV9KTHVTNmhKN0k1ME1vT1RtRkR3SU93VWdvN1ltTXE3d1d2alhYTUh6S01HNEtITDRSRkxJajIyclhJajR5R0h2UEtn?oc=5",
         "title": "‘নভেম্বরে দিল্লি যাচ্ছেন প্রধানমন্ত্রী’, শুনে হাসলেন পররাষ্ট্র প্রতিমন্ত্রী",
         "link": "https://news.google.com/rss/articles/CBMijgdBVV95cUxOMUR5RWxGZzBzbV9KLWdfa3dZVHRScndKd2hBeXNxWGR4OTZuUWJRbHhUTE0yZU10b09uMk1mU0lJa3RLRmwxYWpyWWktaHhOX2FhTDhmQVJTb29Jb1pzNzl5QmhQZFlyS2ZfWGJqOHNFQ1FxRDhIc0pkMnlFaS14T2JET0dMSHVxNTNrWm9lSzdzTUpQWkt1czA3bDNQb3FfRGZONVdOODFUN2ptakpiNFZHYzZWODJBdjFvM3ZfYlpma3dsV3lMNF9BRDhoWXFDTUZMbmstWEVHUlFvNXZjY2M2SnRvV2h5dm1hb3RwaWhqZHlsUnpmNEItbmxmR0VPdnNGUHFENlBNcjBKNHFodjNsZHYyNndJQ3dGN19kTXpoZ2xFc0E1dDdQMWMzR3ZJSFFNN216bjVFZXRPRWw2eGt1MEFLWEtOZlctUzlnYUdkYVFab1d2Qk1OZF84M3E0dXBkdEQwVm9FaUFzSUlYSnVXNHBIWFM0Skg0QjBwNVJad1dDMGQ1TloxVUdYb3hQcWdFbmpSRGsyTkp5YmlhZUZZUXBkNjlId0xQNENnUjZLMmlGOHkzQS03b1VLN0dJa2ZKeS1WeVhZR2I1eldTNEE0U2xoTnI2WkZNVGxFdkZPOWU3b1pJSkJhMjYyd3MyMHY4elhJaEdGZnFaLUh0NmZVUlNSS043VHBHTFpUWmJrQjN2MG1xT0JyZWMwUEs2V2c5Ynl3R3ppbDlielpVM2g4LU9CQnB6WGlLTVdtdThPZld5d3BZVklZUUh2RmVXak9kbFNLU1lUU0VtYlVwSXpic3MtbXBFR1ZsOFY3Vk05c1BFLVZxeW1uNTJpRXE5eFNmWnJMdG1GdEx3S0V6SU1tOVZBOXhQdTZWNGNYNnJNWlhoSEg0WFVJZjgtYWZxc203UVZmRTVTcXBTV29OSkJqTzZRZkpNM01YWHZwbk9iT3lzNjZLal83NW9MWEt6bnJlbWgzVDNweU4tSDRnWUpKVkNUNTYyRzZXaE5ldjZIc0h5Rlc1UzExSWVPLWxQYkIwcHQ3eDdHQy1sZjN1RHJDRmVOemxJMHFLdW1rb2lZbDd0ZWpSMlNqVzlyWTYtUmQweVRiSFdkOV9KTHVTNmhKN0k1ME1vT1RtRkR3SU93VWdvN1ltTXE3d1d2alhYTUh6S01HNEtITDRSRkxJajIyclhJajR5R0h2UEtn?oc=5",
@@ -568,6 +555,19 @@
         "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/221011001-1791205665.jpg",
         "articleUrl": "https://www.channel24bd.tv/national/article/351258/%E2%80%98%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BF-%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E2%80%99-%E0%A6%B6%E0%A7%81%E0%A6%A8%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%AA%E0%A6%B0%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
         "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBmbDRkYm5qZFM1WUdLdWlySFZYQ2tYclNsa0JYT3kwc28zMjZRZW8wVFlXc1dmWFRKUTQ5ZHRjU2s4WmxUTUlkelpuVVI?oc=5",
+        "title": "সারাদেশ - Channel 24",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBmbDRkYm5qZFM1WUdLdWlySFZYQ2tYclNsa0JYT3kwc28zMjZRZW8wVFlXc1dmWFRKUTQ5ZHRjU2s4WmxUTUlkelpuVVI?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 07 Jan 2022 16:31:33 GMT",
+        "summary": "সারাদেশ &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/countries",
+        "imageAttemptedAt": "2026-11-10T08:40:29.607Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -586,6 +586,138 @@
     ]
   },
   "categories": {
+    "bangladesh": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMirgZBVV95cUxQZGZTVnhaaERxalZJYTM2VXdtWnBydElGREpkVmwtUWNCYVVJZGstTjROLUFpZjRlMTVUcERMOHJVbTdmQW8yY1ZEb096cWtPQlFWQ2tUdmZBWXZ3dGpTamZ4ZFp2MjZ0TlJnN1VkY1FfUUlnU1JOMjdHYmx5dEtPdmk0eDB1dnFFWDV4TFg4VU5tNzhPb0pZMTQxLW02amlfQjRfcTNEQ3k3eWpiaThfZFkzTmRzMDVEXzJJN3BmczhybmZOOFlRQlNHYVNwYVJHQW5ia2ZqWW1lYnoxSUxHaEI0UHFvcG0tT0k1aVNCVEJmRnRrcmZMTGpmc3JRQnViZldmYjU3ckpyVld5M1pvU2VwVGpHMXR3OHdJRTF2RHdJMG9YWGlmNjdKZGV4eEFRdGFqN2x0TEtMUXNQbWZXSElaY1NOdVlfMFRxRURBMjQxUjhNRFV0SmZ0R2FpZmdOZ2d6S19lcm53TXR2N1hHRU01RnhrU09MZlMwYkdvZGpmb1Brd0Vib1dra0Q5b1cxZTVvNmtlYmNwUWU2MmVwbjhtNGEyRHZBVEhUQ1RKOVd6Uk1fTVdFUGZyY3FJdEN0VG9BRUZVSm9taFBCUC1mMjZNdVQzQy1iZ0Q3cVRqNFdPWnRma1ZCWG9FRVpNNk9feDVRR3RFWDd3TllrVXZxLWROVGI0ZXc4azBjcnQ3eUhwSkk1LW5VNlpXZHJPTlJNOVI0RG1CamxHbTVjMUNyWXhLSW1oZjZpMm1RTEFndUxVVXgxUVVURl80Ym9WbGFZdjA5TEdrUlh2cDN5MVE3ckktTDdsRTM0M3BwMTVGWjdVbVJlVzhScm5fN1JQd1BJV0tGV0RPbTZ5Tkt2SW5ZMGxDYXF1VE9fOXgwT1RaWTE5WWNack81OVZIUHJTMC1ZcTB0UmpReTc2blA2TmdGM205SHhJSWZPZkxWV2dZcUJjenBvTHB3VzdxZGlZc1AtQ2V5US03VHYzOThBM0huNUtwcllDdzBoS0Z6RGpJZDhtTHNzZnJXQ3huUnBUTnloeEJxSmZ0RTUwSDZLdjVrVlRVOEt6T1pFWnZsbml3?oc=5",
+        "title": "Bangladesh News | অচল ঢাকা! সরকারের ব্য়র্থতা স্পষ্ট! সার্বিক ছবিটা জানালেন বাংলাদেশের সাংবাদিক #Bangladesh #Unrest #Dhaka #Protest #Zee24Ghanta",
+        "link": "https://news.google.com/rss/articles/CBMirgZBVV95cUxQZGZTVnhaaERxalZJYTM2VXdtWnBydElGREpkVmwtUWNCYVVJZGstTjROLUFpZjRlMTVUcERMOHJVbTdmQW8yY1ZEb096cWtPQlFWQ2tUdmZBWXZ3dGpTamZ4ZFp2MjZ0TlJnN1VkY1FfUUlnU1JOMjdHYmx5dEtPdmk0eDB1dnFFWDV4TFg4VU5tNzhPb0pZMTQxLW02amlfQjRfcTNEQ3k3eWpiaThfZFkzTmRzMDVEXzJJN3BmczhybmZOOFlRQlNHYVNwYVJHQW5ia2ZqWW1lYnoxSUxHaEI0UHFvcG0tT0k1aVNCVEJmRnRrcmZMTGpmc3JRQnViZldmYjU3ckpyVld5M1pvU2VwVGpHMXR3OHdJRTF2RHdJMG9YWGlmNjdKZGV4eEFRdGFqN2x0TEtMUXNQbWZXSElaY1NOdVlfMFRxRURBMjQxUjhNRFV0SmZ0R2FpZmdOZ2d6S19lcm53TXR2N1hHRU01RnhrU09MZlMwYkdvZGpmb1Brd0Vib1dra0Q5b1cxZTVvNmtlYmNwUWU2MmVwbjhtNGEyRHZBVEhUQ1RKOVd6Uk1fTVdFUGZyY3FJdEN0VG9BRUZVSm9taFBCUC1mMjZNdVQzQy1iZ0Q3cVRqNFdPWnRma1ZCWG9FRVpNNk9feDVRR3RFWDd3TllrVXZxLWROVGI0ZXc4azBjcnQ3eUhwSkk1LW5VNlpXZHJPTlJNOVI0RG1CamxHbTVjMUNyWXhLSW1oZjZpMm1RTEFndUxVVXgxUVVURl80Ym9WbGFZdjA5TEdrUlh2cDN5MVE3ckktTDdsRTM0M3BwMTVGWjdVbVJlVzhScm5fN1JQd1BJV0tGV0RPbTZ5Tkt2SW5ZMGxDYXF1VE9fOXgwT1RaWTE5WWNack81OVZIUHJTMC1ZcTB0UmpReTc2blA2TmdGM205SHhJSWZPZkxWV2dZcUJjenBvTHB3VzdxZGlZc1AtQ2V5US03VHYzOThBM0huNUtwcllDdzBoS0Z6RGpJZDhtTHNzZnJXQ3huUnBUTnloeEJxSmZ0RTUwSDZLdjVrVlRVOEt6T1pFWnZsbml3?oc=5",
+        "source": "Facebook",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 10 Nov 2026 15:32:39 GMT",
+        "summary": "Bangladesh News | অচল ঢাকা! সরকারের ব্য়র্থতা স্পষ্ট! সার্বিক ছবিটা জানালেন বাংলাদেশের সাংবাদিক #Bangladesh #Unrest #Dhaka #Protest #Zee24Ghanta &nbsp;&nbsp; Facebook",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.facebook.com/Zee24Ghanta/posts/bangladesh-news-%E0%A6%85%E0%A6%9A%E0%A6%B2-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A7%9F%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A4%E0%A6%BE-%E0%A6%B8%E0%A7%8D%E0%A6%AA%E0%A6%B7%E0%A7%8D%E0%A6%9F-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BF%E0%A6%95-%E0%A6%9B%E0%A6%AC%E0%A6%BF%E0%A6%9F%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87/1680146897476051/",
+        "imageAttemptedAt": "2026-11-10T21:58:40.853Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHB6QjFKdm1LbUl5Qlo2SWxSMm5CTUJHNVhYOE9aZllXTzczOHdpeEdUdjJUNWxMWmJSeUxXRG5rRlBpQ01VRFFERVBYMTdCOWRMZEx2ZjY0SVpfWGVoSW5yU08tSTItN0NGUXBDckFEM2FVV2FPN3NpTzZta0lBYjFFSXNvUlE5R1pWaFlMSXVvcG9XOG9MSzU2TnBZRUNX0gGgAUFVX3lxTE9McHpCMUp2bUttSXlCWjZJbFIybkJNQkc1WFg4T1pmWVdPNzM4d2l4R1R2MlQ1bExaYlJ5TFdEbmtGUGlDTVVEUURFUFgxN0I5ZExkTHZmNjRJWl9YZWhJbnJTTy1JMi03Q0ZRcENyQUQzYVVXYU83c2lPNm1rSUFiMUVJc29SUTlHWlZoWUxJdW9wb1c4b0xLNTZOcFlFQ1c?oc=5",
+        "title": "Bangladesh News: দেশে ফিরতে চান শেখ হাসিনা, ফের উত্তপ্ত ঢাকা, পরপর বিস্ফোরণ!",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHB6QjFKdm1LbUl5Qlo2SWxSMm5CTUJHNVhYOE9aZllXTzczOHdpeEdUdjJUNWxMWmJSeUxXRG5rRlBpQ01VRFFERVBYMTdCOWRMZEx2ZjY0SVpfWGVoSW5yU08tSTItN0NGUXBDckFEM2FVV2FPN3NpTzZta0lBYjFFSXNvUlE5R1pWaFlMSXVvcG9XOG9MSzU2TnBZRUNX0gGgAUFVX3lxTE9McHpCMUp2bUttSXlCWjZJbFIybkJNQkc1WFg4T1pmWVdPNzM4d2l4R1R2MlQ1bExaYlJ5TFdEbmtGUGlDTVVEUURFUFgxN0I5ZExkTHZmNjRJWl9YZWhJbnJTTy1JMi03Q0ZRcENyQUQzYVVXYU83c2lPNm1rSUFiMUVJc29SUTlHWlZoWUxJdW9wb1c4b0xLNTZOcFlFQ1c?oc=5",
+        "source": "ABP Ananda",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 10 Nov 2026 15:41:19 GMT",
+        "summary": "Bangladesh News: দেশে ফিরতে চান শেখ হাসিনা, ফের উত্তপ্ত ঢাকা, পরপর বিস্ফোরণ! &nbsp;&nbsp; ABP Ananda",
+        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/10/08d41dc74b46e16266ba3d48f00048471794325139272535_original.jpg?impolicy=abp_cdn&imwidth=600",
+        "articleUrl": "https://bengali.abplive.com/videos/news/bangladesh-dhaka-curresnt-situation-watch-video-1198932/amp",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNnlEc3FtM2dLdTE0aDVhTG0wbVlEc0lMU1JtYWg0SXdXVTdNWEYtaDRDQlpELXZRbjMtWjdmaDNjZTM2V0JTRmFaMUc2ekJ3aDYwTExoU2I2dU5hUF9KMFktWlpEMjl4R0lMR2RPbkZpblg3SWl0bHJHX3BnQmZvLTlOT2N3bnpfRUhOc2FNX1QzSHF3R21vNXRhR3BiT0xpZElCWG90UzhhV3BTMDlfVk91MmhCUHYtUkk3SUxNNGVWdzhYbkEzOC1uSzF4czZCa21BMzBB0gHbAUFVX3lxTE1ZaXhIZ3FGNVFJX3ZXaWVHV0doMlFkWEMxOHhiVmxGMUo5R1VJTlN4di1paHZ1S051TEN4WW1raVRaSkFrU2M4LWw4a0U1TnZ0OXNuT3hKUENlaXhTZk1JS0M4MWdxSUtLbDAxSHJONWFEako5NlM0WTFVVjhFNlM5R2pSRGxjMWFWeXdKNnlRblV5ZWZQRDRPUVRIUml6WmtTMUFCTks0OHpkQlZJU2xzYkR1V3Rvc0RpNmJiMU5DRG44dGVwZUN4OV9UVmstVGRlZUFqMU9jRVpTUQ?oc=5",
+        "title": "Bangladesh news: পরপর বিস্ফোরণ, দাউ দাউ করে জ্বলছে একের পর এক বাস! হাসিনার ফেরার আগে ফের উত্তপ্ত...",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNnlEc3FtM2dLdTE0aDVhTG0wbVlEc0lMU1JtYWg0SXdXVTdNWEYtaDRDQlpELXZRbjMtWjdmaDNjZTM2V0JTRmFaMUc2ekJ3aDYwTExoU2I2dU5hUF9KMFktWlpEMjl4R0lMR2RPbkZpblg3SWl0bHJHX3BnQmZvLTlOT2N3bnpfRUhOc2FNX1QzSHF3R21vNXRhR3BiT0xpZElCWG90UzhhV3BTMDlfVk91MmhCUHYtUkk3SUxNNGVWdzhYbkEzOC1uSzF4czZCa21BMzBB0gHbAUFVX3lxTE1ZaXhIZ3FGNVFJX3ZXaWVHV0doMlFkWEMxOHhiVmxGMUo5R1VJTlN4di1paHZ1S051TEN4WW1raVRaSkFrU2M4LWw4a0U1TnZ0OXNuT3hKUENlaXhTZk1JS0M4MWdxSUtLbDAxSHJONWFEako5NlM0WTFVVjhFNlM5R2pSRGxjMWFWeXdKNnlRblV5ZWZQRDRPUVRIUml6WmtTMUFCTks0OHpkQlZJU2xzYkR1V3Rvc0RpNmJiMU5DRG44dGVwZUN4OV9UVmstVGRlZUFqMU9jRVpTUQ?oc=5",
+        "source": "TV9 Bangla",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 10 Nov 2026 06:20:09 GMT",
+        "summary": "Bangladesh news: পরপর বিস্ফোরণ, দাউ দাউ করে জ্বলছে একের পর এক বাস! হাসিনার ফেরার আগে ফের উত্তপ্ত... &nbsp;&nbsp; TV9 Bangla",
+        "image": "https://images.tv9bangla.com/wp-content/uploads/2026/11/Bus-Fire-News.jpg",
+        "articleUrl": "https://tv9bangla.com/world/bangladesh-unrest-bomb-explosions-bus-fires-raise-security-concerns-ahead-of-sheikh-hasinas-return-1359704.html",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcnp1azdlZTk5b1VVa0VrZG9wSmJnSHZjZEVZQ3QxdF9aeW5pNGFtbWtuYXYyNXBIWFlTMEdwcGg5azZWOWw5VXJ1UnlBSS1DWC1FZjlIXzI4cjNQTTM0R21UQVhuemt4ZERWX3VpSVFTVUZ2UDRwSmp4ZXdVU3ozbjhONHZFT295MkFkazdVUklvZ2J4QWU3Qll0WkQ4N3V5SmtzQnA1MmM1YVBEYnhLd3ZNaUU0Ml900gG-AUFVX3lxTE96MTBRTlVWdWdZVERUanFraUdMZWtTNHdCaWowb1hyY2gxNTZGWllqVmJyaDJOYTBvU0dmS240TV9NZVNRTjNZZ2JGbWpKMWlGa2ZlOGpXN3RZLVcxOEJFWDVvejljdUxva01TdzBnSlhyYnlZNjlrbHFkd0t4NTNSWXdzZVF1UHRCZENQMlh3TGwzX181ZWxsTFV3THFoOEkzRXNuc0pXbXlfczB2dWszbmt3U2lvU244QzVtc3c?oc=5",
+        "title": "বিদেশ প্রতিমন্ত্রীর ভাষা নিচু স্তরের ছাত্রদল নেতা মতো",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcnp1azdlZTk5b1VVa0VrZG9wSmJnSHZjZEVZQ3QxdF9aeW5pNGFtbWtuYXYyNXBIWFlTMEdwcGg5azZWOWw5VXJ1UnlBSS1DWC1FZjlIXzI4cjNQTTM0R21UQVhuemt4ZERWX3VpSVFTVUZ2UDRwSmp4ZXdVU3ozbjhONHZFT295MkFkazdVUklvZ2J4QWU3Qll0WkQ4N3V5SmtzQnA1MmM1YVBEYnhLd3ZNaUU0Ml900gG-AUFVX3lxTE96MTBRTlVWdWdZVERUanFraUdMZWtTNHdCaWowb1hyY2gxNTZGWllqVmJyaDJOYTBvU0dmS240TV9NZVNRTjNZZ2JGbWpKMWlGa2ZlOGpXN3RZLVcxOEJFWDVvejljdUxva01TdzBnSlhyYnlZNjlrbHFkd0t4NTNSWXdzZVF1UHRCZENQMlh3TGwzX181ZWxsTFV3THFoOEkzRXNuc0pXbXlfczB2dWszbmt3U2lvU244QzVtc3c?oc=5",
+        "source": "TheWall",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 10 Nov 2026 06:49:42 GMT",
+        "summary": "বিদেশ প্রতিমন্ত্রীর ভাষা নিচু স্তরের ছাত্রদল নেতা মতো &nbsp;&nbsp; TheWall",
+        "image": "https://s3.ap-south-1.amazonaws.com/statics.thewall.in/sites/default/files/styles/medium/public/2026-11/Bangladesh%20News%20Today%20(7).jpeg.webp",
+        "articleUrl": "https://www.thewall.in/video-story/state-minister-speaks-like-a-low-level-chhatra-dal-leader-sheikh-hasina/tid/209057",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPM0pBWE1wU3RCTG9iT0xZZ3BlbDNkdk5yeDFkdDVFeFFKcm9PUldERTlRTW8wRTlDMXdiYl96ZUV3dEkzRW9fRk1rV1k2eUZtOEtJWGxjOEctRUx6by1Z0gFkQVVfeXFMTWFkVkREYkI0RE41S0o4OFlBS1JUN0lDUEVlZERqUUVQekxma1V6MnQxVGtzeTJ4aUJTeUp6dXViMUJrVWtYNW91WG40aGphSkpXYTRzT2VJMC14Q25wRDBUazJfaw?oc=5",
+        "title": "পত্রিকা (১০ই নভেম্বর): 'ডিসেম্বরেই শেখ হাসিনার ফেরার ব্যাপারে এখনো অনড় আওয়ামী লীগ'",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPM0pBWE1wU3RCTG9iT0xZZ3BlbDNkdk5yeDFkdDVFeFFKcm9PUldERTlRTW8wRTlDMXdiYl96ZUV3dEkzRW9fRk1rV1k2eUZtOEtJWGxjOEctRUx6by1Z0gFkQVVfeXFMTWFkVkREYkI0RE41S0o4OFlBS1JUN0lDUEVlZERqUUVQekxma1V6MnQxVGtzeTJ4aUJTeUp6dXViMUJrVWtYNW91WG40aGphSkpXYTRzT2VJMC14Q25wRDBUazJfaw?oc=5",
+        "source": "BBC",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 10 Nov 2026 03:02:02 GMT",
+        "summary": "পত্রিকা (১০ই নভেম্বর): 'ডিসেম্বরেই শেখ হাসিনার ফেরার ব্যাপারে এখনো অনড় আওয়ামী লীগ' &nbsp;&nbsp; BBC",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.bbc.com/bengali/articles/cw1m4m8k4y41o",
+        "imageAttemptedAt": "2026-11-10T21:14:56.487Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdTBHUGFTRE1YQWNNZVNPT1cwVXZLekltN09haHNSa1N0dmUzdWkxMWtRcWp4cEE2TGVFNklvTVNHbEZvU1F4R0RaY3NON0hWejk3WGhqNWRwaTMyTkVKUjB1SlphY2JSbEJuOUlabzZ3b0R1MVk1ZjEtUEUzM1NVN3VaSlJELXEwUDZBR0RVMFZ2Y1hOdjFDdy0tX2FhYkQ1ZVI3amI4bzhtRzZ2MzZ1cGtDUU9zeXlBQWlDRnVwak1wbUo5TGMw?oc=5",
+        "title": "বাংলাদেশের মাদ্রাসায় আগুন, চিকিৎসাধীন ৬৩ পড়ুয়া",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdTBHUGFTRE1YQWNNZVNPT1cwVXZLekltN09haHNSa1N0dmUzdWkxMWtRcWp4cEE2TGVFNklvTVNHbEZvU1F4R0RaY3NON0hWejk3WGhqNWRwaTMyTkVKUjB1SlphY2JSbEJuOUlabzZ3b0R1MVk1ZjEtUEUzM1NVN3VaSlJELXEwUDZBR0RVMFZ2Y1hOdjFDdy0tX2FhYkQ1ZVI3amI4bzhtRzZ2MzZ1cGtDUU9zeXlBQWlDRnVwak1wbUo5TGMw?oc=5",
+        "source": "Aaro Ananda",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 10 Nov 2026 07:24:00 GMT",
+        "summary": "বাংলাদেশের মাদ্রাসায় আগুন, চিকিৎসাধীন ৬৩ পড়ুয়া &nbsp;&nbsp; Aaro Ananda",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.aaroananda.com/story/latest-news/breaking-news/bangladesh-fire-breaks-out-in-narayanganj-madrasa-63-injured/11027771",
+        "imageAttemptedAt": "2026-11-10T07:43:28.714Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nTU9TdVVPNmZrTWNtTC1tdHNMdnVhOG1jdjJxSzVwM2pxT3ctUjM5cXhTN3R6eWNfNVRnOWZBcndfUUZKX0RSMFRiUk93YmxGWkNGYllUYnE3czVlSGNGSkdjSFRhaVhqOU50eHhYTWFiN29jM1R1UTduQkxhaEU?oc=5",
+        "title": "Bangladesh News | মাঝরাতে অগ্নিকাণ্ড নারায়ণগঞ্জের মাদ্রাসায়, ধোঁয়ায় অসুস্থ হয়ে হাসপাতালে চিকিৎসাধীন ৬৩ শিক্ষার্থী",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nTU9TdVVPNmZrTWNtTC1tdHNMdnVhOG1jdjJxSzVwM2pxT3ctUjM5cXhTN3R6eWNfNVRnOWZBcndfUUZKX0RSMFRiUk93YmxGWkNGYllUYnE3czVlSGNGSkdjSFRhaVhqOU50eHhYTWFiN29jM1R1UTduQkxhaEU?oc=5",
+        "source": "Uttarbanga Sambad",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 10 Nov 2026 06:07:46 GMT",
+        "summary": "Bangladesh News | মাঝরাতে অগ্নিকাণ্ড নারায়ণগঞ্জের মাদ্রাসায়, ধোঁয়ায় অসুস্থ হয়ে হাসপাতালে চিকিৎসাধীন ৬৩ শিক্ষার্থী &nbsp;&nbsp; Uttarbanga Sambad",
+        "image": "https://uttarbangasambad.com/wp-content/uploads/2026/09/agun-.jpg",
+        "articleUrl": "https://uttarbangasambad.com/narayanganj-madrasa-fire-accident-bangladesh/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNVDRVanA0QnAtZlJTU3dIOEhDM3JMZ0tod1l1QXRaYm9Td3dldHY4cDNrZ2N6SnEzMTVGdlctRktDYmp2ZV9jMTlfOGRhbkdkY1BDSzRuZFEwS1BSekRzc2VtaFZjZEltYkgzc0ZEOVFiRzlpQnpmXzFFTW1rdVdsMFFFZ0J4UjRFWUlWNmRQdGNwQThxNUZfNko1VDkzZW1GRS01TFYzY0UxUHdPQWRCT00zX2RrVVE3RTJTYzJDWERHRTk2THRSYUlyQlJibzI0WVFNQV9LTDBNXzd5aGxoa3AxNUZ3ckRLRnRiWklWZE03czRlVEJUOHJZY1JRbmhfWWdsYTNWQ2luUFhNbU5VSU1EZlVLcmMzcGFoVUNYajU1bFdUT3dMZFFFclVERndTWk1vekNvdEtrR1NCOXlRb1JR?oc=5",
+        "title": "বাংলাদেশের বিমান পরিবহন খাতে বিনিয়োগে হাইবিউরি গ্রুপের আগ্রহ",
+        "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNVDRVanA0QnAtZlJTU3dIOEhDM3JMZ0tod1l1QXRaYm9Td3dldHY4cDNrZ2N6SnEzMTVGdlctRktDYmp2ZV9jMTlfOGRhbkdkY1BDSzRuZFEwS1BSekRzc2VtaFZjZEltYkgzc0ZEOVFiRzlpQnpmXzFFTW1rdVdsMFFFZ0J4UjRFWUlWNmRQdGNwQThxNUZfNko1VDkzZW1GRS01TFYzY0UxUHdPQWRCT00zX2RrVVE3RTJTYzJDWERHRTk2THRSYUlyQlJibzI0WVFNQV9LTDBNXzd5aGxoa3AxNUZ3ckRLRnRiWklWZE03czRlVEJUOHJZY1JRbmhfWWdsYTNWQ2luUFhNbU5VSU1EZlVLcmMzcGFoVUNYajU1bFdUT3dMZFFFclVERndTWk1vekNvdEtrR1NCOXlRb1JR?oc=5",
+        "source": "Dhaka News 24",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 10 Nov 2026 16:03:45 GMT",
+        "summary": "বাংলাদেশের বিমান পরিবহন খাতে বিনিয়োগে হাইবিউরি গ্রুপের আগ্রহ &nbsp;&nbsp; Dhaka News 24",
+        "image": "https://www.dhakanews24.com/wp-content/uploads/2026/11/BMN.jpg",
+        "articleUrl": "https://www.dhakanews24.com/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%B9%E0%A6%A8/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMirwRBVV95cUxPaEFtVzFUbWFQOG1HaXZiY0xsbGg0LTBrdlVSV0x0MnljWC1MOWxUQ3lSVXpEZmszZHdlMU1xR1l5RjF3SFZ0aXJFbmQteDJfZUkzT1EyQTlxQ3ZTS0JEU0sxX1FyTXVKWm0xdHEtdFNVRWgxVWY5NDBuVXBfY1YyQXZ5OVlKbk1WM2RscVlERU93V3RJbG1KelZoRk04ajhqajJZR2IzWl9qU3VISEZBUGJEWUZ3Q3RYZXJ6MVA3UkplSEhNZXNpUzRFcndVR2RMbFRVdEFveHpaaE1nN2ZleE5sdTN5eXhzYThuQWNXbV9KeWlvOXRvMDZoYk94R2lqZGdqN1hHajBoZHJvUHZBTVVNay1oV1dsM19LRF9fa3RHd3pJbGZWMjZSNW9iQS1TZDMwamoyVVp6S0dwX3Z4MUZRUUNtNXB3WmpqOU53bmN2ZWJZcjloVE1LWU9yN2NkcDByYVk3Umg4VjJxRTlnY0lKRTI5UHNlbHRBRmkwQlRPM3pHdXhVR09hOU1mcGpUSHdnSGJTd1B4YzdLN19pQnMwNVNteXBrclp0c1VJaFJsd3VRTHM3RUNXRTViNmNqalIzT2trZDBEQmp4clRTQnk1dG1ITzJVaHNjaTNiUE1EN2RkeVc2TUhvYWh2UzhyeTJIakFZdDBMQmRRMG13RlFSek4yQk9RNkpkX0RIMW5IRl9DaGdoYVBSVnlSVHZoUjVpbDh0MjVXN29wcmRV?oc=5",
+        "title": "Bangladesh News | হাসিনা ফেরার আগেই অগ্নিগর্ভ বাংলাদেশ! #shorts #BangladeshNews #SheikhHasina #Unrest #Shorts #Zee24Ghanta",
+        "link": "https://news.google.com/rss/articles/CBMirwRBVV95cUxPaEFtVzFUbWFQOG1HaXZiY0xsbGg0LTBrdlVSV0x0MnljWC1MOWxUQ3lSVXpEZmszZHdlMU1xR1l5RjF3SFZ0aXJFbmQteDJfZUkzT1EyQTlxQ3ZTS0JEU0sxX1FyTXVKWm0xdHEtdFNVRWgxVWY5NDBuVXBfY1YyQXZ5OVlKbk1WM2RscVlERU93V3RJbG1KelZoRk04ajhqajJZR2IzWl9qU3VISEZBUGJEWUZ3Q3RYZXJ6MVA3UkplSEhNZXNpUzRFcndVR2RMbFRVdEFveHpaaE1nN2ZleE5sdTN5eXhzYThuQWNXbV9KeWlvOXRvMDZoYk94R2lqZGdqN1hHajBoZHJvUHZBTVVNay1oV1dsM19LRF9fa3RHd3pJbGZWMjZSNW9iQS1TZDMwamoyVVp6S0dwX3Z4MUZRUUNtNXB3WmpqOU53bmN2ZWJZcjloVE1LWU9yN2NkcDByYVk3Umg4VjJxRTlnY0lKRTI5UHNlbHRBRmkwQlRPM3pHdXhVR09hOU1mcGpUSHdnSGJTd1B4YzdLN19pQnMwNVNteXBrclp0c1VJaFJsd3VRTHM3RUNXRTViNmNqalIzT2trZDBEQmp4clRTQnk1dG1ITzJVaHNjaTNiUE1EN2RkeVc2TUhvYWh2UzhyeTJIakFZdDBMQmRRMG13RlFSek4yQk9RNkpkX0RIMW5IRl9DaGdoYVBSVnlSVHZoUjVpbDh0MjVXN29wcmRV?oc=5",
+        "source": "Facebook",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 10 Nov 2026 06:56:11 GMT",
+        "summary": "Bangladesh News | হাসিনা ফেরার আগেই অগ্নিগর্ভ বাংলাদেশ! #shorts #BangladeshNews #SheikhHasina #Unrest #Shorts #Zee24Ghanta &nbsp;&nbsp; Facebook",
+        "image": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/901242391_1138597645485497_6035949769258918778_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=596eb7&_nc_ohc=jXk-yj0WLzEQ7kNvwH62Nel&_nc_oc=AdosnlVepTjThFCpBNkp5ovFMWYxng3Fdi2rKABcI8pXkzVmY1upYsrYEVlx4luWGxo&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=dtK3EfcLjgaUmVGXxOEzeA&_nc_ss=70289&oh=00_AQSdEhCgTBocRQplcTxvvNhfOVav57GZxVKySv2PormNeQ&oe=6AF8B32D",
+        "articleUrl": "https://www.facebook.com/Zee24Ghanta/videos/bangladesh-news-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A6%BE-%E0%A6%AB%E0%A7%87%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%87%E0%A6%87-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%97%E0%A6%B0%E0%A7%8D%E0%A6%AD-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-shorts-bangladeshnews-sheik/1442501577377651/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBzeTB4dlU2UDBBdkJtMVd3V0pJZzF1c1pkbTZwbWZXTDBTOURsSGgzemhVSDVPdFFBeEFvalplc1J0VzlWemVfQXFXakZEUGRp?oc=5",
+        "title": "বাংলাদেশ রোলার স্কেটিং ফেডারেশনে নতুন কমিটির সভাপতি কায়েস আহমেদ সেলিম :: এটিএন নিউজ",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBzeTB4dlU2UDBBdkJtMVd3V0pJZzF1c1pkbTZwbWZXTDBTOURsSGgzemhVSDVPdFFBeEFvalplc1J0VzlWemVfQXFXakZEUGRp?oc=5",
+        "source": "ATN News",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 10 Nov 2026 06:42:32 GMT",
+        "summary": "বাংলাদেশ রোলার স্কেটিং ফেডারেশনে নতুন কমিটির সভাপতি কায়েস আহমেদ সেলিম :: এটিএন নিউজ &nbsp;&nbsp; ATN News",
+        "image": "https://www.atnnewstv.com/assets/img/full/33725.webp",
+        "articleUrl": "https://www.atnnewstv.com/details/33108",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      }
+    ],
     "international": [
       {
         "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE84TXdtUDI1MjBZZnNnN2c3Z2NMX242R0pTOHBKSFA0ZXVUR0FuN0czc3lROEFCT29BVV8wZ3BEc3oySXlWQ29vc3E0ZkMtZzdGLWFXRE10aUN1MmVVWV9ubUFKOA?oc=5",
@@ -679,16 +811,16 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QYnpuUnpYVFR5Ny1LWURHZF9kdy1nbjU3T1F6dlRfN1MtNC1yMGFxRnlSWWtfalJYeFJqT1o2M29nUFdOQkJicVV2VGI4ZDBVYlBCZjhGbTNmWnV3ZXczT3FqTQ?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৩১ অক্টোবর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QYnpuUnpYVFR5Ny1LWURHZF9kdy1nbjU3T1F6dlRfN1MtNC1yMGFxRnlSWWtfalJYeFJqT1o2M29nUFdOQkJicVV2VGI4ZDBVYlBCZjhGbTNmWnV3ZXczT3FqTQ?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfR1JTLUFRNHlPUzl6dUpvcVZhOW5YbHlXRkFFN1JpUGo2RUZkQXBTa2t4djU1VWpVT0U1OEtJUnRhZEJZamNRY0pyT0RaaXVqOU1laFJLeVBOb25Ra3V2czNIYw?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৮ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfR1JTLUFRNHlPUzl6dUpvcVZhOW5YbHlXRkFFN1JpUGo2RUZkQXBTa2t4djU1VWpVT0U1OEtJUnRhZEJZamNRY0pyT0RaaXVqOU1laFJLeVBOb25Ra3V2czNIYw?oc=5",
         "source": "Jagonews24",
         "publisherUrl": "",
-        "publishedAt": "Sat, 31 Oct 2026 07:00:00 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৩১ অক্টোবর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "publishedAt": "Sun, 08 Nov 2026 15:58:01 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৮ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
         "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1174151",
-        "imageAttemptedAt": "2026-11-10T21:14:56.487Z",
+        "articleUrl": "https://www.jagonews24.com/international/news/1177218",
+        "imageAttemptedAt": "2026-11-10T21:58:40.853Z",
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
@@ -716,138 +848,6 @@
         "articleUrl": "https://www.jagonews24.com/international/news/1177718",
         "imageAttemptedAt": "2026-11-10T18:24:22.947Z",
         "imageFallback": "news-fallbacks/world.svg"
-      }
-    ],
-    "bangladesh": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMirwRBVV95cUxPaEFtVzFUbWFQOG1HaXZiY0xsbGg0LTBrdlVSV0x0MnljWC1MOWxUQ3lSVXpEZmszZHdlMU1xR1l5RjF3SFZ0aXJFbmQteDJfZUkzT1EyQTlxQ3ZTS0JEU0sxX1FyTXVKWm0xdHEtdFNVRWgxVWY5NDBuVXBfY1YyQXZ5OVlKbk1WM2RscVlERU93V3RJbG1KelZoRk04ajhqajJZR2IzWl9qU3VISEZBUGJEWUZ3Q3RYZXJ6MVA3UkplSEhNZXNpUzRFcndVR2RMbFRVdEFveHpaaE1nN2ZleE5sdTN5eXhzYThuQWNXbV9KeWlvOXRvMDZoYk94R2lqZGdqN1hHajBoZHJvUHZBTVVNay1oV1dsM19LRF9fa3RHd3pJbGZWMjZSNW9iQS1TZDMwamoyVVp6S0dwX3Z4MUZRUUNtNXB3WmpqOU53bmN2ZWJZcjloVE1LWU9yN2NkcDByYVk3Umg4VjJxRTlnY0lKRTI5UHNlbHRBRmkwQlRPM3pHdXhVR09hOU1mcGpUSHdnSGJTd1B4YzdLN19pQnMwNVNteXBrclp0c1VJaFJsd3VRTHM3RUNXRTViNmNqalIzT2trZDBEQmp4clRTQnk1dG1ITzJVaHNjaTNiUE1EN2RkeVc2TUhvYWh2UzhyeTJIakFZdDBMQmRRMG13RlFSek4yQk9RNkpkX0RIMW5IRl9DaGdoYVBSVnlSVHZoUjVpbDh0MjVXN29wcmRV?oc=5",
-        "title": "Bangladesh News | হাসিনা ফেরার আগেই অগ্নিগর্ভ বাংলাদেশ! #shorts #BangladeshNews #SheikhHasina #Unrest #Shorts #Zee24Ghanta",
-        "link": "https://news.google.com/rss/articles/CBMirwRBVV95cUxPaEFtVzFUbWFQOG1HaXZiY0xsbGg0LTBrdlVSV0x0MnljWC1MOWxUQ3lSVXpEZmszZHdlMU1xR1l5RjF3SFZ0aXJFbmQteDJfZUkzT1EyQTlxQ3ZTS0JEU0sxX1FyTXVKWm0xdHEtdFNVRWgxVWY5NDBuVXBfY1YyQXZ5OVlKbk1WM2RscVlERU93V3RJbG1KelZoRk04ajhqajJZR2IzWl9qU3VISEZBUGJEWUZ3Q3RYZXJ6MVA3UkplSEhNZXNpUzRFcndVR2RMbFRVdEFveHpaaE1nN2ZleE5sdTN5eXhzYThuQWNXbV9KeWlvOXRvMDZoYk94R2lqZGdqN1hHajBoZHJvUHZBTVVNay1oV1dsM19LRF9fa3RHd3pJbGZWMjZSNW9iQS1TZDMwamoyVVp6S0dwX3Z4MUZRUUNtNXB3WmpqOU53bmN2ZWJZcjloVE1LWU9yN2NkcDByYVk3Umg4VjJxRTlnY0lKRTI5UHNlbHRBRmkwQlRPM3pHdXhVR09hOU1mcGpUSHdnSGJTd1B4YzdLN19pQnMwNVNteXBrclp0c1VJaFJsd3VRTHM3RUNXRTViNmNqalIzT2trZDBEQmp4clRTQnk1dG1ITzJVaHNjaTNiUE1EN2RkeVc2TUhvYWh2UzhyeTJIakFZdDBMQmRRMG13RlFSek4yQk9RNkpkX0RIMW5IRl9DaGdoYVBSVnlSVHZoUjVpbDh0MjVXN29wcmRV?oc=5",
-        "source": "Facebook",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 10 Nov 2026 06:56:11 GMT",
-        "summary": "Bangladesh News | হাসিনা ফেরার আগেই অগ্নিগর্ভ বাংলাদেশ! #shorts #BangladeshNews #SheikhHasina #Unrest #Shorts #Zee24Ghanta &nbsp;&nbsp; Facebook",
-        "image": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/901242391_1138597645485497_6035949769258918778_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=596eb7&_nc_ohc=jXk-yj0WLzEQ7kNvwH62Nel&_nc_oc=AdosnlVepTjThFCpBNkp5ovFMWYxng3Fdi2rKABcI8pXkzVmY1upYsrYEVlx4luWGxo&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=dtK3EfcLjgaUmVGXxOEzeA&_nc_ss=70289&oh=00_AQSdEhCgTBocRQplcTxvvNhfOVav57GZxVKySv2PormNeQ&oe=6AF8B32D",
-        "articleUrl": "https://www.facebook.com/Zee24Ghanta/videos/bangladesh-news-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A6%BE-%E0%A6%AB%E0%A7%87%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%87%E0%A6%87-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%97%E0%A6%B0%E0%A7%8D%E0%A6%AD-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-shorts-bangladeshnews-sheik/1442501577377651/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSnB4ZlRJaUtfQjVNVks1SW5WQjFwU3RIalZTb0h0MDR5OTlvTExUNVZvRU9mNVAta0tfa0VrSlpsVFFaM0lMdm9ranJrNTR3Z3loVGJUMTh3Y3VnVGxXWERfTnNLSlgyM0I4NGkyRWZobHJ6M3c2aFJrYTdSMVFmSDB5Rk5hZHZjcW4waGRJcEQtVjFOYnVqWFVjTkROX3hq0gGgAUFVX3lxTE9McHpCMUp2bUttSXlCWjZJbFIybkJNQkc1WFg4T1pmWVdPNzM4d2l4R1R2MlQ1bExaYlJ5TFdEbmtGUGlDTVVEUURFUFgxN0I5ZExkTHZmNjRJWl9YZWhJbnJTTy1JMi03Q0ZRcENyQUQzYVVXYU83c2lPNm1rSUFiMUVJc29SUTlHWlZoWUxJdW9wb1c4b0xLNTZOcFlFQ1c?oc=5",
-        "title": "Bangladesh News: দেশে ফিরতে চান শেখ হাসিনা, ফের উত্তপ্ত ঢাকা, পরপর বিস্ফোরণ!",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSnB4ZlRJaUtfQjVNVks1SW5WQjFwU3RIalZTb0h0MDR5OTlvTExUNVZvRU9mNVAta0tfa0VrSlpsVFFaM0lMdm9ranJrNTR3Z3loVGJUMTh3Y3VnVGxXWERfTnNLSlgyM0I4NGkyRWZobHJ6M3c2aFJrYTdSMVFmSDB5Rk5hZHZjcW4waGRJcEQtVjFOYnVqWFVjTkROX3hq0gGgAUFVX3lxTE9McHpCMUp2bUttSXlCWjZJbFIybkJNQkc1WFg4T1pmWVdPNzM4d2l4R1R2MlQ1bExaYlJ5TFdEbmtGUGlDTVVEUURFUFgxN0I5ZExkTHZmNjRJWl9YZWhJbnJTTy1JMi03Q0ZRcENyQUQzYVVXYU83c2lPNm1rSUFiMUVJc29SUTlHWlZoWUxJdW9wb1c4b0xLNTZOcFlFQ1c?oc=5",
-        "source": "ABP Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 10 Nov 2026 15:41:19 GMT",
-        "summary": "Bangladesh News: দেশে ফিরতে চান শেখ হাসিনা, ফের উত্তপ্ত ঢাকা, পরপর বিস্ফোরণ! &nbsp;&nbsp; ABP Ananda",
-        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/10/08d41dc74b46e16266ba3d48f00048471794325139272535_original.jpg?impolicy=abp_cdn&imwidth=1200",
-        "articleUrl": "https://bengali.abplive.com/videos/news/bangladesh-dhaka-curresnt-situation-watch-video-1198932/t-0",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNnlEc3FtM2dLdTE0aDVhTG0wbVlEc0lMU1JtYWg0SXdXVTdNWEYtaDRDQlpELXZRbjMtWjdmaDNjZTM2V0JTRmFaMUc2ekJ3aDYwTExoU2I2dU5hUF9KMFktWlpEMjl4R0lMR2RPbkZpblg3SWl0bHJHX3BnQmZvLTlOT2N3bnpfRUhOc2FNX1QzSHF3R21vNXRhR3BiT0xpZElCWG90UzhhV3BTMDlfVk91MmhCUHYtUkk3SUxNNGVWdzhYbkEzOC1uSzF4czZCa21BMzBB0gHbAUFVX3lxTE1ZaXhIZ3FGNVFJX3ZXaWVHV0doMlFkWEMxOHhiVmxGMUo5R1VJTlN4di1paHZ1S051TEN4WW1raVRaSkFrU2M4LWw4a0U1TnZ0OXNuT3hKUENlaXhTZk1JS0M4MWdxSUtLbDAxSHJONWFEako5NlM0WTFVVjhFNlM5R2pSRGxjMWFWeXdKNnlRblV5ZWZQRDRPUVRIUml6WmtTMUFCTks0OHpkQlZJU2xzYkR1V3Rvc0RpNmJiMU5DRG44dGVwZUN4OV9UVmstVGRlZUFqMU9jRVpTUQ?oc=5",
-        "title": "Bangladesh news: পরপর বিস্ফোরণ, দাউ দাউ করে জ্বলছে একের পর এক বাস! হাসিনার ফেরার আগে ফের উত্তপ্ত...",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNnlEc3FtM2dLdTE0aDVhTG0wbVlEc0lMU1JtYWg0SXdXVTdNWEYtaDRDQlpELXZRbjMtWjdmaDNjZTM2V0JTRmFaMUc2ekJ3aDYwTExoU2I2dU5hUF9KMFktWlpEMjl4R0lMR2RPbkZpblg3SWl0bHJHX3BnQmZvLTlOT2N3bnpfRUhOc2FNX1QzSHF3R21vNXRhR3BiT0xpZElCWG90UzhhV3BTMDlfVk91MmhCUHYtUkk3SUxNNGVWdzhYbkEzOC1uSzF4czZCa21BMzBB0gHbAUFVX3lxTE1ZaXhIZ3FGNVFJX3ZXaWVHV0doMlFkWEMxOHhiVmxGMUo5R1VJTlN4di1paHZ1S051TEN4WW1raVRaSkFrU2M4LWw4a0U1TnZ0OXNuT3hKUENlaXhTZk1JS0M4MWdxSUtLbDAxSHJONWFEako5NlM0WTFVVjhFNlM5R2pSRGxjMWFWeXdKNnlRblV5ZWZQRDRPUVRIUml6WmtTMUFCTks0OHpkQlZJU2xzYkR1V3Rvc0RpNmJiMU5DRG44dGVwZUN4OV9UVmstVGRlZUFqMU9jRVpTUQ?oc=5",
-        "source": "TV9 Bangla",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 10 Nov 2026 06:20:09 GMT",
-        "summary": "Bangladesh news: পরপর বিস্ফোরণ, দাউ দাউ করে জ্বলছে একের পর এক বাস! হাসিনার ফেরার আগে ফের উত্তপ্ত... &nbsp;&nbsp; TV9 Bangla",
-        "image": "https://images.tv9bangla.com/wp-content/uploads/2026/11/Bus-Fire-News.jpg",
-        "articleUrl": "https://tv9bangla.com/world/bangladesh-unrest-bomb-explosions-bus-fires-raise-security-concerns-ahead-of-sheikh-hasinas-return-1359704.html",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcnp1azdlZTk5b1VVa0VrZG9wSmJnSHZjZEVZQ3QxdF9aeW5pNGFtbWtuYXYyNXBIWFlTMEdwcGg5azZWOWw5VXJ1UnlBSS1DWC1FZjlIXzI4cjNQTTM0R21UQVhuemt4ZERWX3VpSVFTVUZ2UDRwSmp4ZXdVU3ozbjhONHZFT295MkFkazdVUklvZ2J4QWU3Qll0WkQ4N3V5SmtzQnA1MmM1YVBEYnhLd3ZNaUU0Ml900gG-AUFVX3lxTE96MTBRTlVWdWdZVERUanFraUdMZWtTNHdCaWowb1hyY2gxNTZGWllqVmJyaDJOYTBvU0dmS240TV9NZVNRTjNZZ2JGbWpKMWlGa2ZlOGpXN3RZLVcxOEJFWDVvejljdUxva01TdzBnSlhyYnlZNjlrbHFkd0t4NTNSWXdzZVF1UHRCZENQMlh3TGwzX181ZWxsTFV3THFoOEkzRXNuc0pXbXlfczB2dWszbmt3U2lvU244QzVtc3c?oc=5",
-        "title": "বিদেশ প্রতিমন্ত্রীর ভাষা নিচু স্তরের ছাত্রদল নেতা মতো",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcnp1azdlZTk5b1VVa0VrZG9wSmJnSHZjZEVZQ3QxdF9aeW5pNGFtbWtuYXYyNXBIWFlTMEdwcGg5azZWOWw5VXJ1UnlBSS1DWC1FZjlIXzI4cjNQTTM0R21UQVhuemt4ZERWX3VpSVFTVUZ2UDRwSmp4ZXdVU3ozbjhONHZFT295MkFkazdVUklvZ2J4QWU3Qll0WkQ4N3V5SmtzQnA1MmM1YVBEYnhLd3ZNaUU0Ml900gG-AUFVX3lxTE96MTBRTlVWdWdZVERUanFraUdMZWtTNHdCaWowb1hyY2gxNTZGWllqVmJyaDJOYTBvU0dmS240TV9NZVNRTjNZZ2JGbWpKMWlGa2ZlOGpXN3RZLVcxOEJFWDVvejljdUxva01TdzBnSlhyYnlZNjlrbHFkd0t4NTNSWXdzZVF1UHRCZENQMlh3TGwzX181ZWxsTFV3THFoOEkzRXNuc0pXbXlfczB2dWszbmt3U2lvU244QzVtc3c?oc=5",
-        "source": "TheWall",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 10 Nov 2026 06:49:42 GMT",
-        "summary": "বিদেশ প্রতিমন্ত্রীর ভাষা নিচু স্তরের ছাত্রদল নেতা মতো &nbsp;&nbsp; TheWall",
-        "image": "https://s3.ap-south-1.amazonaws.com/statics.thewall.in/sites/default/files/styles/medium/public/2026-11/Bangladesh%20News%20Today%20(7).jpeg.webp",
-        "articleUrl": "https://www.thewall.in/video-story/state-minister-speaks-like-a-low-level-chhatra-dal-leader-sheikh-hasina/tid/209057",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPM0pBWE1wU3RCTG9iT0xZZ3BlbDNkdk5yeDFkdDVFeFFKcm9PUldERTlRTW8wRTlDMXdiYl96ZUV3dEkzRW9fRk1rV1k2eUZtOEtJWGxjOEctRUx6by1Z0gFkQVVfeXFMTWFkVkREYkI0RE41S0o4OFlBS1JUN0lDUEVlZERqUUVQekxma1V6MnQxVGtzeTJ4aUJTeUp6dXViMUJrVWtYNW91WG40aGphSkpXYTRzT2VJMC14Q25wRDBUazJfaw?oc=5",
-        "title": "পত্রিকা (১০ই নভেম্বর): 'ডিসেম্বরেই শেখ হাসিনার ফেরার ব্যাপারে এখনো অনড় আওয়ামী লীগ'",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPM0pBWE1wU3RCTG9iT0xZZ3BlbDNkdk5yeDFkdDVFeFFKcm9PUldERTlRTW8wRTlDMXdiYl96ZUV3dEkzRW9fRk1rV1k2eUZtOEtJWGxjOEctRUx6by1Z0gFkQVVfeXFMTWFkVkREYkI0RE41S0o4OFlBS1JUN0lDUEVlZERqUUVQekxma1V6MnQxVGtzeTJ4aUJTeUp6dXViMUJrVWtYNW91WG40aGphSkpXYTRzT2VJMC14Q25wRDBUazJfaw?oc=5",
-        "source": "BBC",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 10 Nov 2026 03:02:02 GMT",
-        "summary": "পত্রিকা (১০ই নভেম্বর): 'ডিসেম্বরেই শেখ হাসিনার ফেরার ব্যাপারে এখনো অনড় আওয়ামী লীগ' &nbsp;&nbsp; BBC",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.bbc.com/bengali/articles/cw1m4m8k4y41o",
-        "imageAttemptedAt": "2026-11-10T21:14:56.487Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdTBHUGFTRE1YQWNNZVNPT1cwVXZLekltN09haHNSa1N0dmUzdWkxMWtRcWp4cEE2TGVFNklvTVNHbEZvU1F4R0RaY3NON0hWejk3WGhqNWRwaTMyTkVKUjB1SlphY2JSbEJuOUlabzZ3b0R1MVk1ZjEtUEUzM1NVN3VaSlJELXEwUDZBR0RVMFZ2Y1hOdjFDdy0tX2FhYkQ1ZVI3amI4bzhtRzZ2MzZ1cGtDUU9zeXlBQWlDRnVwak1wbUo5TGMw?oc=5",
-        "title": "বাংলাদেশের মাদ্রাসায় আগুন, চিকিৎসাধীন ৬৩ পড়ুয়া",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdTBHUGFTRE1YQWNNZVNPT1cwVXZLekltN09haHNSa1N0dmUzdWkxMWtRcWp4cEE2TGVFNklvTVNHbEZvU1F4R0RaY3NON0hWejk3WGhqNWRwaTMyTkVKUjB1SlphY2JSbEJuOUlabzZ3b0R1MVk1ZjEtUEUzM1NVN3VaSlJELXEwUDZBR0RVMFZ2Y1hOdjFDdy0tX2FhYkQ1ZVI3amI4bzhtRzZ2MzZ1cGtDUU9zeXlBQWlDRnVwak1wbUo5TGMw?oc=5",
-        "source": "Aaro Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 10 Nov 2026 07:24:00 GMT",
-        "summary": "বাংলাদেশের মাদ্রাসায় আগুন, চিকিৎসাধীন ৬৩ পড়ুয়া &nbsp;&nbsp; Aaro Ananda",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.aaroananda.com/story/latest-news/breaking-news/bangladesh-fire-breaks-out-in-narayanganj-madrasa-63-injured/11027771",
-        "imageAttemptedAt": "2026-11-10T07:43:28.714Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nTU9TdVVPNmZrTWNtTC1tdHNMdnVhOG1jdjJxSzVwM2pxT3ctUjM5cXhTN3R6eWNfNVRnOWZBcndfUUZKX0RSMFRiUk93YmxGWkNGYllUYnE3czVlSGNGSkdjSFRhaVhqOU50eHhYTWFiN29jM1R1UTduQkxhaEU?oc=5",
-        "title": "Bangladesh News | মাঝরাতে অগ্নিকাণ্ড নারায়ণগঞ্জের মাদ্রাসায়, ধোঁয়ায় অসুস্থ হয়ে হাসপাতালে চিকিৎসাধীন ৬৩ শিক্ষার্থী",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nTU9TdVVPNmZrTWNtTC1tdHNMdnVhOG1jdjJxSzVwM2pxT3ctUjM5cXhTN3R6eWNfNVRnOWZBcndfUUZKX0RSMFRiUk93YmxGWkNGYllUYnE3czVlSGNGSkdjSFRhaVhqOU50eHhYTWFiN29jM1R1UTduQkxhaEU?oc=5",
-        "source": "Uttarbanga Sambad",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 10 Nov 2026 06:07:46 GMT",
-        "summary": "Bangladesh News | মাঝরাতে অগ্নিকাণ্ড নারায়ণগঞ্জের মাদ্রাসায়, ধোঁয়ায় অসুস্থ হয়ে হাসপাতালে চিকিৎসাধীন ৬৩ শিক্ষার্থী &nbsp;&nbsp; Uttarbanga Sambad",
-        "image": "https://uttarbangasambad.com/wp-content/uploads/2026/09/agun-.jpg",
-        "articleUrl": "https://uttarbangasambad.com/narayanganj-madrasa-fire-accident-bangladesh/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNVDRVanA0QnAtZlJTU3dIOEhDM3JMZ0tod1l1QXRaYm9Td3dldHY4cDNrZ2N6SnEzMTVGdlctRktDYmp2ZV9jMTlfOGRhbkdkY1BDSzRuZFEwS1BSekRzc2VtaFZjZEltYkgzc0ZEOVFiRzlpQnpmXzFFTW1rdVdsMFFFZ0J4UjRFWUlWNmRQdGNwQThxNUZfNko1VDkzZW1GRS01TFYzY0UxUHdPQWRCT00zX2RrVVE3RTJTYzJDWERHRTk2THRSYUlyQlJibzI0WVFNQV9LTDBNXzd5aGxoa3AxNUZ3ckRLRnRiWklWZE03czRlVEJUOHJZY1JRbmhfWWdsYTNWQ2luUFhNbU5VSU1EZlVLcmMzcGFoVUNYajU1bFdUT3dMZFFFclVERndTWk1vekNvdEtrR1NCOXlRb1JR?oc=5",
-        "title": "বাংলাদেশের বিমান পরিবহন খাতে বিনিয়োগে হাইবিউরি গ্রুপের আগ্রহ",
-        "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNVDRVanA0QnAtZlJTU3dIOEhDM3JMZ0tod1l1QXRaYm9Td3dldHY4cDNrZ2N6SnEzMTVGdlctRktDYmp2ZV9jMTlfOGRhbkdkY1BDSzRuZFEwS1BSekRzc2VtaFZjZEltYkgzc0ZEOVFiRzlpQnpmXzFFTW1rdVdsMFFFZ0J4UjRFWUlWNmRQdGNwQThxNUZfNko1VDkzZW1GRS01TFYzY0UxUHdPQWRCT00zX2RrVVE3RTJTYzJDWERHRTk2THRSYUlyQlJibzI0WVFNQV9LTDBNXzd5aGxoa3AxNUZ3ckRLRnRiWklWZE03czRlVEJUOHJZY1JRbmhfWWdsYTNWQ2luUFhNbU5VSU1EZlVLcmMzcGFoVUNYajU1bFdUT3dMZFFFclVERndTWk1vekNvdEtrR1NCOXlRb1JR?oc=5",
-        "source": "Dhaka News 24",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 10 Nov 2026 16:03:45 GMT",
-        "summary": "বাংলাদেশের বিমান পরিবহন খাতে বিনিয়োগে হাইবিউরি গ্রুপের আগ্রহ &nbsp;&nbsp; Dhaka News 24",
-        "image": "https://www.dhakanews24.com/wp-content/uploads/2026/11/BMN.jpg",
-        "articleUrl": "https://www.dhakanews24.com/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%B9%E0%A6%A8/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBzeTB4dlU2UDBBdkJtMVd3V0pJZzF1c1pkbTZwbWZXTDBTOURsSGgzemhVSDVPdFFBeEFvalplc1J0VzlWemVfQXFXakZEUGRp?oc=5",
-        "title": "বাংলাদেশ রোলার স্কেটিং ফেডারেশনে নতুন কমিটির সভাপতি কায়েস আহমেদ সেলিম :: এটিএন নিউজ",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBzeTB4dlU2UDBBdkJtMVd3V0pJZzF1c1pkbTZwbWZXTDBTOURsSGgzemhVSDVPdFFBeEFvalplc1J0VzlWemVfQXFXakZEUGRp?oc=5",
-        "source": "ATN News",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 10 Nov 2026 06:42:32 GMT",
-        "summary": "বাংলাদেশ রোলার স্কেটিং ফেডারেশনে নতুন কমিটির সভাপতি কায়েস আহমেদ সেলিম :: এটিএন নিউজ &nbsp;&nbsp; ATN News",
-        "image": "https://www.atnnewstv.com/assets/img/full/33725.webp",
-        "articleUrl": "https://www.atnnewstv.com/details/33108",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMkdSWHRBa09rVUN4eml1bjFNTTBDRlZad1JHTTZKMHNvcThpN25KOWhmT3dNY2p3U0JFX0ZRMmxFZWxGWnBRb3lIakF1eFIycWgxLTYzM3NTRkpXRDVQbk5hNDdkbkkyY1BxZFlDcE42RlJWNWhOZjFnNGpFWHV6ZFJxX3ZpVjA5Y2REVkpFME1qREN0Z2Fvc0JxbWE4Mm5jLXl1VUhmUWRkYjc3NnFMMGFIUS1fYnAyQWNubktmRkVWRWlRVmR6bFJiRkpBRjUtUlBxci1ycWZhc1dBR3ZjZU1Uc3FuNEZRQ0xpOGFqSzZqbHU0N3c?oc=5",
-        "title": "East Bardhaman News: ফোন খুঁজতে খুঁজতে বর্ধমান থেকে সোজা বাংলাদেশ! বর্ধমানে হারানো ফোন কীভাবে পৌঁছে গেল বিদেশ? শেষমেশ যা হল...শুনলে চমকে যাবেন",
-        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMkdSWHRBa09rVUN4eml1bjFNTTBDRlZad1JHTTZKMHNvcThpN25KOWhmT3dNY2p3U0JFX0ZRMmxFZWxGWnBRb3lIakF1eFIycWgxLTYzM3NTRkpXRDVQbk5hNDdkbkkyY1BxZFlDcE42RlJWNWhOZjFnNGpFWHV6ZFJxX3ZpVjA5Y2REVkpFME1qREN0Z2Fvc0JxbWE4Mm5jLXl1VUhmUWRkYjc3NnFMMGFIUS1fYnAyQWNubktmRkVWRWlRVmR6bFJiRkpBRjUtUlBxci1ycWZhc1dBR3ZjZU1Uc3FuNEZRQ0xpOGFqSzZqbHU0N3c?oc=5",
-        "source": "News18 Bengali",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 10 Nov 2026 09:54:00 GMT",
-        "summary": "East Bardhaman News: ফোন খুঁজতে খুঁজতে বর্ধমান থেকে সোজা বাংলাদেশ! বর্ধমানে হারানো ফোন কীভাবে পৌঁছে গেল বিদেশ? শেষমেশ যা হল...শুনলে চমকে যাবেন &nbsp;&nbsp; News18 Bengali",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://bengali.news18.com/news/west-bengal/lost-smartphone-from-bardhaman-found-across-the-border-in-bangladesh-and-returned-by-buyer-l18-ank-local18-2958343.html",
-        "imageAttemptedAt": "2026-11-10T10:37:58.352Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
       }
     ],
     "food": [
@@ -918,12 +918,12 @@
       },
       {
         "id": "https://news.google.com/rss/articles/CBMigAZBVV95cUxPZHdKcUd1Z0FwamF1R1FsQ3N4b0xRVWpxR2tlT2dJZ2NYZUVpSVY4SjJySWU1T29LdFRnZFRyNnZqR3lfTVJNbHNkN2tGRHF0clZHRjhiNTBxRm0xOF9SOFJZNXhhVHBMR1BNOFo1bmFRYzQ4akdQNHBiaFFsaTFjXzQ4YVl6NUVMTXpudmxkQ3BOOFY0czU1TURwSGRzOFdMdjlKbU5QYW5wdDNUazE0dHc1WWN6VkM0VDVLNEM1blZtdWV6UFZma1lQT3FGZzZVUnNwWWVSTWhyNVVCdU8zU0VYeEZ0NHRQMkx4RzRyMkJwUVhhY0F0UXBZbXZSZEdFMzNGTGlWc0xzR1lMU0J4aThHRlU1NDRFZlNkYkUycjhIeEt0OVQxdTh6ZmFXVk5SREYtYjBPWkNaZ0RrUHI3X241MDZGNi1rWVZNck9Wd3drVFprQmRNQndzd0dwM3o1NHlNQzdlelBDbkdzQlY0Rk9mU1NqWjBZdnhvUVYxLWtwT2I2M3hxenFEUi1zdGE2ZVNuNTVhZHZCTTBoZUpXYXdULWYxSUpBdkc0S2dybWwwZHpMMHZMRXZWUmhBSG9ReVowaGZKYnV2SmpHRDBYZXM1OEEyUGhfaV80RXgwMmVZVl90OGFWT041Rk92TnJ0cHJCa0xfdktQWEVsdmlkYkxiaTBxcW9yZGVnYTBEVUF4ZWltbktVbkdaN25jNzlsYWoxTlE3N3FHZHRCYTRhS3RNQVN1WTNFS1JFRUFWWXA0ZXNkZlVXblJPby1uYmJNTC1teUdkU1c1WXlTWXhnZUZjRHFCMmpmTWpGdWNxN0pzc0VCZGQ0dnR5TGQ1Slpfa2Yya0RnYkVkcW9EaDhBVmpaamRZYTd1NWptSlpvVkNFYXJ4bDZ3ZDBSWkQxc0tQVmd6YTdfVWQxY1BXVDA0MVNwZkw1R09EcUpjRjZjOFJJT3dzZTlJejZwMHo0bm5fWURCUXdqbjhjZE40X1kxa1BlRHFIUGNBYXV3b0hpemk?oc=5",
-        "title": "খাদ্য পরিদর্শক মুখলেছুর রহমানের পদায়ন নিয়ে সমালোচনা, যত অভিযোগ",
+        "title": "খাদ্য পরিদর্শক মুখলেছ উদ্দিনের পদায়ন নিয়ে সমালোচনা, যত অভিযোগ",
         "link": "https://news.google.com/rss/articles/CBMigAZBVV95cUxPZHdKcUd1Z0FwamF1R1FsQ3N4b0xRVWpxR2tlT2dJZ2NYZUVpSVY4SjJySWU1T29LdFRnZFRyNnZqR3lfTVJNbHNkN2tGRHF0clZHRjhiNTBxRm0xOF9SOFJZNXhhVHBMR1BNOFo1bmFRYzQ4akdQNHBiaFFsaTFjXzQ4YVl6NUVMTXpudmxkQ3BOOFY0czU1TURwSGRzOFdMdjlKbU5QYW5wdDNUazE0dHc1WWN6VkM0VDVLNEM1blZtdWV6UFZma1lQT3FGZzZVUnNwWWVSTWhyNVVCdU8zU0VYeEZ0NHRQMkx4RzRyMkJwUVhhY0F0UXBZbXZSZEdFMzNGTGlWc0xzR1lMU0J4aThHRlU1NDRFZlNkYkUycjhIeEt0OVQxdTh6ZmFXVk5SREYtYjBPWkNaZ0RrUHI3X241MDZGNi1rWVZNck9Wd3drVFprQmRNQndzd0dwM3o1NHlNQzdlelBDbkdzQlY0Rk9mU1NqWjBZdnhvUVYxLWtwT2I2M3hxenFEUi1zdGE2ZVNuNTVhZHZCTTBoZUpXYXdULWYxSUpBdkc0S2dybWwwZHpMMHZMRXZWUmhBSG9ReVowaGZKYnV2SmpHRDBYZXM1OEEyUGhfaV80RXgwMmVZVl90OGFWT041Rk92TnJ0cHJCa0xfdktQWEVsdmlkYkxiaTBxcW9yZGVnYTBEVUF4ZWltbktVbkdaN25jNzlsYWoxTlE3N3FHZHRCYTRhS3RNQVN1WTNFS1JFRUFWWXA0ZXNkZlVXblJPby1uYmJNTC1teUdkU1c1WXlTWXhnZUZjRHFCMmpmTWpGdWNxN0pzc0VCZGQ0dnR5TGQ1Slpfa2Yya0RnYkVkcW9EaDhBVmpaamRZYTd1NWptSlpvVkNFYXJ4bDZ3ZDBSWkQxc0tQVmd6YTdfVWQxY1BXVDA0MVNwZkw1R09EcUpjRjZjOFJJT3dzZTlJejZwMHo0bm5fWURCUXdqbjhjZE40X1kxa1BlRHFIUGNBYXV3b0hpemk?oc=5",
         "source": "Channel 24",
         "publisherUrl": "",
         "publishedAt": "Tue, 10 Nov 2026 15:44:00 GMT",
-        "summary": "খাদ্য পরিদর্শক মুখলেছুর রহমানের পদায়ন নিয়ে সমালোচনা, যত অভিযোগ &nbsp;&nbsp; Channel 24",
+        "summary": "খাদ্য পরিদর্শক মুখলেছ উদ্দিনের পদায়ন নিয়ে সমালোচনা, যত অভিযোগ &nbsp;&nbsp; Channel 24",
         "image": "news-fallbacks/food.svg",
         "articleUrl": "https://www.channel24bd.tv/countries/article/358094/%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%A6%E0%A6%B0%E0%A7%8D%E0%A6%B6%E0%A6%95-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A6%B2%E0%A7%87%E0%A6%9B%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A6%B9%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%A6%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A7%8B%E0%A6%9A%E0%A6%A8%E0%A6%BE-%E0%A6%AF%E0%A6%A4-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97",
         "imageAttemptedAt": "2026-11-10T17:30:29.196Z",
@@ -988,7 +988,7 @@
     "total": 74,
     "fromRss": 0,
     "fromArticleMetadata": 22,
-    "reusedCached": 20,
+    "reusedCached": 21,
     "actualPhotos": 22,
     "fallbackIllustrations": 52,
     "withImage": 74,
