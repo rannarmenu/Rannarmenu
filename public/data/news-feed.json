@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-14T23:10:33.400Z",
+  "generatedAt": "2026-11-14T23:46:38.247Z",
   "sponsors": {
     "somoy": [
       {
@@ -175,138 +175,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
-    "jamuna": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
-        "title": "Most Popular Television in Bangladesh",
-        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 13 Apr 2023 17:30:30 GMT",
-        "summary": "Most Popular Television in Bangladesh &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "",
-        "imageAttemptedAt": "2026-11-14T19:38:21.639Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5aRmdtSWxEbjBnS2tNbEs0cEp0aEtwWXg5TGpWZmxXd05Sc3RiT3ZUZi0zZjBwX1N0RTVzdzhBaWg2MlNES1pWcUwwRDU2ZjIzX3U3eA?oc=5",
-        "title": "শেখ হাসিনাকে তৃতীয় দেশে পাঠাতে নানা জায়গায় কথা বলেও ব্যর্থ দিল্লি",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5aRmdtSWxEbjBnS2tNbEs0cEp0aEtwWXg5TGpWZmxXd05Sc3RiT3ZUZi0zZjBwX1N0RTVzdzhBaWg2MlNES1pWcUwwRDU2ZjIzX3U3eA?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 13 Nov 2026 08:28:11 GMT",
-        "summary": "শেখ হাসিনাকে তৃতীয় দেশে পাঠাতে নানা জায়গায় কথা বলেও ব্যর্থ দিল্লি &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/international/667913",
-        "imageAttemptedAt": "2026-11-14T14:25:51.943Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1WVVmdUlGQmYzaDZMems0eE1IX01TNG9WVGwxQWI3eDdNaHFDaWRaLVdTZVhvY3QzdEFtMmNBT0RlVmcyNkpQQjBVdG4yUQ?oc=5",
-        "title": "যুক্তরাজ্যে পৌঁছেছেন নাহিদ ইসলাম",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1WVVmdUlGQmYzaDZMems0eE1IX01TNG9WVGwxQWI3eDdNaHFDaWRaLVdTZVhvY3QzdEFtMmNBT0RlVmcyNkpQQjBVdG4yUQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 00:38:33 GMT",
-        "summary": "যুক্তরাজ্যে পৌঁছেছেন নাহিদ ইসলাম &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667931",
-        "imageAttemptedAt": "2026-11-14T11:11:07.934Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE13c2FwRTNmV2hGUmZTc1I5NEZfdFMwa096Q0lFQnBUY3BKMmJEdEkwemJ2QXdGTlE5ZVB2ME1veUt3cVJBYWlwUFBLcHlIUQ?oc=5",
-        "title": "রাজধানীতে নাশকতার পরিকল্পনা, কার্যক্রম নিষিদ্ধ আ. লীগের ২ নেতা গ্রেফতার",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE13c2FwRTNmV2hGUmZTc1I5NEZfdFMwa096Q0lFQnBUY3BKMmJEdEkwemJ2QXdGTlE5ZVB2ME1veUt3cVJBYWlwUFBLcHlIUQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 13 Nov 2026 23:48:34 GMT",
-        "summary": "রাজধানীতে নাশকতার পরিকল্পনা, কার্যক্রম নিষিদ্ধ আ. লীগের ২ নেতা গ্রেফতার &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667930",
-        "imageAttemptedAt": "2026-11-14T12:38:31.300Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Fb3pLZXN4Z2hhRjViWDBLRVBiSklPUVY5QUxfbUppTG9PSkVvZmozX3I2SHlHamd4cWhUM3FOSm4tLTJwMXFnaXpsbkUwaUxwRmlfNA?oc=5",
-        "title": "বিশ্বের সবচেয়ে দূষিত শহর এখন দিল্লি",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Fb3pLZXN4Z2hhRjViWDBLRVBiSklPUVY5QUxfbUppTG9PSkVvZmozX3I2SHlHamd4cWhUM3FOSm4tLTJwMXFnaXpsbkUwaUxwRmlfNA?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 13 Nov 2026 14:47:32 GMT",
-        "summary": "বিশ্বের সবচেয়ে দূষিত শহর এখন দিল্লি &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/international/667925",
-        "imageAttemptedAt": "2026-11-14T12:38:31.300Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8yVEZTU3IzUkdSN3paOFlRNXlFYWFtSEpnRjk5Mm1iVDZJR1phM0JpLUdIRHpMWXRtVjJvM2ZHaVRlZWR4YUdZVVh5RWo?oc=5",
-        "title": "একদিনের ব্যবধানে দেশের বাজারে আবারও কমলো স্বর্ণের দাম",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8yVEZTU3IzUkdSN3paOFlRNXlFYWFtSEpnRjk5Mm1iVDZJR1phM0JpLUdIRHpMWXRtVjJvM2ZHaVRlZWR4YUdZVVh5RWo?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 12 Nov 2026 05:15:40 GMT",
-        "summary": "একদিনের ব্যবধানে দেশের বাজারে আবারও কমলো স্বর্ণের দাম &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/economy/667852",
-        "imageAttemptedAt": "2026-11-14T03:31:32.488Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBteGpoanV3bGV6M2gya1JWNk9LeklwUlZ0bjdGbF9ZMllPN19QUlQ2MWliLS13eFl3TnNQT0g3V3RBQ2t5Zk9LTWxfX2hLcXRPWlhINA?oc=5",
-        "title": "বাহরাইনে মার্কিন আগাম সতর্কতা রাডারে হামলার দাবি ইরানের",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBteGpoanV3bGV6M2gya1JWNk9LeklwUlZ0bjdGbF9ZMllPN19QUlQ2MWliLS13eFl3TnNQT0g3V3RBQ2t5Zk9LTWxfX2hLcXRPWlhINA?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 13 Nov 2026 04:50:44 GMT",
-        "summary": "বাহরাইনে মার্কিন আগাম সতর্কতা রাডারে হামলার দাবি ইরানের &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/international/667906",
-        "imageAttemptedAt": "2026-11-14T11:51:48.114Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1LV0o0dHgyOU45Nl9CMldCajNHMnhKZE40cjEwZV9Pd0pHZm9GTl9jRXk4NzJzY183ZmdKLVB6b0h5eWlQNVlnZnhoY3lNdw?oc=5",
-        "title": "দেশের পথে প্রধানমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1LV0o0dHgyOU45Nl9CMldCajNHMnhKZE40cjEwZV9Pd0pHZm9GTl9jRXk4NzJzY183ZmdKLVB6b0h5eWlQNVlnZnhoY3lNdw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 12 Nov 2026 13:30:34 GMT",
-        "summary": "দেশের পথে প্রধানমন্ত্রী &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/national/667885",
-        "imageAttemptedAt": "2026-11-14T02:43:22.318Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9heUZ4RDRKTXoyWHowNHVSRFVTWVFUR0NPeVZqVElHRjZNbk1qRHZOWlhnVDU4MEhHRWlDV2wxRU9BSzFFXzRPU204VEg?oc=5",
-        "title": "আন্তর্জাতিক বাজারে দুই মাসের মধ্যে সর্বনিম্ন জ্বালানি তেলের দাম",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9heUZ4RDRKTXoyWHowNHVSRFVTWVFUR0NPeVZqVElHRjZNbk1qRHZOWlhnVDU4MEhHRWlDV2wxRU9BSzFFXzRPU204VEg?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 12 Nov 2026 06:24:12 GMT",
-        "summary": "আন্তর্জাতিক বাজারে দুই মাসের মধ্যে সর্বনিম্ন জ্বালানি তেলের দাম &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/economy/667858",
-        "imageAttemptedAt": "2026-11-14T05:31:46.730Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2bGRkd1FiQ3VocmhsXzFMLW94Nm1XalltLTJ4OXFKakFQYVdnbVJhNzg0U3RlT3ZYZDJvc210SEFDS2FoNktpWEl6UkdYRDJ4VVhvRg?oc=5",
-        "title": "নিউইয়র্কে ভবন ধসে নিহত বেড়ে ৮",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2bGRkd1FiQ3VocmhsXzFMLW94Nm1XalltLTJ4OXFKakFQYVdnbVJhNzg0U3RlT3ZYZDJvc210SEFDS2FoNktpWEl6UkdYRDJ4VVhvRg?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 13 Nov 2026 01:10:44 GMT",
-        "summary": "নিউইয়র্কে ভবন ধসে নিহত বেড়ে ৮ &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/international/667899",
-        "imageAttemptedAt": "2026-11-14T14:25:51.943Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      }
-    ],
     "ntv": [
       {
         "id": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1ZZjhSQjVOTUIxTFBMV3dpRkVpMW5sQUFaUkM1OVlNY3RwM2tELS1CTEQtVGUtNDIxZ2c?oc=5",
@@ -345,19 +213,6 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.ntvbd.com/onnorokom-golpo/onnorokom-golpo-ep-263",
         "imageAttemptedAt": "2026-11-14T16:32:01.827Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWFk0S0psakF6MGZDU1VLMjc4d1ZkbWFDbmo2SUt5eXgwNzBhTEZ2enRQMjhYUU5mZld3YVRWdUxQdThHWml1bHJuMUl6WEFEczA2X0gwWi1DNldtZk5TY0xKUzRsc1hoV0NIUlZCMEdWdHozeUViZWRKUFVib25RMWxVVQ?oc=5",
-        "title": "স্বাস্থ্য প্রতিদিন : পর্ব ৬০৩৭",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWFk0S0psakF6MGZDU1VLMjc4d1ZkbWFDbmo2SUt5eXgwNzBhTEZ2enRQMjhYUU5mZld3YVRWdUxQdThHWml1bHJuMUl6WEFEczA2X0gwWi1DNldtZk5TY0xKUzRsc1hoV0NIUlZCMEdWdHozeUViZWRKUFVib25RMWxVVQ?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 05:10:09 GMT",
-        "summary": "স্বাস্থ্য প্রতিদিন : পর্ব ৬০৩৭ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/health/swasthyo-protidin/shastho-protidin-ep-6037",
-        "imageAttemptedAt": "2026-11-14T12:38:31.300Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -437,6 +292,151 @@
         "articleUrl": "https://www.ntvbd.com/video/drama/drama-serial/kajins/kajins-ep-202",
         "imageAttemptedAt": "2026-11-14T15:53:54.351Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaU9iM2RKNnoxcThyVHM1a1BHRGYtWTViQ0VoaVF0T2pTVzh6RzBqTUx1dUl5LVBUNHhPWG5qNEszQ2ktYVhoQlg0UEp4YXRNQUFyR0FZa0VMMU85aTFha0x4Uy0yRGhKWkRGbzhUZU9GajlOV3hja1RKdFZ0M2g4RTBqLU56OEtkOXFN?oc=5",
+        "title": "বিশেষ অনুষ্ঠান : বিশ্ব ডায়াবেটিস দিবস",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaU9iM2RKNnoxcThyVHM1a1BHRGYtWTViQ0VoaVF0T2pTVzh6RzBqTUx1dUl5LVBUNHhPWG5qNEszQ2ktYVhoQlg0UEp4YXRNQUFyR0FZa0VMMU85aTFha0x4Uy0yRGhKWkRGbzhUZU9GajlOV3hja1RKdFZ0M2g4RTBqLU56OEtkOXFN?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 13:37:08 GMT",
+        "summary": "বিশেষ অনুষ্ঠান : বিশ্ব ডায়াবেটিস দিবস &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/special-programme/aristo-pharma-world-diabetes-day-2026",
+        "imageAttemptedAt": "2026-11-14T23:46:49.267Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      }
+    ],
+    "jamuna": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
+        "title": "Most Popular Television in Bangladesh",
+        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 13 Apr 2023 17:30:30 GMT",
+        "summary": "Most Popular Television in Bangladesh &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "",
+        "imageAttemptedAt": "2026-11-14T19:38:21.639Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5aRmdtSWxEbjBnS2tNbEs0cEp0aEtwWXg5TGpWZmxXd05Sc3RiT3ZUZi0zZjBwX1N0RTVzdzhBaWg2MlNES1pWcUwwRDU2ZjIzX3U3eA?oc=5",
+        "title": "শেখ হাসিনাকে তৃতীয় দেশে পাঠাতে নানা জায়গায় কথা বলেও ব্যর্থ দিল্লি",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5aRmdtSWxEbjBnS2tNbEs0cEp0aEtwWXg5TGpWZmxXd05Sc3RiT3ZUZi0zZjBwX1N0RTVzdzhBaWg2MlNES1pWcUwwRDU2ZjIzX3U3eA?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 13 Nov 2026 08:28:11 GMT",
+        "summary": "শেখ হাসিনাকে তৃতীয় দেশে পাঠাতে নানা জায়গায় কথা বলেও ব্যর্থ দিল্লি &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/international/667913",
+        "imageAttemptedAt": "2026-11-14T14:25:51.943Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1WVVmdUlGQmYzaDZMems0eE1IX01TNG9WVGwxQWI3eDdNaHFDaWRaLVdTZVhvY3QzdEFtMmNBT0RlVmcyNkpQQjBVdG4yUQ?oc=5",
+        "title": "যুক্তরাজ্যে পৌঁছেছেন নাহিদ ইসলাম",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1WVVmdUlGQmYzaDZMems0eE1IX01TNG9WVGwxQWI3eDdNaHFDaWRaLVdTZVhvY3QzdEFtMmNBT0RlVmcyNkpQQjBVdG4yUQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 00:38:33 GMT",
+        "summary": "যুক্তরাজ্যে পৌঁছেছেন নাহিদ ইসলাম &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667931",
+        "imageAttemptedAt": "2026-11-14T11:11:07.934Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE13c2FwRTNmV2hGUmZTc1I5NEZfdFMwa096Q0lFQnBUY3BKMmJEdEkwemJ2QXdGTlE5ZVB2ME1veUt3cVJBYWlwUFBLcHlIUQ?oc=5",
+        "title": "রাজধানীতে নাশকতার পরিকল্পনা, কার্যক্রম নিষিদ্ধ আ. লীগের ২ নেতা গ্রেফতার",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE13c2FwRTNmV2hGUmZTc1I5NEZfdFMwa096Q0lFQnBUY3BKMmJEdEkwemJ2QXdGTlE5ZVB2ME1veUt3cVJBYWlwUFBLcHlIUQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 13 Nov 2026 23:48:34 GMT",
+        "summary": "রাজধানীতে নাশকতার পরিকল্পনা, কার্যক্রম নিষিদ্ধ আ. লীগের ২ নেতা গ্রেফতার &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667930",
+        "imageAttemptedAt": "2026-11-14T12:38:31.300Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Fb3pLZXN4Z2hhRjViWDBLRVBiSklPUVY5QUxfbUppTG9PSkVvZmozX3I2SHlHamd4cWhUM3FOSm4tLTJwMXFnaXpsbkUwaUxwRmlfNA?oc=5",
+        "title": "বিশ্বের সবচেয়ে দূষিত শহর এখন দিল্লি",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Fb3pLZXN4Z2hhRjViWDBLRVBiSklPUVY5QUxfbUppTG9PSkVvZmozX3I2SHlHamd4cWhUM3FOSm4tLTJwMXFnaXpsbkUwaUxwRmlfNA?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 13 Nov 2026 14:47:32 GMT",
+        "summary": "বিশ্বের সবচেয়ে দূষিত শহর এখন দিল্লি &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/international/667925",
+        "imageAttemptedAt": "2026-11-14T12:38:31.300Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XbWgwQ3FxNHpwc3NxeWZfOHREaHYycVo0RTlTVkd6N0JQRkY0NnZLUHdNSlJPaDcwc1o1ODJjYkg3NWJjWUc2aTFfaGdvSDlSSFBnVk9B?oc=5",
+        "title": "এমপি নুসরাতের বাড়িতে অগ্নিসংযোগ, ছাত্রলীগ-যুবলীগের নেতাকর্মীসহ ৩০ জনের বিরুদ্ধে মামলা",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XbWgwQ3FxNHpwc3NxeWZfOHREaHYycVo0RTlTVkd6N0JQRkY0NnZLUHdNSlJPaDcwc1o1ODJjYkg3NWJjWUc2aTFfaGdvSDlSSFBnVk9B?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 13 Nov 2026 05:13:47 GMT",
+        "summary": "এমপি নুসরাতের বাড়িতে অগ্নিসংযোগ, ছাত্রলীগ-যুবলীগের নেতাকর্মীসহ ৩০ জনের বিরুদ্ধে মামলা &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/all-bangladesh/667908",
+        "imageAttemptedAt": "2026-11-14T23:46:49.267Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8yVEZTU3IzUkdSN3paOFlRNXlFYWFtSEpnRjk5Mm1iVDZJR1phM0JpLUdIRHpMWXRtVjJvM2ZHaVRlZWR4YUdZVVh5RWo?oc=5",
+        "title": "একদিনের ব্যবধানে দেশের বাজারে আবারও কমলো স্বর্ণের দাম",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8yVEZTU3IzUkdSN3paOFlRNXlFYWFtSEpnRjk5Mm1iVDZJR1phM0JpLUdIRHpMWXRtVjJvM2ZHaVRlZWR4YUdZVVh5RWo?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 12 Nov 2026 05:15:40 GMT",
+        "summary": "একদিনের ব্যবধানে দেশের বাজারে আবারও কমলো স্বর্ণের দাম &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/economy/667852",
+        "imageAttemptedAt": "2026-11-14T03:31:32.488Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBteGpoanV3bGV6M2gya1JWNk9LeklwUlZ0bjdGbF9ZMllPN19QUlQ2MWliLS13eFl3TnNQT0g3V3RBQ2t5Zk9LTWxfX2hLcXRPWlhINA?oc=5",
+        "title": "বাহরাইনে মার্কিন আগাম সতর্কতা রাডারে হামলার দাবি ইরানের",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBteGpoanV3bGV6M2gya1JWNk9LeklwUlZ0bjdGbF9ZMllPN19QUlQ2MWliLS13eFl3TnNQT0g3V3RBQ2t5Zk9LTWxfX2hLcXRPWlhINA?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 13 Nov 2026 04:50:44 GMT",
+        "summary": "বাহরাইনে মার্কিন আগাম সতর্কতা রাডারে হামলার দাবি ইরানের &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/international/667906",
+        "imageAttemptedAt": "2026-11-14T11:51:48.114Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1LV0o0dHgyOU45Nl9CMldCajNHMnhKZE40cjEwZV9Pd0pHZm9GTl9jRXk4NzJzY183ZmdKLVB6b0h5eWlQNVlnZnhoY3lNdw?oc=5",
+        "title": "দেশের পথে প্রধানমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1LV0o0dHgyOU45Nl9CMldCajNHMnhKZE40cjEwZV9Pd0pHZm9GTl9jRXk4NzJzY183ZmdKLVB6b0h5eWlQNVlnZnhoY3lNdw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 12 Nov 2026 13:30:34 GMT",
+        "summary": "দেশের পথে প্রধানমন্ত্রী &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667885",
+        "imageAttemptedAt": "2026-11-14T02:43:22.318Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9heUZ4RDRKTXoyWHowNHVSRFVTWVFUR0NPeVZqVElHRjZNbk1qRHZOWlhnVDU4MEhHRWlDV2wxRU9BSzFFXzRPU204VEg?oc=5",
+        "title": "আন্তর্জাতিক বাজারে দুই মাসের মধ্যে সর্বনিম্ন জ্বালানি তেলের দাম",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9heUZ4RDRKTXoyWHowNHVSRFVTWVFUR0NPeVZqVElHRjZNbk1qRHZOWlhnVDU4MEhHRWlDV2wxRU9BSzFFXzRPU204VEg?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 12 Nov 2026 06:24:12 GMT",
+        "summary": "আন্তর্জাতিক বাজারে দুই মাসের মধ্যে সর্বনিম্ন জ্বালানি তেলের দাম &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/economy/667858",
+        "imageAttemptedAt": "2026-11-14T05:31:46.730Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
     "channel24": [
@@ -480,19 +480,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnT1pOdjFJNTkwQ1NxcXRCVlhuM1VRSldfcE1nMmVHVy1IajlLZ29hUUU5QVVrVk1KQkNGVEQzQmQxTHBjdkQ2cEVadUZUbG9VbmJ0RA?oc=5",
-        "title": "CHANNEL24 LIVE | LIVE TV | চ্যানেল 24 লাইভ",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnT1pOdjFJNTkwQ1NxcXRCVlhuM1VRSldfcE1nMmVHVy1IajlLZ29hUUU5QVVrVk1KQkNGVEQzQmQxTHBjdkQ2cEVadUZUbG9VbmJ0RA?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 24 Sep 2020 08:01:25 GMT",
-        "summary": "CHANNEL24 LIVE | LIVE TV | চ্যানেল 24 লাইভ &nbsp;&nbsp; Channel 24",
-        "image": "https://img.youtube.com/vi/CrJ435Dl17M/0.jpg",
-        "articleUrl": "https://www.channel24bd.tv/video/show/2339",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNWFxTWpycFNESU9rNUIwOGkzVGVrdHloNmljenVnaFBXUi11b3pQa0xUblFQR3VVbnYwUUZkRW9lQlE0QUZyVWZCZ2syZ2dINDFJT1RXeW1lQ2FtX2tzNWVjRHZSN1AwNFFYcXd1OUt5TEViUGYwQ1NLemlIWnlscG9iZk5Kd0ZxLUdWUnZCdw?oc=5",
         "title": "Untitled - Channel 24",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNWFxTWpycFNESU9rNUIwOGkzVGVrdHloNmljenVnaFBXUi11b3pQa0xUblFQR3VVbnYwUUZkRW9lQlE0QUZyVWZCZ2syZ2dINDFJT1RXeW1lQ2FtX2tzNWVjRHZSN1AwNFFYcXd1OUt5TEViUGYwQ1NLemlIWnlscG9iZk5Kd0ZxLUdWUnZCdw?oc=5",
@@ -532,16 +519,42 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiygNBVV95cUxNRl9UeVVmUDA1VDk0YU8yb3V2Q2dXUE93MzhVZVdLUXA1c0pUZmt0THBaN1F0cWhSWFg2aVY0TnpmcTEwNURCd2RQQlBmaThwN1pXb3hNZmlaWEIzZGNPRFBBZUV2NzF5T2FiMzBlcUZTdlRwWFowZ1BXb0g3NGtJWHNBM0ZVdnhFNUhqNVZoLThpcUNqM3gxV1IwOUhSbnRDWkZwcUh2aEVGSTVnelpjRkttbk9ZVm82OXlVcTIzeG1LX21GVkJRUDFNaWVqOG9sdWN1dU9JN0w3OXVUaE90ZEU1MnlMdXVPVzhibzJUVHZrSi1KNW55S0RtNE1wVmplS2ROTmlXaE4wVWVLSDF4WHd1UU91aFlta2ViMU05ZVV0OFFfRVpYTFhfS25qb0hnWEFZbFU3S2llOXUzX01nUk82eEpIZFBvYWtoSER3dVFxeFFDaHpDYlB5bXM0MkNDLVFob0taN0lJVDZRbzNpQ0ZpN2tidjdraHZLbUFac01kc1lXeHlkck9pTlpBWF9LeE1GbXNjWkxqQjVhQTVtbXFkdWZWZ2lKOXNJSmxacmtGNkpfQWdQSWdHTkpZZFJERDV0X1B1YzRndw?oc=5",
-        "title": "৪ সমুদ্রবন্দরে ৩ নম্বর সতর্ক সংকেত",
-        "link": "https://news.google.com/rss/articles/CBMiygNBVV95cUxNRl9UeVVmUDA1VDk0YU8yb3V2Q2dXUE93MzhVZVdLUXA1c0pUZmt0THBaN1F0cWhSWFg2aVY0TnpmcTEwNURCd2RQQlBmaThwN1pXb3hNZmlaWEIzZGNPRFBBZUV2NzF5T2FiMzBlcUZTdlRwWFowZ1BXb0g3NGtJWHNBM0ZVdnhFNUhqNVZoLThpcUNqM3gxV1IwOUhSbnRDWkZwcUh2aEVGSTVnelpjRkttbk9ZVm82OXlVcTIzeG1LX21GVkJRUDFNaWVqOG9sdWN1dU9JN0w3OXVUaE90ZEU1MnlMdXVPVzhibzJUVHZrSi1KNW55S0RtNE1wVmplS2ROTmlXaE4wVWVLSDF4WHd1UU91aFlta2ViMU05ZVV0OFFfRVpYTFhfS25qb0hnWEFZbFU3S2llOXUzX01nUk82eEpIZFBvYWtoSER3dVFxeFFDaHpDYlB5bXM0MkNDLVFob0taN0lJVDZRbzNpQ0ZpN2tidjdraHZLbUFac01kc1lXeHlkck9pTlpBWF9LeE1GbXNjWkxqQjVhQTVtbXFkdWZWZ2lKOXNJSmxacmtGNkpfQWdQSWdHTkpZZFJERDV0X1B1YzRndw?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMi6gVBVV95cUxQTk9Sbzl2bEdnbUw5S2lqRjZzWEtkUFBPWG5UYWdNd2pseWhzbDQxNlAtWmFaNV9vOTl6UU1pQWVMQjlidVM4d0tLNVR4SXpZY0k3TURyZmc3M0dWcXNDWlpRaUQ1aTlqWGxPYkhGTElHZHZTY0J1YUNJYXZGN285UmJJUU95XzIwUnZfd3RhdURWOTlDd09IRWpkazRvYjBXM25iNGlZWGpwdHV6cHZRMkh1U20wM1JGMC1fTmZBY1hFNkZMa0NRbGw3MVZSalRTRTg4YUtFT0xxU0tQTHZsajQ5MUZnUmRzYzBMTTZWNmdLd3hCTFRUSWY5UXM3V1BRSEpmUWpzNlU2WFdKUnowSWtuN0JndUNVOFFMYjh2aWd5MzdfYnVkZURrZ2trUWktSzFOU2tOUG9mMjVoUGNiZ3pmRUtIX1BpTGx5WW4wUnZ1ZF82WW9SU0F0djh1Zk5QWmN5ZHg2ZTdwcnBzOERJMktqNVRoeHduSnE0OEFQWWtET2Rwd0pHemVKYUpOVDV0LUo4Y25RWDk0dUNWVUdWRmVKeVpUa3NlVm42ZTYybzlKZUMwRDNfQzJtZFVFTVlRd2hNSGJQSXdJa1NYcGg1YVJhTk9kbUZGWGREWkoxMkpTejdxTUdINW82akkxaDlfUlcxbnN4Q0dqb0laRzh0ai1SZlgyeW82c01MUUtIVmo2OEUtdFE1WkRQQkUyZUJ2SGlCdklZM1FqcVE2MG5pSmJ2X25LWXdtbHRteFZveW1MVUZJdWViSGxCdVZpelJBRDJBTTZoUlNFejBUWUhIOWhvRjdfTzdneVJrR3RnT3lFMUVVQlFYTDdWSXhpekRQTjFWMk1ONGI1bEZSaDFkc2NEU1l6OEc3SmJMTVhaZWQ5SURyTWVtZGpoRzlrM01BSGRUU2R5d1AtMzhHaU9qVWhkazVCNkNzMXJKNXlzV0dJRWM1MHlsU04wY2xmMHhnQ0pYWW8tNkVHdw?oc=5",
+        "title": "এখনও এগিয়ে যাচ্ছে গাজামুখী ৯ জাহাজ, কৌশল প্রকাশ করলেন শহিদুল আলম",
+        "link": "https://news.google.com/rss/articles/CBMi6gVBVV95cUxQTk9Sbzl2bEdnbUw5S2lqRjZzWEtkUFBPWG5UYWdNd2pseWhzbDQxNlAtWmFaNV9vOTl6UU1pQWVMQjlidVM4d0tLNVR4SXpZY0k3TURyZmc3M0dWcXNDWlpRaUQ1aTlqWGxPYkhGTElHZHZTY0J1YUNJYXZGN285UmJJUU95XzIwUnZfd3RhdURWOTlDd09IRWpkazRvYjBXM25iNGlZWGpwdHV6cHZRMkh1U20wM1JGMC1fTmZBY1hFNkZMa0NRbGw3MVZSalRTRTg4YUtFT0xxU0tQTHZsajQ5MUZnUmRzYzBMTTZWNmdLd3hCTFRUSWY5UXM3V1BRSEpmUWpzNlU2WFdKUnowSWtuN0JndUNVOFFMYjh2aWd5MzdfYnVkZURrZ2trUWktSzFOU2tOUG9mMjVoUGNiZ3pmRUtIX1BpTGx5WW4wUnZ1ZF82WW9SU0F0djh1Zk5QWmN5ZHg2ZTdwcnBzOERJMktqNVRoeHduSnE0OEFQWWtET2Rwd0pHemVKYUpOVDV0LUo4Y25RWDk0dUNWVUdWRmVKeVpUa3NlVm42ZTYybzlKZUMwRDNfQzJtZFVFTVlRd2hNSGJQSXdJa1NYcGg1YVJhTk9kbUZGWGREWkoxMkpTejdxTUdINW82akkxaDlfUlcxbnN4Q0dqb0laRzh0ai1SZlgyeW82c01MUUtIVmo2OEUtdFE1WkRQQkUyZUJ2SGlCdklZM1FqcVE2MG5pSmJ2X25LWXdtbHRteFZveW1MVUZJdWViSGxCdVZpelJBRDJBTTZoUlNFejBUWUhIOWhvRjdfTzdneVJrR3RnT3lFMUVVQlFYTDdWSXhpekRQTjFWMk1ONGI1bEZSaDFkc2NEU1l6OEc3SmJMTVhaZWQ5SURyTWVtZGpoRzlrM01BSGRUU2R5d1AtMzhHaU9qVWhkazVCNkNzMXJKNXlzV0dJRWM1MHlsU04wY2xmMHhnQ0pYWW8tNkVHdw?oc=5",
         "source": "News24 / Channel 24",
         "publisherUrl": "",
-        "publishedAt": "Thu, 13 Aug 2026 07:00:00 GMT",
-        "summary": "৪ সমুদ্রবন্দরে ৩ নম্বর সতর্ক সংকেত &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026August/PLATE/54214-1786608197.jpg",
-        "articleUrl": "https://www.channel24bd.tv/weather/article/342020/%E0%A7%AA-%E0%A6%B8%E0%A6%AE%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A7%87-%E0%A7%A9-%E0%A6%A8%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%B8%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%95-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A7%87%E0%A6%A4%C2%A0",
-        "imageAttemptedAt": "",
+        "publishedAt": "Fri, 03 Oct 2025 08:23:29 GMT",
+        "summary": "এখনও এগিয়ে যাচ্ছে গাজামুখী ৯ জাহাজ, কৌশল প্রকাশ করলেন শহিদুল আলম &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/national/article/291458/%E0%A6%8F%E0%A6%96%E0%A6%A8%E0%A6%93-%E0%A6%8F%E0%A6%97%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%97%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%80-%E0%A7%AF-%E0%A6%9C%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%9C-%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%B2-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B6-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%B6%E0%A6%B9%E0%A6%BF%E0%A6%A6%E0%A7%81%E0%A6%B2-%E0%A6%86%E0%A6%B2%E0%A6%AE",
+        "imageAttemptedAt": "2026-11-14T23:46:49.267Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiyAZBVV95cUxNUnFzaWJ0YS10SmVrblJSNXJwVkgxbU5oSERWS182ZUxfSHN3S0MzaThjOTlxN2h5RTA5clNFUUQ5RHB4THRKeWRDUy1reG5SbWJrV0Q1b0VRemVTOWdDMmMweUhaVHdnTzV5ZnNTdTdFVmpETXpETXcxdkphcXZJYlhGbUJNaXpRTzByQnMyZ21jcHFJWjFhSldRX2UzcEdsVEhMM3pmX1o4d0pDSVhXOGROSzhXWXhpUkRLbW9UeUpQZDN6RUxyQlU1Z04zekxUaEZyTDVjRU5GYkZ1V2VjZ1U5M29LV1N2NV9tYnRwMmhOVU5GLV9YdkNKeTd6TEtTQ3liSGxJbkYzaHlYMVVFMXd0WTdkWXc2U0NiNUtRQU05bzc1ZjZTOU5IWkRuY2gtMk1zcmFhbjN2dF9ZOG9KM0RMa3BCXzNqLW5HQ1FkYXpjTGd1aklmVk1Mak8tOXJHTTRKUXBZdXlDU3hMbGR5aXZjbXczNnhGOEV5UmxlZ3F2V3ZmOWt4cFhHR2VHOVBRYUppVXMyVlIxRVl5SXRNU2N5VGktSm16bUduOURadm1aMG94S0c5THNxcFhNS3hVc1dQQVlTM0RsaEQ3aVcybldvNi1JcjBuZUd1QnNNYVBIMlc4ZTVMdlJkY05OUzJHLTRaelJKb2ZCVVFHZjVRY2ttUkItNjh1RDFOZXh0MW5jTFJOancyZTNlakJpTU9wRXB3b2ZWd3ZYT2Y1bWd3MUtsMUZ6VVFRbVBINEhQUUd1SVMzdzlhUHBIZlE4OWlyQjh3WWdmSlVnQzFJbDh1RktTOGxFNkt3aEhkMi14OW1oSFBQX2trZzhlbk1Md3g3eFBveGpFXzVoZjZBLWY1TkhmOUdla0Jral8zZjc1Y0RWdjdEM0QwNFlIaXc1MXdiRUlfdXRfZGFCOXFFMlU0Qno0UjVTVHNkQ1JvOGxNNDNtX0Y4eGx3Yi1JZmVxQjljNmY2R09IQWJvRm9WMWxkaVZRQUFfNGI2YTlQYk9WeWNjYml3dXVjU083T09iSVZKWG5BV2dKY0dEelR3aHVBdFFKRHpEQkRfMG9OOF8zb1hKZm1JQkZ3RTZQT0h3RkdaSUlBbnFOVW4?oc=5",
+        "title": "আন্দামান সাগরে লঘুচাপ সৃষ্টির আশঙ্কা, বজ্রসহ বৃষ্টি হতে পারে যেসব অঞ্চলে",
+        "link": "https://news.google.com/rss/articles/CBMiyAZBVV95cUxNUnFzaWJ0YS10SmVrblJSNXJwVkgxbU5oSERWS182ZUxfSHN3S0MzaThjOTlxN2h5RTA5clNFUUQ5RHB4THRKeWRDUy1reG5SbWJrV0Q1b0VRemVTOWdDMmMweUhaVHdnTzV5ZnNTdTdFVmpETXpETXcxdkphcXZJYlhGbUJNaXpRTzByQnMyZ21jcHFJWjFhSldRX2UzcEdsVEhMM3pmX1o4d0pDSVhXOGROSzhXWXhpUkRLbW9UeUpQZDN6RUxyQlU1Z04zekxUaEZyTDVjRU5GYkZ1V2VjZ1U5M29LV1N2NV9tYnRwMmhOVU5GLV9YdkNKeTd6TEtTQ3liSGxJbkYzaHlYMVVFMXd0WTdkWXc2U0NiNUtRQU05bzc1ZjZTOU5IWkRuY2gtMk1zcmFhbjN2dF9ZOG9KM0RMa3BCXzNqLW5HQ1FkYXpjTGd1aklmVk1Mak8tOXJHTTRKUXBZdXlDU3hMbGR5aXZjbXczNnhGOEV5UmxlZ3F2V3ZmOWt4cFhHR2VHOVBRYUppVXMyVlIxRVl5SXRNU2N5VGktSm16bUduOURadm1aMG94S0c5THNxcFhNS3hVc1dQQVlTM0RsaEQ3aVcybldvNi1JcjBuZUd1QnNNYVBIMlc4ZTVMdlJkY05OUzJHLTRaelJKb2ZCVVFHZjVRY2ttUkItNjh1RDFOZXh0MW5jTFJOancyZTNlakJpTU9wRXB3b2ZWd3ZYT2Y1bWd3MUtsMUZ6VVFRbVBINEhQUUd1SVMzdzlhUHBIZlE4OWlyQjh3WWdmSlVnQzFJbDh1RktTOGxFNkt3aEhkMi14OW1oSFBQX2trZzhlbk1Md3g3eFBveGpFXzVoZjZBLWY1TkhmOUdla0Jral8zZjc1Y0RWdjdEM0QwNFlIaXc1MXdiRUlfdXRfZGFCOXFFMlU0Qno0UjVTVHNkQ1JvOGxNNDNtX0Y4eGx3Yi1JZmVxQjljNmY2R09IQWJvRm9WMWxkaVZRQUFfNGI2YTlQYk9WeWNjYml3dXVjU083T09iSVZKWG5BV2dKY0dEelR3aHVBdFFKRHpEQkRfMG9OOF8zb1hKZm1JQkZ3RTZQT0h3RkdaSUlBbnFOVW4?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 18 Oct 2026 07:00:00 GMT",
+        "summary": "আন্দামান সাগরে লঘুচাপ সৃষ্টির আশঙ্কা, বজ্রসহ বৃষ্টি হতে পারে যেসব অঞ্চলে &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/weather/article/353681/%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%B8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A7%87-%E0%A6%B2%E0%A6%98%E0%A7%81%E0%A6%9A%E0%A6%BE%E0%A6%AA-%E0%A6%B8%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%B6%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A6%9C%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A6%B9-%E0%A6%AC%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF-%E0%A6%B9%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%AF%E0%A7%87%E0%A6%B8%E0%A6%AC-%E0%A6%85%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%87",
+        "imageAttemptedAt": "2026-11-14T23:46:49.267Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi_gVBVV95cUxPcVN1X2N1Z2tTTl9QWkRwVVc2bFhxOWlwbDE4Zy1vYVdVYUE2MHZvRi1jMzA1SVZKbXJLeWJlQWJ4YWtSdmNtTGE5TGtLQ3dWdUJhSXB2dUpsaTE5QmxCYWtoYVZLbHJpeWkxc0pzblBxZHdRb3lSLXdzOVZiRmU5RHhTdmx1VHljYVFUb2Z5UnU0NFNzZ2cwT3FnekktTnYtdVBkcWNQOXZtd01jX3BsdmF0VF9HOERnNUZWVENKZF9KSmhnNHNxS3FoWnRWaWdQalJYVXlXZ0cyODFBWnk2QUlxSU45UTY1TWt2cXNyMHVKVUNVaEM0UUJ0TTROYXlJMUd0VldDSlFWVWhGOVhYenJMVmstMTVsbkFvRXBBbTVmR1ZqWUhkaldJd244ZnA2VmxpRmhvbk84RnlnUWxIakR2Rjctc2dPNERGNHpWc3NKYVozTHBySFpKZTJKUUtLakhTRVV0TVZQTXBjeFZnZjRRU3BjRU8wZ0s5dFNiSjVoT1JEdThYeW0tRjRVZXBrb0xaZmdyQTd5N0FKTy1XOUowMmFSTnBmTndSa0tqeGpjclpIVk9uQ3MxdW80eWZoS3Iza1RhWlVCTzlpZmZBNGhzd1RzVWR4OHh3Q3ZEdnphNXVCQVFUaVV0SE1ST1FtSWhaQ1NWNlZON0hMcHY0ZEp4NWRwYmx0Nzd6ck1uMEpPVUlXYmh5UkJFUHppTkxiTmdxbGx2cTVwZm1HRnRTazBBMVhNVmszd3ozUFVWbzU3TlM1ZmItd29Pc1NyQl9UclNUT0VoeG5RTkFzcjZEaGhpYllVcWE1OUVMNU1sTEhjVTBUR253LWdHa2RndnRzRXRmM3ZPSVAzQnR3VmlBQVlNTVl2UDF4Q2tzSm9neTJubHI3TC12ZkhEQWFUVWVOYTNYY3Y4ZWFuVnVDRlJDSzZENXdubm04VHY1UHpsM01OZ29hNTd5QnFSeDY1ZV9qRXdXNFdQdmZsZ0l2ZmpPUEJ4YVhuTzZlY0hrdGln?oc=5",
+        "title": "গতি কমেছে ঘূর্ণিঝড় ‘অর্ণবের’, দেশের যেসব এলাকায় বৃষ্টির সম্ভাবনা",
+        "link": "https://news.google.com/rss/articles/CBMi_gVBVV95cUxPcVN1X2N1Z2tTTl9QWkRwVVc2bFhxOWlwbDE4Zy1vYVdVYUE2MHZvRi1jMzA1SVZKbXJLeWJlQWJ4YWtSdmNtTGE5TGtLQ3dWdUJhSXB2dUpsaTE5QmxCYWtoYVZLbHJpeWkxc0pzblBxZHdRb3lSLXdzOVZiRmU5RHhTdmx1VHljYVFUb2Z5UnU0NFNzZ2cwT3FnekktTnYtdVBkcWNQOXZtd01jX3BsdmF0VF9HOERnNUZWVENKZF9KSmhnNHNxS3FoWnRWaWdQalJYVXlXZ0cyODFBWnk2QUlxSU45UTY1TWt2cXNyMHVKVUNVaEM0UUJ0TTROYXlJMUd0VldDSlFWVWhGOVhYenJMVmstMTVsbkFvRXBBbTVmR1ZqWUhkaldJd244ZnA2VmxpRmhvbk84RnlnUWxIakR2Rjctc2dPNERGNHpWc3NKYVozTHBySFpKZTJKUUtLakhTRVV0TVZQTXBjeFZnZjRRU3BjRU8wZ0s5dFNiSjVoT1JEdThYeW0tRjRVZXBrb0xaZmdyQTd5N0FKTy1XOUowMmFSTnBmTndSa0tqeGpjclpIVk9uQ3MxdW80eWZoS3Iza1RhWlVCTzlpZmZBNGhzd1RzVWR4OHh3Q3ZEdnphNXVCQVFUaVV0SE1ST1FtSWhaQ1NWNlZON0hMcHY0ZEp4NWRwYmx0Nzd6ck1uMEpPVUlXYmh5UkJFUHppTkxiTmdxbGx2cTVwZm1HRnRTazBBMVhNVmszd3ozUFVWbzU3TlM1ZmItd29Pc1NyQl9UclNUT0VoeG5RTkFzcjZEaGhpYllVcWE1OUVMNU1sTEhjVTBUR253LWdHa2RndnRzRXRmM3ZPSVAzQnR3VmlBQVlNTVl2UDF4Q2tzSm9neTJubHI3TC12ZkhEQWFUVWVOYTNYY3Y4ZWFuVnVDRlJDSzZENXdubm04VHY1UHpsM01OZ29hNTd5QnFSeDY1ZV9qRXdXNFdQdmZsZ0l2ZmpPUEJ4YVhuTzZlY0hrdGln?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 28 Oct 2026 07:00:00 GMT",
+        "summary": "গতি কমেছে ঘূর্ণিঝড় ‘অর্ণবের’, দেশের যেসব এলাকায় বৃষ্টির সম্ভাবনা &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/weather/article/355387/%E0%A6%97%E0%A6%A4%E0%A6%BF-%E0%A6%95%E0%A6%AE%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%98%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A3%E0%A6%BF%E0%A6%9D%E0%A7%9C-%E2%80%98%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A3%E0%A6%AC%E0%A7%87%E0%A6%B0%E2%80%99-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AF%E0%A7%87%E0%A6%B8%E0%A6%AC-%E0%A6%8F%E0%A6%B2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%AC%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%A8%E0%A6%BE",
+        "imageAttemptedAt": "2026-11-14T23:46:49.267Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -554,19 +567,6 @@
         "summary": "উত্তরাঞ্চলে বৃষ্টির দাপট কমছে, ১৭ তারিখ থেকে ফের ভারী বৃষ্টির শঙ্কা &nbsp;&nbsp; Channel 24",
         "image": "https://backoffice.channel24bd.tv/media/imgAll/2026July/PLATE/rain-1783922334-1784008212.jpg",
         "articleUrl": "https://www.channel24bd.tv/weather/article/337192/%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%87-%E0%A6%AC%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AA%E0%A6%9F-%E0%A6%95%E0%A6%AE%E0%A6%9B%E0%A7%87-%E0%A7%A7%E0%A7%AD-%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%96-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%AC%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%B0-%E0%A6%B6%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A6%BE",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiiAZBVV95cUxNLXN3ZUVEMVRlc21CTC10NUd3cHRRNFJZMHF4SkdCSmNRNm9odG5VVV96WjdNT1ZZRzlGSjUwel9QVHBfM291VWlKRmFQSTFFR2xHZ0o3MmViUXljQWZIbl9ISVI1TWtJNm5qQ1BISUs3Z1BRbVZJMXpyOWlGSEM3NlpIa09kTExKWERsdHhqRFdKQW11ejNnSF9Vd2JXeENNaXhvN2R3RHRNaGRiWUszaFJ0bEZwc21VT1YxeERWbTYweVc4RTBySWIzOHFuZTZaQU9semFMQm5LWk5Mc1ZpdmpYWVh2NGNPeWxvbllKVUd3UUFydUdVQ2Q3OThmSHltTXFKcl95dlJjYlF3QXE2QWkyei12WlNoLUxFUy0xcE5wSEdSZ0RYRV95Njl2YVZicUJjUW9vck9xUVlmdnktRlllMVB0TFkxYzNoTXZZekdaYlBGemVjbjR1SHhGVnV0aXZCR2prV1dEWjZTNHRqX0xVOG9mbEd6NXE0aE5NREZVOGgxY1V5WGRCb1dTRjZCaFJnSFFFcTEzQjVSVldIYjhIdXlQWU1jWWd1QWxvTFl2dTc3VDFYMFpOeEdpa0FLbVhjUUxrR25nWG9hOHItRmdvaEtDNGlieHBsNEJLLTZfWnlPeWNfY1pVQlFjZ2lfbDFOUmVPRW56LUR5MjhMc2dwcl9rb2tja0RmWmNKTUZmTGl2Q3RrbVdORXB2clBybmRDeWNWcWVUR0pTOF9BZUtpX0lkQ1lYUXdCMW12anZOLVY0MkFZR0dwYk1sXzRvZWdVQnBkWUhrNW9EN2h2RUNPUmJhdXRIMGJ0cTdyRjBzTUhTMm5hUzBqdDZkYWJaczRuU0FLY0N6eWppMjVZZFhOX3d4WUt2T1Q2Z3NNRnQ4LTBYRW1KbkhRNkx4aWtDVmZ0aVl1RXBhVTBkSXFMc3EyUUFDU2dsazE0SGk3RDdULTJtOEVUMHVpWTBjbnN0Z1Y5XzJ3aWQ0TVZ2Zl9BZ21uY2Ftd2dvQ1ZHQXZKUjl1WmZwQ1RKMw?oc=5",
-        "title": "নোয়াখালী, চট্টগ্রাম ও কক্সবাজারে বজ্রবৃষ্টিসহ ঝোড়ো হাওয়ার আভাস",
-        "link": "https://news.google.com/rss/articles/CBMiiAZBVV95cUxNLXN3ZUVEMVRlc21CTC10NUd3cHRRNFJZMHF4SkdCSmNRNm9odG5VVV96WjdNT1ZZRzlGSjUwel9QVHBfM291VWlKRmFQSTFFR2xHZ0o3MmViUXljQWZIbl9ISVI1TWtJNm5qQ1BISUs3Z1BRbVZJMXpyOWlGSEM3NlpIa09kTExKWERsdHhqRFdKQW11ejNnSF9Vd2JXeENNaXhvN2R3RHRNaGRiWUszaFJ0bEZwc21VT1YxeERWbTYweVc4RTBySWIzOHFuZTZaQU9semFMQm5LWk5Mc1ZpdmpYWVh2NGNPeWxvbllKVUd3UUFydUdVQ2Q3OThmSHltTXFKcl95dlJjYlF3QXE2QWkyei12WlNoLUxFUy0xcE5wSEdSZ0RYRV95Njl2YVZicUJjUW9vck9xUVlmdnktRlllMVB0TFkxYzNoTXZZekdaYlBGemVjbjR1SHhGVnV0aXZCR2prV1dEWjZTNHRqX0xVOG9mbEd6NXE0aE5NREZVOGgxY1V5WGRCb1dTRjZCaFJnSFFFcTEzQjVSVldIYjhIdXlQWU1jWWd1QWxvTFl2dTc3VDFYMFpOeEdpa0FLbVhjUUxrR25nWG9hOHItRmdvaEtDNGlieHBsNEJLLTZfWnlPeWNfY1pVQlFjZ2lfbDFOUmVPRW56LUR5MjhMc2dwcl9rb2tja0RmWmNKTUZmTGl2Q3RrbVdORXB2clBybmRDeWNWcWVUR0pTOF9BZUtpX0lkQ1lYUXdCMW12anZOLVY0MkFZR0dwYk1sXzRvZWdVQnBkWUhrNW9EN2h2RUNPUmJhdXRIMGJ0cTdyRjBzTUhTMm5hUzBqdDZkYWJaczRuU0FLY0N6eWppMjVZZFhOX3d4WUt2T1Q2Z3NNRnQ4LTBYRW1KbkhRNkx4aWtDVmZ0aVl1RXBhVTBkSXFMc3EyUUFDU2dsazE0SGk3RDdULTJtOEVUMHVpWTBjbnN0Z1Y5XzJ3aWQ0TVZ2Zl9BZ21uY2Ftd2dvQ1ZHQXZKUjl1WmZwQ1RKMw?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 31 May 2026 07:00:00 GMT",
-        "summary": "নোয়াখালী, চট্টগ্রাম ও কক্সবাজারে বজ্রবৃষ্টিসহ ঝোড়ো হাওয়ার আভাস &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026May/PLATE/jhor-1780199459.jpg",
-        "articleUrl": "https://www.channel24bd.tv/weather/article/330096/%E0%A6%A8%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%96%E0%A6%BE%E0%A6%B2%E0%A7%80-%E0%A6%9A%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE-%E0%A6%93-%E0%A6%95%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%9C%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%B8%E0%A6%B9-%E0%A6%9D%E0%A7%8B%E0%A6%A1%E0%A6%BC%E0%A7%8B-%E0%A6%B9%E0%A6%BE%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%AD%E0%A6%BE%E0%A6%B8",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
@@ -705,138 +705,6 @@
         "imageFallback": "news-fallbacks/world.svg"
       }
     ],
-    "food": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBFbW5PUVNlM1Q3RlV5N1hSam14SVlLTk9hbDFla3pWblF1MmJXSTNSR0hsNVVKeTJ5ZTNIbFl0a3lWSXZRQzcyNkpBTF8zZTNXeEtJdDhHeUo?oc=5",
-        "title": "দেশে খাদ্যের কোনো ঘাটতি হতে দেব না: খাদ্যমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBFbW5PUVNlM1Q3RlV5N1hSam14SVlLTk9hbDFla3pWblF1MmJXSTNSR0hsNVVKeTJ5ZTNIbFl0a3lWSXZRQzcyNkpBTF8zZTNXeEtJdDhHeUo?oc=5",
-        "source": "bvnews24",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 15:10:00 GMT",
-        "summary": "দেশে খাদ্যের কোনো ঘাটতি হতে দেব না: খাদ্যমন্ত্রী &nbsp;&nbsp; bvnews24",
-        "image": "https://www.bvnews24.com/media/imgAll/2026October/mita-2611141510.png",
-        "articleUrl": "https://www.bvnews24.com/national/news/221790",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMipwRBVV95cUxOZU9YODY0cWdWNmVVanRZNm9Lc1JmV1dFaDdGSEluV05pM3BrZWpwMEp2QVZLT1VMWUpKYkJ1TnJqU1JEaEFPZVhZSGRHUTloXzNaQUhIenR0UDJWN1JqUGlqczc0OUs1WUVUTHk5TGg1cDJ3QzZvUTVQVkVublozLVdIVC1HaWpDejV3bkZzOGYybF9PMTFCLVo2eUpwZ09ZeVFWQmdSYlo5LTdjNGsxeGV5WC1reC0tUVdKWGdseHFKdVBXSU5HT3pvNmxFallkTjlpOWpxRWs1WThqYWFLdmQwbWp6NTZKa0NNVXpjV1RzaXpNeUI2VVFFNXJNemF1aTQ2V3g5TFdzWFRuRXlNUlh4eGZsbV9lWTF3WjBKZXlDQkNaZHZpa1dKT0dfQ21NeW9iU2kzcDU0Sk5KQTdvQTNsUmVpQWwyNjBSckhfd1BmZTRDZXVmMVpPMWFMM055UHA1QlE0TzZSeTd4R3dmUjBFZUo3ekZiaTdmZktqcW5lN3J3ZEk2a2hYWnZnSUIxMnFtd2tDd1JVcTVTeElUamZRdFZMMHAwY3JlZDdhazlvSWh5MVJfdTFPS0FhR3hzN0tLX3gyTTBvQlhaYzFWd09YbDI0RjJwcWZnaGs4S2lJOFNSOW5UU2VybTNxTTZJb1pEZ3pCdHZoZDZsMDlJVnNjVWVxWnVoWUdRYlI0TEVSUzBWQ29iM3lHa21WMEJfWlMyRDItc9IBrARBVV95cUxQZ285T0dkb0tLTHNiS2pZenJHODk0VmtGMEV5OExPR1QyZU1tWHNjamgwcXlQbFJlR0ljaUtwYnFVaV9RRFZLeGdocm9ZWW02d2hQY2g3WGlIVkpNVUJnVkMydWx3U3cyZWdIaXdDNk9BR2poOVhxOUFIM3Bfb2F5TWZZaHlicUxUbnY4RC00cWZhNW93czRfY0lVeTBhbkFlVGFTa194akRJazhDWjRBTDhrWnc3cHRpb3A1WGRTbjB1UHJGOGgwcGRSYnFCRE1yWDJ4MjZtTG9ZZFBUcEh2ZlNtbXEzOVBJOTZndXlsaWFTdUNUZjNfcHFVcDNWUXJXRHN5VnQ3dHVhcWhJd2RXblNRYkpQVmNwSkYxQ05oTTdmU1pwbzZTNGFYa2xkbVpna0d6elhQTnBfVnJfR0RnbVdFZ3d1amRkWHd4TWVxRGxBQ0dRQVFjMjdSVDVtcXJRYkRhdjV0UF9VRERYM1J3TGdTWDU0MFZ5UW5nZGtneFJNSDZ3VDVXQzhxZEJVTGk2bWtlOTd0czhkNk5IeGRxdkFiVTRXblhnYjJLZVBrQVNyLVVfNFJPY3U4VzRENndOSTVyeHZ5TTBvRU1qVHFraEp0VHo4SXVpZ3hVcWNyaUhQSTlfOV9NdURJa0Z3WTlnZDBiR2FXUWRVbXZFblV6cTRGQm1LdVJ2UFFISmdwRUduM1dTY1EwWDlEOTI0UWNJMmtpSkM1TE14aTlX?oc=5",
-        "title": "বিয়ের খাবার খেয়ে বর-কনেসহ ৬০ জন অসুস্থ, একজনের মৃত্যু",
-        "link": "https://news.google.com/rss/articles/CBMipwRBVV95cUxOZU9YODY0cWdWNmVVanRZNm9Lc1JmV1dFaDdGSEluV05pM3BrZWpwMEp2QVZLT1VMWUpKYkJ1TnJqU1JEaEFPZVhZSGRHUTloXzNaQUhIenR0UDJWN1JqUGlqczc0OUs1WUVUTHk5TGg1cDJ3QzZvUTVQVkVublozLVdIVC1HaWpDejV3bkZzOGYybF9PMTFCLVo2eUpwZ09ZeVFWQmdSYlo5LTdjNGsxeGV5WC1reC0tUVdKWGdseHFKdVBXSU5HT3pvNmxFallkTjlpOWpxRWs1WThqYWFLdmQwbWp6NTZKa0NNVXpjV1RzaXpNeUI2VVFFNXJNemF1aTQ2V3g5TFdzWFRuRXlNUlh4eGZsbV9lWTF3WjBKZXlDQkNaZHZpa1dKT0dfQ21NeW9iU2kzcDU0Sk5KQTdvQTNsUmVpQWwyNjBSckhfd1BmZTRDZXVmMVpPMWFMM055UHA1QlE0TzZSeTd4R3dmUjBFZUo3ekZiaTdmZktqcW5lN3J3ZEk2a2hYWnZnSUIxMnFtd2tDd1JVcTVTeElUamZRdFZMMHAwY3JlZDdhazlvSWh5MVJfdTFPS0FhR3hzN0tLX3gyTTBvQlhaYzFWd09YbDI0RjJwcWZnaGs4S2lJOFNSOW5UU2VybTNxTTZJb1pEZ3pCdHZoZDZsMDlJVnNjVWVxWnVoWUdRYlI0TEVSUzBWQ29iM3lHa21WMEJfWlMyRDItc9IBrARBVV95cUxQZ285T0dkb0tLTHNiS2pZenJHODk0VmtGMEV5OExPR1QyZU1tWHNjamgwcXlQbFJlR0ljaUtwYnFVaV9RRFZLeGdocm9ZWW02d2hQY2g3WGlIVkpNVUJnVkMydWx3U3cyZWdIaXdDNk9BR2poOVhxOUFIM3Bfb2F5TWZZaHlicUxUbnY4RC00cWZhNW93czRfY0lVeTBhbkFlVGFTa194akRJazhDWjRBTDhrWnc3cHRpb3A1WGRTbjB1UHJGOGgwcGRSYnFCRE1yWDJ4MjZtTG9ZZFBUcEh2ZlNtbXEzOVBJOTZndXlsaWFTdUNUZjNfcHFVcDNWUXJXRHN5VnQ3dHVhcWhJd2RXblNRYkpQVmNwSkYxQ05oTTdmU1pwbzZTNGFYa2xkbVpna0d6elhQTnBfVnJfR0RnbVdFZ3d1amRkWHd4TWVxRGxBQ0dRQVFjMjdSVDVtcXJRYkRhdjV0UF9VRERYM1J3TGdTWDU0MFZ5UW5nZGtneFJNSDZ3VDVXQzhxZEJVTGk2bWtlOTd0czhkNk5IeGRxdkFiVTRXblhnYjJLZVBrQVNyLVVfNFJPY3U4VzRENndOSTVyeHZ5TTBvRU1qVHFraEp0VHo4SXVpZ3hVcWNyaUhQSTlfOV9NdURJa0Z3WTlnZDBiR2FXUWRVbXZFblV6cTRGQm1LdVJ2UFFISmdwRUduM1dTY1EwWDlEOTI0UWNJMmtpSkM1TE14aTlX?oc=5",
-        "source": "Bangla Tribune",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 16:47:02 GMT",
-        "summary": "বিয়ের খাবার খেয়ে বর-কনেসহ ৬০ জন অসুস্থ, একজনের মৃত্যু &nbsp;&nbsp; Bangla Tribune",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.banglatribune.com/country/dhaka/980946/%E0%A6%AC%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%96%E0%A7%87%E0%A7%9F%E0%A7%87-%E0%A6%AC%E0%A6%B0-%E0%A6%95%E0%A6%A8%E0%A7%87%E0%A6%B8%E0%A6%B9-%E0%A7%AC%E0%A7%A6-%E0%A6%9C%E0%A6%A8-%E0%A6%85%E0%A6%B8%E0%A7%81%E0%A6%B8%E0%A7%8D%E0%A6%A5-%E0%A6%8F%E0%A6%95%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0",
-        "imageAttemptedAt": "2026-11-14T17:18:51.509Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9vWWdEd29kblN3SFZwTFh1QjJEZzdjTFVCSV9lR2JyclNDTWZmNnJnSmw4dzMzQm5HUzB3UFY1d2I1cWFkLUNuT0Zn?oc=5",
-        "title": "কক্সবাজারে অস্বাস্থ্যকর খাবার বিক্রির দায়ে দুই প্রতিষ্ঠানকে ৬ লাখ টাকা জরিমানা",
-        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9vWWdEd29kblN3SFZwTFh1QjJEZzdjTFVCSV9lR2JyclNDTWZmNnJnSmw4dzMzQm5HUzB3UFY1d2I1cWFkLUNuT0Zn?oc=5",
-        "source": "dbcnews.tv",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 17:11:18 GMT",
-        "summary": "কক্সবাজারে অস্বাস্থ্যকর খাবার বিক্রির দায়ে দুই প্রতিষ্ঠানকে ৬ লাখ টাকা জরিমানা &nbsp;&nbsp; dbcnews.tv",
-        "image": "https://assets.dbcnews.tv/172699/WhatsApp-Image-2026-11-14-at-9.30.40-PM.webp",
-        "articleUrl": "https://dbcnews.tv/articles/181476",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVUVVRnpGOG44RGtYWF9BTDdYencxbzUtNjEwb2VPR2tMV0FmQVpVV2hVNU4wUVQwX3lJck1KRUE0b1Mtdm5iVVdxSzM3VmVMNUNSaXVlLWdscmJOZ3VVS29kWjJlRjJmVVR0NTdWWWhXRVdjYmpnZFVCNm1sajl4Z3k4bmFiekMySFpVMk5ja00wSlp6SElKdmNNYzBKSXRyNnk1VHBybk1FZ0dGTVFHanNLcm9LZlh5dE1zcVdsYVdhVVQtLXlfa9IBzgFBVV95cUxNQ2lkd0g5SDF2SXV4ZzV0dnRUUDRCaHRGalpIclhZa21wLXhaWUVCT3J3bTlrNTltLVkzdGt6WHVPT2R4eVRKeVFqMmFNWTlUVTBNVUEwT05IdlA1ZWVvVlRaeWNMU1htQ3FibTRnV0RnVzFkdWdkLUhIUXBEUGR4Vi00MmxhUjY3ZThseGZnQWs0TXpNckRaZWk3SWpWWmRxRUNOV0pRV29TM2tJa0NlNTJNa3otUDZSXzV5UWM0Yzg5SUVNNlZaUzg5ZGkydw?oc=5",
-        "title": "ভাত ফোটার সময় তাতে মিশিয়ে দিন কয়েক ফোঁটা লেবুর রস! উপকার জানলে অবাক হবেন",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVUVVRnpGOG44RGtYWF9BTDdYencxbzUtNjEwb2VPR2tMV0FmQVpVV2hVNU4wUVQwX3lJck1KRUE0b1Mtdm5iVVdxSzM3VmVMNUNSaXVlLWdscmJOZ3VVS29kWjJlRjJmVVR0NTdWWWhXRVdjYmpnZFVCNm1sajl4Z3k4bmFiekMySFpVMk5ja00wSlp6SElKdmNNYzBKSXRyNnk1VHBybk1FZ0dGTVFHanNLcm9LZlh5dE1zcVdsYVdhVVQtLXlfa9IBzgFBVV95cUxNQ2lkd0g5SDF2SXV4ZzV0dnRUUDRCaHRGalpIclhZa21wLXhaWUVCT3J3bTlrNTltLVkzdGt6WHVPT2R4eVRKeVFqMmFNWTlUVTBNVUEwT05IdlA1ZWVvVlRaeWNMU1htQ3FibTRnV0RnVzFkdWdkLUhIUXBEUGR4Vi00MmxhUjY3ZThseGZnQWs0TXpNckRaZWk3SWpWWmRxRUNOV0pRV29TM2tJa0NlNTJNa3otUDZSXzV5UWM0Yzg5SUVNNlZaUzg5ZGkydw?oc=5",
-        "source": "Anandabazar Patrika",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 14:37:22 GMT",
-        "summary": "ভাত ফোটার সময় তাতে মিশিয়ে দিন কয়েক ফোঁটা লেবুর রস! উপকার জানলে অবাক হবেন &nbsp;&nbsp; Anandabazar Patrika",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.anandabazar.com/lifestyle/add-a-few-drops-of-lemon-while-cooking-rice-the-benefits-will-surprise-you-dgtl/cid/1726393",
-        "imageAttemptedAt": "2026-11-14T15:12:30.491Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMinwVBVV95cUxOZVNacWI2Qmx0NzdPZWRfQ0VrVFJKZ0UzQzhQd0Y4bzV4MHlYOHhtUk1uMnIzd1o3ZmhYSzBneVBBbE1Tcm5GcnVyelh6S3FNSGV4cU8tMi1QUVJ3SFA1MHkxQ0hpc3pyUWVQY3lueWEzZ0FyZHJVd1pGNlRTVHhBcFN5VkpmZzl3SURFUjgyQ2w5R29aUnR6eGhLVFQ2dVRqbnB3djNkRldCd3RwNWhkWjVMRDRmNWZ2dVl2T0pTSEFVZW01djlrZ0p4YWk5NU1wTXJoZEJZSmo5UnJaOE1SUnlUR0Ezc0ttQnlsVTVIUzZobVBKNWxiNUpyLTJHM05lX2hPam5IY2MteG16UmphZ3hRR1MwMEZpU0NWVDV2MEFidHdsOFZxbGxEeEpUQ0JsRW5MNk85aWZrdWN6dTZjOWd6MzhLTFpPbjBFMDZnalZiRTdBdzcxY3dDZmtzeGR1WUVEQUpoRkkwLW5RNmNSMEEtMWdJc0xxSHAwY0w3M1NKTVRILTJHRmVDejQ1Q0QxQUJZRE1WR3o5ZHFkUWJ6Q0kyaDVqWFhhLXhIS2NpZnAtVHloX21VTmlyZEVyTk1IQVRQX3B3dTg1QTJ3cVVSanJEMFNsTktKYlBSQVE1aHJEVFJVbnM0R21hWWdjaG1udWZzc25qd0J0Z1h6QUZGNDdCTWlRTnBoamJjNzRWdlN2SmpsbnNVbTlVV2NKcVlOYW51Tmo0RXQ3ZVZlQUxFS1JsZ3FsSFQtbzJpdXFobFhtSnpWaGp2LXRBbGZsZ3o5R3M4Vm15Y2FZTVpvWTFYYnBlaUlDNldRNVY2TGw2M1NhbC01ZmQwRUZ4SFFjNVhFYVBUemY0M19xNE44Q1lLMlBnd2dld3F6emFIRl9wYw?oc=5",
-        "title": "নিরাপদ খাবার পৌঁছে দেওয়াও সরকারের দায়িত্ব: খাদ্যমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMinwVBVV95cUxOZVNacWI2Qmx0NzdPZWRfQ0VrVFJKZ0UzQzhQd0Y4bzV4MHlYOHhtUk1uMnIzd1o3ZmhYSzBneVBBbE1Tcm5GcnVyelh6S3FNSGV4cU8tMi1QUVJ3SFA1MHkxQ0hpc3pyUWVQY3lueWEzZ0FyZHJVd1pGNlRTVHhBcFN5VkpmZzl3SURFUjgyQ2w5R29aUnR6eGhLVFQ2dVRqbnB3djNkRldCd3RwNWhkWjVMRDRmNWZ2dVl2T0pTSEFVZW01djlrZ0p4YWk5NU1wTXJoZEJZSmo5UnJaOE1SUnlUR0Ezc0ttQnlsVTVIUzZobVBKNWxiNUpyLTJHM05lX2hPam5IY2MteG16UmphZ3hRR1MwMEZpU0NWVDV2MEFidHdsOFZxbGxEeEpUQ0JsRW5MNk85aWZrdWN6dTZjOWd6MzhLTFpPbjBFMDZnalZiRTdBdzcxY3dDZmtzeGR1WUVEQUpoRkkwLW5RNmNSMEEtMWdJc0xxSHAwY0w3M1NKTVRILTJHRmVDejQ1Q0QxQUJZRE1WR3o5ZHFkUWJ6Q0kyaDVqWFhhLXhIS2NpZnAtVHloX21VTmlyZEVyTk1IQVRQX3B3dTg1QTJ3cVVSanJEMFNsTktKYlBSQVE1aHJEVFJVbnM0R21hWWdjaG1udWZzc25qd0J0Z1h6QUZGNDdCTWlRTnBoamJjNzRWdlN2SmpsbnNVbTlVV2NKcVlOYW51Tmo0RXQ3ZVZlQUxFS1JsZ3FsSFQtbzJpdXFobFhtSnpWaGp2LXRBbGZsZ3o5R3M4Vm15Y2FZTVpvWTFYYnBlaUlDNldRNVY2TGw2M1NhbC01ZmQwRUZ4SFFjNVhFYVBUemY0M19xNE44Q1lLMlBnd2dld3F6emFIRl9wYw?oc=5",
-        "source": "বাংলাদেশ টাইমস",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 17:11:00 GMT",
-        "summary": "নিরাপদ খাবার পৌঁছে দেওয়াও সরকারের দায়িত্ব: খাদ্যমন্ত্রী &nbsp;&nbsp; বাংলাদেশ টাইমস",
-        "image": "https://asset.bangladeshtimes.com/resize?width=1600&quality=90&path=/news/2026/Nov/14/1794676266861.jpg",
-        "articleUrl": "https://bangladeshtimes.com/details/194291/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A6-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8C%E0%A6%81%E0%A6%9B%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%93-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC:-%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBMTWxMalBtbDdqQ25IeTZxTjdQa1dFWVhGNnVXNmpRNThsM2RRbUFOY1drQ2w2ZVJXaVhnbWZOdmFGQ1NKQ3VCaXVpaThsdzN5dk8yY3Qzb3NneXNjanlQVGR4anl2WXM?oc=5",
-        "title": "দেশে খাদ্যের কোনো অভাব হতে দেব না: খাদ্যমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBMTWxMalBtbDdqQ25IeTZxTjdQa1dFWVhGNnVXNmpRNThsM2RRbUFOY1drQ2w2ZVJXaVhnbWZOdmFGQ1NKQ3VCaXVpaThsdzN5dk8yY3Qzb3NneXNjanlQVGR4anl2WXM?oc=5",
-        "source": "bdnews24.com",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 16:02:00 GMT",
-        "summary": "দেশে খাদ্যের কোনো অভাব হতে দেব না: খাদ্যমন্ত্রী &nbsp;&nbsp; bdnews24.com",
-        "image": "https://media.assettype.com/bdnews24/2026-11-14/bfb1vv33/manikganj-food-minister-141126-01.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=https%3A%2F%2Fmedia.assettype.com%2Fbdnews24%2F2024-03%2Fbd25ee42-9003-4385-9b0a-c68a56ac9b0a%2Fbdnews24_1200_temp_12032024.jpg&overlay_position=bottom&overlay_width=100",
-        "articleUrl": "https://bangla.bdnews24.com/samagrabangladesh/nt7r0ko1yi",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JblJRTS03TWdfNEdBMzJwbDJ4SzIzX0VoVEJjV1lZSVEya21nbXVBRFlBTjBlQ2N3RmNnM1lvRVZ3MVpZcEI2T05kc3Y0cGxFWmNkR3VyWWpJRmtTUDBpb01tRzFXcWFv0gF2QVVfeXFMTzRTUFlmQl92STFzY0xjZnFHZDFleTdORF9fTnd4SElWXzU5X09PWmZKd1JSTlBjQzNxYTB3QVQwaWowYXBhU1c1Z1ZSaldnNU5tMVI0NC13R1lBOXhUY2FQeWJrMEZtTWVsZmJNM2pzb2hNSzZ5dw?oc=5",
-        "title": "ঠাকুরগাঁওয়ে রান্না মাংস বিক্রি হয় ওজনে, ২৫০ গ্রামও পাওয়া যায়",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JblJRTS03TWdfNEdBMzJwbDJ4SzIzX0VoVEJjV1lZSVEya21nbXVBRFlBTjBlQ2N3RmNnM1lvRVZ3MVpZcEI2T05kc3Y0cGxFWmNkR3VyWWpJRmtTUDBpb01tRzFXcWFv0gF2QVVfeXFMTzRTUFlmQl92STFzY0xjZnFHZDFleTdORF9fTnd4SElWXzU5X09PWmZKd1JSTlBjQzNxYTB3QVQwaWowYXBhU1c1Z1ZSaldnNU5tMVI0NC13R1lBOXhUY2FQeWJrMEZtTWVsZmJNM2pzb2hNSzZ5dw?oc=5",
-        "source": "প্রথম আলো",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 03:30:00 GMT",
-        "summary": "ঠাকুরগাঁওয়ে রান্না মাংস বিক্রি হয় ওজনে, ২৫০ গ্রামও পাওয়া যায় &nbsp;&nbsp; প্রথম আলো",
-        "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2F5bl6jbwu%2Fthakurgaonbief-1.jpg?rect=0%2C0%2C3840%2C2160&w=1200&ar=16%3A9&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
-        "articleUrl": "https://www.prothomalo.com/bangladesh/district/k5ok1xqcve",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTm5VcDU4WDd4OUpLY0dNY1Q0Z3dlNUsyMmhha05UMnJPZ2RYa2hqMmJRU2ZJdWp5SmdDZVY5MUcxeVZPY21ONk9Bb1lXMExlbTB5aGh3NGh5MW1BRklZdWZrYXBUU3FNXzV0bWxXcUF3eEJsNUM3MkdBY2hXN210YmhuVU5vazA3TVVfS0E2VlMxbEtKdURNNy1hUHBmOWRXRjdwZlVObXNkSDh3YkZUVktmWWRsU3ZmVGJhZC1MdXF0Z9IBxwFBVV95cUxNTk95cW0tcm5fWXFUdHdWYjB5OTZWYjlDbThyMkRvcE5HZFZ6eGtWcWkyVGduUjRkb1JzU1J1eURMWHU4d1h5SHk4MVZHS1BmSGYtQzgzZG5xR0hkMlUzSTQ3akdManFhMXlFLWEzR3AzX0M3RThrTWVVNGpoMWVUd2lCLWJkbXdNblFPUndsMnU1ZWpZdjJCS2psTWdrejNhaUxRYWh2TWQxcnpyOVR3ODdNWkJpdXlhbFQ2bVhpb2dKWDdaYkJR?oc=5",
-        "title": "Food Safety Department: ‘বিরিয়ানিতে কী মেশাও? এটা কী আলু?’,খাবারের দোকানে হানা দিতেই যা...",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTm5VcDU4WDd4OUpLY0dNY1Q0Z3dlNUsyMmhha05UMnJPZ2RYa2hqMmJRU2ZJdWp5SmdDZVY5MUcxeVZPY21ONk9Bb1lXMExlbTB5aGh3NGh5MW1BRklZdWZrYXBUU3FNXzV0bWxXcUF3eEJsNUM3MkdBY2hXN210YmhuVU5vazA3TVVfS0E2VlMxbEtKdURNNy1hUHBmOWRXRjdwZlVObXNkSDh3YkZUVktmWWRsU3ZmVGJhZC1MdXF0Z9IBxwFBVV95cUxNTk95cW0tcm5fWXFUdHdWYjB5OTZWYjlDbThyMkRvcE5HZFZ6eGtWcWkyVGduUjRkb1JzU1J1eURMWHU4d1h5SHk4MVZHS1BmSGYtQzgzZG5xR0hkMlUzSTQ3akdManFhMXlFLWEzR3AzX0M3RThrTWVVNGpoMWVUd2lCLWJkbXdNblFPUndsMnU1ZWpZdjJCS2psTWdrejNhaUxRYWh2TWQxcnpyOVR3ODdNWkJpdXlhbFQ2bVhpb2dKWDdaYkJR?oc=5",
-        "source": "TV9 Bangla",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 15:27:56 GMT",
-        "summary": "Food Safety Department: ‘বিরিয়ানিতে কী মেশাও? এটা কী আলু?’,খাবারের দোকানে হানা দিতেই যা... &nbsp;&nbsp; TV9 Bangla",
-        "image": "https://images.tv9bangla.com/wp-content/uploads/2026/11/durgapur-24.jpg",
-        "articleUrl": "https://tv9bangla.com/west-bengal/paschim-bardhaman/food-safety-department-recover-expired-things-from-durgapur-1360768.html",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1yUjlJLUtoek1rZ3F0aWxQbE9ISEd1QjVGS2pWLXFrN0VwRlRIM3F1RllYdEhQWlI5c2VWRVo2Y0pZQ1hzVUdLb3JmNDhIbURvODBGV0NhZ21URnJEV3gzVTJEU1RhZzZFRUFlQW5CWVRpNV8w?oc=5",
-        "title": "বিয়ের খাবার খেয়ে পল্লী চিকিৎসকের মৃত্যু, বর-কনেসহ অসুস্থ শতাধিক",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1yUjlJLUtoek1rZ3F0aWxQbE9ISEd1QjVGS2pWLXFrN0VwRlRIM3F1RllYdEhQWlI5c2VWRVo2Y0pZQ1hzVUdLb3JmNDhIbURvODBGV0NhZ21URnJEV3gzVTJEU1RhZzZFRUFlQW5CWVRpNV8w?oc=5",
-        "source": "কালের কণ্ঠ",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 19:27:12 GMT",
-        "summary": "বিয়ের খাবার খেয়ে পল্লী চিকিৎসকের মৃত্যু, বর-কনেসহ অসুস্থ শতাধিক &nbsp;&nbsp; কালের কণ্ঠ",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.kalerkantho.com/online/country-news/2026/11/15/1767732",
-        "imageAttemptedAt": "2026-11-14T23:10:35.240Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9yV1dIdXByXzVuVnFxRGNiZTJfRWVPTUZkR00tRmxEMFpDcHBJQ3pPaXpaOFNZUTBMMHVUdDlCYjhlZzFJb1pwVXBR?oc=5",
-        "title": "দে‌শে কোন খা‌দ্যের অভাব থাক‌বে না: সাটু‌রিয়ায় খাদ‌্য মন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9yV1dIdXByXzVuVnFxRGNiZTJfRWVPTUZkR00tRmxEMFpDcHBJQ3pPaXpaOFNZUTBMMHVUdDlCYjhlZzFJb1pwVXBR?oc=5",
-        "source": "প্রতিদিনের কাগজ",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 12:24:00 GMT",
-        "summary": "দে‌শে কোন খা‌দ্যের অভাব থাক‌বে না: সাটু‌রিয়ায় খাদ‌্য মন্ত্রী &nbsp;&nbsp; প্রতিদিনের কাগজ",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://pkagoj.com/articles/638312",
-        "imageAttemptedAt": "2026-11-14T22:29:52.166Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      }
-    ],
     "bangladesh": [
       {
         "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSzZ5TFFqNkUtcWF0MXc3aXRsdnRDbkpNR2xTMXJIeTdzbVZtZGpRd2hSd3VlREllUHN6VEdwZHkwakNxUnphWHRnUzRtZFJGSzF5eTFQOGw3TUdVQm1DSldwOGRqRGJIeVNCVzZDaTllR0hUUUJqMUx5STRQRFcxY3VsQVhZejdKd1g00gGQAUFVX3lxTE1heF9XUVBNQy1ubEdXWkJGbV9lMm92a3dNVW00R1FiUWNKeUJGM3dFWDNBcExncXF3Um5RZGJHRXFhZm5lZVV3TFpBN2NDTzBWNEpCYzA4aHpnN3gyaEhZckdZVEJJZWlwU3hDUmZTcGUzNkVLaEdIMEplV2Y4VzNHMzMydjlBT0pLTDFYUjVMLQ?oc=5",
@@ -968,16 +836,148 @@
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       }
+    ],
+    "food": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBFbW5PUVNlM1Q3RlV5N1hSam14SVlLTk9hbDFla3pWblF1MmJXSTNSR0hsNVVKeTJ5ZTNIbFl0a3lWSXZRQzcyNkpBTF8zZTNXeEtJdDhHeUo?oc=5",
+        "title": "দেশে খাদ্যের কোনো ঘাটতি হতে দেব না: খাদ্যমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBFbW5PUVNlM1Q3RlV5N1hSam14SVlLTk9hbDFla3pWblF1MmJXSTNSR0hsNVVKeTJ5ZTNIbFl0a3lWSXZRQzcyNkpBTF8zZTNXeEtJdDhHeUo?oc=5",
+        "source": "bvnews24",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 15:10:00 GMT",
+        "summary": "দেশে খাদ্যের কোনো ঘাটতি হতে দেব না: খাদ্যমন্ত্রী &nbsp;&nbsp; bvnews24",
+        "image": "https://www.bvnews24.com/media/imgAll/2026October/mita-2611141510.png",
+        "articleUrl": "https://www.bvnews24.com/national/news/221790",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMipwRBVV95cUxOZU9YODY0cWdWNmVVanRZNm9Lc1JmV1dFaDdGSEluV05pM3BrZWpwMEp2QVZLT1VMWUpKYkJ1TnJqU1JEaEFPZVhZSGRHUTloXzNaQUhIenR0UDJWN1JqUGlqczc0OUs1WUVUTHk5TGg1cDJ3QzZvUTVQVkVublozLVdIVC1HaWpDejV3bkZzOGYybF9PMTFCLVo2eUpwZ09ZeVFWQmdSYlo5LTdjNGsxeGV5WC1reC0tUVdKWGdseHFKdVBXSU5HT3pvNmxFallkTjlpOWpxRWs1WThqYWFLdmQwbWp6NTZKa0NNVXpjV1RzaXpNeUI2VVFFNXJNemF1aTQ2V3g5TFdzWFRuRXlNUlh4eGZsbV9lWTF3WjBKZXlDQkNaZHZpa1dKT0dfQ21NeW9iU2kzcDU0Sk5KQTdvQTNsUmVpQWwyNjBSckhfd1BmZTRDZXVmMVpPMWFMM055UHA1QlE0TzZSeTd4R3dmUjBFZUo3ekZiaTdmZktqcW5lN3J3ZEk2a2hYWnZnSUIxMnFtd2tDd1JVcTVTeElUamZRdFZMMHAwY3JlZDdhazlvSWh5MVJfdTFPS0FhR3hzN0tLX3gyTTBvQlhaYzFWd09YbDI0RjJwcWZnaGs4S2lJOFNSOW5UU2VybTNxTTZJb1pEZ3pCdHZoZDZsMDlJVnNjVWVxWnVoWUdRYlI0TEVSUzBWQ29iM3lHa21WMEJfWlMyRDItc9IBrARBVV95cUxQZ285T0dkb0tLTHNiS2pZenJHODk0VmtGMEV5OExPR1QyZU1tWHNjamgwcXlQbFJlR0ljaUtwYnFVaV9RRFZLeGdocm9ZWW02d2hQY2g3WGlIVkpNVUJnVkMydWx3U3cyZWdIaXdDNk9BR2poOVhxOUFIM3Bfb2F5TWZZaHlicUxUbnY4RC00cWZhNW93czRfY0lVeTBhbkFlVGFTa194akRJazhDWjRBTDhrWnc3cHRpb3A1WGRTbjB1UHJGOGgwcGRSYnFCRE1yWDJ4MjZtTG9ZZFBUcEh2ZlNtbXEzOVBJOTZndXlsaWFTdUNUZjNfcHFVcDNWUXJXRHN5VnQ3dHVhcWhJd2RXblNRYkpQVmNwSkYxQ05oTTdmU1pwbzZTNGFYa2xkbVpna0d6elhQTnBfVnJfR0RnbVdFZ3d1amRkWHd4TWVxRGxBQ0dRQVFjMjdSVDVtcXJRYkRhdjV0UF9VRERYM1J3TGdTWDU0MFZ5UW5nZGtneFJNSDZ3VDVXQzhxZEJVTGk2bWtlOTd0czhkNk5IeGRxdkFiVTRXblhnYjJLZVBrQVNyLVVfNFJPY3U4VzRENndOSTVyeHZ5TTBvRU1qVHFraEp0VHo4SXVpZ3hVcWNyaUhQSTlfOV9NdURJa0Z3WTlnZDBiR2FXUWRVbXZFblV6cTRGQm1LdVJ2UFFISmdwRUduM1dTY1EwWDlEOTI0UWNJMmtpSkM1TE14aTlX?oc=5",
+        "title": "বিয়ের খাবার খেয়ে বর-কনেসহ ৬০ জন অসুস্থ, একজনের মৃত্যু",
+        "link": "https://news.google.com/rss/articles/CBMipwRBVV95cUxOZU9YODY0cWdWNmVVanRZNm9Lc1JmV1dFaDdGSEluV05pM3BrZWpwMEp2QVZLT1VMWUpKYkJ1TnJqU1JEaEFPZVhZSGRHUTloXzNaQUhIenR0UDJWN1JqUGlqczc0OUs1WUVUTHk5TGg1cDJ3QzZvUTVQVkVublozLVdIVC1HaWpDejV3bkZzOGYybF9PMTFCLVo2eUpwZ09ZeVFWQmdSYlo5LTdjNGsxeGV5WC1reC0tUVdKWGdseHFKdVBXSU5HT3pvNmxFallkTjlpOWpxRWs1WThqYWFLdmQwbWp6NTZKa0NNVXpjV1RzaXpNeUI2VVFFNXJNemF1aTQ2V3g5TFdzWFRuRXlNUlh4eGZsbV9lWTF3WjBKZXlDQkNaZHZpa1dKT0dfQ21NeW9iU2kzcDU0Sk5KQTdvQTNsUmVpQWwyNjBSckhfd1BmZTRDZXVmMVpPMWFMM055UHA1QlE0TzZSeTd4R3dmUjBFZUo3ekZiaTdmZktqcW5lN3J3ZEk2a2hYWnZnSUIxMnFtd2tDd1JVcTVTeElUamZRdFZMMHAwY3JlZDdhazlvSWh5MVJfdTFPS0FhR3hzN0tLX3gyTTBvQlhaYzFWd09YbDI0RjJwcWZnaGs4S2lJOFNSOW5UU2VybTNxTTZJb1pEZ3pCdHZoZDZsMDlJVnNjVWVxWnVoWUdRYlI0TEVSUzBWQ29iM3lHa21WMEJfWlMyRDItc9IBrARBVV95cUxQZ285T0dkb0tLTHNiS2pZenJHODk0VmtGMEV5OExPR1QyZU1tWHNjamgwcXlQbFJlR0ljaUtwYnFVaV9RRFZLeGdocm9ZWW02d2hQY2g3WGlIVkpNVUJnVkMydWx3U3cyZWdIaXdDNk9BR2poOVhxOUFIM3Bfb2F5TWZZaHlicUxUbnY4RC00cWZhNW93czRfY0lVeTBhbkFlVGFTa194akRJazhDWjRBTDhrWnc3cHRpb3A1WGRTbjB1UHJGOGgwcGRSYnFCRE1yWDJ4MjZtTG9ZZFBUcEh2ZlNtbXEzOVBJOTZndXlsaWFTdUNUZjNfcHFVcDNWUXJXRHN5VnQ3dHVhcWhJd2RXblNRYkpQVmNwSkYxQ05oTTdmU1pwbzZTNGFYa2xkbVpna0d6elhQTnBfVnJfR0RnbVdFZ3d1amRkWHd4TWVxRGxBQ0dRQVFjMjdSVDVtcXJRYkRhdjV0UF9VRERYM1J3TGdTWDU0MFZ5UW5nZGtneFJNSDZ3VDVXQzhxZEJVTGk2bWtlOTd0czhkNk5IeGRxdkFiVTRXblhnYjJLZVBrQVNyLVVfNFJPY3U4VzRENndOSTVyeHZ5TTBvRU1qVHFraEp0VHo4SXVpZ3hVcWNyaUhQSTlfOV9NdURJa0Z3WTlnZDBiR2FXUWRVbXZFblV6cTRGQm1LdVJ2UFFISmdwRUduM1dTY1EwWDlEOTI0UWNJMmtpSkM1TE14aTlX?oc=5",
+        "source": "Bangla Tribune",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 16:47:02 GMT",
+        "summary": "বিয়ের খাবার খেয়ে বর-কনেসহ ৬০ জন অসুস্থ, একজনের মৃত্যু &nbsp;&nbsp; Bangla Tribune",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.banglatribune.com/country/dhaka/980946/%E0%A6%AC%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%96%E0%A7%87%E0%A7%9F%E0%A7%87-%E0%A6%AC%E0%A6%B0-%E0%A6%95%E0%A6%A8%E0%A7%87%E0%A6%B8%E0%A6%B9-%E0%A7%AC%E0%A7%A6-%E0%A6%9C%E0%A6%A8-%E0%A6%85%E0%A6%B8%E0%A7%81%E0%A6%B8%E0%A7%8D%E0%A6%A5-%E0%A6%8F%E0%A6%95%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0",
+        "imageAttemptedAt": "2026-11-14T17:18:51.509Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9vWWdEd29kblN3SFZwTFh1QjJEZzdjTFVCSV9lR2JyclNDTWZmNnJnSmw4dzMzQm5HUzB3UFY1d2I1cWFkLUNuT0Zn?oc=5",
+        "title": "কক্সবাজারে অস্বাস্থ্যকর খাবার বিক্রির দায়ে দুই প্রতিষ্ঠানকে ৬ লাখ টাকা জরিমানা",
+        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9vWWdEd29kblN3SFZwTFh1QjJEZzdjTFVCSV9lR2JyclNDTWZmNnJnSmw4dzMzQm5HUzB3UFY1d2I1cWFkLUNuT0Zn?oc=5",
+        "source": "dbcnews.tv",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 17:11:18 GMT",
+        "summary": "কক্সবাজারে অস্বাস্থ্যকর খাবার বিক্রির দায়ে দুই প্রতিষ্ঠানকে ৬ লাখ টাকা জরিমানা &nbsp;&nbsp; dbcnews.tv",
+        "image": "https://assets.dbcnews.tv/172699/WhatsApp-Image-2026-11-14-at-9.30.40-PM.webp",
+        "articleUrl": "https://dbcnews.tv/articles/181476",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMinwVBVV95cUxOZVNacWI2Qmx0NzdPZWRfQ0VrVFJKZ0UzQzhQd0Y4bzV4MHlYOHhtUk1uMnIzd1o3ZmhYSzBneVBBbE1Tcm5GcnVyelh6S3FNSGV4cU8tMi1QUVJ3SFA1MHkxQ0hpc3pyUWVQY3lueWEzZ0FyZHJVd1pGNlRTVHhBcFN5VkpmZzl3SURFUjgyQ2w5R29aUnR6eGhLVFQ2dVRqbnB3djNkRldCd3RwNWhkWjVMRDRmNWZ2dVl2T0pTSEFVZW01djlrZ0p4YWk5NU1wTXJoZEJZSmo5UnJaOE1SUnlUR0Ezc0ttQnlsVTVIUzZobVBKNWxiNUpyLTJHM05lX2hPam5IY2MteG16UmphZ3hRR1MwMEZpU0NWVDV2MEFidHdsOFZxbGxEeEpUQ0JsRW5MNk85aWZrdWN6dTZjOWd6MzhLTFpPbjBFMDZnalZiRTdBdzcxY3dDZmtzeGR1WUVEQUpoRkkwLW5RNmNSMEEtMWdJc0xxSHAwY0w3M1NKTVRILTJHRmVDejQ1Q0QxQUJZRE1WR3o5ZHFkUWJ6Q0kyaDVqWFhhLXhIS2NpZnAtVHloX21VTmlyZEVyTk1IQVRQX3B3dTg1QTJ3cVVSanJEMFNsTktKYlBSQVE1aHJEVFJVbnM0R21hWWdjaG1udWZzc25qd0J0Z1h6QUZGNDdCTWlRTnBoamJjNzRWdlN2SmpsbnNVbTlVV2NKcVlOYW51Tmo0RXQ3ZVZlQUxFS1JsZ3FsSFQtbzJpdXFobFhtSnpWaGp2LXRBbGZsZ3o5R3M4Vm15Y2FZTVpvWTFYYnBlaUlDNldRNVY2TGw2M1NhbC01ZmQwRUZ4SFFjNVhFYVBUemY0M19xNE44Q1lLMlBnd2dld3F6emFIRl9wYw?oc=5",
+        "title": "নিরাপদ খাবার পৌঁছে দেওয়াও সরকারের দায়িত্ব: খাদ্যমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMinwVBVV95cUxOZVNacWI2Qmx0NzdPZWRfQ0VrVFJKZ0UzQzhQd0Y4bzV4MHlYOHhtUk1uMnIzd1o3ZmhYSzBneVBBbE1Tcm5GcnVyelh6S3FNSGV4cU8tMi1QUVJ3SFA1MHkxQ0hpc3pyUWVQY3lueWEzZ0FyZHJVd1pGNlRTVHhBcFN5VkpmZzl3SURFUjgyQ2w5R29aUnR6eGhLVFQ2dVRqbnB3djNkRldCd3RwNWhkWjVMRDRmNWZ2dVl2T0pTSEFVZW01djlrZ0p4YWk5NU1wTXJoZEJZSmo5UnJaOE1SUnlUR0Ezc0ttQnlsVTVIUzZobVBKNWxiNUpyLTJHM05lX2hPam5IY2MteG16UmphZ3hRR1MwMEZpU0NWVDV2MEFidHdsOFZxbGxEeEpUQ0JsRW5MNk85aWZrdWN6dTZjOWd6MzhLTFpPbjBFMDZnalZiRTdBdzcxY3dDZmtzeGR1WUVEQUpoRkkwLW5RNmNSMEEtMWdJc0xxSHAwY0w3M1NKTVRILTJHRmVDejQ1Q0QxQUJZRE1WR3o5ZHFkUWJ6Q0kyaDVqWFhhLXhIS2NpZnAtVHloX21VTmlyZEVyTk1IQVRQX3B3dTg1QTJ3cVVSanJEMFNsTktKYlBSQVE1aHJEVFJVbnM0R21hWWdjaG1udWZzc25qd0J0Z1h6QUZGNDdCTWlRTnBoamJjNzRWdlN2SmpsbnNVbTlVV2NKcVlOYW51Tmo0RXQ3ZVZlQUxFS1JsZ3FsSFQtbzJpdXFobFhtSnpWaGp2LXRBbGZsZ3o5R3M4Vm15Y2FZTVpvWTFYYnBlaUlDNldRNVY2TGw2M1NhbC01ZmQwRUZ4SFFjNVhFYVBUemY0M19xNE44Q1lLMlBnd2dld3F6emFIRl9wYw?oc=5",
+        "source": "বাংলাদেশ টাইমস",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 17:11:00 GMT",
+        "summary": "নিরাপদ খাবার পৌঁছে দেওয়াও সরকারের দায়িত্ব: খাদ্যমন্ত্রী &nbsp;&nbsp; বাংলাদেশ টাইমস",
+        "image": "https://asset.bangladeshtimes.com/resize?width=1600&quality=90&path=/news/2026/Nov/14/1794676266861.jpg",
+        "articleUrl": "https://bangladeshtimes.com/details/194291/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A6-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8C%E0%A6%81%E0%A6%9B%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%93-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC:-%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVUVVRnpGOG44RGtYWF9BTDdYencxbzUtNjEwb2VPR2tMV0FmQVpVV2hVNU4wUVQwX3lJck1KRUE0b1Mtdm5iVVdxSzM3VmVMNUNSaXVlLWdscmJOZ3VVS29kWjJlRjJmVVR0NTdWWWhXRVdjYmpnZFVCNm1sajl4Z3k4bmFiekMySFpVMk5ja00wSlp6SElKdmNNYzBKSXRyNnk1VHBybk1FZ0dGTVFHanNLcm9LZlh5dE1zcVdsYVdhVVQtLXlfa9IBzgFBVV95cUxNQ2lkd0g5SDF2SXV4ZzV0dnRUUDRCaHRGalpIclhZa21wLXhaWUVCT3J3bTlrNTltLVkzdGt6WHVPT2R4eVRKeVFqMmFNWTlUVTBNVUEwT05IdlA1ZWVvVlRaeWNMU1htQ3FibTRnV0RnVzFkdWdkLUhIUXBEUGR4Vi00MmxhUjY3ZThseGZnQWs0TXpNckRaZWk3SWpWWmRxRUNOV0pRV29TM2tJa0NlNTJNa3otUDZSXzV5UWM0Yzg5SUVNNlZaUzg5ZGkydw?oc=5",
+        "title": "ভাত ফোটার সময় তাতে মিশিয়ে দিন কয়েক ফোঁটা লেবুর রস! উপকার জানলে অবাক হবেন",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVUVVRnpGOG44RGtYWF9BTDdYencxbzUtNjEwb2VPR2tMV0FmQVpVV2hVNU4wUVQwX3lJck1KRUE0b1Mtdm5iVVdxSzM3VmVMNUNSaXVlLWdscmJOZ3VVS29kWjJlRjJmVVR0NTdWWWhXRVdjYmpnZFVCNm1sajl4Z3k4bmFiekMySFpVMk5ja00wSlp6SElKdmNNYzBKSXRyNnk1VHBybk1FZ0dGTVFHanNLcm9LZlh5dE1zcVdsYVdhVVQtLXlfa9IBzgFBVV95cUxNQ2lkd0g5SDF2SXV4ZzV0dnRUUDRCaHRGalpIclhZa21wLXhaWUVCT3J3bTlrNTltLVkzdGt6WHVPT2R4eVRKeVFqMmFNWTlUVTBNVUEwT05IdlA1ZWVvVlRaeWNMU1htQ3FibTRnV0RnVzFkdWdkLUhIUXBEUGR4Vi00MmxhUjY3ZThseGZnQWs0TXpNckRaZWk3SWpWWmRxRUNOV0pRV29TM2tJa0NlNTJNa3otUDZSXzV5UWM0Yzg5SUVNNlZaUzg5ZGkydw?oc=5",
+        "source": "Anandabazar Patrika",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 14:37:22 GMT",
+        "summary": "ভাত ফোটার সময় তাতে মিশিয়ে দিন কয়েক ফোঁটা লেবুর রস! উপকার জানলে অবাক হবেন &nbsp;&nbsp; Anandabazar Patrika",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.anandabazar.com/lifestyle/add-a-few-drops-of-lemon-while-cooking-rice-the-benefits-will-surprise-you-dgtl/cid/1726393",
+        "imageAttemptedAt": "2026-11-14T15:12:30.491Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBMTWxMalBtbDdqQ25IeTZxTjdQa1dFWVhGNnVXNmpRNThsM2RRbUFOY1drQ2w2ZVJXaVhnbWZOdmFGQ1NKQ3VCaXVpaThsdzN5dk8yY3Qzb3NneXNjanlQVGR4anl2WXM?oc=5",
+        "title": "দেশে খাদ্যের কোনো অভাব হতে দেব না: খাদ্যমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBMTWxMalBtbDdqQ25IeTZxTjdQa1dFWVhGNnVXNmpRNThsM2RRbUFOY1drQ2w2ZVJXaVhnbWZOdmFGQ1NKQ3VCaXVpaThsdzN5dk8yY3Qzb3NneXNjanlQVGR4anl2WXM?oc=5",
+        "source": "bdnews24.com",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 16:02:00 GMT",
+        "summary": "দেশে খাদ্যের কোনো অভাব হতে দেব না: খাদ্যমন্ত্রী &nbsp;&nbsp; bdnews24.com",
+        "image": "https://media.assettype.com/bdnews24/2026-11-14/bfb1vv33/manikganj-food-minister-141126-01.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=https%3A%2F%2Fmedia.assettype.com%2Fbdnews24%2F2024-03%2Fbd25ee42-9003-4385-9b0a-c68a56ac9b0a%2Fbdnews24_1200_temp_12032024.jpg&overlay_position=bottom&overlay_width=100",
+        "articleUrl": "https://bangla.bdnews24.com/samagrabangladesh/nt7r0ko1yi",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JblJRTS03TWdfNEdBMzJwbDJ4SzIzX0VoVEJjV1lZSVEya21nbXVBRFlBTjBlQ2N3RmNnM1lvRVZ3MVpZcEI2T05kc3Y0cGxFWmNkR3VyWWpJRmtTUDBpb01tRzFXcWFv0gF2QVVfeXFMTzRTUFlmQl92STFzY0xjZnFHZDFleTdORF9fTnd4SElWXzU5X09PWmZKd1JSTlBjQzNxYTB3QVQwaWowYXBhU1c1Z1ZSaldnNU5tMVI0NC13R1lBOXhUY2FQeWJrMEZtTWVsZmJNM2pzb2hNSzZ5dw?oc=5",
+        "title": "ঠাকুরগাঁওয়ে রান্না মাংস বিক্রি হয় ওজনে, ২৫০ গ্রামও পাওয়া যায়",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JblJRTS03TWdfNEdBMzJwbDJ4SzIzX0VoVEJjV1lZSVEya21nbXVBRFlBTjBlQ2N3RmNnM1lvRVZ3MVpZcEI2T05kc3Y0cGxFWmNkR3VyWWpJRmtTUDBpb01tRzFXcWFv0gF2QVVfeXFMTzRTUFlmQl92STFzY0xjZnFHZDFleTdORF9fTnd4SElWXzU5X09PWmZKd1JSTlBjQzNxYTB3QVQwaWowYXBhU1c1Z1ZSaldnNU5tMVI0NC13R1lBOXhUY2FQeWJrMEZtTWVsZmJNM2pzb2hNSzZ5dw?oc=5",
+        "source": "প্রথম আলো",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 03:30:00 GMT",
+        "summary": "ঠাকুরগাঁওয়ে রান্না মাংস বিক্রি হয় ওজনে, ২৫০ গ্রামও পাওয়া যায় &nbsp;&nbsp; প্রথম আলো",
+        "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2F5bl6jbwu%2Fthakurgaonbief-1.jpg?rect=0%2C0%2C3840%2C2160&w=1200&ar=16%3A9&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+        "articleUrl": "https://www.prothomalo.com/bangladesh/district/k5ok1xqcve",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTm5VcDU4WDd4OUpLY0dNY1Q0Z3dlNUsyMmhha05UMnJPZ2RYa2hqMmJRU2ZJdWp5SmdDZVY5MUcxeVZPY21ONk9Bb1lXMExlbTB5aGh3NGh5MW1BRklZdWZrYXBUU3FNXzV0bWxXcUF3eEJsNUM3MkdBY2hXN210YmhuVU5vazA3TVVfS0E2VlMxbEtKdURNNy1hUHBmOWRXRjdwZlVObXNkSDh3YkZUVktmWWRsU3ZmVGJhZC1MdXF0Z9IBxwFBVV95cUxNTk95cW0tcm5fWXFUdHdWYjB5OTZWYjlDbThyMkRvcE5HZFZ6eGtWcWkyVGduUjRkb1JzU1J1eURMWHU4d1h5SHk4MVZHS1BmSGYtQzgzZG5xR0hkMlUzSTQ3akdManFhMXlFLWEzR3AzX0M3RThrTWVVNGpoMWVUd2lCLWJkbXdNblFPUndsMnU1ZWpZdjJCS2psTWdrejNhaUxRYWh2TWQxcnpyOVR3ODdNWkJpdXlhbFQ2bVhpb2dKWDdaYkJR?oc=5",
+        "title": "Food Safety Department: ‘বিরিয়ানিতে কী মেশাও? এটা কী আলু?’,খাবারের দোকানে হানা দিতেই যা...",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTm5VcDU4WDd4OUpLY0dNY1Q0Z3dlNUsyMmhha05UMnJPZ2RYa2hqMmJRU2ZJdWp5SmdDZVY5MUcxeVZPY21ONk9Bb1lXMExlbTB5aGh3NGh5MW1BRklZdWZrYXBUU3FNXzV0bWxXcUF3eEJsNUM3MkdBY2hXN210YmhuVU5vazA3TVVfS0E2VlMxbEtKdURNNy1hUHBmOWRXRjdwZlVObXNkSDh3YkZUVktmWWRsU3ZmVGJhZC1MdXF0Z9IBxwFBVV95cUxNTk95cW0tcm5fWXFUdHdWYjB5OTZWYjlDbThyMkRvcE5HZFZ6eGtWcWkyVGduUjRkb1JzU1J1eURMWHU4d1h5SHk4MVZHS1BmSGYtQzgzZG5xR0hkMlUzSTQ3akdManFhMXlFLWEzR3AzX0M3RThrTWVVNGpoMWVUd2lCLWJkbXdNblFPUndsMnU1ZWpZdjJCS2psTWdrejNhaUxRYWh2TWQxcnpyOVR3ODdNWkJpdXlhbFQ2bVhpb2dKWDdaYkJR?oc=5",
+        "source": "TV9 Bangla",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 15:27:56 GMT",
+        "summary": "Food Safety Department: ‘বিরিয়ানিতে কী মেশাও? এটা কী আলু?’,খাবারের দোকানে হানা দিতেই যা... &nbsp;&nbsp; TV9 Bangla",
+        "image": "https://images.tv9bangla.com/wp-content/uploads/2026/11/durgapur-24.jpg",
+        "articleUrl": "https://tv9bangla.com/west-bengal/paschim-bardhaman/food-safety-department-recover-expired-things-from-durgapur-1360768.html",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1yUjlJLUtoek1rZ3F0aWxQbE9ISEd1QjVGS2pWLXFrN0VwRlRIM3F1RllYdEhQWlI5c2VWRVo2Y0pZQ1hzVUdLb3JmNDhIbURvODBGV0NhZ21URnJEV3gzVTJEU1RhZzZFRUFlQW5CWVRpNV8w?oc=5",
+        "title": "বিয়ের খাবার খেয়ে পল্লী চিকিৎসকের মৃত্যু, বর-কনেসহ অসুস্থ শতাধিক",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1yUjlJLUtoek1rZ3F0aWxQbE9ISEd1QjVGS2pWLXFrN0VwRlRIM3F1RllYdEhQWlI5c2VWRVo2Y0pZQ1hzVUdLb3JmNDhIbURvODBGV0NhZ21URnJEV3gzVTJEU1RhZzZFRUFlQW5CWVRpNV8w?oc=5",
+        "source": "কালের কণ্ঠ",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 19:27:12 GMT",
+        "summary": "বিয়ের খাবার খেয়ে পল্লী চিকিৎসকের মৃত্যু, বর-কনেসহ অসুস্থ শতাধিক &nbsp;&nbsp; কালের কণ্ঠ",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.kalerkantho.com/online/country-news/2026/11/15/1767732",
+        "imageAttemptedAt": "2026-11-14T23:10:35.240Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9yV1dIdXByXzVuVnFxRGNiZTJfRWVPTUZkR00tRmxEMFpDcHBJQ3pPaXpaOFNZUTBMMHVUdDlCYjhlZzFJb1pwVXBR?oc=5",
+        "title": "দে‌শে কোন খা‌দ্যের অভাব থাক‌বে না: সাটু‌রিয়ায় খাদ‌্য মন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9yV1dIdXByXzVuVnFxRGNiZTJfRWVPTUZkR00tRmxEMFpDcHBJQ3pPaXpaOFNZUTBMMHVUdDlCYjhlZzFJb1pwVXBR?oc=5",
+        "source": "প্রতিদিনের কাগজ",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 12:24:00 GMT",
+        "summary": "দে‌শে কোন খা‌দ্যের অভাব থাক‌বে না: সাটু‌রিয়ায় খাদ‌্য মন্ত্রী &nbsp;&nbsp; প্রতিদিনের কাগজ",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://pkagoj.com/articles/638312",
+        "imageAttemptedAt": "2026-11-14T22:29:52.166Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      }
     ]
   },
   "sourceErrors": [],
   "imageStats": {
     "total": 73,
     "fromRss": 0,
-    "fromArticleMetadata": 25,
-    "reusedCached": 24,
-    "actualPhotos": 25,
-    "fallbackIllustrations": 48,
+    "fromArticleMetadata": 22,
+    "reusedCached": 22,
+    "actualPhotos": 22,
+    "fallbackIllustrations": 51,
     "withImage": 73,
     "withoutImage": 0
   }
