@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-14T22:29:41.279Z",
+  "generatedAt": "2026-11-14T23:10:33.400Z",
   "sponsors": {
     "somoy": [
       {
@@ -361,6 +361,19 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa3BwQjNjUWNfaXRzd2VyRUViYmxScGEzay1tY2tJWHhlMWhRcUxtZlFHeFY0U2d5OTBSR1dZdnlsSkdvZUdkeVJoSlcyS0dZMklkRjVPNXRJNTdMVzVrd1pKZzR2OGJ6b0gzZFU0LUtwZkN5bDVkYy05UklOeExZcmZEdUpQRHNmaThDaFNSWFlIcjhGVHJPNw?oc=5",
+        "title": "মধ্যরাতের খবর : ১৫ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa3BwQjNjUWNfaXRzd2VyRUViYmxScGEzay1tY2tJWHhlMWhRcUxtZlFHeFY0U2d5OTBSR1dZdnlsSkdvZUdkeVJoSlcyS0dZMklkRjVPNXRJNTdMVzVrd1pKZzR2OGJ6b0gzZFU0LUtwZkN5bDVkYy05UklOeExZcmZEdUpQRHNmaThDaFNSWFlIcjhGVHJPNw?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 22:36:36 GMT",
+        "summary": "মধ্যরাতের খবর : ১৫ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/moddhoraater-khobor/moddho-rater-khobor-15-november-2026",
+        "imageAttemptedAt": "2026-11-14T23:10:35.240Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeEg0M1VvT0FsREkyX3gwQWVORlIzSGhDSVFYZnUzZk5KSWcwVVh4eHJMQzE0X1JDMTBvZGhMUFBlckMxekdUcmR6RzlUMEk5S3lwT0IzYThQejJzMk12RnktQ19ZcndFbnVqNW5ZalBEUldTX05nQ0c3c0padnFBZWM1dnpBdFRFZHdaX1RGZw?oc=5",
         "title": "সন্ধ্যার খবর : ১৪ নভেম্বর ২০২৬",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeEg0M1VvT0FsREkyX3gwQWVORlIzSGhDSVFYZnUzZk5KSWcwVVh4eHJMQzE0X1JDMTBvZGhMUFBlckMxekdUcmR6RzlUMEk5S3lwT0IzYThQejJzMk12RnktQ19ZcndFbnVqNW5ZalBEUldTX05nQ0c3c0padnFBZWM1dnpBdFRFZHdaX1RGZw?oc=5",
@@ -423,19 +436,6 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.ntvbd.com/video/drama/drama-serial/kajins/kajins-ep-202",
         "imageAttemptedAt": "2026-11-14T15:53:54.351Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaU9iM2RKNnoxcThyVHM1a1BHRGYtWTViQ0VoaVF0T2pTVzh6RzBqTUx1dUl5LVBUNHhPWG5qNEszQ2ktYVhoQlg0UEp4YXRNQUFyR0FZa0VMMU85aTFha0x4Uy0yRGhKWkRGbzhUZU9GajlOV3hja1RKdFZ0M2g4RTBqLU56OEtkOXFN?oc=5",
-        "title": "বিশেষ অনুষ্ঠান : বিশ্ব ডায়াবেটিস দিবস",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaU9iM2RKNnoxcThyVHM1a1BHRGYtWTViQ0VoaVF0T2pTVzh6RzBqTUx1dUl5LVBUNHhPWG5qNEszQ2ktYVhoQlg0UEp4YXRNQUFyR0FZa0VMMU85aTFha0x4Uy0yRGhKWkRGbzhUZU9GajlOV3hja1RKdFZ0M2g4RTBqLU56OEtkOXFN?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 13:37:08 GMT",
-        "summary": "বিশেষ অনুষ্ঠান : বিশ্ব ডায়াবেটিস দিবস &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/special-programme/aristo-pharma-world-diabetes-day-2026",
-        "imageAttemptedAt": "2026-11-14T21:07:56.914Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -759,6 +759,19 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMinwVBVV95cUxOZVNacWI2Qmx0NzdPZWRfQ0VrVFJKZ0UzQzhQd0Y4bzV4MHlYOHhtUk1uMnIzd1o3ZmhYSzBneVBBbE1Tcm5GcnVyelh6S3FNSGV4cU8tMi1QUVJ3SFA1MHkxQ0hpc3pyUWVQY3lueWEzZ0FyZHJVd1pGNlRTVHhBcFN5VkpmZzl3SURFUjgyQ2w5R29aUnR6eGhLVFQ2dVRqbnB3djNkRldCd3RwNWhkWjVMRDRmNWZ2dVl2T0pTSEFVZW01djlrZ0p4YWk5NU1wTXJoZEJZSmo5UnJaOE1SUnlUR0Ezc0ttQnlsVTVIUzZobVBKNWxiNUpyLTJHM05lX2hPam5IY2MteG16UmphZ3hRR1MwMEZpU0NWVDV2MEFidHdsOFZxbGxEeEpUQ0JsRW5MNk85aWZrdWN6dTZjOWd6MzhLTFpPbjBFMDZnalZiRTdBdzcxY3dDZmtzeGR1WUVEQUpoRkkwLW5RNmNSMEEtMWdJc0xxSHAwY0w3M1NKTVRILTJHRmVDejQ1Q0QxQUJZRE1WR3o5ZHFkUWJ6Q0kyaDVqWFhhLXhIS2NpZnAtVHloX21VTmlyZEVyTk1IQVRQX3B3dTg1QTJ3cVVSanJEMFNsTktKYlBSQVE1aHJEVFJVbnM0R21hWWdjaG1udWZzc25qd0J0Z1h6QUZGNDdCTWlRTnBoamJjNzRWdlN2SmpsbnNVbTlVV2NKcVlOYW51Tmo0RXQ3ZVZlQUxFS1JsZ3FsSFQtbzJpdXFobFhtSnpWaGp2LXRBbGZsZ3o5R3M4Vm15Y2FZTVpvWTFYYnBlaUlDNldRNVY2TGw2M1NhbC01ZmQwRUZ4SFFjNVhFYVBUemY0M19xNE44Q1lLMlBnd2dld3F6emFIRl9wYw?oc=5",
+        "title": "নিরাপদ খাবার পৌঁছে দেওয়াও সরকারের দায়িত্ব: খাদ্যমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMinwVBVV95cUxOZVNacWI2Qmx0NzdPZWRfQ0VrVFJKZ0UzQzhQd0Y4bzV4MHlYOHhtUk1uMnIzd1o3ZmhYSzBneVBBbE1Tcm5GcnVyelh6S3FNSGV4cU8tMi1QUVJ3SFA1MHkxQ0hpc3pyUWVQY3lueWEzZ0FyZHJVd1pGNlRTVHhBcFN5VkpmZzl3SURFUjgyQ2w5R29aUnR6eGhLVFQ2dVRqbnB3djNkRldCd3RwNWhkWjVMRDRmNWZ2dVl2T0pTSEFVZW01djlrZ0p4YWk5NU1wTXJoZEJZSmo5UnJaOE1SUnlUR0Ezc0ttQnlsVTVIUzZobVBKNWxiNUpyLTJHM05lX2hPam5IY2MteG16UmphZ3hRR1MwMEZpU0NWVDV2MEFidHdsOFZxbGxEeEpUQ0JsRW5MNk85aWZrdWN6dTZjOWd6MzhLTFpPbjBFMDZnalZiRTdBdzcxY3dDZmtzeGR1WUVEQUpoRkkwLW5RNmNSMEEtMWdJc0xxSHAwY0w3M1NKTVRILTJHRmVDejQ1Q0QxQUJZRE1WR3o5ZHFkUWJ6Q0kyaDVqWFhhLXhIS2NpZnAtVHloX21VTmlyZEVyTk1IQVRQX3B3dTg1QTJ3cVVSanJEMFNsTktKYlBSQVE1aHJEVFJVbnM0R21hWWdjaG1udWZzc25qd0J0Z1h6QUZGNDdCTWlRTnBoamJjNzRWdlN2SmpsbnNVbTlVV2NKcVlOYW51Tmo0RXQ3ZVZlQUxFS1JsZ3FsSFQtbzJpdXFobFhtSnpWaGp2LXRBbGZsZ3o5R3M4Vm15Y2FZTVpvWTFYYnBlaUlDNldRNVY2TGw2M1NhbC01ZmQwRUZ4SFFjNVhFYVBUemY0M19xNE44Q1lLMlBnd2dld3F6emFIRl9wYw?oc=5",
+        "source": "বাংলাদেশ টাইমস",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 17:11:00 GMT",
+        "summary": "নিরাপদ খাবার পৌঁছে দেওয়াও সরকারের দায়িত্ব: খাদ্যমন্ত্রী &nbsp;&nbsp; বাংলাদেশ টাইমস",
+        "image": "https://asset.bangladeshtimes.com/resize?width=1600&quality=90&path=/news/2026/Nov/14/1794676266861.jpg",
+        "articleUrl": "https://bangladeshtimes.com/details/194291/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A6-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8C%E0%A6%81%E0%A6%9B%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%93-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC:-%E0%A6%96%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBMTWxMalBtbDdqQ25IeTZxTjdQa1dFWVhGNnVXNmpRNThsM2RRbUFOY1drQ2w2ZVJXaVhnbWZOdmFGQ1NKQ3VCaXVpaThsdzN5dk8yY3Qzb3NneXNjanlQVGR4anl2WXM?oc=5",
         "title": "দেশে খাদ্যের কোনো অভাব হতে দেব না: খাদ্যমন্ত্রী",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBMTWxMalBtbDdqQ25IeTZxTjdQa1dFWVhGNnVXNmpRNThsM2RRbUFOY1drQ2w2ZVJXaVhnbWZOdmFGQ1NKQ3VCaXVpaThsdzN5dk8yY3Qzb3NneXNjanlQVGR4anl2WXM?oc=5",
@@ -798,29 +811,16 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQcGtTdDBXbDRfdm1yUnNMc2RWeDV0N01NeG1xUnhvM3I0eFhFYXd1a2tIbTk5MXdRR2p0bllyTlBMMHFxanJCc05kWVZpMjVBX25yVkNR?oc=5",
-        "title": "নিরাপদ খাবার পৌঁছে দেওয়াও সরকারের দায়িত্ব: খাদ্যমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQcGtTdDBXbDRfdm1yUnNMc2RWeDV0N01NeG1xUnhvM3I0eFhFYXd1a2tIbTk5MXdRR2p0bllyTlBMMHFxanJCc05kWVZpMjVBX25yVkNR?oc=5",
-        "source": "কালবেলা",
+        "id": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1yUjlJLUtoek1rZ3F0aWxQbE9ISEd1QjVGS2pWLXFrN0VwRlRIM3F1RllYdEhQWlI5c2VWRVo2Y0pZQ1hzVUdLb3JmNDhIbURvODBGV0NhZ21URnJEV3gzVTJEU1RhZzZFRUFlQW5CWVRpNV8w?oc=5",
+        "title": "বিয়ের খাবার খেয়ে পল্লী চিকিৎসকের মৃত্যু, বর-কনেসহ অসুস্থ শতাধিক",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1yUjlJLUtoek1rZ3F0aWxQbE9ISEd1QjVGS2pWLXFrN0VwRlRIM3F1RllYdEhQWlI5c2VWRVo2Y0pZQ1hzVUdLb3JmNDhIbURvODBGV0NhZ21URnJEV3gzVTJEU1RhZzZFRUFlQW5CWVRpNV8w?oc=5",
+        "source": "কালের কণ্ঠ",
         "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 16:18:02 GMT",
-        "summary": "নিরাপদ খাবার পৌঁছে দেওয়াও সরকারের দায়িত্ব: খাদ্যমন্ত্রী &nbsp;&nbsp; কালবেলা",
+        "publishedAt": "Sat, 14 Nov 2026 19:27:12 GMT",
+        "summary": "বিয়ের খাবার খেয়ে পল্লী চিকিৎসকের মৃত্যু, বর-কনেসহ অসুস্থ শতাধিক &nbsp;&nbsp; কালের কণ্ঠ",
         "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.kalbela.com/country-news/349912",
-        "imageAttemptedAt": "2026-11-14T16:32:01.827Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4wUlRtNnJYQUhra3FYY0tkZGswcmoxenpKMHNTTHNlSExBN3lEcmp1YjFrdkozZFExNXJfd0VlRXpXc0NWN3UybGhBaGxRcno1TC1LTVo2RVlHZ3B4VDgtQklOaGZTRmlBUXlHSFlldWxqWjA?oc=5",
-        "title": "কিশোরগঞ্জে বিয়ের খাবার খেয়ে নবদম্পতিসহ অসুস্থ ৬০, চিকিৎসাধীন অবস্থায় পল্লিচিকিৎসকের মৃত্যু",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4wUlRtNnJYQUhra3FYY0tkZGswcmoxenpKMHNTTHNlSExBN3lEcmp1YjFrdkozZFExNXJfd0VlRXpXc0NWN3UybGhBaGxRcno1TC1LTVo2RVlHZ3B4VDgtQklOaGZTRmlBUXlHSFlldWxqWjA?oc=5",
-        "source": "Ajker Bangladesh",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 19:02:46 GMT",
-        "summary": "কিশোরগঞ্জে বিয়ের খাবার খেয়ে নবদম্পতিসহ অসুস্থ ৬০, চিকিৎসাধীন অবস্থায় পল্লিচিকিৎসকের মৃত্যু &nbsp;&nbsp; Ajker Bangladesh",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.ajkerbangladesh.com.bd/country-news/2026/11/15/219522",
-        "imageAttemptedAt": "2026-11-14T21:07:56.914Z",
+        "articleUrl": "https://www.kalerkantho.com/online/country-news/2026/11/15/1767732",
+        "imageAttemptedAt": "2026-11-14T23:10:35.240Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -974,10 +974,10 @@
   "imageStats": {
     "total": 73,
     "fromRss": 0,
-    "fromArticleMetadata": 24,
-    "reusedCached": 21,
-    "actualPhotos": 24,
-    "fallbackIllustrations": 49,
+    "fromArticleMetadata": 25,
+    "reusedCached": 24,
+    "actualPhotos": 25,
+    "fallbackIllustrations": 48,
     "withImage": 73,
     "withoutImage": 0
   }
