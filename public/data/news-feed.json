@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-14T11:51:44.180Z",
+  "generatedAt": "2026-11-14T12:38:26.457Z",
   "sponsors": {
     "somoy": [
       {
@@ -188,6 +188,138 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
+    "ntv": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1ZZjhSQjVOTUIxTFBMV3dpRkVpMW5sQUFaUkM1OVlNY3RwM2tELS1CTEQtVGUtNDIxZ2c?oc=5",
+        "title": "NTV: Latest Bangla News, Infotainment, Online & Live TV | NTV Online",
+        "link": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1ZZjhSQjVOTUIxTFBMV3dpRkVpMW5sQUFaUkM1OVlNY3RwM2tELS1CTEQtVGUtNDIxZ2c?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 21 Apr 2017 03:02:59 GMT",
+        "summary": "NTV: Latest Bangla News, Infotainment, Online & Live TV | NTV Online &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "",
+        "imageAttemptedAt": "2026-11-14T04:33:37.941Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWFk0S0psakF6MGZDU1VLMjc4d1ZkbWFDbmo2SUt5eXgwNzBhTEZ2enRQMjhYUU5mZld3YVRWdUxQdThHWml1bHJuMUl6WEFEczA2X0gwWi1DNldtZk5TY0xKUzRsc1hoV0NIUlZCMEdWdHozeUViZWRKUFVib25RMWxVVQ?oc=5",
+        "title": "স্বাস্থ্য প্রতিদিন : পর্ব ৬০৩৭",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWFk0S0psakF6MGZDU1VLMjc4d1ZkbWFDbmo2SUt5eXgwNzBhTEZ2enRQMjhYUU5mZld3YVRWdUxQdThHWml1bHJuMUl6WEFEczA2X0gwWi1DNldtZk5TY0xKUzRsc1hoV0NIUlZCMEdWdHozeUViZWRKUFVib25RMWxVVQ?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 05:10:09 GMT",
+        "summary": "স্বাস্থ্য প্রতিদিন : পর্ব ৬০৩৭ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/health/swasthyo-protidin/shastho-protidin-ep-6037",
+        "imageAttemptedAt": "2026-11-14T12:38:31.300Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSTlKYzlrRzN5VWtpSEY5OVZHVGF2YktTQkxqMF9uVENBM0VBd1k2dC0tMk9la1JGMV9nQ1UyQjAzWDlINF9EZUVscHJheXF6T0ppQ3dNOFlJV3FhaEg5M05kLXUzZTJ1UW9JT240TWx3OTN0TF9CNEtTR1E1c2FibHJndEN2LWtDMUpNQkwzYlA5QkppNWt3ZQ?oc=5",
+        "title": "মধ্যরাতের খবর : ১৪ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSTlKYzlrRzN5VWtpSEY5OVZHVGF2YktTQkxqMF9uVENBM0VBd1k2dC0tMk9la1JGMV9nQ1UyQjAzWDlINF9EZUVscHJheXF6T0ppQ3dNOFlJV3FhaEg5M05kLXUzZTJ1UW9JT240TWx3OTN0TF9CNEtTR1E1c2FibHJndEN2LWtDMUpNQkwzYlA5QkppNWt3ZQ?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 13 Nov 2026 20:04:19 GMT",
+        "summary": "মধ্যরাতের খবর : ১৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/moddhoraater-khobor/moddho-rater-khobor-14-november-2026",
+        "imageAttemptedAt": "2026-11-14T12:38:31.300Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJYk01eFFmaXN0WndEaF9vNFE0Uk55RE5FZ2MyTzg3X3cwV3EyYjBUQkU2OVp0bXVHQ0UtZGkzYXNJYnhvc3p1YlFsV2VSOWMyWlNwRXlINEREWE42bmtrSmUzNUxHc3ZPc0duTF9HQmFoUUdRdTBlNA?oc=5",
+        "title": "রাতের আড্ডা : পর্ব ৭১",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJYk01eFFmaXN0WndEaF9vNFE0Uk55RE5FZ2MyTzg3X3cwV3EyYjBUQkU2OVp0bXVHQ0UtZGkzYXNJYnhvc3p1YlFsV2VSOWMyWlNwRXlINEREWE42bmtrSmUzNUxHc3ZPc0duTF9HQmFoUUdRdTBlNA?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 13 Nov 2026 20:16:12 GMT",
+        "summary": "রাতের আড্ডা : পর্ব ৭১ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/entertainment/rater-adda/rater-adda-ep-71",
+        "imageAttemptedAt": "2026-11-14T12:38:31.300Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOG1iM0ZzcTR6blIxMlZNcE8tQ0lHallMX0tfTEpQZGtzeXdvZEdCNVc0cU9yRDA4OFFVWTlFX2xNczVKX09BT0sydDFROG4tZVc4a1R6SE1iN0hiQ3RQNDU1TlVtWm95SmgyRHJfMFo5bm16UUdLdTNmRHFlRVhYOFZrUjJmRnl6NVF2RVF3?oc=5",
+        "title": "সকালের খবর : ১৪ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOG1iM0ZzcTR6blIxMlZNcE8tQ0lHallMX0tfTEpQZGtzeXdvZEdCNVc0cU9yRDA4OFFVWTlFX2xNczVKX09BT0sydDFROG4tZVc4a1R6SE1iN0hiQ3RQNDU1TlVtWm95SmgyRHJfMFo5bm16UUdLdTNmRHFlRVhYOFZrUjJmRnl6NVF2RVF3?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 05:21:42 GMT",
+        "summary": "সকালের খবর : ১৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/shokaler-khobor/shokaler-khobor-14-november-2026",
+        "imageAttemptedAt": "2026-11-14T12:38:31.300Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTE10QUxJSGxDbi1aTmNtdzJSMHBQTG9VRm1pY2lLZUU1Q0l0WlR5UENpMVpzekNadERfeW9iM3lJckNuVm9nbDR2OUE0ZzJJWmhSZnp3RFdSUFQ0SkxiSTJOTFlNVmRNYVBCVVBDNzNaRnNkNmF2R2doNEJTTQ?oc=5",
+        "title": "কোরআনুল কারিম : পর্ব ৪৯১",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE10QUxJSGxDbi1aTmNtdzJSMHBQTG9VRm1pY2lLZUU1Q0l0WlR5UENpMVpzekNadERfeW9iM3lJckNuVm9nbDR2OUE0ZzJJWmhSZnp3RFdSUFQ0SkxiSTJOTFlNVmRNYVBCVVBDNzNaRnNkNmF2R2doNEJTTQ?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 01:54:26 GMT",
+        "summary": "কোরআনুল কারিম : পর্ব ৪৯১ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/religion/quranul-karim/quranul-karim-ep-491",
+        "imageAttemptedAt": "2026-11-14T12:38:31.300Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xRjctRUR6ekNqUWUyMERuNDdOOGc5cEpua3M3ZVlaRlpKSWlFY3dTLWdXcTA5NDAxSEthRmVXUEhVcTBVOFVxWGJhODd4d2lNWG1LSA?oc=5",
+        "title": "টানা চার দফা পতনের পর যে দামে মিলছে স্বর্ণ",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xRjctRUR6ekNqUWUyMERuNDdOOGc5cEpua3M3ZVlaRlpKSWlFY3dTLWdXcTA5NDAxSEthRmVXUEhVcTBVOFVxWGJhODd4d2lNWG1LSA?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 02:35:23 GMT",
+        "summary": "টানা চার দফা পতনের পর যে দামে মিলছে স্বর্ণ &nbsp;&nbsp; Ntvbd",
+        "image": "https://ncdn.ntvbd.com/sites/default/files/styles/social_gpi_ntv_24m/public/images/2026/11/14/afp_20200729_1vz0w3_v2_highres_uaegold.jpg",
+        "articleUrl": "https://www.ntvbd.com/economy/news-1836169",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMkpUSWF3bVZhcWs1VWN0UW9yc3VhNUxpTHFnM21HczFxTEQ1S0gxMHRuMV9hOXdHVFprQ1ptZkV3c1hZREJqczlxUkdqMDBUWTVtYW83SEtNY3JOTjBkd09RNnFkSG1xT2VUU0FqSTVZOUY4RUR6VHJDcl9BN3g2WkhXcVJhT3VYb2gw?oc=5",
+        "title": "দুপুরের খবর : ১৪ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMkpUSWF3bVZhcWs1VWN0UW9yc3VhNUxpTHFnM21HczFxTEQ1S0gxMHRuMV9hOXdHVFprQ1ptZkV3c1hZREJqczlxUkdqMDBUWTVtYW83SEtNY3JOTjBkd09RNnFkSG1xT2VUU0FqSTVZOUY4RUR6VHJDcl9BN3g2WkhXcVJhT3VYb2gw?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 09:32:33 GMT",
+        "summary": "দুপুরের খবর : ১৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/dupurer-khobor/dupurer-khobor-14-november-2026",
+        "imageAttemptedAt": "2026-11-14T10:16:07.220Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdnlwR1FsQ2M4SjJQTkUxQTZqTF9ma3F0Y3FuV3NvSHJOOEh5bllPT1lmM2VaSGNiNFN5X216R0N0R25GbFRhcmVkWGNwVkhQeVV1YWRPbGVjS2RGOVl0R3ktWWlYT2JPanZmSjl5ZWZQVU5RdGotdTlSbjBacFE1Yw?oc=5",
+        "title": "এনটিভি'র নিমন্ত্রণে : পর্ব ৪১০",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdnlwR1FsQ2M4SjJQTkUxQTZqTF9ma3F0Y3FuV3NvSHJOOEh5bllPT1lmM2VaSGNiNFN5X216R0N0R25GbFRhcmVkWGNwVkhQeVV1YWRPbGVjS2RGOVl0R3ktWWlYT2JPanZmSjl5ZWZQVU5RdGotdTlSbjBacFE1Yw?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 05:46:20 GMT",
+        "summary": "এনটিভি'র নিমন্ত্রণে : পর্ব ৪১০ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/discussion/ntv-nimontron/ntvr-nimontrone-ep-410",
+        "imageAttemptedAt": "2026-11-14T12:38:31.300Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBuSFJBSEZhX3k5VTVpeDFpZVl1TVE3eWpwemVPMUg1bEVPempKZ1g0a0JRTEFkd0NSSUdmcHc2NVIxV3hwdUlUT3YzTXhzSVh4UXhMUzRFbVU?oc=5",
+        "title": "এক সপ্তাহের সফরে যুক্তরাজ্যে পৌঁছেছেন নাহিদ ইসলাম",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBuSFJBSEZhX3k5VTVpeDFpZVl1TVE3eWpwemVPMUg1bEVPempKZ1g0a0JRTEFkd0NSSUdmcHc2NVIxV3hwdUlUT3YzTXhzSVh4UXhMUzRFbVU?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 05:17:49 GMT",
+        "summary": "এক সপ্তাহের সফরে যুক্তরাজ্যে পৌঁছেছেন নাহিদ ইসলাম &nbsp;&nbsp; Ntvbd",
+        "image": "https://ncdn.ntvbd.com/sites/default/files/styles/social_gpi_ntv_24m/public/images/2026/11/14/naahid-thaamb.jpg",
+        "articleUrl": "https://www.ntvbd.com/bangladesh/news-1836201",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      }
+    ],
     "jamuna": [
       {
         "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
@@ -216,6 +348,32 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE13c2FwRTNmV2hGUmZTc1I5NEZfdFMwa096Q0lFQnBUY3BKMmJEdEkwemJ2QXdGTlE5ZVB2ME1veUt3cVJBYWlwUFBLcHlIUQ?oc=5",
+        "title": "রাজধানীতে নাশকতার পরিকল্পনা, কার্যক্রম নিষিদ্ধ আ. লীগের ২ নেতা গ্রেফতার",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE13c2FwRTNmV2hGUmZTc1I5NEZfdFMwa096Q0lFQnBUY3BKMmJEdEkwemJ2QXdGTlE5ZVB2ME1veUt3cVJBYWlwUFBLcHlIUQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 13 Nov 2026 23:48:34 GMT",
+        "summary": "রাজধানীতে নাশকতার পরিকল্পনা, কার্যক্রম নিষিদ্ধ আ. লীগের ২ নেতা গ্রেফতার &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667930",
+        "imageAttemptedAt": "2026-11-14T12:38:31.300Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Fb3pLZXN4Z2hhRjViWDBLRVBiSklPUVY5QUxfbUppTG9PSkVvZmozX3I2SHlHamd4cWhUM3FOSm4tLTJwMXFnaXpsbkUwaUxwRmlfNA?oc=5",
+        "title": "বিশ্বের সবচেয়ে দূষিত শহর এখন দিল্লি",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Fb3pLZXN4Z2hhRjViWDBLRVBiSklPUVY5QUxfbUppTG9PSkVvZmozX3I2SHlHamd4cWhUM3FOSm4tLTJwMXFnaXpsbkUwaUxwRmlfNA?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 13 Nov 2026 14:47:32 GMT",
+        "summary": "বিশ্বের সবচেয়ে দূষিত শহর এখন দিল্লি &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/international/667925",
+        "imageAttemptedAt": "2026-11-14T12:38:31.300Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8yVEZTU3IzUkdSN3paOFlRNXlFYWFtSEpnRjk5Mm1iVDZJR1phM0JpLUdIRHpMWXRtVjJvM2ZHaVRlZWR4YUdZVVh5RWo?oc=5",
         "title": "একদিনের ব্যবধানে দেশের বাজারে আবারও কমলো স্বর্ণের দাম",
         "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8yVEZTU3IzUkdSN3paOFlRNXlFYWFtSEpnRjk5Mm1iVDZJR1phM0JpLUdIRHpMWXRtVjJvM2ZHaVRlZWR4YUdZVVh5RWo?oc=5",
@@ -239,19 +397,6 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.jamuna.tv/international/667899",
         "imageAttemptedAt": "2026-11-13T13:55:29.390Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBteGpoanV3bGV6M2gya1JWNk9LeklwUlZ0bjdGbF9ZMllPN19QUlQ2MWliLS13eFl3TnNQT0g3V3RBQ2t5Zk9LTWxfX2hLcXRPWlhINA?oc=5",
-        "title": "বাহরাইনে মার্কিন আগাম সতর্কতা রাডারে হামলার দাবি ইরানের",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBteGpoanV3bGV6M2gya1JWNk9LeklwUlZ0bjdGbF9ZMllPN19QUlQ2MWliLS13eFl3TnNQT0g3V3RBQ2t5Zk9LTWxfX2hLcXRPWlhINA?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 13 Nov 2026 04:50:44 GMT",
-        "summary": "বাহরাইনে মার্কিন আগাম সতর্কতা রাডারে হামলার দাবি ইরানের &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/international/667906",
-        "imageAttemptedAt": "2026-11-14T11:51:48.114Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -294,161 +439,16 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSXVYd3JTZ1NPR0JBNTZYa0F0UDdoVkJkcmxUeVYyRTVOWTJIa3NCU3lHejBYcEdpWG5haGJLRFo2OFlfRzBlUUFKSDJzWWJSTjFOajN3?oc=5",
-        "title": "যশোরে পৃথক দুটি আদালত প্রাঙ্গণে ককটেল বিস্ফোরণ",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSXVYd3JTZ1NPR0JBNTZYa0F0UDdoVkJkcmxUeVYyRTVOWTJIa3NCU3lHejBYcEdpWG5haGJLRFo2OFlfRzBlUUFKSDJzWWJSTjFOajN3?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBteGpoanV3bGV6M2gya1JWNk9LeklwUlZ0bjdGbF9ZMllPN19QUlQ2MWliLS13eFl3TnNQT0g3V3RBQ2t5Zk9LTWxfX2hLcXRPWlhINA?oc=5",
+        "title": "বাহরাইনে মার্কিন আগাম সতর্কতা রাডারে হামলার দাবি ইরানের",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBteGpoanV3bGV6M2gya1JWNk9LeklwUlZ0bjdGbF9ZMllPN19QUlQ2MWliLS13eFl3TnNQT0g3V3RBQ2t5Zk9LTWxfX2hLcXRPWlhINA?oc=5",
         "source": "Jamuna TV",
         "publisherUrl": "",
-        "publishedAt": "Thu, 12 Nov 2026 17:46:17 GMT",
-        "summary": "যশোরে পৃথক দুটি আদালত প্রাঙ্গণে ককটেল বিস্ফোরণ &nbsp;&nbsp; Jamuna Television",
+        "publishedAt": "Fri, 13 Nov 2026 04:50:44 GMT",
+        "summary": "বাহরাইনে মার্কিন আগাম সতর্কতা রাডারে হামলার দাবি ইরানের &nbsp;&nbsp; Jamuna Television",
         "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/all-bangladesh/667894",
-        "imageAttemptedAt": "2026-11-14T09:27:25.366Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA1azdtU2hVS213SHQwUU5mejRCSFBOT3hOVUlaMFhVbVJLdnhDUVR2ZUMxeTR2YzNOa3pKOE9YUWt6Rnc0b2tNb25vcw?oc=5",
-        "title": "এক ভাইয়ের পেনাল্টি মিস, অন্য ভাইয়ের জোড়া গোলে ফ্রান্সকে হারালো ইতালি",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA1azdtU2hVS213SHQwUU5mejRCSFBOT3hOVUlaMFhVbVJLdnhDUVR2ZUMxeTR2YzNOa3pKOE9YUWt6Rnc0b2tNb25vcw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 13 Nov 2026 00:57:02 GMT",
-        "summary": "এক ভাইয়ের পেনাল্টি মিস, অন্য ভাইয়ের জোড়া গোলে ফ্রান্সকে হারালো ইতালি &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/sports/667898",
-        "imageAttemptedAt": "2026-11-14T02:43:22.318Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      }
-    ],
-    "ntv": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1ZZjhSQjVOTUIxTFBMV3dpRkVpMW5sQUFaUkM1OVlNY3RwM2tELS1CTEQtVGUtNDIxZ2c?oc=5",
-        "title": "NTV: Latest Bangla News, Infotainment, Online & Live TV | NTV Online",
-        "link": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1ZZjhSQjVOTUIxTFBMV3dpRkVpMW5sQUFaUkM1OVlNY3RwM2tELS1CTEQtVGUtNDIxZ2c?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 21 Apr 2017 03:02:59 GMT",
-        "summary": "NTV: Latest Bangla News, Infotainment, Online & Live TV | NTV Online &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "",
-        "imageAttemptedAt": "2026-11-14T04:33:37.941Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkM2pJY2dVRFVZS1hjTVhsZXF6UjY4cFllQUhpTUJNYUFRa1dIVGhmRlZ1YTVFdFEtZXpwQV92MmtzeUs3cnB5SlJ5cEJJMWZtWTJlakJGR3JUb1VpQk9RVTZMcnA4c1h3cEw4Y3dR?oc=5",
-        "title": "নতুন লুকে শাকিব খান",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkM2pJY2dVRFVZS1hjTVhsZXF6UjY4cFllQUhpTUJNYUFRa1dIVGhmRlZ1YTVFdFEtZXpwQV92MmtzeUs3cnB5SlJ5cEJJMWZtWTJlakJGR3JUb1VpQk9RVTZMcnA4c1h3cEw4Y3dR?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 09:59:09 GMT",
-        "summary": "নতুন লুকে শাকিব খান &nbsp;&nbsp; Ntvbd",
-        "image": "https://ncdn.ntvbd.com/sites/default/files/styles/social_share/public/gallery-images/2026/11/14/04_1_1.jpg",
-        "articleUrl": "https://www.ntvbd.com/gallery/bangladesh/shakib-khan-new-look",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03dUpzLW5TUThMb3lMTUNaMndPamV6dWo0cDdzQVp6UkhZS0VPT0s1UjYxWVdKZGk2cGhDZ1pVUmxqZXR1ZWlwbkhNQlB6V0RIbWRIRHpwVng?oc=5",
-        "title": "শেখ হাসিনাকে দেশে ফেরানোর সব আইনি প্রক্রিয়া সম্পন্ন, বাকি সিদ্ধান্ত ভারতের : আইনমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03dUpzLW5TUThMb3lMTUNaMndPamV6dWo0cDdzQVp6UkhZS0VPT0s1UjYxWVdKZGk2cGhDZ1pVUmxqZXR1ZWlwbkhNQlB6V0RIbWRIRHpwVng?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 07:55:46 GMT",
-        "summary": "শেখ হাসিনাকে দেশে ফেরানোর সব আইনি প্রক্রিয়া সম্পন্ন, বাকি সিদ্ধান্ত ভারতের : আইনমন্ত্রী &nbsp;&nbsp; Ntvbd",
-        "image": "https://ncdn.ntvbd.com/sites/default/files/styles/social_gpi_ntv_24m/public/images/2026/11/14/screenshot_543.jpg",
-        "articleUrl": "https://www.ntvbd.com/bangladesh/news-1836281",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMkpUSWF3bVZhcWs1VWN0UW9yc3VhNUxpTHFnM21HczFxTEQ1S0gxMHRuMV9hOXdHVFprQ1ptZkV3c1hZREJqczlxUkdqMDBUWTVtYW83SEtNY3JOTjBkd09RNnFkSG1xT2VUU0FqSTVZOUY4RUR6VHJDcl9BN3g2WkhXcVJhT3VYb2gw?oc=5",
-        "title": "দুপুরের খবর : ১৪ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMkpUSWF3bVZhcWs1VWN0UW9yc3VhNUxpTHFnM21HczFxTEQ1S0gxMHRuMV9hOXdHVFprQ1ptZkV3c1hZREJqczlxUkdqMDBUWTVtYW83SEtNY3JOTjBkd09RNnFkSG1xT2VUU0FqSTVZOUY4RUR6VHJDcl9BN3g2WkhXcVJhT3VYb2gw?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 09:32:33 GMT",
-        "summary": "দুপুরের খবর : ১৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/video/ntv-news/dupurer-khobor/dupurer-khobor-14-november-2026",
-        "imageAttemptedAt": "2026-11-14T10:16:07.220Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mUkdiSmItQ3paSjhyaDRrcWx6RkFZVUpDTlhlOXRBcEF1UFBac21WQmlvZFpZekdRSk9OMEFSV2d3UndUMW5tWUpFSEotSlhKd01R?oc=5",
-        "title": "রেকর্ডের পাতায় লজ্জার নতুন অধ্যায় ভারতের",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mUkdiSmItQ3paSjhyaDRrcWx6RkFZVUpDTlhlOXRBcEF1UFBac21WQmlvZFpZekdRSk9OMEFSV2d3UndUMW5tWUpFSEotSlhKd01R?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 13 Nov 2026 09:45:39 GMT",
-        "summary": "রেকর্ডের পাতায় লজ্জার নতুন অধ্যায় ভারতের &nbsp;&nbsp; Ntvbd",
-        "image": "https://ncdn.ntvbd.com/sites/default/files/styles/social_gpi_ntv_24m/public/images/2026/11/13/bhaart.jpg",
-        "articleUrl": "https://www.ntvbd.com/sports/news-1835893",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWamJNRF8zbm1DcHhrTnU3dVgyaWpPb3RfYk1ZR2ZyZ1BlUmVmLWZSaHNqcEh5Z0hQb1RHaUFlcjNVZUNoVHI2aU9SU0FjNVFxekJXSlI3TWQ?oc=5",
-        "title": "সুন্দরবনে কাঠের ট্রলারে তিন দিনের ভ্রমণ বন্ধ",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWamJNRF8zbm1DcHhrTnU3dVgyaWpPb3RfYk1ZR2ZyZ1BlUmVmLWZSaHNqcEh5Z0hQb1RHaUFlcjNVZUNoVHI2aU9SU0FjNVFxekJXSlI3TWQ?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 13 Nov 2026 09:00:00 GMT",
-        "summary": "সুন্দরবনে কাঠের ট্রলারে তিন দিনের ভ্রমণ বন্ধ &nbsp;&nbsp; Ntvbd",
-        "image": "https://ncdn.ntvbd.com/sites/default/files/styles/social_gpi_ntv_24m/public/images/2026/11/13/sundrbaan.jpg",
-        "articleUrl": "https://www.ntvbd.com/bangladesh/news-1835837",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5GSlVLNUZrbXJpdXlsc05EZVhySXlaWFRvX1BGOVItT016cXR5T1FXLVN5WVd1RHUzVHNwMkpsbnMxSkU1bjVIMkVlTHRSQWtLM2dFZFNSY0Y?oc=5",
-        "title": "বিভাগীয় শহরগুলোতে ন্যাশনাল মলিকিউলার বায়োলজি ল্যাবরেটরি স্থাপন করা হবে : স্বাস্থ্য প্রতিমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5GSlVLNUZrbXJpdXlsc05EZVhySXlaWFRvX1BGOVItT016cXR5T1FXLVN5WVd1RHUzVHNwMkpsbnMxSkU1bjVIMkVlTHRSQWtLM2dFZFNSY0Y?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 13 Nov 2026 18:46:04 GMT",
-        "summary": "বিভাগীয় শহরগুলোতে ন্যাশনাল মলিকিউলার বায়োলজি ল্যাবরেটরি স্থাপন করা হবে : স্বাস্থ্য প্রতিমন্ত্রী &nbsp;&nbsp; Ntvbd",
-        "image": "https://ncdn.ntvbd.com/sites/default/files/styles/social_gpi_ntv_24m/public/images/2026/11/13/sbaasthy_prtimntrii.jpg",
-        "articleUrl": "https://www.ntvbd.com/bangladesh/news-1835961",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwRmlJWVFTeWhhcHVPSW9KTGZDZmk5MTRhTmRJck11ZjhiNEhEemNCRnhUSko0LXhXN1JZNmlXZXNINjJpNG0yM2FQWjk0N3BuMU1kZjJ2ZFQ?oc=5",
-        "title": "বিশ্বে দূষিত বায়ুর শহরের শীর্ষে দিল্লি, সেরা দশে চীনের চারটি",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwRmlJWVFTeWhhcHVPSW9KTGZDZmk5MTRhTmRJck11ZjhiNEhEemNCRnhUSko0LXhXN1JZNmlXZXNINjJpNG0yM2FQWjk0N3BuMU1kZjJ2ZFQ?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 13 Nov 2026 05:49:06 GMT",
-        "summary": "বিশ্বে দূষিত বায়ুর শহরের শীর্ষে দিল্লি, সেরা দশে চীনের চারটি &nbsp;&nbsp; Ntvbd",
-        "image": "https://ncdn.ntvbd.com/sites/default/files/styles/social_gpi_ntv_24m/public/images/2026/11/13/dhaka.jpg",
-        "articleUrl": "https://www.ntvbd.com/bangladesh/news-1835761",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Pd0tGZHdFTm5zWGEwQTk1T3pSalFWd3d2UnhpRzZpaG53dzludlk2WDZ5VFhhSThLczU1eXdGeEJuVUFFRWhLTGZYaDBwbmdOUkRr?oc=5",
-        "title": "বিশ্বকাপ জেতা হয়নি, অথচ জয় করেছেন পুরো একটা পৃথিবী!",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Pd0tGZHdFTm5zWGEwQTk1T3pSalFWd3d2UnhpRzZpaG53dzludlk2WDZ5VFhhSThLczU1eXdGeEJuVUFFRWhLTGZYaDBwbmdOUkRr?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 13 Nov 2026 12:34:56 GMT",
-        "summary": "বিশ্বকাপ জেতা হয়নি, অথচ জয় করেছেন পুরো একটা পৃথিবী! &nbsp;&nbsp; Ntvbd",
-        "image": "https://ncdn.ntvbd.com/sites/default/files/styles/social_gpi_ntv_24m/public/images/2026/11/13/thumb_for_3.jpg",
-        "articleUrl": "https://www.ntvbd.com/sports/news-1835997",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBVVjJpQVBPZzhzOTlHTTVCLU9jSl9pRkphc3poZjA5NUkyY0lEdUdZWE9SOURqcHVaT1pDZHhPT1MyLUFYeXNuNXpQRlBCSU1UZFBFLTdZclk?oc=5",
-        "title": "৩০ টাকা কেজি দরে চাল কিনলেন পোশাক শ্রমিকরা",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBVVjJpQVBPZzhzOTlHTTVCLU9jSl9pRkphc3poZjA5NUkyY0lEdUdZWE9SOURqcHVaT1pDZHhPT1MyLUFYeXNuNXpQRlBCSU1UZFBFLTdZclk?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 13 Nov 2026 16:15:32 GMT",
-        "summary": "৩০ টাকা কেজি দরে চাল কিনলেন পোশাক শ্রমিকরা &nbsp;&nbsp; Ntvbd",
-        "image": "https://ncdn.ntvbd.com/sites/default/files/styles/social_gpi_ntv_24m/public/images/2026/11/13/caal_kinlen_poshaak_shrmikraa_chbi.jpg",
-        "articleUrl": "https://www.ntvbd.com/bangladesh/news-1836097",
-        "imageAttemptedAt": "",
+        "articleUrl": "https://www.jamuna.tv/international/667906",
+        "imageAttemptedAt": "2026-11-14T11:51:48.114Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -586,152 +586,7 @@
     ]
   },
   "categories": {
-    "bangladesh": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMGJXZF9xUnJvM2xzU1dxN2hHZnhCZlJhbXZldi1sR3p5NHdmNWZMcGVjakZmYzJ6Y2dHVmhzNEdYc3RUYk9XMVhNRjBRV1BHQWhEeHRLT3laQVF4U2labWk1R1NRaVcwTk8tbEkyclhHNE8xMlExQndkSnBGdURWX1hOdGI2dzRCenlONU9RMXNMdEJ6RGJTenpDRzZYcTdyelM3VmE0Wmx2RFRmVXdCbzZOb2R5U0YxM19Z?oc=5",
-        "title": "ভুটানকে হারিয়ে সাফের ফাইনালে ভারত, অপেক্ষায় বাংলাদেশ-পাকিস্তান",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMGJXZF9xUnJvM2xzU1dxN2hHZnhCZlJhbXZldi1sR3p5NHdmNWZMcGVjakZmYzJ6Y2dHVmhzNEdYc3RUYk9XMVhNRjBRV1BHQWhEeHRLT3laQVF4U2labWk1R1NRaVcwTk8tbEkyclhHNE8xMlExQndkSnBGdURWX1hOdGI2dzRCenlONU9RMXNMdEJ6RGJTenpDRzZYcTdyelM3VmE0Wmx2RFRmVXdCbzZOb2R5U0YxM19Z?oc=5",
-        "source": "স্টার নিউজ",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 11:24:50 GMT",
-        "summary": "ভুটানকে হারিয়ে সাফের ফাইনালে ভারত, অপেক্ষায় বাংলাদেশ-পাকিস্তান &nbsp;&nbsp; স্টার নিউজ",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://starnews.com.bd/sports/28925/india-reaches-saff-final-after-defeating-bhutan-bangladesh-and-pakistan-await.html",
-        "imageAttemptedAt": "2026-11-14T11:51:48.114Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWms3TUZTMkliejJBRmdzc2VJczdETUZIZWZyMWpYcTVWSlpab0NNaUJnSVNvSWNqR0xKd0tKTUF6SUR3dVFxeThLaEZ2NDRubGJKZkhXc2o5cUx1M3BfVUdkbVE0Qnp3V0JIbC1QNXF3T2JIV1VHeU91aXNkci0yTmNVMm9CclA1WWhfNzdBdTVOczBCbE9lXzU1c01zSDRsX2djLXJDWnkwV2NtNWlBSVFTeldLQ0nSAbwBQVVfeXFMTWFFTnBHSUVvRkdCQlpwWlZmVWVSTkJyVjJwV2JVMHJxcXkwQlRBVUFISkVoeWZqZENsbWpyQ1Nkb3dOUjdfeVRtOEZwOFIwc2J2ZWZGaDhMUXZsaG5DUDhWRGo2TmxWSFhqNEk1SG8wX25wS0VqdnBKR051OE9qSEpkN2hOUzdZcjNORHJhSzFNT080dmVpZFg1VkczeEdfaHBJaWtfdXlhM2hQTm96WXFOVE9tMnIxM1d4TVc?oc=5",
-        "title": "India-Bangladesh Relations: বাংলাদেশে ফিরতে চান শেখ হাসিনা, ঠিক কোন বিষয়টি ভাবাচ্ছে ভারতকে? ঢাকার",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWms3TUZTMkliejJBRmdzc2VJczdETUZIZWZyMWpYcTVWSlpab0NNaUJnSVNvSWNqR0xKd0tKTUF6SUR3dVFxeThLaEZ2NDRubGJKZkhXc2o5cUx1M3BfVUdkbVE0Qnp3V0JIbC1QNXF3T2JIV1VHeU91aXNkci0yTmNVMm9CclA1WWhfNzdBdTVOczBCbE9lXzU1c01zSDRsX2djLXJDWnkwV2NtNWlBSVFTeldLQ0nSAbwBQVVfeXFMTWFFTnBHSUVvRkdCQlpwWlZmVWVSTkJyVjJwV2JVMHJxcXkwQlRBVUFISkVoeWZqZENsbWpyQ1Nkb3dOUjdfeVRtOEZwOFIwc2J2ZWZGaDhMUXZsaG5DUDhWRGo2TmxWSFhqNEk1SG8wX25wS0VqdnBKR051OE9qSEpkN2hOUzdZcjNORHJhSzFNT080dmVpZFg1VkczeEdfaHBJaWtfdXlhM2hQTm96WXFOVE9tMnIxM1d4TVc?oc=5",
-        "source": "ABP Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 07:55:58 GMT",
-        "summary": "India-Bangladesh Relations: বাংলাদেশে ফিরতে চান শেখ হাসিনা, ঠিক কোন বিষয়টি ভাবাচ্ছে ভারতকে? ঢাকার &nbsp;&nbsp; ABP Ananda",
-        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/14/3f3744793a0752a58553758439e6f4f51794642727542338_original.jpg?impolicy=abp_cdn&imwidth=1200",
-        "articleUrl": "https://bengali.abplive.com/news/sheikh-hasina-return-to-bangladesh-depends-on-dhaka-assurance-claims-report-1199268",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMimAZBVV95cUxNU0N3ZDV6ZXY1UUV5eHV3djE2eDFVNFRtY05TeTQ2NlJxTEdVZi1uQkZyZUVYS0cwMlBBMHluLUVMd2dfSXA4RHMtVlFIMEpiYWZsOFE2SHpueG5BTVh4RGd3YThqd0JVdWc2Q0lxdXV4ZE1pdThEVUxUbEo3LWU3TTlDUFBjU0hXQUZTak96MnZqWUo0YUNFSkhaa3BkZy0tWW9CMUpoOHltUWR5azZ2RVdVMFFmS1k0UTgwMVJTNW8yOFVjdDNpR1ZlU1JnX0t2clZVZUhxMGI5X3RadWZaR24zU1NaREdJNFVNYm5vSzVBdXBLbDhrZjRJYTFiMmFCTHQxRENwa3FwOWdRQl9IZUZHTFFjNmtnamFGdWhDSkhUX1pfZ3ktVUJ0UHoxUjNCVUx4VG16NWxsdlZ6RXRnRVB6TzQ4YnVXdnZqWEVka055MVNXeTU4am5ia28yMEw0XzVBN3Vfb0xaSGkyTFZnbUU1VVphS0E1SUNwZkh3NHlMODBIOXhjV29GWERVWGl0SkUycFV2NkpreUxaQWV4R2s3enE0Y2ROZzRmMUNZMXUwa2tBcDhfSkdITzI4WW1IWlVTWG9aUzVCWU16ejVQdWxiVEVneGcxVGMtS1ZCMGlaeTFVQkRmaGtMMVRUbk1vTVBqSDk3RG03N1pWeEVJYlhyTUJpMnJTSGsyUmZ3TmRSZXVsTXBGNWRfMTI4elJ1T0dtd3NhazVqaHhlSlRlMXlaSTMzSVZySThyRmwwbGtVbGJJNlU5cl96d2FVTVZWU0dtcnA0N0dUcmxHbDluOHJDcEtJUlktSG9DMU1NdmVuenJvUXNGVDlSOG1jZHJRM1hnR010MkJ6dnNZRGFrdmZhSC1ZbHN2czNVRTBleXkxdklUSDFnUGxvMV9QQnM4azVZZG9VLTRKaEVMNkE5LTdqem41bUFBeFU4SEVQR2ZVUC1NMHhmRlJPNjFOODRCc1huUmFTZUJNVG9mWDk0c0hiU2Y0alc3dnlFQkk3Sy0ycG1rNU1CR3poMGlXNXBSSkxNVU81T24?oc=5",
-        "title": "Bangladesh News | ঢাকায় ধানমন্ডি ৩২-এ শেখ মুজিবুরের বাড়ির সামনে থেকে উদ্ধার দুটি ককটেল ও চিরকুট | Zee 24 Ghanta #Zee24Ghanta #BangladeshNews #DhakaNews",
-        "link": "https://news.google.com/rss/articles/CBMimAZBVV95cUxNU0N3ZDV6ZXY1UUV5eHV3djE2eDFVNFRtY05TeTQ2NlJxTEdVZi1uQkZyZUVYS0cwMlBBMHluLUVMd2dfSXA4RHMtVlFIMEpiYWZsOFE2SHpueG5BTVh4RGd3YThqd0JVdWc2Q0lxdXV4ZE1pdThEVUxUbEo3LWU3TTlDUFBjU0hXQUZTak96MnZqWUo0YUNFSkhaa3BkZy0tWW9CMUpoOHltUWR5azZ2RVdVMFFmS1k0UTgwMVJTNW8yOFVjdDNpR1ZlU1JnX0t2clZVZUhxMGI5X3RadWZaR24zU1NaREdJNFVNYm5vSzVBdXBLbDhrZjRJYTFiMmFCTHQxRENwa3FwOWdRQl9IZUZHTFFjNmtnamFGdWhDSkhUX1pfZ3ktVUJ0UHoxUjNCVUx4VG16NWxsdlZ6RXRnRVB6TzQ4YnVXdnZqWEVka055MVNXeTU4am5ia28yMEw0XzVBN3Vfb0xaSGkyTFZnbUU1VVphS0E1SUNwZkh3NHlMODBIOXhjV29GWERVWGl0SkUycFV2NkpreUxaQWV4R2s3enE0Y2ROZzRmMUNZMXUwa2tBcDhfSkdITzI4WW1IWlVTWG9aUzVCWU16ejVQdWxiVEVneGcxVGMtS1ZCMGlaeTFVQkRmaGtMMVRUbk1vTVBqSDk3RG03N1pWeEVJYlhyTUJpMnJTSGsyUmZ3TmRSZXVsTXBGNWRfMTI4elJ1T0dtd3NhazVqaHhlSlRlMXlaSTMzSVZySThyRmwwbGtVbGJJNlU5cl96d2FVTVZWU0dtcnA0N0dUcmxHbDluOHJDcEtJUlktSG9DMU1NdmVuenJvUXNGVDlSOG1jZHJRM1hnR010MkJ6dnNZRGFrdmZhSC1ZbHN2czNVRTBleXkxdklUSDFnUGxvMV9QQnM4azVZZG9VLTRKaEVMNkE5LTdqem41bUFBeFU4SEVQR2ZVUC1NMHhmRlJPNjFOODRCc1huUmFTZUJNVG9mWDk0c0hiU2Y0alc3dnlFQkk3Sy0ycG1rNU1CR3poMGlXNXBSSkxNVU81T24?oc=5",
-        "source": "Facebook",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 10 Nov 2026 10:16:28 GMT",
-        "summary": "Bangladesh News | ঢাকায় ধানমন্ডি ৩২-এ শেখ মুজিবুরের বাড়ির সামনে থেকে উদ্ধার দুটি ককটেল ও চিরকুট | Zee 24 Ghanta #Zee24Ghanta #BangladeshNews #DhakaNews &nbsp;&nbsp; Facebook",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.facebook.com/Zee24Ghanta/posts/bangladesh-news-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF-%E0%A7%A9%E0%A7%A8-%E0%A6%8F-%E0%A6%B6%E0%A7%87%E0%A6%96-%E0%A6%AE%E0%A7%81%E0%A6%9C%E0%A6%BF%E0%A6%AC%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%9F%E0%A6%BF/1679798607510880/",
-        "imageAttemptedAt": "2026-11-14T07:44:58.313Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMixgVBVV95cUxPRl9zXzJwR2Y0S3RrNUV6SU16YVRuNFhIMjFrTHdPc2d3ZF9yemdKTnNTTERBYnFvVm9xWUhLTDdPa3gtTnV6UTN2TDNGYzVVQ2x3UjNjOE5OQU1iLVRuc2ZVbW1GQkZhdEJ4SWZQdk9JX1BicjI1cWdoMkdZblBXZGhJelFuSUJfMXF5OWlaR2xkZzJQc2ZPdjdkSlY3SzJkLTFVMWJsZU5HVXFJYmlIZWYxWm9Ha3NLVnlQbllCazBzYnA5U0V0bGRDQXZmTnE3WTljeVpsOFdwM0RjYktwSXh6cVNkX1RyQUlxSlp1TXFKSTJoTy10SE9MVkNEcEUxUC1zVWxGMzJTajl1M3ZaUFdFdkpkZHJjZFNsNjdoenhjbzFZeDhZS3NuYWVrRThCNmd1Skc4M1pQakV6MGNmdzdTblBTTmlyRWk0ZE0xNjhqY0ZoS1dKS1dJTnY1cWFyN2V0dkVhQlRyZF83QzJBczlwQ3NWTnp1RGc0RXdJM1BSQlExa01rcENFelVPbDBmM3Q5aUJ4elZyc0g4VHluMUxFQ3NyRFVHX2ljNnI2Snh0cWdrWjNsTTNmZU5CY1pESzcycjNZSXZPMUYzNVkxUFp6d2tkcUlvaEdhVW5tWG1PRkZtM2ROWi1IazhEbEJmcjZQMHV4WEdLTXVuWDNZZW9zTGZHNmhHNVZMczZrN1JqdzdzN29wd3ViUWdxVzNhcmMwTmkzRnRTOWtsaVlJLUtVbVN5VFN3amwtN0FTVFpnNGY2TVo0anl6UV9UQmx2YWx6dml6Mkg4UVBZajVUUkhhMzdjcWx1WHphbHNPaHZjRGE0aEZ5MkozVEFRdHRJTUc3Rnp4QUlENUVnd3U4U1kxUEVTakMxSUtzR2g5VGhFWTNuRS1IUE94N2RCM0FUYmNzWElpNWNRN3prV0JMSVhzNF9XQQ?oc=5",
-        "title": "জলবায়ু সংকট মোকাবিলায় আন্তর্জাতিক জোটে যুক্ত হলো বাংলাদেশ",
-        "link": "https://news.google.com/rss/articles/CBMixgVBVV95cUxPRl9zXzJwR2Y0S3RrNUV6SU16YVRuNFhIMjFrTHdPc2d3ZF9yemdKTnNTTERBYnFvVm9xWUhLTDdPa3gtTnV6UTN2TDNGYzVVQ2x3UjNjOE5OQU1iLVRuc2ZVbW1GQkZhdEJ4SWZQdk9JX1BicjI1cWdoMkdZblBXZGhJelFuSUJfMXF5OWlaR2xkZzJQc2ZPdjdkSlY3SzJkLTFVMWJsZU5HVXFJYmlIZWYxWm9Ha3NLVnlQbllCazBzYnA5U0V0bGRDQXZmTnE3WTljeVpsOFdwM0RjYktwSXh6cVNkX1RyQUlxSlp1TXFKSTJoTy10SE9MVkNEcEUxUC1zVWxGMzJTajl1M3ZaUFdFdkpkZHJjZFNsNjdoenhjbzFZeDhZS3NuYWVrRThCNmd1Skc4M1pQakV6MGNmdzdTblBTTmlyRWk0ZE0xNjhqY0ZoS1dKS1dJTnY1cWFyN2V0dkVhQlRyZF83QzJBczlwQ3NWTnp1RGc0RXdJM1BSQlExa01rcENFelVPbDBmM3Q5aUJ4elZyc0g4VHluMUxFQ3NyRFVHX2ljNnI2Snh0cWdrWjNsTTNmZU5CY1pESzcycjNZSXZPMUYzNVkxUFp6d2tkcUlvaEdhVW5tWG1PRkZtM2ROWi1IazhEbEJmcjZQMHV4WEdLTXVuWDNZZW9zTGZHNmhHNVZMczZrN1JqdzdzN29wd3ViUWdxVzNhcmMwTmkzRnRTOWtsaVlJLUtVbVN5VFN3amwtN0FTVFpnNGY2TVo0anl6UV9UQmx2YWx6dml6Mkg4UVBZajVUUkhhMzdjcWx1WHphbHNPaHZjRGE0aEZ5MkozVEFRdHRJTUc3Rnp4QUlENUVnd3U4U1kxUEVTakMxSUtzR2g5VGhFWTNuRS1IUE94N2RCM0FUYmNzWElpNWNRN3prV0JMSVhzNF9XQQ?oc=5",
-        "source": "Bahanno News",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 10:28:00 GMT",
-        "summary": "জলবায়ু সংকট মোকাবিলায় আন্তর্জাতিক জোটে যুক্ত হলো বাংলাদেশ &nbsp;&nbsp; Bahanno News",
-        "image": "https://www.bahannonews.com/uploads/f31926919e675e1156723e531428f070.jpg?fb=1",
-        "articleUrl": "https://www.bahannonews.com/details/article/10223585/%E0%A6%9C%E0%A6%B2%E0%A6%AC%E0%A6%BE%E0%A7%9F%E0%A7%81-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A6%9F-%E0%A6%AE%E0%A7%8B%E0%A6%95%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%9C%E0%A7%8B%E0%A6%9F%E0%A7%87-%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYjZtamVDYUl1Qml6MzllYnI5ellhSkI0VXgxR2xfX1luOHhYUzAwTDJvbGZxbVZMcFdYN21jVTNRMzltbTFzUE1Da1Vqa2wtOFRJMmRJRUVpS3Q3Nng5bXZJRFo0eXNWd0UwZWdhMHZ5Mm1JaXd3b0RTNnJ3R3FNLThydjI3Qi1ldGhIYlJMd2RSMEk1T0pxa20xZ2NMZE56OVQ5c3I4N2UzaTZqTEF3Z1VWYWR0QWh3dl8tdVpaUE5KLTJaTlJsYmVjSHFRblXSAdQBQVVfeXFMUDZTOHQ3MWQxMkZxODBmRFhxRmJRXzJtdHZBUHpZSTNaWGtpOWp6b0FwR285WGxlUlNidTdheGlvT19iSXY3MGVmcHZkWUh0eTBaejN3blBfNXQzQzVFM3ZLNndsc18ta2tqUDFwUTVGTm5OU0ZsVDJKYUhjTHA1Mk5YX0tSbDFpSTNtMWRodkFFMDI1a0ZhV3l5dHJXZWsyWElqMURmOERBTEhDUjc2eWtnMkgxUXFUdFNTSDF3a3paWndYbFZVdmhWUm1CbWx2N2szVUI?oc=5",
-        "title": "গোপনে দেশে ফিরেছেন বহু আওয়ামী লিগ নেতা",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYjZtamVDYUl1Qml6MzllYnI5ellhSkI0VXgxR2xfX1luOHhYUzAwTDJvbGZxbVZMcFdYN21jVTNRMzltbTFzUE1Da1Vqa2wtOFRJMmRJRUVpS3Q3Nng5bXZJRFo0eXNWd0UwZWdhMHZ5Mm1JaXd3b0RTNnJ3R3FNLThydjI3Qi1ldGhIYlJMd2RSMEk1T0pxa20xZ2NMZE56OVQ5c3I4N2UzaTZqTEF3Z1VWYWR0QWh3dl8tdVpaUE5KLTJaTlJsYmVjSHFRblXSAdQBQVVfeXFMUDZTOHQ3MWQxMkZxODBmRFhxRmJRXzJtdHZBUHpZSTNaWGtpOWp6b0FwR285WGxlUlNidTdheGlvT19iSXY3MGVmcHZkWUh0eTBaejN3blBfNXQzQzVFM3ZLNndsc18ta2tqUDFwUTVGTm5OU0ZsVDJKYUhjTHA1Mk5YX0tSbDFpSTNtMWRodkFFMDI1a0ZhV3l5dHJXZWsyWElqMURmOERBTEhDUjc2eWtnMkgxUXFUdFNTSDF3a3paWndYbFZVdmhWUm1CbWx2N2szVUI?oc=5",
-        "source": "TheWall",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 12 Nov 2026 10:22:56 GMT",
-        "summary": "গোপনে দেশে ফিরেছেন বহু আওয়ামী লিগ নেতা &nbsp;&nbsp; TheWall",
-        "image": "https://s3.ap-south-1.amazonaws.com/statics.thewall.in/sites/default/files/styles/medium/public/2026-11/Bangladesh%20news%20today%20(8).jpeg.webp",
-        "articleUrl": "https://www.thewall.in/video-story/many-awami-league-leaders-secretly-returned-to-the-country-bangladesh-news-sheikh-hasina/tid/209244",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HRmRaV0dxbU1GQ25vNGkxNTZ6cEFsRE9MUE9mdmNYNGRpLVVwUmd6c0ZxcmFLWl84eERqSmRQcTdUamQtRGtGS3JfRkpHSVJDMHdsT0oxZVlsT2VhMVJz0gFkQVVfeXFMUEx2S0RYdDlwdnZVOG5URWJ2dGgtMEhGandOVWJoOVB1dnNkcDJSeG90X0tkTWpxTEtBTjFVODZRNlJfZi1naTBYMnRjdWJOUHJ3WHRWNmZ4TE5GdGl1a0RJdy05SQ?oc=5",
-        "title": "টানা পাঁচ মাস বিদ্যুৎ নেই বাংলাদেশের ৩৫টি গ্রামে, কীভাবে সম্ভব?",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HRmRaV0dxbU1GQ25vNGkxNTZ6cEFsRE9MUE9mdmNYNGRpLVVwUmd6c0ZxcmFLWl84eERqSmRQcTdUamQtRGtGS3JfRkpHSVJDMHdsT0oxZVlsT2VhMVJz0gFkQVVfeXFMUEx2S0RYdDlwdnZVOG5URWJ2dGgtMEhGandOVWJoOVB1dnNkcDJSeG90X0tkTWpxTEtBTjFVODZRNlJfZi1naTBYMnRjdWJOUHJ3WHRWNmZ4TE5GdGl1a0RJdy05SQ?oc=5",
-        "source": "BBC",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 13 Nov 2026 11:14:37 GMT",
-        "summary": "টানা পাঁচ মাস বিদ্যুৎ নেই বাংলাদেশের ৩৫টি গ্রামে, কীভাবে সম্ভব? &nbsp;&nbsp; BBC",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.bbc.com/bengali/articles/c65y1wwdey98o",
-        "imageAttemptedAt": "2026-11-14T11:51:48.114Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE11OWdidVRMVjJXa2NjQ0tRbUFqQ2Z1V0M5Q0RSLS1aVWs4c1N0N0dyb0xxYnhWeFZKa2E0WlI0ZW4?oc=5",
-        "title": "অভিযোজন খাতে বছরে ১২০ বিলিয়ন ডলার চায় বাংলাদেশ",
-        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE11OWdidVRMVjJXa2NjQ0tRbUFqQ2Z1V0M5Q0RSLS1aVWs4c1N0N0dyb0xxYnhWeFZKa2E0WlI0ZW4?oc=5",
-        "source": "Sunbd24",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 03:34:55 GMT",
-        "summary": "অভিযোজন খাতে বছরে ১২০ বিলিয়ন ডলার চায় বাংলাদেশ &nbsp;&nbsp; Sunbd24",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://sunbd24.com/421287/",
-        "imageAttemptedAt": "2026-11-14T05:31:46.730Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNnlEc3FtM2dLdTE0aDVhTG0wbVlEc0lMU1JtYWg0SXdXVTdNWEYtaDRDQlpELXZRbjMtWjdmaDNjZTM2V0JTRmFaMUc2ekJ3aDYwTExoU2I2dU5hUF9KMFktWlpEMjl4R0lMR2RPbkZpblg3SWl0bHJHX3BnQmZvLTlOT2N3bnpfRUhOc2FNX1QzSHF3R21vNXRhR3BiT0xpZElCWG90UzhhV3BTMDlfVk91MmhCUHYtUkk3SUxNNGVWdzhYbkEzOC1uSzF4czZCa21BMzBB0gHbAUFVX3lxTE1ZaXhIZ3FGNVFJX3ZXaWVHV0doMlFkWEMxOHhiVmxGMUo5R1VJTlN4di1paHZ1S051TEN4WW1raVRaSkFrU2M4LWw4a0U1TnZ0OXNuT3hKUENlaXhTZk1JS0M4MWdxSUtLbDAxSHJONWFEako5NlM0WTFVVjhFNlM5R2pSRGxjMWFWeXdKNnlRblV5ZWZQRDRPUVRIUml6WmtTMUFCTks0OHpkQlZJU2xzYkR1V3Rvc0RpNmJiMU5DRG44dGVwZUN4OV9UVmstVGRlZUFqMU9jRVpTUQ?oc=5",
-        "title": "Bangladesh news: পরপর বিস্ফোরণ, দাউ দাউ করে জ্বলছে একের পর এক বাস! হাসিনার ফেরার আগে ফের উত্তপ্ত...",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNnlEc3FtM2dLdTE0aDVhTG0wbVlEc0lMU1JtYWg0SXdXVTdNWEYtaDRDQlpELXZRbjMtWjdmaDNjZTM2V0JTRmFaMUc2ekJ3aDYwTExoU2I2dU5hUF9KMFktWlpEMjl4R0lMR2RPbkZpblg3SWl0bHJHX3BnQmZvLTlOT2N3bnpfRUhOc2FNX1QzSHF3R21vNXRhR3BiT0xpZElCWG90UzhhV3BTMDlfVk91MmhCUHYtUkk3SUxNNGVWdzhYbkEzOC1uSzF4czZCa21BMzBB0gHbAUFVX3lxTE1ZaXhIZ3FGNVFJX3ZXaWVHV0doMlFkWEMxOHhiVmxGMUo5R1VJTlN4di1paHZ1S051TEN4WW1raVRaSkFrU2M4LWw4a0U1TnZ0OXNuT3hKUENlaXhTZk1JS0M4MWdxSUtLbDAxSHJONWFEako5NlM0WTFVVjhFNlM5R2pSRGxjMWFWeXdKNnlRblV5ZWZQRDRPUVRIUml6WmtTMUFCTks0OHpkQlZJU2xzYkR1V3Rvc0RpNmJiMU5DRG44dGVwZUN4OV9UVmstVGRlZUFqMU9jRVpTUQ?oc=5",
-        "source": "TV9 Bangla",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 10 Nov 2026 06:20:09 GMT",
-        "summary": "Bangladesh news: পরপর বিস্ফোরণ, দাউ দাউ করে জ্বলছে একের পর এক বাস! হাসিনার ফেরার আগে ফের উত্তপ্ত... &nbsp;&nbsp; TV9 Bangla",
-        "image": "https://images.tv9bangla.com/wp-content/uploads/2026/11/Bus-Fire-News.jpg",
-        "articleUrl": "https://tv9bangla.com/world/bangladesh-unrest-bomb-explosions-bus-fires-raise-security-concerns-ahead-of-sheikh-hasinas-return-1359704.html",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNHg2bzFBQWR2RzQwblNXOU1ybWhnNHZ1dUdxa2xVSGsxYkJ4VTBmMWpJc1lYN0ZaMFBlU21WcjJXbDM0dVp0Rng4Q2RvaDM3MHhmUGNVOEJ3ZXJGR05mNnNHcFdwZS1sUTNrb0VwV1o3cEpkR0tyczJDZHJIcnhMWkU3X1FEMmNsMnFLai1ybktIVHlmc2NWMWdSeTFjTU5UOWs1VjhCYTZBUQ?oc=5",
-        "title": "সাফ টুর্নামেন্ট সম্প্রচার: বাংলাদেশের সক্ষমতার নতুন পরীক্ষা",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNHg2bzFBQWR2RzQwblNXOU1ybWhnNHZ1dUdxa2xVSGsxYkJ4VTBmMWpJc1lYN0ZaMFBlU21WcjJXbDM0dVp0Rng4Q2RvaDM3MHhmUGNVOEJ3ZXJGR05mNnNHcFdwZS1sUTNrb0VwV1o3cEpkR0tyczJDZHJIcnhMWkU3X1FEMmNsMnFLai1ybktIVHlmc2NWMWdSeTFjTU5UOWs1VjhCYTZBUQ?oc=5",
-        "source": "স্টার নিউজ",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 10:12:41 GMT",
-        "summary": "সাফ টুর্নামেন্ট সম্প্রচার: বাংলাদেশের সক্ষমতার নতুন পরীক্ষা &nbsp;&nbsp; স্টার নিউজ",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://starnews.com.bd/sports/28914/saff-tournament-broadcast-a-new-test-of-bangladeshs-capabilities.html",
-        "imageAttemptedAt": "2026-11-14T10:16:07.220Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYk9WdFI5aGYxeVI2Vk9qM3p6Vk8tWEJHaWtxTFJRUGxCWldJS3RVekRtdmY0MDZOdVB4dHl6Y1R6Unlqb01IYWRBb3RrN3MyRkZQaHcwNkZvUjNVaXNTQThLTzl2OVBXVjJ4dUQwdlI0SzNsNnlkd2E0NGtyalhRZWRWV2VhTmY2V2Mtek45QUZEdDRnSUZDWnJsVXBGQlZCUmEzYUxDR3p5TVRGTG9nVDhGY0JTS2NUU1lDbkZuSVdKYW01RUpPUG1sMVEydw?oc=5",
-        "title": "Bangladesh News: ৩০ টাকায় চাল! পোশাকশ্রমিকদের ক্ষোভে কি প্রলেপ দিল তারেক সরকার?",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYk9WdFI5aGYxeVI2Vk9qM3p6Vk8tWEJHaWtxTFJRUGxCWldJS3RVekRtdmY0MDZOdVB4dHl6Y1R6Unlqb01IYWRBb3RrN3MyRkZQaHcwNkZvUjNVaXNTQThLTzl2OVBXVjJ4dUQwdlI0SzNsNnlkd2E0NGtyalhRZWRWV2VhTmY2V2Mtek45QUZEdDRnSUZDWnJsVXBGQlZCUmEzYUxDR3p5TVRGTG9nVDhGY0JTS2NUU1lDbkZuSVdKYW01RUpPUG1sMVEydw?oc=5",
-        "source": "Aaro Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 13 Nov 2026 08:07:00 GMT",
-        "summary": "Bangladesh News: ৩০ টাকায় চাল! পোশাকশ্রমিকদের ক্ষোভে কি প্রলেপ দিল তারেক সরকার? &nbsp;&nbsp; Aaro Ananda",
-        "image": "https://www.aaroananda.com/cdn-cgi/image/width=1200,height=675,fit=cover,gravity=face,quality=70,format=auto/https://restapis.aaroananda.com/getImageStream/75804/1794557324184.jfif",
-        "articleUrl": "https://www.aaroananda.com/story/latest-news/breaking-news/bangladesh-government-subsidized-rice-scheme-for-garments-workers/11028231",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      }
-    ],
     "international": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TcTZPZURFVVRQTUZfb05LLWljTF95QnZuZ2xwS3QyRGRKRzdBMUhLZ0hTLWN1RXI3M1VrR255bllvMTBLWm5oY19SUFlpTTVwdkhHb2g2aFdQRm5FM25ZbldmVQ?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১১ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TcTZPZURFVVRQTUZfb05LLWljTF95QnZuZ2xwS3QyRGRKRzdBMUhLZ0hTLWN1RXI3M1VrR255bllvMTBLWm5oY19SUFlpTTVwdkhHb2g2aFdQRm5FM25ZbldmVQ?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 11 Nov 2026 15:53:38 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১১ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1178453",
-        "imageAttemptedAt": "2026-11-13T17:35:09.503Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
       {
         "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5KNlRHb0M4Y24tZXRzTllkR3Fhb0hoaVlXYUpydlVFTnYxQVV2aGYxT3FOSTlmWTlTVTRqcWEtRWtWaWpNRHNXVklmaW93X0xRREJ0TkdJQ2E1Vzlf?oc=5",
         "title": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ১২ নভেম্বর ২০২৬",
@@ -743,6 +598,19 @@
         "image": "https://img.youtube.com/vi/mW3jnkrcASM/maxresdefault.jpg",
         "articleUrl": "https://somoynews.com.bd/video/video-gallery/387",
         "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TcTZPZURFVVRQTUZfb05LLWljTF95QnZuZ2xwS3QyRGRKRzdBMUhLZ0hTLWN1RXI3M1VrR255bllvMTBLWm5oY19SUFlpTTVwdkhHb2g2aFdQRm5FM25ZbldmVQ?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১১ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TcTZPZURFVVRQTUZfb05LLWljTF95QnZuZ2xwS3QyRGRKRzdBMUhLZ0hTLWN1RXI3M1VrR255bllvMTBLWm5oY19SUFlpTTVwdkhHb2g2aFdQRm5FM25ZbldmVQ?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 11 Nov 2026 15:53:38 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১১ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1178453",
+        "imageAttemptedAt": "2026-11-13T17:35:09.503Z",
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
@@ -850,6 +718,138 @@
         "imageFallback": "news-fallbacks/world.svg"
       }
     ],
+    "bangladesh": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBSUWtLMlVxR052ME1TSFZBWVVmRld4VTlJZ3N0V3MyeFBIS0pQRHlaU1VtVlpobFRmY1Q4cmpfR3V4VTJ4TkdjNU10WGZaRGI1TUJFak1DRzJIaHRpak5r0gFkQVVfeXFMT3VJX1VhMTdwOGxOeFhNWEg0X3d5OGw2YkNFOWlhLWhuaERxb2RZdEN4cnNJazQ5ekoyeDBrR1E3cWs1OExFQksyZkszUGkwVDFqRC1uQjF2MDl5SFZVWFR0dmhHMA?oc=5",
+        "title": "বাংলাদেশ ভারত সম্পর্কে কি নতুন জটিলতা তৈরি হচ্ছে",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBSUWtLMlVxR052ME1TSFZBWVVmRld4VTlJZ3N0V3MyeFBIS0pQRHlaU1VtVlpobFRmY1Q4cmpfR3V4VTJ4TkdjNU10WGZaRGI1TUJFak1DRzJIaHRpak5r0gFkQVVfeXFMT3VJX1VhMTdwOGxOeFhNWEg0X3d5OGw2YkNFOWlhLWhuaERxb2RZdEN4cnNJazQ5ekoyeDBrR1E3cWs1OExFQksyZkszUGkwVDFqRC1uQjF2MDl5SFZVWFR0dmhHMA?oc=5",
+        "source": "BBC",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 11:45:54 GMT",
+        "summary": "বাংলাদেশ ভারত সম্পর্কে কি নতুন জটিলতা তৈরি হচ্ছে &nbsp;&nbsp; BBC",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.bbc.com/bengali/articles/c3j4rvv5ex12o",
+        "imageAttemptedAt": "2026-11-14T12:38:31.300Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQT290Y0pILVY4MXBLY2FpdnRsdnhxUHo2MVU0djZBNmZ0ckVualk1THFQamlYUWo2MEVHbnJWTHJVVFE4YVZKaEVCSzRhcHJsbHQ1c1daZWg5SlZWaVlueGMyelRlWkVzTW0yWTUzTzVrbE52dE5TMVFaWkZoN3BJVGF2R0h0bmx5WkstYU9xN1g5aDhMdFBJY2NiWWVBR1Ewa1dtR1BOMmpPQXY0Mmo3cVhjZThGbmRKR0dIeWpkVnlhdnNuWFlhQ2wzbEJNdTdPa0tPQ3VMcWxvT2Z0eExaRFFrWWxTNlZyaTJxTExHZW9jb3Fsalg2RHQ0bWxHV2FZNjhWYUc3THDSAY4CQVVfeXFMT0xYbDZGbUtaczVNbFZJVXZwNUZXXzZxZ3A5QW9oMlp5UHlpSHFveldGSE1XaXU5Wlo2eWR5dkFGa0o0aE4tUENBaGtycmhfMS1GRThoYzBnZmRZb0pqU3dLRjFiQkFvdlNKU2hXWExqY2ZqT2NwbU9nbldoNTAtTkJQMmFxSVZQUFlSdmVWU0RHYkZPZ2lqSlVlanVWM2F2Y2hpMlZLb3NES2V2VElXLTJnYWNSQXpMdVRtenI4cGxNT3VJRF9rTU1zYTZ4eVV2dml4WjJSUERUWTRQcmw2VUlYbE5YalRkaVJOZGFYRHQzVldxNDVyVVNyQ3JlUXAyNWRzWHBGS3l2RGdvaTRB?oc=5",
+        "title": "Sheikh Hasina : শেখ হাসিনাকে ভারত থেকে ফেরানোর সব আইনি প্রক্রিয়া সম্পন্ন বাংলাদেশের,",
+        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQT290Y0pILVY4MXBLY2FpdnRsdnhxUHo2MVU0djZBNmZ0ckVualk1THFQamlYUWo2MEVHbnJWTHJVVFE4YVZKaEVCSzRhcHJsbHQ1c1daZWg5SlZWaVlueGMyelRlWkVzTW0yWTUzTzVrbE52dE5TMVFaWkZoN3BJVGF2R0h0bmx5WkstYU9xN1g5aDhMdFBJY2NiWWVBR1Ewa1dtR1BOMmpPQXY0Mmo3cVhjZThGbmRKR0dIeWpkVnlhdnNuWFlhQ2wzbEJNdTdPa0tPQ3VMcWxvT2Z0eExaRFFrWWxTNlZyaTJxTExHZW9jb3Fsalg2RHQ0bWxHV2FZNjhWYUc3THDSAY4CQVVfeXFMT0xYbDZGbUtaczVNbFZJVXZwNUZXXzZxZ3A5QW9oMlp5UHlpSHFveldGSE1XaXU5Wlo2eWR5dkFGa0o0aE4tUENBaGtycmhfMS1GRThoYzBnZmRZb0pqU3dLRjFiQkFvdlNKU2hXWExqY2ZqT2NwbU9nbldoNTAtTkJQMmFxSVZQUFlSdmVWU0RHYkZPZ2lqSlVlanVWM2F2Y2hpMlZLb3NES2V2VElXLTJnYWNSQXpMdVRtenI4cGxNT3VJRF9rTU1zYTZ4eVV2dml4WjJSUERUWTRQcmw2VUlYbE5YalRkaVJOZGFYRHQzVldxNDVyVVNyQ3JlUXAyNWRzWHBGS3l2RGdvaTRB?oc=5",
+        "source": "ABP Ananda",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 12:12:04 GMT",
+        "summary": "Sheikh Hasina : শেখ হাসিনাকে ভারত থেকে ফেরানোর সব আইনি প্রক্রিয়া সম্পন্ন বাংলাদেশের, &nbsp;&nbsp; ABP Ananda",
+        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/14/c1d3af2ccf734b0a59b2029bb05149411794658572549170_original.jpg?impolicy=abp_cdn&imwidth=1200",
+        "articleUrl": "https://bengali.abplive.com/news/bangladesh-has-completed-all-legal-procedures-required-to-secure-the-return-of-sheikh-hasina-from-india-says-law-minister-md-asaduzzaman-1199298",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMGJXZF9xUnJvM2xzU1dxN2hHZnhCZlJhbXZldi1sR3p5NHdmNWZMcGVjakZmYzJ6Y2dHVmhzNEdYc3RUYk9XMVhNRjBRV1BHQWhEeHRLT3laQVF4U2labWk1R1NRaVcwTk8tbEkyclhHNE8xMlExQndkSnBGdURWX1hOdGI2dzRCenlONU9RMXNMdEJ6RGJTenpDRzZYcTdyelM3VmE0Wmx2RFRmVXdCbzZOb2R5U0YxM19Z?oc=5",
+        "title": "ভুটানকে হারিয়ে সাফের ফাইনালে ভারত, অপেক্ষায় বাংলাদেশ-পাকিস্তান",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMGJXZF9xUnJvM2xzU1dxN2hHZnhCZlJhbXZldi1sR3p5NHdmNWZMcGVjakZmYzJ6Y2dHVmhzNEdYc3RUYk9XMVhNRjBRV1BHQWhEeHRLT3laQVF4U2labWk1R1NRaVcwTk8tbEkyclhHNE8xMlExQndkSnBGdURWX1hOdGI2dzRCenlONU9RMXNMdEJ6RGJTenpDRzZYcTdyelM3VmE0Wmx2RFRmVXdCbzZOb2R5U0YxM19Z?oc=5",
+        "source": "স্টার নিউজ",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 11:24:50 GMT",
+        "summary": "ভুটানকে হারিয়ে সাফের ফাইনালে ভারত, অপেক্ষায় বাংলাদেশ-পাকিস্তান &nbsp;&nbsp; স্টার নিউজ",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://starnews.com.bd/sports/28925/india-reaches-saff-final-after-defeating-bhutan-bangladesh-and-pakistan-await.html",
+        "imageAttemptedAt": "2026-11-14T11:51:48.114Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMimAZBVV95cUxNU0N3ZDV6ZXY1UUV5eHV3djE2eDFVNFRtY05TeTQ2NlJxTEdVZi1uQkZyZUVYS0cwMlBBMHluLUVMd2dfSXA4RHMtVlFIMEpiYWZsOFE2SHpueG5BTVh4RGd3YThqd0JVdWc2Q0lxdXV4ZE1pdThEVUxUbEo3LWU3TTlDUFBjU0hXQUZTak96MnZqWUo0YUNFSkhaa3BkZy0tWW9CMUpoOHltUWR5azZ2RVdVMFFmS1k0UTgwMVJTNW8yOFVjdDNpR1ZlU1JnX0t2clZVZUhxMGI5X3RadWZaR24zU1NaREdJNFVNYm5vSzVBdXBLbDhrZjRJYTFiMmFCTHQxRENwa3FwOWdRQl9IZUZHTFFjNmtnamFGdWhDSkhUX1pfZ3ktVUJ0UHoxUjNCVUx4VG16NWxsdlZ6RXRnRVB6TzQ4YnVXdnZqWEVka055MVNXeTU4am5ia28yMEw0XzVBN3Vfb0xaSGkyTFZnbUU1VVphS0E1SUNwZkh3NHlMODBIOXhjV29GWERVWGl0SkUycFV2NkpreUxaQWV4R2s3enE0Y2ROZzRmMUNZMXUwa2tBcDhfSkdITzI4WW1IWlVTWG9aUzVCWU16ejVQdWxiVEVneGcxVGMtS1ZCMGlaeTFVQkRmaGtMMVRUbk1vTVBqSDk3RG03N1pWeEVJYlhyTUJpMnJTSGsyUmZ3TmRSZXVsTXBGNWRfMTI4elJ1T0dtd3NhazVqaHhlSlRlMXlaSTMzSVZySThyRmwwbGtVbGJJNlU5cl96d2FVTVZWU0dtcnA0N0dUcmxHbDluOHJDcEtJUlktSG9DMU1NdmVuenJvUXNGVDlSOG1jZHJRM1hnR010MkJ6dnNZRGFrdmZhSC1ZbHN2czNVRTBleXkxdklUSDFnUGxvMV9QQnM4azVZZG9VLTRKaEVMNkE5LTdqem41bUFBeFU4SEVQR2ZVUC1NMHhmRlJPNjFOODRCc1huUmFTZUJNVG9mWDk0c0hiU2Y0alc3dnlFQkk3Sy0ycG1rNU1CR3poMGlXNXBSSkxNVU81T24?oc=5",
+        "title": "Bangladesh News | ঢাকায় ধানমন্ডি ৩২-এ শেখ মুজিবুরের বাড়ির সামনে থেকে উদ্ধার দুটি ককটেল ও চিরকুট | Zee 24 Ghanta #Zee24Ghanta #BangladeshNews #DhakaNews",
+        "link": "https://news.google.com/rss/articles/CBMimAZBVV95cUxNU0N3ZDV6ZXY1UUV5eHV3djE2eDFVNFRtY05TeTQ2NlJxTEdVZi1uQkZyZUVYS0cwMlBBMHluLUVMd2dfSXA4RHMtVlFIMEpiYWZsOFE2SHpueG5BTVh4RGd3YThqd0JVdWc2Q0lxdXV4ZE1pdThEVUxUbEo3LWU3TTlDUFBjU0hXQUZTak96MnZqWUo0YUNFSkhaa3BkZy0tWW9CMUpoOHltUWR5azZ2RVdVMFFmS1k0UTgwMVJTNW8yOFVjdDNpR1ZlU1JnX0t2clZVZUhxMGI5X3RadWZaR24zU1NaREdJNFVNYm5vSzVBdXBLbDhrZjRJYTFiMmFCTHQxRENwa3FwOWdRQl9IZUZHTFFjNmtnamFGdWhDSkhUX1pfZ3ktVUJ0UHoxUjNCVUx4VG16NWxsdlZ6RXRnRVB6TzQ4YnVXdnZqWEVka055MVNXeTU4am5ia28yMEw0XzVBN3Vfb0xaSGkyTFZnbUU1VVphS0E1SUNwZkh3NHlMODBIOXhjV29GWERVWGl0SkUycFV2NkpreUxaQWV4R2s3enE0Y2ROZzRmMUNZMXUwa2tBcDhfSkdITzI4WW1IWlVTWG9aUzVCWU16ejVQdWxiVEVneGcxVGMtS1ZCMGlaeTFVQkRmaGtMMVRUbk1vTVBqSDk3RG03N1pWeEVJYlhyTUJpMnJTSGsyUmZ3TmRSZXVsTXBGNWRfMTI4elJ1T0dtd3NhazVqaHhlSlRlMXlaSTMzSVZySThyRmwwbGtVbGJJNlU5cl96d2FVTVZWU0dtcnA0N0dUcmxHbDluOHJDcEtJUlktSG9DMU1NdmVuenJvUXNGVDlSOG1jZHJRM1hnR010MkJ6dnNZRGFrdmZhSC1ZbHN2czNVRTBleXkxdklUSDFnUGxvMV9QQnM4azVZZG9VLTRKaEVMNkE5LTdqem41bUFBeFU4SEVQR2ZVUC1NMHhmRlJPNjFOODRCc1huUmFTZUJNVG9mWDk0c0hiU2Y0alc3dnlFQkk3Sy0ycG1rNU1CR3poMGlXNXBSSkxNVU81T24?oc=5",
+        "source": "Facebook",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 10 Nov 2026 10:16:28 GMT",
+        "summary": "Bangladesh News | ঢাকায় ধানমন্ডি ৩২-এ শেখ মুজিবুরের বাড়ির সামনে থেকে উদ্ধার দুটি ককটেল ও চিরকুট | Zee 24 Ghanta #Zee24Ghanta #BangladeshNews #DhakaNews &nbsp;&nbsp; Facebook",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.facebook.com/Zee24Ghanta/posts/bangladesh-news-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF-%E0%A7%A9%E0%A7%A8-%E0%A6%8F-%E0%A6%B6%E0%A7%87%E0%A6%96-%E0%A6%AE%E0%A7%81%E0%A6%9C%E0%A6%BF%E0%A6%AC%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%9F%E0%A6%BF/1679798607510880/",
+        "imageAttemptedAt": "2026-11-14T07:44:58.313Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94M05mSUhoZWMtQlprWXZLQi1DeVd0SzJTYWxhTnpiYXVqQXdGMUZDV0ZNY28ya0JPZFNMZVdPN1RmU0pQcjJxMC1zUjJ2TXdK?oc=5",
+        "title": "বাংলাদেশ নয়, নিজেদের পরিকল্পনায় মনোযোগ দক্ষিণ আফ্রিকার :: এটিএন নিউজ",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94M05mSUhoZWMtQlprWXZLQi1DeVd0SzJTYWxhTnpiYXVqQXdGMUZDV0ZNY28ya0JPZFNMZVdPN1RmU0pQcjJxMC1zUjJ2TXdK?oc=5",
+        "source": "ATN News",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 05:49:10 GMT",
+        "summary": "বাংলাদেশ নয়, নিজেদের পরিকল্পনায় মনোযোগ দক্ষিণ আফ্রিকার :: এটিএন নিউজ &nbsp;&nbsp; ATN News",
+        "image": "https://www.atnnewstv.com/assets/img/full/33815.webp",
+        "articleUrl": "https://www.atnnewstv.com/details/33197",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYjZtamVDYUl1Qml6MzllYnI5ellhSkI0VXgxR2xfX1luOHhYUzAwTDJvbGZxbVZMcFdYN21jVTNRMzltbTFzUE1Da1Vqa2wtOFRJMmRJRUVpS3Q3Nng5bXZJRFo0eXNWd0UwZWdhMHZ5Mm1JaXd3b0RTNnJ3R3FNLThydjI3Qi1ldGhIYlJMd2RSMEk1T0pxa20xZ2NMZE56OVQ5c3I4N2UzaTZqTEF3Z1VWYWR0QWh3dl8tdVpaUE5KLTJaTlJsYmVjSHFRblXSAdQBQVVfeXFMUDZTOHQ3MWQxMkZxODBmRFhxRmJRXzJtdHZBUHpZSTNaWGtpOWp6b0FwR285WGxlUlNidTdheGlvT19iSXY3MGVmcHZkWUh0eTBaejN3blBfNXQzQzVFM3ZLNndsc18ta2tqUDFwUTVGTm5OU0ZsVDJKYUhjTHA1Mk5YX0tSbDFpSTNtMWRodkFFMDI1a0ZhV3l5dHJXZWsyWElqMURmOERBTEhDUjc2eWtnMkgxUXFUdFNTSDF3a3paWndYbFZVdmhWUm1CbWx2N2szVUI?oc=5",
+        "title": "গোপনে দেশে ফিরেছেন বহু আওয়ামী লিগ নেতা",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYjZtamVDYUl1Qml6MzllYnI5ellhSkI0VXgxR2xfX1luOHhYUzAwTDJvbGZxbVZMcFdYN21jVTNRMzltbTFzUE1Da1Vqa2wtOFRJMmRJRUVpS3Q3Nng5bXZJRFo0eXNWd0UwZWdhMHZ5Mm1JaXd3b0RTNnJ3R3FNLThydjI3Qi1ldGhIYlJMd2RSMEk1T0pxa20xZ2NMZE56OVQ5c3I4N2UzaTZqTEF3Z1VWYWR0QWh3dl8tdVpaUE5KLTJaTlJsYmVjSHFRblXSAdQBQVVfeXFMUDZTOHQ3MWQxMkZxODBmRFhxRmJRXzJtdHZBUHpZSTNaWGtpOWp6b0FwR285WGxlUlNidTdheGlvT19iSXY3MGVmcHZkWUh0eTBaejN3blBfNXQzQzVFM3ZLNndsc18ta2tqUDFwUTVGTm5OU0ZsVDJKYUhjTHA1Mk5YX0tSbDFpSTNtMWRodkFFMDI1a0ZhV3l5dHJXZWsyWElqMURmOERBTEhDUjc2eWtnMkgxUXFUdFNTSDF3a3paWndYbFZVdmhWUm1CbWx2N2szVUI?oc=5",
+        "source": "TheWall",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 12 Nov 2026 10:22:56 GMT",
+        "summary": "গোপনে দেশে ফিরেছেন বহু আওয়ামী লিগ নেতা &nbsp;&nbsp; TheWall",
+        "image": "https://s3.ap-south-1.amazonaws.com/statics.thewall.in/sites/default/files/styles/medium/public/2026-11/Bangladesh%20news%20today%20(8).jpeg.webp",
+        "articleUrl": "https://www.thewall.in/video-story/many-awami-league-leaders-secretly-returned-to-the-country-bangladesh-news-sheikh-hasina/tid/209244",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMixgVBVV95cUxPRl9zXzJwR2Y0S3RrNUV6SU16YVRuNFhIMjFrTHdPc2d3ZF9yemdKTnNTTERBYnFvVm9xWUhLTDdPa3gtTnV6UTN2TDNGYzVVQ2x3UjNjOE5OQU1iLVRuc2ZVbW1GQkZhdEJ4SWZQdk9JX1BicjI1cWdoMkdZblBXZGhJelFuSUJfMXF5OWlaR2xkZzJQc2ZPdjdkSlY3SzJkLTFVMWJsZU5HVXFJYmlIZWYxWm9Ha3NLVnlQbllCazBzYnA5U0V0bGRDQXZmTnE3WTljeVpsOFdwM0RjYktwSXh6cVNkX1RyQUlxSlp1TXFKSTJoTy10SE9MVkNEcEUxUC1zVWxGMzJTajl1M3ZaUFdFdkpkZHJjZFNsNjdoenhjbzFZeDhZS3NuYWVrRThCNmd1Skc4M1pQakV6MGNmdzdTblBTTmlyRWk0ZE0xNjhqY0ZoS1dKS1dJTnY1cWFyN2V0dkVhQlRyZF83QzJBczlwQ3NWTnp1RGc0RXdJM1BSQlExa01rcENFelVPbDBmM3Q5aUJ4elZyc0g4VHluMUxFQ3NyRFVHX2ljNnI2Snh0cWdrWjNsTTNmZU5CY1pESzcycjNZSXZPMUYzNVkxUFp6d2tkcUlvaEdhVW5tWG1PRkZtM2ROWi1IazhEbEJmcjZQMHV4WEdLTXVuWDNZZW9zTGZHNmhHNVZMczZrN1JqdzdzN29wd3ViUWdxVzNhcmMwTmkzRnRTOWtsaVlJLUtVbVN5VFN3amwtN0FTVFpnNGY2TVo0anl6UV9UQmx2YWx6dml6Mkg4UVBZajVUUkhhMzdjcWx1WHphbHNPaHZjRGE0aEZ5MkozVEFRdHRJTUc3Rnp4QUlENUVnd3U4U1kxUEVTakMxSUtzR2g5VGhFWTNuRS1IUE94N2RCM0FUYmNzWElpNWNRN3prV0JMSVhzNF9XQQ?oc=5",
+        "title": "জলবায়ু সংকট মোকাবিলায় আন্তর্জাতিক জোটে যুক্ত হলো বাংলাদেশ",
+        "link": "https://news.google.com/rss/articles/CBMixgVBVV95cUxPRl9zXzJwR2Y0S3RrNUV6SU16YVRuNFhIMjFrTHdPc2d3ZF9yemdKTnNTTERBYnFvVm9xWUhLTDdPa3gtTnV6UTN2TDNGYzVVQ2x3UjNjOE5OQU1iLVRuc2ZVbW1GQkZhdEJ4SWZQdk9JX1BicjI1cWdoMkdZblBXZGhJelFuSUJfMXF5OWlaR2xkZzJQc2ZPdjdkSlY3SzJkLTFVMWJsZU5HVXFJYmlIZWYxWm9Ha3NLVnlQbllCazBzYnA5U0V0bGRDQXZmTnE3WTljeVpsOFdwM0RjYktwSXh6cVNkX1RyQUlxSlp1TXFKSTJoTy10SE9MVkNEcEUxUC1zVWxGMzJTajl1M3ZaUFdFdkpkZHJjZFNsNjdoenhjbzFZeDhZS3NuYWVrRThCNmd1Skc4M1pQakV6MGNmdzdTblBTTmlyRWk0ZE0xNjhqY0ZoS1dKS1dJTnY1cWFyN2V0dkVhQlRyZF83QzJBczlwQ3NWTnp1RGc0RXdJM1BSQlExa01rcENFelVPbDBmM3Q5aUJ4elZyc0g4VHluMUxFQ3NyRFVHX2ljNnI2Snh0cWdrWjNsTTNmZU5CY1pESzcycjNZSXZPMUYzNVkxUFp6d2tkcUlvaEdhVW5tWG1PRkZtM2ROWi1IazhEbEJmcjZQMHV4WEdLTXVuWDNZZW9zTGZHNmhHNVZMczZrN1JqdzdzN29wd3ViUWdxVzNhcmMwTmkzRnRTOWtsaVlJLUtVbVN5VFN3amwtN0FTVFpnNGY2TVo0anl6UV9UQmx2YWx6dml6Mkg4UVBZajVUUkhhMzdjcWx1WHphbHNPaHZjRGE0aEZ5MkozVEFRdHRJTUc3Rnp4QUlENUVnd3U4U1kxUEVTakMxSUtzR2g5VGhFWTNuRS1IUE94N2RCM0FUYmNzWElpNWNRN3prV0JMSVhzNF9XQQ?oc=5",
+        "source": "Bahanno News",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 10:28:00 GMT",
+        "summary": "জলবায়ু সংকট মোকাবিলায় আন্তর্জাতিক জোটে যুক্ত হলো বাংলাদেশ &nbsp;&nbsp; Bahanno News",
+        "image": "https://www.bahannonews.com/uploads/f31926919e675e1156723e531428f070.jpg?fb=1",
+        "articleUrl": "https://www.bahannonews.com/details/article/10223585/%E0%A6%9C%E0%A6%B2%E0%A6%AC%E0%A6%BE%E0%A7%9F%E0%A7%81-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A6%9F-%E0%A6%AE%E0%A7%8B%E0%A6%95%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%9C%E0%A7%8B%E0%A6%9F%E0%A7%87-%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE11OWdidVRMVjJXa2NjQ0tRbUFqQ2Z1V0M5Q0RSLS1aVWs4c1N0N0dyb0xxYnhWeFZKa2E0WlI0ZW4?oc=5",
+        "title": "অভিযোজন খাতে বছরে ১২০ বিলিয়ন ডলার চায় বাংলাদেশ",
+        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE11OWdidVRMVjJXa2NjQ0tRbUFqQ2Z1V0M5Q0RSLS1aVWs4c1N0N0dyb0xxYnhWeFZKa2E0WlI0ZW4?oc=5",
+        "source": "Sunbd24",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 03:34:55 GMT",
+        "summary": "অভিযোজন খাতে বছরে ১২০ বিলিয়ন ডলার চায় বাংলাদেশ &nbsp;&nbsp; Sunbd24",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://sunbd24.com/421287/",
+        "imageAttemptedAt": "2026-11-14T05:31:46.730Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNnlEc3FtM2dLdTE0aDVhTG0wbVlEc0lMU1JtYWg0SXdXVTdNWEYtaDRDQlpELXZRbjMtWjdmaDNjZTM2V0JTRmFaMUc2ekJ3aDYwTExoU2I2dU5hUF9KMFktWlpEMjl4R0lMR2RPbkZpblg3SWl0bHJHX3BnQmZvLTlOT2N3bnpfRUhOc2FNX1QzSHF3R21vNXRhR3BiT0xpZElCWG90UzhhV3BTMDlfVk91MmhCUHYtUkk3SUxNNGVWdzhYbkEzOC1uSzF4czZCa21BMzBB0gHbAUFVX3lxTE1ZaXhIZ3FGNVFJX3ZXaWVHV0doMlFkWEMxOHhiVmxGMUo5R1VJTlN4di1paHZ1S051TEN4WW1raVRaSkFrU2M4LWw4a0U1TnZ0OXNuT3hKUENlaXhTZk1JS0M4MWdxSUtLbDAxSHJONWFEako5NlM0WTFVVjhFNlM5R2pSRGxjMWFWeXdKNnlRblV5ZWZQRDRPUVRIUml6WmtTMUFCTks0OHpkQlZJU2xzYkR1V3Rvc0RpNmJiMU5DRG44dGVwZUN4OV9UVmstVGRlZUFqMU9jRVpTUQ?oc=5",
+        "title": "Bangladesh news: পরপর বিস্ফোরণ, দাউ দাউ করে জ্বলছে একের পর এক বাস! হাসিনার ফেরার আগে ফের উত্তপ্ত...",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNnlEc3FtM2dLdTE0aDVhTG0wbVlEc0lMU1JtYWg0SXdXVTdNWEYtaDRDQlpELXZRbjMtWjdmaDNjZTM2V0JTRmFaMUc2ekJ3aDYwTExoU2I2dU5hUF9KMFktWlpEMjl4R0lMR2RPbkZpblg3SWl0bHJHX3BnQmZvLTlOT2N3bnpfRUhOc2FNX1QzSHF3R21vNXRhR3BiT0xpZElCWG90UzhhV3BTMDlfVk91MmhCUHYtUkk3SUxNNGVWdzhYbkEzOC1uSzF4czZCa21BMzBB0gHbAUFVX3lxTE1ZaXhIZ3FGNVFJX3ZXaWVHV0doMlFkWEMxOHhiVmxGMUo5R1VJTlN4di1paHZ1S051TEN4WW1raVRaSkFrU2M4LWw4a0U1TnZ0OXNuT3hKUENlaXhTZk1JS0M4MWdxSUtLbDAxSHJONWFEako5NlM0WTFVVjhFNlM5R2pSRGxjMWFWeXdKNnlRblV5ZWZQRDRPUVRIUml6WmtTMUFCTks0OHpkQlZJU2xzYkR1V3Rvc0RpNmJiMU5DRG44dGVwZUN4OV9UVmstVGRlZUFqMU9jRVpTUQ?oc=5",
+        "source": "TV9 Bangla",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 10 Nov 2026 06:20:09 GMT",
+        "summary": "Bangladesh news: পরপর বিস্ফোরণ, দাউ দাউ করে জ্বলছে একের পর এক বাস! হাসিনার ফেরার আগে ফের উত্তপ্ত... &nbsp;&nbsp; TV9 Bangla",
+        "image": "https://images.tv9bangla.com/wp-content/uploads/2026/11/Bus-Fire-News.jpg",
+        "articleUrl": "https://tv9bangla.com/world/bangladesh-unrest-bomb-explosions-bus-fires-raise-security-concerns-ahead-of-sheikh-hasinas-return-1359704.html",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNHg2bzFBQWR2RzQwblNXOU1ybWhnNHZ1dUdxa2xVSGsxYkJ4VTBmMWpJc1lYN0ZaMFBlU21WcjJXbDM0dVp0Rng4Q2RvaDM3MHhmUGNVOEJ3ZXJGR05mNnNHcFdwZS1sUTNrb0VwV1o3cEpkR0tyczJDZHJIcnhMWkU3X1FEMmNsMnFLai1ybktIVHlmc2NWMWdSeTFjTU5UOWs1VjhCYTZBUQ?oc=5",
+        "title": "সাফ টুর্নামেন্ট সম্প্রচার: বাংলাদেশের সক্ষমতার নতুন পরীক্ষা",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNHg2bzFBQWR2RzQwblNXOU1ybWhnNHZ1dUdxa2xVSGsxYkJ4VTBmMWpJc1lYN0ZaMFBlU21WcjJXbDM0dVp0Rng4Q2RvaDM3MHhmUGNVOEJ3ZXJGR05mNnNHcFdwZS1sUTNrb0VwV1o3cEpkR0tyczJDZHJIcnhMWkU3X1FEMmNsMnFLai1ybktIVHlmc2NWMWdSeTFjTU5UOWs1VjhCYTZBUQ?oc=5",
+        "source": "স্টার নিউজ",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 10:12:41 GMT",
+        "summary": "সাফ টুর্নামেন্ট সম্প্রচার: বাংলাদেশের সক্ষমতার নতুন পরীক্ষা &nbsp;&nbsp; স্টার নিউজ",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://starnews.com.bd/sports/28914/saff-tournament-broadcast-a-new-test-of-bangladeshs-capabilities.html",
+        "imageAttemptedAt": "2026-11-14T10:16:07.220Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      }
+    ],
     "food": [
       {
         "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JblJRTS03TWdfNEdBMzJwbDJ4SzIzX0VoVEJjV1lZSVEya21nbXVBRFlBTjBlQ2N3RmNnM1lvRVZ3MVpZcEI2T05kc3Y0cGxFWmNkR3VyWWpJRmtTUDBpb01tRzFXcWFv0gF2QVVfeXFMTzRTUFlmQl92STFzY0xjZnFHZDFleTdORF9fTnd4SElWXzU5X09PWmZKd1JSTlBjQzNxYTB3QVQwaWowYXBhU1c1Z1ZSaldnNU5tMVI0NC13R1lBOXhUY2FQeWJrMEZtTWVsZmJNM2pzb2hNSzZ5dw?oc=5",
@@ -891,6 +891,19 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5PV2NVMFNPOUFMQTdQazdybFV6SzlSd0Mtc1R2Ym1kamF6Q3BPQ25odnhEenh2UXROREJBeWhVbmlwdzVSQ2EzMDdOcw?oc=5",
+        "title": "রাতে কিডনি রোগীদের জন্য কোন তিন খাবার স্বাস্থ্যকর",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5PV2NVMFNPOUFMQTdQazdybFV6SzlSd0Mtc1R2Ym1kamF6Q3BPQ25odnhEenh2UXROREJBeWhVbmlwdzVSQ2EzMDdOcw?oc=5",
+        "source": "খোলা কাগজ অনলাইন",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 06:51:00 GMT",
+        "summary": "রাতে কিডনি রোগীদের জন্য কোন তিন খাবার স্বাস্থ্যকর &nbsp;&nbsp; খোলা কাগজ অনলাইন",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://kholakagojbd.com/news/54292",
+        "imageAttemptedAt": "2026-11-14T07:44:58.313Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rRlJhQm5iZEFFYXM3UU8yR1VHQ2xXOGxZdEUyNWhvZTBxMmh3MUs1SGNEc1dLNFgtN0pQN202R044dE8waTJKbi1HWnR1cWM5MWwzTGd2RFdlakU?oc=5",
         "title": "পবার এতিম শিশুর পাশে গ্লোবাল ওয়ান, দেওয়া হলো খাদ্য শিক্ষা ও চিকিৎসার সহায়তা",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rRlJhQm5iZEFFYXM3UU8yR1VHQ2xXOGxZdEUyNWhvZTBxMmh3MUs1SGNEc1dLNFgtN0pQN202R044dE8waTJKbi1HWnR1cWM5MWwzTGd2RFdlakU?oc=5",
@@ -927,19 +940,6 @@
         "image": "https://www.tbsnews.net/bangla/sites/default/files/styles/social_share/public/images/2024/11/07/inflation_photo.jpg",
         "articleUrl": "https://www.tbsnews.net/bangla/Economy/news-details-563381",
         "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5PV2NVMFNPOUFMQTdQazdybFV6SzlSd0Mtc1R2Ym1kamF6Q3BPQ25odnhEenh2UXROREJBeWhVbmlwdzVSQ2EzMDdOcw?oc=5",
-        "title": "রাতে কিডনি রোগীদের জন্য কোন তিন খাবার স্বাস্থ্যকর",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5PV2NVMFNPOUFMQTdQazdybFV6SzlSd0Mtc1R2Ym1kamF6Q3BPQ25odnhEenh2UXROREJBeWhVbmlwdzVSQ2EzMDdOcw?oc=5",
-        "source": "খোলা কাগজ অনলাইন",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 06:51:00 GMT",
-        "summary": "রাতে কিডনি রোগীদের জন্য কোন তিন খাবার স্বাস্থ্যকর &nbsp;&nbsp; খোলা কাগজ অনলাইন",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://kholakagojbd.com/news/54292",
-        "imageAttemptedAt": "2026-11-14T07:44:58.313Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -987,10 +987,10 @@
   "imageStats": {
     "total": 74,
     "fromRss": 0,
-    "fromArticleMetadata": 29,
-    "reusedCached": 21,
-    "actualPhotos": 29,
-    "fallbackIllustrations": 45,
+    "fromArticleMetadata": 23,
+    "reusedCached": 19,
+    "actualPhotos": 23,
+    "fallbackIllustrations": 51,
     "withImage": 74,
     "withoutImage": 0
   }
