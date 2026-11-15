@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-15T13:37:53.032Z",
+  "generatedAt": "2026-11-15T14:27:46.755Z",
   "sponsors": {
     "somoy": [
       {
@@ -348,6 +348,19 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWExWcFpjTmJlVjBvRHpaeXdhUExfQVlXczhlSlhmOF9xVGszT0s3SEZGZjQxYWpnSnk1blZsQmxrdGl6SWlXMWFsMnZvb2NUbkZzZE1CZVlyd0tyZ2Y4cEVnOXliM0t1ZEJnVFFjb3UyTXBaazRkYWJ0ZkpJWVM2VEJURGI0dnJH?oc=5",
+        "title": "দেশের খবর : ১৫ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWExWcFpjTmJlVjBvRHpaeXdhUExfQVlXczhlSlhmOF9xVGszT0s3SEZGZjQxYWpnSnk1blZsQmxrdGl6SWlXMWFsMnZvb2NUbkZzZE1CZVlyd0tyZ2Y4cEVnOXliM0t1ZEJnVFFjb3UyTXBaazRkYWJ0ZkpJWVM2VEJURGI0dnJH?oc=5",
+        "source": "NTV",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 15 Nov 2026 13:59:54 GMT",
+        "summary": "দেশের খবর : ১৫ নভেম্বর ২০২৬ &nbsp;&nbsp; Ntvbd",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.ntvbd.com/video/ntv-news/desher-khobor/desher-khobor-15-november-2026",
+        "imageAttemptedAt": "2026-11-15T14:27:48.653Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOFpxQzN4SE9wMHlqTWQydUxDRHZlbUxkRGtpVzM3RnRqZ0duMmY5Q3Y1ODNibUg5ZjNNRUpRUnlNZGFMV01Ic1pYNWhQeXFFVldlSkJ0WXFkeUI1OU1fUm9pa2QwYm5jZ3JCN2ZGb0hXTXd4cUZiMmxIQ1llRXlfVWJXVnl1NEVMZ3ZaejV3RnRsTlU?oc=5",
         "title": "মধ্যাহ্নের খবর : ১৫ নভেম্বর ২০২৬",
         "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOFpxQzN4SE9wMHlqTWQydUxDRHZlbUxkRGtpVzM3RnRqZ0duMmY5Q3Y1ODNibUg5ZjNNRUpRUnlNZGFMV01Ic1pYNWhQeXFFVldlSkJ0WXFkeUI1OU1fUm9pa2QwYm5jZ3JCN2ZGb0hXTXd4cUZiMmxIQ1llRXlfVWJXVnl1NEVMZ3ZaejV3RnRsTlU?oc=5",
@@ -423,19 +436,6 @@
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.ntvbd.com/video/ntv-news/shokaler-khobor/shokaler-khobor-15-november-2026",
         "imageAttemptedAt": "2026-11-15T11:13:13.376Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qdDR2eU1BV1ZSdmRBT2N1bExkMzJUcHFyQ2lwdF9SaEhGdUhBUzBDUUNLU0V3UjNzUlc1Y0E5SXlNeU1mdjhIR2RhUEhSZ21Xb3JuS1NUakREVlFEd2V6ZDM3NXVsNG1Zc1dsNA?oc=5",
-        "title": "অন্যরকম গল্প : পর্ব ২৬৩",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qdDR2eU1BV1ZSdmRBT2N1bExkMzJUcHFyQ2lwdF9SaEhGdUhBUzBDUUNLU0V3UjNzUlc1Y0E5SXlNeU1mdjhIR2RhUEhSZ21Xb3JuS1NUakREVlFEd2V6ZDM3NXVsNG1Zc1dsNA?oc=5",
-        "source": "NTV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 16:21:10 GMT",
-        "summary": "অন্যরকম গল্প : পর্ব ২৬৩ &nbsp;&nbsp; Ntvbd",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.ntvbd.com/onnorokom-golpo/onnorokom-golpo-ep-263",
-        "imageAttemptedAt": "2026-11-15T13:37:55.443Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -705,6 +705,138 @@
         "imageFallback": "news-fallbacks/world.svg"
       }
     ],
+    "bangladesh": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBESm5FaWF6amVkRVRPdnZnWnE2SDJtNy1TRnJzYlE0dXpYNnZzem04N1RwX1pVN3BhMkpwZjcwVEZwd0ExUFE3WW1CMlB3ZjZwdDRkZi1tVDRWVGpjY0hj?oc=5",
+        "title": "বাংলাদেশের মানুষের মধ্যে বই পড়ার প্রবণতা কম কেন?",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBESm5FaWF6amVkRVRPdnZnWnE2SDJtNy1TRnJzYlE0dXpYNnZzem04N1RwX1pVN3BhMkpwZjcwVEZwd0ExUFE3WW1CMlB3ZjZwdDRkZi1tVDRWVGpjY0hj?oc=5",
+        "source": "BBC",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 15 Nov 2026 07:04:21 GMT",
+        "summary": "বাংলাদেশের মানুষের মধ্যে বই পড়ার প্রবণতা কম কেন? &nbsp;&nbsp; BBC",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.bbc.com/bengali/articles/cxvg239806lmo",
+        "imageAttemptedAt": "2026-11-15T14:27:48.653Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRld2Y2JPWi1LSW1ybHdCMXhONGl0S0pnd1ViUlVMSVhNdlZfZ19hRnluTmdsVXB1QnlHS3JZamVfN0tNMVlyMkhlZDFFMzJIdS0wR1BXSk8tdGQ3M3QzS25nWEUwRnFHdVpySWRfaWRrQVN0Rkk5enVRVUZqcDVzWjlteE1OVnFQeEc2VlJLdnFtamRscXEwSkNWWlFka3B4V3BhSnhUT0R6bG5kVjJfajdpRVdMZldjLW1tZE04VUdCSXBvOUprbUp2UWJNMUpwY21jb1VJT0xPdExZX2ZDM2tqUW15UzRxMWfSAe8BQVVfeXFMTU5RTzhtX2JhNlZwbC1TaVYwejduZHpWSDJXTEZnV0xDTllXWXpkUk0tbWlmYVk3c1ZYZU85N0xKMHVFdTdleW9RTGVuU2lZYkJCY3B6bUhLQ1AwMHYwOHlyTFhQaXROUkN5WDE2a0NRWWJtRXFOLV9USW5MTnpGSFBiUGR2aEZrbENFclpkeTdka0xFT2FWM0RmQU11WUxZSTJLaFdnZER2VDJScVB3LUx1SEotaWdJWWYyRGhpdUljYVRQaXYwRmd6VDNDczhCTjlEUVBYbGZKdjhDRFU3U3J1QWV0WE5NRm0yZFBybTA?oc=5",
+        "title": "Bangladesh: 'হাসিনার প্রত্যাবর্তন নিশ্চিত করতে আইনি প্রক্রিয়া সম্পন্ন',জানালেন বাংলাদেশের আইনমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRld2Y2JPWi1LSW1ybHdCMXhONGl0S0pnd1ViUlVMSVhNdlZfZ19hRnluTmdsVXB1QnlHS3JZamVfN0tNMVlyMkhlZDFFMzJIdS0wR1BXSk8tdGQ3M3QzS25nWEUwRnFHdVpySWRfaWRrQVN0Rkk5enVRVUZqcDVzWjlteE1OVnFQeEc2VlJLdnFtamRscXEwSkNWWlFka3B4V3BhSnhUT0R6bG5kVjJfajdpRVdMZldjLW1tZE04VUdCSXBvOUprbUp2UWJNMUpwY21jb1VJT0xPdExZX2ZDM2tqUW15UzRxMWfSAe8BQVVfeXFMTU5RTzhtX2JhNlZwbC1TaVYwejduZHpWSDJXTEZnV0xDTllXWXpkUk0tbWlmYVk3c1ZYZU85N0xKMHVFdTdleW9RTGVuU2lZYkJCY3B6bUhLQ1AwMHYwOHlyTFhQaXROUkN5WDE2a0NRWWJtRXFOLV9USW5MTnpGSFBiUGR2aEZrbENFclpkeTdka0xFT2FWM0RmQU11WUxZSTJLaFdnZER2VDJScVB3LUx1SEotaWdJWWYyRGhpdUljYVRQaXYwRmd6VDNDczhCTjlEUVBYbGZKdjhDRFU3U3J1QWV0WE5NRm0yZFBybTA?oc=5",
+        "source": "ABP Ananda",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 15 Nov 2026 11:00:36 GMT",
+        "summary": "Bangladesh: 'হাসিনার প্রত্যাবর্তন নিশ্চিত করতে আইনি প্রক্রিয়া সম্পন্ন',জানালেন বাংলাদেশের আইনমন্ত্রী &nbsp;&nbsp; ABP Ananda",
+        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/15/87528274c5d4136635ffe46ef8b57bd91794740326833535_original.png?impolicy=abp_cdn&imwidth=1200",
+        "articleUrl": "https://bengali.abplive.com/videos/news/bangladesh-news-legal-process-completed-to-ensure-hasina-s-return-says-bangladesh-law-minister-watch-video-1199386",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONTNlUmk5a1l3Q2JlMkZLUHdydnJDUEE0OG51Sy1PN2NGRE5oa0ZaOVV1YzhtSE52SzdZcFJLSEp2endrNlV3cVhENUxBampKTFNRT1ROX2hLaUs0Um5FWE5zLWN5TThVb1NDS056Zk1ZaUwtR19iYnhNOUx1TFpTcGJfYTEwbGxBcTdUeDJCazQxVW5EXzQ1dFppVGp1dDY4UnJvdzJyRlFJUk85ak5RMW92QlNNQQ?oc=5",
+        "title": "বাংলাদেশে সমরাস্ত্র কারখানা স্থাপনে আগ্রহ প্রকাশ তুরস্কের",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONTNlUmk5a1l3Q2JlMkZLUHdydnJDUEE0OG51Sy1PN2NGRE5oa0ZaOVV1YzhtSE52SzdZcFJLSEp2endrNlV3cVhENUxBampKTFNRT1ROX2hLaUs0Um5FWE5zLWN5TThVb1NDS056Zk1ZaUwtR19iYnhNOUx1TFpTcGJfYTEwbGxBcTdUeDJCazQxVW5EXzQ1dFppVGp1dDY4UnJvdzJyRlFJUk85ak5RMW92QlNNQQ?oc=5",
+        "source": "স্টার নিউজ",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 15 Nov 2026 09:18:24 GMT",
+        "summary": "বাংলাদেশে সমরাস্ত্র কারখানা স্থাপনে আগ্রহ প্রকাশ তুরস্কের &nbsp;&nbsp; স্টার নিউজ",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://starnews.com.bd/national/28989/turkey-expresses-interest-in-establishing-an-arms-factory-in-bangladesh.html",
+        "imageAttemptedAt": "2026-11-15T13:37:55.443Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1LQzBreUZ5N3dyVy1QblpINURLQm9iLVFMQkhRVmJlNURvM0VWVVZXY0U4bkU4UTlYNjFwb2QzZUJ1NTgwRXFGV2pVaDdSUGJR?oc=5",
+        "title": "জলবায়ু মোকাবিলা ও নবায়নযোগ্য জ্বালানিতে ইইউর বিনিয়োগ চায় বাংলাদেশ :: এটিএন নিউজ",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1LQzBreUZ5N3dyVy1QblpINURLQm9iLVFMQkhRVmJlNURvM0VWVVZXY0U4bkU4UTlYNjFwb2QzZUJ1NTgwRXFGV2pVaDdSUGJR?oc=5",
+        "source": "ATN News",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 15 Nov 2026 10:39:33 GMT",
+        "summary": "জলবায়ু মোকাবিলা ও নবায়নযোগ্য জ্বালানিতে ইইউর বিনিয়োগ চায় বাংলাদেশ :: এটিএন নিউজ &nbsp;&nbsp; ATN News",
+        "image": "https://www.atnnewstv.com/assets/img/full/33838.webp",
+        "articleUrl": "https://www.atnnewstv.com/details/33217",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BQTNkQ1QzTFM4MWpUYzVaQUxrMktOdWFiRmZkZ0dpVnJ0Z3lGb0hDdnZ5U1kzQ0Q4T1NNandrcXRKMFRTUi1KYkFNYnhoTlpmMWF3Q0t3?oc=5",
+        "title": "ঐতিহাসিক ‘নিউ ওয়ান্ডারার্সে’ এবারই প্রথম বাংলাদেশের টেস্ট অভিযান",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BQTNkQ1QzTFM4MWpUYzVaQUxrMktOdWFiRmZkZ0dpVnJ0Z3lGb0hDdnZ5U1kzQ0Q4T1NNandrcXRKMFRTUi1KYkFNYnhoTlpmMWF3Q0t3?oc=5",
+        "source": "bdnews24.com",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 15 Nov 2026 08:15:00 GMT",
+        "summary": "ঐতিহাসিক ‘নিউ ওয়ান্ডারার্সে’ এবারই প্রথম বাংলাদেশের টেস্ট অভিযান &nbsp;&nbsp; bdnews24.com",
+        "image": "https://media.assettype.com/bdnews24/2026-11-15/jp86jxe5/Wanderers-Stadium-video-text-THUMB.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=https%3A%2F%2Fmedia.assettype.com%2Fbdnews24%2F2026-06-27%2Fm5wwkbzf%2F1024-bdnews-1725269350-1730989838.jpg&overlay_position=bottom&overlay_width=100",
+        "articleUrl": "https://bangla.bdnews24.com/tube/sk4mb1o7nj",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOSjB6TFFkcUJ1bDNOczB4UDk3X0xFd195aGFpVzJyVGJGcGZIbzNnRHQ4OVJXOTNFRzNHZTVzVFpZczhweFpfTkVzZU9XQ3E3TXQ5NEwyZllPMUg0Z2g5Z0d6aU8wcjJoMlZZY0hPWjhrYjNmMXFuWVR0NGU5N2dMTzRsVEMxV1lJWURMVmtpaGZLSlNraHBoM1Y3TXBzQ3hwMzJfLXpYcEs3MDYzOXVXYXNLWVpFZWRxWFJrYmpjM2p0ekhsYmc5d0ZaNGo0NjR2Rk5EbjN5Y2dNVkg1OW1rZzZMMEZpR2NPTUVjdmE4OElSV1kzM1RCVlpnVzQxV05XdzBIekF0blIxOWtBa1RQZHNHbDdFM2pWTXljbkhpZjZBVzMzXzhUblh6dWFkcVpwUnQwN2NPS1Jka1VyTDNNeHFXRmJyN0ZhZkllY1RR?oc=5",
+        "title": "সেমিফাইনাল থেকে বাংলাদেশের বিদায়",
+        "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOSjB6TFFkcUJ1bDNOczB4UDk3X0xFd195aGFpVzJyVGJGcGZIbzNnRHQ4OVJXOTNFRzNHZTVzVFpZczhweFpfTkVzZU9XQ3E3TXQ5NEwyZllPMUg0Z2g5Z0d6aU8wcjJoMlZZY0hPWjhrYjNmMXFuWVR0NGU5N2dMTzRsVEMxV1lJWURMVmtpaGZLSlNraHBoM1Y3TXBzQ3hwMzJfLXpYcEs3MDYzOXVXYXNLWVpFZWRxWFJrYmpjM2p0ekhsYmc5d0ZaNGo0NjR2Rk5EbjN5Y2dNVkg1OW1rZzZMMEZpR2NPTUVjdmE4OElSV1kzM1RCVlpnVzQxV05XdzBIekF0blIxOWtBa1RQZHNHbDdFM2pWTXljbkhpZjZBVzMzXzhUblh6dWFkcVpwUnQwN2NPS1Jka1VyTDNNeHFXRmJyN0ZhZkllY1RR?oc=5",
+        "source": "Dhaka News 24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 15 Nov 2026 07:00:54 GMT",
+        "summary": "সেমিফাইনাল থেকে বাংলাদেশের বিদায় &nbsp;&nbsp; Dhaka News 24",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.dhakanews24.com/%E0%A6%B8%E0%A7%87%E0%A6%AE%E0%A6%BF%E0%A6%AB%E0%A6%BE%E0%A6%87%E0%A6%A8%E0%A6%BE%E0%A6%B2-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6/",
+        "imageAttemptedAt": "2026-11-15T06:53:46.766Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSzZ5TFFqNkUtcWF0MXc3aXRsdnRDbkpNR2xTMXJIeTdzbVZtZGpRd2hSd3VlREllUHN6VEdwZHkwakNxUnphWHRnUzRtZFJGSzF5eTFQOGw3TUdVQm1DSldwOGRqRGJIeVNCVzZDaTllR0hUUUJqMUx5STRQRFcxY3VsQVhZejdKd1g00gGQAUFVX3lxTE1heF9XUVBNQy1ubEdXWkJGbV9lMm92a3dNVW00R1FiUWNKeUJGM3dFWDNBcExncXF3Um5RZGJHRXFhZm5lZVV3TFpBN2NDTzBWNEpCYzA4aHpnN3gyaEhZckdZVEJJZWlwU3hDUmZTcGUzNkVLaEdIMEplV2Y4VzNHMzMydjlBT0pLTDFYUjVMLQ?oc=5",
+        "title": "ভারত বিরোধিতার সুর চড়িয়েছেন তারেক",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSzZ5TFFqNkUtcWF0MXc3aXRsdnRDbkpNR2xTMXJIeTdzbVZtZGpRd2hSd3VlREllUHN6VEdwZHkwakNxUnphWHRnUzRtZFJGSzF5eTFQOGw3TUdVQm1DSldwOGRqRGJIeVNCVzZDaTllR0hUUUJqMUx5STRQRFcxY3VsQVhZejdKd1g00gGQAUFVX3lxTE1heF9XUVBNQy1ubEdXWkJGbV9lMm92a3dNVW00R1FiUWNKeUJGM3dFWDNBcExncXF3Um5RZGJHRXFhZm5lZVV3TFpBN2NDTzBWNEpCYzA4aHpnN3gyaEhZckdZVEJJZWlwU3hDUmZTcGUzNkVLaEdIMEplV2Y4VzNHMzMydjlBT0pLTDFYUjVMLQ?oc=5",
+        "source": "TheWall",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 14:55:17 GMT",
+        "summary": "ভারত বিরোধিতার সুর চড়িয়েছেন তারেক &nbsp;&nbsp; TheWall",
+        "image": "https://s3.ap-south-1.amazonaws.com/statics.thewall.in/sites/default/files/styles/medium/public/2026-11/Bangladesh%20News%20Tarique%20Rahman.jpeg.webp",
+        "articleUrl": "https://www.thewall.in/video-story/tarique-rahman-raises-anti-india-tone/tid/209431",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1oYjhXVFhxbV9fdThfTmFrRU56LXhLSDBRbUVPRVU1VHVoTTBDazRTbGdzeGkxZENYZ3dJbDJodEQ?oc=5",
+        "title": "টসে জিতে ব্যাটিংয়ে বাংলাদেশ",
+        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1oYjhXVFhxbV9fdThfTmFrRU56LXhLSDBRbUVPRVU1VHVoTTBDazRTbGdzeGkxZENYZ3dJbDJodEQ?oc=5",
+        "source": "Sunbd24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 15 Nov 2026 07:42:47 GMT",
+        "summary": "টসে জিতে ব্যাটিংয়ে বাংলাদেশ &nbsp;&nbsp; Sunbd24",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://sunbd24.com/421444/",
+        "imageAttemptedAt": "2026-11-15T09:40:24.395Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ydWxWa1dDVXBQUXpSWWRMd2FKbUJOeWlBc2VXM05TN0RVNjQya0ZMRmZKdHVOZ3YtRHBfWkR4Q1BsSzRUdnd5NTFDakxEa1hEUzFYTFBNaDZDdXMyYTV30gFkQVVfeXFMTWx1cTBwWHpEeHQ3N2lfZFY4MWhnZlcxcVA5UmRYQl8xaklGZ0VLejIyZmI4RWN3UGtEYXVGZUhYRWsyMHRfeEVOLWVhMzR4UWRYc1NWS1J6cFcyRXo1VlU0QmN2QQ?oc=5",
+        "title": "ভারতের সাথে বাংলাদেশের প্রত্যর্পণ চুক্তিতে আসলে কী আছে",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ydWxWa1dDVXBQUXpSWWRMd2FKbUJOeWlBc2VXM05TN0RVNjQya0ZMRmZKdHVOZ3YtRHBfWkR4Q1BsSzRUdnd5NTFDakxEa1hEUzFYTFBNaDZDdXMyYTV30gFkQVVfeXFMTWx1cTBwWHpEeHQ3N2lfZFY4MWhnZlcxcVA5UmRYQl8xaklGZ0VLejIyZmI4RWN3UGtEYXVGZUhYRWsyMHRfeEVOLWVhMzR4UWRYc1NWS1J6cFcyRXo1VlU0QmN2QQ?oc=5",
+        "source": "BBC",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 15 Nov 2026 01:38:27 GMT",
+        "summary": "ভারতের সাথে বাংলাদেশের প্রত্যর্পণ চুক্তিতে আসলে কী আছে &nbsp;&nbsp; BBC",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.bbc.com/bengali/articles/cj5y13ller4no",
+        "imageAttemptedAt": "2026-11-15T01:57:18.636Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOak9qMUJYdjNtdmxHdl9CU1Npc3djNzZBYUlRb1V3NVpBY2tKLTVjWHROWGJxWFFZY182NmRSd29wZl9WeDE0VWtKc25xak12Tk5CTjBPOUN5V2NKNjdUNnpGNXJNR0kxMnBIejItLVZsUE5MTlpucmUzaHRaOXg4WVZScnQyN2hYN1pYYTdGOGdsdWdSdFBNc1JEVE5reVVCRkZWQ2hnRS1vNlNXbmk0VG8wTzJhNEVob2NkS2lVaXJaTGtocFlBOF8zWmtha2_SAdwBQVVfeXFMTXo5VHdjM1hCbDBTclE4SFptOHV1cV80RFpXNHVXejNZbTRTcnNVMEFXalNaenBxMG5UdG9EQkNnSWtpcnRvZHo2V19qcUttYl9HUmxkNVJSdkxUZUh1Z1JJTG1RNGFPQ0FQZFZOS3NDTVBKUVo4d0oyV0dzU09BRm5OZUczb2V4c1lZU3dfV0lCM2RhSG9WeGhpVmFyajA1SG81Y0FwSS1RUVE4cHlHM2xYQUczR1RUTWpGYUNoaGNtZEFjN2d3dll0RjQ5bjVlWXo1NnNVbGNSTEJHTw?oc=5",
+        "title": "কারখানা বন্ধের হুমকি মালিকদের, ফের উত্তপ্ত ঢাকা, লাটে পোশাক শিল্প",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOak9qMUJYdjNtdmxHdl9CU1Npc3djNzZBYUlRb1V3NVpBY2tKLTVjWHROWGJxWFFZY182NmRSd29wZl9WeDE0VWtKc25xak12Tk5CTjBPOUN5V2NKNjdUNnpGNXJNR0kxMnBIejItLVZsUE5MTlpucmUzaHRaOXg4WVZScnQyN2hYN1pYYTdGOGdsdWdSdFBNc1JEVE5reVVCRkZWQ2hnRS1vNlNXbmk0VG8wTzJhNEVob2NkS2lVaXJaTGtocFlBOF8zWmtha2_SAdwBQVVfeXFMTXo5VHdjM1hCbDBTclE4SFptOHV1cV80RFpXNHVXejNZbTRTcnNVMEFXalNaenBxMG5UdG9EQkNnSWtpcnRvZHo2V19qcUttYl9HUmxkNVJSdkxUZUh1Z1JJTG1RNGFPQ0FQZFZOS3NDTVBKUVo4d0oyV0dzU09BRm5OZUczb2V4c1lZU3dfV0lCM2RhSG9WeGhpVmFyajA1SG81Y0FwSS1RUVE4cHlHM2xYQUczR1RUTWpGYUNoaGNtZEFjN2d3dll0RjQ5bjVlWXo1NnNVbGNSTEJHTw?oc=5",
+        "source": "Ei Samay",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 15 Nov 2026 01:31:11 GMT",
+        "summary": "কারখানা বন্ধের হুমকি মালিকদের, ফের উত্তপ্ত ঢাকা, লাটে পোশাক শিল্প &nbsp;&nbsp; Ei Samay",
+        "image": "https://cf-images.assettype.com/eisamay%2F2026-11-15%2F11q9sxic%2Fwews.webp?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+        "articleUrl": "https://eisamay.com/bangladesh-news/garment-owners-protest-in-bangladesh-escalates-police-workers-fight-seen-on-saturday/200566772.cms",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      }
+    ],
     "food": [
       {
         "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1RQUFQRld1SkkyelpfNjFzQ3BRQWRlaTdvTDBaSkM5RHQtTVZ2T2E0Y19uTFBSeUhnMDNqUGM2U2d6MjNJMk9PSUJLb2ZqdFBubVFRdg?oc=5",
@@ -836,148 +968,16 @@
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/food.svg"
       }
-    ],
-    "bangladesh": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ydWxWa1dDVXBQUXpSWWRMd2FKbUJOeWlBc2VXM05TN0RVNjQya0ZMRmZKdHVOZ3YtRHBfWkR4Q1BsSzRUdnd5NTFDakxEa1hEUzFYTFBNaDZDdXMyYTV30gFkQVVfeXFMTWx1cTBwWHpEeHQ3N2lfZFY4MWhnZlcxcVA5UmRYQl8xaklGZ0VLejIyZmI4RWN3UGtEYXVGZUhYRWsyMHRfeEVOLWVhMzR4UWRYc1NWS1J6cFcyRXo1VlU0QmN2QQ?oc=5",
-        "title": "ভারতের সাথে বাংলাদেশের প্রত্যর্পণ চুক্তিতে আসলে কী আছে",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ydWxWa1dDVXBQUXpSWWRMd2FKbUJOeWlBc2VXM05TN0RVNjQya0ZMRmZKdHVOZ3YtRHBfWkR4Q1BsSzRUdnd5NTFDakxEa1hEUzFYTFBNaDZDdXMyYTV30gFkQVVfeXFMTWx1cTBwWHpEeHQ3N2lfZFY4MWhnZlcxcVA5UmRYQl8xaklGZ0VLejIyZmI4RWN3UGtEYXVGZUhYRWsyMHRfeEVOLWVhMzR4UWRYc1NWS1J6cFcyRXo1VlU0QmN2QQ?oc=5",
-        "source": "BBC",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 15 Nov 2026 01:38:27 GMT",
-        "summary": "ভারতের সাথে বাংলাদেশের প্রত্যর্পণ চুক্তিতে আসলে কী আছে &nbsp;&nbsp; BBC",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.bbc.com/bengali/articles/cj5y13ller4no",
-        "imageAttemptedAt": "2026-11-15T01:57:18.636Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRld2Y2JPWi1LSW1ybHdCMXhONGl0S0pnd1ViUlVMSVhNdlZfZ19hRnluTmdsVXB1QnlHS3JZamVfN0tNMVlyMkhlZDFFMzJIdS0wR1BXSk8tdGQ3M3QzS25nWEUwRnFHdVpySWRfaWRrQVN0Rkk5enVRVUZqcDVzWjlteE1OVnFQeEc2VlJLdnFtamRscXEwSkNWWlFka3B4V3BhSnhUT0R6bG5kVjJfajdpRVdMZldjLW1tZE04VUdCSXBvOUprbUp2UWJNMUpwY21jb1VJT0xPdExZX2ZDM2tqUW15UzRxMWfSAe8BQVVfeXFMTU5RTzhtX2JhNlZwbC1TaVYwejduZHpWSDJXTEZnV0xDTllXWXpkUk0tbWlmYVk3c1ZYZU85N0xKMHVFdTdleW9RTGVuU2lZYkJCY3B6bUhLQ1AwMHYwOHlyTFhQaXROUkN5WDE2a0NRWWJtRXFOLV9USW5MTnpGSFBiUGR2aEZrbENFclpkeTdka0xFT2FWM0RmQU11WUxZSTJLaFdnZER2VDJScVB3LUx1SEotaWdJWWYyRGhpdUljYVRQaXYwRmd6VDNDczhCTjlEUVBYbGZKdjhDRFU3U3J1QWV0WE5NRm0yZFBybTA?oc=5",
-        "title": "Bangladesh: 'হাসিনার প্রত্যাবর্তন নিশ্চিত করতে আইনি প্রক্রিয়া সম্পন্ন',জানালেন বাংলাদেশের আইনমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRld2Y2JPWi1LSW1ybHdCMXhONGl0S0pnd1ViUlVMSVhNdlZfZ19hRnluTmdsVXB1QnlHS3JZamVfN0tNMVlyMkhlZDFFMzJIdS0wR1BXSk8tdGQ3M3QzS25nWEUwRnFHdVpySWRfaWRrQVN0Rkk5enVRVUZqcDVzWjlteE1OVnFQeEc2VlJLdnFtamRscXEwSkNWWlFka3B4V3BhSnhUT0R6bG5kVjJfajdpRVdMZldjLW1tZE04VUdCSXBvOUprbUp2UWJNMUpwY21jb1VJT0xPdExZX2ZDM2tqUW15UzRxMWfSAe8BQVVfeXFMTU5RTzhtX2JhNlZwbC1TaVYwejduZHpWSDJXTEZnV0xDTllXWXpkUk0tbWlmYVk3c1ZYZU85N0xKMHVFdTdleW9RTGVuU2lZYkJCY3B6bUhLQ1AwMHYwOHlyTFhQaXROUkN5WDE2a0NRWWJtRXFOLV9USW5MTnpGSFBiUGR2aEZrbENFclpkeTdka0xFT2FWM0RmQU11WUxZSTJLaFdnZER2VDJScVB3LUx1SEotaWdJWWYyRGhpdUljYVRQaXYwRmd6VDNDczhCTjlEUVBYbGZKdjhDRFU3U3J1QWV0WE5NRm0yZFBybTA?oc=5",
-        "source": "ABP Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 15 Nov 2026 11:00:36 GMT",
-        "summary": "Bangladesh: 'হাসিনার প্রত্যাবর্তন নিশ্চিত করতে আইনি প্রক্রিয়া সম্পন্ন',জানালেন বাংলাদেশের আইনমন্ত্রী &nbsp;&nbsp; ABP Ananda",
-        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/15/87528274c5d4136635ffe46ef8b57bd91794740326833535_original.png?impolicy=abp_cdn&imwidth=1200",
-        "articleUrl": "https://bengali.abplive.com/videos/news/bangladesh-news-legal-process-completed-to-ensure-hasina-s-return-says-bangladesh-law-minister-watch-video-1199386",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONTNlUmk5a1l3Q2JlMkZLUHdydnJDUEE0OG51Sy1PN2NGRE5oa0ZaOVV1YzhtSE52SzdZcFJLSEp2endrNlV3cVhENUxBampKTFNRT1ROX2hLaUs0Um5FWE5zLWN5TThVb1NDS056Zk1ZaUwtR19iYnhNOUx1TFpTcGJfYTEwbGxBcTdUeDJCazQxVW5EXzQ1dFppVGp1dDY4UnJvdzJyRlFJUk85ak5RMW92QlNNQQ?oc=5",
-        "title": "বাংলাদেশে সমরাস্ত্র কারখানা স্থাপনে আগ্রহ প্রকাশ তুরস্কের",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONTNlUmk5a1l3Q2JlMkZLUHdydnJDUEE0OG51Sy1PN2NGRE5oa0ZaOVV1YzhtSE52SzdZcFJLSEp2endrNlV3cVhENUxBampKTFNRT1ROX2hLaUs0Um5FWE5zLWN5TThVb1NDS056Zk1ZaUwtR19iYnhNOUx1TFpTcGJfYTEwbGxBcTdUeDJCazQxVW5EXzQ1dFppVGp1dDY4UnJvdzJyRlFJUk85ak5RMW92QlNNQQ?oc=5",
-        "source": "স্টার নিউজ",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 15 Nov 2026 09:18:24 GMT",
-        "summary": "বাংলাদেশে সমরাস্ত্র কারখানা স্থাপনে আগ্রহ প্রকাশ তুরস্কের &nbsp;&nbsp; স্টার নিউজ",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://starnews.com.bd/national/28989/turkey-expresses-interest-in-establishing-an-arms-factory-in-bangladesh.html",
-        "imageAttemptedAt": "2026-11-15T13:37:55.443Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1LQzBreUZ5N3dyVy1QblpINURLQm9iLVFMQkhRVmJlNURvM0VWVVZXY0U4bkU4UTlYNjFwb2QzZUJ1NTgwRXFGV2pVaDdSUGJR?oc=5",
-        "title": "জলবায়ু মোকাবিলা ও নবায়নযোগ্য জ্বালানিতে ইইউর বিনিয়োগ চায় বাংলাদেশ :: এটিএন নিউজ",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1LQzBreUZ5N3dyVy1QblpINURLQm9iLVFMQkhRVmJlNURvM0VWVVZXY0U4bkU4UTlYNjFwb2QzZUJ1NTgwRXFGV2pVaDdSUGJR?oc=5",
-        "source": "ATN News",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 15 Nov 2026 10:39:33 GMT",
-        "summary": "জলবায়ু মোকাবিলা ও নবায়নযোগ্য জ্বালানিতে ইইউর বিনিয়োগ চায় বাংলাদেশ :: এটিএন নিউজ &nbsp;&nbsp; ATN News",
-        "image": "https://www.atnnewstv.com/assets/img/full/33838.webp",
-        "articleUrl": "https://www.atnnewstv.com/details/33217",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BQTNkQ1QzTFM4MWpUYzVaQUxrMktOdWFiRmZkZ0dpVnJ0Z3lGb0hDdnZ5U1kzQ0Q4T1NNandrcXRKMFRTUi1KYkFNYnhoTlpmMWF3Q0t3?oc=5",
-        "title": "ঐতিহাসিক ‘নিউ ওয়ান্ডারার্সে’ এবারই প্রথম বাংলাদেশের টেস্ট অভিযান",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BQTNkQ1QzTFM4MWpUYzVaQUxrMktOdWFiRmZkZ0dpVnJ0Z3lGb0hDdnZ5U1kzQ0Q4T1NNandrcXRKMFRTUi1KYkFNYnhoTlpmMWF3Q0t3?oc=5",
-        "source": "bdnews24.com",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 15 Nov 2026 08:15:00 GMT",
-        "summary": "ঐতিহাসিক ‘নিউ ওয়ান্ডারার্সে’ এবারই প্রথম বাংলাদেশের টেস্ট অভিযান &nbsp;&nbsp; bdnews24.com",
-        "image": "https://media.assettype.com/bdnews24/2026-11-15/jp86jxe5/Wanderers-Stadium-video-text-THUMB.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=https%3A%2F%2Fmedia.assettype.com%2Fbdnews24%2F2026-06-27%2Fm5wwkbzf%2F1024-bdnews-1725269350-1730989838.jpg&overlay_position=bottom&overlay_width=100",
-        "articleUrl": "https://bangla.bdnews24.com/tube/sk4mb1o7nj",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOSjB6TFFkcUJ1bDNOczB4UDk3X0xFd195aGFpVzJyVGJGcGZIbzNnRHQ4OVJXOTNFRzNHZTVzVFpZczhweFpfTkVzZU9XQ3E3TXQ5NEwyZllPMUg0Z2g5Z0d6aU8wcjJoMlZZY0hPWjhrYjNmMXFuWVR0NGU5N2dMTzRsVEMxV1lJWURMVmtpaGZLSlNraHBoM1Y3TXBzQ3hwMzJfLXpYcEs3MDYzOXVXYXNLWVpFZWRxWFJrYmpjM2p0ekhsYmc5d0ZaNGo0NjR2Rk5EbjN5Y2dNVkg1OW1rZzZMMEZpR2NPTUVjdmE4OElSV1kzM1RCVlpnVzQxV05XdzBIekF0blIxOWtBa1RQZHNHbDdFM2pWTXljbkhpZjZBVzMzXzhUblh6dWFkcVpwUnQwN2NPS1Jka1VyTDNNeHFXRmJyN0ZhZkllY1RR?oc=5",
-        "title": "সেমিফাইনাল থেকে বাংলাদেশের বিদায়",
-        "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOSjB6TFFkcUJ1bDNOczB4UDk3X0xFd195aGFpVzJyVGJGcGZIbzNnRHQ4OVJXOTNFRzNHZTVzVFpZczhweFpfTkVzZU9XQ3E3TXQ5NEwyZllPMUg0Z2g5Z0d6aU8wcjJoMlZZY0hPWjhrYjNmMXFuWVR0NGU5N2dMTzRsVEMxV1lJWURMVmtpaGZLSlNraHBoM1Y3TXBzQ3hwMzJfLXpYcEs3MDYzOXVXYXNLWVpFZWRxWFJrYmpjM2p0ekhsYmc5d0ZaNGo0NjR2Rk5EbjN5Y2dNVkg1OW1rZzZMMEZpR2NPTUVjdmE4OElSV1kzM1RCVlpnVzQxV05XdzBIekF0blIxOWtBa1RQZHNHbDdFM2pWTXljbkhpZjZBVzMzXzhUblh6dWFkcVpwUnQwN2NPS1Jka1VyTDNNeHFXRmJyN0ZhZkllY1RR?oc=5",
-        "source": "Dhaka News 24",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 15 Nov 2026 07:00:54 GMT",
-        "summary": "সেমিফাইনাল থেকে বাংলাদেশের বিদায় &nbsp;&nbsp; Dhaka News 24",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.dhakanews24.com/%E0%A6%B8%E0%A7%87%E0%A6%AE%E0%A6%BF%E0%A6%AB%E0%A6%BE%E0%A6%87%E0%A6%A8%E0%A6%BE%E0%A6%B2-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6/",
-        "imageAttemptedAt": "2026-11-15T06:53:46.766Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSzZ5TFFqNkUtcWF0MXc3aXRsdnRDbkpNR2xTMXJIeTdzbVZtZGpRd2hSd3VlREllUHN6VEdwZHkwakNxUnphWHRnUzRtZFJGSzF5eTFQOGw3TUdVQm1DSldwOGRqRGJIeVNCVzZDaTllR0hUUUJqMUx5STRQRFcxY3VsQVhZejdKd1g00gGQAUFVX3lxTE1heF9XUVBNQy1ubEdXWkJGbV9lMm92a3dNVW00R1FiUWNKeUJGM3dFWDNBcExncXF3Um5RZGJHRXFhZm5lZVV3TFpBN2NDTzBWNEpCYzA4aHpnN3gyaEhZckdZVEJJZWlwU3hDUmZTcGUzNkVLaEdIMEplV2Y4VzNHMzMydjlBT0pLTDFYUjVMLQ?oc=5",
-        "title": "ভারত বিরোধিতার সুর চড়িয়েছেন তারেক",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSzZ5TFFqNkUtcWF0MXc3aXRsdnRDbkpNR2xTMXJIeTdzbVZtZGpRd2hSd3VlREllUHN6VEdwZHkwakNxUnphWHRnUzRtZFJGSzF5eTFQOGw3TUdVQm1DSldwOGRqRGJIeVNCVzZDaTllR0hUUUJqMUx5STRQRFcxY3VsQVhZejdKd1g00gGQAUFVX3lxTE1heF9XUVBNQy1ubEdXWkJGbV9lMm92a3dNVW00R1FiUWNKeUJGM3dFWDNBcExncXF3Um5RZGJHRXFhZm5lZVV3TFpBN2NDTzBWNEpCYzA4aHpnN3gyaEhZckdZVEJJZWlwU3hDUmZTcGUzNkVLaEdIMEplV2Y4VzNHMzMydjlBT0pLTDFYUjVMLQ?oc=5",
-        "source": "TheWall",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 14:55:17 GMT",
-        "summary": "ভারত বিরোধিতার সুর চড়িয়েছেন তারেক &nbsp;&nbsp; TheWall",
-        "image": "https://s3.ap-south-1.amazonaws.com/statics.thewall.in/sites/default/files/styles/medium/public/2026-11/Bangladesh%20News%20Tarique%20Rahman.jpeg.webp",
-        "articleUrl": "https://www.thewall.in/video-story/tarique-rahman-raises-anti-india-tone/tid/209431",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi7AVBVV95cUxNNlR2ZUVfQ2hzTGxxb201X1BhRnBINVZyU1FIdm5oRlpVcTZ1TUV4NnNFLWRNdldXcThNbnpLaGF2ak5JeGhDZUYxMzlMeUZSeE9jQ2lkZVJZU3NBSXpsZ09NZjhLMXNKVW5LcEQ2a3dsOGtkdzRGMWJtb0ZHSWtIeEZTSVExd3R4RGpLTVNQYjRrSWhKSEMtWG5xWE54Y3dzbkJ3V1liZXl6R0tleFdLRkNzMkk0Um9KU2Jxa3g1amFjWm9kNVpJTGtiU1NHM3JPNHBmYUU3ekp3bi03TW4yYnJrZ3BLVl9ZZTdOVnhOaVRFczB5ZFVFdFN1Q1NjdXlsclRrQU02VnBlNi1VY1poRDJLUHpRc3FrNWZSbGx6UUxBUVhLdGgxOVdyV0kwRUdodm1pZnE3QnlLVlIzNW9vczJJMlN6SFNreVpfOFplMlNRZXAyQkhBQm4xLWdZMjY5YTdPcjd3bGFhT01OcHNWZFctNTV2NS1UUWJ4THY1VTVDWk1PV0Q4eGxBd1ZDazVkb2hFdVdxVlp1dFF4TlJsWkRzNHN0UzNwdHBWM3F3QktGdFhKUWpOdm1TSFpRUldYbzFyQnh5VWh0VG1lMldBRFl0UW1tMEh6bjRRcTFMSnBXWllDTml0cThqdFNib0pWcngzX2Q3WlZhcUJ5TzVBbkZsaTJGOVI1cU5FWlVRMF9XZHJleS1wUjk0anBPd0k1a2FfaUdCUlFUOVV6dkNRc25lVmFpb1VSQk9zUXJZWC0tUEo0VWdVeDBNOXo2eDF5SDVRZ2lQTEo0ZkZ3SjVfRGs4Qm53MW5UcFBSMGRVdUc1MVc0QjB3eFpxbTF2eTctdFNzWTVQM2RXZFhsMGlmWV91NjBjdmY4aW84cWFCa2sxUVQ0d25oS1dVT1gzM1ZSeWhiV0hRLUp3UEVVRmt4NmVUc1ZtSU9wTjJoYWI2YXZudHk3dWszV2xjeXhvSVFTdjV5T0FlanlBM241?oc=5",
-        "title": "তুরস্কের সক্ষমতায় যা রয়েছে বাংলাদেশের জন্য আমি তা করবো : এরদোয়ান",
-        "link": "https://news.google.com/rss/articles/CBMi7AVBVV95cUxNNlR2ZUVfQ2hzTGxxb201X1BhRnBINVZyU1FIdm5oRlpVcTZ1TUV4NnNFLWRNdldXcThNbnpLaGF2ak5JeGhDZUYxMzlMeUZSeE9jQ2lkZVJZU3NBSXpsZ09NZjhLMXNKVW5LcEQ2a3dsOGtkdzRGMWJtb0ZHSWtIeEZTSVExd3R4RGpLTVNQYjRrSWhKSEMtWG5xWE54Y3dzbkJ3V1liZXl6R0tleFdLRkNzMkk0Um9KU2Jxa3g1amFjWm9kNVpJTGtiU1NHM3JPNHBmYUU3ekp3bi03TW4yYnJrZ3BLVl9ZZTdOVnhOaVRFczB5ZFVFdFN1Q1NjdXlsclRrQU02VnBlNi1VY1poRDJLUHpRc3FrNWZSbGx6UUxBUVhLdGgxOVdyV0kwRUdodm1pZnE3QnlLVlIzNW9vczJJMlN6SFNreVpfOFplMlNRZXAyQkhBQm4xLWdZMjY5YTdPcjd3bGFhT01OcHNWZFctNTV2NS1UUWJ4THY1VTVDWk1PV0Q4eGxBd1ZDazVkb2hFdVdxVlp1dFF4TlJsWkRzNHN0UzNwdHBWM3F3QktGdFhKUWpOdm1TSFpRUldYbzFyQnh5VWh0VG1lMldBRFl0UW1tMEh6bjRRcTFMSnBXWllDTml0cThqdFNib0pWcngzX2Q3WlZhcUJ5TzVBbkZsaTJGOVI1cU5FWlVRMF9XZHJleS1wUjk0anBPd0k1a2FfaUdCUlFUOVV6dkNRc25lVmFpb1VSQk9zUXJZWC0tUEo0VWdVeDBNOXo2eDF5SDVRZ2lQTEo0ZkZ3SjVfRGs4Qm53MW5UcFBSMGRVdUc1MVc0QjB3eFpxbTF2eTctdFNzWTVQM2RXZFhsMGlmWV91NjBjdmY4aW84cWFCa2sxUVQ0d25oS1dVT1gzM1ZSeWhiV0hRLUp3UEVVRmt4NmVUc1ZtSU9wTjJoYWI2YXZudHk3dWszV2xjeXhvSVFTdjV5T0FlanlBM241?oc=5",
-        "source": "Bahanno News",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 15 Nov 2026 09:05:00 GMT",
-        "summary": "তুরস্কের সক্ষমতায় যা রয়েছে বাংলাদেশের জন্য আমি তা করবো : এরদোয়ান &nbsp;&nbsp; Bahanno News",
-        "image": "https://www.bahannonews.com/uploads/7af05bdacaaa1d47ba5873fe6170bf56.jpg?fb=1",
-        "articleUrl": "https://www.bahannonews.com/details/article/10223701/%E0%A6%A4%E0%A7%81%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%AE%E0%A6%A4%E0%A6%BE%E0%A7%9F-%E0%A6%AF%E0%A6%BE-%E0%A6%B0%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%86%E0%A6%AE%E0%A6%BF-%E0%A6%A4%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A6%AC%E0%A7%8B-%E0%A6%8F%E0%A6%B0%E0%A6%A6%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%A8/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1oYjhXVFhxbV9fdThfTmFrRU56LXhLSDBRbUVPRVU1VHVoTTBDazRTbGdzeGkxZENYZ3dJbDJodEQ?oc=5",
-        "title": "টসে জিতে ব্যাটিংয়ে বাংলাদেশ",
-        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1oYjhXVFhxbV9fdThfTmFrRU56LXhLSDBRbUVPRVU1VHVoTTBDazRTbGdzeGkxZENYZ3dJbDJodEQ?oc=5",
-        "source": "Sunbd24",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 15 Nov 2026 07:42:47 GMT",
-        "summary": "টসে জিতে ব্যাটিংয়ে বাংলাদেশ &nbsp;&nbsp; Sunbd24",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://sunbd24.com/421444/",
-        "imageAttemptedAt": "2026-11-15T09:40:24.395Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOak9qMUJYdjNtdmxHdl9CU1Npc3djNzZBYUlRb1V3NVpBY2tKLTVjWHROWGJxWFFZY182NmRSd29wZl9WeDE0VWtKc25xak12Tk5CTjBPOUN5V2NKNjdUNnpGNXJNR0kxMnBIejItLVZsUE5MTlpucmUzaHRaOXg4WVZScnQyN2hYN1pYYTdGOGdsdWdSdFBNc1JEVE5reVVCRkZWQ2hnRS1vNlNXbmk0VG8wTzJhNEVob2NkS2lVaXJaTGtocFlBOF8zWmtha2_SAdwBQVVfeXFMTXo5VHdjM1hCbDBTclE4SFptOHV1cV80RFpXNHVXejNZbTRTcnNVMEFXalNaenBxMG5UdG9EQkNnSWtpcnRvZHo2V19qcUttYl9HUmxkNVJSdkxUZUh1Z1JJTG1RNGFPQ0FQZFZOS3NDTVBKUVo4d0oyV0dzU09BRm5OZUczb2V4c1lZU3dfV0lCM2RhSG9WeGhpVmFyajA1SG81Y0FwSS1RUVE4cHlHM2xYQUczR1RUTWpGYUNoaGNtZEFjN2d3dll0RjQ5bjVlWXo1NnNVbGNSTEJHTw?oc=5",
-        "title": "কারখানা বন্ধের হুমকি মালিকদের, ফের উত্তপ্ত ঢাকা, লাটে পোশাক শিল্প",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOak9qMUJYdjNtdmxHdl9CU1Npc3djNzZBYUlRb1V3NVpBY2tKLTVjWHROWGJxWFFZY182NmRSd29wZl9WeDE0VWtKc25xak12Tk5CTjBPOUN5V2NKNjdUNnpGNXJNR0kxMnBIejItLVZsUE5MTlpucmUzaHRaOXg4WVZScnQyN2hYN1pYYTdGOGdsdWdSdFBNc1JEVE5reVVCRkZWQ2hnRS1vNlNXbmk0VG8wTzJhNEVob2NkS2lVaXJaTGtocFlBOF8zWmtha2_SAdwBQVVfeXFMTXo5VHdjM1hCbDBTclE4SFptOHV1cV80RFpXNHVXejNZbTRTcnNVMEFXalNaenBxMG5UdG9EQkNnSWtpcnRvZHo2V19qcUttYl9HUmxkNVJSdkxUZUh1Z1JJTG1RNGFPQ0FQZFZOS3NDTVBKUVo4d0oyV0dzU09BRm5OZUczb2V4c1lZU3dfV0lCM2RhSG9WeGhpVmFyajA1SG81Y0FwSS1RUVE4cHlHM2xYQUczR1RUTWpGYUNoaGNtZEFjN2d3dll0RjQ5bjVlWXo1NnNVbGNSTEJHTw?oc=5",
-        "source": "Ei Samay",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 15 Nov 2026 01:31:11 GMT",
-        "summary": "কারখানা বন্ধের হুমকি মালিকদের, ফের উত্তপ্ত ঢাকা, লাটে পোশাক শিল্প &nbsp;&nbsp; Ei Samay",
-        "image": "https://cf-images.assettype.com/eisamay%2F2026-11-15%2F11q9sxic%2Fwews.webp?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-        "articleUrl": "https://eisamay.com/bangladesh-news/garment-owners-protest-in-bangladesh-escalates-police-workers-fight-seen-on-saturday/200566772.cms",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      }
     ]
   },
   "sourceErrors": [],
   "imageStats": {
     "total": 73,
     "fromRss": 0,
-    "fromArticleMetadata": 21,
-    "reusedCached": 18,
-    "actualPhotos": 21,
-    "fallbackIllustrations": 52,
+    "fromArticleMetadata": 20,
+    "reusedCached": 20,
+    "actualPhotos": 20,
+    "fallbackIllustrations": 53,
     "withImage": 73,
     "withoutImage": 0
   }
