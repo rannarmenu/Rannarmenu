@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-16T20:32:44.471Z",
+  "generatedAt": "2026-11-16T21:30:39.016Z",
   "sponsors": {
     "somoy": [
       {
@@ -307,6 +307,7 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
+    "channel24": [],
     "jamuna": [
       {
         "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
@@ -438,8 +439,7 @@
         "imageAttemptedAt": "2026-11-16T10:01:27.522Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
-    ],
-    "channel24": []
+    ]
   },
   "categories": {
     "international": [
@@ -457,19 +457,6 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00UTJiNHZ4UFhma2FNaWtnYTd2NlVGX0ZGaElCZ3kzTzIxY2NmaTJnQ1ZEYjRvd2VMbGt3YlE3bkxlZzdxaF9qcEpxZWJDcm9KTmR1UUw5SWh2a00?oc=5",
-        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৪ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00UTJiNHZ4UFhma2FNaWtnYTd2NlVGX0ZGaElCZ3kzTzIxY2NmaTJnQ1ZEYjRvd2VMbGt3YlE3bkxlZzdxaF9qcEpxZWJDcm9KTmR1UUw5SWh2a00?oc=5",
-        "source": "Somoy News",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 18:26:05 GMT",
-        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
-        "image": "https://img.youtube.com/vi/_XJ2HPtyUWk/maxresdefault.jpg",
-        "articleUrl": "https://somoynews.com.bd/video/latest-video/416",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQWtkRVg5REJvYmh3MGNjM1dHNG5rMFM2RklXNkp5VU1yb01QN1BESVNSWEwtQWVSOG5IUTd6Y2RDR1g4c3B6c042OWJlZ1BuMUhyNzdhUHlfSGV5YTA2RmV0bDg4NHg2WWJ5LXRZNk1ObEQyVkdDb1hYNnZweTZYYXhoeDBsMjhnRFJxQzR6eGtfQ19kLVBlZE9rU3FjRW0yUlFaaGliVQ?oc=5",
         "title": "আন্তর্জাতিক ফুটবলকে বিদায় জানালেন বেলজিয়ামের সর্বোচ্চ গোলদাতা লুকাকু",
         "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQWtkRVg5REJvYmh3MGNjM1dHNG5rMFM2RklXNkp5VU1yb01QN1BESVNSWEwtQWVSOG5IUTd6Y2RDR1g4c3B6c042OWJlZ1BuMUhyNzdhUHlfSGV5YTA2RmV0bDg4NHg2WWJ5LXRZNk1ObEQyVkdDb1hYNnZweTZYYXhoeDBsMjhnRFJxQzR6eGtfQ19kLVBlZE9rU3FjRW0yUlFaaGliVQ?oc=5",
@@ -480,6 +467,19 @@
         "image": "news-fallbacks/world.svg",
         "articleUrl": "https://starnews.com.bd/sports/29101/belgiums-top-scorer-lukaku-retires-from-international-football.html",
         "imageAttemptedAt": "2026-11-16T20:32:57.761Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00UTJiNHZ4UFhma2FNaWtnYTd2NlVGX0ZGaElCZ3kzTzIxY2NmaTJnQ1ZEYjRvd2VMbGt3YlE3bkxlZzdxaF9qcEpxZWJDcm9KTmR1UUw5SWh2a00?oc=5",
+        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৪ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00UTJiNHZ4UFhma2FNaWtnYTd2NlVGX0ZGaElCZ3kzTzIxY2NmaTJnQ1ZEYjRvd2VMbGt3YlE3bkxlZzdxaF9qcEpxZWJDcm9KTmR1UUw5SWh2a00?oc=5",
+        "source": "Somoy News",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 18:26:05 GMT",
+        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
+        "image": "https://img.youtube.com/vi/_XJ2HPtyUWk/maxresdefault.jpg",
+        "articleUrl": "https://somoynews.com.bd/video/latest-video/416",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
@@ -496,6 +496,19 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mMmhlZDlYLVdxeEhEeGNheGNwUkV6TmdYZl9PYlBuVElybVQxQmZ4Sm9GVk0wdVZyMElLZU14bzBtNXBkNkhoZUxQb3JHZVhHSi1nd1EtcjZTS1NPaUdvVDRlSQ?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৫ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mMmhlZDlYLVdxeEhEeGNheGNwUkV6TmdYZl9PYlBuVElybVQxQmZ4Sm9GVk0wdVZyMElLZU14bzBtNXBkNkhoZUxQb3JHZVhHSi1nd1EtcjZTS1NPaUdvVDRlSQ?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 15 Nov 2026 16:08:47 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৫ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1179877",
+        "imageAttemptedAt": "2026-11-16T21:30:41.196Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOYmROczRuSTctdjhNcHFnbHBQWFpTMzZHdXczZy1wcVAtZW9waVhRbUlYR0pYb0VvS29JZjh0VTZXWVdkY0pVYUpLUXAyYzdIMnpKdU53Yl9vM05GbUo0cUFIZE11ekctQW9YUWZydEZiekFlaWF2TFNVVHZiVTdjYXI2cHcxZW5lellQLTBtUFdFc2pxd1ZRbTFSVVI0eENKWko4Rndqcjk3N2lKME9CNEtlRTBiUlg2SzFtendrLUlfR1NJYTItUGFiOWJMc2ZCTG1Ia2djOEZ2WHViRndfRXZwcUdHQlZBNHBSRUR1elFQT3RTQVVuQWd1Tkg5WTdTM1BkM3lHUHkzb0FvVVJxV0NPc3VEdnFlcllZb0NxOXZ6ZF9lMVAxN09jRmFQWDdTaUV5U2huWWJ5b2dJWENNVWVHZ2REMGZ5RVdiaW9pOA?oc=5",
         "title": "আন্তর্জাতিক সব খবর l Deepto TV World News l 25 October 2026 l International News Bulletin",
         "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOYmROczRuSTctdjhNcHFnbHBQWFpTMzZHdXczZy1wcVAtZW9waVhRbUlYR0pYb0VvS29JZjh0VTZXWVdkY0pVYUpLUXAyYzdIMnpKdU53Yl9vM05GbUo0cUFIZE11ekctQW9YUWZydEZiekFlaWF2TFNVVHZiVTdjYXI2cHcxZW5lellQLTBtUFdFc2pxd1ZRbTFSVVI0eENKWko4Rndqcjk3N2lKME9CNEtlRTBiUlg2SzFtendrLUlfR1NJYTItUGFiOWJMc2ZCTG1Ia2djOEZ2WHViRndfRXZwcUdHQlZBNHBSRUR1elFQT3RTQVVuQWd1Tkg5WTdTM1BkM3lHUHkzb0FvVVJxV0NPc3VEdnFlcllZb0NxOXZ6ZF9lMVAxN09jRmFQWDdTaUV5U2huWWJ5b2dJWENNVWVHZ2REMGZ5RVdiaW9pOA?oc=5",
@@ -506,19 +519,6 @@
         "image": "https://vf73y28mr2.gpcdn.net/deepto-news/2022/10/deepto-og-image.jpeg",
         "articleUrl": "https://deeptonews.com/video/%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%B8%E0%A6%AC-%E0%A6%96%E0%A6%AC%E0%A6%B0-l-deepto-tv-world-news-l-25-october-2026-l-internatio/",
         "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TcTZPZURFVVRQTUZfb05LLWljTF95QnZuZ2xwS3QyRGRKRzdBMUhLZ0hTLWN1RXI3M1VrR255bllvMTBLWm5oY19SUFlpTTVwdkhHb2g2aFdQRm5FM25ZbldmVQ?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১১ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TcTZPZURFVVRQTUZfb05LLWljTF95QnZuZ2xwS3QyRGRKRzdBMUhLZ0hTLWN1RXI3M1VrR255bllvMTBLWm5oY19SUFlpTTVwdkhHb2g2aFdQRm5FM25ZbldmVQ?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 11 Nov 2026 15:53:38 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১১ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1178453",
-        "imageAttemptedAt": "2026-11-16T20:32:57.761Z",
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
@@ -535,6 +535,19 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TcTZPZURFVVRQTUZfb05LLWljTF95QnZuZ2xwS3QyRGRKRzdBMUhLZ0hTLWN1RXI3M1VrR255bllvMTBLWm5oY19SUFlpTTVwdkhHb2g2aFdQRm5FM25ZbldmVQ?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১১ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TcTZPZURFVVRQTUZfb05LLWljTF95QnZuZ2xwS3QyRGRKRzdBMUhLZ0hTLWN1RXI3M1VrR255bllvMTBLWm5oY19SUFlpTTVwdkhHb2g2aFdQRm5FM25ZbldmVQ?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 11 Nov 2026 15:53:38 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১১ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1178453",
+        "imageAttemptedAt": "2026-11-16T20:32:57.761Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KMnljdUdKMjRUX2dIOV9YNHNDNmFONE45b1VSZ0dSc1RBWktDTTh3R25oY0FhWkN5WUdkRkViRWNKOTI0bmNBSUxIZWM2QUFzUURKMlJtTkRBRmM?oc=5",
         "title": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ১১ নভেম্বর ২০২৬",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KMnljdUdKMjRUX2dIOV9YNHNDNmFONE45b1VSZ0dSc1RBWktDTTh3R25oY0FhWkN5WUdkRkViRWNKOTI0bmNBSUxIZWM2QUFzUURKMlJtTkRBRmM?oc=5",
@@ -545,19 +558,6 @@
         "image": "https://img.youtube.com/vi/hX7YodofjKk/maxresdefault.jpg",
         "articleUrl": "https://somoynews.com.bd/video/latest-video/381",
         "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRQklOY3Z1bUNwSTQweC00R2l0Skg2aGJ5S29ZVC1KLUYzcFptZ2ExQ0psOTNwY1J0V1diZDcySXVEeFg2ZnBQTUEyYjNzb1hpbzMtUHk5V1g1VU9VM2YweGlsVQ?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৭ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRQklOY3Z1bUNwSTQweC00R2l0Skg2aGJ5S29ZVC1KLUYzcFptZ2ExQ0psOTNwY1J0V1diZDcySXVEeFg2ZnBQTUEyYjNzb1hpbzMtUHk5V1g1VU9VM2YweGlsVQ?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 07 Nov 2026 08:00:00 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৭ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1176824",
-        "imageAttemptedAt": "2026-11-16T20:32:57.761Z",
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
@@ -628,6 +628,19 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44S0VrTG1mdzRiQWdkQjFrb3ZDV3FOY2h1anZkTWxvczdqaEJ2Z1NJc0kzZmpOYVNkbFhuSU82NFF4VC1uMzRnaVZOMHNrZW1ZUGhqQnY1cFRCMXlmQ0dLOGk5Z2wtU0JZZ0ZCSw?oc=5",
+        "title": "ভ্রাম্যমাণ ল্যাবে হবে খাদ্য পরীক্ষা, ৩৯০ কোটি টাকার ভ্যান কিনতে চায় নিরাপদ খাদ্য কর্তৃপক্ষ",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44S0VrTG1mdzRiQWdkQjFrb3ZDV3FOY2h1anZkTWxvczdqaEJ2Z1NJc0kzZmpOYVNkbFhuSU82NFF4VC1uMzRnaVZOMHNrZW1ZUGhqQnY1cFRCMXlmQ0dLOGk5Z2wtU0JZZ0ZCSw?oc=5",
+        "source": "দ্য ডেইলি স্টার বাংলা",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 16 Nov 2026 11:17:38 GMT",
+        "summary": "ভ্রাম্যমাণ ল্যাবে হবে খাদ্য পরীক্ষা, ৩৯০ কোটি টাকার ভ্যান কিনতে চায় নিরাপদ খাদ্য কর্তৃপক্ষ &nbsp;&nbsp; দ্য ডেইলি স্টার বাংলা",
+        "image": "https://bangla.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/food-safety.jpg",
+        "articleUrl": "https://bangla.thedailystar.net/news/bangladesh/news-3981146",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ1A5UmdZVXEtYnQ3RDVBNEZBVDhnYWxaWWRfZEQzR21XMzNXcmVUYWxUdU1MVWxjN3pjbTJfZjhoS3JnUnBMRXFyTndvQl9JNnpYSWlPSVFiR0FnVUJOQ1VFQWE5SG5ldFpQcUZSaVdVV253R2hYRDZfTXpKdi1QZ2hKcnVQLVh4SzZRTU1yT1dGc0NOM2cyWkt2RlFhcmd1bHdZMGYwNjFOV2VudkFBVWYxdkpkN0lDUFQzM3c3ZjJSUdIBxwFBVV95cUxQa1VnVHZYZG4tc1N3TVhWRWhJSGg4UHRaS0pxUUh3eWdBMlVwbWZiczNRNVZDLVNVUjg3OS1ZRm9Tb0NmQ1pPSzljMjQxSjIxVEVHbHVRbzZIejJoSnhGRjdKbDZsdENhQmtzQmg1aE1vaVVEcVBLbDlTblNMUjJpeENUQXU5aldTeWxma2VoSmZUZEluQllLUDFQUE41OVJPLURzUktBeG5zVTQ4TFJJOS1Lb1pfYXJUcXNha3g5SUN4WF9fN1Q0?oc=5",
         "title": "পায়েস ভালবাসেন ‘শূর্পণখা’ রকুল, কিন্তু ওজন যাতে বৃদ্ধি না পায়, তার জন্য বিশেষ উপায়ে রান্না করেন",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ1A5UmdZVXEtYnQ3RDVBNEZBVDhnYWxaWWRfZEQzR21XMzNXcmVUYWxUdU1MVWxjN3pjbTJfZjhoS3JnUnBMRXFyTndvQl9JNnpYSWlPSVFiR0FnVUJOQ1VFQWE5SG5ldFpQcUZSaVdVV253R2hYRDZfTXpKdi1QZ2hKcnVQLVh4SzZRTU1yT1dGc0NOM2cyWkt2RlFhcmd1bHdZMGYwNjFOV2VudkFBVWYxdkpkN0lDUFQzM3c3ZjJSUdIBxwFBVV95cUxQa1VnVHZYZG4tc1N3TVhWRWhJSGg4UHRaS0pxUUh3eWdBMlVwbWZiczNRNVZDLVNVUjg3OS1ZRm9Tb0NmQ1pPSzljMjQxSjIxVEVHbHVRbzZIejJoSnhGRjdKbDZsdENhQmtzQmg1aE1vaVVEcVBLbDlTblNMUjJpeENUQXU5aldTeWxma2VoSmZUZEluQllLUDFQUE41OVJPLURzUktBeG5zVTQ4TFJJOS1Lb1pfYXJUcXNha3g5SUN4WF9fN1Q0?oc=5",
@@ -667,19 +680,6 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPdU8wMjRMRVRXOUNQWXlNMHRJR2dsNDFtbkFSZE5velpURUxnaXlDVzR2YmVNUXFrNXRZMGZ0bUpGeDNEN25HTFlpbGZUU0VTak8waFdVeXdGLU1rTGhTU2RzbnRLaDRydTBpUmxfS05kQVRsOGhSRjdXSVMwQjdGVm9UM3U5R1FOZ3VKbjQyMFF3TU44Nnk3NnY0T19RWlRIc2I2cGJISUlpR2gzczFMRFZmVXBhd3BZOXlDQ3NDaEtIMVFDV3BhSXhlcW91YnQ2NjRJb3RUbnQ0VHJWbFI2SmhUYllhR1Z2MERWcDlOMG03dDhLM3B3ekxnZTl1dk9k?oc=5",
-        "title": "বিস্কুট খাওয়ায় মা বিড়াল হত্যা, শাস্তি হিসেবে ছয় মাস কুকুর-বিড়ালের খাবার দেবেন দোকানি",
-        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPdU8wMjRMRVRXOUNQWXlNMHRJR2dsNDFtbkFSZE5velpURUxnaXlDVzR2YmVNUXFrNXRZMGZ0bUpGeDNEN25HTFlpbGZUU0VTak8waFdVeXdGLU1rTGhTU2RzbnRLaDRydTBpUmxfS05kQVRsOGhSRjdXSVMwQjdGVm9UM3U5R1FOZ3VKbjQyMFF3TU44Nnk3NnY0T19RWlRIc2I2cGJISUlpR2gzczFMRFZmVXBhd3BZOXlDQ3NDaEtIMVFDV3BhSXhlcW91YnQ2NjRJb3RUbnQ0VHJWbFI2SmhUYllhR1Z2MERWcDlOMG03dDhLM3B3ekxnZTl1dk9k?oc=5",
-        "source": "স্টার নিউজ",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 16 Nov 2026 13:22:43 GMT",
-        "summary": "বিস্কুট খাওয়ায় মা বিড়াল হত্যা, শাস্তি হিসেবে ছয় মাস কুকুর-বিড়ালের খাবার দেবেন দোকানি &nbsp;&nbsp; স্টার নিউজ",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://starnews.com.bd/country/29089/shopkeeper-to-provide-six-months-worth-of-dog-and-cat-food-as-penalty-for-killing-a-mother-cat-over-the-consumption-of-a-biscuit.html",
-        "imageAttemptedAt": "2026-11-16T20:32:57.761Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE91TnlZdHVyT2VKT1FhQTZuX1M2WkJHUXh5MVRkeTg5dXJ2ZFhBcnU0R24tajZlMi0wNmxvZDBZVUlBbE82bWRIdEltNm5rd2Z3VUhod3FrcnR2MDFB?oc=5",
         "title": "মার্কিন খাবারের স্বাদ ঢাকাতেই",
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE91TnlZdHVyT2VKT1FhQTZuX1M2WkJHUXh5MVRkeTg5dXJ2ZFhBcnU0R24tajZlMi0wNmxvZDBZVUlBbE82bWRIdEltNm5rd2Z3VUhod3FrcnR2MDFB?oc=5",
@@ -693,16 +693,16 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWVZsd19NV1hjdEF0blY4dEs5TEc0UGhySmg0dEljckhiZk44MUEtTk14Y01OYWFLOGZIY2o1bzRfLUhwSXhjbUl5UVVFVWdBSHEtTU5iWk9uOFRLVkV5NnJTQUUtNkJ1bUcxNjh2UklmTXVwaHpQcVZndmdqRVZKZ2IyNFlPOU9NQzJJT21TWjhnYlk4OXRsSzFHdC1WQ2Nadk1kUk50YmlsM242dGp30gG0AUFVX3lxTFBjaVQ4V210UjVPaTRmQlVUemlIa1dPR0FpU3RYUEFxX2pQVTBCTlprbWx0WUJvajVMUW15R2JzelZSeEZwT3J4YWtCZXd1Y05DWEEwR09SMEg1YWlGTzhmQnVEYUpEbWVZWnZkam9mQU5MVU9meV9wVUpBaTExNWdPZ3V1OFc3N3dNMlc1bTZ5NEZ4NGU0dE5OOE1FUWJLMHhDcDZXWHdoZVlqQkNDUjNzN01FaA?oc=5",
-        "title": "Motichoor Laddu recipe: মুখে দিলেই মিলিয়ে যাবে! মাত্র কয়েক ধাপে বাড়িতেই বানিয়ে ফেলুন নরম তুলতুলে...",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWVZsd19NV1hjdEF0blY4dEs5TEc0UGhySmg0dEljckhiZk44MUEtTk14Y01OYWFLOGZIY2o1bzRfLUhwSXhjbUl5UVVFVWdBSHEtTU5iWk9uOFRLVkV5NnJTQUUtNkJ1bUcxNjh2UklmTXVwaHpQcVZndmdqRVZKZ2IyNFlPOU9NQzJJT21TWjhnYlk4OXRsSzFHdC1WQ2Nadk1kUk50YmlsM242dGp30gG0AUFVX3lxTFBjaVQ4V210UjVPaTRmQlVUemlIa1dPR0FpU3RYUEFxX2pQVTBCTlprbWx0WUJvajVMUW15R2JzelZSeEZwT3J4YWtCZXd1Y05DWEEwR09SMEg1YWlGTzhmQnVEYUpEbWVZWnZkam9mQU5MVU9meV9wVUpBaTExNWdPZ3V1OFc3N3dNMlc1bTZ5NEZ4NGU0dE5OOE1FUWJLMHhDcDZXWHdoZVlqQkNDUjNzN01FaA?oc=5",
-        "source": "TV9 Bangla",
+        "id": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPdU8wMjRMRVRXOUNQWXlNMHRJR2dsNDFtbkFSZE5velpURUxnaXlDVzR2YmVNUXFrNXRZMGZ0bUpGeDNEN25HTFlpbGZUU0VTak8waFdVeXdGLU1rTGhTU2RzbnRLaDRydTBpUmxfS05kQVRsOGhSRjdXSVMwQjdGVm9UM3U5R1FOZ3VKbjQyMFF3TU44Nnk3NnY0T19RWlRIc2I2cGJISUlpR2gzczFMRFZmVXBhd3BZOXlDQ3NDaEtIMVFDV3BhSXhlcW91YnQ2NjRJb3RUbnQ0VHJWbFI2SmhUYllhR1Z2MERWcDlOMG03dDhLM3B3ekxnZTl1dk9k?oc=5",
+        "title": "বিস্কুট খাওয়ায় মা বিড়াল হত্যা, শাস্তি হিসেবে ছয় মাস কুকুর-বিড়ালের খাবার দেবেন দোকানি",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPdU8wMjRMRVRXOUNQWXlNMHRJR2dsNDFtbkFSZE5velpURUxnaXlDVzR2YmVNUXFrNXRZMGZ0bUpGeDNEN25HTFlpbGZUU0VTak8waFdVeXdGLU1rTGhTU2RzbnRLaDRydTBpUmxfS05kQVRsOGhSRjdXSVMwQjdGVm9UM3U5R1FOZ3VKbjQyMFF3TU44Nnk3NnY0T19RWlRIc2I2cGJISUlpR2gzczFMRFZmVXBhd3BZOXlDQ3NDaEtIMVFDV3BhSXhlcW91YnQ2NjRJb3RUbnQ0VHJWbFI2SmhUYllhR1Z2MERWcDlOMG03dDhLM3B3ekxnZTl1dk9k?oc=5",
+        "source": "স্টার নিউজ",
         "publisherUrl": "",
-        "publishedAt": "Mon, 16 Nov 2026 09:41:37 GMT",
-        "summary": "Motichoor Laddu recipe: মুখে দিলেই মিলিয়ে যাবে! মাত্র কয়েক ধাপে বাড়িতেই বানিয়ে ফেলুন নরম তুলতুলে... &nbsp;&nbsp; TV9 Bangla",
-        "image": "https://images.tv9bangla.com/wp-content/uploads/2026/11/motichur-laddu.jpg",
-        "articleUrl": "https://tv9bangla.com/lifestyle/how-to-make-soft-motichoor-laddu-at-home-easy-step-by-step-recipe-1361157.html",
-        "imageAttemptedAt": "",
+        "publishedAt": "Mon, 16 Nov 2026 13:22:43 GMT",
+        "summary": "বিস্কুট খাওয়ায় মা বিড়াল হত্যা, শাস্তি হিসেবে ছয় মাস কুকুর-বিড়ালের খাবার দেবেন দোকানি &nbsp;&nbsp; স্টার নিউজ",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://starnews.com.bd/country/29089/shopkeeper-to-provide-six-months-worth-of-dog-and-cat-food-as-penalty-for-killing-a-mother-cat-over-the-consumption-of-a-biscuit.html",
+        "imageAttemptedAt": "2026-11-16T20:32:57.761Z",
         "imageFallback": "news-fallbacks/food.svg"
       }
     ],
@@ -716,7 +716,7 @@
     "total": 53,
     "fromRss": 0,
     "fromArticleMetadata": 11,
-    "reusedCached": 3,
+    "reusedCached": 10,
     "actualPhotos": 11,
     "fallbackIllustrations": 42,
     "withImage": 53,
