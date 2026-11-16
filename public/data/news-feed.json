@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-16T02:50:23.934Z",
+  "generatedAt": "2026-11-16T04:00:02.217Z",
   "sponsors": {
     "somoy": [
       {
@@ -39,7 +39,7 @@
         "summary": "কমেছে মাছের দাম, বেড়েছে সরবারহ &nbsp;&nbsp; সময় নিউজ",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "https://www.somoynews.tv/news/2021-12-13/%E0%A6%95%E0%A6%AE%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%9B%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AE-%E0%A6%AC%E0%A7%87%E0%A7%9C%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%B8%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A6%B9",
-        "imageAttemptedAt": "2026-11-15T03:46:31.609Z",
+        "imageAttemptedAt": "2026-11-16T04:00:12.178Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
@@ -175,6 +175,138 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
+    "jamuna": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
+        "title": "Most Popular Television in Bangladesh",
+        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 20 Oct 2026 07:00:00 GMT",
+        "summary": "Most Popular Television in Bangladesh &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "",
+        "imageAttemptedAt": "2026-11-15T19:42:17.637Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB6MVg1UER3ajNGclVoc0pHWnRiSzdTVm80NFVBNWkzWXNxSU1xV3N4MENuaHlfd1BRX1NoajhoUXVpbGpfVGYwZUVPZzI?oc=5",
+        "title": "স্বর্ণের দাম আরও কমেছে",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB6MVg1UER3ajNGclVoc0pHWnRiSzdTVm80NFVBNWkzWXNxSU1xV3N4MENuaHlfd1BRX1NoajhoUXVpbGpfVGYwZUVPZzI?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 05:59:47 GMT",
+        "summary": "স্বর্ণের দাম আরও কমেছে &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/economy/667946",
+        "imageAttemptedAt": "2026-11-15T13:37:55.443Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE85a0p2OVBlNDNCd0JWM1ZxLUJSNVdvR0dOOWNaZVZjVzJYd056eFhQOE8yQWE4a28xd241NXBoU0cyVGxYVno3YU1KSVk?oc=5",
+        "title": "পোশাকশ্রমিকরা কাজে যোগ না দিলে মালিকরা কারখানা বন্ধ রাখতে পারবে",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE85a0p2OVBlNDNCd0JWM1ZxLUJSNVdvR0dOOWNaZVZjVzJYd056eFhQOE8yQWE4a28xd241NXBoU0cyVGxYVno3YU1KSVk?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 11:50:33 GMT",
+        "summary": "পোশাকশ্রমিকরা কাজে যোগ না দিলে মালিকরা কারখানা বন্ধ রাখতে পারবে &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/economy/667969",
+        "imageAttemptedAt": "2026-11-15T12:42:22.476Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYYXprS0RrRWUxSGtsbTBEYVdORWNmS2k2X1NFeVdTazV3MTBweXd6YlQzS3JlZnJ1dXRsdjNIMUo4bjNyU2drY0ZVWlZsenFSNGNoU2JR?oc=5",
+        "title": "এমপি নুসরাতের বাবার বিরুদ্ধে বাড়ি ভাঙচুর ও জমি দখলের অভিযোগে মামলা",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYYXprS0RrRWUxSGtsbTBEYVdORWNmS2k2X1NFeVdTazV3MTBweXd6YlQzS3JlZnJ1dXRsdjNIMUo4bjNyU2drY0ZVWlZsenFSNGNoU2JR?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 19:22:17 GMT",
+        "summary": "এমপি নুসরাতের বাবার বিরুদ্ধে বাড়ি ভাঙচুর ও জমি দখলের অভিযোগে মামলা &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/all-bangladesh/667985",
+        "imageAttemptedAt": "2026-11-15T15:58:07.518Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA0MlBYYUU3XzNKdWUwbG1ZTXk1M3JDbXFlMmNwN2xEMmV0MDF3VHRCQ3RUMnhNZEZFM3RydURrYm5kVGFhaDFTcXZFRQ?oc=5",
+        "title": "ব্রাজিলকে ৩-২ গোলে হারালো জাপান",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA0MlBYYUU3XzNKdWUwbG1ZTXk1M3JDbXFlMmNwN2xEMmV0MDF3VHRCQ3RUMnhNZEZFM3RydURrYm5kVGFhaDFTcXZFRQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 12:28:37 GMT",
+        "summary": "ব্রাজিলকে ৩-২ গোলে হারালো জাপান &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/sports/667974",
+        "imageAttemptedAt": "2026-11-15T06:53:46.766Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mbmVETWd0bUZfQ1BYb0k2ODRsMHR0UlNuWEMyNGFjOWc4UFZkcC1PTDBtS2NTbjJfVWZBOGU0R1U5bmUzSkFxd1AxMnkzd1QzcUJCYQ?oc=5",
+        "title": "হাঙ্গেরির জঙ্গলে মাটির নিচে পুঁতে রাখা প্রায় ২০ মিলিয়ন ডলার উদ্ধার",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mbmVETWd0bUZfQ1BYb0k2ODRsMHR0UlNuWEMyNGFjOWc4UFZkcC1PTDBtS2NTbjJfVWZBOGU0R1U5bmUzSkFxd1AxMnkzd1QzcUJCYQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 09:58:48 GMT",
+        "summary": "হাঙ্গেরির জঙ্গলে মাটির নিচে পুঁতে রাখা প্রায় ২০ মিলিয়ন ডলার উদ্ধার &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/international/667959",
+        "imageAttemptedAt": "2026-11-15T09:40:24.395Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9HQTBYbnFZc3VKWldHdExQcVVveHBKNmsyMThJY0RJZEhfeGFOVktXZFVsQ0pYTnBUX1pwdjU5N3Z4aUtfdmItZUxMeVY3M1RBUVNqaA?oc=5",
+        "title": "মার্কিন অস্ত্র রিভার্স ইঞ্জিনিয়ারিং করে ডিফেন্স ক্যাপাবিলিটি বাড়াচ্ছে ইরান",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9HQTBYbnFZc3VKWldHdExQcVVveHBKNmsyMThJY0RJZEhfeGFOVktXZFVsQ0pYTnBUX1pwdjU5N3Z4aUtfdmItZUxMeVY3M1RBUVNqaA?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 10:34:50 GMT",
+        "summary": "মার্কিন অস্ত্র রিভার্স ইঞ্জিনিয়ারিং করে ডিফেন্স ক্যাপাবিলিটি বাড়াচ্ছে ইরান &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/international/667962",
+        "imageAttemptedAt": "2026-11-15T07:59:05.592Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1WVVmdUlGQmYzaDZMems0eE1IX01TNG9WVGwxQWI3eDdNaHFDaWRaLVdTZVhvY3QzdEFtMmNBT0RlVmcyNkpQQjBVdG4yUQ?oc=5",
+        "title": "যুক্তরাজ্যে পৌঁছেছেন নাহিদ ইসলাম",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1WVVmdUlGQmYzaDZMems0eE1IX01TNG9WVGwxQWI3eDdNaHFDaWRaLVdTZVhvY3QzdEFtMmNBT0RlVmcyNkpQQjBVdG4yUQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 00:38:33 GMT",
+        "summary": "যুক্তরাজ্যে পৌঁছেছেন নাহিদ ইসলাম &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/national/667931",
+        "imageAttemptedAt": "2026-11-16T04:00:12.178Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9aUjdsQXRIVmFHQjF2S1h2Z1MydDEtRDFtRTU3WDczU1ZTR0pQZzdzMzdlVjVMOF8ya2pmQ19UTlc2WjIxdFVIaWI2WENSdw?oc=5",
+        "title": "সভ্য সমাজের সচেতন মানুষ জামায়াত-শিবিরের সাথে মেশে না: রাশেদ খাঁন",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9aUjdsQXRIVmFHQjF2S1h2Z1MydDEtRDFtRTU3WDczU1ZTR0pQZzdzMzdlVjVMOF8ya2pmQ19UTlc2WjIxdFVIaWI2WENSdw?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 05:46:14 GMT",
+        "summary": "সভ্য সমাজের সচেতন মানুষ জামায়াত-শিবিরের সাথে মেশে না: রাশেদ খাঁন &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/politics/667944",
+        "imageAttemptedAt": "2026-11-15T19:42:17.637Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE55Sl9tbXg2RVh4MWpmRmJ0SEMzZUl0STRFOUdDMnN1UmpNVnBvelBtLWZCcFRpYkZsdnpVRUZwZUY3TE9sS1FNek9NRWROM2RhTE1udQ?oc=5",
+        "title": "ট্রাম্প-পুতিন-জিনপিং বৈঠকে বসছেন চীনে",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE55Sl9tbXg2RVh4MWpmRmJ0SEMzZUl0STRFOUdDMnN1UmpNVnBvelBtLWZCcFRpYkZsdnpVRUZwZUY3TE9sS1FNek9NRWROM2RhTE1udQ?oc=5",
+        "source": "Jamuna TV",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 05:33:04 GMT",
+        "summary": "ট্রাম্প-পুতিন-জিনপিং বৈঠকে বসছেন চীনে &nbsp;&nbsp; Jamuna Television",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.jamuna.tv/international/667943",
+        "imageAttemptedAt": "2026-11-16T01:55:58.040Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      }
+    ],
     "ntv": [
       {
         "id": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1ZZjhSQjVOTUIxTFBMV3dpRkVpMW5sQUFaUkM1OVlNY3RwM2tELS1CTEQtVGUtNDIxZ2c?oc=5",
@@ -307,138 +439,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ],
-    "jamuna": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
-        "title": "Most Popular Television in Bangladesh",
-        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBDcDJPanR3LVloNE1vV0pzX2t4NzlLaXd2WjhCck0zQklBRWdPLU5WekZ3eHlnWUtDeWk0?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 20 Oct 2026 07:00:00 GMT",
-        "summary": "Most Popular Television in Bangladesh &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "",
-        "imageAttemptedAt": "2026-11-15T19:42:17.637Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB6MVg1UER3ajNGclVoc0pHWnRiSzdTVm80NFVBNWkzWXNxSU1xV3N4MENuaHlfd1BRX1NoajhoUXVpbGpfVGYwZUVPZzI?oc=5",
-        "title": "স্বর্ণের দাম আরও কমেছে",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB6MVg1UER3ajNGclVoc0pHWnRiSzdTVm80NFVBNWkzWXNxSU1xV3N4MENuaHlfd1BRX1NoajhoUXVpbGpfVGYwZUVPZzI?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 05:59:47 GMT",
-        "summary": "স্বর্ণের দাম আরও কমেছে &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/economy/667946",
-        "imageAttemptedAt": "2026-11-15T13:37:55.443Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9HQTBYbnFZc3VKWldHdExQcVVveHBKNmsyMThJY0RJZEhfeGFOVktXZFVsQ0pYTnBUX1pwdjU5N3Z4aUtfdmItZUxMeVY3M1RBUVNqaA?oc=5",
-        "title": "মার্কিন অস্ত্র রিভার্স ইঞ্জিনিয়ারিং করে ডিফেন্স ক্যাপাবিলিটি বাড়াচ্ছে ইরান",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9HQTBYbnFZc3VKWldHdExQcVVveHBKNmsyMThJY0RJZEhfeGFOVktXZFVsQ0pYTnBUX1pwdjU5N3Z4aUtfdmItZUxMeVY3M1RBUVNqaA?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 10:34:50 GMT",
-        "summary": "মার্কিন অস্ত্র রিভার্স ইঞ্জিনিয়ারিং করে ডিফেন্স ক্যাপাবিলিটি বাড়াচ্ছে ইরান &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/international/667962",
-        "imageAttemptedAt": "2026-11-15T07:59:05.592Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mbmVETWd0bUZfQ1BYb0k2ODRsMHR0UlNuWEMyNGFjOWc4UFZkcC1PTDBtS2NTbjJfVWZBOGU0R1U5bmUzSkFxd1AxMnkzd1QzcUJCYQ?oc=5",
-        "title": "হাঙ্গেরির জঙ্গলে মাটির নিচে পুঁতে রাখা প্রায় ২০ মিলিয়ন ডলার উদ্ধার",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mbmVETWd0bUZfQ1BYb0k2ODRsMHR0UlNuWEMyNGFjOWc4UFZkcC1PTDBtS2NTbjJfVWZBOGU0R1U5bmUzSkFxd1AxMnkzd1QzcUJCYQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 09:58:48 GMT",
-        "summary": "হাঙ্গেরির জঙ্গলে মাটির নিচে পুঁতে রাখা প্রায় ২০ মিলিয়ন ডলার উদ্ধার &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/international/667959",
-        "imageAttemptedAt": "2026-11-15T09:40:24.395Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYYXprS0RrRWUxSGtsbTBEYVdORWNmS2k2X1NFeVdTazV3MTBweXd6YlQzS3JlZnJ1dXRsdjNIMUo4bjNyU2drY0ZVWlZsenFSNGNoU2JR?oc=5",
-        "title": "এমপি নুসরাতের বাবার বিরুদ্ধে বাড়ি ভাঙচুর ও জমি দখলের অভিযোগে মামলা",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYYXprS0RrRWUxSGtsbTBEYVdORWNmS2k2X1NFeVdTazV3MTBweXd6YlQzS3JlZnJ1dXRsdjNIMUo4bjNyU2drY0ZVWlZsenFSNGNoU2JR?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 19:22:17 GMT",
-        "summary": "এমপি নুসরাতের বাবার বিরুদ্ধে বাড়ি ভাঙচুর ও জমি দখলের অভিযোগে মামলা &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/all-bangladesh/667985",
-        "imageAttemptedAt": "2026-11-15T15:58:07.518Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA0MlBYYUU3XzNKdWUwbG1ZTXk1M3JDbXFlMmNwN2xEMmV0MDF3VHRCQ3RUMnhNZEZFM3RydURrYm5kVGFhaDFTcXZFRQ?oc=5",
-        "title": "ব্রাজিলকে ৩-২ গোলে হারালো জাপান",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA0MlBYYUU3XzNKdWUwbG1ZTXk1M3JDbXFlMmNwN2xEMmV0MDF3VHRCQ3RUMnhNZEZFM3RydURrYm5kVGFhaDFTcXZFRQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 12:28:37 GMT",
-        "summary": "ব্রাজিলকে ৩-২ গোলে হারালো জাপান &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/sports/667974",
-        "imageAttemptedAt": "2026-11-15T06:53:46.766Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9aUjdsQXRIVmFHQjF2S1h2Z1MydDEtRDFtRTU3WDczU1ZTR0pQZzdzMzdlVjVMOF8ya2pmQ19UTlc2WjIxdFVIaWI2WENSdw?oc=5",
-        "title": "সভ্য সমাজের সচেতন মানুষ জামায়াত-শিবিরের সাথে মেশে না: রাশেদ খাঁন",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9aUjdsQXRIVmFHQjF2S1h2Z1MydDEtRDFtRTU3WDczU1ZTR0pQZzdzMzdlVjVMOF8ya2pmQ19UTlc2WjIxdFVIaWI2WENSdw?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 05:46:14 GMT",
-        "summary": "সভ্য সমাজের সচেতন মানুষ জামায়াত-শিবিরের সাথে মেশে না: রাশেদ খাঁন &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/politics/667944",
-        "imageAttemptedAt": "2026-11-15T19:42:17.637Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE55Sl9tbXg2RVh4MWpmRmJ0SEMzZUl0STRFOUdDMnN1UmpNVnBvelBtLWZCcFRpYkZsdnpVRUZwZUY3TE9sS1FNek9NRWROM2RhTE1udQ?oc=5",
-        "title": "ট্রাম্প-পুতিন-জিনপিং বৈঠকে বসছেন চীনে",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE55Sl9tbXg2RVh4MWpmRmJ0SEMzZUl0STRFOUdDMnN1UmpNVnBvelBtLWZCcFRpYkZsdnpVRUZwZUY3TE9sS1FNek9NRWROM2RhTE1udQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 05:33:04 GMT",
-        "summary": "ট্রাম্প-পুতিন-জিনপিং বৈঠকে বসছেন চীনে &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/international/667943",
-        "imageAttemptedAt": "2026-11-16T01:55:58.040Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE85a0p2OVBlNDNCd0JWM1ZxLUJSNVdvR0dOOWNaZVZjVzJYd056eFhQOE8yQWE4a28xd241NXBoU0cyVGxYVno3YU1KSVk?oc=5",
-        "title": "পোশাকশ্রমিকরা কাজে যোগ না দিলে মালিকরা কারখানা বন্ধ রাখতে পারবে",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE85a0p2OVBlNDNCd0JWM1ZxLUJSNVdvR0dOOWNaZVZjVzJYd056eFhQOE8yQWE4a28xd241NXBoU0cyVGxYVno3YU1KSVk?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 11:50:33 GMT",
-        "summary": "পোশাকশ্রমিকরা কাজে যোগ না দিলে মালিকরা কারখানা বন্ধ রাখতে পারবে &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/economy/667969",
-        "imageAttemptedAt": "2026-11-15T12:42:22.476Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5mMktkNENMQW9uMXNiN25jTkliZkNvaVJwZlRFWDgtbEE4RFlqRVdSZ0pSd2pNNFV4dHpzQ05uWWxaYTI4Q0Vuem01VQ?oc=5",
-        "title": "বাংলাদেশকে হারিয়ে সাফের ফাইনালে পাকিস্তান",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5mMktkNENMQW9uMXNiN25jTkliZkNvaVJwZlRFWDgtbEE4RFlqRVdSZ0pSd2pNNFV4dHpzQ05uWWxaYTI4Q0Vuem01VQ?oc=5",
-        "source": "Jamuna TV",
-        "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 16:31:38 GMT",
-        "summary": "বাংলাদেশকে হারিয়ে সাফের ফাইনালে পাকিস্তান &nbsp;&nbsp; Jamuna Television",
-        "image": "news-fallbacks/newsroom.svg",
-        "articleUrl": "https://www.jamuna.tv/sports/667981",
-        "imageAttemptedAt": "2026-11-16T02:50:26.812Z",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      }
-    ],
     "channel24": [
       {
         "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE0wWEM3a1U1eDNPel9HS3pfMnROMDRaSWtNTnczNEJnZUotVVppSm9ub1BLTS1OejJPNXA0aFVXMHc?oc=5",
@@ -476,7 +476,7 @@
         "summary": "ত্রয়োদশ জাতীয় সংসদ নির্বাচন ২০২৬ &nbsp;&nbsp; Channel 24",
         "image": "news-fallbacks/newsroom.svg",
         "articleUrl": "",
-        "imageAttemptedAt": "2026-11-15T03:46:31.609Z",
+        "imageAttemptedAt": "2026-11-16T04:00:12.178Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
@@ -519,19 +519,6 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMijAZBVV95cUxOdnhTVXJlV2RCQXpVcWc2akloZ0R1NzBTSDFRbHlNUWpRWHRqMDB0MDlDMEdBdGcxdXY5Z3hOODlnXzBoZ2Y4TldFaEF0SWtGU3ZyQXFlZk0wNmdXajZCYVhfT2pFSXdYZmFzSlVaZHN2RE9DWUU0RjhKWjN4a2NCTldDNUoxXzJ6OHUtY0NnYXRfUW90U0tTOVNzcnRDOWJZbURqbGEzaEpPc2hIVWZidlo5aExrVFNncERZQzJzcTd6d3hqS2VYVTVSeUtJTldoTEU0cnhpaC1adzdHVjM2SDhrVmFwUGhpd3hyZ2QweE9DaW90cDlwZXJlOUkyQ1RBaEE2Zl9wN1FMa2pWZzhjWE9JVUc2Z2xCdDBvdWN2aHBoTnl5dDRQSzlJanJTTm11NjVRXzZqeUxCVnBRN2JzODF1SkxDMGFhVWc1cUVrYkg1WXRSUHVTT0czNFBiYkFoUW5oMTAxZWpabXUzQXpLTWdXd1F5aDRWTGZHVzBjQVpFcmY1d2JMVGlUQW5TTy1iNGl0U2MwRFd1WEVGZTl5OXg1bGpCaUowQUZTUHVWT1NKRU44RGZ3Yko1MEg1MHV6VjBGdWctUjUxOEdLTVdWUkNzazlqV3RkR1hCU1RMVzluY2FQWExFM3J2OGY2N0FONVRIanBRcUF4bXdEU2JOSmFfUkhpZ1IyOWw1MWlRMDhEdURkak1aU0hjN0Jjcm5MVTBfcHU1enJEbXhhdGVBMTlQZVgwVlN6SmZ3SHNwck05VXlocnU1V1l2UGhwMi1FQXBZQkJBeHg3SzR2a2pad2NFQUczNmpUaDk2aGcxMTBBd1ZTZ01kbmpTUkhsem5FMWdxSnBRQ2ZsTWRMNzV4VGJDTVNxSFJJUUJGcmVuLXpHa0hZdFlYTDAwVXhHZDB3YV91Wk9Xd0RVaVJzZnJqM3hLcnQteFJ1d0FHWE1pRVZkZEFjNGIyQ3ExeGRWOWhmdE01TFRLaHlZelliTDRBQlBETDlKZ1hja3Z0YWJRN0tnM3VCcUhBSmVmRUo?oc=5",
-        "title": "উত্তরাঞ্চলে বৃষ্টির দাপট কমছে, ১৭ তারিখ থেকে ফের ভারী বৃষ্টির শঙ্কা",
-        "link": "https://news.google.com/rss/articles/CBMijAZBVV95cUxOdnhTVXJlV2RCQXpVcWc2akloZ0R1NzBTSDFRbHlNUWpRWHRqMDB0MDlDMEdBdGcxdXY5Z3hOODlnXzBoZ2Y4TldFaEF0SWtGU3ZyQXFlZk0wNmdXajZCYVhfT2pFSXdYZmFzSlVaZHN2RE9DWUU0RjhKWjN4a2NCTldDNUoxXzJ6OHUtY0NnYXRfUW90U0tTOVNzcnRDOWJZbURqbGEzaEpPc2hIVWZidlo5aExrVFNncERZQzJzcTd6d3hqS2VYVTVSeUtJTldoTEU0cnhpaC1adzdHVjM2SDhrVmFwUGhpd3hyZ2QweE9DaW90cDlwZXJlOUkyQ1RBaEE2Zl9wN1FMa2pWZzhjWE9JVUc2Z2xCdDBvdWN2aHBoTnl5dDRQSzlJanJTTm11NjVRXzZqeUxCVnBRN2JzODF1SkxDMGFhVWc1cUVrYkg1WXRSUHVTT0czNFBiYkFoUW5oMTAxZWpabXUzQXpLTWdXd1F5aDRWTGZHVzBjQVpFcmY1d2JMVGlUQW5TTy1iNGl0U2MwRFd1WEVGZTl5OXg1bGpCaUowQUZTUHVWT1NKRU44RGZ3Yko1MEg1MHV6VjBGdWctUjUxOEdLTVdWUkNzazlqV3RkR1hCU1RMVzluY2FQWExFM3J2OGY2N0FONVRIanBRcUF4bXdEU2JOSmFfUkhpZ1IyOWw1MWlRMDhEdURkak1aU0hjN0Jjcm5MVTBfcHU1enJEbXhhdGVBMTlQZVgwVlN6SmZ3SHNwck05VXlocnU1V1l2UGhwMi1FQXBZQkJBeHg3SzR2a2pad2NFQUczNmpUaDk2aGcxMTBBd1ZTZ01kbmpTUkhsem5FMWdxSnBRQ2ZsTWRMNzV4VGJDTVNxSFJJUUJGcmVuLXpHa0hZdFlYTDAwVXhHZDB3YV91Wk9Xd0RVaVJzZnJqM3hLcnQteFJ1d0FHWE1pRVZkZEFjNGIyQ3ExeGRWOWhmdE01TFRLaHlZelliTDRBQlBETDlKZ1hja3Z0YWJRN0tnM3VCcUhBSmVmRUo?oc=5",
-        "source": "News24 / Channel 24",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 14 Jul 2026 07:00:00 GMT",
-        "summary": "উত্তরাঞ্চলে বৃষ্টির দাপট কমছে, ১৭ তারিখ থেকে ফের ভারী বৃষ্টির শঙ্কা &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026July/PLATE/rain-1783922334-1784008212.jpg",
-        "articleUrl": "https://www.channel24bd.tv/weather/article/337192/%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%87-%E0%A6%AC%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AA%E0%A6%9F-%E0%A6%95%E0%A6%AE%E0%A6%9B%E0%A7%87-%E0%A7%A7%E0%A7%AD-%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%96-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%AC%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%B0-%E0%A6%B6%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A6%BE",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/newsroom.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5MU5ROXhDWkdfbk04T2Y2MmJRNWdocFQxVEhGOWxTazQzeGxLUFFNZGI0X3lZNXBJREZncThFQ01ZNXpnVnhMVTljNEFTQQ?oc=5",
         "title": "News Video, Latest Bangla News & Contact Us",
         "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5MU5ROXhDWkdfbk04T2Y2MmJRNWdocFQxVEhGOWxTazQzeGxLUFFNZGI0X3lZNXBJREZncThFQ01ZNXpnVnhMVTljNEFTQQ?oc=5",
@@ -558,16 +545,29 @@
         "imageFallback": "news-fallbacks/newsroom.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiiAZBVV95cUxQdnpLLWhZRndId2VoVkJLTkRta0xwWGg0MEpTUHRMbkw2aW9XSnc1cHZDR3hrTlVWNENCLU9Gb3VjdVBCcFV5djVnQ0lQUndteTd6djF6UERQNi1LQXhfcHgyY05IRFRSNFZVTFZ0MUpsbXdhMlhfWmpodXNyLU5tRURVMlV0NHlETEFsR05VamVhdTBGRTBFN0JVRmlnNVlNWkJtOFNpOU5rQjFZZVh4UTFTaHN2MU1sakptNU5zT0c4WUNDNVV0WHZyUGxHeFZiMlU5NDJPMUxYTUlFTFZOZFJyano0dm11djhrQ2x5TXZ3eG1OMU1LLUU5Qlc1S1hvc2k0YnZSWGN4Z053QVpNSVRPLW1lZUxPV1BWU1VSQkpDMFEzeWhsSU5malRhb2hSTEVPVU9zME9jR2JvYTBaaXlUb2ZwdW1KRHMzNFg3YXdvcGtiaDRZYUt1YlM2THlzSjVDQnV4ZUlmNDBCZm8zbjh2WGoxMWhjVXplclVhemhuU2l3M2NTYmV1aF9WNHBmTjB4cWV4aDhVRHYzN1ZNU3htRm9XTDd1QWJfdHNmMzdoRkIxWjJPUWl1VTZxYWlkTnJra3Q0dFJ4b1h5RkpBVDdQUWx3TXBqY2tlTi1EWEo0OHdPaExvVnBKNGpzNEllUXFYMUprdmo4WC1SOElXamE2WUFEVzVlZHJzTlozd0tVQWFkUjROMjRtWEZab2JvamtMY0x0OHB3ZGRGVTZaTFo1c0N0M1NaZms1VzZmbERBSFhRNE1jdklMRnRfYldzMy1jQzZoYU53cC14YjlyOW9yMmtpS0UxYUhQZXdYeWt0NXpMSTVLbXJaeGNFclV6aWdFUTdCaHJlb05tdnpxOEIyVmtDTmQzZFIydW05ZzVURWwwYUZnQzNkMmEwZ21xTXlUYTdVcW5IcTRwcTVUMW1sR2g0SkNYRDFvS1RDZWROTEpTUDl0RmFTRFBlMnQwTTRuTDVmV0NIdmRCTEw2STVmM2xSTWVLSmp6eU42X1dQZmFvMzJ6Ng?oc=5",
-        "title": "ঢাকাসহ পার্শ্ববর্তী এলাকায় বৃষ্টির সম্ভাবনা, কমতে পারে তাপমাত্রা",
-        "link": "https://news.google.com/rss/articles/CBMiiAZBVV95cUxQdnpLLWhZRndId2VoVkJLTkRta0xwWGg0MEpTUHRMbkw2aW9XSnc1cHZDR3hrTlVWNENCLU9Gb3VjdVBCcFV5djVnQ0lQUndteTd6djF6UERQNi1LQXhfcHgyY05IRFRSNFZVTFZ0MUpsbXdhMlhfWmpodXNyLU5tRURVMlV0NHlETEFsR05VamVhdTBGRTBFN0JVRmlnNVlNWkJtOFNpOU5rQjFZZVh4UTFTaHN2MU1sakptNU5zT0c4WUNDNVV0WHZyUGxHeFZiMlU5NDJPMUxYTUlFTFZOZFJyano0dm11djhrQ2x5TXZ3eG1OMU1LLUU5Qlc1S1hvc2k0YnZSWGN4Z053QVpNSVRPLW1lZUxPV1BWU1VSQkpDMFEzeWhsSU5malRhb2hSTEVPVU9zME9jR2JvYTBaaXlUb2ZwdW1KRHMzNFg3YXdvcGtiaDRZYUt1YlM2THlzSjVDQnV4ZUlmNDBCZm8zbjh2WGoxMWhjVXplclVhemhuU2l3M2NTYmV1aF9WNHBmTjB4cWV4aDhVRHYzN1ZNU3htRm9XTDd1QWJfdHNmMzdoRkIxWjJPUWl1VTZxYWlkTnJra3Q0dFJ4b1h5RkpBVDdQUWx3TXBqY2tlTi1EWEo0OHdPaExvVnBKNGpzNEllUXFYMUprdmo4WC1SOElXamE2WUFEVzVlZHJzTlozd0tVQWFkUjROMjRtWEZab2JvamtMY0x0OHB3ZGRGVTZaTFo1c0N0M1NaZms1VzZmbERBSFhRNE1jdklMRnRfYldzMy1jQzZoYU53cC14YjlyOW9yMmtpS0UxYUhQZXdYeWt0NXpMSTVLbXJaeGNFclV6aWdFUTdCaHJlb05tdnpxOEIyVmtDTmQzZFIydW05ZzVURWwwYUZnQzNkMmEwZ21xTXlUYTdVcW5IcTRwcTVUMW1sR2g0SkNYRDFvS1RDZWROTEpTUDl0RmFTRFBlMnQwTTRuTDVmV0NIdmRCTEw2STVmM2xSTWVLSmp6eU42X1dQZmFvMzJ6Ng?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMimARBVV95cUxPdXhlMEtCUTJtM2p0LVFhZm81WWdUVklDZGJlWGZfdDN6Qi1WWTRZR3BhYnMya3E2M0kwZzVWVnk0cGFrT1FRempMOHJmRGxmaDNzMWhlSExfQVlRRjB5THdsYUROcDc5eDhEbmYzNGVDUkJ2MDVsaHdQbzU2U2lPZnNEWmhITXJqaktmeEtXSHFuY0o0N0J5MGpxODBzNVMwNFdlYm1BOTU0Q1RPVTN4cW05TnRwaF9LWlY1ZUVUbXRRdEhfME1RRnpBeFB2VlNINHVvd0xlRHZuRVdhN1VkUVdsdmEyUXlRYkwtT1BSb0VtRXhOVmliMUFFbEpQOGc3cmVIcnRLc1NDY0hPQUJkSG9XU3REWDNmT3pPWDNOU2xsYU55S3ZLQ1E1d0hOQ0piaWdRQ09Sb0ZXNG82Nk92dVZpRVVybXNUTUthbzZzWlVGNEd1cVBHVzFubFpXT1N0cmx1dkQzNkRaSFhGQmc0UlVzU0JZUDRaaUVPalAyaV9iWVNOVHhHYzk2eFFqLXhCLTFxSXp4c1pLZHF1T2pnaDRGSkRsWHRuSGxKM29DclBhMUFOX1M2WW9FZWZSaEZFODJ2cXZUR1dsZWZXVUpBLW5YaE4yUFk0NF9FRktKOXRtWFBDVTBEV2loTUhuZThQb29RaFA1UllLa3YtMVlOVDFrS2NuMUNNN2tWbE5kYWZYNGJVTHFEbw?oc=5",
+        "title": "সকালের মধ্যেই ঝড় হতে পারে দেশের যেসব অঞ্চলে",
+        "link": "https://news.google.com/rss/articles/CBMimARBVV95cUxPdXhlMEtCUTJtM2p0LVFhZm81WWdUVklDZGJlWGZfdDN6Qi1WWTRZR3BhYnMya3E2M0kwZzVWVnk0cGFrT1FRempMOHJmRGxmaDNzMWhlSExfQVlRRjB5THdsYUROcDc5eDhEbmYzNGVDUkJ2MDVsaHdQbzU2U2lPZnNEWmhITXJqaktmeEtXSHFuY0o0N0J5MGpxODBzNVMwNFdlYm1BOTU0Q1RPVTN4cW05TnRwaF9LWlY1ZUVUbXRRdEhfME1RRnpBeFB2VlNINHVvd0xlRHZuRVdhN1VkUVdsdmEyUXlRYkwtT1BSb0VtRXhOVmliMUFFbEpQOGc3cmVIcnRLc1NDY0hPQUJkSG9XU3REWDNmT3pPWDNOU2xsYU55S3ZLQ1E1d0hOQ0piaWdRQ09Sb0ZXNG82Nk92dVZpRVVybXNUTUthbzZzWlVGNEd1cVBHVzFubFpXT1N0cmx1dkQzNkRaSFhGQmc0UlVzU0JZUDRaaUVPalAyaV9iWVNOVHhHYzk2eFFqLXhCLTFxSXp4c1pLZHF1T2pnaDRGSkRsWHRuSGxKM29DclBhMUFOX1M2WW9FZWZSaEZFODJ2cXZUR1dsZWZXVUpBLW5YaE4yUFk0NF9FRktKOXRtWFBDVTBEV2loTUhuZThQb29RaFA1UllLa3YtMVlOVDFrS2NuMUNNN2tWbE5kYWZYNGJVTHFEbw?oc=5",
         "source": "News24 / Channel 24",
         "publisherUrl": "",
-        "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
-        "summary": "ঢাকাসহ পার্শ্ববর্তী এলাকায় বৃষ্টির সম্ভাবনা, কমতে পারে তাপমাত্রা &nbsp;&nbsp; Channel 24",
-        "image": "https://backoffice.channel24bd.tv/media/imgAll/2026October/PLATE/20-1791517646.jpg",
-        "articleUrl": "https://www.channel24bd.tv/weather/article/351937/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B8%E0%A6%B9-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%80-%E0%A6%8F%E0%A6%B2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%AC%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A6%AE%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%A4%E0%A6%BE%E0%A6%AA%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE",
-        "imageAttemptedAt": "",
+        "publishedAt": "Sat, 11 Jul 2026 07:00:00 GMT",
+        "summary": "সকালের মধ্যেই ঝড় হতে পারে দেশের যেসব অঞ্চলে &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/weather/article/336802/%E0%A6%B8%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87%E0%A6%87-%E0%A6%9D%E0%A7%9C-%E0%A6%B9%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AF%E0%A7%87%E0%A6%B8%E0%A6%AC-%E0%A6%85%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%87",
+        "imageAttemptedAt": "2026-11-16T04:00:12.178Z",
+        "imageFallback": "news-fallbacks/newsroom.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
+        "title": "News Video, Latest Bangla News & Live TV",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE56VUNjMm51eHJYWElWSkVUcU1oUTJYZnFLYUdtNUdzSnMzeC13bmt6TjF6NUxtcjI2c0xzOWRNS3QyMkNvelE?oc=5",
+        "source": "News24 / Channel 24",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 01 Jul 2019 07:04:28 GMT",
+        "summary": "News Video, Latest Bangla News & Live TV &nbsp;&nbsp; Channel 24",
+        "image": "news-fallbacks/newsroom.svg",
+        "articleUrl": "https://www.channel24bd.tv/live",
+        "imageAttemptedAt": "2026-11-16T04:00:12.178Z",
         "imageFallback": "news-fallbacks/newsroom.svg"
       }
     ]
@@ -798,19 +798,6 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80UVZrUHdaVnZDOWlXQ3d5UFRpS2xFR3VZYmV6eldxRXFVSXNoUmd3UktCSklDTGF4RXd1dEpQUUl1ZUJVRUVsaEQ2R3FGSkp6XzlSc0YxN3c5Nzg?oc=5",
-        "title": "সৌদি আরবের সঙ্গে বাংলাদেশের সোনার দামের পার্থক্য কত",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80UVZrUHdaVnZDOWlXQ3d5UFRpS2xFR3VZYmV6eldxRXFVSXNoUmd3UktCSklDTGF4RXd1dEpQUUl1ZUJVRUVsaEQ2R3FGSkp6XzlSc0YxN3c5Nzg?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 15 Nov 2026 10:08:40 GMT",
-        "summary": "সৌদি আরবের সঙ্গে বাংলাদেশের সোনার দামের পার্থক্য কত &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.jagonews24.com/economy/news/1179714",
-        "imageAttemptedAt": "2026-11-16T01:55:58.040Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYk9WdFI5aGYxeVI2Vk9qM3p6Vk8tWEJHaWtxTFJRUGxCWldJS3RVekRtdmY0MDZOdVB4dHl6Y1R6Unlqb01IYWRBb3RrN3MyRkZQaHcwNkZvUjNVaXNTQThLTzl2OVBXVjJ4dUQwdlI0SzNsNnlkd2E0NGtyalhRZWRWV2VhTmY2V2Mtek45QUZEdDRnSUZDWnJsVXBGQlZCUmEzYUxDR3p5TVRGTG9nVDhGY0JTS2NUU1lDbkZuSVdKYW01RUpPUG1sMVEydw?oc=5",
         "title": "Bangladesh News: ৩০ টাকায় চাল! পোশাকশ্রমিকদের ক্ষোভে কি প্রলেপ দিল তারেক সরকার?",
         "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYk9WdFI5aGYxeVI2Vk9qM3p6Vk8tWEJHaWtxTFJRUGxCWldJS3RVekRtdmY0MDZOdVB4dHl6Y1R6Unlqb01IYWRBb3RrN3MyRkZQaHcwNkZvUjNVaXNTQThLTzl2OVBXVjJ4dUQwdlI0SzNsNnlkd2E0NGtyalhRZWRWV2VhTmY2V2Mtek45QUZEdDRnSUZDWnJsVXBGQlZCUmEzYUxDR3p5TVRGTG9nVDhGY0JTS2NUU1lDbkZuSVdKYW01RUpPUG1sMVEydw?oc=5",
@@ -821,6 +808,19 @@
         "image": "https://www.aaroananda.com/cdn-cgi/image/width=1200,height=675,fit=cover,gravity=face,quality=70,format=auto/https://restapis.aaroananda.com/getImageStream/75804/1794557324184.jfif",
         "articleUrl": "https://www.aaroananda.com/story/latest-news/breaking-news/bangladesh-government-subsidized-rice-scheme-for-garments-workers/11028231",
         "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80UVZrUHdaVnZDOWlXQ3d5UFRpS2xFR3VZYmV6eldxRXFVSXNoUmd3UktCSklDTGF4RXd1dEpQUUl1ZUJVRUVsaEQ2R3FGSkp6XzlSc0YxN3c5Nzg?oc=5",
+        "title": "সৌদি আরবের সঙ্গে বাংলাদেশের সোনার দামের পার্থক্য কত",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80UVZrUHdaVnZDOWlXQ3d5UFRpS2xFR3VZYmV6eldxRXFVSXNoUmd3UktCSklDTGF4RXd1dEpQUUl1ZUJVRUVsaEQ2R3FGSkp6XzlSc0YxN3c5Nzg?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Sun, 15 Nov 2026 10:08:40 GMT",
+        "summary": "সৌদি আরবের সঙ্গে বাংলাদেশের সোনার দামের পার্থক্য কত &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.jagonews24.com/economy/news/1179714",
+        "imageAttemptedAt": "2026-11-16T01:55:58.040Z",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
@@ -891,19 +891,6 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTGhzUTNYM0YzQVRxRU1BTWZQVW14aXR5SW1ScVpvY2JMTVRnVVF2a243RlVQOGw2dngxOXJkcnRVZWFZS09qZ3lFYWxNQng2UEt4ZVgySVNlNkM3Mk91cENsTm1FeXRIVmpLdUV5dS1HM0JUOFZXNzViSnY4c25RX0xDaTRRc3NzZFdCQXpPZ3B3aHpVN25QNGRXbFNpcE50N0ZhWThyWUZ6Q2tweWZkRDgyRXFmSGoxVTBUZ0VEdXdvRGFQRHVGWTlSYU5LVTlZNmV30gHbAUFVX3lxTFBVZS10aFNjRHZ6VHdjUThQZGhxU2FuUWIzMzhQQVRhN0Z1aUxGczIzekVRVjFCUEtUclg0bG80Y21NNFluZlpaaU9jd21RbU00YVNhenVuLW5LZEl3MkxDVWlqdThldXNWblJFM1lyMFZfTjhzYU1qNjJHUGVWTFdhZDllX3dXVlJxNGlrdHlkQWRIZkZVLWo0c19uMUVWNkpLcUoyTmExazctSnhZS0o0azhKWklQNlFjaGdnY0dld01nZ2ROWUEtel9MUnZhOGZ2VzJIOHJuWkZmbw?oc=5",
-        "title": "ফুলকপি রান্নায় এই ভুলগুলি করছেন? এখনই না শোধরালে সব খাটনিই বৃথা",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTGhzUTNYM0YzQVRxRU1BTWZQVW14aXR5SW1ScVpvY2JMTVRnVVF2a243RlVQOGw2dngxOXJkcnRVZWFZS09qZ3lFYWxNQng2UEt4ZVgySVNlNkM3Mk91cENsTm1FeXRIVmpLdUV5dS1HM0JUOFZXNzViSnY4c25RX0xDaTRRc3NzZFdCQXpPZ3B3aHpVN25QNGRXbFNpcE50N0ZhWThyWUZ6Q2tweWZkRDgyRXFmSGoxVTBUZ0VEdXdvRGFQRHVGWTlSYU5LVTlZNmV30gHbAUFVX3lxTFBVZS10aFNjRHZ6VHdjUThQZGhxU2FuUWIzMzhQQVRhN0Z1aUxGczIzekVRVjFCUEtUclg0bG80Y21NNFluZlpaaU9jd21RbU00YVNhenVuLW5LZEl3MkxDVWlqdThldXNWblJFM1lyMFZfTjhzYU1qNjJHUGVWTFdhZDllX3dXVlJxNGlrdHlkQWRIZkZVLWo0c19uMUVWNkpLcUoyTmExazctSnhZS0o0azhKWklQNlFjaGdnY0dld01nZ2ROWUEtel9MUnZhOGZ2VzJIOHJuWkZmbw?oc=5",
-        "source": "Sangbad Pratidin",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 15 Nov 2026 13:05:22 GMT",
-        "summary": "ফুলকপি রান্নায় এই ভুলগুলি করছেন? এখনই না শোধরালে সব খাটনিই বৃথা &nbsp;&nbsp; Sangbad Pratidin",
-        "image": "https://www.sangbadpratidin.in/wp-content/uploads/2026/11/Cauliflower-1.jpg",
-        "articleUrl": "https://www.sangbadpratidin.in/lifestyle/food/cauliflower-cooking-tips-common-mistakes-to-avoid-for-better-taste-and-texture/pid/1429233/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWczNDFnUHlNMFhwNHdGOEF6YWIzOGh4RWlZcGViU3JnSW52OENOdHRVSXpBYnJzRlZaSkFUZTgxVnppejNTNXdBU1cyM1ZSUG5xNXM2VlczWjJ5SG1FUEJpRTUzUURuenVHTGxNVmJ3WklPNlpNRk9rOS0tMTNDZzdIS0J3U3AxVVFoaEdIWGtLNHBqWHV6bHQ3VkJ1OGxGdzV5T0xpWmxCX2V0bUVHX3cwX1lVVWtzcjZOdUVvZWdhSk5Lb2UtNG1MMWRnSnAxNmgwRkNGV1rSAd4BQVVfeXFMT0Rvb0hzS0U4ZzloZ3BhVnBrN0JWWEVUbjZNbHFTUVdVRHdoY2duYW1wNzJCVy1iRGJvbmtuZGlJZGMxX2hNQ21MY2VMampxQUJFTTE4YjVsV2dIVkFVSVZMcHdEeHVEZWRUaFZfOFotNVlMWXh2TFNUQ1Z0YVdtQnh5SkQ1X3lRZVl6TndRWEstN1FUV3ZsU1R3SUhiQkhLQ2xWLVJXMUZySEszSVpRcmRXVTZkdEFrX0RVZTNLV0NPT3RETnF5LVRyS2RvY0JVWkltTldLaHIyUHhVa3hB?oc=5",
         "title": "Binnaguri: খাবারের সঙ্গেই মিশিয়ে দেওয়া হচ্ছে, সেনা ছাউনির ভিতরে ওষুধে সাড়া দিচ্ছে সে",
         "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWczNDFnUHlNMFhwNHdGOEF6YWIzOGh4RWlZcGViU3JnSW52OENOdHRVSXpBYnJzRlZaSkFUZTgxVnppejNTNXdBU1cyM1ZSUG5xNXM2VlczWjJ5SG1FUEJpRTUzUURuenVHTGxNVmJ3WklPNlpNRk9rOS0tMTNDZzdIS0J3U3AxVVFoaEdIWGtLNHBqWHV6bHQ3VkJ1OGxGdzV5T0xpWmxCX2V0bUVHX3cwX1lVVWtzcjZOdUVvZWdhSk5Lb2UtNG1MMWRnSnAxNmgwRkNGV1rSAd4BQVVfeXFMT0Rvb0hzS0U4ZzloZ3BhVnBrN0JWWEVUbjZNbHFTUVdVRHdoY2duYW1wNzJCVy1iRGJvbmtuZGlJZGMxX2hNQ21MY2VMampxQUJFTTE4YjVsV2dIVkFVSVZMcHdEeHVEZWRUaFZfOFotNVlMWXh2TFNUQ1Z0YVdtQnh5SkQ1X3lRZVl6TndRWEstN1FUV3ZsU1R3SUhiQkhLQ2xWLVJXMUZySEszSVpRcmRXVTZkdEFrX0RVZTNLV0NPT3RETnF5LVRyS2RvY0JVWkltTldLaHIyUHhVa3hB?oc=5",
@@ -930,16 +917,42 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44S0VrTG1mdzRiQWdkQjFrb3ZDV3FOY2h1anZkTWxvczdqaEJ2Z1NJc0kzZmpOYVNkbFhuSU82NFF4VC1uMzRnaVZOMHNrZW1ZUGhqQnY1cFRCMXlmQ0dLOGk5Z2wtU0JZZ0ZCSw?oc=5",
-        "title": "ভ্রাম্যমাণ ল্যাবে হবে খাদ্য পরীক্ষা, ৩৯০ কোটি টাকার ভ্যান কিনতে চায় নিরাপদ খাদ্য কর্তৃপক্ষ",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44S0VrTG1mdzRiQWdkQjFrb3ZDV3FOY2h1anZkTWxvczdqaEJ2Z1NJc0kzZmpOYVNkbFhuSU82NFF4VC1uMzRnaVZOMHNrZW1ZUGhqQnY1cFRCMXlmQ0dLOGk5Z2wtU0JZZ0ZCSw?oc=5",
-        "source": "দ্য ডেইলি স্টার বাংলা",
+        "id": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQbkExNDZHN3hDTHZvMzhlVlZTdmF6VU1LaEY5UFF6NGgzQ0JXMy1aYUo1MF92anZHbDBhd21YazVTaG9INHVBV0x5dVJneFNqejVMckpMQWZhdEZweFZEcV9uLXAzWGtyWkpuT1o4Q0ladGVld2gwM0xpaDNDLUtXSThfQlZUM3ppZVJubkJJUlRnMjhPcDhBX3RwOFFyVkJCSG9jd292TDZHZmg4NHdxeXB4a2V1WUQ1M2V0RWFuMW53WVBWNmlRdlF6aVlQX3c1VGd1bVZKNWg3UUxqR1N5Mkd1REdYd3d1WXJTczRIVGU0OW9OWXfSAfsBQVVfeXFMTUk0UUFDSGRxLVVZREN5anJOQmpNcFVOeGpUaWt5V3hXU0F4dmpBbkZhSmpNZFFCbjdCZkVpV2M0R212aFVQa3RjeVhZeFlvS0llVFhrZWlvWDc0ZEZUSG43S0hhVFhwaDg1N0RQZTVGVTlHZ25QaVZZd0FVT25lanEzQklXR2JxRnQ4c0pWNkk1UkdfV19UTnFfQ29Sd3NSa3RLWE0xQ2JudGR6eGUyMDVEeTEwMFdSOHV0eG95OS1kSkxlYnlyRHRCTmt0QXBZVXZOWkg1V0l5cUM0aGlYSGlWZVM5cmRFTk0tY1NCWW40QTNoYW5SbUxTQ28?oc=5",
+        "title": "‘হালাল খাবার বিক্রি করি না’ বোর্ড, লন্ডনে শিখ মালিকের রেস্তরাঁ ঘিরে তুমুল বিক্ষোভ",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQbkExNDZHN3hDTHZvMzhlVlZTdmF6VU1LaEY5UFF6NGgzQ0JXMy1aYUo1MF92anZHbDBhd21YazVTaG9INHVBV0x5dVJneFNqejVMckpMQWZhdEZweFZEcV9uLXAzWGtyWkpuT1o4Q0ladGVld2gwM0xpaDNDLUtXSThfQlZUM3ppZVJubkJJUlRnMjhPcDhBX3RwOFFyVkJCSG9jd292TDZHZmg4NHdxeXB4a2V1WUQ1M2V0RWFuMW53WVBWNmlRdlF6aVlQX3c1VGd1bVZKNWg3UUxqR1N5Mkd1REdYd3d1WXJTczRIVGU0OW9OWXfSAfsBQVVfeXFMTUk0UUFDSGRxLVVZREN5anJOQmpNcFVOeGpUaWt5V3hXU0F4dmpBbkZhSmpNZFFCbjdCZkVpV2M0R212aFVQa3RjeVhZeFlvS0llVFhrZWlvWDc0ZEZUSG43S0hhVFhwaDg1N0RQZTVGVTlHZ25QaVZZd0FVT25lanEzQklXR2JxRnQ4c0pWNkk1UkdfV19UTnFfQ29Sd3NSa3RLWE0xQ2JudGR6eGUyMDVEeTEwMFdSOHV0eG95OS1kSkxlYnlyRHRCTmt0QXBZVXZOWkg1V0l5cUM0aGlYSGlWZVM5cmRFTk0tY1NCWW40QTNoYW5SbUxTQ28?oc=5",
+        "source": "Asianet News Bangla",
         "publisherUrl": "",
-        "publishedAt": "Sun, 15 Nov 2026 05:01:50 GMT",
-        "summary": "ভ্রাম্যমাণ ল্যাবে হবে খাদ্য পরীক্ষা, ৩৯০ কোটি টাকার ভ্যান কিনতে চায় নিরাপদ খাদ্য কর্তৃপক্ষ &nbsp;&nbsp; দ্য ডেইলি স্টার বাংলা",
-        "image": "https://bangla.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/food-safety.jpg",
-        "articleUrl": "https://bangla.thedailystar.net/news/bangladesh/news-3981146",
+        "publishedAt": "Mon, 16 Nov 2026 03:30:28 GMT",
+        "summary": "‘হালাল খাবার বিক্রি করি না’ বোর্ড, লন্ডনে শিখ মালিকের রেস্তরাঁ ঘিরে তুমুল বিক্ষোভ &nbsp;&nbsp; Asianet News Bangla",
+        "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m7h6jpa7473f2afke6d113de,imgname-asianet-bangla-thump---2026-11-16t085907.779-1794799917382.jpg",
+        "articleUrl": "https://bangla.asianetnews.com/international/world-news/protest-outside-an-indian-restaurant-in-london-as-sikh-owner-refused-to-sell-halal-food/articleshow-c2sfbn8",
         "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JblJRTS03TWdfNEdBMzJwbDJ4SzIzX0VoVEJjV1lZSVEya21nbXVBRFlBTjBlQ2N3RmNnM1lvRVZ3MVpZcEI2T05kc3Y0cGxFWmNkR3VyWWpJRmtTUDBpb01tRzFXcWFv0gF2QVVfeXFMTzRTUFlmQl92STFzY0xjZnFHZDFleTdORF9fTnd4SElWXzU5X09PWmZKd1JSTlBjQzNxYTB3QVQwaWowYXBhU1c1Z1ZSaldnNU5tMVI0NC13R1lBOXhUY2FQeWJrMEZtTWVsZmJNM2pzb2hNSzZ5dw?oc=5",
+        "title": "ঠাকুরগাঁওয়ে রান্না মাংস বিক্রি হয় ওজনে, ২৫০ গ্রামও পাওয়া যায়",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JblJRTS03TWdfNEdBMzJwbDJ4SzIzX0VoVEJjV1lZSVEya21nbXVBRFlBTjBlQ2N3RmNnM1lvRVZ3MVpZcEI2T05kc3Y0cGxFWmNkR3VyWWpJRmtTUDBpb01tRzFXcWFv0gF2QVVfeXFMTzRTUFlmQl92STFzY0xjZnFHZDFleTdORF9fTnd4SElWXzU5X09PWmZKd1JSTlBjQzNxYTB3QVQwaWowYXBhU1c1Z1ZSaldnNU5tMVI0NC13R1lBOXhUY2FQeWJrMEZtTWVsZmJNM2pzb2hNSzZ5dw?oc=5",
+        "source": "প্রথম আলো",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 03:30:00 GMT",
+        "summary": "ঠাকুরগাঁওয়ে রান্না মাংস বিক্রি হয় ওজনে, ২৫০ গ্রামও পাওয়া যায় &nbsp;&nbsp; প্রথম আলো",
+        "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2F5bl6jbwu%2Fthakurgaonbief-1.jpg?rect=0%2C0%2C3840%2C2160&w=1200&ar=16%3A9&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+        "articleUrl": "https://www.prothomalo.com/bangladesh/district/k5ok1xqcve",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi2gRBVV95cUxNNGNkb0g3bkRfX1E4ckxYSXJFZEYwVlR6WWtSaWFhSE11YlBLcFV1ejdOUGJ5ek1tcDlSWDA0U3ZWem9JaER2UHltc0E0c2dsQ2dXeFdlV0NaNFktd1FlMTRxejg5bzQtMWQ0WHNEc3lXWW5QcjJoQ2phUjFBdV9paG9NU1RWZW9zVkxIZHhmb09sVkIzZ0xjLURUd0NZSW5QbjVGTW9sR00tQjZDMzMxR2NZdnMzWDFzaVJoaFIwMDNQS0VtVlhyN2NuZ25MNWxhZXhTRkV4ZjViUldxOExVU3hsTzhGNVlWLXVuelU2UjNXeFNiQWxDQjRrYUh5cmZoVnE3R01kRS0yZTZFdGVzTEphbnA5a0RLY3JfX3UwWWR1OG05Z0RfWmN4WC1aWV9Obk9oOUVxMFZ6SEstQkJkdjhHMXdBcUMyZnF6UDQ0ZTBqYk10ajdLdktReldhWUxJX1djdjk3aWVGMVIwbzRYVE41Zk41NG94Q3RWWWUyN1hJMTlzN3NhZU9lMTVuclVVMHZ2NGZPYjMwOF9zXzFTVFQyMnRIbUlBT0Ntc1lIQVNqMkRjTHJ0OGY0ODJVUmpwWlIxSEpHbW9JdDM3SE5wZ1l5aHQyaFpfRlpPQVRhMHJIdy02ZFFRcWhvVjVvMUtpdWRmSWFrdF9NSkVSN2l4d0JFRW5NcTRlZEZkemE3MlM5VmIyejVqanViZ05tN3JVQUxCbmpyc2RiUHo1aW5hZm5tbklpanBjOVBrUHZfOVFwRkhmX3ItZFZTQjZnQW5kZWQxZXdETVF2QQ?oc=5",
+        "title": "জলবায়ু আলোচনায় প্রান্তিক মানুষের কণ্ঠ থাকা জরুরি",
+        "link": "https://news.google.com/rss/articles/CBMi2gRBVV95cUxNNGNkb0g3bkRfX1E4ckxYSXJFZEYwVlR6WWtSaWFhSE11YlBLcFV1ejdOUGJ5ek1tcDlSWDA0U3ZWem9JaER2UHltc0E0c2dsQ2dXeFdlV0NaNFktd1FlMTRxejg5bzQtMWQ0WHNEc3lXWW5QcjJoQ2phUjFBdV9paG9NU1RWZW9zVkxIZHhmb09sVkIzZ0xjLURUd0NZSW5QbjVGTW9sR00tQjZDMzMxR2NZdnMzWDFzaVJoaFIwMDNQS0VtVlhyN2NuZ25MNWxhZXhTRkV4ZjViUldxOExVU3hsTzhGNVlWLXVuelU2UjNXeFNiQWxDQjRrYUh5cmZoVnE3R01kRS0yZTZFdGVzTEphbnA5a0RLY3JfX3UwWWR1OG05Z0RfWmN4WC1aWV9Obk9oOUVxMFZ6SEstQkJkdjhHMXdBcUMyZnF6UDQ0ZTBqYk10ajdLdktReldhWUxJX1djdjk3aWVGMVIwbzRYVE41Zk41NG94Q3RWWWUyN1hJMTlzN3NhZU9lMTVuclVVMHZ2NGZPYjMwOF9zXzFTVFQyMnRIbUlBT0Ntc1lIQVNqMkRjTHJ0OGY0ODJVUmpwWlIxSEpHbW9JdDM3SE5wZ1l5aHQyaFpfRlpPQVRhMHJIdy02ZFFRcWhvVjVvMUtpdWRmSWFrdF9NSkVSN2l4d0JFRW5NcTRlZEZkemE3MlM5VmIyejVqanViZ05tN3JVQUxCbmpyc2RiUHo1aW5hZm5tbklpanBjOVBrUHZfOVFwRkhmX3ItZFZTQjZnQW5kZWQxZXdETVF2QQ?oc=5",
+        "source": "Samakal",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 16 Nov 2026 02:59:57 GMT",
+        "summary": "জলবায়ু আলোচনায় প্রান্তিক মানুষের কণ্ঠ থাকা জরুরি &nbsp;&nbsp; Samakal",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://samakal.com/bangladesh/article/383347/%E0%A6%9C%E0%A6%B2%E0%A6%AC%E0%A6%BE%E0%A7%9F%E0%A7%81-%E0%A6%86%E0%A6%B2%E0%A7%8B%E0%A6%9A%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%A3%E0%A7%8D%E0%A6%A0-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%9C%E0%A6%B0%E0%A7%81%E0%A6%B0%E0%A6%BF",
+        "imageAttemptedAt": "2026-11-16T04:00:12.178Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -954,19 +967,6 @@
         "articleUrl": "https://www.bssnews.net/bangla/special-report/360084",
         "imageAttemptedAt": "2026-11-16T02:50:26.812Z",
         "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9uNTQ0NnpUVHQ4ZE5ONXNrS2t0eUtwU0hHdU00VmVVRE9XYjdPMmNrQW5pYXNZajRCZDNvRV95OTJDV1VpUUJ4d0UySDZXcldPeHdfUktyZHlXUQ?oc=5",
-        "title": "রান্নার চুলার আগুনে পুড়ল দিনমজুরের বসতঘর",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9uNTQ0NnpUVHQ4ZE5ONXNrS2t0eUtwU0hHdU00VmVVRE9XYjdPMmNrQW5pYXNZajRCZDNvRV95OTJDV1VpUUJ4d0UySDZXcldPeHdfUktyZHlXUQ?oc=5",
-        "source": "Cvoice24.com",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 15 Nov 2026 15:10:00 GMT",
-        "summary": "রান্নার চুলার আগুনে পুড়ল দিনমজুরের বসতঘর &nbsp;&nbsp; Cvoice24.com",
-        "image": "https://www.cvoice24.com/media/imgAll/2022September/pekua-2611151510-fb.jpg",
-        "articleUrl": "https://www.cvoice24.com/coxs-bazar/news/88815",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
       }
     ]
   },
@@ -974,10 +974,10 @@
   "imageStats": {
     "total": 73,
     "fromRss": 0,
-    "fromArticleMetadata": 23,
-    "reusedCached": 21,
-    "actualPhotos": 23,
-    "fallbackIllustrations": 50,
+    "fromArticleMetadata": 20,
+    "reusedCached": 18,
+    "actualPhotos": 20,
+    "fallbackIllustrations": 53,
     "withImage": 73,
     "withoutImage": 0
   }
