@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-17T21:46:51.641Z",
+  "generatedAt": "2026-11-17T22:47:35.285Z",
   "sponsors": {
     "somoy": [
       {
@@ -601,19 +601,6 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FM2otZU1CVUdBZmhoeEQ1X0lQc0hHeTI2X2cxdGo4QWxMcXV0OVJ4U3Y1cmhoVDV3d2FISVZnb3hZWXVCMEhLaFBoTngyU0RnU2hZMTJqanpNSjg?oc=5",
-        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৫ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FM2otZU1CVUdBZmhoeEQ1X0lQc0hHeTI2X2cxdGo4QWxMcXV0OVJ4U3Y1cmhoVDV3d2FISVZnb3hZWXVCMEhLaFBoTngyU0RnU2hZMTJqanpNSjg?oc=5",
-        "source": "Somoy News",
-        "publisherUrl": "",
-        "publishedAt": "Sun, 15 Nov 2026 18:30:19 GMT",
-        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৫ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
-        "image": "https://img.youtube.com/vi/hBhf11YtAcs/maxresdefault.jpg",
-        "articleUrl": "https://somoynews.com.bd/video/latest-video/428",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XSmp0MlU0UlZPd3Vyel92a2ktc0xFRC00bVB0ZGl3SktzUkxkYTlqMnNoLXI4TEViU3N0T0tpYUxHQ0twaHVSbldGR1hoNUtYUnVaZXhTN3VFV1dQRnBrVGdwMA?oc=5",
         "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৬ নভেম্বর ২০২৬",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XSmp0MlU0UlZPd3Vyel92a2ktc0xFRC00bVB0ZGl3SktzUkxkYTlqMnNoLXI4TEViU3N0T0tpYUxHQ0twaHVSbldGR1hoNUtYUnVaZXhTN3VFV1dQRnBrVGdwMA?oc=5",
@@ -624,6 +611,19 @@
         "image": "news-fallbacks/world.svg",
         "articleUrl": "https://www.jagonews24.com/international/news/1180271",
         "imageAttemptedAt": "2026-11-17T06:47:12.733Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00UTJiNHZ4UFhma2FNaWtnYTd2NlVGX0ZGaElCZ3kzTzIxY2NmaTJnQ1ZEYjRvd2VMbGt3YlE3bkxlZzdxaF9qcEpxZWJDcm9KTmR1UUw5SWh2a00?oc=5",
+        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৪ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00UTJiNHZ4UFhma2FNaWtnYTd2NlVGX0ZGaElCZ3kzTzIxY2NmaTJnQ1ZEYjRvd2VMbGt3YlE3bkxlZzdxaF9qcEpxZWJDcm9KTmR1UUw5SWh2a00?oc=5",
+        "source": "Somoy News",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 14 Nov 2026 18:26:05 GMT",
+        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
+        "image": "https://img.youtube.com/vi/_XJ2HPtyUWk/maxresdefault.jpg",
+        "articleUrl": "https://somoynews.com.bd/video/latest-video/416",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
@@ -653,15 +653,15 @@
         "imageFallback": "news-fallbacks/world.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00UTJiNHZ4UFhma2FNaWtnYTd2NlVGX0ZGaElCZ3kzTzIxY2NmaTJnQ1ZEYjRvd2VMbGt3YlE3bkxlZzdxaF9qcEpxZWJDcm9KTmR1UUw5SWh2a00?oc=5",
-        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৪ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00UTJiNHZ4UFhma2FNaWtnYTd2NlVGX0ZGaElCZ3kzTzIxY2NmaTJnQ1ZEYjRvd2VMbGt3YlE3bkxlZzdxaF9qcEpxZWJDcm9KTmR1UUw5SWh2a00?oc=5",
+        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FM2otZU1CVUdBZmhoeEQ1X0lQc0hHeTI2X2cxdGo4QWxMcXV0OVJ4U3Y1cmhoVDV3d2FISVZnb3hZWXVCMEhLaFBoTngyU0RnU2hZMTJqanpNSjg?oc=5",
+        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৫ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FM2otZU1CVUdBZmhoeEQ1X0lQc0hHeTI2X2cxdGo4QWxMcXV0OVJ4U3Y1cmhoVDV3d2FISVZnb3hZWXVCMEhLaFBoTngyU0RnU2hZMTJqanpNSjg?oc=5",
         "source": "Somoy News",
         "publisherUrl": "",
-        "publishedAt": "Sat, 14 Nov 2026 18:26:05 GMT",
-        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৪ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
-        "image": "https://img.youtube.com/vi/_XJ2HPtyUWk/maxresdefault.jpg",
-        "articleUrl": "https://somoynews.com.bd/video/latest-video/416",
+        "publishedAt": "Sun, 15 Nov 2026 18:30:19 GMT",
+        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৫ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
+        "image": "https://img.youtube.com/vi/hBhf11YtAcs/maxresdefault.jpg",
+        "articleUrl": "https://somoynews.com.bd/video/latest-video/428",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/world.svg"
       },
@@ -692,20 +692,139 @@
         "imageFallback": "news-fallbacks/world.svg"
       }
     ],
-    "food": [
+    "bangladesh": [
       {
-        "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55UHY3RE1TYnhOSnhWWGpuQ3BHa2twVlJYTmdUQTFKWFVWZnhlcFVudmhQWmRuV1dSYktDQlM4WVNNQ2w2UWlYRXN4ejgxSlplUlVzNEtScHplZw?oc=5",
-        "title": "ফেনীতে নিরাপদ খাদ্য কর্তৃপক্ষের অভিযানে তিন প্রতিষ্ঠানকে জরিমানা | জাতীয় | বাংলাদেশ সংবাদ সংস্থা (বাসস)",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55UHY3RE1TYnhOSnhWWGpuQ3BHa2twVlJYTmdUQTFKWFVWZnhlcFVudmhQWmRuV1dSYktDQlM4WVNNQ2w2UWlYRXN4ejgxSlplUlVzNEtScHplZw?oc=5",
-        "source": "Bangladesh Sangbad Sangstha (BSS)",
+        "id": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxPQk9wckViV2ZiaHJLQk1pd0phMDdHU2o5WkNlYjhJdVRwVzUyU00xZHB0VVJucVJJTHlNWld5QXhMd1I5TVIxaTZlMHJVR2JqTWZmWlVjajR1cjdUeDlVZUV5eTU0S0RtOFFjb2pxTXZDeHpROGcxRlZSc3ZVTW1vclJuLUpWZGZGYWtrMjcwVWlYZFhrWGgzUTZJZUlnSUxSNURIamVFLVhyYUpvZ0NWUTl2amVVVnM3RnFVOXlJU2VnS2VHYXBnV3Fvd1R5S2ZlOUpMb0xGUkozR1owelA5X1NFR095c0thN1lxYWJHdWtBb0c0Z25CaDNpTFpOc0p4SVBTZk9YVnZfYlF1Q1BxQVRuWmNnZ3ZZUXFqYTJWemdvaHgtQl92WWtrb0FlNmhQTW9rYXg2bkpzUXFKMnBuYmpGRThKX3RwS3A4bHQzVDdKV3FMSFgtN1BnRjJUYW1LZWFBNldmUUY2Sk5OM3JfX1dGZDNPTUt5c3lHWkRFcmZMZlZDb0hmWXVEby1ONmppQU5OUlktVW00RXVuVjhueTh5ZlJTcUpsOEQyc0drWmcya3NvZDlhMzRvLTVpTkYwTm5HMmRkRlNJWFkybzIzeDBrbTNKWkhoa05PMHFwUXJHSW5aTS0xWW15RkVfekk?oc=5",
+        "title": "Bangladesh Unrest | ক্ষোভের আগুনে জ্বলছে বাংলাদেশ | #shorts #Zee24Ghanta #BangladeshNews #Zee24Ghanta #LatestNews",
+        "link": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxPQk9wckViV2ZiaHJLQk1pd0phMDdHU2o5WkNlYjhJdVRwVzUyU00xZHB0VVJucVJJTHlNWld5QXhMd1I5TVIxaTZlMHJVR2JqTWZmWlVjajR1cjdUeDlVZUV5eTU0S0RtOFFjb2pxTXZDeHpROGcxRlZSc3ZVTW1vclJuLUpWZGZGYWtrMjcwVWlYZFhrWGgzUTZJZUlnSUxSNURIamVFLVhyYUpvZ0NWUTl2amVVVnM3RnFVOXlJU2VnS2VHYXBnV3Fvd1R5S2ZlOUpMb0xGUkozR1owelA5X1NFR095c0thN1lxYWJHdWtBb0c0Z25CaDNpTFpOc0p4SVBTZk9YVnZfYlF1Q1BxQVRuWmNnZ3ZZUXFqYTJWemdvaHgtQl92WWtrb0FlNmhQTW9rYXg2bkpzUXFKMnBuYmpGRThKX3RwS3A4bHQzVDdKV3FMSFgtN1BnRjJUYW1LZWFBNldmUUY2Sk5OM3JfX1dGZDNPTUt5c3lHWkRFcmZMZlZDb0hmWXVEby1ONmppQU5OUlktVW00RXVuVjhueTh5ZlJTcUpsOEQyc0drWmcya3NvZDlhMzRvLTVpTkYwTm5HMmRkRlNJWFkybzIzeDBrbTNKWkhoa05PMHFwUXJHSW5aTS0xWW15RkVfekk?oc=5",
+        "source": "Facebook",
         "publisherUrl": "",
-        "publishedAt": "Tue, 17 Nov 2026 14:05:00 GMT",
-        "summary": "ফেনীতে নিরাপদ খাদ্য কর্তৃপক্ষের অভিযানে তিন প্রতিষ্ঠানকে জরিমানা | জাতীয় | বাংলাদেশ সংবাদ সংস্থা (বাসস) &nbsp;&nbsp; Bangladesh Sangbad Sangstha (BSS)",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.bssnews.net/bangla/national/361031",
-        "imageAttemptedAt": "2026-11-17T15:50:02.174Z",
-        "imageFallback": "news-fallbacks/food.svg"
+        "publishedAt": "Tue, 17 Nov 2026 18:04:29 GMT",
+        "summary": "Bangladesh Unrest | ক্ষোভের আগুনে জ্বলছে বাংলাদেশ | #shorts #Zee24Ghanta #BangladeshNews #Zee24Ghanta #LatestNews &nbsp;&nbsp; Facebook",
+        "image": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/902441339_1126481680231805_8487727231063012530_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=596eb7&_nc_ohc=JSOqNtXwsckQ7kNvwEglsse&_nc_oc=Adp3NOO6zdmu2T7IHxoyRQyKZWX9a7XbSblwRvoNM8RCrAAij-SCZwVUCEPWQWTDROU&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=ADiV9kUi4JcEg4Ma4e00wg&_nc_ss=70289&oh=00_AQS6soiMr98w0J38xfuD6Mz7KLdAb7bRz_9TEZCsqQzWkg&oe=6B0263B3",
+        "articleUrl": "https://www.facebook.com/Zee24Ghanta/videos/bangladesh-unrest-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8B%E0%A6%AD%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8%E0%A7%87-%E0%A6%9C%E0%A7%8D%E0%A6%AC%E0%A6%B2%E0%A6%9B%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-shorts-zee24ghanta-bangladeshnew/4338456136288051/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
       },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZlNKMV9xcUF2QnFEUXNiRmQyOGNrQld6LTc1aW5kNm9aLUVYVzRUVS1KQXRzaVNfMTJmV0hPNzZhZ2NXNm1HRl9HUXJqd2JSODgzcjdHOGtHbjk1NGZRX3hYeGE0d2hyTkJic3lrM3ZtMkdsLVlSUDRMR2FpODNLeVpmVzI2c1hOMFB2MGJwUWN4dk9kd1J1Vmg1aUpuOGhvcjdyckR6RjMxSXZOd1V6alJmVUd3R29LY2Fn0gHAAUFVX3lxTE5hYnNvSjVzSTVCY2pFWGtuS2FiNWJ3ZnhSdVpVMC1EdFVsei1sOTJHQlRKajVHX0ZyZ25mSnZDRFRqdFNpaUJ2c05UYmNEeGp3QzRsUl9GMmQ1b1lmYVFaMnlONzJ4U3FuLVNqTm80SFM0WW14TldaQXVJQWRneHJCd2lyNzhVVVJUc1Z2SkM5RmgwVFFBclNsNldId1phT0RsdGEtX1VfOElXNXBMaVBkMDFpMFloZ0J4dVpvWEMtLQ?oc=5",
+        "title": "'ডিসেম্বর, ডিসেম্বরেই ফিরবেন নেত্রী'",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZlNKMV9xcUF2QnFEUXNiRmQyOGNrQld6LTc1aW5kNm9aLUVYVzRUVS1KQXRzaVNfMTJmV0hPNzZhZ2NXNm1HRl9HUXJqd2JSODgzcjdHOGtHbjk1NGZRX3hYeGE0d2hyTkJic3lrM3ZtMkdsLVlSUDRMR2FpODNLeVpmVzI2c1hOMFB2MGJwUWN4dk9kd1J1Vmg1aUpuOGhvcjdyckR6RjMxSXZOd1V6alJmVUd3R29LY2Fn0gHAAUFVX3lxTE5hYnNvSjVzSTVCY2pFWGtuS2FiNWJ3ZnhSdVpVMC1EdFVsei1sOTJHQlRKajVHX0ZyZ25mSnZDRFRqdFNpaUJ2c05UYmNEeGp3QzRsUl9GMmQ1b1lmYVFaMnlONzJ4U3FuLVNqTm80SFM0WW14TldaQXVJQWRneHJCd2lyNzhVVVJUc1Z2SkM5RmgwVFFBclNsNldId1phT0RsdGEtX1VfOElXNXBMaVBkMDFpMFloZ0J4dVpvWEMtLQ?oc=5",
+        "source": "TheWall",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 17 Nov 2026 06:08:28 GMT",
+        "summary": "'ডিসেম্বর, ডিসেম্বরেই ফিরবেন নেত্রী' &nbsp;&nbsp; TheWall",
+        "image": "https://s3.ap-south-1.amazonaws.com/statics.thewall.in/sites/default/files/styles/medium/public/2026-11/Bangladesh%20news%20today_0.jpeg.webp",
+        "articleUrl": "https://www.thewall.in/video-story/december-the-leader-will-return-in-december-bangladesh-news-sheikh-hasina/tid/209633",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOb1pxek1IdDFPY2N2RmxEZWpKTk9VbHZOY3B0RkNYU3ZPTkphUFZVY0hjcGEyb1ZUcVV1b0w2YURTZ2FQcURJRE0tWEZqMEw2SEJILWNZVUdmNjJJRHZORGhzVFpwMDEyVnljWmtUOW1GNEhaTE5KNnJtZDBYcy1OeWtnb0hCdHc0RGFOOGZkVElRcjUtUUFZMFlOUEpTMXlGZkhSbmdVd3dkOW1BRVhFX21VUDk4V1htSXFGenlHTF9felktWnA1U0RHLUQ1NVFPdXdORjZWQm9weW5mU0g4WGZWc0NINlBDRG1qU0p1N0lkWXZtYmV30gH8AUFVX3lxTFBsMElJbC11MHZvNUdzMkNhbFhPSUVQZWY0aDk5VmN4QlZBaFhfSGFtSVdMMFJ0VTRzdzdVdmJSVkdjT2owT0x1UlppSUFma1Q0S2xjakRCLUJKUWpEcWFnNGx1OVpoeE11UVBmYWFScm1HX2E5eU1SRnQwMElCOTBMQWsyNmpmdWs3ZW5wZUw5S0FTOGxwOUg4VUdTRFl2Q0ZONVNJVEpMaDRjeDZLejBsNjc4R0VHWnlwNWpFNkV1aHhORm1BZUJwZ0h5T0thNWpOdWtnR2ZyUEVTVEJMN3ZUY09ZOE9VTHNmbm41VzB4U01iWmtabUs1NEZFaQ?oc=5",
+        "title": "Bangladesh News : বাংলাদেশের রাজনৈতিক উত্তাপের আঁচ লন্ডনে, ২ পক্ষের সংঘর্ষ, পুলিশের লাঠি",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOb1pxek1IdDFPY2N2RmxEZWpKTk9VbHZOY3B0RkNYU3ZPTkphUFZVY0hjcGEyb1ZUcVV1b0w2YURTZ2FQcURJRE0tWEZqMEw2SEJILWNZVUdmNjJJRHZORGhzVFpwMDEyVnljWmtUOW1GNEhaTE5KNnJtZDBYcy1OeWtnb0hCdHc0RGFOOGZkVElRcjUtUUFZMFlOUEpTMXlGZkhSbmdVd3dkOW1BRVhFX21VUDk4V1htSXFGenlHTF9felktWnA1U0RHLUQ1NVFPdXdORjZWQm9weW5mU0g4WGZWc0NINlBDRG1qU0p1N0lkWXZtYmV30gH8AUFVX3lxTFBsMElJbC11MHZvNUdzMkNhbFhPSUVQZWY0aDk5VmN4QlZBaFhfSGFtSVdMMFJ0VTRzdzdVdmJSVkdjT2owT0x1UlppSUFma1Q0S2xjakRCLUJKUWpEcWFnNGx1OVpoeE11UVBmYWFScm1HX2E5eU1SRnQwMElCOTBMQWsyNmpmdWs3ZW5wZUw5S0FTOGxwOUg4VUdTRFl2Q0ZONVNJVEpMaDRjeDZLejBsNjc4R0VHWnlwNWpFNkV1aHhORm1BZUJwZ0h5T0thNWpOdWtnR2ZyUEVTVEJMN3ZUY09ZOE9VTHNmbm41VzB4U01iWmtabUs1NEZFaQ?oc=5",
+        "source": "ABP Ananda",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 17 Nov 2026 07:18:53 GMT",
+        "summary": "Bangladesh News : বাংলাদেশের রাজনৈতিক উত্তাপের আঁচ লন্ডনে, ২ পক্ষের সংঘর্ষ, পুলিশের লাঠি &nbsp;&nbsp; ABP Ananda",
+        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/17/f2808745458512683827e26a8cfaa9cd1794900706232170_original.jpg?impolicy=abp_cdn&imwidth=1200",
+        "articleUrl": "https://bengali.abplive.com/news/clashes-between-supporters-of-ncp-and-awami-league-in-east-london-s-romford-following-a-reception-for-ncp-chief-nahid-islam-1199578",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50TVNvcTQ3aUVrM21ZTTRSVUhOdmhZTFNnU01SaG93aTFweFVYRVpVb0NmcUM5eWw5UVFBYkwta3JDQW4yYklWdE95OFRZc3QwWEFrT3FJWHhLM1hHNjdQMm5iRTJtR2dG0gF2QVVfeXFMT2ZFZ1JnZzc2dFY4UXJxUnRVWUk0ZFQyakpUQXY3WF90UjN4T3JubVFlS1k3aXA3SUs4RFJ4WXczY2VDV01JSEx6Z01qVFVfYmVCV01OYlFKNVBvZUhXTV95S0hJVHozWmVyREMyeWMxWW1mYUQzZw?oc=5",
+        "title": "দিস ইজ বিগ নিউজ ফর আস, অ্যান্ড ফর বাংলাদেশ: বিজ্ঞান ও প্রযুক্তিমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50TVNvcTQ3aUVrM21ZTTRSVUhOdmhZTFNnU01SaG93aTFweFVYRVpVb0NmcUM5eWw5UVFBYkwta3JDQW4yYklWdE95OFRZc3QwWEFrT3FJWHhLM1hHNjdQMm5iRTJtR2dG0gF2QVVfeXFMT2ZFZ1JnZzc2dFY4UXJxUnRVWUk0ZFQyakpUQXY3WF90UjN4T3JubVFlS1k3aXA3SUs4RFJ4WXczY2VDV01JSEx6Z01qVFVfYmVCV01OYlFKNVBvZUhXTV95S0hJVHozWmVyREMyeWMxWW1mYUQzZw?oc=5",
+        "source": "প্রথম আলো",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 17 Nov 2026 12:45:00 GMT",
+        "summary": "দিস ইজ বিগ নিউজ ফর আস, অ্যান্ড ফর বাংলাদেশ: বিজ্ঞান ও প্রযুক্তিমন্ত্রী &nbsp;&nbsp; প্রথম আলো",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.prothomalo.com/bangladesh/district/8p2sf3o2x7",
+        "imageAttemptedAt": "2026-11-17T13:56:50.242Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNlBKLTF3STR3RUduM055aE54QkZwdEtQZFVJOEdQeUdld2xHUFBLMHhOQWc4Y1RKNkd4WG9nVXQ4VWNuQ200cG5lVTlVeHowZHVXTGx0TGhwNzNvRW5qdVR1ZUJOdUI1bFhaWmRJb1NUWWhINmRQdHdYTkZGaHdTLS1PalFKUDM5OUtkdW5tWE5MRHNIbWZCVEJRLWZEMUpZMXlvRkxpRFdMa0dlaEpTMTBwdzBvVGZDU2JMaVJvRHNtOS1pZkxuSw?oc=5",
+        "title": "আওয়ামী লীগ আর বাংলাদেশে রাজনীতি করতে পারবে না: স্বরাষ্ট্রমন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNlBKLTF3STR3RUduM055aE54QkZwdEtQZFVJOEdQeUdld2xHUFBLMHhOQWc4Y1RKNkd4WG9nVXQ4VWNuQ200cG5lVTlVeHowZHVXTGx0TGhwNzNvRW5qdVR1ZUJOdUI1bFhaWmRJb1NUWWhINmRQdHdYTkZGaHdTLS1PalFKUDM5OUtkdW5tWE5MRHNIbWZCVEJRLWZEMUpZMXlvRkxpRFdMa0dlaEpTMTBwdzBvVGZDU2JMaVJvRHNtOS1pZkxuSw?oc=5",
+        "source": "স্টার নিউজ",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 17 Nov 2026 17:23:39 GMT",
+        "summary": "আওয়ামী লীগ আর বাংলাদেশে রাজনীতি করতে পারবে না: স্বরাষ্ট্রমন্ত্রী &nbsp;&nbsp; স্টার নিউজ",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://starnews.com.bd/national/29194/awami-league-will-no-longer-be-able-to-engage-in-politics-in-bangladesh-home-minister.html",
+        "imageAttemptedAt": "2026-11-17T17:55:39.043Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5QNGxaT3Y2X2FQYWNydjM3VWtQUjZHekRpb0xZN1FZR3pEM0xYZ3gybFFhbmNIRDhKal9BdzhvdnMtQkVzVU5tUHBvWTFYdjRw?oc=5",
+        "title": "ম্যানগ্রোভ রক্ষায় বাংলাদেশের তিন প্রস্তাব সাইমুম পারভেজের :: এটিএন নিউজ",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5QNGxaT3Y2X2FQYWNydjM3VWtQUjZHekRpb0xZN1FZR3pEM0xYZ3gybFFhbmNIRDhKal9BdzhvdnMtQkVzVU5tUHBvWTFYdjRw?oc=5",
+        "source": "ATN News",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 17 Nov 2026 16:06:30 GMT",
+        "summary": "ম্যানগ্রোভ রক্ষায় বাংলাদেশের তিন প্রস্তাব সাইমুম পারভেজের :: এটিএন নিউজ &nbsp;&nbsp; ATN News",
+        "image": "https://www.atnnewstv.com/assets/img/full/33891.webp",
+        "articleUrl": "https://www.atnnewstv.com/details/33269",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQZGdqdHp1dndPYmlRcjFOWUVkd2xMWmpERGJrbDE3U0ZpYU5LbG1JX0FsZFFSVTFJZ0VhRnB2V0lLMXdoYllaejNNRkRnazVKSE4tamNaOUdhdmNKdGN1OW9odmNUMDJqZl9vV1RtcmxTTERPZVZ0R1Z0X1VTbWpBcHp5Y3hNMU9RallhUXI1bEE0UWY1dzN1RGgzanpxZEZVUzNaVlpoM0s3N0VpU2lOYVpOYlQ5X3F6T1AxTVR5NFJkc2RReXJSNHhNWDdnUzVjV2QzXzF2VHY5aEhrZlJncFVJZUNXR1lwaXlSSm10S2Z3b2E0Q004UHpJajVEUFNESGhMOTVteXZ2NXJqUTR1TlNYYTNRNk0tQVBlR180clI3TmhYRWdhbDZtOTdhbmRlMHpTMkYtaV81Mjl2WENVc1BJTQ?oc=5",
+        "title": "ই-বাংলাদেশ পার্লামেন্ট প্রকল্প বাস্তবায়নের সিদ্ধান্ত",
+        "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQZGdqdHp1dndPYmlRcjFOWUVkd2xMWmpERGJrbDE3U0ZpYU5LbG1JX0FsZFFSVTFJZ0VhRnB2V0lLMXdoYllaejNNRkRnazVKSE4tamNaOUdhdmNKdGN1OW9odmNUMDJqZl9vV1RtcmxTTERPZVZ0R1Z0X1VTbWpBcHp5Y3hNMU9RallhUXI1bEE0UWY1dzN1RGgzanpxZEZVUzNaVlpoM0s3N0VpU2lOYVpOYlQ5X3F6T1AxTVR5NFJkc2RReXJSNHhNWDdnUzVjV2QzXzF2VHY5aEhrZlJncFVJZUNXR1lwaXlSSm10S2Z3b2E0Q004UHpJajVEUFNESGhMOTVteXZ2NXJqUTR1TlNYYTNRNk0tQVBlR180clI3TmhYRWdhbDZtOTdhbmRlMHpTMkYtaV81Mjl2WENVc1BJTQ?oc=5",
+        "source": "Dhaka News 24",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 17 Nov 2026 14:41:03 GMT",
+        "summary": "ই-বাংলাদেশ পার্লামেন্ট প্রকল্প বাস্তবায়নের সিদ্ধান্ত &nbsp;&nbsp; Dhaka News 24",
+        "image": "https://www.dhakanews24.com/wp-content/uploads/2026/11/EPRLMN.jpg",
+        "articleUrl": "https://www.dhakanews24.com/%E0%A6%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%AA/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DZ3VUWEdCVXFRNmdZOXdnTGowRlE1WnZ0X0pCdW5ETWd2cVNGX2trc1FaaTdqWGpZZ2g3Z2tKT3E1ZkRwTmt5RzlLVXdUVDI3TDZFWmZDci0zVnNSaGRJ0gFkQVVfeXFMTmI2MEhiMXlIMkE3QjVnN3lPM3lvM1ZDUHJacWxFMkpwU1BLbDd6S252WGh1N2g2YTF3OUE3bm1Yd0xINUJ3R1dZSDY2MkttR0hzdWtiNzFGcXlOeU1PRzhacGpZTw?oc=5",
+        "title": "বাংলাদেশের সীমান্ত এলাকায় ডিসেম্বর ঘিরে ঠিক কী হচ্ছে?",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DZ3VUWEdCVXFRNmdZOXdnTGowRlE1WnZ0X0pCdW5ETWd2cVNGX2trc1FaaTdqWGpZZ2g3Z2tKT3E1ZkRwTmt5RzlLVXdUVDI3TDZFWmZDci0zVnNSaGRJ0gFkQVVfeXFMTmI2MEhiMXlIMkE3QjVnN3lPM3lvM1ZDUHJacWxFMkpwU1BLbDd6S252WGh1N2g2YTF3OUE3bm1Yd0xINUJ3R1dZSDY2MkttR0hzdWtiNzFGcXlOeU1PRzhacGpZTw?oc=5",
+        "source": "BBC",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 16 Nov 2026 13:25:58 GMT",
+        "summary": "বাংলাদেশের সীমান্ত এলাকায় ডিসেম্বর ঘিরে ঠিক কী হচ্ছে? &nbsp;&nbsp; BBC",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://www.bbc.com/bengali/articles/cmj6lz8kg223o",
+        "imageAttemptedAt": "2026-11-17T04:40:27.749Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeUVwNU1WXzFnYUlJX1IwQ1cyWUlPa0dfTkgzTkt4X2J6clcySGJBZTNmSVlEWllrNDBmTGc4Sk5fRVdjdFFfRXNpNlZBQ0syYU9nTjhKYWVYTjFnYjhIUUh3d3ozQ0FNdkdZWllmWnBIdDFZYndaZ0dpWEF1ZXU0QWFVc0xxT2UzY3VqN0RfNE5XQURqdDc2Z2t6bFdvQkR4OFdxdlVSdEZ1U3Fxa3M3b29Ic0Fid21m?oc=5",
+        "title": "পদ্মা ব্যাংককে রেজল্যুশন আইনের আওতায় নিল বাংলাদেশ ব্যাংক",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeUVwNU1WXzFnYUlJX1IwQ1cyWUlPa0dfTkgzTkt4X2J6clcySGJBZTNmSVlEWllrNDBmTGc4Sk5fRVdjdFFfRXNpNlZBQ0syYU9nTjhKYWVYTjFnYjhIUUh3d3ozQ0FNdkdZWllmWnBIdDFZYndaZ0dpWEF1ZXU0QWFVc0xxT2UzY3VqN0RfNE5XQURqdDc2Z2t6bFdvQkR4OFdxdlVSdEZ1U3Fxa3M3b29Ic0Fid21m?oc=5",
+        "source": "স্টার নিউজ",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 17 Nov 2026 13:49:52 GMT",
+        "summary": "পদ্মা ব্যাংককে রেজল্যুশন আইনের আওতায় নিল বাংলাদেশ ব্যাংক &nbsp;&nbsp; স্টার নিউজ",
+        "image": "news-fallbacks/bangladesh.svg",
+        "articleUrl": "https://starnews.com.bd/economic/29178/bangladesh-bank-brings-padma-bank-under-the-purview-of-the-resolution-act.html",
+        "imageAttemptedAt": "2026-11-17T19:58:04.094Z",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xWV9ZZjBnTXFoRURmLU5xSXpHeGJHN1A4RTFaQVg2dDVFdG5lUllXTHFOb29XdXNVNm5DQXBUbThDNjZBbGs5bXp6WkRXcGNl?oc=5",
+        "title": "মার্কিন ডিএফসি’র অর্থায়নের যোগ্যতা অর্জন করল বাংলাদেশ :: এটিএন নিউজ",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xWV9ZZjBnTXFoRURmLU5xSXpHeGJHN1A4RTFaQVg2dDVFdG5lUllXTHFOb29XdXNVNm5DQXBUbThDNjZBbGs5bXp6WkRXcGNl?oc=5",
+        "source": "ATN News",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 17 Nov 2026 14:22:20 GMT",
+        "summary": "মার্কিন ডিএফসি’র অর্থায়নের যোগ্যতা অর্জন করল বাংলাদেশ :: এটিএন নিউজ &nbsp;&nbsp; ATN News",
+        "image": "https://www.atnnewstv.com/assets/img/full/33889.webp",
+        "articleUrl": "https://www.atnnewstv.com/details/33267",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      }
+    ],
+    "food": [
       {
         "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmci1BWHZhMTdfMU83T2EyeGxsSV8tWXJsZjNrdkhIQ1l3d0lKZ3JyQ2hUYTYxdjlnTU1LWllpVE1JbnZfd1hDSko1cUZTTld3QWxwbw?oc=5",
         "title": "ফেনীতে অস্বাস্থ্যকর পরিবেশে খাদ্য উৎপাদন, তিন প্রতিষ্ঠানকে জরিমানা",
@@ -717,6 +836,19 @@
         "image": "news-fallbacks/food.svg",
         "articleUrl": "https://www.dailybhorerdak.com/news/265246",
         "imageAttemptedAt": "2026-11-17T10:41:25.856Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55UHY3RE1TYnhOSnhWWGpuQ3BHa2twVlJYTmdUQTFKWFVWZnhlcFVudmhQWmRuV1dSYktDQlM4WVNNQ2w2UWlYRXN4ejgxSlplUlVzNEtScHplZw?oc=5",
+        "title": "ফেনীতে নিরাপদ খাদ্য কর্তৃপক্ষের অভিযানে তিন প্রতিষ্ঠানকে জরিমানা | জাতীয় | বাংলাদেশ সংবাদ সংস্থা (বাসস)",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55UHY3RE1TYnhOSnhWWGpuQ3BHa2twVlJYTmdUQTFKWFVWZnhlcFVudmhQWmRuV1dSYktDQlM4WVNNQ2w2UWlYRXN4ejgxSlplUlVzNEtScHplZw?oc=5",
+        "source": "Bangladesh Sangbad Sangstha (BSS)",
+        "publisherUrl": "",
+        "publishedAt": "Tue, 17 Nov 2026 14:05:00 GMT",
+        "summary": "ফেনীতে নিরাপদ খাদ্য কর্তৃপক্ষের অভিযানে তিন প্রতিষ্ঠানকে জরিমানা | জাতীয় | বাংলাদেশ সংবাদ সংস্থা (বাসস) &nbsp;&nbsp; Bangladesh Sangbad Sangstha (BSS)",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.bssnews.net/bangla/national/361031",
+        "imageAttemptedAt": "2026-11-17T15:50:02.174Z",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -823,148 +955,16 @@
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/food.svg"
       }
-    ],
-    "bangladesh": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxPQk9wckViV2ZiaHJLQk1pd0phMDdHU2o5WkNlYjhJdVRwVzUyU00xZHB0VVJucVJJTHlNWld5QXhMd1I5TVIxaTZlMHJVR2JqTWZmWlVjajR1cjdUeDlVZUV5eTU0S0RtOFFjb2pxTXZDeHpROGcxRlZSc3ZVTW1vclJuLUpWZGZGYWtrMjcwVWlYZFhrWGgzUTZJZUlnSUxSNURIamVFLVhyYUpvZ0NWUTl2amVVVnM3RnFVOXlJU2VnS2VHYXBnV3Fvd1R5S2ZlOUpMb0xGUkozR1owelA5X1NFR095c0thN1lxYWJHdWtBb0c0Z25CaDNpTFpOc0p4SVBTZk9YVnZfYlF1Q1BxQVRuWmNnZ3ZZUXFqYTJWemdvaHgtQl92WWtrb0FlNmhQTW9rYXg2bkpzUXFKMnBuYmpGRThKX3RwS3A4bHQzVDdKV3FMSFgtN1BnRjJUYW1LZWFBNldmUUY2Sk5OM3JfX1dGZDNPTUt5c3lHWkRFcmZMZlZDb0hmWXVEby1ONmppQU5OUlktVW00RXVuVjhueTh5ZlJTcUpsOEQyc0drWmcya3NvZDlhMzRvLTVpTkYwTm5HMmRkRlNJWFkybzIzeDBrbTNKWkhoa05PMHFwUXJHSW5aTS0xWW15RkVfekk?oc=5",
-        "title": "Bangladesh Unrest | ক্ষোভের আগুনে জ্বলছে বাংলাদেশ | #shorts #Zee24Ghanta #BangladeshNews #Zee24Ghanta #LatestNews",
-        "link": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxPQk9wckViV2ZiaHJLQk1pd0phMDdHU2o5WkNlYjhJdVRwVzUyU00xZHB0VVJucVJJTHlNWld5QXhMd1I5TVIxaTZlMHJVR2JqTWZmWlVjajR1cjdUeDlVZUV5eTU0S0RtOFFjb2pxTXZDeHpROGcxRlZSc3ZVTW1vclJuLUpWZGZGYWtrMjcwVWlYZFhrWGgzUTZJZUlnSUxSNURIamVFLVhyYUpvZ0NWUTl2amVVVnM3RnFVOXlJU2VnS2VHYXBnV3Fvd1R5S2ZlOUpMb0xGUkozR1owelA5X1NFR095c0thN1lxYWJHdWtBb0c0Z25CaDNpTFpOc0p4SVBTZk9YVnZfYlF1Q1BxQVRuWmNnZ3ZZUXFqYTJWemdvaHgtQl92WWtrb0FlNmhQTW9rYXg2bkpzUXFKMnBuYmpGRThKX3RwS3A4bHQzVDdKV3FMSFgtN1BnRjJUYW1LZWFBNldmUUY2Sk5OM3JfX1dGZDNPTUt5c3lHWkRFcmZMZlZDb0hmWXVEby1ONmppQU5OUlktVW00RXVuVjhueTh5ZlJTcUpsOEQyc0drWmcya3NvZDlhMzRvLTVpTkYwTm5HMmRkRlNJWFkybzIzeDBrbTNKWkhoa05PMHFwUXJHSW5aTS0xWW15RkVfekk?oc=5",
-        "source": "Facebook",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 17 Nov 2026 18:04:29 GMT",
-        "summary": "Bangladesh Unrest | ক্ষোভের আগুনে জ্বলছে বাংলাদেশ | #shorts #Zee24Ghanta #BangladeshNews #Zee24Ghanta #LatestNews &nbsp;&nbsp; Facebook",
-        "image": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/902441339_1126481680231805_8487727231063012530_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=596eb7&_nc_ohc=JSOqNtXwsckQ7kNvwEglsse&_nc_oc=Adp3NOO6zdmu2T7IHxoyRQyKZWX9a7XbSblwRvoNM8RCrAAij-SCZwVUCEPWQWTDROU&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=ADiV9kUi4JcEg4Ma4e00wg&_nc_ss=70289&oh=00_AQS6soiMr98w0J38xfuD6Mz7KLdAb7bRz_9TEZCsqQzWkg&oe=6B0263B3",
-        "articleUrl": "https://www.facebook.com/Zee24Ghanta/videos/bangladesh-unrest-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8B%E0%A6%AD%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8%E0%A7%87-%E0%A6%9C%E0%A7%8D%E0%A6%AC%E0%A6%B2%E0%A6%9B%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-shorts-zee24ghanta-bangladeshnew/4338456136288051/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZlNKMV9xcUF2QnFEUXNiRmQyOGNrQld6LTc1aW5kNm9aLUVYVzRUVS1KQXRzaVNfMTJmV0hPNzZhZ2NXNm1HRl9HUXJqd2JSODgzcjdHOGtHbjk1NGZRX3hYeGE0d2hyTkJic3lrM3ZtMkdsLVlSUDRMR2FpODNLeVpmVzI2c1hOMFB2MGJwUWN4dk9kd1J1Vmg1aUpuOGhvcjdyckR6RjMxSXZOd1V6alJmVUd3R29LY2Fn0gHAAUFVX3lxTE5hYnNvSjVzSTVCY2pFWGtuS2FiNWJ3ZnhSdVpVMC1EdFVsei1sOTJHQlRKajVHX0ZyZ25mSnZDRFRqdFNpaUJ2c05UYmNEeGp3QzRsUl9GMmQ1b1lmYVFaMnlONzJ4U3FuLVNqTm80SFM0WW14TldaQXVJQWRneHJCd2lyNzhVVVJUc1Z2SkM5RmgwVFFBclNsNldId1phT0RsdGEtX1VfOElXNXBMaVBkMDFpMFloZ0J4dVpvWEMtLQ?oc=5",
-        "title": "'ডিসেম্বর, ডিসেম্বরেই ফিরবেন নেত্রী'",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZlNKMV9xcUF2QnFEUXNiRmQyOGNrQld6LTc1aW5kNm9aLUVYVzRUVS1KQXRzaVNfMTJmV0hPNzZhZ2NXNm1HRl9HUXJqd2JSODgzcjdHOGtHbjk1NGZRX3hYeGE0d2hyTkJic3lrM3ZtMkdsLVlSUDRMR2FpODNLeVpmVzI2c1hOMFB2MGJwUWN4dk9kd1J1Vmg1aUpuOGhvcjdyckR6RjMxSXZOd1V6alJmVUd3R29LY2Fn0gHAAUFVX3lxTE5hYnNvSjVzSTVCY2pFWGtuS2FiNWJ3ZnhSdVpVMC1EdFVsei1sOTJHQlRKajVHX0ZyZ25mSnZDRFRqdFNpaUJ2c05UYmNEeGp3QzRsUl9GMmQ1b1lmYVFaMnlONzJ4U3FuLVNqTm80SFM0WW14TldaQXVJQWRneHJCd2lyNzhVVVJUc1Z2SkM5RmgwVFFBclNsNldId1phT0RsdGEtX1VfOElXNXBMaVBkMDFpMFloZ0J4dVpvWEMtLQ?oc=5",
-        "source": "TheWall",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 17 Nov 2026 06:08:28 GMT",
-        "summary": "'ডিসেম্বর, ডিসেম্বরেই ফিরবেন নেত্রী' &nbsp;&nbsp; TheWall",
-        "image": "https://s3.ap-south-1.amazonaws.com/statics.thewall.in/sites/default/files/styles/medium/public/2026-11/Bangladesh%20news%20today_0.jpeg.webp",
-        "articleUrl": "https://www.thewall.in/video-story/december-the-leader-will-return-in-december-bangladesh-news-sheikh-hasina/tid/209633",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOb1pxek1IdDFPY2N2RmxEZWpKTk9VbHZOY3B0RkNYU3ZPTkphUFZVY0hjcGEyb1ZUcVV1b0w2YURTZ2FQcURJRE0tWEZqMEw2SEJILWNZVUdmNjJJRHZORGhzVFpwMDEyVnljWmtUOW1GNEhaTE5KNnJtZDBYcy1OeWtnb0hCdHc0RGFOOGZkVElRcjUtUUFZMFlOUEpTMXlGZkhSbmdVd3dkOW1BRVhFX21VUDk4V1htSXFGenlHTF9felktWnA1U0RHLUQ1NVFPdXdORjZWQm9weW5mU0g4WGZWc0NINlBDRG1qU0p1N0lkWXZtYmV30gH8AUFVX3lxTFBsMElJbC11MHZvNUdzMkNhbFhPSUVQZWY0aDk5VmN4QlZBaFhfSGFtSVdMMFJ0VTRzdzdVdmJSVkdjT2owT0x1UlppSUFma1Q0S2xjakRCLUJKUWpEcWFnNGx1OVpoeE11UVBmYWFScm1HX2E5eU1SRnQwMElCOTBMQWsyNmpmdWs3ZW5wZUw5S0FTOGxwOUg4VUdTRFl2Q0ZONVNJVEpMaDRjeDZLejBsNjc4R0VHWnlwNWpFNkV1aHhORm1BZUJwZ0h5T0thNWpOdWtnR2ZyUEVTVEJMN3ZUY09ZOE9VTHNmbm41VzB4U01iWmtabUs1NEZFaQ?oc=5",
-        "title": "Bangladesh News : বাংলাদেশের রাজনৈতিক উত্তাপের আঁচ লন্ডনে, ২ পক্ষের সংঘর্ষ, পুলিশের লাঠি",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOb1pxek1IdDFPY2N2RmxEZWpKTk9VbHZOY3B0RkNYU3ZPTkphUFZVY0hjcGEyb1ZUcVV1b0w2YURTZ2FQcURJRE0tWEZqMEw2SEJILWNZVUdmNjJJRHZORGhzVFpwMDEyVnljWmtUOW1GNEhaTE5KNnJtZDBYcy1OeWtnb0hCdHc0RGFOOGZkVElRcjUtUUFZMFlOUEpTMXlGZkhSbmdVd3dkOW1BRVhFX21VUDk4V1htSXFGenlHTF9felktWnA1U0RHLUQ1NVFPdXdORjZWQm9weW5mU0g4WGZWc0NINlBDRG1qU0p1N0lkWXZtYmV30gH8AUFVX3lxTFBsMElJbC11MHZvNUdzMkNhbFhPSUVQZWY0aDk5VmN4QlZBaFhfSGFtSVdMMFJ0VTRzdzdVdmJSVkdjT2owT0x1UlppSUFma1Q0S2xjakRCLUJKUWpEcWFnNGx1OVpoeE11UVBmYWFScm1HX2E5eU1SRnQwMElCOTBMQWsyNmpmdWs3ZW5wZUw5S0FTOGxwOUg4VUdTRFl2Q0ZONVNJVEpMaDRjeDZLejBsNjc4R0VHWnlwNWpFNkV1aHhORm1BZUJwZ0h5T0thNWpOdWtnR2ZyUEVTVEJMN3ZUY09ZOE9VTHNmbm41VzB4U01iWmtabUs1NEZFaQ?oc=5",
-        "source": "ABP Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 17 Nov 2026 07:18:53 GMT",
-        "summary": "Bangladesh News : বাংলাদেশের রাজনৈতিক উত্তাপের আঁচ লন্ডনে, ২ পক্ষের সংঘর্ষ, পুলিশের লাঠি &nbsp;&nbsp; ABP Ananda",
-        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/17/f2808745458512683827e26a8cfaa9cd1794900706232170_original.jpg?impolicy=abp_cdn&imwidth=1200",
-        "articleUrl": "https://bengali.abplive.com/news/clashes-between-supporters-of-ncp-and-awami-league-in-east-london-s-romford-following-a-reception-for-ncp-chief-nahid-islam-1199578",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50TVNvcTQ3aUVrM21ZTTRSVUhOdmhZTFNnU01SaG93aTFweFVYRVpVb0NmcUM5eWw5UVFBYkwta3JDQW4yYklWdE95OFRZc3QwWEFrT3FJWHhLM1hHNjdQMm5iRTJtR2dG0gF2QVVfeXFMT2ZFZ1JnZzc2dFY4UXJxUnRVWUk0ZFQyakpUQXY3WF90UjN4T3JubVFlS1k3aXA3SUs4RFJ4WXczY2VDV01JSEx6Z01qVFVfYmVCV01OYlFKNVBvZUhXTV95S0hJVHozWmVyREMyeWMxWW1mYUQzZw?oc=5",
-        "title": "দিস ইজ বিগ নিউজ ফর আস, অ্যান্ড ফর বাংলাদেশ: বিজ্ঞান ও প্রযুক্তিমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50TVNvcTQ3aUVrM21ZTTRSVUhOdmhZTFNnU01SaG93aTFweFVYRVpVb0NmcUM5eWw5UVFBYkwta3JDQW4yYklWdE95OFRZc3QwWEFrT3FJWHhLM1hHNjdQMm5iRTJtR2dG0gF2QVVfeXFMT2ZFZ1JnZzc2dFY4UXJxUnRVWUk0ZFQyakpUQXY3WF90UjN4T3JubVFlS1k3aXA3SUs4RFJ4WXczY2VDV01JSEx6Z01qVFVfYmVCV01OYlFKNVBvZUhXTV95S0hJVHozWmVyREMyeWMxWW1mYUQzZw?oc=5",
-        "source": "প্রথম আলো",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 17 Nov 2026 12:45:00 GMT",
-        "summary": "দিস ইজ বিগ নিউজ ফর আস, অ্যান্ড ফর বাংলাদেশ: বিজ্ঞান ও প্রযুক্তিমন্ত্রী &nbsp;&nbsp; প্রথম আলো",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.prothomalo.com/bangladesh/district/8p2sf3o2x7",
-        "imageAttemptedAt": "2026-11-17T13:56:50.242Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNlBKLTF3STR3RUduM055aE54QkZwdEtQZFVJOEdQeUdld2xHUFBLMHhOQWc4Y1RKNkd4WG9nVXQ4VWNuQ200cG5lVTlVeHowZHVXTGx0TGhwNzNvRW5qdVR1ZUJOdUI1bFhaWmRJb1NUWWhINmRQdHdYTkZGaHdTLS1PalFKUDM5OUtkdW5tWE5MRHNIbWZCVEJRLWZEMUpZMXlvRkxpRFdMa0dlaEpTMTBwdzBvVGZDU2JMaVJvRHNtOS1pZkxuSw?oc=5",
-        "title": "আওয়ামী লীগ আর বাংলাদেশে রাজনীতি করতে পারবে না: স্বরাষ্ট্রমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNlBKLTF3STR3RUduM055aE54QkZwdEtQZFVJOEdQeUdld2xHUFBLMHhOQWc4Y1RKNkd4WG9nVXQ4VWNuQ200cG5lVTlVeHowZHVXTGx0TGhwNzNvRW5qdVR1ZUJOdUI1bFhaWmRJb1NUWWhINmRQdHdYTkZGaHdTLS1PalFKUDM5OUtkdW5tWE5MRHNIbWZCVEJRLWZEMUpZMXlvRkxpRFdMa0dlaEpTMTBwdzBvVGZDU2JMaVJvRHNtOS1pZkxuSw?oc=5",
-        "source": "স্টার নিউজ",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 17 Nov 2026 17:23:39 GMT",
-        "summary": "আওয়ামী লীগ আর বাংলাদেশে রাজনীতি করতে পারবে না: স্বরাষ্ট্রমন্ত্রী &nbsp;&nbsp; স্টার নিউজ",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://starnews.com.bd/national/29194/awami-league-will-no-longer-be-able-to-engage-in-politics-in-bangladesh-home-minister.html",
-        "imageAttemptedAt": "2026-11-17T17:55:39.043Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQZGdqdHp1dndPYmlRcjFOWUVkd2xMWmpERGJrbDE3U0ZpYU5LbG1JX0FsZFFSVTFJZ0VhRnB2V0lLMXdoYllaejNNRkRnazVKSE4tamNaOUdhdmNKdGN1OW9odmNUMDJqZl9vV1RtcmxTTERPZVZ0R1Z0X1VTbWpBcHp5Y3hNMU9RallhUXI1bEE0UWY1dzN1RGgzanpxZEZVUzNaVlpoM0s3N0VpU2lOYVpOYlQ5X3F6T1AxTVR5NFJkc2RReXJSNHhNWDdnUzVjV2QzXzF2VHY5aEhrZlJncFVJZUNXR1lwaXlSSm10S2Z3b2E0Q004UHpJajVEUFNESGhMOTVteXZ2NXJqUTR1TlNYYTNRNk0tQVBlR180clI3TmhYRWdhbDZtOTdhbmRlMHpTMkYtaV81Mjl2WENVc1BJTQ?oc=5",
-        "title": "ই-বাংলাদেশ পার্লামেন্ট প্রকল্প বাস্তবায়নের সিদ্ধান্ত",
-        "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQZGdqdHp1dndPYmlRcjFOWUVkd2xMWmpERGJrbDE3U0ZpYU5LbG1JX0FsZFFSVTFJZ0VhRnB2V0lLMXdoYllaejNNRkRnazVKSE4tamNaOUdhdmNKdGN1OW9odmNUMDJqZl9vV1RtcmxTTERPZVZ0R1Z0X1VTbWpBcHp5Y3hNMU9RallhUXI1bEE0UWY1dzN1RGgzanpxZEZVUzNaVlpoM0s3N0VpU2lOYVpOYlQ5X3F6T1AxTVR5NFJkc2RReXJSNHhNWDdnUzVjV2QzXzF2VHY5aEhrZlJncFVJZUNXR1lwaXlSSm10S2Z3b2E0Q004UHpJajVEUFNESGhMOTVteXZ2NXJqUTR1TlNYYTNRNk0tQVBlR180clI3TmhYRWdhbDZtOTdhbmRlMHpTMkYtaV81Mjl2WENVc1BJTQ?oc=5",
-        "source": "Dhaka News 24",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 17 Nov 2026 14:41:03 GMT",
-        "summary": "ই-বাংলাদেশ পার্লামেন্ট প্রকল্প বাস্তবায়নের সিদ্ধান্ত &nbsp;&nbsp; Dhaka News 24",
-        "image": "https://www.dhakanews24.com/wp-content/uploads/2026/11/EPRLMN.jpg",
-        "articleUrl": "https://www.dhakanews24.com/%E0%A6%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%AA/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xWV9ZZjBnTXFoRURmLU5xSXpHeGJHN1A4RTFaQVg2dDVFdG5lUllXTHFOb29XdXNVNm5DQXBUbThDNjZBbGs5bXp6WkRXcGNl?oc=5",
-        "title": "মার্কিন ডিএফসি’র অর্থায়নের যোগ্যতা অর্জন করল বাংলাদেশ :: এটিএন নিউজ",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xWV9ZZjBnTXFoRURmLU5xSXpHeGJHN1A4RTFaQVg2dDVFdG5lUllXTHFOb29XdXNVNm5DQXBUbThDNjZBbGs5bXp6WkRXcGNl?oc=5",
-        "source": "ATN News",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 17 Nov 2026 14:22:20 GMT",
-        "summary": "মার্কিন ডিএফসি’র অর্থায়নের যোগ্যতা অর্জন করল বাংলাদেশ :: এটিএন নিউজ &nbsp;&nbsp; ATN News",
-        "image": "https://www.atnnewstv.com/assets/img/full/33889.webp",
-        "articleUrl": "https://www.atnnewstv.com/details/33267",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DZ3VUWEdCVXFRNmdZOXdnTGowRlE1WnZ0X0pCdW5ETWd2cVNGX2trc1FaaTdqWGpZZ2g3Z2tKT3E1ZkRwTmt5RzlLVXdUVDI3TDZFWmZDci0zVnNSaGRJ0gFkQVVfeXFMTmI2MEhiMXlIMkE3QjVnN3lPM3lvM1ZDUHJacWxFMkpwU1BLbDd6S252WGh1N2g2YTF3OUE3bm1Yd0xINUJ3R1dZSDY2MkttR0hzdWtiNzFGcXlOeU1PRzhacGpZTw?oc=5",
-        "title": "বাংলাদেশের সীমান্ত এলাকায় ডিসেম্বর ঘিরে ঠিক কী হচ্ছে?",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DZ3VUWEdCVXFRNmdZOXdnTGowRlE1WnZ0X0pCdW5ETWd2cVNGX2trc1FaaTdqWGpZZ2g3Z2tKT3E1ZkRwTmt5RzlLVXdUVDI3TDZFWmZDci0zVnNSaGRJ0gFkQVVfeXFMTmI2MEhiMXlIMkE3QjVnN3lPM3lvM1ZDUHJacWxFMkpwU1BLbDd6S252WGh1N2g2YTF3OUE3bm1Yd0xINUJ3R1dZSDY2MkttR0hzdWtiNzFGcXlOeU1PRzhacGpZTw?oc=5",
-        "source": "BBC",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 16 Nov 2026 13:25:58 GMT",
-        "summary": "বাংলাদেশের সীমান্ত এলাকায় ডিসেম্বর ঘিরে ঠিক কী হচ্ছে? &nbsp;&nbsp; BBC",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://www.bbc.com/bengali/articles/cmj6lz8kg223o",
-        "imageAttemptedAt": "2026-11-17T04:40:27.749Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBJdG5mTVBxblpSTF9IX3ZGMkVMRVVYRlBBN3h6dkduUWYxVkRqMkxRYmt4NFJRWGxMcmhnV0Nxbkk?oc=5",
-        "title": "পুরো পৃথিবীতে সাম্প্রদায়িক সম্প্রীতিতে বাংলাদেশ দৃষ্টান্ত হয়ে থাকবে",
-        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBJdG5mTVBxblpSTF9IX3ZGMkVMRVVYRlBBN3h6dkduUWYxVkRqMkxRYmt4NFJRWGxMcmhnV0Nxbkk?oc=5",
-        "source": "Sunbd24",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 17 Nov 2026 15:00:36 GMT",
-        "summary": "পুরো পৃথিবীতে সাম্প্রদায়িক সম্প্রীতিতে বাংলাদেশ দৃষ্টান্ত হয়ে থাকবে &nbsp;&nbsp; Sunbd24",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://sunbd24.com/421667/",
-        "imageAttemptedAt": "2026-11-17T20:52:38.410Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeUVwNU1WXzFnYUlJX1IwQ1cyWUlPa0dfTkgzTkt4X2J6clcySGJBZTNmSVlEWllrNDBmTGc4Sk5fRVdjdFFfRXNpNlZBQ0syYU9nTjhKYWVYTjFnYjhIUUh3d3ozQ0FNdkdZWllmWnBIdDFZYndaZ0dpWEF1ZXU0QWFVc0xxT2UzY3VqN0RfNE5XQURqdDc2Z2t6bFdvQkR4OFdxdlVSdEZ1U3Fxa3M3b29Ic0Fid21m?oc=5",
-        "title": "পদ্মা ব্যাংককে রেজল্যুশন আইনের আওতায় নিল বাংলাদেশ ব্যাংক",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeUVwNU1WXzFnYUlJX1IwQ1cyWUlPa0dfTkgzTkt4X2J6clcySGJBZTNmSVlEWllrNDBmTGc4Sk5fRVdjdFFfRXNpNlZBQ0syYU9nTjhKYWVYTjFnYjhIUUh3d3ozQ0FNdkdZWllmWnBIdDFZYndaZ0dpWEF1ZXU0QWFVc0xxT2UzY3VqN0RfNE5XQURqdDc2Z2t6bFdvQkR4OFdxdlVSdEZ1U3Fxa3M3b29Ic0Fid21m?oc=5",
-        "source": "স্টার নিউজ",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 17 Nov 2026 13:49:52 GMT",
-        "summary": "পদ্মা ব্যাংককে রেজল্যুশন আইনের আওতায় নিল বাংলাদেশ ব্যাংক &nbsp;&nbsp; স্টার নিউজ",
-        "image": "news-fallbacks/bangladesh.svg",
-        "articleUrl": "https://starnews.com.bd/economic/29178/bangladesh-bank-brings-padma-bank-under-the-purview-of-the-resolution-act.html",
-        "imageAttemptedAt": "2026-11-17T19:58:04.094Z",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      }
     ]
   },
   "sourceErrors": [],
   "imageStats": {
     "total": 72,
     "fromRss": 0,
-    "fromArticleMetadata": 20,
-    "reusedCached": 18,
-    "actualPhotos": 20,
-    "fallbackIllustrations": 52,
+    "fromArticleMetadata": 21,
+    "reusedCached": 20,
+    "actualPhotos": 21,
+    "fallbackIllustrations": 51,
     "withImage": 72,
     "withoutImage": 0
   }
