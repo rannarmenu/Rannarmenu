@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-20T20:44:21.360Z",
+  "generatedAt": "2026-11-20T21:32:15.686Z",
   "sponsors": {
     "somoy": [
       {
@@ -560,6 +560,138 @@
     ]
   },
   "categories": {
+    "international": [
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6LVhpZ0d3NkNDNU9rVkp3LXBPaTVYTnZYdVF3RVRaclZ0SW10dXdGelZoMlFDUnU5aG1WVFMyLUZ4MGFBc0ZnSDVIWkxHLS0wTy1YU2NQLXJOLWZEajZseXJ5dw?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6LVhpZ0d3NkNDNU9rVkp3LXBPaTVYTnZYdVF3RVRaclZ0SW10dXdGelZoMlFDUnU5aG1WVFMyLUZ4MGFBc0ZnSDVIWkxHLS0wTy1YU2NQLXJOLWZEajZseXJ5dw?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 20 Nov 2026 16:05:58 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1181799",
+        "imageAttemptedAt": "2026-11-20T18:52:43.520Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBvNzB4cWlXdEJpdDVlUDNMVFZpVmxzWnJCa1JQUTA3RW1sMHFQME1lUzNvbDhWZkRiNXlyNDhTdUJ3UFJUUUE4VW5rU3QwbXpQR2c?oc=5",
+        "title": "বিশ্বকে নেতৃত্ব দিতে যোগ্য শিক্ষার্থী তৈরির দায়িত্ব বিশ্ববিদ্যালয়ের: শিক্ষামন্ত্রী",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBvNzB4cWlXdEJpdDVlUDNMVFZpVmxzWnJCa1JQUTA3RW1sMHFQME1lUzNvbDhWZkRiNXlyNDhTdUJ3UFJUUUE4VW5rU3QwbXpQR2c?oc=5",
+        "source": "CNI | CREATIVE NEWS INTERNATIONAL",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 20 Nov 2026 15:04:46 GMT",
+        "summary": "বিশ্বকে নেতৃত্ব দিতে যোগ্য শিক্ষার্থী তৈরির দায়িত্ব বিশ্ববিদ্যালয়ের: শিক্ষামন্ত্রী &nbsp;&nbsp; CNI | CREATIVE NEWS INTERNATIONAL",
+        "image": "https://cniasia.news/admin/assets/images/background/login-register.jpg",
+        "articleUrl": "https://cniasia.news/post-details/203707",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zT2ZEVjJrNm0wU1NlRTVkWlZDeWg4Q2pRbE4zWkp4TU5WcmFfSVdHTHBUSEdjRlA5azlfMkF4ZGY3SHo3Z3V1N1pYTHpsMVFoRTBDSi14ZEVuTFE?oc=5",
+        "title": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ১৯ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zT2ZEVjJrNm0wU1NlRTVkWlZDeWg4Q2pRbE4zWkp4TU5WcmFfSVdHTHBUSEdjRlA5azlfMkF4ZGY3SHo3Z3V1N1pYTHpsMVFoRTBDSi14ZEVuTFE?oc=5",
+        "source": "Somoy News",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 19 Nov 2026 10:18:45 GMT",
+        "summary": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ১৯ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://somoynews.com.bd/video/latest-video/460",
+        "imageAttemptedAt": "2026-11-20T10:41:54.696Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOVVpqWUgtQmNPVGc3M2pMb0R2bThjZGxuNUdLeXJGSHV6U2RSbkx0Y1NfSjFDQUs4U0VmemF2cGs2WGdvVmpxWllOU1d6WUhCSW5pcmVpWTRtcEVUMUpRbC1obGh5ZUlJQ2docllrdmpWci04LTRUa3NNMU51Z0IzMzFOUktSSTBBcnVyRnF2djJYLUh3d0dIUE80UXZkcHRTUEw0SjJieGFPTmlUMXdNNXY1bG5nTFJjZzI4QjUzQlhwdGtadXhSUFk5c3NZYjB6c2JSQmd5NFp1SFlKVjlZR1RnS3FOek40NWlxQWNfXzJMSXdJUDREX3NIVC1KVVowVDhKVGdQY0NRT3VZX2dJMGdlOUs2aXhZYTNUSWIweEE5akt5cFl4X1VxSGVjQVFZdzYzSldjb1oxcHVuR3pHOWFFQ003ekN1VHExdWtFbw?oc=5",
+        "title": "আন্তর্জাতিক সব খবর l Deepto TV World News l 5 November 2026 l International News Bulletin",
+        "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOVVpqWUgtQmNPVGc3M2pMb0R2bThjZGxuNUdLeXJGSHV6U2RSbkx0Y1NfSjFDQUs4U0VmemF2cGs2WGdvVmpxWllOU1d6WUhCSW5pcmVpWTRtcEVUMUpRbC1obGh5ZUlJQ2docllrdmpWci04LTRUa3NNMU51Z0IzMzFOUktSSTBBcnVyRnF2djJYLUh3d0dIUE80UXZkcHRTUEw0SjJieGFPTmlUMXdNNXY1bG5nTFJjZzI4QjUzQlhwdGtadXhSUFk5c3NZYjB6c2JSQmd5NFp1SFlKVjlZR1RnS3FOek40NWlxQWNfXzJMSXdJUDREX3NIVC1KVVowVDhKVGdQY0NRT3VZX2dJMGdlOUs2aXhZYTNUSWIweEE5akt5cFl4X1VxSGVjQVFZdzYzSldjb1oxcHVuR3pHOWFFQ003ekN1VHExdWtFbw?oc=5",
+        "source": "দীপ্ত নিউজ",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 05 Nov 2026 13:03:28 GMT",
+        "summary": "আন্তর্জাতিক সব খবর l Deepto TV World News l 5 November 2026 l International News Bulletin &nbsp;&nbsp; দীপ্ত নিউজ",
+        "image": "https://vf73y28mr2.gpcdn.net/deepto-news/2022/10/deepto-og-image.jpeg",
+        "articleUrl": "https://deeptonews.com/video/%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%B8%E0%A6%AC-%E0%A6%96%E0%A6%AC%E0%A6%B0-l-deepto-tv-world-news-l-5-november-2026-l-internatio/",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVy1HSThTLU5ySnBEQnA2VUdtU1h5UF9GZkVQSHNjb2l4cm9DTGROdVFNMmgxR1RsNFQ4dUdNcUVIcFVVdXZFRk5jbEppTldaenRXOTU3OVJ5Z1FodjNBV0tISW95NFI5VTY2OFljdkVIV25TLWFGLWpkZzNITk5XZUpSZTFIakVISEFBY0hmdTFrYXJFNzV2c3BuTURBNG1xV2ZOSGxxQXFpdndZUnctS1FtVXhlUXREWEJLTkZydlNKQ243eGV5VGlIS1dLZGFCTVNpUHNMNUtwSHFzMXBERjgydkplNG81dmZTaVZUd0dRemlZUGtiX2pwc9IBgAJBVV95cUxNWld1blk3ZkU5MVZKUGtaRTItMTRyNnhJWlBfODNFZzR1NHZPU0wtb1Qxak1uRm52MkQzcFRvY3ZleVo5LVJUV05ERUYxYWhRZmFpMzhCb19nTk0zMnpwNTlxMnNkTDhuRjhCMEhQcnh3SlJ6NXU4cVE5ZXpJdElZTm5hMEFSUlNtMHdFVjNnM2JZcXhhcW1ZRGg0RGMtNTlFbkhZT0wyVzcxTnQ3ejV1NjNvUnlVYmcwS2l2WmNhTEZmdS1CeU54SGxaaElPZDNVNHNPZWFqWVB0SGkzSmlwM25wUXFUcmxCNFlwRzJGRERCOVhsRlZmeHFQSjM4YjNN?oc=5",
+        "title": "India-Japan Ties: ভারত-জাপান সম্পর্ক একটি বহুমুখী এশিয়া ও বিশ্ব গড়ে তুলবে, টোকিওতে বললেন জয়শঙ্কর",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVy1HSThTLU5ySnBEQnA2VUdtU1h5UF9GZkVQSHNjb2l4cm9DTGROdVFNMmgxR1RsNFQ4dUdNcUVIcFVVdXZFRk5jbEppTldaenRXOTU3OVJ5Z1FodjNBV0tISW95NFI5VTY2OFljdkVIV25TLWFGLWpkZzNITk5XZUpSZTFIakVISEFBY0hmdTFrYXJFNzV2c3BuTURBNG1xV2ZOSGxxQXFpdndZUnctS1FtVXhlUXREWEJLTkZydlNKQ243eGV5VGlIS1dLZGFCTVNpUHNMNUtwSHFzMXBERjgydkplNG81dmZTaVZUd0dRemlZUGtiX2pwc9IBgAJBVV95cUxNWld1blk3ZkU5MVZKUGtaRTItMTRyNnhJWlBfODNFZzR1NHZPU0wtb1Qxak1uRm52MkQzcFRvY3ZleVo5LVJUV05ERUYxYWhRZmFpMzhCb19nTk0zMnpwNTlxMnNkTDhuRjhCMEhQcnh3SlJ6NXU4cVE5ZXpJdElZTm5hMEFSUlNtMHdFVjNnM2JZcXhhcW1ZRGg0RGMtNTlFbkhZT0wyVzcxTnQ3ejV1NjNvUnlVYmcwS2l2WmNhTEZmdS1CeU54SGxaaElPZDNVNHNPZWFqWVB0SGkzSmlwM25wUXFUcmxCNFlwRzJGRERCOVhsRlZmeHFQSjM4YjNN?oc=5",
+        "source": "Asianet News Bangla",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 19 Nov 2026 11:22:17 GMT",
+        "summary": "India-Japan Ties: ভারত-জাপান সম্পর্ক একটি বহুমুখী এশিয়া ও বিশ্ব গড়ে তুলবে, টোকিওতে বললেন জয়শঙ্কর &nbsp;&nbsp; Asianet News Bangla",
+        "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-ani20261119075437,imgname-image-574cdba9-8876-4520-a2bc-343a3db9b2fe.jpg",
+        "articleUrl": "https://bangla.asianetnews.com/international/world-news/india-japan-cooperation-seeks-to-support-a-multipolar-asia-multipolar-world-jaishankar-bpsb/articleshow-txh0g8g",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CN2NWQVdpNkctZG9DRGhPU2ZVdkM1aV9uNUZXU1RpZzZtNmxqRGhZMFMya3RmN2xneG12WEthMGtnYUFrUUZkRHgzU2dQcGtFM3l3N2psRkYxQ1U?oc=5",
+        "title": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ১৮ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CN2NWQVdpNkctZG9DRGhPU2ZVdkM1aV9uNUZXU1RpZzZtNmxqRGhZMFMya3RmN2xneG12WEthMGtnYUFrUUZkRHgzU2dQcGtFM3l3N2psRkYxQ1U?oc=5",
+        "source": "Somoy News",
+        "publisherUrl": "",
+        "publishedAt": "Wed, 18 Nov 2026 10:18:45 GMT",
+        "summary": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ১৮ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://somoynews.com.bd/video/latest-video/454",
+        "imageAttemptedAt": "2026-11-20T10:41:54.696Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wSHYwQk9UeEE4M1k4OXlzU2dObzBXZ1N0OU5FZUxLUDd4Y1lZLXFEYzFGbUttU05teUhDQmFPQXhlaTA4eXdHWGtvWEZkemt0cFE?oc=5",
+        "title": "কাদের মোল্লার ফাঁসি নিয়ে প্রধান বিচারপতির মন্তব্যের খবর ভিত্তিহীন: চিফ প্রসিকিউটর",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wSHYwQk9UeEE4M1k4OXlzU2dObzBXZ1N0OU5FZUxLUDd4Y1lZLXFEYzFGbUttU05teUhDQmFPQXhlaTA4eXdHWGtvWEZkemt0cFE?oc=5",
+        "source": "CNI | CREATIVE NEWS INTERNATIONAL",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 19 Nov 2026 14:11:18 GMT",
+        "summary": "কাদের মোল্লার ফাঁসি নিয়ে প্রধান বিচারপতির মন্তব্যের খবর ভিত্তিহীন: চিফ প্রসিকিউটর &nbsp;&nbsp; CNI | CREATIVE NEWS INTERNATIONAL",
+        "image": "https://cniasia.news/admin/assets/images/background/login-register.jpg",
+        "articleUrl": "https://cniasia.news/post-details/203584",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRQklOY3Z1bUNwSTQweC00R2l0Skg2aGJ5S29ZVC1KLUYzcFptZ2ExQ0psOTNwY1J0V1diZDcySXVEeFg2ZnBQTUEyYjNzb1hpbzMtUHk5V1g1VU9VM2YweGlsVQ?oc=5",
+        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৭ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRQklOY3Z1bUNwSTQweC00R2l0Skg2aGJ5S29ZVC1KLUYzcFptZ2ExQ0psOTNwY1J0V1diZDcySXVEeFg2ZnBQTUEyYjNzb1hpbzMtUHk5V1g1VU9VM2YweGlsVQ?oc=5",
+        "source": "Jagonews24",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 07 Nov 2026 08:00:00 GMT",
+        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ৭ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://www.jagonews24.com/international/news/1176824",
+        "imageAttemptedAt": "2026-11-20T21:32:24.410Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYS2JqUnJIVEY4MU5JLTFoLVh3Zl9lcGtuMzcxb2VrTmNKbGZLOGdvcC13cGw2M2x3Z2ZNUkkwVzNObnFyQVNYUUxPVC1JX3hoZXpNY0UxTXR3MWQz?oc=5",
+        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৬ নভেম্বর ২০২৬",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYS2JqUnJIVEY4MU5JLTFoLVh3Zl9lcGtuMzcxb2VrTmNKbGZLOGdvcC13cGw2M2x3Z2ZNUkkwVzNObnFyQVNYUUxPVC1JX3hoZXpNY0UxTXR3MWQz?oc=5",
+        "source": "Somoy News",
+        "publisherUrl": "",
+        "publishedAt": "Mon, 16 Nov 2026 18:10:04 GMT",
+        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৬ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://somoynews.com.bd/video/video-gallery/438",
+        "imageAttemptedAt": "2026-11-20T10:41:54.696Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9jMXh6N3R5YktpdDdPWXdzdjV4b2Z6QlJkdktib21BVFpXOW1BV3lia1lmQ0t5VzhZMWVyMU1QdXlVZw?oc=5",
+        "title": "LIVE: আজকের টপ আন্তর্জাতিক সংবাদ | BBC World News Bangla | 20 June 2026 | বিশ্বজুড়ে এখন যা ঘটছে",
+        "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9jMXh6N3R5YktpdDdPWXdzdjV4b2Z6QlJkdktib21BVFpXOW1BV3lia1lmQ0t5VzhZMWVyMU1QdXlVZw?oc=5",
+        "source": "YouTube",
+        "publisherUrl": "",
+        "publishedAt": "Sat, 20 Jun 2026 07:00:00 GMT",
+        "summary": "LIVE: আজকের টপ আন্তর্জাতিক সংবাদ | BBC World News Bangla | 20 June 2026 | বিশ্বজুড়ে এখন যা ঘটছে &nbsp;&nbsp; YouTube",
+        "image": "news-fallbacks/world.svg",
+        "articleUrl": "https://youtu.be/M6R9I006Ot0",
+        "imageAttemptedAt": "2026-11-20T21:32:24.410Z",
+        "imageFallback": "news-fallbacks/world.svg"
+      }
+    ],
     "bangladesh": [
       {
         "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDaC0zTTFCMDVCNlI5LWhKdmNXVmpNS3dJVy1TUXAwa3FtY0Y5RFJUckN3T2dvcGZRR1Z1U2V6M25zVUd6Rm1zMlVJT0ZRbVRxb0xZSFI2OVFpQWhsZ1E00gFkQVVfeXFMTkxMWHUyaG5qZFdzclFGbGZpWThwWWl4U2M1QzlPUWtaUE1SemNZMkoxRndmd2k0Q25hVmwwQzVZVmk2QkxPOVVtTUpxRkVHOHJnQmtBc2pFTnVQdnVOZjJkbGJQRQ?oc=5",
@@ -588,19 +720,6 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZno0RmhmLXJoOVpCWjcydjZMNjlETHp1YmdIamt0ZWFEaDRFM1VyWnYxUE9xMi1GZ0F4Tnc4QXA4RHNXRVRfcENwMWoxWHZ4OXlMSGxGNHNnYkNTZ2dNYVNKbF9uYjQtSVRrYVBhM3JVY0ZGQnlwWWwwYVFFcFdKT0hUVGsyZ2dDQlhEMzUwRmx5RVB1ZUsySGVjS1hERVJ3RmZoRFFLMTVUV1JIbFNDbU5DeVQ3djg5WjFMZlNJQnRWdEJ5cHk2WjVPaHBvbmp2SmRWNHpocGw0a3RqQ0EtemJzUHotU3pwM1VvWHNkU3VtMGNtTzJPM1Vn0gH6AUFVX3lxTFBmejRGaGYtcmg5WkJaNzJ2Nkw2OURMenViZ0hqa3RlYURoNEUzVXJadjFQT3EyLUZnQXhOdzhBcDhEc1dFVF9wQ3AxajFYdng5eUxIbEY0c2diQ1NnZ01hU0psX25iNC1JVGthUGEzclVjRkZCeXBZbDBhUUVwV0pPSFRUazJnZ0NCWEQzNTBGbHlFUHVlSzJIZWNLWERFUndGZmhEUUsxNVRXUkhsU0NtTkN5VDd2ODlaMUxmU0lCdFZ0QnlweTZaNU9ocG9uanZKZFY0emhwbDRrdGpDQS16YnNQei1TenAzVW9Yc2RTdW0wY21PMk8zVWc?oc=5",
-        "title": "Bangladesh News : সাংসদের বাড়ি-থানায় আগুন, হিংসায় ২ BNP নেতার প্রাণহানির পরও অগ্নিগর্ভ বাংলাদেশ",
-        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZno0RmhmLXJoOVpCWjcydjZMNjlETHp1YmdIamt0ZWFEaDRFM1VyWnYxUE9xMi1GZ0F4Tnc4QXA4RHNXRVRfcENwMWoxWHZ4OXlMSGxGNHNnYkNTZ2dNYVNKbF9uYjQtSVRrYVBhM3JVY0ZGQnlwWWwwYVFFcFdKT0hUVGsyZ2dDQlhEMzUwRmx5RVB1ZUsySGVjS1hERVJ3RmZoRFFLMTVUV1JIbFNDbU5DeVQ3djg5WjFMZlNJQnRWdEJ5cHk2WjVPaHBvbmp2SmRWNHpocGw0a3RqQ0EtemJzUHotU3pwM1VvWHNkU3VtMGNtTzJPM1Vn0gH6AUFVX3lxTFBmejRGaGYtcmg5WkJaNzJ2Nkw2OURMenViZ0hqa3RlYURoNEUzVXJadjFQT3EyLUZnQXhOdzhBcDhEc1dFVF9wQ3AxajFYdng5eUxIbEY0c2diQ1NnZ01hU0psX25iNC1JVGthUGEzclVjRkZCeXBZbDBhUUVwV0pPSFRUazJnZ0NCWEQzNTBGbHlFUHVlSzJIZWNLWERFUndGZmhEUUsxNVRXUkhsU0NtTkN5VDd2ODlaMUxmU0lCdFZ0QnlweTZaNU9ocG9uanZKZFY0emhwbDRrdGpDQS16YnNQei1TenAzVW9Yc2RTdW0wY21PMk8zVWc?oc=5",
-        "source": "ABP Ananda",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 19 Nov 2026 11:57:39 GMT",
-        "summary": "Bangladesh News : সাংসদের বাড়ি-থানায় আগুন, হিংসায় ২ BNP নেতার প্রাণহানির পরও অগ্নিগর্ভ বাংলাদেশ &nbsp;&nbsp; ABP Ananda",
-        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/19/2ced46296e9ff21e7db2351e69f1d00c1795090169057170_original.jpg",
-        "articleUrl": "https://bengali.abplive.com/news/bangladesh-beefed-up-security-and-deployed-nearly-3-000-paramilitary-troops-across-seven-districts-amid-sporadic-violence-1199777/amp",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/bangladesh.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd2hobThUTVhPWjgyVTR0OVhhUXFUb1h3ZzJQWXZoQTVRTXZfTU1mNldsV1Z5QTJia1ZCZUdrc3RGVlk0NXA5cm8tNHU4LWMxcW9YY3Q5NWF1WjVLNmxVUUJMc2VLVGNfYkU4U00zVmd5cFVxRlpacF9Bamo4aDgyaW9Wdi16eXNmaE8yM09vSdIBlAFBVV95cUxNWjJMcjVfRjdKV01Wei1FNlkyTlhoTVVQSTFKTF8xeVB5ZEZkaU1nVFVRc3Blbmw0TnhrTHZVMW5IVElKOG14X0c3QUJBX0ZScHItb3FMT1lmelpFUXhYWGVhVFZEUi15OUVIcmFXTlR3VTNRd3BCQzVvWkx5Skg2VXpQVEtSUmo2MURiY3BoWWkzSFNC?oc=5",
         "title": "তারেককে চ্যালেঞ্জ জানাতে মরিয়া",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd2hobThUTVhPWjgyVTR0OVhhUXFUb1h3ZzJQWXZoQTVRTXZfTU1mNldsV1Z5QTJia1ZCZUdrc3RGVlk0NXA5cm8tNHU4LWMxcW9YY3Q5NWF1WjVLNmxVUUJMc2VLVGNfYkU4U00zVmd5cFVxRlpacF9Bamo4aDgyaW9Wdi16eXNmaE8yM09vSdIBlAFBVV95cUxNWjJMcjVfRjdKV01Wei1FNlkyTlhoTVVQSTFKTF8xeVB5ZEZkaU1nVFVRc3Blbmw0TnhrTHZVMW5IVElKOG14X0c3QUJBX0ZScHItb3FMT1lmelpFUXhYWGVhVFZEUi15OUVIcmFXTlR3VTNRd3BCQzVvWkx5Skg2VXpQVEtSUmo2MURiY3BoWWkzSFNC?oc=5",
@@ -610,6 +729,19 @@
         "summary": "তারেককে চ্যালেঞ্জ জানাতে মরিয়া &nbsp;&nbsp; TheWall",
         "image": "https://s3.ap-south-1.amazonaws.com/statics.thewall.in/sites/default/files/styles/medium/public/2026-11/WhatsApp%20Image%202026-11-19%20at%202.16.20%20PM%201-100kb.jpeg.webp",
         "articleUrl": "https://www.thewall.in/video-story/sheikh-hasina-on-returning-in-bangladesh/tid/209858",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/bangladesh.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZno0RmhmLXJoOVpCWjcydjZMNjlETHp1YmdIamt0ZWFEaDRFM1VyWnYxUE9xMi1GZ0F4Tnc4QXA4RHNXRVRfcENwMWoxWHZ4OXlMSGxGNHNnYkNTZ2dNYVNKbF9uYjQtSVRrYVBhM3JVY0ZGQnlwWWwwYVFFcFdKT0hUVGsyZ2dDQlhEMzUwRmx5RVB1ZUsySGVjS1hERVJ3RmZoRFFLMTVUV1JIbFNDbU5DeVQ3djg5WjFMZlNJQnRWdEJ5cHk2WjVPaHBvbmp2SmRWNHpocGw0a3RqQ0EtemJzUHotU3pwM1VvWHNkU3VtMGNtTzJPM1Vn0gH6AUFVX3lxTFBmejRGaGYtcmg5WkJaNzJ2Nkw2OURMenViZ0hqa3RlYURoNEUzVXJadjFQT3EyLUZnQXhOdzhBcDhEc1dFVF9wQ3AxajFYdng5eUxIbEY0c2diQ1NnZ01hU0psX25iNC1JVGthUGEzclVjRkZCeXBZbDBhUUVwV0pPSFRUazJnZ0NCWEQzNTBGbHlFUHVlSzJIZWNLWERFUndGZmhEUUsxNVRXUkhsU0NtTkN5VDd2ODlaMUxmU0lCdFZ0QnlweTZaNU9ocG9uanZKZFY0emhwbDRrdGpDQS16YnNQei1TenAzVW9Yc2RTdW0wY21PMk8zVWc?oc=5",
+        "title": "Bangladesh News : সাংসদের বাড়ি-থানায় আগুন, হিংসায় ২ BNP নেতার প্রাণহানির পরও অগ্নিগর্ভ বাংলাদেশ",
+        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZno0RmhmLXJoOVpCWjcydjZMNjlETHp1YmdIamt0ZWFEaDRFM1VyWnYxUE9xMi1GZ0F4Tnc4QXA4RHNXRVRfcENwMWoxWHZ4OXlMSGxGNHNnYkNTZ2dNYVNKbF9uYjQtSVRrYVBhM3JVY0ZGQnlwWWwwYVFFcFdKT0hUVGsyZ2dDQlhEMzUwRmx5RVB1ZUsySGVjS1hERVJ3RmZoRFFLMTVUV1JIbFNDbU5DeVQ3djg5WjFMZlNJQnRWdEJ5cHk2WjVPaHBvbmp2SmRWNHpocGw0a3RqQ0EtemJzUHotU3pwM1VvWHNkU3VtMGNtTzJPM1Vn0gH6AUFVX3lxTFBmejRGaGYtcmg5WkJaNzJ2Nkw2OURMenViZ0hqa3RlYURoNEUzVXJadjFQT3EyLUZnQXhOdzhBcDhEc1dFVF9wQ3AxajFYdng5eUxIbEY0c2diQ1NnZ01hU0psX25iNC1JVGthUGEzclVjRkZCeXBZbDBhUUVwV0pPSFRUazJnZ0NCWEQzNTBGbHlFUHVlSzJIZWNLWERFUndGZmhEUUsxNVRXUkhsU0NtTkN5VDd2ODlaMUxmU0lCdFZ0QnlweTZaNU9ocG9uanZKZFY0emhwbDRrdGpDQS16YnNQei1TenAzVW9Yc2RTdW0wY21PMk8zVWc?oc=5",
+        "source": "ABP Ananda",
+        "publisherUrl": "",
+        "publishedAt": "Thu, 19 Nov 2026 11:57:39 GMT",
+        "summary": "Bangladesh News : সাংসদের বাড়ি-থানায় আগুন, হিংসায় ২ BNP নেতার প্রাণহানির পরও অগ্নিগর্ভ বাংলাদেশ &nbsp;&nbsp; ABP Ananda",
+        "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/11/19/2ced46296e9ff21e7db2351e69f1d00c1795090169057170_original.jpg",
+        "articleUrl": "https://bengali.abplive.com/news/bangladesh-beefed-up-security-and-deployed-nearly-3-000-paramilitary-troops-across-seven-districts-amid-sporadic-violence-1199777/amp",
         "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/bangladesh.svg"
       },
@@ -692,138 +824,6 @@
         "imageFallback": "news-fallbacks/bangladesh.svg"
       }
     ],
-    "international": [
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6LVhpZ0d3NkNDNU9rVkp3LXBPaTVYTnZYdVF3RVRaclZ0SW10dXdGelZoMlFDUnU5aG1WVFMyLUZ4MGFBc0ZnSDVIWkxHLS0wTy1YU2NQLXJOLWZEajZseXJ5dw?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6LVhpZ0d3NkNDNU9rVkp3LXBPaTVYTnZYdVF3RVRaclZ0SW10dXdGelZoMlFDUnU5aG1WVFMyLUZ4MGFBc0ZnSDVIWkxHLS0wTy1YU2NQLXJOLWZEajZseXJ5dw?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 20 Nov 2026 16:05:58 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ২০ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1181799",
-        "imageAttemptedAt": "2026-11-20T18:52:43.520Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zT2ZEVjJrNm0wU1NlRTVkWlZDeWg4Q2pRbE4zWkp4TU5WcmFfSVdHTHBUSEdjRlA5azlfMkF4ZGY3SHo3Z3V1N1pYTHpsMVFoRTBDSi14ZEVuTFE?oc=5",
-        "title": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ১৯ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zT2ZEVjJrNm0wU1NlRTVkWlZDeWg4Q2pRbE4zWkp4TU5WcmFfSVdHTHBUSEdjRlA5azlfMkF4ZGY3SHo3Z3V1N1pYTHpsMVFoRTBDSi14ZEVuTFE?oc=5",
-        "source": "Somoy News",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 19 Nov 2026 10:18:45 GMT",
-        "summary": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ১৯ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://somoynews.com.bd/video/latest-video/460",
-        "imageAttemptedAt": "2026-11-20T10:41:54.696Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UREVfX28tYXZ3bWtjQ1I5clM3OU55eVVUb3hvRGwxY29WN01LZk5SZkVIcjVlZUl6dW9BLTlYRXpka3U0QmhlODR2eVBTNVhnenc?oc=5",
-        "title": "রোহিঙ্গা ইস্যু: আইসিজের রায়ের পর পররাষ্ট্র প্রতিমন্ত্রীর প্রতিক্রিয়া",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UREVfX28tYXZ3bWtjQ1I5clM3OU55eVVUb3hvRGwxY29WN01LZk5SZkVIcjVlZUl6dW9BLTlYRXpka3U0QmhlODR2eVBTNVhnenc?oc=5",
-        "source": "CNI | CREATIVE NEWS INTERNATIONAL",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 19 Nov 2026 15:22:22 GMT",
-        "summary": "রোহিঙ্গা ইস্যু: আইসিজের রায়ের পর পররাষ্ট্র প্রতিমন্ত্রীর প্রতিক্রিয়া &nbsp;&nbsp; CNI | CREATIVE NEWS INTERNATIONAL",
-        "image": "https://cniasia.news/admin/assets/images/background/login-register.jpg",
-        "articleUrl": "https://cniasia.news/post-details/203593",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVy1HSThTLU5ySnBEQnA2VUdtU1h5UF9GZkVQSHNjb2l4cm9DTGROdVFNMmgxR1RsNFQ4dUdNcUVIcFVVdXZFRk5jbEppTldaenRXOTU3OVJ5Z1FodjNBV0tISW95NFI5VTY2OFljdkVIV25TLWFGLWpkZzNITk5XZUpSZTFIakVISEFBY0hmdTFrYXJFNzV2c3BuTURBNG1xV2ZOSGxxQXFpdndZUnctS1FtVXhlUXREWEJLTkZydlNKQ243eGV5VGlIS1dLZGFCTVNpUHNMNUtwSHFzMXBERjgydkplNG81dmZTaVZUd0dRemlZUGtiX2pwc9IBgAJBVV95cUxNWld1blk3ZkU5MVZKUGtaRTItMTRyNnhJWlBfODNFZzR1NHZPU0wtb1Qxak1uRm52MkQzcFRvY3ZleVo5LVJUV05ERUYxYWhRZmFpMzhCb19nTk0zMnpwNTlxMnNkTDhuRjhCMEhQcnh3SlJ6NXU4cVE5ZXpJdElZTm5hMEFSUlNtMHdFVjNnM2JZcXhhcW1ZRGg0RGMtNTlFbkhZT0wyVzcxTnQ3ejV1NjNvUnlVYmcwS2l2WmNhTEZmdS1CeU54SGxaaElPZDNVNHNPZWFqWVB0SGkzSmlwM25wUXFUcmxCNFlwRzJGRERCOVhsRlZmeHFQSjM4YjNN?oc=5",
-        "title": "India-Japan Ties: ভারত-জাপান সম্পর্ক একটি বহুমুখী এশিয়া ও বিশ্ব গড়ে তুলবে, টোকিওতে বললেন জয়শঙ্কর",
-        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVy1HSThTLU5ySnBEQnA2VUdtU1h5UF9GZkVQSHNjb2l4cm9DTGROdVFNMmgxR1RsNFQ4dUdNcUVIcFVVdXZFRk5jbEppTldaenRXOTU3OVJ5Z1FodjNBV0tISW95NFI5VTY2OFljdkVIV25TLWFGLWpkZzNITk5XZUpSZTFIakVISEFBY0hmdTFrYXJFNzV2c3BuTURBNG1xV2ZOSGxxQXFpdndZUnctS1FtVXhlUXREWEJLTkZydlNKQ243eGV5VGlIS1dLZGFCTVNpUHNMNUtwSHFzMXBERjgydkplNG81dmZTaVZUd0dRemlZUGtiX2pwc9IBgAJBVV95cUxNWld1blk3ZkU5MVZKUGtaRTItMTRyNnhJWlBfODNFZzR1NHZPU0wtb1Qxak1uRm52MkQzcFRvY3ZleVo5LVJUV05ERUYxYWhRZmFpMzhCb19nTk0zMnpwNTlxMnNkTDhuRjhCMEhQcnh3SlJ6NXU4cVE5ZXpJdElZTm5hMEFSUlNtMHdFVjNnM2JZcXhhcW1ZRGg0RGMtNTlFbkhZT0wyVzcxTnQ3ejV1NjNvUnlVYmcwS2l2WmNhTEZmdS1CeU54SGxaaElPZDNVNHNPZWFqWVB0SGkzSmlwM25wUXFUcmxCNFlwRzJGRERCOVhsRlZmeHFQSjM4YjNN?oc=5",
-        "source": "Asianet News Bangla",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 19 Nov 2026 11:22:17 GMT",
-        "summary": "India-Japan Ties: ভারত-জাপান সম্পর্ক একটি বহুমুখী এশিয়া ও বিশ্ব গড়ে তুলবে, টোকিওতে বললেন জয়শঙ্কর &nbsp;&nbsp; Asianet News Bangla",
-        "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-ani20261119075437,imgname-image-574cdba9-8876-4520-a2bc-343a3db9b2fe.jpg",
-        "articleUrl": "https://bangla.asianetnews.com/international/world-news/india-japan-cooperation-seeks-to-support-a-multipolar-asia-multipolar-world-jaishankar-bpsb/articleshow-txh0g8g",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOVVpqWUgtQmNPVGc3M2pMb0R2bThjZGxuNUdLeXJGSHV6U2RSbkx0Y1NfSjFDQUs4U0VmemF2cGs2WGdvVmpxWllOU1d6WUhCSW5pcmVpWTRtcEVUMUpRbC1obGh5ZUlJQ2docllrdmpWci04LTRUa3NNMU51Z0IzMzFOUktSSTBBcnVyRnF2djJYLUh3d0dIUE80UXZkcHRTUEw0SjJieGFPTmlUMXdNNXY1bG5nTFJjZzI4QjUzQlhwdGtadXhSUFk5c3NZYjB6c2JSQmd5NFp1SFlKVjlZR1RnS3FOek40NWlxQWNfXzJMSXdJUDREX3NIVC1KVVowVDhKVGdQY0NRT3VZX2dJMGdlOUs2aXhZYTNUSWIweEE5akt5cFl4X1VxSGVjQVFZdzYzSldjb1oxcHVuR3pHOWFFQ003ekN1VHExdWtFbw?oc=5",
-        "title": "আন্তর্জাতিক সব খবর l Deepto TV World News l 5 November 2026 l International News Bulletin",
-        "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOVVpqWUgtQmNPVGc3M2pMb0R2bThjZGxuNUdLeXJGSHV6U2RSbkx0Y1NfSjFDQUs4U0VmemF2cGs2WGdvVmpxWllOU1d6WUhCSW5pcmVpWTRtcEVUMUpRbC1obGh5ZUlJQ2docllrdmpWci04LTRUa3NNMU51Z0IzMzFOUktSSTBBcnVyRnF2djJYLUh3d0dIUE80UXZkcHRTUEw0SjJieGFPTmlUMXdNNXY1bG5nTFJjZzI4QjUzQlhwdGtadXhSUFk5c3NZYjB6c2JSQmd5NFp1SFlKVjlZR1RnS3FOek40NWlxQWNfXzJMSXdJUDREX3NIVC1KVVowVDhKVGdQY0NRT3VZX2dJMGdlOUs2aXhZYTNUSWIweEE5akt5cFl4X1VxSGVjQVFZdzYzSldjb1oxcHVuR3pHOWFFQ003ekN1VHExdWtFbw?oc=5",
-        "source": "দীপ্ত নিউজ",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 05 Nov 2026 13:03:28 GMT",
-        "summary": "আন্তর্জাতিক সব খবর l Deepto TV World News l 5 November 2026 l International News Bulletin &nbsp;&nbsp; দীপ্ত নিউজ",
-        "image": "https://vf73y28mr2.gpcdn.net/deepto-news/2022/10/deepto-og-image.jpeg",
-        "articleUrl": "https://deeptonews.com/video/%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%B8%E0%A6%AC-%E0%A6%96%E0%A6%AC%E0%A6%B0-l-deepto-tv-world-news-l-5-november-2026-l-internatio/",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1tWjFEemVjWm9UM1dGVVRBdHQ3ZVFoU2hVekJXaE1nY0djX0x2Qmh1TjBGRUpTNGNlM0ZrQm14Mm5ST1FhbnhFS2xzSU5fTlM0WEQ5czZ5TzgzQnBwTUR0UFJDWQ?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৮ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1tWjFEemVjWm9UM1dGVVRBdHQ3ZVFoU2hVekJXaE1nY0djX0x2Qmh1TjBGRUpTNGNlM0ZrQm14Mm5ST1FhbnhFS2xzSU5fTlM0WEQ5czZ5TzgzQnBwTUR0UFJDWQ?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 18 Nov 2026 16:02:29 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৮ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1181134",
-        "imageAttemptedAt": "2026-11-20T20:44:25.150Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CN2NWQVdpNkctZG9DRGhPU2ZVdkM1aV9uNUZXU1RpZzZtNmxqRGhZMFMya3RmN2xneG12WEthMGtnYUFrUUZkRHgzU2dQcGtFM3l3N2psRkYxQ1U?oc=5",
-        "title": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ১৮ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CN2NWQVdpNkctZG9DRGhPU2ZVdkM1aV9uNUZXU1RpZzZtNmxqRGhZMFMya3RmN2xneG12WEthMGtnYUFrUUZkRHgzU2dQcGtFM3l3N2psRkYxQ1U?oc=5",
-        "source": "Somoy News",
-        "publisherUrl": "",
-        "publishedAt": "Wed, 18 Nov 2026 10:18:45 GMT",
-        "summary": "আন্তর্জাতিক সংবাদ | সকাল ৯টা | ১৮ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://somoynews.com.bd/video/latest-video/454",
-        "imageAttemptedAt": "2026-11-20T10:41:54.696Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wSHYwQk9UeEE4M1k4OXlzU2dObzBXZ1N0OU5FZUxLUDd4Y1lZLXFEYzFGbUttU05teUhDQmFPQXhlaTA4eXdHWGtvWEZkemt0cFE?oc=5",
-        "title": "কাদের মোল্লার ফাঁসি নিয়ে প্রধান বিচারপতির মন্তব্যের খবর ভিত্তিহীন: চিফ প্রসিকিউটর",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wSHYwQk9UeEE4M1k4OXlzU2dObzBXZ1N0OU5FZUxLUDd4Y1lZLXFEYzFGbUttU05teUhDQmFPQXhlaTA4eXdHWGtvWEZkemt0cFE?oc=5",
-        "source": "CNI | CREATIVE NEWS INTERNATIONAL",
-        "publisherUrl": "",
-        "publishedAt": "Thu, 19 Nov 2026 14:11:18 GMT",
-        "summary": "কাদের মোল্লার ফাঁসি নিয়ে প্রধান বিচারপতির মন্তব্যের খবর ভিত্তিহীন: চিফ প্রসিকিউটর &nbsp;&nbsp; CNI | CREATIVE NEWS INTERNATIONAL",
-        "image": "https://cniasia.news/admin/assets/images/background/login-register.jpg",
-        "articleUrl": "https://cniasia.news/post-details/203584",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYS2JqUnJIVEY4MU5JLTFoLVh3Zl9lcGtuMzcxb2VrTmNKbGZLOGdvcC13cGw2M2x3Z2ZNUkkwVzNObnFyQVNYUUxPVC1JX3hoZXpNY0UxTXR3MWQz?oc=5",
-        "title": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৬ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYS2JqUnJIVEY4MU5JLTFoLVh3Zl9lcGtuMzcxb2VrTmNKbGZLOGdvcC13cGw2M2x3Z2ZNUkkwVzNObnFyQVNYUUxPVC1JX3hoZXpNY0UxTXR3MWQz?oc=5",
-        "source": "Somoy News",
-        "publisherUrl": "",
-        "publishedAt": "Mon, 16 Nov 2026 18:10:04 GMT",
-        "summary": "আন্তর্জাতিক সংবাদ | বিকাল ৪টা | ১৬ নভেম্বর ২০২৬ &nbsp;&nbsp; Somoy News",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://somoynews.com.bd/video/video-gallery/438",
-        "imageAttemptedAt": "2026-11-20T10:41:54.696Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qSHZ2Q1dGZWRPWTB0Sngzb1hKTm50OFlvLXNQQ2RMSGdaN21Jb3hyY0VMcThSTENJcjVwa0hpUFhzS2d6WS1mVDJnbnRSN3c3NU11N2E5ZzBJWERMejVlMDdiTQ?oc=5",
-        "title": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৭ নভেম্বর ২০২৬",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qSHZ2Q1dGZWRPWTB0Sngzb1hKTm50OFlvLXNQQ2RMSGdaN21Jb3hyY0VMcThSTENJcjVwa0hpUFhzS2d6WS1mVDJnbnRSN3c3NU11N2E5ZzBJWERMejVlMDdiTQ?oc=5",
-        "source": "Jagonews24",
-        "publisherUrl": "",
-        "publishedAt": "Tue, 17 Nov 2026 15:56:51 GMT",
-        "summary": "সংক্ষিপ্ত বিশ্ব সংবাদ: ১৭ নভেম্বর ২০২৬ &nbsp;&nbsp; Jagonews24",
-        "image": "news-fallbacks/world.svg",
-        "articleUrl": "https://www.jagonews24.com/international/news/1180689",
-        "imageAttemptedAt": "2026-11-20T20:44:25.150Z",
-        "imageFallback": "news-fallbacks/world.svg"
-      }
-    ],
     "food": [
       {
         "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15QXlQbnFRRDFJYUpydi1pQWI1RG44YkhVMXdIVTFYLUdvSWwtamdJbFlxbmZqZGdDNHVOX1FjM0lnQnlwbWtCYlpZcUVscjRoRGRRSkxYTQ?oc=5",
@@ -878,6 +878,19 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
+        "id": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RTS1lb3I4OUJtYldIZ1hwdV9laHZIektvMkhFRGpaTUREOW5qeFoyTEdYazRxeV9vbXZCenNyZC1GdnhwRU9fQ1FOSWNWYmVxUS1MYndid1VMS3BBM1RVUWVZbHdHWW8wMnphQ3JDaVphV1VP?oc=5",
+        "title": "গোপালগঞ্জ জেলা কারাগারে আনসার সদস্যদের খাবার সরবরাহ নিয়ে বিভ্রান্তিকর প্রচারণার প্রকৃত ঘটনা",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RTS1lb3I4OUJtYldIZ1hwdV9laHZIektvMkhFRGpaTUREOW5qeFoyTEdYazRxeV9vbXZCenNyZC1GdnhwRU9fQ1FOSWNWYmVxUS1MYndid1VMS3BBM1RVUWVZbHdHWW8wMnphQ3JDaVphV1VP?oc=5",
+        "source": "The Bangladesh Today",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 20 Nov 2026 13:31:17 GMT",
+        "summary": "গোপালগঞ্জ জেলা কারাগারে আনসার সদস্যদের খাবার সরবরাহ নিয়ে বিভ্রান্তিকর প্রচারণার প্রকৃত ঘটনা &nbsp;&nbsp; The Bangladesh Today",
+        "image": "https://thebangladeshtoday.com/bangla/wp-content/uploads/2026/11/ansar-2.jpg",
+        "articleUrl": "https://thebangladeshtoday.com/bangla/bangladesh/2026/11/20/173508",
+        "imageAttemptedAt": "",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
         "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB6WHFTbHRleTZ2TzU0UjZLTE9ueVZCcFg1ajlGaHh4ZWl0bDl5b0x0UmRpUVo5RW1NYXpmUlpfRDh6OWxTLTdnRVc2VW5mSjhx?oc=5",
         "title": "ফল এখন বিলাসী খাবার",
         "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB6WHFTbHRleTZ2TzU0UjZLTE9ueVZCcFg1ajlGaHh4ZWl0bDl5b0x0UmRpUVo5RW1NYXpmUlpfRDh6OWxTLTdnRVc2VW5mSjhx?oc=5",
@@ -888,6 +901,19 @@
         "image": "news-fallbacks/food.svg",
         "articleUrl": "https://www.shomoyeralo.com/news/396850",
         "imageAttemptedAt": "2026-11-20T19:54:46.575Z",
+        "imageFallback": "news-fallbacks/food.svg"
+      },
+      {
+        "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xSEoxR2xvdVdkUDA5ZFk0RjZIQTIweEpISlI5bU5jdnJoT29EVFF1SW1qTEtXZjNzNnVnMmJla2Y2clo5NnFGSzFtUGpRV25OSnFGM0RYRWR2MEFicGZRdkR2Ny1kVnM?oc=5",
+        "title": "গোপালগঞ্জে আনসারদের খাবার ছিনিয়ে নিয়ে ছাত্রলীগের নামে প্রচার",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xSEoxR2xvdVdkUDA5ZFk0RjZIQTIweEpISlI5bU5jdnJoT29EVFF1SW1qTEtXZjNzNnVnMmJla2Y2clo5NnFGSzFtUGpRV25OSnFGM0RYRWR2MEFicGZRdkR2Ny1kVnM?oc=5",
+        "source": "বাংলাদেশের আলো",
+        "publisherUrl": "",
+        "publishedAt": "Fri, 20 Nov 2026 15:25:44 GMT",
+        "summary": "গোপালগঞ্জে আনসারদের খাবার ছিনিয়ে নিয়ে ছাত্রলীগের নামে প্রচার &nbsp;&nbsp; বাংলাদেশের আলো",
+        "image": "https://dailybangladesheralo.com/og-image/hyathq6pdq",
+        "articleUrl": "https://dailybangladesheralo.com/news/section/hyathq6pdq",
+        "imageAttemptedAt": "",
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
@@ -904,19 +930,6 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9DdmRNNE8ySExZS09SZkFHbm5qemxYQlU2U3VHQXhwRnVBc3MzSEtLSDI0TFF6ZVI3d0RDa0VscGk5RS1BTzJXb3V5eHk5QUlYSk1iaA?oc=5",
-        "title": "তারেক রহমানের জন্মদিনে টাঙ্গাইলে এক হাজার এতিম শিক্ষার্থীকে খাবার খাওয়ালেন প্রতিমন্ত্রী টুকু",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9DdmRNNE8ySExZS09SZkFHbm5qemxYQlU2U3VHQXhwRnVBc3MzSEtLSDI0TFF6ZVI3d0RDa0VscGk5RS1BTzJXb3V5eHk5QUlYSk1iaA?oc=5",
-        "source": "Daily Vorer Pata",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 20 Nov 2026 14:20:00 GMT",
-        "summary": "তারেক রহমানের জন্মদিনে টাঙ্গাইলে এক হাজার এতিম শিক্ষার্থীকে খাবার খাওয়ালেন প্রতিমন্ত্রী টুকু &nbsp;&nbsp; Daily Vorer Pata",
-        "image": "news-fallbacks/food.svg",
-        "articleUrl": "https://www.dailyvorerpata.com/news/121325",
-        "imageAttemptedAt": "2026-11-20T14:54:26.106Z",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
         "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mTzJDbldVejVaa0ExOHFJekpDN2hNUFRJVExLSko2QTZqOUVZcFRKdHNMRGtPb3VYYlhEOTdUdWlZWFF1RXhIRk05bktDQXdKbVpkTmVVTEYzbm1nRGfSAWNBVV95cUxPVFB2enBxZHBuSWdva2FHUm5YeWVIX0dtUGtoNk4yWXJxWnFudjc0LWxnanRrdGV3d2l3RXlQZjNfZEt1WVJEa0JxTTRreGhVN1lGN3FreXNrdmhXZ2RPVFRybG8?oc=5",
         "title": "খাবারে ভেজালের কারবার, বড় ঝুঁকিতে জনস্বাস্থ্য",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mTzJDbldVejVaa0ExOHFJekpDN2hNUFRJVExLSko2QTZqOUVZcFRKdHNMRGtPb3VYYlhEOTdUdWlZWFF1RXhIRk05bktDQXdKbVpkTmVVTEYzbm1nRGfSAWNBVV95cUxPVFB2enBxZHBuSWdva2FHUm5YeWVIX0dtUGtoNk4yWXJxWnFudjc0LWxnanRrdGV3d2l3RXlQZjNfZEt1WVJEa0JxTTRreGhVN1lGN3FreXNrdmhXZ2RPVFRybG8?oc=5",
@@ -930,29 +943,16 @@
         "imageFallback": "news-fallbacks/food.svg"
       },
       {
-        "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwSUtWQ3lxbW9jLXU5TEsyOXdUN0RGNV9GYU1kX092QnRxd3dHMUhTZGpQZlZRWXkxTHNjQ19LcU50UTdzSzQ4WWNiU3dnQXpiM1VkNGlqalQ?oc=5",
-        "title": "বিজিবিকে খাবার পানি সরবরাহ নিয়ে রাজনৈতিক অপপ্রচারের ব্যাখ্যা দিল বাহিনীটি",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwSUtWQ3lxbW9jLXU5TEsyOXdUN0RGNV9GYU1kX092QnRxd3dHMUhTZGpQZlZRWXkxTHNjQ19LcU50UTdzSzQ4WWNiU3dnQXpiM1VkNGlqalQ?oc=5",
-        "source": "thenews24.com",
+        "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9DdmRNNE8ySExZS09SZkFHbm5qemxYQlU2U3VHQXhwRnVBc3MzSEtLSDI0TFF6ZVI3d0RDa0VscGk5RS1BTzJXb3V5eHk5QUlYSk1iaA?oc=5",
+        "title": "তারেক রহমানের জন্মদিনে টাঙ্গাইলে এক হাজার এতিম শিক্ষার্থীকে খাবার খাওয়ালেন প্রতিমন্ত্রী টুকু",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9DdmRNNE8ySExZS09SZkFHbm5qemxYQlU2U3VHQXhwRnVBc3MzSEtLSDI0TFF6ZVI3d0RDa0VscGk5RS1BTzJXb3V5eHk5QUlYSk1iaA?oc=5",
+        "source": "Daily Vorer Pata",
         "publisherUrl": "",
-        "publishedAt": "Fri, 20 Nov 2026 17:02:06 GMT",
-        "summary": "বিজিবিকে খাবার পানি সরবরাহ নিয়ে রাজনৈতিক অপপ্রচারের ব্যাখ্যা দিল বাহিনীটি &nbsp;&nbsp; thenews24.com",
-        "image": "https://sgp1.digitaloceanspaces.com/tn24.s3/media/imgAll/2026November/image-2026-11-20t230153222-1795194126.jpg",
-        "articleUrl": "https://www.thenews24.com/national/news/95157",
-        "imageAttemptedAt": "",
-        "imageFallback": "news-fallbacks/food.svg"
-      },
-      {
-        "id": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1RblZuamYzOTBxMXJFVHVlWDEzSzNWNWptUFl4dVhYU1ozN0I2elVLNmFuLXNuc0o3eWR4NHZERHVZY19vSjJsX0Fn?oc=5",
-        "title": "প্রধানমন্ত্রীর জন্মদিনে ১ হাজার মাদ্রাসা শিক্ষার্থীর জন্য খাবারের আয়োজন করলেন প্রাণিসম্পদ প্রতিমন্ত্রী",
-        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1RblZuamYzOTBxMXJFVHVlWDEzSzNWNWptUFl4dVhYU1ozN0I2elVLNmFuLXNuc0o3eWR4NHZERHVZY19vSjJsX0Fn?oc=5",
-        "source": "dbcnews.tv",
-        "publisherUrl": "",
-        "publishedAt": "Fri, 20 Nov 2026 14:06:31 GMT",
-        "summary": "প্রধানমন্ত্রীর জন্মদিনে ১ হাজার মাদ্রাসা শিক্ষার্থীর জন্য খাবারের আয়োজন করলেন প্রাণিসম্পদ প্রতিমন্ত্রী &nbsp;&nbsp; dbcnews.tv",
-        "image": "https://assets.dbcnews.tv/173022/IMG-20261120-WA0018.webp",
-        "articleUrl": "https://dbcnews.tv/articles/181766",
-        "imageAttemptedAt": "",
+        "publishedAt": "Fri, 20 Nov 2026 14:20:00 GMT",
+        "summary": "তারেক রহমানের জন্মদিনে টাঙ্গাইলে এক হাজার এতিম শিক্ষার্থীকে খাবার খাওয়ালেন প্রতিমন্ত্রী টুকু &nbsp;&nbsp; Daily Vorer Pata",
+        "image": "news-fallbacks/food.svg",
+        "articleUrl": "https://www.dailyvorerpata.com/news/121325",
+        "imageAttemptedAt": "2026-11-20T14:54:26.106Z",
         "imageFallback": "news-fallbacks/food.svg"
       }
     ]
